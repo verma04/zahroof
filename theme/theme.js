@@ -87,6 +87,7 @@ button {
   font-family: FSAlbert;
   color: #2f3435; 
   word-spacing:0.2rem;
+  line-height: 1.2;
   }
   h3 {
     font-size: 1.2rem;
@@ -107,6 +108,7 @@ button {
     line-height: var(--line-height-md);
     color: #2f3435; 
     word-spacing:0.2rem;
+    line-height: 1.2;
   }
   h5 {
     font-size: 0.75;

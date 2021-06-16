@@ -38,7 +38,7 @@ align-items: center;
    .section_top_left {
     width:50%;
     height: 100%;
-background-color: yellow;
+background-color: #dbb43f;
 position: relative;
 display: flex;
 justify-content: center;
@@ -57,7 +57,7 @@ h2 {
     height: 0;
     border-left: 2rem solid transparent;
     border-right: 2rem solid transparent;
-    border-top: 1.3rem solid yellow;
+    border-top: 1.3rem solid #dbb43f;
     z-index: 1;
 }   
 
@@ -66,7 +66,7 @@ h2 {
    .section_top_right {
     width:50%;
     height: 100%;
-background-color: yellow;
+background-color: #dbb43f;
 position: relative;
 display: flex;
 justify-content: center;
@@ -79,7 +79,7 @@ align-items: center;
     height: 0;
     border-left: 2rem solid transparent;
     border-right: 2rem solid transparent;
-    border-top: 1.3rem solid yellow;
+    border-top: 1.3rem solid #dbb43f;
     z-index: 1;
 } 
 h2 {
