@@ -599,7 +599,7 @@ background-color:white;
             position: absolute;
             width: 100%;
             height: 100%;
-            background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821879/dednath1fgmklvkhodf7.png"); 
+            background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1623838132/g0uu4qlatbvnmzr405zi.png"); 
 
   background-position: center; 
   background-repeat: no-repeat; 
