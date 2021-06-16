@@ -32,7 +32,8 @@ align-items: center;
 
    height: 7rem;
    h2 {
-       color:white
+       color:white;
+       text-transform: uppercase;
    }
    
    .section_top_left {
@@ -48,6 +49,7 @@ h2 {
        color:white;
        font-size:1.5rem;
        text-align:right;
+       text-transform: uppercase;
    }
 .tringle {
     position: absolute;

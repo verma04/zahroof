@@ -28,7 +28,7 @@ export const Section = styled.section`
 
 .section4_top {
   position: relative;
-  height: 35rem;
+  height: 40rem;
   width: 100%;
 
  
@@ -178,7 +178,7 @@ margin-bottom: 3rem;;
       text-align: left;
       width: 50%;
       button {
-        font-size:1.3rem;
+        font-size:1rem;
         padding: 0.5rem;;
         text-transform: uppercase;
         background-color: #398baa;
