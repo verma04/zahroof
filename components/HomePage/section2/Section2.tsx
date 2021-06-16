@@ -33,23 +33,31 @@ bottom line.
                        <div  className="section2_data_right">
        
  <div className="logo" >
-     <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826616/ogbrcspxakpbenzt7pwo.png" />
+ <div className="img-wrapper">
+ <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826616/ogbrcspxakpbenzt7pwo.png'} alt="Picture of the author" />
+</div>
  <h4>INCREASE PRODUCTION
 & THROUGHPUT </h4>
  </div>
 
  <div className="logo" >
- <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826616/rn5iqp4vg0srfc4wzwoa.png" />
+ <div className="img-wrapper">
+ <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826616/rn5iqp4vg0srfc4wzwoa.png'} alt="Picture of the author" />
+ </div>
  <h4>DRAMATICALLY
 IMPROVE RELIABILITY</h4>
  </div>
  <div className="logo" >
- <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826610/jit3fbn5ttpilfqqgiyd.png" />
+ <div className="img-wrapper">
+ <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826610/jit3fbn5ttpilfqqgiyd.png'} alt="Picture of the author" />
+ </div>
  <h4>IMPROVE SAFETY</h4>
  </div>
  <div className="logo" >
- <img src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826610/n1hlr8eju6xnfmv7fack.png" />
- <h4>          ACHIEVE ECO-EFFICIENCY </h4>
+     <div className="img-wrapper">
+ <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826610/n1hlr8eju6xnfmv7fack.png'} alt="Picture of the author" />
+</div>
+<h4>Achieve ECo-Efficiency</h4>
  </div>
 </div>
 
