@@ -165,7 +165,7 @@ code {
     }
   button {
 border-radius:5px;
-font-family:  FS_Bold ;
+font-family: Proxima;
 transition: transform .8s;
 
   }

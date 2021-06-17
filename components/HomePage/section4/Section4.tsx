@@ -11,7 +11,7 @@ import  Navbar from '../../layout/navbar/navbar'
            
            <div className="section4" >
                <div className="section4_top" >
-           <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623832905/gmrxpfyt5yburmqv4tva.png'} alt="Picture of the author" />
+           <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623924436/vzqi7cgwmtxtokuy5ms5.png'} alt="Picture of the author" />
   
   
    <div className="section4_top_data" >
@@ -121,7 +121,7 @@ performance of all others in the industry.</p>
 
 
 
-           <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623833583/kfpghb2mcrrrbnao9j21.png'} alt="Picture of the author" />
+           <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623924444/upvofqzmdtgo65wpecfm.png'} alt="Picture of the author" />
           
            <div className="section4_bottom_data" >
            <div className="section4_mid_left"  >

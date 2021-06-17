@@ -35,7 +35,7 @@ export const Section = styled.section`
 margin-bottom: 3rem;;
 .section4_top_data {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:  flex-start;
   align-items: center;
   position: absolute;
   width: 100%;
@@ -45,13 +45,18 @@ margin-bottom: 3rem;;
     font-size: 1.7rem;;
     text-transform: uppercase;
     color: white;
+    margin-top: 1.5rem;;
+    margin-bottom: 1rem;;
   }
   .section4_top_data_logos {
+  
+    margin-top: 6rem;
+
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 55%;
+  height: 50%;
   position: relative;
 
 
@@ -80,22 +85,23 @@ margin-bottom: 3rem;;
  #gasses {
   position: absolute;
 
-top: 20%;
+  top: 11%;
+
 width: 10%;
 height: 10%;
  }
  #Lng {
   position: absolute;
   position: absolute;
-    top: 75%;
+    top: 68%;
     left: 35%;
     height: 10%;
 height: 10%;
  }
  #industry {
   position: absolute;
-  top: 34%;
-    left: 32%;
+  top: 31%;
+    left: 31%;
 
 width: 10%;
 height: 10%;
@@ -103,7 +109,7 @@ height: 10%;
  #Refineries {
   position: absolute;
 
-  top: 56%;
+  top: 50%;
   left: 29%;
 width: 10%;
 height: 10%;
@@ -111,17 +117,16 @@ height: 10%;
  #Cng {
   position: absolute;
 
-
-  top: 34%;
-
+  top: 31%;
     left: 57%;
+
 width: 10%;
 height: 10%;
  }
  #Oil {
   position: absolute;
  
-  top: 55%;
+  top: 50%;
     left: 60%;
 
 width: 10%;
@@ -129,21 +134,21 @@ height: 10%;
  }
  #hydrogen {
   position: absolute;
-  top: 74%;
+  top: 65%;
     left: 58%;
 width: 10%;
 height: 10%;
  }
  #chemical {
   position: absolute;
-  top: 88%;
+  top: 76%;
     left: 51%;
 width: 10%;
 height: 10%;
  }
  #offshore {
   position: absolute;
-  top: 89%;
+  top: 76%;
     left: 42%;
 
 width: 10%;
@@ -219,13 +224,14 @@ align-items: center;
 
 .section4_bottom {
   position: relative;
-  height: 35rem;
+  height: 45rem;
   width: 100%;
   z-index: 1;
  
 margin-bottom: 3rem;;
 
 .section4_bottom_data {
+  margin-top: 5rem;;
   display: flex;
   justify-content: center;
   align-items: center;

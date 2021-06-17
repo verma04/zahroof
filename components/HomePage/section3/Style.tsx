@@ -49,6 +49,10 @@ right: 0%;;
   flex-direction: column;
   a {
     margin-top: 2rem;
+    color:black;
+    font-size: 1.3rem;
+    font-weight: 900;
+    border-bottom: 3px solid black;
   }
 }
 
