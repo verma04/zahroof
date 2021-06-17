@@ -34,6 +34,7 @@ export const Foot = styled.footer`
     color:#b2b2b3;
     width: 20%;
     text-transform: uppercase;
+    text-align: left;
     
   }
   form {
