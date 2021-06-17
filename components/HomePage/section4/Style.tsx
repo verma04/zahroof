@@ -28,7 +28,7 @@ export const Section = styled.section`
 
 .section4_top {
   position: relative;
-  height: 40rem;
+  height: 45rem;
   width: 100%;
 
  
@@ -51,10 +51,104 @@ margin-bottom: 3rem;;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 55%;
   position: relative;
- 
+
+
 }
+
+.icon {
+   
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    .img-wrapper {
+      position: relative;
+      height: 3rem;;
+      width: 5rem;;
+    }
+    span {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 0.8rem;
+    color:white
+    }
+
+ }
+ #gasses {
+  position: absolute;
+
+top: 20%;
+width: 10%;
+height: 10%;
+ }
+ #Lng {
+  position: absolute;
+  position: absolute;
+    top: 75%;
+    left: 35%;
+    height: 10%;
+height: 10%;
+ }
+ #industry {
+  position: absolute;
+  top: 34%;
+    left: 32%;
+
+width: 10%;
+height: 10%;
+ }
+ #Refineries {
+  position: absolute;
+
+  top: 56%;
+  left: 29%;
+width: 10%;
+height: 10%;
+ }
+ #Cng {
+  position: absolute;
+
+
+  top: 34%;
+
+    left: 57%;
+width: 10%;
+height: 10%;
+ }
+ #Oil {
+  position: absolute;
+ 
+  top: 55%;
+    left: 60%;
+
+width: 10%;
+height: 10%;
+ }
+ #hydrogen {
+  position: absolute;
+  top: 74%;
+    left: 58%;
+width: 10%;
+height: 10%;
+ }
+ #chemical {
+  position: absolute;
+  top: 88%;
+    left: 51%;
+width: 10%;
+height: 10%;
+ }
+ #offshore {
+  position: absolute;
+  top: 89%;
+    left: 42%;
+
+width: 10%;
+height: 10%;
+ }
 
 }
 

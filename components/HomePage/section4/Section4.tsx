@@ -18,8 +18,78 @@ import  Navbar from '../../layout/navbar/navbar'
        
        <h2>Preformance Across Industries</h2>
        <div className="section4_top_data_logos" >
+       
         <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623837548/h6xa3cdujoxdhomdlyym.png'} alt="Picture of the author" />
             </div>
+            <div className="icon" id="gasses" >
+               <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623905280/oqahwcfpdj4symxaaaki.png'} alt="" />
+              
+                   </div>
+                   <span>Indusdrial gases</span>
+               </div>
+            <div className="icon" id="industry" >
+               <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/istcdd90jzd7w26thtwl.png'} alt="" />
+              
+                   </div>
+                   <span>Naurtal Gas Industry</span>
+               </div>
+
+               <div className="icon" id="Refineries" >
+               <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/ffeauowt4nte4j8cjv6t.png'} alt="" />
+              
+                   </div>
+                   <span>Refineries</span>
+               </div>
+               
+
+               <div className="icon" id="Cng" >
+               <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623907055/usmugehexosnqgjxkpsy.png'} alt="" />
+              
+                   </div>
+                   <span>Cng</span>
+               </div>
+               <div className="icon" id="Oil" >
+               <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/ztqc0qrptre0bxp3vxfz.png'} alt="" />
+              
+                   </div>
+                   <span>Oil</span>
+               </div>
+               <div className="icon" id="hydrogen" >
+               <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903830/bzmo2rxdmbgeibrwzdq4.png'} alt="" />
+              
+                   </div>
+                   <span>Hydrogen</span>
+               </div>
+               <div className="icon" id="Lng" >
+               <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623905280/oqahwcfpdj4symxaaaki.png'} alt="" />
+              
+                   </div>
+                   <span>Lng</span>
+               </div>
+               <div className="icon" id="chemical" >
+               <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/z1pr48ideklcy30kcodh.png'} alt="" />
+              
+                   </div>
+                   <span>chemical</span>
+               </div>
+               <div className="icon" id="offshore" >
+               <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903830/kzwiywblnokhn0vxvdmd.png'} alt="" />
+              
+                   </div>
+                   <span>offshore</span>
+               </div>
+              
+              
+              
         </div>
 
       
