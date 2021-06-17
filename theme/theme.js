@@ -6,11 +6,11 @@ a {
   text-decoration: none; 
  color:#fafafb;
 
-  font-family: FSAlbert;
+  font-family: Proxima;
 } 
 
 div {
-    font-family: FSAlbert;
+    font-family: Proxima;
   
 }
 i {
@@ -19,7 +19,7 @@ i {
 }
   body {
     color: #2f3435; 
-  font-family: FSAlbert;
+  font-family: Proxima;
 
       overflow-x: hidden;
        
@@ -69,22 +69,25 @@ button {
 }
 button {
   cursor: pointer;
-  font-family: FSAlbert;
+  font-family: Proxima;
 }
 
  
   h1 {
     font-size: 1.65rem;
     line-height: var(--line-height-lg);
-  font-family: FSAlbert;
+  font-family: Proxima;
   color: #2f3435; 
   word-spacing:0.2rem;
+  }
+  li {
+   list-style: none;
   }
   h2 {
     font-size: 1.4rem;
     line-height: var(--line-height-lg);
     color: ${props => props.theme.colors.grey};
-  font-family: FSAlbert;
+  font-family: Proxima;
   color: #2f3435; 
   word-spacing:0.2rem;
   line-height: 1.2;
@@ -93,13 +96,13 @@ button {
     font-size: 1.2rem;
     line-height: var(--line-height-lg);
     color: ${props => props.theme.colors.grey};
-    font-family: FSAlbert;
+    font-family: Proxima;
     color: #2f3435; 
     word-spacing:0.2rem;
     /* family=FiesoleTextW00-Italic */
   }
   p {
-    font-family: FSAlbert;
+    font-family: Proxima;
     word-spacing:0.2rem;
     color: ${props => props.theme.colors.grey};
   }
@@ -123,26 +126,26 @@ button {
     word-spacing:0.2rem;
   }
   input {
-    font-family: FSAlbert;
+    font-family: Proxima;
   }
   textarea {
-    font-family: FSAlbert;
+    font-family: Proxima;
   }
   p {
     font-size:1.2rem;
 line-height:1.1;
   
-    font-family: FSAlbert;
+    font-family: Proxima;
     word-spacing:0.2rem;
     color: #2f3435; 
   }
   select {
-  font-family: FSAlbert;
+  font-family: Proxima;
   color: #2f3435; 
   }
   
   .date {
-  font-family: FSAlbert;
+  font-family: Proxima;
   }
   .card {
     border-radius:10px;
@@ -172,7 +175,7 @@ transition: transform .8s;
   
   }
   span {
-  font-family: FSAlbert;
+  font-family: Proxima;
   }
   i {
     color: ${props => props.theme.colors.darkBrown};
@@ -199,10 +202,10 @@ transition: transform .8s;
   a { 
     text-decoration: none; 
     color: ${props => props.theme.colors.darkBrown};
-  font-family: FSAlbert;
+  font-family: Proxima;
 } 
 button {
-  font-family: FSAlbert;
+  font-family: Proxima;
 }
 li {
   cursor: pointer;

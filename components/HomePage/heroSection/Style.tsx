@@ -32,7 +32,7 @@ export const Section = styled.section`
   align-items: center;
   .homePage-data {
       margin-top: 5%;
-      width: 45rem;
+      width: 50%;
     height: 60%;
    
     display: flex;
