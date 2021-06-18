@@ -17,6 +17,9 @@ i {
   color: #0085C5;
   cursor: pointer;
 }
+label {
+  font-family: Proxima;
+}
   body {
     color: #2f3435; 
   font-family: Proxima;
@@ -36,12 +39,15 @@ i {
   border-left-color: #FFBB00;
 }
 }
-
+select {
+  font-family: Proxima;
+}
 button {
   border:none;
   padding:0.2rem;
   background-color: #0085C5;
   color:white;
+  font-family: Proxima;
 }
 /* Track */
  

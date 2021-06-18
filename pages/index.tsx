@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from '../components/HomePage/Home'
 
- const index:React.FC = () => {
+ const Contactus:React.FC = () => {
     return (
         <div>
             <Home/>
@@ -10,4 +10,4 @@ import Home from '../components/HomePage/Home'
 }
 
 
-export default index
+export default Contactus
