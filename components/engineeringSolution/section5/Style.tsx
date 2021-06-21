@@ -25,9 +25,8 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 40rem;;
+height: 25rem;;
 
-position: relative;
 
  
 

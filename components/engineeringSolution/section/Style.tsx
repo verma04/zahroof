@@ -29,7 +29,7 @@ export const Section = styled.section`
   justify-content:center;
 align-items: center;
    width:100%;
-   background-color: #23344e;
+   background-color: #dbb43f;
    height: 7rem;
    h2 {
        color:white;
@@ -47,10 +47,8 @@ align-items: center;
   justify-content:center;
 align-items: center;
    width:100%;
-   height:25rem;
+   height:40rem;
  position: relative;   
-
- background-color: #cea800;
 
  
   }  

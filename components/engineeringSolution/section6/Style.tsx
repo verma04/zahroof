@@ -25,10 +25,19 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 40rem;;
-
-position: relative;
-
+height: 30rem;;
+background-color: yellow;
+.tringle {
+ position: absolute;
+ right: 40%;
+ width: 0;
+ top: -12%;
+ height: 0;
+ border-left: 5rem solid transparent;
+ border-right: 5rem solid transparent;
+ border-bottom:4rem solid yellow;
+ z-index: 1;
+} 
  
 
 

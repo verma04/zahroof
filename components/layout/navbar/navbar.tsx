@@ -3,11 +3,13 @@ import React from 'react'
 import { Nav} from './Style'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 const Navbar: React.FC<{}> = () => {
+  const router = useRouter()
     return (
         <Nav>
         <div  className="navbar" >
-            <div className="navbar_left" >
+            <div onClick={()=> router.push('/')} className="navbar_left" >
             <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png'} alt="Picture of the author" />
             </div>
          
