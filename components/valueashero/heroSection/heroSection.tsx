@@ -23,16 +23,17 @@ import "aos/dist/aos.css";
 
    <div aos-duration="10000" data-aos="zoom-in" className="homePage-data" >
 
-       <ul>
-          <li>Extraordinary </li> 
+       <ul className="text-left">
+          <li>ALL THE DETAILS YOU
+EVER WANTED TO KNOW. </li> 
            
-           <li>Retuns</li>
-          <li>From </li>
+           
           
        </ul>
        <ul className="text-right">
-        <li>Reimagined  </li>  
-         <li>  Engineering</li>  
+        <li>BUCKLE UP.
+WE'RE DIVING DEEP. </li>  
+     
        </ul>
 
 
