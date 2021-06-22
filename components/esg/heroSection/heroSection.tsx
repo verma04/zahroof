@@ -30,7 +30,7 @@ import "aos/dist/aos.css";
           <li> INNOVATIVE </li> 
            
            <li>EFFICIENT</li>
-          <li>& GREEN</li>
+          <li> GREEN</li>
           
        </ul>
     <p>

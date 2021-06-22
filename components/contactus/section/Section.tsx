@@ -27,8 +27,8 @@ A QUOTE</h2>
         Thank you for your interest in Zahroof
 StraightFlo Valves. All inquiries sent via USPS
 mail should be addressed directly to Zahroof
-Valves, Inc. If you'd like a more immediate
-quote, please use the contact form to the right.
+Valves, Inc. If you d like a more immediate
+quote, please use the contact form to the right
         </h3>
         </div>
 
