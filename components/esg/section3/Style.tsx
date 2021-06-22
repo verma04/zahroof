@@ -37,6 +37,27 @@ export const Section = styled.section`
     border-bottom: 5rem solid #3c4e62;
     z-index: 1;
 } 
+
+.section_data {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  h3 {
+    width: 70%;
+    color:white;
+    font-size: 1.5em;
+  }
+   p {
+    width: 70%;
+    color:white;
+    font-size: 1.5em;
+   }
+
+}
    
 
 

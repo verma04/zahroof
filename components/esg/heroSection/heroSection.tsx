@@ -24,16 +24,27 @@ import "aos/dist/aos.css";
    <div aos-duration="10000" data-aos="zoom-in" className="homePage-data" >
 
        <ul>
-          <li>Extraordinary </li> 
+      
+
+
+          <li> INNOVATIVE </li> 
            
-           <li>Retuns</li>
-          <li>From </li>
+           <li>EFFICIENT</li>
+          <li>& GREEN</li>
           
        </ul>
-       <ul className="text-right">
-        <li>Reimagined  </li>  
-         <li>  Engineering</li>  
-       </ul>
+    <p>
+    With each passing year, there's growing
+concern about the environment.
+Legislation has become increasingly
+stringent. At Zahroof, we are committed
+to improving energy efficiency, reducing
+the carbon footprint and protecting the
+planet as we benefit our customers. One of
+our primary goals is to help you to achieve
+as close to net-zero as possible.
+
+    </p>
 
 
    </div>
