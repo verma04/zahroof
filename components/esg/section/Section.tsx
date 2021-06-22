@@ -39,7 +39,7 @@ improves compressor performance and efficiency, making
 the collection, transfer and distribution
 energy
 resources more eco-friendly. By keeping more gas moving
-through your system, there's far less to flare.
+through your system, there s far less to flare.
 
 </p>
 

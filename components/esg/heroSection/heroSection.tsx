@@ -34,7 +34,7 @@ import "aos/dist/aos.css";
           
        </ul>
     <p>
-    With each passing year, there's growing
+    With each passing year, there s growing
 concern about the environment.
 Legislation has become increasingly
 stringent. At Zahroof, we are committed
