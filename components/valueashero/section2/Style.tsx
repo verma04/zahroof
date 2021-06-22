@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 22rem;;
+  height: 25rem;;
   background-color: #dbb43f;
   .tringle {
     position: absolute;
@@ -39,14 +39,14 @@ export const Section = styled.section`
 } 
    
  .section2_data {
-     width: 70%;
+     width: 90%;
      height: 95%;
      display:flex;
-  justify-content:space-between;
+  justify-content:space-evenly;
   align-items: center;
   flex-direction: column;
   .section2_top {
-    border: 1px solid red;
+   
     display:flex;
     width: 100%;
     height: 70%;
@@ -55,20 +55,23 @@ export const Section = styled.section`
   .logo {
     width: 15%;
     height: 100%;
-    border: 1px solid red;
+   
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-  
+    flex-direction: column;
     .wrapper {
+     
       width: 100%;
-      height: 65%;
+      height: 55%;
       position: relative;
     }
     p {
       width: 90%;
+      height: 40%;
       text-transform: uppercase;
       color: white;
+      font-size: 1rem;;
     }
   }
 
@@ -76,7 +79,7 @@ export const Section = styled.section`
   }
 
   .section2_bottom {
-    border: 1px solid red;
+   
     display:flex;
     width: 100%;
     height: 20%;
@@ -87,6 +90,7 @@ export const Section = styled.section`
  h4 {
    font-size: 1.3rem;
    text-align: center;
+color:#24334d;
  }
   
   }

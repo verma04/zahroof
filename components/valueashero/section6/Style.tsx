@@ -26,7 +26,7 @@ width:100%;
 align-items:center;
 position: relative;
 height: 30rem;;
-background-color: yellow;
+background-color: #dbb43f;
 .tringle {
  position: absolute;
  right: 40%;
@@ -35,7 +35,7 @@ background-color: yellow;
  height: 0;
  border-left: 5rem solid transparent;
  border-right: 5rem solid transparent;
- border-bottom:4rem solid yellow;
+ border-bottom:4rem solid #dbb43f;
  z-index: 1;
 } 
  

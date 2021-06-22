@@ -19,22 +19,51 @@ import  Navbar from '../../layout/navbar/navbar'
           <div className="wrapper"  >
           <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/pwwwdrq3uayndd0rdo96.png'} alt="Picture of the author" />
                </div>
-          <p></p>
+          <p>INCREASES INCREMENTAL
+REVENUE BY HUNDREDS
+OF THOUSANDS TO
+MILLIONS OF DOLLARS</p>
           </div>
           <div className="logo" >
-          <p></p>
+          <div className="wrapper"  >
+          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/i1838bk5jeu2ysxgwoaq.png'} alt="Picture of the author" />
+               </div>
+          <p>REDUCES POWER
+CONSUMPTION BY
+5-15%</p>
           </div>
           <div className="logo" >
-          <p></p>
+          <div className="wrapper"  >
+          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/lzdhjmxmm14aiukd93em.png'} alt="Picture of the author" />
+               </div>
+          <p>GUARANTEED 5-20%
+THROUGHPUT
+IMPROVEMENT</p>
           </div>
           <div className="logo" >
-          <p></p>
+          <div className="wrapper"  >
+          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/gkvlyeikv9dkymhpofrs.png'} alt="Picture of the author" />
+               </div>
+          <p>REDUCES SERVICE COSTS,
+ALL BUT ELIMINATES
+UNSCHEDULED
+COMPRESSOR DOWNTIME</p>
           </div>
           <div className="logo" >
-          <p></p>
+          <div className="wrapper"  >
+          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/jfg7ajopgu0szchdrbfd.png'} alt="Picture of the author" />
+               </div>
+          <p>REDUCES INVENTORY
+COSTS BY AS MUCH
+AS 80%</p>
           </div>
           <div className="logo" >
-          <p></p>
+          <div className="wrapper"  >
+          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/mcoz0vzmrueea4tei6dy.png'} alt="Picture of the author" />
+               </div>
+          <p>REDUCES # OF EMISSION
+EVENTS AND FUGITIVE
+EMISSIONS INTENSITY</p>
           </div>
       </div>
       <div className="section2_bottom"  >
