@@ -21,7 +21,7 @@ import "aos/dist/aos.css";
    
    <div className="homePage-layer" > 
 
-   <div aos-duration="10000" data-aos="zoom-in" className="homePage-data" >
+   <div  data-aos="zoom-in" className="homePage-data" >
 
        <ul>
       
