@@ -31,8 +31,8 @@ EVER WANTED TO KNOW </li>
           
        </ul>
        <ul className="text-right">
-        <li>BUCKLE UP.
-WE'RE DIVING DEEP </li>  
+        <li>BUCKLE UP
+WE RE DIVING DEEP </li>  
      
        </ul>
 

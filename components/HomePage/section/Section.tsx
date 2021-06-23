@@ -29,31 +29,31 @@ PERFORMANCE & SAFETY IN THE FIELD.
                <div className="section_bottom" >
                <div className="section_bottom_set" >
 
-               <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825063/vi3evrg4udh3r0iloqe8.png'} alt="Picture of the author" />
+               <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825063/vi3evrg4udh3r0iloqe8.png'} alt="sdd" />
                <div className="section_bottom_data" >
                     <li>
-                    <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825004/zoxz3fifh8feamptksnx.png' />
+                    <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825004/zoxz3fifh8feamptksnx.png' alt="sd" />
                     </li>
 
                     <li><h3>Enterprise Solution</h3></li>
                     <li>
-                    <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' />
+                    <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' alt="" />
                     </li>
                    
                 </div>
                    </div>
                    <div className="section_bottom_set" >
                
-                   <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825062/zxseg6w0ag6fk3hfednl.png'} alt="Picture of the author" />
+                   <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825062/zxseg6w0ag6fk3hfednl.png'} alt="" />
                
                 <div className="section_bottom_data" >
                     <li>
-                    <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825004/zoxz3fifh8feamptksnx.png' />
+                    <Image alt="sdds"         objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825004/zoxz3fifh8feamptksnx.png' />
                     </li>
 
                     <li><h3>Field Operations</h3></li>
                     <li>
-                    <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' />
+                    <Image  alt="sdds"       objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' />
                     </li>
                    
                 </div>

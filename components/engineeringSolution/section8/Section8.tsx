@@ -13,9 +13,9 @@ import  Navbar from '../../layout/navbar/navbar'
            <div className="section_top" >
               
               <h3>
-             " No other valve performs as well across categories. 
+              No other valve performs as well across categories 
 We increased production, reduced energy use and 
-emissions and cut maintenance costs by XX% "
+emissions and cut maintenance costs by XX% 
              
              
               </h3>
@@ -24,7 +24,7 @@ emissions and cut maintenance costs by XX% "
                </div>
 
                <div className="section_bottom" >
-               <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png'} alt="Picture of the author" />
+               <Image      objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png'} alt="Picture of the author" />
                  
                
                <div className="section2_data" >
@@ -40,7 +40,7 @@ modular design.</h2>
       </p>
       </div>
       <div className="section2_data_right"  >
-      <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624345653/gi631r3x8sk1e38jq8mk.png'} />
+      <Image  alt="Picture of the author"   objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624345653/gi631r3x8sk1e38jq8mk.png'} />
       </div>
                    
                    

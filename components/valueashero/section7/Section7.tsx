@@ -15,15 +15,15 @@ import  Navbar from '../../layout/navbar/navbar'
   
   <div className="section2_data_left"  >
 
-      <h2>INTERCHANGABLE, 
+      <h2>INTERCHANGABLE
 EASY TO RE-RATE</h2>
-      <p>StraightFloTM modules are truly interchangeable between valves, whether they’re 1.5" in diameter or greater than 14"; whether they’re suction or  discharge valves; whether the valve goes into a cylinder made by Manufacturer X or Manufacturer Y..</p>
+      <p>StraightFloTM modules are truly interchangeable between valves, whether theyre 1.5 in diameter or greater than 14 whether theyre suction or  discharge valves; whether the valve goes into a cylinder made by Manufacturer X or Manufacturer Y..</p>
       <p>
-      They’re also easy to re-rate for a new application—just change out the present modules with modules rated for the new application. As long as the valve seat is pressure-rated for the new application, you now have a valve for a brand new application at very little cost. 
+      Theyre also easy to re-rate for a new application—just change out the present modules with modules rated for the new application. As long as the valve seat is pressure-rated for the new application, you now have a valve for a brand new application at very little cost. 
       </p>
       </div>
       <div className="section2_data_right"  >
-      <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624355241/kz4jyzl52yocggw1ol9a.png'} />
+      <Image alt="Picture of the author"    objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624355241/kz4jyzl52yocggw1ol9a.png'} />
       </div>
                    
                    
