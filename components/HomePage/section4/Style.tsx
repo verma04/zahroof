@@ -24,14 +24,14 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
- 
+
 
 .section4_top {
   position: relative;
   height: 45rem;
   width: 100%;
 
- 
+  background-color: #DBB42F;
 margin-bottom: 3rem;;
 .section4_top_data {
   display: flex;
@@ -224,7 +224,7 @@ align-items: center;
 
 .section4_bottom {
   position: relative;
-  height: 45rem;
+  height: 40rem;
   width: 100%;
   z-index: 1;
  
