@@ -39,7 +39,9 @@ background-size: cover;
  .middle {
   position: absolute;
     height: 100%;
-    bottom: 0%;
+ 
+    bottom: -3%;
+
     width: 38%;
     left: 31%;
    
