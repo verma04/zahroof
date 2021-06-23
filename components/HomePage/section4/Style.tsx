@@ -178,8 +178,8 @@ align-items: center;
    width:50%;
    height:100%;
    .img_wrapper {
-     width: 80%;
-     height: 80%;
+     width: 100%;
+     height: 100%;
      position: relative;
 
    }
