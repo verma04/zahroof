@@ -20,7 +20,7 @@ const Navbar: React.FC<{}> = () => {
         </Link>
       </li>
       <li>
-        <Link href="/about">
+        <Link href="/esgbenifits">
           <a>Enterprise Solutions</a>
         </Link>
       </li>
