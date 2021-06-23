@@ -35,7 +35,7 @@ const Navbar: React.FC<{}> = () => {
         </Link>
       </li>
       <li>
-        <Link href="/blog/hello-world">
+        <Link href="/valueashero">
           <a>News & Resources</a>
         </Link>
       </li>
