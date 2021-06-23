@@ -25,14 +25,14 @@ import "aos/dist/aos.css";
 
        <ul className="text-left">
           <li>ALL THE DETAILS YOU
-EVER WANTED TO KNOW. </li> 
+EVER WANTED TO KNOW </li> 
            
            
           
        </ul>
        <ul className="text-right">
         <li>BUCKLE UP.
-WE'RE DIVING DEEP. </li>  
+WE'RE DIVING DEEP </li>  
      
        </ul>
 
