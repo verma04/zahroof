@@ -25,6 +25,58 @@ export const Section = styled.section`
   align-items:center;
   position: relative;
   height: 42rem;;
+  background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457126/o7rt0bntgyc6nstows3k.jpg");
+
+/* Set a specific height */
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ 
+ .middle {
+  position: absolute;
+    height: 100%;
+    bottom: 0%;
+    width: 38%;
+    left: 31%;
+   
+   .img-wrapper {
+     width: 100%;
+     height: 100%;
+     position: relative;
+   }
+ }
+
+ .left {
+   position: absolute;
+   height: 30%;
+   top: 5%;
+   width: 30%;
+   left:10%;
+  
+   .img-wrapper {
+     width: 100%;
+     height: 100%;
+     position: relative;
+   }
+ }
+
+ .right {
+   position: absolute;
+   height: 30%;
+   top: 5%;
+   width: 30%;
+   right:10%;
+  
+   .img-wrapper {
+     width: 100%;
+     height: 100%;
+     position: relative;
+   }
+ }
   h2 {
     text-transform: uppercase;
     font-size:1.5rem;
