@@ -19,27 +19,30 @@ import "aos/dist/aos.css";
            <div className="homePage-hero" >
            <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624266802/k8sh87pebodtjyxqy0iy.png'} alt="Picture of the herosection" />
    
-   <div className="homePage-layer" > 
+           <div className="homePage-layer" > 
 
-   <div aos-duration="10000" data-aos="zoom-in" className="homePage-data" >
+<div aos-duration="10000" data-aos="zoom-in" className="homePage-data" >
 
-       <ul>
-          <li>Extraordinary </li> 
-           
-           <li>Retuns</li>
-          <li>From </li>
-          
-       </ul>
-       <ul className="text-right">
-        <li>Reimagined  </li>  
-         <li>  Engineering</li>  
-       </ul>
+    <ul className="text-left">
+       <li>You’re the 
+boots on 
+the ground. </li> 
+        
+        
+       
+    </ul>
+    <ul className="text-right">
+     <li>We give you<br/>
+less ground <br/>
+to cover. </li>  
+  
+    </ul>
 
 
-   </div>
-   
-   
-   </div>
+</div>
+
+
+</div>
 
            </div>
             

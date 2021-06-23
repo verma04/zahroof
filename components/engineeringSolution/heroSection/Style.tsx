@@ -32,37 +32,79 @@ export const Section = styled.section`
   align-items: center;
   .homePage-data {
       margin-top: 5%;
-      width: 50%;
+      width: 70%;
     height: 60%;
-   
+     
+ 
     display: flex;
     justify-content: center;
     align-items: flex-start;
  flex-direction: column;
-  ul {
-     width:50%;
+
+  .text-left {
+     width:35%;
+  
   li {
-    
+    margin-top:2rem;
+     
       font-size: 3.3rem;
       text-align:right;
       color:white;
       font-weight: 1000;
       text-transform: uppercase;
+      position: relative;
+      padding-right: 0.5rem;
+      margin-right: 1rem;;
       
   }
-  li:nth-child(3) {
-    color: #eeba18;
+  li:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #eeba18;
+    height: 100%;
+    width: 0.4rem;
+    top:0;
+    right: -0.5rem;
    
   }
  }
  .text-right {
+  
+     width: 100%;
+    display: flex;
+    justify-content: flex-end;
 
-     width: 60%;
-     margin-left: 32%;
+
 
      li {
+     
+       width: 50%;
       text-align:left;
      }
+     li {
+    margin-top:2rem;
+     
+      font-size: 3.3rem;
+      text-align:left;
+      color:white;
+      font-weight: 1000;
+      text-transform: uppercase;
+      position: relative;
+      padding-right: 0.5rem;
+      
+  }
+  li:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #eeba18;
+    height: 100%;
+    width: 0.4rem;
+    top:0;
+    left: -0.5rem;
+   
+  }
  }
   }
   
