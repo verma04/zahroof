@@ -8,6 +8,8 @@ import '../styles/reset.css';
 import Head from 'next/head';
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import "nprogress/nprogress.css";
+import dynamic from 'next/dynamic'
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     AOS.init({
@@ -15,6 +17,12 @@ function MyApp({ Component, pageProps }: AppProps) {
     });
   }, []);
   
+  const TopProgressBar = dynamic(
+    () => {
+      return import("../components/TopProgressBar");
+    },
+    { ssr: false },
+  );
   return(
  <div>
  
@@ -32,6 +40,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThemeProvider theme={theme}>
  
     <GlobalFonts/>
+    <TopProgressBar />
   <Component {...pageProps} />
   </ThemeProvider>
   </div>
