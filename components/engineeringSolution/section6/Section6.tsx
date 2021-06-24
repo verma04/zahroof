@@ -10,7 +10,8 @@ import  Navbar from '../../layout/navbar/navbar'
         
            
            <div className="section6" >
-           <div className="section2_data" >  <div className="section2_data_left"  >
+           <div className="section2_data" > 
+            <div className="section2_data_left"  >
 
 <h2>Unmatched <br/>
 Reliability </h2>

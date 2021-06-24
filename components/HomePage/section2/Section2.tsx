@@ -3,8 +3,11 @@ import React from 'react'
 import { Section} from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
+
 
  const HeroSection: React.FC<{}> = () => {
+ 
     return (
         <Section>
         

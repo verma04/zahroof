@@ -18,6 +18,8 @@ export const Section = styled.section`
         width: 100%;
         position: relative;
         height: 46em;
+        overflow-x: hidden;
+  overflow-y: scroll;
         .homePage-layer {
             position: absolute;
             width: 100%;

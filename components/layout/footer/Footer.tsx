@@ -29,7 +29,7 @@ import { Foot } from './Style'
         </Link>
       </li>
       <li>
-        <Link href="/about">
+        <Link href="/aboutus">
           <a>About Us</a>
         </Link>
       </li>

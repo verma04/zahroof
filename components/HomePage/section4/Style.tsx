@@ -30,8 +30,8 @@ export const Section = styled.section`
   position: relative;
   height: 50rem;
   width: 100%;
+  background-image: linear-gradient(#DBB42F, #FDDB45);
 
-  background-color: #DBB42F;
 margin-bottom: 3rem;;
 .section4_top_data {
   display: flex;

@@ -20,7 +20,7 @@ import  Navbar from '../../layout/navbar/navbar'
    
       </div>
 
-      <div    data-aos="zoom-out-left"  data-aos-duration="8000" className="right" >
+      <div    data-aos="zoom-out-right"  data-aos-duration="8000" className="right" >
       <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457125/wx89iw4xzkq1tffegfgh.png'} alt="" />
               
@@ -28,7 +28,7 @@ import  Navbar from '../../layout/navbar/navbar'
    
       </div>
 
-      <div data-aos="zoom-out-right" data-aos-duration="8000"  className="left" >
+      <div data-aos="zoom-out-left" data-aos-duration="8000"  className="left" >
       <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457125/c5qjzndd22pgdc0xpzvg.png'} alt="" />
               

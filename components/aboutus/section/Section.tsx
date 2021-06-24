@@ -9,35 +9,7 @@ const options = [
     { value: 'strawberry', label: 'Strawberry' },
     { value: 'vanilla', label: 'Vanilla' }
   ]
-  const customStyles = {
-    control: (base:any, state:any) => ({
-      ...base,
-      background: " #c1c4ca;",
-      
-      // match with the menu
-      borderRadius: state.isFocused ? "3px 3px 0 0" : 3,
-      // Overwrittes the different states of border
-    
-      // Removes weird border around container
-      boxShadow: state.isFocused ? null : null,
-      "&:hover": {
-        // Overwrittes the different states of border
-
-      }
-    }),
-    menu: (base:any) => ({
-      ...base,
-      // override border radius to match the box
-      borderRadius: 0,
-      // kill the gap
-      marginTop: 0
-    }),
-    menuList: (base:any) => ({
-      ...base,
-      // kill the white space on first and last option
-      padding: 0
-    })
-  };
+ 
  const HeroSection: React.FC<{}> = () => {
     return (
         <Section>
@@ -49,7 +21,37 @@ const options = [
              
 
                <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png'} alt="Picture of the author" />
-               
+               <div className="section2_data" > 
+            <div className="section2_data_left"  >
+
+<h2>mission</h2>
+<p>At Zahroof Valves, Inc., we are driven to vastly improve the efficiency and profitability of all industries that use industrial reciprocating compressors. By bringing our 
+revolutionary, yet simplified solutions to this global 
+industry, we intend to bring dramatic and sustainable 
+economic value to all of our customers, reliably and 
+consistently elevating production, while reducing power consumption, downtime, repair costs, and emissions. </p>
+
+</div>
+ 
+
+<div className="section2_data_left"  >
+
+<h2>vision</h2>
+<p>As a respected, leading, global brand offering world-class engineering and design, we will bring solutions that 
+consistently deliver the highest efficiency, highest 
+reliability, and lowest total cost of ownership to 
+compressor operators, manufacturers, packagers and 
+distribution partners. </p>
+
+</div>
+ 
+
+             
+     
+                   
+                   </div>
+                   
+             
               
                </div>
          

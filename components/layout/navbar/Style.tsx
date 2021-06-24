@@ -40,10 +40,10 @@ z-index: 1;
         display: flex;
       justify-content: space-between;
     height: 53%;
-      width: 70%;
+      width: 60%;
       
       li {
-        margin-top: 0.5rem;
+        margin-top: 1rem;
       a {
     
         font-size: 0.9rem;
