@@ -3,57 +3,45 @@ import React from 'react'
 import { Section} from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
-import Select from 'react-select'
-const options = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' }
-  ]
-  const customStyles = {
-    control: (base:any, state:any) => ({
-      ...base,
-      background: " #c1c4ca;",
-      
-      // match with the menu
-      borderRadius: state.isFocused ? "3px 3px 0 0" : 3,
-      // Overwrittes the different states of border
-    
-      // Removes weird border around container
-      boxShadow: state.isFocused ? null : null,
-      "&:hover": {
-        // Overwrittes the different states of border
 
-      }
-    }),
-    menu: (base:any) => ({
-      ...base,
-      // override border radius to match the box
-      borderRadius: 0,
-      // kill the gap
-      marginTop: 0
-    }),
-    menuList: (base:any) => ({
-      ...base,
-      // kill the white space on first and last option
-      padding: 0
-    })
-  };
  const HeroSection: React.FC<{}> = () => {
     return (
         <Section>
         
            
-           <div className="section" >
-             
-           
-             
+           <div className="section4" >
 
-             
-               
-              
-               </div>
+           <div className="section_data" >
+            
+            <div className="section_data_left"  >
+          
+          <h2>The story of ‘zee’</h2>
+          <p>
+          Zahroof Mohamed is the founder of Zahroof Valves, Inc and inventor of the StraightFlo™ Valve. Zahroof has over 30 years of experience in compressor design and development, and has 
+successfully brought groundbreaking products from concept to market. 
+</p>
+<p>
+Prior to founding ZVI, Zahroof was Chief Engineer for Samsung Techwin, establishing their Center for Turbomachinery Design Worldwide in Houston and overseeing new product 
+development in South Korea and the U.S. His vast experience includes developing the core 
+technology and roadmap for the process gas centrifugal compressor line for Samsung, and 
+serving as the Principal Engineer at Cameron Compression Systems. Zahroof also served as
+ an Engineering Specialist at York International.
+</p>
+<p>
+Zahroof's specialty is the development of compressors, rotordynamics, bearing design, seals, vibration analysis and troubleshooting. He holds a BS in Mechanical Engineering from College of Engineering, Trivandrum, an MS in Mechanical Engineering from Texas A&M University and a diploma in International Management from IFL, Swedish Institute for Management.
+</p>
          
-           
+          
+          </div>
+          <div className="section_data_right"  >
+          <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624531133/zfcex0acvok079j0wisd.png'} alt="Picture of the herosection" />
+       </div>
+                
+         
+          </div>
+         
+
+</div>
             
         </Section>
     )
