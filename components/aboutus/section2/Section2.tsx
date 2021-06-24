@@ -15,7 +15,7 @@ import  Navbar from '../../layout/navbar/navbar'
             
             <div className="section_data_left"  >
           
-          <h2>The story of ‘zee’</h2>
+          <h2>The story of zee</h2>
           <p>
           Zahroof Mohamed is the founder of Zahroof Valves, Inc and inventor of the StraightFlo™ Valve. Zahroof has over 30 years of experience in compressor design and development, and has 
 successfully brought groundbreaking products from concept to market. 
