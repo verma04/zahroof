@@ -34,7 +34,7 @@ export const Section = styled.section`
   align-items: center;
   .homePage-data {
       margin-top: 5%;
-      width: 50%;
+      width: 55%;
     height: 60%;
    
     display: flex;
@@ -62,7 +62,7 @@ export const Section = styled.section`
     content: '';
     display: block;
     position: absolute;
-     width: 32%;
+     width: 34%;
      bottom: 0.1rem;
      right: 0%;
      height: 0.2rem;;
