@@ -62,7 +62,7 @@ export const Section = styled.section`
     content: '';
     display: block;
     position: absolute;
-     width: 34%;
+     width: 31%;
      bottom: 0.1rem;
      right: 0%;
      height: 0.2rem;;

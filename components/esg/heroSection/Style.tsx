@@ -18,6 +18,16 @@ export const Section = styled.section`
         width: 100%;
         position: relative;
         height: 56em;
+        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624030696/l0krn6a059mpgqlonf8q.png");
+
+/* Set a specific height */
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
         .homePage-layer {
             position: absolute;
             width: 100%;

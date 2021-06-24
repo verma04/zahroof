@@ -26,7 +26,7 @@ import "aos/dist/aos.css";
        <ul>
           <li>Extraordinary </li> 
            
-           <li>Retuns</li>
+           <li>Returns</li>
           <li>From </li>
           
        </ul>

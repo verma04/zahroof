@@ -17,7 +17,7 @@ import "aos/dist/aos.css";
             <Navbar/>
            
            <div className="homePage-hero" >
-           <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624439858/m3sfku5fc0vyzjveyony.png'} alt="Picture of the herosection" />
+           {/* <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624439858/m3sfku5fc0vyzjveyony.png'} alt="Picture of the herosection" /> */}
    
            <div className="homePage-layer" > 
 
