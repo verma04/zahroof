@@ -18,15 +18,21 @@ export const Section = styled.section`
         width: 100%;
         position: relative;
         height: 40em;
+        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000543/nszogjpikgvufgyx7tar.png");
+
+/* Set a specific height */
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
         .homePage-layer {
             position: absolute;
             width: 100%;
             height: 100%;
-            background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1623838132/g0uu4qlatbvnmzr405zi.png"); 
-
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
+         
   display: flex;
   justify-content: center;
   align-items: center;
