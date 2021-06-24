@@ -41,7 +41,7 @@ export const Section = styled.section`
      width: 100%;
   li {
       width: 20%;
-      font-size: 3.3rem;
+      font-size: 3.438rem;
       text-align:left;
       color:white;
       font-weight: 1000;
@@ -69,7 +69,9 @@ export const Section = styled.section`
 
   p {
     width: 30%;
-    line-height: 1.4;
+    line-height: 2;
+    font-size: 1.1rem;
+    font-weight: 800;
     color: white;;
   }
  .text-right {

@@ -42,7 +42,7 @@ margin-bottom: 3rem;;
   height: 100%;
   flex-direction: column;
   h2 {
-    font-size: 1.7rem;;
+    font-size:3.438rem;;
     text-transform: uppercase;
     color: white;
     margin-top: 1.5rem;;

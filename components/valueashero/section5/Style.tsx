@@ -25,7 +25,7 @@ justify-content:center;
 width:90%;
 align-items:center;
 position: relative;
-height: 30rem;;
+height: 40rem;;
 
 
 
@@ -37,7 +37,7 @@ height: 30rem;;
   .section2_data_left {
     
     display:flex;
-    width: 45%;
+    width: 50%;
     height: 100%;
   justify-content:space-around;
   align-items: left;
@@ -45,7 +45,7 @@ height: 30rem;;
   h2 {
    position: relative;
    padding-left: 0.5rem;
-   font-size: 3.3rem;;
+   font-size: 3.438rem;;
    color:white;
    position: relative;
    color:#24334d;
@@ -77,7 +77,7 @@ height: 30rem;;
   }
   p {
     width: 80%;
-    line-height: 1.5;
+    line-height: 2;
   }
   }
 

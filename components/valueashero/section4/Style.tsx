@@ -77,7 +77,7 @@ background-color: #23344e;
   }
   .img_wrapper {
     position: relative;
-   height: 40%;
+   height: 60%;
    width: 100%;
     line-height: 1.1;
     
@@ -98,21 +98,21 @@ background-color: #23344e;
     display:flex;
     width: 45%;
     height: 100%;
-  justify-content:flex-start;
+  justify-content:space-between;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   position: relative;
   .img_wrapper {
     position: relative;
-   height: 30%;
+   height: 45%;
    width: 100%;
     line-height: 1.1;
     
   }
   h3 {
     color: white;
-    margin-top: 3rem;
+ 
     font-size: 1.5rem;
     text-align: left;
     width: 80%;
@@ -120,7 +120,7 @@ background-color: #23344e;
   }
  
     p {
-      margin-top: 3rem;;
+  
       width: 80%;
     line-height: 1.5;
     color:white;

@@ -25,13 +25,13 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 30rem;;
+height: 35rem;;
 background-color: #dbb43f;
 .tringle {
  position: absolute;
  right: 40%;
  width: 0;
- top: -12%;
+ top: -11%;
  height: 0;
  border-left: 5rem solid transparent;
  border-right: 5rem solid transparent;
@@ -64,13 +64,13 @@ height: 100%;;
     display:flex;
     width: 70%;
     height: 100%;
-  justify-content:space-around;
+  justify-content:space-evenly;
   align-items: left;
   flex-direction: column;
   h2 {
    position: relative;
    padding-left: 0.5rem;
-   font-size: 3.3rem;;
+   font-size:3.438rem;
    color:white;
    width: 70%;
    position: relative;
@@ -103,33 +103,38 @@ height: 100%;;
   
   }
   p {
+  
     width: 80%;
-    line-height: 1.5;
+    line-height: 2;
   }
   }
 
   .section_data_right {
     
     display:flex;
-    width: 20%;
+    width: 30%;
     height: 100%;
   justify-content:flex-start;
   
   background-color: #2f3032;
   flex-direction: column;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 
   h3 {
     color:white;
     width: 60%;
+    font-size: 2.438rem;
+    margin-bottom: 1rem;
+
   }
   
    p {
      width: 60%;
      color:white;
-     line-height: 1.6;
+     line-height: 2;
+     font-size: 1.1rem;
    }
  .wrapper {
    position: relative;

@@ -176,7 +176,7 @@ transition: transform .8s;
 
   }
   input {
-
+    font-family: Proxima;
     border:1px solid #EFEAE4;
   
   }

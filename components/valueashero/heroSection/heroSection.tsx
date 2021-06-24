@@ -24,14 +24,14 @@ import "aos/dist/aos.css";
    <div aos-duration="10000" data-aos="zoom-in" className="homePage-data" >
 
        <ul className="text-left">
-          <li>ALL THE DETAILS YOU
+          <li>ALL THE DETAILS YOU<br/>
 EVER WANTED TO KNOW </li> 
            
            
           
        </ul>
        <ul className="text-right">
-        <li>BUCKLE UP
+        <li>BUCKLE UP<br/>
 WE RE DIVING DEEP </li>  
      
        </ul>

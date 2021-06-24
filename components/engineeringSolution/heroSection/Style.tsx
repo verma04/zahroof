@@ -47,7 +47,7 @@ export const Section = styled.section`
   li {
     margin-top:2rem;
      
-      font-size: 3.3rem;
+      font-size: 3.4rem;
       text-align:right;
       color:white;
       font-weight: 1000;
@@ -65,7 +65,7 @@ export const Section = styled.section`
     height: 100%;
     width: 0.4rem;
     top:0;
-    right: -0.5rem;
+    right: -2rem;
    
   }
  }
@@ -85,7 +85,7 @@ export const Section = styled.section`
      li {
     margin-top:2rem;
      
-      font-size: 3.3rem;
+      font-size: 3.4rem;
       text-align:left;
       color:white;
       font-weight: 1000;
@@ -102,7 +102,7 @@ export const Section = styled.section`
     height: 100%;
     width: 0.4rem;
     top:0;
-    left: -0.5rem;
+    left: -2rem;
    
   }
  }

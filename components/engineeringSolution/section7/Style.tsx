@@ -25,7 +25,7 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 30rem;;
+height: 35rem;;
 
 position: relative;
 
@@ -48,16 +48,26 @@ position: relative;
   color:  #24334d;
    position: relative;
    padding-left: 0.5rem;
-   font-size: 3.3rem;;
-
+   font-size: 3.4rem;;
+  text-transform: uppercase;
    position: relative;
+  }
+  h2:after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 0.4rem;
+    top: 0;
+    left: -0.3rem;
+    background-color:  #dbb43f;
   }
  
   p {
-    width: 80%;
+    width: 95%;
     color:white;
 
-    line-height: 1.6;
+    line-height: 2;
     color:black;
   }
   h3 {

@@ -49,7 +49,7 @@ align-items: center;
   justify-content:center;
 align-items: center;
    width:100%;
-   height:40rem;
+   height:45rem;
  position: relative;   
 
  .section2_data {
@@ -70,7 +70,7 @@ align-items: center;
   h2 {
    position: relative;
    padding-left: 0.5rem;
-   font-size: 3.3rem;;
+   font-size:3.438rem;;
    color:white;
    position: relative;
   }
@@ -87,10 +87,10 @@ align-items: center;
   }
   p {
     color:white;
-    line-height: 1.1;
+    line-height: 1.4;
   }
   h3 {
-    line-height: 1.1;
+    line-height: 1.4;
       color:white;
   
   }

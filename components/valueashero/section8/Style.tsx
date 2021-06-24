@@ -45,7 +45,7 @@ height: 30rem;;
  
   p {
   
-    line-height: 1.1;
+    line-height: 2;
   }
   h3 {
     line-height: 1.1;

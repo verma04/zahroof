@@ -59,7 +59,7 @@ export const Section = styled.section`
 
   li {
       width: 100%;
-      font-size: 3.3rem;
+      font-size: 3.438rem;
       text-align:left;
       color:white;
       font-weight: 1000;
@@ -78,7 +78,7 @@ export const Section = styled.section`
   p {
   margin-top: 3rem;;
     width: 70%;
-    line-height: 1.4;
+    line-height: 2;
     color: white;;
     position: relative;
     padding-left: 1rem;
@@ -119,7 +119,21 @@ export const Section = styled.section`
            p {
              color: white;
              width: 60%;
+             line-height: 2;
+             position: relative;
            }
+           p::after {
+            
+            content: '';
+    display: block;
+    height: 100%;
+    width: 0.3rem;;
+    position: absolute;
+   background-color: #eeba18;
+   top: 0%;
+   left: -1rem;;
+           }
+           
           }
 
           

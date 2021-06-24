@@ -41,12 +41,12 @@ export const Section = styled.section`
     align-items: flex-start;
  flex-direction: column;
   .text-left {
-     width:50%;
+     width:60%;
   
   li {
     margin-top:2rem;
      
-      font-size: 3.3rem;
+      font-size: 3.438rem;
       text-align:left;
       color:white;
       font-weight: 1000;
@@ -77,7 +77,7 @@ export const Section = styled.section`
 
      li {
      
-       width: 50%;
+       width: 60%;
       text-align:left;
      }
      li {

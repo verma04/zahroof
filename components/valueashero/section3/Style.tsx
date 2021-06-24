@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 45rem;;
+  height: 50rem;;
   display:flex;
   justify-content:center;
 align-items: center;
@@ -50,7 +50,7 @@ align-items: center;
   h2 {
    position: relative;
    padding-left: 0.5rem;
-   font-size: 3.3rem;;
+   font-size: 3.4rem;;
    color:white;
    position: relative;
    color:#24334d;
@@ -80,7 +80,7 @@ align-items: center;
   
   }
   p {
-    line-height: 1.5;
+    line-height: 2;
   }
   }
 
@@ -106,7 +106,7 @@ align-items: center;
     p {
       margin-top: 3rem;;
       width: 70%;
-    line-height: 1.5;
+      line-height: 2;
   
   }
   }

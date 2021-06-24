@@ -22,8 +22,8 @@ import  Navbar from '../../layout/navbar/navbar'
 
       <h2>Serviced On site 
 in Minutes</h2>
-      <p>While conventional valves must be <br/> swapped and sent out for 
-machining, StraightFloTM valves can be refurbished on site without  <br/>
+      <p>While conventional valves must be  swapped and sent out for 
+machining, StraightFloTM valves can be refurbished on site without 
 special tools or skilled labor. They re as easy to service offshore as on dry land. And with no need to stockpile spare valves, you can reduce inventory by more than 80</p>
   
       </div>

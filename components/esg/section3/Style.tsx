@@ -49,12 +49,14 @@ export const Section = styled.section`
   h3 {
     width: 70%;
     color:white;
-    font-size: 1.5em;
+    font-size: 3.438em;
   }
    p {
     width: 70%;
     color:white;
+    font-weight: 600;
     font-size: 1.5em;
+    line-height: 1.5;
    }
 
 }

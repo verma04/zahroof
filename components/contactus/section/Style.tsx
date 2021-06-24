@@ -58,7 +58,7 @@ export const Section = styled.section`
            h2 {
              font-size: 3.4rem;
               margin-bottom: 5%;
-               text-align: right;
+               text-align: left;
                
                width: 50%;
                color: white;
@@ -162,6 +162,8 @@ h3 {
                   justify-content: space-between;
                  button {
                      width: 20%;
+                     font-size: 1.1rem;
+                     font-weight: 1000;
                      background: ${props => props.theme.colors.yellow};
                  }
                   .field {

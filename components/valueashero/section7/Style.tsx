@@ -47,14 +47,14 @@ position: relative;
   h2 {
    position: relative;
    padding-left: 0.5rem;
-   font-size: 3.3rem;;
+   font-size: 3.438rem;;
    color:white;
    position: relative;
   }
  
   p {
     color:white;
-    line-height: 1.1;
+    line-height: 2;
   }
   h3 {
     line-height: 1.1;

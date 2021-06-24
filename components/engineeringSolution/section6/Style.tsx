@@ -25,7 +25,7 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 23rem;;
+height: 27rem;;
 background-color: #dbb43f;;
 .tringle {
  position: absolute;
@@ -59,7 +59,7 @@ background-color: #dbb43f;;
    position: relative;
    padding-left: 0.5rem;
    font-size: 3.3rem;;
-
+text-transform: uppercase;
    position: relative;
   }
   h2:after {
@@ -74,10 +74,10 @@ background-color: #dbb43f;;
   }
  
   p {
-    width: 80%;
+    width: 100%;
     color:white;
 
-    line-height: 1.6;
+    line-height: 2;
     color:black;
   }
   h3 {

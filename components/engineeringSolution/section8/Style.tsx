@@ -31,11 +31,11 @@ align-items: center;
 flex-direction: column;
    width:100%;
    background-color: #dbb43f;
-   height: 12rem;
+   height: 15rem;
    h3 {
-     font-size: 2rem;;
+     font-size: 3rem;;
      width: 60%;
-     line-height: 1.3;
+   
        color: #24334d;;
       
   
@@ -44,7 +44,7 @@ flex-direction: column;
    span {
     font-size: 1.3rem;;
      width: 60%;
-     line-height: 1.3;
+     line-height: 2;
        color: #24334d;;
        text-align: right;
    }
@@ -73,7 +73,7 @@ align-items: center;
   .section2_data_left {
     
     display:flex;
-    width: 45%;
+    width: 50%;
     height: 100%;
   justify-content:space-around;
   align-items: left;
@@ -82,7 +82,7 @@ align-items: center;
   text-transform: uppercase;
    position: relative;
    padding-left: 0.5rem;
-   font-size: 3.3rem;;
+   font-size: 3.4rem;;
    color:white;
    position: relative;
   }
@@ -99,7 +99,7 @@ align-items: center;
   }
   p {
     color:white;
-    line-height: 1.1;
+    line-height: 2;
   }
   h3 {
     line-height: 1.1;

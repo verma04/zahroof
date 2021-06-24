@@ -43,7 +43,7 @@ export const Section = styled.section`
       justify-content: center;
     flex-direction: column;
       h2 {
-        font-size: 3.3rem;
+        font-size: 3.438rem;
         color:white;
 
        
