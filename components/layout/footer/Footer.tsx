@@ -7,7 +7,7 @@ import { Foot } from './Style'
         <Foot >
             <div className="footer_newsLetter" >
 
-                <h3>Stay informed . recieve our monthly zmail industry report</h3>
+                <h3>Stay informed  recieve our <br/> monthly zmail industry report</h3>
 
                 <form>
   <input  placeholder="Enter Your Email" ></input>

@@ -53,7 +53,7 @@ align-items: center;
      text-align: left;
      width: 100%;
      position: relative;
-     font-size: 1.7rem;;
+     font-size: 2.875rem;;
      text-transform: uppercase;
       
    }
@@ -71,6 +71,8 @@ align-items: center;
     p {
       text-align: left;
       width: 100%;
+      font-size: 1rem;
+      line-height: 1.4;
     }
   
 }

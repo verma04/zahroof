@@ -30,8 +30,10 @@ export const Section = styled.section`
 align-items: center;
    width:100%;
 
-   height: 7rem;
-   h2 {
+   height: 11rem;
+   span {
+       width: 80%;
+       font-size: 2.188rem;
        color:white;
        text-transform: uppercase;
    }
@@ -44,22 +46,20 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-h2 {
-    width: 60%;
+span {
+       font-size: 2.188rem;
        color:white;
-       font-size:1.5rem;
-       text-align:right;
        text-transform: uppercase;
    }
 .tringle {
     position: absolute;
     left: 10%;
     width: 0;
-    bottom: -12%;
+    bottom: -14%;
     height: 0;
-    border-left: 2rem solid transparent;
-    border-right: 2rem solid transparent;
-    border-top: 1.3rem solid #dbb43f;
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+    border-top: 2rem solid #dbb43f;
     z-index: 1;
 }   
 
@@ -77,11 +77,11 @@ align-items: center;
     position: absolute;
     left: 10%;
     width: 0;
-    bottom: -10%;
+    bottom: -14%;
     height: 0;
-    border-left: 2rem solid transparent;
-    border-right: 2rem solid transparent;
-    border-top: 1.3rem solid #dbb43f;
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+    border-top: 2rem solid #dbb43f;
     z-index: 1;
 } 
 h2 {
@@ -115,6 +115,7 @@ position: relative;
     align-items:center;
     flex-direction: column;
     h3 {
+        font-size: 1.5rem;
         color: white;
         text-transform: uppercase;
     }
@@ -123,13 +124,13 @@ position: relative;
     
     }
     li:nth-child(1){
-        width: 10rem;
-        height: 10rem;
+        width: 12rem;
+        height: 12rem;
 
     }
     li:nth-child(3){
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
 
     }
 } 

@@ -28,35 +28,35 @@ export const Section = styled.section`
 
 .section4_top {
   position: relative;
-  height: 45rem;
+  height: 50rem;
   width: 100%;
 
   background-color: #DBB42F;
 margin-bottom: 3rem;;
 .section4_top_data {
   display: flex;
-  justify-content:  flex-start;
+  justify-content: flex-start;
   align-items: center;
   position: absolute;
   width: 100%;
   height: 100%;
   flex-direction: column;
   h2 {
-    font-size: 1.7rem;;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 2.813rem;
     text-transform: uppercase;
     color: white;
-    margin-top: 1.5rem;;
-    margin-bottom: 1rem;;
+ 
   }
   .section4_top_data_logos {
-  
-    margin-top: 6rem;
 
-  width: 100%;
+  
+width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 70%;
   position: relative;
 
 
@@ -161,7 +161,7 @@ height: 10%;
 }
 .section4_mid {
   position: relative;
-  height: 30rem;
+  height: 45rem;
   width: 100%;
   z-index: 1;
  
@@ -197,9 +197,9 @@ align-items: center;
 
    h2 {
      text-align: left;
-     width: 50%;
+     width: 70%;
      position: relative;
-     font-size: 1.7rem;;
+     font-size: 2.813rem;
      
    }
    h2:after {
@@ -215,7 +215,9 @@ align-items: center;
 }
     p {
       text-align: left;
-      width: 50%;
+      width: 70%;
+      font-size: 1rem;
+      line-height: 1.6;
     }
   
 }
@@ -231,7 +233,7 @@ align-items: center;
 margin-bottom: 3rem;;
 
 .section4_bottom_data {
-  margin-top: 5rem;;
+  margin-top: 1rem;;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,7 +253,7 @@ margin-bottom: 3rem;;
      text-align: left;
      width: 50%;
      position: relative;
-     font-size: 1.7rem;;
+     font-size: 2.813rem;
       color:white;
      
    }
@@ -271,6 +273,8 @@ margin-bottom: 3rem;;
       z-index: 1;
       text-align: left;
       width: 50%;
+      font-size: 1rem;
+      line-height: 1.4;
     }
     .btn {
       color:white;
@@ -279,7 +283,7 @@ margin-bottom: 3rem;;
       width: 50%;
       button {
         font-size:1rem;
-        padding: 0.5rem;;
+        padding: 1rem;;
         text-transform: uppercase;
         background-color: #398baa;
       }

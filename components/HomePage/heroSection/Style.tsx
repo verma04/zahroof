@@ -17,7 +17,7 @@ export const Section = styled.section`
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 40em;
+        height: 46em;
         .homePage-layer {
             position: absolute;
             width: 100%;
@@ -40,10 +40,10 @@ export const Section = styled.section`
     align-items: flex-start;
  flex-direction: column;
   ul {
-     width:50%;
+     width:60%;
   li {
     
-      font-size: 3.3rem;
+      font-size: 3.75rem;
       text-align:right;
       color:white;
       font-weight: 1000;
@@ -51,14 +51,27 @@ export const Section = styled.section`
       
   }
   li:nth-child(3) {
+    margin-top: 0.3rem;;
     color: #eeba18;
-   
+    margin-bottom: 0.3rem;;
+    position: relative;
+  }
+  li:nth-child(3)::after {
+    content: '';
+    display: block;
+    position: absolute;
+     width: 32%;
+     bottom: 0.1rem;
+     right: 0%;
+     height: 0.2rem;;
+     background-color: #eeba18;
+  
   }
  }
  .text-right {
 
      width: 60%;
-     margin-left: 32%;
+     margin-left: 40%;
 
      li {
       text-align:left;

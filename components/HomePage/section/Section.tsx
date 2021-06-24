@@ -14,15 +14,15 @@ import { Parallax, Background } from "react-parallax";
                <div className="section_top" >
                <div className="section_top_left" >
 
-                   <h2>REAP THE EXCEPTIONAL FINANCIAL
-REWARDS OF A WISE INVESTMENT</h2>
+                   <span>REAP THE EXCEPTIONAL FINANCIAL
+REWARDS OF A WISE INVESTMENT</span>
                    <div className="tringle" ></div>
                    </div>
                    <div className="section_top_right" >
-                   <h2>
+                   <span>
                    WHILE VASTLY IMPROVING
 PERFORMANCE & SAFETY IN THE FIELD.
-                   </h2>
+                   </span>
                    <div className="tringle" ></div>
                    </div>
                </div>

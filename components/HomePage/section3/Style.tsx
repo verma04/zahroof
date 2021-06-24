@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 42rem;;
+  height: 40rem;;
   background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457126/o7rt0bntgyc6nstows3k.jpg");
 
 /* Set a specific height */
@@ -80,9 +80,25 @@ background-size: cover;
    }
  }
   h2 {
+    position: relative;
     text-transform: uppercase;
-    font-size:1.5rem;
+    font-size:2.875rem;
+    
   }
+  h2:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0.2rem;
+    height: 90%;
+    left: -0.4rem;;
+    top: 0%;
+
+
+   background-color : #286230;
+  }
+
+
 .section3_left {
   position: absolute;
 left: 0;
@@ -104,7 +120,7 @@ right: 0%;;
   a {
     margin-top: 2rem;
     color:black;
-    font-size: 1.3rem;
+    font-size: 1.875rem;
     font-weight: 900;
     border-bottom: 3px solid black;
   }

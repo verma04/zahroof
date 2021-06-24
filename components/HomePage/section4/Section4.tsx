@@ -19,16 +19,16 @@ import  Navbar from '../../layout/navbar/navbar'
        <h2>Preformance Across Industries</h2>
        <div className="section4_top_data_logos" >
        
-        <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623837548/h6xa3cdujoxdhomdlyym.png'} alt="Picture of the author" />
+        <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624519388/pbtbk5iocktyz4mbhw8j.png'} alt="Picture of the author" />
             </div>
-            <div className="icon" id="gasses" >
+            {/* <div className="icon" id="gasses" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623905280/oqahwcfpdj4symxaaaki.png'} alt="" />
               
                    </div>
                    <span>Indusdrial gases</span>
-               </div>
-            <div className="icon" id="industry" >
+               </div> */}
+            {/* <div className="icon" id="industry" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/istcdd90jzd7w26thtwl.png'} alt="" />
               
@@ -88,7 +88,7 @@ import  Navbar from '../../layout/navbar/navbar'
                    <span>offshore</span>
                </div>
               
-              
+               */}
               
         </div>
 
@@ -142,7 +142,7 @@ same type of successes for your company.</p>
          
 <div className="btn" >
     <button>
-    See Your Self
+    See for YourSelf
     </button>
     </div>
           </div>

@@ -20,7 +20,7 @@ z-index: 1;
    @media (min-width: 1281px) {
   
     width:100%;
-    height: 8rem;
+    height: 10rem;
     .navbar {
       width:95%;
       height: 100%;
@@ -30,23 +30,28 @@ z-index: 1;
       align-items: center;
       .navbar_left {
       position: relative;
-      width: 20%;
-
-      height: 90%;
+      width: 24%;
+  
+      height: 100%;
       
 
       }
       .navbar_right {
         display: flex;
       justify-content: space-between;
-      align-items: center;
+    height: 53%;
       width: 70%;
+      
+      li {
+        margin-top: 0.5rem;
       a {
-        font-size: 1rem;;
+    
+        font-size: 0.9rem;
         word-spacing: 0.2rem;;
         font-weight: 1000;
         color:white;
         text-transform: uppercase;
+      }
       }
         
       }

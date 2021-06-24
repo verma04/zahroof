@@ -21,12 +21,12 @@ TO GREATER PROFIT
 
          </h2>
 
-         <h4>
+         <p>
          Discover the broad range of unmatched benefits
 exceptional engineering can achieve -- from
 performance in the trenches to a bold boost in the
 bottom line.
-             </h4>
+             </p>
 
                        </div>
 
@@ -36,28 +36,28 @@ bottom line.
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826616/ogbrcspxakpbenzt7pwo.png'} alt="Picture of the author" />
 </div>
- <h4>INCREASE PRODUCTION
-& THROUGHPUT </h4>
+ <p>INCREASE PRODUCTION
+& THROUGHPUT </p>
  </div>
 
  <div className="logo" >
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826616/rn5iqp4vg0srfc4wzwoa.png'} alt="Picture of the author" />
  </div>
- <h4>DRAMATICALLY
-IMPROVE RELIABILITY</h4>
+ <p>DRAMATICALLY
+IMPROVE RELIABILITY</p>
  </div>
  <div className="logo" >
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826610/jit3fbn5ttpilfqqgiyd.png'} alt="Picture of the author" />
  </div>
- <h4>IMPROVE SAFETY</h4>
+ <p>IMPROVE SAFETY</p>
  </div>
  <div className="logo" >
      <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826610/n1hlr8eju6xnfmv7fack.png'} alt="Picture of the author" />
 </div>
-<h4>Achieve ECo-Efficiency</h4>
+<p>Achieve ECo-Efficiency</p>
  </div>
 </div>
 

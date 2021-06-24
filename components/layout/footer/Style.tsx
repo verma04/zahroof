@@ -32,7 +32,8 @@ export const Foot = styled.footer`
   border-bottom: 2px solid black;
   h3 {
     color:#b2b2b3;
-    width: 20%;
+ margin-right: 1rem;
+ line-height: 1.4;
     text-transform: uppercase;
     text-align: left;
     

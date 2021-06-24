@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 22rem;;
+  height: 30rem;;
   background-color: #3c4e62;
   .tringle {
     position: absolute;
@@ -53,13 +53,15 @@ export const Section = styled.section`
   align-items: left;
   flex-direction: column;
   h2 {
-   width: 50%;
-   font-size: 1.7rem;;
+  width: 92%;
+   font-size: 2.875rem;
    color:#daaf1a;
   }
-  h4 {
+  p {
       color:white;
-    width: 70%;
+      font-size: 1.25rem;
+    width: 92%;
+    line-height: 1.4;
   }
   }
 
@@ -73,19 +75,21 @@ export const Section = styled.section`
   flex-direction: column;
   flex-wrap: wrap;
   .logo {
-      width: 40%;
-      height: 40%;
+      width: 50%;
+      height: 50%;
       display:flex;
      position: relative;
-      justify-content:space-between;
+      justify-content:space-evenly;
   align-items: center;
   flex-direction: column;
   .img-wrapper {
-      width: 100%;
-      height: 70%;
+    width: 50%;
+    height: 50%;
+    position: relative;
       position: relative;
   }
-  h4 {
+  p {
+    font-size: 1.25rem;
       margin-top: 0.5rem;;
       text-transform: uppercase;
       color: white;
