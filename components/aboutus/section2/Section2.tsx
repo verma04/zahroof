@@ -28,7 +28,7 @@ serving as the Principal Engineer at Cameron Compression Systems. Zahroof also s
  an Engineering Specialist at York International.
 </p>
 <p>
-Zahroof's specialty is the development of compressors, rotordynamics, bearing design, seals, vibration analysis and troubleshooting. He holds a BS in Mechanical Engineering from College of Engineering, Trivandrum, an MS in Mechanical Engineering from Texas A&M University and a diploma in International Management from IFL, Swedish Institute for Management.
+Zahroof`s specialty is the development of compressors, rotordynamics, bearing design, seals, vibration analysis and troubleshooting. He holds a BS in Mechanical Engineering from College of Engineering, Trivandrum, an MS in Mechanical Engineering from Texas A&M University and a diploma in International Management from IFL, Swedish Institute for Management.
 </p>
          
           
