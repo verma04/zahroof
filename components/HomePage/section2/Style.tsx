@@ -89,6 +89,8 @@ export const Section = styled.section`
       position: relative;
   }
   p {
+    height: 20%;
+   
     font-size: 1.25rem;
       margin-top: 0.5rem;;
       text-transform: uppercase;
