@@ -6,6 +6,8 @@ module.exports = {
     config.resolve.alias['@'] = path.resolve(__dirname);
     return config;
   },
+
+ 
   images: {
    
     domains: ['res.cloudinary.com'],
