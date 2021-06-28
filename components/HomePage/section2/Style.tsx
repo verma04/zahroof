@@ -82,7 +82,15 @@ export const Section = styled.section`
       justify-content:space-evenly;
   align-items: center;
   flex-direction: column;
+
+  
+    .img-wrapper:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
   .img-wrapper {
+    transition: transform 0.5s;
     width: 50%;
     height: 50%;
     position: relative;

@@ -30,7 +30,7 @@ export const Section = styled.section`
   position: relative;
   height: 50rem;
   width: 100%;
-  background-image: linear-gradient(#DBB42F, #FDDB45);
+  background-image: linear-gradient(#d8b642 , #DBB42F);
 
 margin-bottom: 3rem;;
 .section4_top_data {
@@ -69,7 +69,9 @@ width: 100%;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+ 
     .img-wrapper {
+      transition: transform 0.5s;
       position: relative;
       height: 3rem;;
       width: 5rem;;
@@ -161,7 +163,7 @@ height: 10%;
 }
 .section4_mid {
   position: relative;
-  height: 45rem;
+  height: 35rem;
   width: 100%;
   z-index: 1;
  
@@ -307,12 +309,18 @@ margin-bottom: 3rem;;
      justify-content: space-evenly;
      flex-direction: column;
      align-items: center;
+ 
      .img_wrapper {
-     
+      transition: transform 0.5s;
               width: 100%;
        height: 50%;
        position: relative;
      }
+     .img_wrapper:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
      h3 {
        color:white;
        z-index: 1;

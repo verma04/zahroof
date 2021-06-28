@@ -105,8 +105,73 @@ align-items: center;
    .section_bottom_set {
     width:50%;
     height: 100%;
+  
+position: relative;
+
+
+background-size: cover;
+background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624869738/yrjffyltl29cfvodqg3v.jpg");
+
+/* Set a specific height */
+background-size: cover;
+
+/* Create the parallax scrolling effect */
+
+background-position: center;
+background-repeat: no-repeat;
+.section_bottom_data {
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    h3 {
+        font-size: 1.5rem;
+        color: white;
+        text-transform: uppercase;
+    }
+    li {
+        position: relative;
+        transition: transform 0.5s;
+    }
+    li:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+    li:nth-child(1){
+        width: 12rem;
+        height: 12rem;
+
+    }
+    li:nth-child(3){
+        width: 4rem;
+        height: 4rem;
+
+    }
+} 
+
+}
+
+.section_bottom_set-1 {
+    width:50%;
+    height: 100%;
 
 position: relative;
+
+background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624868217/ibzsru9muqx3nfe0fnod.jpg");
+
+/* Set a specific height */
+
+
+/* Create the parallax scrolling effect */
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 .section_bottom_data {
     position: absolute;
     width: 100%;
@@ -120,6 +185,15 @@ position: relative;
         color: white;
         text-transform: uppercase;
     }
+    li {
+        position: relative;
+        transition: transform 0.5s;
+    }
+    li:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
     li {
         position: relative;
     

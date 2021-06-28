@@ -100,7 +100,7 @@ import  Navbar from '../../layout/navbar/navbar'
 
       <div className="section4_mid_left"  >
       <div className="img_wrapper" >
-    <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624458859/qkoz1cl3ifbtztwjmfav.png'} alt="Picture of the author" />
+    <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624865322/z3hbhgthaaeqa2oxqiwr.png'} alt="Picture of the author" />
           </div>
           </div>
           <div className="section4_mid_right"  >

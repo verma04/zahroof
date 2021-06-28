@@ -31,7 +31,7 @@ PERFORMANCE & SAFETY IN THE FIELD.
              
                <div  className="section_bottom_set" >
            
-               <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825063/vi3evrg4udh3r0iloqe8.png'} alt="sdd" />
+          
               
                <div className="section_bottom_data" >
                     <li>
@@ -51,9 +51,9 @@ PERFORMANCE & SAFETY IN THE FIELD.
                  
               
                  
-                   <div className="section_bottom_set" >
+                   <div className="section_bottom_set-1" >
                
-                   <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825062/zxseg6w0ag6fk3hfednl.png'} alt="" />
+                 
                
                 <div className="section_bottom_data" >
                     <li>

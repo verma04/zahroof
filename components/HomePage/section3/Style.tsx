@@ -44,11 +44,14 @@ background-size: cover;
 
     width: 38%;
     left: 31%;
+
+
    
    .img-wrapper {
      width: 100%;
      height: 100%;
      position: relative;
+     transition: transform 0.5s;
    }
  }
 
@@ -57,7 +60,7 @@ background-size: cover;
    height: 30%;
    top: 5%;
    width: 30%;
-   left:10%;
+   left:-4%;
   
    .img-wrapper {
      width: 100%;
@@ -71,7 +74,7 @@ background-size: cover;
    height: 30%;
    top: 5%;
    width: 30%;
-   right:10%;
+   right: -4%;
   
    .img-wrapper {
      width: 100%;

@@ -27,7 +27,7 @@ export const Foot = styled.footer`
    align-items: center;
   width:100%;
   align-items:center;
-  height: 6rem;
+  height: 8rem;
   background-color: #3c4e62;
   border-bottom: 2px solid black;
   h3 {
@@ -40,7 +40,7 @@ export const Foot = styled.footer`
   }
   form {
       
-      width: 40%;
+      width: 60%;
       height: 2.7rem;;
       display: flex;
       justify-content: center;
