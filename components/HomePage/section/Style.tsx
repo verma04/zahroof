@@ -100,7 +100,17 @@ h2 {
   justify-content:center;
 align-items: center;
    width:100%;
-   height:40rem;
+   height:45rem;
+   background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624878455/pzisvhvh6fwumcwbjrlr.jpg");
+
+/* Set a specific height */
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
    
    .section_bottom_set {
     width:50%;
@@ -109,16 +119,11 @@ align-items: center;
 position: relative;
 
 
-background-size: cover;
-background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624869738/yrjffyltl29cfvodqg3v.jpg");
 
-/* Set a specific height */
-background-size: cover;
 
 /* Create the parallax scrolling effect */
 
-background-position: center;
-background-repeat: no-repeat;
+
 .section_bottom_data {
    
     position: absolute;
@@ -162,12 +167,12 @@ background-repeat: no-repeat;
 
 position: relative;
 
-background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624869738/yrjffyltl29cfvodqg3v.jpg");
 
   width: 50%;
   height: 100%;
- 
-  background-attachment: fixed;
+  
+
+  
 
 .section_bottom_data {
     position: absolute;

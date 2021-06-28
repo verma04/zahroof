@@ -57,7 +57,7 @@ PERFORMANCE & SAFETY IN THE FIELD.
                
                 <div className="section_bottom_data" >
                     <li>
-                    <Image alt="sdds"         objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825004/zoxz3fifh8feamptksnx.png' />
+                    <Image alt="sdds"         objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624878382/y8xdconzmbz0jwrsbcvx.png' />
                     </li>
 
                     <li><h3>Field Operations</h3></li>
