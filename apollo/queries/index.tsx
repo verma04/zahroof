@@ -87,7 +87,7 @@ query MyQuery {
     enterprisefiveRightIcon
     enterprisefiveRightContent
   }
-}
+
 
 }
 `

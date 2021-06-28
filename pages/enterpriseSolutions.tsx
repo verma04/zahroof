@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from '../components/enterpriseSolution/enterprise'
-
+import withApollo from '../hoc/withApollo'
  const ValueasHero:React.FC = () => {
     return (
         <div>
@@ -10,4 +10,4 @@ import Home from '../components/enterpriseSolution/enterprise'
 }
 
 
-export default ValueasHero
+export default  withApollo(ValueasHero)
