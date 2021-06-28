@@ -18,8 +18,7 @@ export const Section = styled.section`
         width: 100%;
         position: relative;
         height: 46em;
-        overflow-x: hidden;
-  overflow-y: scroll;
+    
         .homePage-layer {
             position: absolute;
             width: 100%;
@@ -44,7 +43,7 @@ export const Section = styled.section`
   ul {
      width:60%;
   li {
-    
+      font-family: Proxima-Bold;
       font-size: 3.75rem;
       text-align:right;
       color:white;

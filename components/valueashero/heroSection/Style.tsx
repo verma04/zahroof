@@ -55,7 +55,7 @@ background-size: cover;
   
   li {
     margin-top:2rem;
-     
+    font-family: Proxima-Bold;
       font-size: 3.438rem;
       text-align:left;
       color:white;
@@ -86,7 +86,7 @@ background-size: cover;
 
 
      li {
-     
+      font-family: Proxima-Bold;
        width: 60%;
       text-align:left;
      }

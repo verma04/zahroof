@@ -32,6 +32,7 @@ align-items: center;
 
    height: 11rem;
    span {
+       font-family: Proxima-Light;
        width: 80%;
        font-size: 2.188rem;
        color:white;

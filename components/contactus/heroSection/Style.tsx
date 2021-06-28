@@ -56,7 +56,7 @@ background-size: cover;
       color:white;
       font-weight: 1000;
       text-transform: uppercase;
-      
+      font-family: Proxima-Bold;
   }
  
  }

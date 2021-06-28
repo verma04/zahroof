@@ -6,7 +6,7 @@ a {
   text-decoration: none; 
  color:#fafafb;
 
-  font-family: Proxima;
+  font-family: Proxima-Bold;
 } 
 
 div {
@@ -18,7 +18,7 @@ i {
   cursor: pointer;
 }
 label {
-  font-family: Proxima;
+  font-family: Proxima-Light;
 }
   body {
     color: #2f3435; 
@@ -47,7 +47,7 @@ button {
   padding:0.2rem;
   background-color: #0085C5;
   color:white;
-  font-family: Proxima;
+  font-family: Proxima-Bold;
 }
 /* Track */
  
@@ -73,16 +73,13 @@ button {
   img {
   cursor: pointer;
 }
-button {
-  cursor: pointer;
-  font-family: Proxima;
-}
+
 
  
   h1 {
     font-size: 1.65rem;
     line-height: var(--line-height-lg);
-  font-family: Proxima;
+  font-family: Proxima-Bold;
   color: #2f3435; 
   word-spacing:0.2rem;
   }
@@ -93,7 +90,7 @@ button {
     font-size: 1.4rem;
     line-height: var(--line-height-lg);
     color: ${props => props.theme.colors.grey};
-  font-family: Proxima;
+  font-family: Proxima-Bold;
   color: #2f3435; 
   word-spacing:0.2rem;
   line-height: 1.2;
@@ -102,17 +99,18 @@ button {
     font-size: 1.2rem;
     line-height: var(--line-height-lg);
     color: ${props => props.theme.colors.grey};
-    font-family: Proxima;
+font-family: Proxima-Bold;;
     color: #2f3435; 
     word-spacing:0.2rem;
     /* family=FiesoleTextW00-Italic */
   }
   p {
-    font-family: Proxima;
+    font-family: Proxima-Light;
     word-spacing:0.2rem;
     color: ${props => props.theme.colors.grey};
   }
   h4 {
+    font-family: Proxima-Bold;
     font-size: 1rem;
     line-height: var(--line-height-md);
     color: #2f3435; 
@@ -132,16 +130,16 @@ button {
     word-spacing:0.2rem;
   }
   input {
-    font-family: Proxima;
+    font-family: Proxima-Light;
   }
   textarea {
-    font-family: Proxima;
+    font-family: Proxima-Light;
   }
   p {
     font-size:1.2rem;
 line-height:1.1;
   
-    font-family: Proxima;
+    font-family: Proxima-Light;
     word-spacing:0.2rem;
     color: #2f3435; 
   }
@@ -171,17 +169,17 @@ code {
     }
   button {
 border-radius:5px;
-font-family: Proxima;
+font-family: Proxima-Bold;
 transition: transform .8s;
 
   }
   input {
-    font-family: Proxima;
+    font-family: Proxima-Bold;
     border:1px solid #EFEAE4;
   
   }
   span {
-  font-family: Proxima;
+  font-family: Proxima-Light;
   }
   i {
     color: ${props => props.theme.colors.darkBrown};
@@ -208,10 +206,10 @@ transition: transform .8s;
   a { 
     text-decoration: none; 
     color: ${props => props.theme.colors.darkBrown};
-  font-family: Proxima;
+  font-family: Proxima-Bold;
 } 
 button {
-  font-family: Proxima;
+  font-family: Proxima-Bold;
 }
 li {
   cursor: pointer;

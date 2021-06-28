@@ -45,7 +45,7 @@ z-index: 1;
       li {
         margin-top: 1rem;
       a {
-    
+       font-family: Proxima-Bold;
         font-size: 0.9rem;
         word-spacing: 0.2rem;;
         font-weight: 1000;
