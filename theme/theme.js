@@ -19,6 +19,7 @@ i {
 }
 label {
   font-family: Proxima-Light;
+  color: #505050
 }
   body {
     color: #2f3435; 
@@ -107,7 +108,7 @@ font-family: Proxima-Bold;;
   p {
     font-family: Proxima-Light;
     word-spacing:0.2rem;
-    color: ${props => props.theme.colors.grey};
+    
   }
   h4 {
     font-family: Proxima-Bold;
@@ -135,16 +136,19 @@ font-family: Proxima-Bold;;
   textarea {
     font-family: Proxima-Light;
   }
+  li {
+    font-family: Proxima-Light;
+  }
   p {
     font-size:1.2rem;
 line-height:1.1;
   
     font-family: Proxima-Light;
     word-spacing:0.2rem;
-    color: #2f3435; 
+    color: #505050;
   }
   select {
-  font-family: Proxima;
+  font-family: Proxima-Bold;
   color: #2f3435; 
   }
   

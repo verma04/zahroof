@@ -46,7 +46,7 @@ import "aos/dist/aos.css";
 <h2>Eco-Efficient</h2>
 </div>
 <div className="section3_right" >
-<h2>Eco-Freindly</h2>
+<h2>eco-friendly</h2>
 <a>Learn More</a>
 </div>
 </div>

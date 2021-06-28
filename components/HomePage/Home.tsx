@@ -6,6 +6,8 @@ import Section3 from './section3/Section3'
 import Section4 from './section4/Section4'
 import AboutUs from './aboutus/aboutus'
 import Footer from '../layout/footer/Footer'
+import MakeCall from   './makecall/makecall'
+
 
 // import withApollo from '@/hoc/withApollo'
 import { useGetHomePage } from '../../apollo/actions'
@@ -33,8 +35,9 @@ import { useGetHomePage } from '../../apollo/actions'
         <Section3/>
         <Section4/>
         <AboutUs/>
+        <MakeCall/>
         <Footer/>
-        dsdsd
+        
         </div>
     )
 }

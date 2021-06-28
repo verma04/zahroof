@@ -24,7 +24,7 @@ export const Section = styled.section`
 
 .aboutus {
   position: relative;
-  height: 30rem;
+  height: 26rem;
   width: 100%;
   z-index: 1;
   display:flex;
@@ -73,6 +73,7 @@ align-items: center;
       width: 100%;
       font-size: 1rem;
       line-height: 1.4;
+      font-family: Proxima-Bold;
     }
   
 }

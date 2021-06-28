@@ -17,22 +17,23 @@ import "aos/dist/aos.css";
             <Navbar/>
            
            <div className="homePage-hero" >
-           <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623820567/fw1lusinju10tx2bapi6.png'} alt="Picture of the herosection" />
+         
    
    <div className="homePage-layer" > 
 
    <div aos-duration="10000" data-aos="zoom-in" className="homePage-data" >
 
        <ul>
-          <li>Extraordinary </li> 
+          <span>Extraordinary </span> 
            
-           <li>Returns</li>
-          <li>From </li>
+           <span>Returns</span>
+           
+          <span> <li> From </li> </span>
           
        </ul>
        <ul className="text-right">
-        <li>Reimagined  </li>  
-         <li>  Engineering</li>  
+        <span>Reimagined  </span>  
+         <span>  Engineering</span>  
        </ul>
 
 

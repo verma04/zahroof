@@ -15,8 +15,9 @@ import  Navbar from '../../layout/navbar/navbar'
   
   
    <div className="section4_top_data" >
-       
-       <h2>Preformance Across Industries</h2>
+
+      
+       <h2>performance across industries</h2>
        <div className="section4_top_data_logos" >
        
         <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624519388/pbtbk5iocktyz4mbhw8j.png'} alt="Picture of the author" />
@@ -119,7 +120,12 @@ performance of all others in the industry.</p>
   </div>
   <div className="section4_bottom" >
 
-
+  <div className="img_absol" >
+       <div className="img_wrapper" >
+    <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624447543/bdegy1j9jkvghjbzxvxl.png'} alt="Picture of the author" />
+          </div>
+          </div>
+       
 
            <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624446661/zugr9ahadrsbvxmfoi2v.jpg'} alt="Picture of the author" />
           

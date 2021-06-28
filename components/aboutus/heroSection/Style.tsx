@@ -17,7 +17,17 @@ export const Section = styled.section`
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 30em;
+        height: 40em;
+        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000541/cphgw5dj87cn4bt8me67.png");
+
+/* Set a specific height */
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
         .homePage-layer {
             position: absolute;
             width: 100%;

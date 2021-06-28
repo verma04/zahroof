@@ -171,6 +171,7 @@ margin-bottom: 3rem;;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-bottom: 8rem;
 .section4_mid_left {
   display: flex;
   justify-content: center;
@@ -220,6 +221,7 @@ align-items: center;
       width: 70%;
       font-size: 1rem;
       line-height: 1.6;
+      font-family: Proxima-Bold;
     }
   
 }
@@ -276,6 +278,7 @@ margin-bottom: 3rem;;
       text-align: left;
       width: 50%;
       font-size: 1rem;
+      font-family: Proxima-Bold;
       line-height: 1.4;
     }
     .btn {
@@ -283,6 +286,7 @@ margin-bottom: 3rem;;
       z-index: 1;
       text-align: left;
       width: 50%;
+
       button {
         font-size:1rem;
         padding: 1rem;;
@@ -332,6 +336,16 @@ margin-bottom: 3rem;;
   
   
 }
+
+}
+.img_absol {
+  position: absolute;
+   
+    width: 15rem;
+    height: 9rem;
+    z-index: 1;
+    right: 24%;
+    top: -129px;
 
 }
 

@@ -162,16 +162,13 @@ background-repeat: no-repeat;
 
 position: relative;
 
-background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624868217/ibzsru9muqx3nfe0fnod.jpg");
+background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624869738/yrjffyltl29cfvodqg3v.jpg");
 
-/* Set a specific height */
+  width: 50%;
+  height: 100%;
+ 
+  background-attachment: fixed;
 
-
-/* Create the parallax scrolling effect */
-
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
 .section_bottom_data {
     position: absolute;
     width: 100%;
