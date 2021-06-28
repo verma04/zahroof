@@ -1,13 +1,13 @@
 import React from 'react'
 import Home from '../components/HomePage/Home'
-
- const Contactus:React.FC = () => {
+import withApollo from '../hoc/withApollo'
+ const homePage:React.FC = () => {
     return (
         <div>
             <Home/>
         </div>
-    )
+)
 }
 
 
-export default Contactus
+export default  withApollo(homePage)

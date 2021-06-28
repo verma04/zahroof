@@ -6,7 +6,25 @@ import Section3 from './section3/Section3'
 import Section4 from './section4/Section4'
 import AboutUs from './aboutus/aboutus'
 import Footer from '../layout/footer/Footer'
+
+// import withApollo from '@/hoc/withApollo'
+import { useGetHomePage } from '../../apollo/actions'
  const Home: React.FC<{}> = () => {
+
+    const { data , loading , error } = useGetHomePage();
+
+    const cafes = data && data.cafes || [];
+
+    console.log(data)
+  
+    if(  loading ) {
+        return (
+            null
+        )
+    }
+
+
+
     return (
         <div>
         <HeroSection/>
@@ -16,6 +34,7 @@ import Footer from '../layout/footer/Footer'
         <Section4/>
         <AboutUs/>
         <Footer/>
+        dsdsd
         </div>
     )
 }
