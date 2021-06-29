@@ -5,6 +5,8 @@ import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import { Parallax, Background } from "react-parallax";
+const image = 'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624439858/m3sfku5fc0vyzjveyony.png'
  const HeroSection: React.FC<{}> = () => {
     useEffect(() => {
  
@@ -14,8 +16,9 @@ import "aos/dist/aos.css";
       }, []);
     return (
         <Section>
+
             <Navbar/>
-           
+            <Parallax bgImage={ image} strength={500}>
            <div className="homePage-hero" >
            {/* <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624439858/m3sfku5fc0vyzjveyony.png'} alt="Picture of the herosection" /> */}
    
@@ -25,7 +28,7 @@ import "aos/dist/aos.css";
 </div>
 
            </div>
-            
+            </Parallax>
         </Section>
     )
 }

@@ -13,12 +13,14 @@ export const Section = styled.section`
    
   
    @media (min-width: 1281px) {
-  
+    .react-parallax  {
+  width: 100%;
+}
     .homePage-hero {
       width: 100%;
         position: relative;
         height: 46em;
-        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1623820567/fw1lusinju10tx2bapi6.png");
+        
 
 /* Set a specific height */
 

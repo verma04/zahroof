@@ -4,6 +4,8 @@ import { Section} from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 import { Parallax, Background } from "react-parallax";
+const image1 =
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624962883/uxzaanpi54cyn99jpz6g.jpg";
  const HeroSection: React.FC<{}> = () => {
     return (
       
@@ -25,10 +27,10 @@ PERFORMANCE & SAFETY IN THE FIELD.
                    </span>
                    <div className="tringle" ></div>
                    </div>
-               </div>
+           </div>
+                <Parallax bgImage={ image1 } strength={500}>
+               <div style={{ height: "45rem" , width:'100%' }} className="section_bottom" >
               
-               <div className="section_bottom" >
-             
                <div  className="section_bottom_set" >
            
           
@@ -70,7 +72,11 @@ PERFORMANCE & SAFETY IN THE FIELD.
                
                    </div>
                </div>
-         
+               </Parallax>
+        
+        
+   
+       
            </div>
             
         </Section>
