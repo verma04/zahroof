@@ -51,11 +51,7 @@ const Navbar: React.FC<{}> = () => {
        
         <div  className="nav-sm" >
       <div  className="nav-item" >
-    <div className="nav-left" >
-   
-    <i className="fas fa-bars"></i>
-
-    </div>
+    
     <div onClick={() => router.push('/') } className="nav-center" >
      
     <Image    layout="fill" objectFit="contain"  alt="Zahroof Logo" src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png" ></Image>
@@ -65,7 +61,7 @@ const Navbar: React.FC<{}> = () => {
     <div className="nav-right" >
 
 
-    
+    <i className="fas fa-bars"></i>
 
 
     </div>

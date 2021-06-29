@@ -89,19 +89,19 @@ z-index: 1;
 .nav-sm {
     width:100%;
    height: 100%;
-   border: 1px solid red;
+   
     display:flex;
   justify-content:center;
   align-items:center;
   
   .nav-item {
   display:flex;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items:center;
-  width:100%;
+  width:95%;
   height:100%;
   .nav-left {
-    
+      
     i {
     font-size:1.5rem;
     color:white;
@@ -111,7 +111,7 @@ z-index: 1;
   .nav-right {
    
     i {
-    font-size:1.5rem;
+    font-size:1.8rem;
     color:white;
   }
  
@@ -122,7 +122,7 @@ z-index: 1;
     display:flex;
   justify-content:center;
   align-items:center;
-  width:26%;
+  width:40%;
   
   height:100%;
    position: relative;
