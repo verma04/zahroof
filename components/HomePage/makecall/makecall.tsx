@@ -55,23 +55,23 @@ import Image from 'next/image'
             <div className="input-field" >
 
             <div className="field" >
-                <label>Name*</label>
-         <input></input>
+               
+         <input placeholder="Your Name" ></input>
                 </div>
                 <div className="field" >
                
-         <input></input>
+         <input  placeholder="Your Email" ></input>
                 </div>
 
             </div>
             <div className="input-field" >
             <div className="field" >
-                <label>Phone*</label>
-         <input></input>
+                
+         <input  placeholder="Subject" ></input>
                 </div>
                 <div className="field" >
-                <label>Company*</label>
-         <input></input>
+                
+         <input  placeholder="Departmnet" ></input>
                 </div>
 
                 </div>
@@ -80,8 +80,8 @@ import Image from 'next/image'
                 <div className="input-field-1" >
 
                 <div className="field" >
-                <label>Location*</label>
-         <textarea></textarea>
+                
+         <textarea  placeholder="Message"></textarea>
                 </div>
                 
                 </div>

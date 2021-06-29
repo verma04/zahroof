@@ -180,7 +180,12 @@ transition: transform .8s;
   input {
     font-family: Proxima-Bold;
     border:1px solid #EFEAE4;
-  
+  padding: 0.5rem;
+  }
+  textarea {
+    font-family: Proxima-Bold;
+    border:1px solid #EFEAE4;
+    padding: 0.5rem;
   }
   span {
   font-family: Proxima-Light;
