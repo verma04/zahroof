@@ -330,6 +330,19 @@ h3 {
 
    }
 
+   @media (max-width: 767px) {
+    display: none;
+  width:100%;
+  height: 10rem;
+ 
+
+  
+
+
+
+ }
+  
+
   
 
  
