@@ -39,7 +39,7 @@ bottom line.
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826616/ogbrcspxakpbenzt7pwo.png'} alt="Picture of the author" />
 </div>
- <p>INCREASE PRODUCTION
+ <p>INCREASE PRODUCTION<br/>
 & THROUGHPUT </p>
  </div>
 
@@ -47,7 +47,7 @@ bottom line.
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623826616/rn5iqp4vg0srfc4wzwoa.png'} alt="Picture of the author" />
  </div>
- <p>DRAMATICALLY
+ <p>DRAMATICALLY<br/>
 IMPROVE RELIABILITY</p>
  </div>
  <div className="logo" >

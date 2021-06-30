@@ -12,7 +12,8 @@ import  Navbar from '../../layout/navbar/navbar'
            <div className="section4" >
                <div className="section4_top" >
           
-  
+               <div className="tringle" >
+                  </div>
   
    <div className="section4_top_data" >
 

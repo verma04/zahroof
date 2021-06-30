@@ -33,6 +33,18 @@ export const Section = styled.section`
   background-image: linear-gradient(#d8b642 , #DBB42F);
 
 margin-bottom: 3rem;;
+
+.tringle {
+  position: absolute;
+    right: 10%;
+    width: 0;
+    bottom: -7%;
+    height: 0;
+    border-left: 6rem solid transparent;
+    border-right: 6rem solid transparent;
+    border-top: 4rem solid #DBB42F;
+    z-index: 1;
+} 
 .section4_top_data {
   display: flex;
   justify-content: flex-start;
