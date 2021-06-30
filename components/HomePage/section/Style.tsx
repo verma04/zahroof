@@ -27,9 +27,8 @@ export const Section = styled.section`
   .section_top {
     display:flex;
   justify-content:center;
-align-items: center;
+  align-items: center;
    width:100%;
-
    height: 11rem;
    span {
        font-family: Proxima-Light;
@@ -103,7 +102,7 @@ h2 {
   justify-content:center;
 align-items: center;
    width:100%;
-   height:45rem;
+   height:800px;
   
 
 /* Set a specific height */
