@@ -47,7 +47,7 @@ position: relative;
   h2 {
   color:  #24334d;
    position: relative;
-   padding-left: 0.5rem;
+   padding-left: 2rem;
    font-size: 3.4rem;;
   text-transform: uppercase;
    position: relative;
@@ -66,7 +66,7 @@ position: relative;
   p {
     width: 95%;
     color:white;
-
+    padding-left: 2rem;
     line-height: 2;
     color:black;
   }

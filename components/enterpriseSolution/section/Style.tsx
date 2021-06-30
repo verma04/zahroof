@@ -60,7 +60,7 @@ text-transform: uppercase;
   p {
     width: 80%;
     color:white;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     line-height: 1.6;
     position: relative;
   }
@@ -138,7 +138,7 @@ text-transform: uppercase;
   p {
     width: 80%;
     margin-top:2rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     line-height: 1.6;
     position: relative;
   }
@@ -177,7 +177,7 @@ text-transform: uppercase;
   h2 {
     width: 90%;
    
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     line-height: 1.6;
     position: relative;
     text-transform: uppercase;
@@ -188,7 +188,7 @@ text-transform: uppercase;
     position: absolute;
     content: '';
     display: block;
-    height: 100%;
+    height: 90%;
     width: 0.4rem;
     top: 0;
     left: -0.3rem;

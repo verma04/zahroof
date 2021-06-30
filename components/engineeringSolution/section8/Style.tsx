@@ -81,25 +81,16 @@ align-items: center;
   h2 {
   text-transform: uppercase;
    position: relative;
-   padding-left: 0.5rem;
+   
    font-size: 3.4rem;;
    color:white;
    position: relative;
   }
-  h2:after {
-   position:absolute;
-   content: '';
-   display: block;
-   height: 100%;
-   width: 0.4rem;;
-   top:0;
-   left:-0.3rem;
-  background-color:#daaf1a;
-
-  }
+ 
   p {
     color:white;
     line-height: 2;
+    
   }
   h3 {
     line-height: 1.1;

@@ -14,7 +14,10 @@ import  Navbar from '../../layout/navbar/navbar'
 
                <div className="section_bottom" >
                <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png'} alt="Picture of the author" />
-               <div className="section2_data" >  <div className="section2_data_left"  >
+               <div className="section2_data" >  
+               
+               
+               <div className="section2_data_left"  >
 
 <h2>Superior performance
 fewer failures 
@@ -27,6 +30,18 @@ Whether you’re doing equipment service call-outs yourself or managing those wh
  
 
            <div className="section2_data_right"  >
+
+
+<div className="top" > 
+<h2>5x-25x</h2>
+<span>mean time between failure</span>
+</div>
+
+
+<div className="top" >
+    
+<h2>3-15%</h2>
+<span>increased throughput</span> </div>
      
       </div>
              

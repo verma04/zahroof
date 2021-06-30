@@ -20,10 +20,26 @@ Reliability </h2>
 </div>
  
 
-           <div className="section2_data_right"  >
+<div className="section2_data_right"  >
+
+
+<div className="top" > 
+<h2>10</h2>
+<h3>Year</h3>
+<span>Limited Warranty <br/> Stainless Housing</span>
+</div>
+
+
+<div className="top" >
+    
+<h2>5</h2>
+<h3>Year</h3>
+<span>Limited Warranty <br/> For transmission Apps</span> </div>
      
       </div>
              
+     
+            
      
                    
                    </div>

@@ -50,7 +50,7 @@ align-items: center;
   h2 {
   
    position: relative;
-   padding-left: 0.5rem;
+   padding-left: 1rem;
    font-size: 2.8rem;;
 text-transform: uppercase;
    position: relative;

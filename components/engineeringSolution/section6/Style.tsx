@@ -57,7 +57,7 @@ background-color: #dbb43f;;
   h2 {
   color:  #24334d;
    position: relative;
-   padding-left: 0.5rem;
+   padding-left: 2rem;
    font-size: 3.3rem;;
 text-transform: uppercase;
    position: relative;
@@ -76,7 +76,7 @@ text-transform: uppercase;
   p {
     width: 100%;
     color:white;
-
+    padding-left: 2rem;
     line-height: 2;
     color:black;
   }
@@ -90,19 +90,46 @@ text-transform: uppercase;
   .section2_data_right {
   
 
-    display:flex;
-    width: 45%;
-    height: 100%;
-  justify-content:space-around;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  .img-wrapper { 
-  position: relative;
-  width: 80%;
-    height: 80%;
-  }
-  }
+  display:flex;
+  width: 50%;
+  height: 80%;
+justify-content:space-between;
+align-items: center;
+
+flex-wrap: wrap;
+.top {
+width: 50%;
+height: 15%;
+display:flex;
+justify-content:space-around;
+align-items: center;
+flex-direction: column;
+h2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 7rem;;
+  text-transform: uppercase;
+}
+h3{
+  
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 4rem;;
+  text-transform: uppercase;
+
+}
+span {
+  width: 100%;
+
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color:white;
+}
+}
+}
  }
  
 

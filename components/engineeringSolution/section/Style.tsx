@@ -52,7 +52,7 @@ align-items: center;
   h2 {
   color: white;
    position: relative;
-   padding-left: 0.5rem;
+   padding-left: 2rem;
    font-size: 3.4rem;;
 text-transform: uppercase;
    position: relative;
@@ -71,7 +71,7 @@ text-transform: uppercase;
   p {
     width: 100%;
     color:white;
-
+    padding-left: 2rem;
     line-height: 2;
   
   }
@@ -87,15 +87,32 @@ text-transform: uppercase;
 
     display:flex;
     width: 45%;
-    height: 100%;
+    height: 80%;
   justify-content:space-around;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  .img-wrapper { 
-  position: relative;
+  .top {
   width: 80%;
-    height: 80%;
+  height: 20%;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 5rem;;
+  }
+  span {
+    width: 100%;
+    font-family: Proxima-Bold;
+    text-align: left;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color:white;
+  }
   }
   }
  }
