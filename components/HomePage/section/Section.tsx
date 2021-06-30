@@ -5,7 +5,11 @@ import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 import { Parallax, Background } from "react-parallax";
 const image1 =
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624878455/pzisvhvh6fwumcwbjrlr.jpg";
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624859749/cawdyff1kgtdbfyrmxcu.jpg";
+
+
+  const image2 =
+  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624859749/sdouzbuocrwq67wffz95.jpg";
  const HeroSection: React.FC<{}> = () => {
     return (
       
@@ -28,11 +32,16 @@ PERFORMANCE & SAFETY IN THE FIELD.
                    <div className="tringle" ></div>
                    </div>
            </div>
-                <Parallax bgImage={ image1 } strength={500}>
-               <div  className="section_bottom" >
               
+               <div  className="section_bottom" >
+               <Parallax bgImage={ image1 } strength={500}>
                <div  className="section_bottom_set" >
            
+
+             
+
+
+
           
               
                <div className="section_bottom_data" >
@@ -50,10 +59,10 @@ PERFORMANCE & SAFETY IN THE FIELD.
               
 
                    </div>
-                 
+                 </Parallax>
               
-                 
-                   <div className="section_bottom_set-1" >
+                 <Parallax bgImage={ image2 } strength={500}>
+                   <div className="section_bottom_set" >
                
                  
                
@@ -71,8 +80,9 @@ PERFORMANCE & SAFETY IN THE FIELD.
                
                
                    </div>
+                   </Parallax>
                </div>
-               </Parallax>
+              
         
         
    

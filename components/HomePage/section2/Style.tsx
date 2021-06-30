@@ -30,11 +30,13 @@ export const Section = styled.section`
     position: absolute;
     left: 10%;
     width: 0;
-    bottom: -5%;
+   
+    bottom: -12%;
+
     height: 0;
-    border-left: 3rem solid transparent;
-    border-right: 3rem solid transparent;
-    border-top: 2rem solid #3c4e62;
+    border-left: 6rem solid transparent;
+    border-right: 6rem solid transparent;
+    border-top: 4rem solid #3c4e62;
     z-index: 1;
 } 
    
@@ -169,7 +171,7 @@ width: 100%;
 }
 p {
     color:white;
-    font-size: 1rem;
+    font-size: 1.2rem;
   width: 100%;
   line-height: 1.2;
 }

@@ -94,9 +94,7 @@ h2 {
 
   }       
 
-.react-parallax  {
-  width: 100%;
-}
+
   .section_bottom {
     display:flex;
   justify-content:center;
@@ -113,17 +111,18 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+.react-parallax  {
+  width: 50%;
+}
    
    .section_bottom_set {
-    width:50%;
-    height: 100%;
+    width:100%;
+    height:800px;
+  
   
 position: relative;
 
 
-
-
-/* Create the parallax scrolling effect */
 
 
 .section_bottom_data {

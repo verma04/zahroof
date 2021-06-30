@@ -23,6 +23,7 @@ export const Section = styled.section`
 
 
 .aboutus {
+  background: #fbfbfb;
   position: relative;
   height: 26rem;
   width: 100%;
@@ -53,15 +54,16 @@ align-items: center;
      text-align: left;
      width: 100%;
      position: relative;
-     font-size: 2.875rem;;
+     font-size: 2.9rem;;
+     padding-left: 0.7rem;
      text-transform: uppercase;
       
    }
    h2:after {
      position: absolute;
-      width: 0.25rem;;
+      width: 0.35rem;;
     display: block;
-    height: 100%;
+    height: 90%;
     left: -1%;
     top:0%;
     background: #dcb01a;
@@ -131,9 +133,9 @@ align-items: center;
    }
    h2:after {
      position: absolute;
-      width: 0.25rem;;
+      width: 0.3rem;;
     display: block;
-    height: 100%;
+    height: 90%;
     left: -1%;
     top:0%;
     background: #dcb01a;

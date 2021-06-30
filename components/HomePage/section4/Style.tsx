@@ -28,7 +28,7 @@ export const Section = styled.section`
 
 .section4_top {
   position: relative;
-  height: 50rem;
+  height: 55rem;
   width: 100%;
   background-image: linear-gradient(#d8b642 , #DBB42F);
 
@@ -53,7 +53,7 @@ margin-bottom: 3rem;;
 
   
 width: 100%;
-margin-top:2%;
+margin-top:4%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,13 +74,13 @@ margin-top:2%;
     .img-wrapper {
       transition: transform 0.5s;
       position: relative;
-      height: 3rem;;
+      height: 4rem;;
       width: 5rem;;
     }
     span {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color:white
     }
 
@@ -97,7 +97,7 @@ margin-top:2%;
  #gasses {
   position: absolute;
 
-  top: 11%;
+  top: 12%;
 
 width: 10%;
 height: 10%;
@@ -105,15 +105,16 @@ height: 10%;
  #Lng {
   position: absolute;
   position: absolute;
-    top: 68%;
-    left: 35%;
+  top: 64%;
+    left: 31%;
+
     height: 10%;
 height: 10%;
  }
  #industry {
   position: absolute;
-  top: 31%;
-    left: 31%;
+  top: 26%;
+    left: 29%;
 
 width: 10%;
 height: 10%;
@@ -121,16 +122,16 @@ height: 10%;
  #Refineries {
   position: absolute;
 
-  top: 50%;
-  left: 29%;
+  top: 46%;
+    left: 25%;
 width: 10%;
 height: 10%;
  }
  #Cng {
   position: absolute;
 
-  top: 31%;
-    left: 57%;
+  top: 27%;
+    left: 59%;
 
 width: 10%;
 height: 10%;
@@ -138,30 +139,36 @@ height: 10%;
  #Oil {
   position: absolute;
  
-  top: 50%;
-    left: 60%;
+ 
+  top: 46%;
+    left: 63%;
+
 
 width: 10%;
 height: 10%;
  }
  #hydrogen {
   position: absolute;
-  top: 65%;
-    left: 58%;
+ 
+  top: 64%;
+    left: 61%;
+
 width: 10%;
 height: 10%;
  }
  #chemical {
   position: absolute;
-  top: 76%;
+  top: 79%;
     left: 51%;
 width: 10%;
 height: 10%;
  }
  #offshore {
   position: absolute;
-  top: 76%;
-    left: 42%;
+ 
+  top: 79%;
+    left: 38%;
+
 
 width: 10%;
 height: 10%;
@@ -173,7 +180,7 @@ height: 10%;
 }
 .section4_mid {
   position: relative;
-  height: 35rem;
+  height: 50rem;
   width: 100%;
   z-index: 1;
  
@@ -189,7 +196,7 @@ margin-bottom: 8rem;
   justify-content: flex-end;
   align-items: center;
    width:50%;
-   height:100%;
+   height:80%;
    .img_wrapper {
      width: 100%;
      height: 100%;
@@ -202,7 +209,7 @@ margin-bottom: 8rem;
   display: flex;
   justify-content: center;
   display: flex;
-  justify-content:space-evenly;
+  justify-content:center;
   flex-direction: column;
   align-items: center;
    width:50%;
@@ -213,7 +220,7 @@ margin-bottom: 8rem;
      width: 70%;
      position: relative;
      font-size: 2.813rem;
-     
+     color:#2b4056;
    }
    h2:after {
      position: absolute;
@@ -227,9 +234,10 @@ margin-bottom: 8rem;
     content: '';
 }
     p {
+      margin-top:2rem;
       text-align: left;
       width: 70%;
-      font-size: 1rem;
+      font-size: 1.2rem;
       line-height: 1.6;
       font-family: Proxima-Bold;
     }
@@ -240,7 +248,7 @@ margin-bottom: 8rem;
 
 .section4_bottom {
   position: relative;
-  height: 40rem;
+  height: 50rem;
   width: 100%;
   z-index: 1;
  
@@ -269,13 +277,14 @@ margin-bottom: 3rem;;
      position: relative;
      font-size: 2.813rem;
       color:white;
+      padding-left: 0.7rem;
      
    }
    h2:after {
      position: absolute;
-      width: 0.25rem;;
+      width: 0.35rem;;
     display: block;
-    height: 100%;
+    height: 90%;
     left: -5%;
     top:0%;
     background: #dcb01a;
@@ -287,7 +296,7 @@ margin-bottom: 3rem;;
       z-index: 1;
       text-align: left;
       width: 50%;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-family: Proxima-Bold;
       line-height: 1.4;
     }
@@ -337,6 +346,7 @@ margin-bottom: 3rem;;
 }
      h3 {
        color:white;
+      color: #f2e7c9;
        z-index: 1;
      }
    }
@@ -350,12 +360,11 @@ margin-bottom: 3rem;;
 }
 .img_absol {
   position: absolute;
-   
-    width: 15rem;
-    height: 9rem;
+    width: 20rem;
+    height: 15rem;
     z-index: 1;
     right: 24%;
-    top: -129px;
+    top: -201px;
 
 }
 
@@ -438,7 +447,7 @@ position: relative;
   span {
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   color:white
   }
 
@@ -693,6 +702,7 @@ transform: scale(1.1);
    h3 {
      color:white;
      z-index: 1;
+     color:#f2e7c9;
    }
  }
  

@@ -4,6 +4,12 @@ import styled from 'styled-components'
 
 export const Foot = styled.footer` 
 
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+
   display:flex;
   justify-content:center;
    flex-direction:column;
@@ -40,7 +46,7 @@ export const Foot = styled.footer`
   }
   form {
       
-      width: 60%;
+      width: 40%;
       height: 2.7rem;;
       display: flex;
       justify-content: center;
@@ -50,11 +56,15 @@ export const Foot = styled.footer`
       width: 90%;
       height: 90%;
       border: none;
-      color:#fafafb;
+      color:white;
       font-weight: 1000;
       font-style: 1.2rem;
       padding-left: 2rem;
       background-color: black;
+      ::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
       }
       .message {
         width: 10%;
@@ -72,14 +82,14 @@ export const Foot = styled.footer`
    align-items: center;
   width:100%;
   align-items:center;
-  height: 8rem;
+  height: 13rem;
   background-color: #3c4e62;
   border-bottom: 2px solid black;
   .footer-top {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-      width: 70%;
+      width: 50%;
       height: 70%;
   
 

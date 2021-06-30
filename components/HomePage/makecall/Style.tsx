@@ -15,7 +15,7 @@ export const Section = styled.section`
    @media (min-width: 1281px) {
   
     .section {
-      
+      margin-bottom: 3rem;;
         position: relative;
      
         display:flex;
@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
    
-  height:40rem;
+  height:30rem;
 
 
    
@@ -40,8 +40,9 @@ export const Section = styled.section`
     flex-direction: column;
     align-items: center;
     label {
-        color: #505050;
+        color:#7c7c7c;
     }
+    
    
    .section_left {
        width: 100%;
@@ -77,7 +78,7 @@ export const Section = styled.section`
     height: 10px;
     display: block;
     width: 10%;
-    background: ${props => props.theme.colors.yellow};
+    background: #0f5885;
     border-left: 1px white;
     content: '';
 }
@@ -86,7 +87,7 @@ export const Section = styled.section`
                text-align: right;
                
              
-                   color: #505050;
+                   color: #7c7c7c;
 
                line-height: 1.5;
            }
@@ -106,7 +107,7 @@ export const Section = styled.section`
     height: 10px;
     display: block;
     width: 100%;
-    background: ${props => props.theme.colors.yellow};
+    background: #0f5885;
     border-top: 1px white;
     content: '';
 }
@@ -131,7 +132,7 @@ h3 {
    }
    .section_right {
      
-       width: 50%;
+       width: 70%;
        height: 80%;
        display: flex;
        justify-content: center;
@@ -140,42 +141,43 @@ h3 {
        .icon {
          width: 20%;
          height : 100%;
-         
+          
          display: flex;
          justify-content:flex-start;
          flex-direction: column;
          align-items: center;
          ul {
-             margin-top: 3rem;
+            
              width: 100%;
-             height: 20%;
-             
+             height: 40%;
              display: flex;
-             justify-content: space-evenly;
+             justify-content:center;
              align-items: center;
              flex-direction: column;
-   li:nth-child(1) {
+             li:nth-child(1) {
              
                  position: relative;
                  height: 2rem;
                  width: 100%;
              }
              li {
+                 margin-top: 1rem;
                 font-family: Proxima-Bold;
                  width: 100%;
                  text-align: center;
-                 color: #505050;
+                 color: #7c7c7c;
              }
 
          }
        }
        .form {
         width: 80%;
-        height: 70%;
+        height: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         input {
             opacity: 0.8;    
+            background: #f8f8f8;
         }
         textarea {
             opacity: 0.8;    
@@ -184,6 +186,7 @@ h3 {
             opacity: 0.8;  
         }
         form {
+            
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -194,7 +197,7 @@ h3 {
               flex-direction: column;
               .input-field {
                   width: 100%;
-                  height: 20%;
+                  height: 23%;
                  
                   display: flex;
                   justify-content: space-between;
@@ -231,7 +234,7 @@ h3 {
                       input {
                           width: 100%;
                           height: 60%;
-                          background-color: #c1c4ca;
+                          background-color: #f8f8f8;
                           border-radius:5px;
 
                       }
@@ -248,7 +251,7 @@ h3 {
                       input {
                           width: 100%;
                           height: 60%;
-                          background-color: #c1c4ca;
+                          background-color: #f8f8f8;
                           border-radius:5px;
 
                       }
@@ -258,7 +261,7 @@ h3 {
               }
               .input-field-1{
                   width: 100%;
-                  height: 30%;
+                  height: 40%;
                  
                   display: flex;
                   justify-content: space-between;
@@ -274,7 +277,7 @@ h3 {
                       textarea {
                           width: 100%;
                           height: 80%;
-                          background-color: #c1c4ca;
+                          background-color: #f8f8f8;
                           border-radius:5px;
 
 
@@ -301,12 +304,12 @@ h3 {
                       select {
                           width: 100%;
                           height: 60%;
-                          background-color: #c1c4ca;
+                          background-color: #f8f8f8;
                           border-radius:5px;
 
                       }
                       label {
-                          color: #505050;;
+                          color: #7c7c7c;;
                       }
                   }
 

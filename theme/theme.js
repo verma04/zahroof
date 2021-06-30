@@ -19,7 +19,7 @@ i {
 }
 label {
   font-family: Proxima-Light;
-  color: #505050
+  color: #7c7c7c;
 }
   body {
     color: #2f3435; 
@@ -145,7 +145,7 @@ line-height:1.1;
   
     font-family: Proxima-Light;
     word-spacing:0.2rem;
-    color: #505050;
+    color: #7c7c7c;
   }
   select {
   font-family: Proxima-Bold;
