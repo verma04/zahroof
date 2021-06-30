@@ -53,10 +53,11 @@ margin-bottom: 3rem;;
 
   
 width: 100%;
+margin-top:2%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 50%;
   position: relative;
 
 
@@ -84,6 +85,15 @@ width: 100%;
     }
 
  }
+ .icon {
+  transition: transform 0.5s;
+ }
+ .icon:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+
+}
  #gasses {
   position: absolute;
 
