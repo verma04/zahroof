@@ -19,7 +19,7 @@ export const Section = styled.section`
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 40em;
+        height: 50em;
 
        
 

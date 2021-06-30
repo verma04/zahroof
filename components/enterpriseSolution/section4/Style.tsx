@@ -33,7 +33,7 @@ flex-direction: column;
    background-color: #3b546a;
    height: 20rem;
    h3 {
-     font-size: 2rem;;
+     font-size: 4rem;;
      width: 60%;
      line-height: 1.3;
      color: #dbb43f;
@@ -42,7 +42,8 @@ flex-direction: column;
         font-family: 'Caveat';
    }
    span {
-    font-size: 1.3rem;;
+    font-family: 'Caveat';
+    font-size: 2rem;;
      width: 60%;
      line-height: 1.3;
      color: #dbb43f;

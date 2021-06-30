@@ -21,7 +21,7 @@ export const Section = styled.section`
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 40em;
+        height: 50em;
         .homePage-layer {
             position: absolute;
             width: 100%;

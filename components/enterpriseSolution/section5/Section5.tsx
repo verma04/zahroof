@@ -9,33 +9,35 @@ import  Navbar from '../../layout/navbar/navbar'
         <Section>
         
            
-           <div className="section4" >
-          
-           <div className="section2_data" >
-           <div className="section2_data_right"  >
-               <div  className="img-wrapper" > 
-      <Image   alt="Picture of the author"   objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624355241/kz4jyzl52yocggw1ol9a.png'} />
-      </div>
-      </div>
-             
-  <div className="section2_data_left"  >
+           <div className="section" >
+               
 
-      <h2>Serviced On site 
-in Minutes</h2>
-      <p>While conventional valves must be <br/> swapped and sent out for 
-machining, StraightFloTM valves can be refurbished on site without  <br/>
-special tools or skilled labor. They re as easy to service offshore as on dry land. And with no need to stockpile spare valves, you can reduce inventory by more than 80</p>
-  
-      </div>
-            
+               <div className="section_top" >
+             
+               <div className="section2_data" >  <div className="section2_data_left"  >
+
+<h2>So what is this amazing 
+technology you ask?
+ </h2>
+<p>
+It might surprise you. In fact, it might be something you haven’t considered at all. But fact is, until we turned the industry on its ear, compressor valves had been designed the same way for over 70 years. 
+</p>
+
+</div>
+ 
+
+       
+             
+     
                    
                    </div>
                    
-                   
-           <div className="tringle" >
-                  </div>
-
-</div>
+             
+              
+               </div>
+         
+        
+           </div>
             
         </Section>
     )

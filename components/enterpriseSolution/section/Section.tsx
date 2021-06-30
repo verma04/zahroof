@@ -12,7 +12,7 @@ import  Navbar from '../../layout/navbar/navbar'
            <div className="section" >
                
 
-               <div className="section_bottom" >
+               <div className="section_top" >
                <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png'} alt="Picture of the author" />
                <div className="section2_data" >  <div className="section2_data_left"  >
 
@@ -33,6 +33,37 @@ So instead of delving into the details of how we do what we do, we’ll topline 
                    </div>
                    
              
+              
+               </div>
+         
+               <div className="section_bottom" >
+           
+               <div className="section2_data" >  <div className="section2_data_left"  >
+
+<h2>Essentially, <br/>
+we built a <br/>
+better mousetrap.  </h2>
+<p>
+We’ve changed the way gas is compressed, transferred, processed, and
+distributed. Our product greatly improves operational performance, boosts profitability, lowers costs and reduces emissions. 
+</p>
+
+</div>
+ 
+
+       
+             
+     
+                   
+                   </div>
+                 
+                 <div className="absol-bottom" >
+                 <h2>Zahroof customers regularly <br/>
+see results like these </h2>
+                     </div>  
+             
+                     <div className="triangle-down"></div>
+
               
                </div>
          

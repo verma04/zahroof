@@ -6,6 +6,7 @@ import Section3 from './section3/Section3'
 
 import Section4 from './section4/Section4'
 import Section5 from './section5/Section5'
+import Section7 from './section7/Section&'
 import Section6 from './section6/Section6'
 import Footer from '../layout/footer/Footer'
 import { useGetHomePage } from '../../apollo/actions'
@@ -33,6 +34,7 @@ import { useGetHomePage } from '../../apollo/actions'
         <Section4/>
         <Section5/>
         <Section6/>
+        <Section7/>
         <Footer/>
         </div>
     )
