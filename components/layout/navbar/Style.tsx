@@ -65,7 +65,7 @@ z-index: 1000;
       top: 0%;
 
       width:100%;
-      height: 6rem;
+      height: 5rem;
       
       display: flex;
       justify-content: space-between;
