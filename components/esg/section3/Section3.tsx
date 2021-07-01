@@ -1,23 +1,25 @@
 
 import React from 'react'
 import { Section} from './Style'
+interface Section {
+    data: {
+        esgbenifitsthreerightcontent: string,
+       
 
+        }
+     
+   
+  }
 
- const HeroSection: React.FC<{}> = () => {
+  const HeroSection: React.FC<Section> = (data) => {
     return (
         <Section>
         
            
            <div className="section2" >
-               <div className="section_data" >
+               <div className="section_data" dangerouslySetInnerHTML={{ __html: data.data.esgbenifitsthreerightcontent }} >
          
-         <h3>IN FACT, ACCORDING TO AN APPLICATION ANAVZEN BY
-THE T  IUIC IN RE PU T</h3>
-
-         <p>THE VLECER TE GLIEEF WLESS 4TTER. T DICU AU EN PERATURES
-ARE AL) 4 SC ZE EE LC V E N TnTL ST FE NIT PRO UC S VIURE CAPACITY
-FOR AN AVERAGE OF 7 LESS HORSEPOWER THE VALVES OPERATE COOLER
-WITH LESS VIBRATION</p>
+     
                    </div>
            
               <div className="tringle" >

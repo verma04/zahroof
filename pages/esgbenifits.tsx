@@ -1,5 +1,6 @@
 import React from 'react'
 import Esg from '../components/esg/esg'
+import withApollo from '../hoc/withApollo'
 
  const index:React.FC = () => {
     return (
@@ -10,4 +11,4 @@ import Esg from '../components/esg/esg'
 }
 
 
-export default index
+export default withApollo(index)

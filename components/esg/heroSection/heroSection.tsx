@@ -5,7 +5,20 @@ import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 import AOS from 'aos';
 import "aos/dist/aos.css";
- const HeroSection: React.FC<{}> = () => {
+import { Parallax, Background } from "react-parallax";
+interface HeroSectionProps {
+  data: {
+      featuredImage:{
+          node: {
+              sourceUrl: string
+          },
+         
+      }
+      esgbenifitsbannerrightcontent: string
+  }, // Change the required prop to an optional prop.
+}
+
+const HeroSection: React.FC<HeroSectionProps> = (data) => {
     useEffect(() => {
  
         AOS.init({
@@ -15,15 +28,15 @@ import "aos/dist/aos.css";
     return (
         <Section>
             <Navbar/>
-           
+            <Parallax bgImage={data.data.featuredImage.node.sourceUrl} strength={500}>
            <div className="homePage-hero" >
            {/* <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624030696/l0krn6a059mpgqlonf8q.png'} alt="Picture of the herosection" /> */}
    
    <div className="homePage-layer" > 
 
-   <div  data-aos="zoom-in" className="homePage-data" >
+   <div   dangerouslySetInnerHTML={{ __html: data.data.esgbenifitsbannerrightcontent }}  data-aos="zoom-in" className="homePage-data" >
 
-       <ul>
+       {/* <ul>
       
 
 
@@ -45,7 +58,7 @@ our primary goals is to help you to achieve
 as close to net-zero as possible.
 
     </p>
-
+ */}
 
    </div>
    
@@ -53,7 +66,7 @@ as close to net-zero as possible.
    </div>
 
            </div>
-            
+            </Parallax>
         </Section>
     )
 }

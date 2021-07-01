@@ -4,7 +4,20 @@ import { Section} from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 
- const HeroSection: React.FC<{}> = () => {
+interface Section {
+    data: {
+        esgbenifitsfirstRightOneContent: string,
+esgbenifitsfirstRightThreeContent: string,
+esgbenifitsfirstRightTwoContent: string,
+esgbenifitsfirstleftcontent: string,
+esgbenifitsfirstrightoneicon: string,
+esgbenifitsfirstrightthreeicon: string,
+esgbenifitsfirstrighttwoicon: string
+        }
+     
+   
+  }
+ const HeroSection: React.FC<Section> = (data) => {
     return (
         <Section>
         
@@ -18,9 +31,9 @@ import  Navbar from '../../layout/navbar/navbar'
 <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624030704/gvlo9vwrbjbpiasvv66j.png'} alt="Picture of the author" />
 
 <div className="section-data" >
-<div className="left" >
+<div    dangerouslySetInnerHTML={{ __html: data.data.esgbenifitsfirstleftcontent }} className="left" >
    
-<ul>
+{/* <ul>
 
 
 
@@ -41,30 +54,26 @@ energy
 resources more eco-friendly. By keeping more gas moving
 through your system, there s far less to flare.
 
-</p>
+</p> */}
 
     </div>
 <div className="right" > 
 <div className='right_logo' >
 <div className="logo-wrapper" >
-<Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624336814/clsi55uv8yuoiw57riod.png'} alt="Picture of the author" />
+<Image     objectFit="contain" layout="fill" src={data.data.esgbenifitsfirstrightoneicon} alt="Picture of the author" />
     </div>
 <p>
-Highly efficient valves mean less fuel consumption for
-the same work. Up to 10% less in a typical 1000 rpm
-high speed pipeline application.
+{data.data.esgbenifitsfirstRightOneContent} 
 </p>
 
 
     </div>
     <div className='right_logo' >
 <div className="logo-wrapper" >
-<Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624336813/ncidwuzvzqiqiuzb8nts.png'} alt="Picture of the author" />
+<Image     objectFit="contain" layout="fill" src={data.data.esgbenifitsfirstrighttwoicon} alt="Picture of the author" />
     </div>
 <p>
-Highly efficient valves mean less fuel consumption for
-the same work. Up to 10% less in a typical 1000 rpm
-high speed pipeline application.
+{data.data.esgbenifitsfirstRightTwoContent} 
 </p>
 
 
@@ -72,12 +81,10 @@ high speed pipeline application.
 
     <div className='right_logo' >
 <div className="logo-wrapper" >
-<Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624336813/z1vgvrcaw67dxs19zmqj.png'} alt="Picture of the author" />
+<Image     objectFit="contain" layout="fill" src={data.data.esgbenifitsfirstrightthreeicon} alt="Picture of the author" />
     </div>
 <p>
-Highly efficient valves mean less fuel consumption for
-the same work. Up to 10% less in a typical 1000 rpm
-high speed pipeline application.
+{data.data.esgbenifitsfirstRightThreeContent} 
 </p>
 
 

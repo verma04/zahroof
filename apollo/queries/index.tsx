@@ -128,6 +128,66 @@ query MyQuery {
 
 
 
+export const ESG = gql`
+query MyQuery {
+ page(id: "cG9zdDozOQ==") {
+    id
+    pageId
+    title
+    featuredImage {
+      node {
+        title
+        sourceUrl
+      }
+    }
+    esgbenifitsbannerimage
+    esgbenifitsbannerrightcontent
+    esgbenifitsfirstleftcontent
+    esgbenifitsfirstrightoneicon
+    esgbenifitsfirstRightOneContent
+    esgbenifitsfirstrighttwoicon
+    esgbenifitsfirstRightTwoContent
+    esgbenifitsfirstrightthreeicon
+    esgbenifitsfirstRightThreeContent
+    esgbenifitstwoleftcontent
+    esgbenifitstworightoneicon
+    esgbenifitstwoRightOneContent
+    esgbenifitstworighttwoicon
+    esgbenifitstwoRightTwoContent
+    esgbenifitstworightthreeicon
+    esgbenifitstwoRightThreeContent
+    esgbenifitsthreerightcontent
+    seo {
+      title
+      metaDesc
+      metaKeywords
+      focuskw
+      canonical
+      cornerstone
+      fullHead
+      metaRobotsNofollow
+      metaRobotsNoindex
+      opengraphAuthor
+      opengraphDescription
+      opengraphModifiedTime
+      opengraphPublishedTime
+      opengraphPublisher
+      opengraphSiteName
+      opengraphTitle
+      opengraphType
+      opengraphUrl
+      readingTime
+      twitterDescription
+      twitterTitle
+    }
+  }
+  
+
+}
+`
+
+
+
 
 export const ENTERPRISESOLUSOLUSTIONS = gql`
 query MyQuery {

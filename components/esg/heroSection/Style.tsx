@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 
-export const Section = styled.section` 
+export const Section = styled.section`
 
   display:flex;
   justify-content:center;
@@ -10,15 +10,23 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
 
-   
-  
+
+
    @media (min-width: 1281px) {
-  
+    .react-parallax  {
+  width: 100%;
+}
+.react-parallax-bgimage {
+
+    height: 120% !important;
+
+}
+
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 56em;
-        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624030696/l0krn6a059mpgqlonf8q.png");
+        height: 48em;
+       
 
 /* Set a specific height */
 
@@ -32,16 +40,16 @@ background-size: cover;
             position: absolute;
             width: 100%;
             height: 100%;
-    
+
   display: flex;
   justify-content: center;
   align-items: center;
   .homePage-data {
       margin-top: 5%;
       width: 80%;
-     
+
     height: 60%;
-   
+
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -56,13 +64,13 @@ background-size: cover;
       color:white;
       font-weight: 1000;
       text-transform: uppercase;
-      
+
   }
   li:nth-child(1) {
     position: relative;
-  
-    
-   
+
+
+
   }
   li:nth-child(1)::after {
     content: '';
@@ -73,14 +81,15 @@ background-size: cover;
     position: absolute;
    background-color: #eeba18;
    top: 0%;
-   left: -.5rem;;
-   
+   left: -1rem;;
+
   }
  }
 
   p {
     width: 30%;
     line-height: 2;
+    margin-left:1rem;
     font-size: 1.1rem;
     font-weight: 800;
     color: white;;
@@ -95,18 +104,18 @@ background-size: cover;
      }
  }
   }
-  
+
 
         }
 
     }
-   
+
 
 
 
    }
 
-  
 
- 
+
+
 `
