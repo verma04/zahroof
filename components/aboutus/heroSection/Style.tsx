@@ -13,13 +13,25 @@ export const Section = styled.section`
    
   
    @media (min-width: 1281px) {
+
+    .react-parallax  {
+  width: 100%;
+}
+.react-parallax-bgimage {
+ 
+    height: 120% !important;
+    
+}
   
     .homePage-hero {
         width: 100%;
         position: relative;
         height: 40em;
-        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000541/cphgw5dj87cn4bt8me67.png");
+        /* background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000541/cphgw5dj87cn4bt8me67.png"); */
 
+        background-color: #2f4353;
+background: linear-gradient(to top, transparent, #2f4353);
+    
 /* Set a specific height */
 
 
@@ -32,7 +44,7 @@ background-size: cover;
             position: absolute;
             width: 100%;
             height: 100%;
-            background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1623838132/g0uu4qlatbvnmzr405zi.png"); 
+         
 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -56,6 +68,7 @@ background-size: cover;
   li {
     
       font-size: 3.3rem;
+      font-family: Proxima-Bold;
       text-align:center;
       color:white;
       font-weight: 1000;
