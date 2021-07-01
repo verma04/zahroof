@@ -1,37 +1,21 @@
 import React from 'react'
 import HeroSection from './heroSection/heroSection'
-import Section from './section/Section'
-import Section2 from './section2/Section2'
-import Section3 from './section3/Section3'
-import Section4 from './section4/Section4'
-import AboutUs from './aboutus/aboutus'
+ import Section from './section/Section'
+ import Head from 'next/head'
 import Footer from '../layout/footer/Footer'
-import MakeCall from   './makecall/makecall'
-import Head from 'next/head'
-
-// import withApollo from '@/hoc/withApollo'
-import { useGetHomePage } from '../../apollo/actions'
+import { useGetContactPage } from '../../apollo/actions'
  const Home = () => {
 
-   
+    const { data , loading , error } = useGetContactPage();
 
-    const { data , loading , error } = useGetHomePage();
+    const contact = data && data.contact || [];
 
-    const home = data && data.home || [];
+    if (loading) return null;
 
-     
-    if(loading  ){
-        return (
-        <div>...Loading</div>
-        )
-    }
- 
     console.log(data)
-
-
     return (
         <div>
- <Head>
+             <Head>
         <title>{data.page.seo.title} - Zahroof</title>
         <meta name="og:title" content={data.page.seo.title}/>
 
@@ -74,16 +58,10 @@ import { useGetHomePage } from '../../apollo/actions'
   
   </Head>
 
-
-        <HeroSection data={data.page} />
-        <Section    data={data.page}  />
-        <Section2   data={data.page}  />
-        <Section3    data={data.page}  />
-        <Section4   data={data.page}  />
-        <AboutUs   data={data.page}  />
-        <MakeCall/>
+        <HeroSection   data={data.page} />
+        <Section   data={data.page} />
+       
         <Footer/>
-        
         </div>
     )
 }

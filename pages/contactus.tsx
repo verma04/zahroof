@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from '../components/contactus/contact'
-
+import withApollo from '../hoc/withApollo'
  const index:React.FC = () => {
     return (
         <div>
@@ -10,4 +10,4 @@ import Contact from '../components/contactus/contact'
 }
 
 
-export default index
+export default  withApollo(index)

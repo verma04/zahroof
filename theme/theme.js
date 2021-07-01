@@ -41,7 +41,7 @@ label {
 }
 }
 select {
-  font-family: Proxima;
+  font-family: Proxima-Bold;
 }
 button {
   border:none;

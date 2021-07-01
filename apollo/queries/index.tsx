@@ -77,6 +77,57 @@ query MyQuery {
 `
 
 
+export const CONTACTUS = gql`
+
+query MyQuery {
+  page(id: "cG9zdDo0OQ==") {
+    id
+    pageId
+    title
+    featuredImage {
+      node {
+        title
+        sourceUrl
+      }
+    }
+    content
+    contactaddress
+    seo {
+      title
+      metaDesc
+      metaKeywords
+      focuskw
+      canonical
+      cornerstone
+      fullHead
+      metaRobotsNofollow
+      metaRobotsNoindex
+      opengraphAuthor
+      opengraphDescription
+      opengraphModifiedTime
+      opengraphPublishedTime
+      opengraphPublisher
+      opengraphSiteName
+      opengraphTitle
+      opengraphType
+      opengraphUrl
+      readingTime
+      twitterDescription
+      twitterTitle
+    }
+  }
+
+
+
+ 
+  
+  
+
+}
+`
+
+
+
 
 export const ENTERPRISESOLUSOLUSTIONS = gql`
 query MyQuery {

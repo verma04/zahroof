@@ -3,8 +3,14 @@ import React from 'react'
 import { Section} from './Style'
 import Image from 'next/image'
 
-
- const HeroSection: React.FC<{}> = () => {
+interface Section {
+       data: {
+              contactaddress:string,
+              content:string
+        
+       }, // Change the required prop to an optional prop.
+     }
+ const HeroSection:  React.FC<Section> = (data) => {
     return (
         <Section>
         
@@ -18,9 +24,9 @@ import Image from 'next/image'
                <div className="section_data" >
 <div className="section_left" >
 
-    <div className="section-left-top" >
+    <div dangerouslySetInnerHTML={{ __html: data.data.content }} className="section-left-top" >
 
-        <h2>REQUEST
+        {/* <h2>REQUEST
 A QUOTE</h2>
 
         <h3>
@@ -30,10 +36,13 @@ mail should be addressed directly to Zahroof
 Valves, Inc. If you d like a more immediate
 quote, please use the contact form to the right
         </h3>
+       */}
+      
+      
         </div>
 
-    <div className="section-left-bottom" >
-      <ul>
+    <div   dangerouslySetInnerHTML={{ __html: data.data.contactaddress }}  className="section-left-bottom" >
+      {/* <ul>
 <li>Headquarters:</li>
 
 <li><h3>8535-N Jackrabbit Rd.</h3> </li>
@@ -45,6 +54,9 @@ quote, please use the contact form to the right
     <li> <h3>  Office: (713) 554-2678 </h3> </li>
    <li>  <h3>E-mail: sales@zahroofvalves.com</h3> </li>
       </ul>
+        */}
+       
+       
         </div>
     </div>
 
