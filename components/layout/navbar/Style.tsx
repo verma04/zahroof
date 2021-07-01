@@ -59,7 +59,7 @@ z-index: 1;
 
 
     .navbar1 {
-
+z-index: 1000;
       position:fixed;
       background-color: #3c4e62;;
       top: 0%;

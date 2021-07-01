@@ -311,7 +311,7 @@ span {
   border-left: 2.5rem solid transparent;
   border-right: 2.5rem solid transparent;
   border-top: 2rem solid #dbb43f;
-  z-index: 1;
+ 
 }   
 
 }
