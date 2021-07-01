@@ -36,7 +36,7 @@ background-color: #23344e;
  border-left: 5rem solid transparent;
  border-right: 5rem solid transparent;
  border-bottom:4rem solid #23344e;
- z-index: 1;
+
 } 
 
 

@@ -43,7 +43,7 @@ margin-bottom: 3rem;;
     border-left: 6rem solid transparent;
     border-right: 6rem solid transparent;
     border-top: 4rem solid #DBB42F;
-    z-index: 1;
+   
 } 
 .section4_top_data {
   display: flex;
