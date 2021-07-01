@@ -397,6 +397,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-scroll@^1.8.2":
+  "integrity" "sha512-oavV6BZLfaIghX4JSmrm6mJkeVayQlmsFx1Rz8ffGjMngHAI/juZkRZM/zV/H5D0pGqjzACvBmKYUU4YBecwLg=="
+  "resolved" "https://registry.npmjs.org/@types/react-scroll/-/react-scroll-1.8.2.tgz"
+  "version" "1.8.2"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-select@^4.0.15":
   "integrity" "sha512-GPyBFYGMVFCtF4eg9riodEco+s2mflR10Nd5csx69+bcdvX6Uo9H/jgrIqovBU9yxBppB9DS66OwD6xxgVqOYQ=="
   "resolved" "https://registry.npmjs.org/@types/react-select/-/react-select-4.0.15.tgz"
@@ -2291,7 +2298,7 @@
   "resolved" "https://registry.npmjs.org/lodash.sortby/-/lodash.sortby-4.7.0.tgz"
   "version" "4.7.0"
 
-"lodash.throttle@^4.0.1":
+"lodash.throttle@^4.0.1", "lodash.throttle@^4.1.1":
   "integrity" "sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ="
   "resolved" "https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-4.1.1.tgz"
   "version" "4.1.1"
@@ -2949,7 +2956,7 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-dom@^16.3.0-0 || >=17.0.1", "react-dom@^16.6.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^17.0.1", "react-dom@^17.0.2", "react-dom@>= 16.8.0", "react-dom@>=16.6.0", "react-dom@16.x.x || 17.x.x", "react-dom@17.0.2":
+"react-dom@^15.5.4 || ^16.0.0 || ^17.0.0", "react-dom@^16.3.0-0 || >=17.0.1", "react-dom@^16.6.0 || ^17.0.0 || ^18.0.0", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^17.0.1", "react-dom@^17.0.2", "react-dom@>= 16.8.0", "react-dom@>=16.6.0", "react-dom@16.x.x || 17.x.x", "react-dom@17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -2997,6 +3004,14 @@
   dependencies:
     "prop-types" "^15.5.10"
 
+"react-scroll@^1.8.2":
+  "integrity" "sha512-f2ZEG5fsPbPTySI9ekcFpETCcNlqbmwbQj9hhzYK8tkgv+PA8APatSt66o/q0KSkDZxyT98ONTtXp9x0lyowEw=="
+  "resolved" "https://registry.npmjs.org/react-scroll/-/react-scroll-1.8.2.tgz"
+  "version" "1.8.2"
+  dependencies:
+    "lodash.throttle" "^4.1.1"
+    "prop-types" "^15.7.2"
+
 "react-select@^4.3.1":
   "integrity" "sha512-HBBd0dYwkF5aZk1zP81Wx5UsLIIT2lSvAY2JiJo199LjoLHoivjn9//KsmvQMEFGNhe58xyuOITjfxKCcGc62Q=="
   "resolved" "https://registry.npmjs.org/react-select/-/react-select-4.3.1.tgz"
@@ -3020,7 +3035,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.3.0 || ^17.0.0", "react@^16.3.0-0 || >=17.0.1", "react@^16.6.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.1", "react@^17.0.2", "react@>= 16.8.0", "react@>=16.6.0", "react@>=16.8.0", "react@15.x.x || 16.x.x || 17.x.x", "react@16.x.x || 17.x.x", "react@17.0.2":
+"react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0", "react@^16.3.0-0 || >=17.0.1", "react@^16.6.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.1", "react@^17.0.2", "react@>= 16.8.0", "react@>=16.6.0", "react@>=16.8.0", "react@15.x.x || 16.x.x || 17.x.x", "react@16.x.x || 17.x.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
