@@ -130,7 +130,7 @@ right: 0%;;
     color:black;
     font-size: 1.875rem;
     font-weight: 900;
-    border-bottom: 3px solid black;
+    border-bottom: 1px solid black;
   }
 }
 

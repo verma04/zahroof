@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
    
-  height:30rem;
+  height:40rem;
 
 
    
@@ -46,7 +46,7 @@ export const Section = styled.section`
    
    .section_left {
        width: 100%;
-       height: 20%;
+       height: 30%;
        
        
        display: flex;
@@ -55,38 +55,42 @@ export const Section = styled.section`
        align-items: center;
       
        .section-left-top {
-       
+         
            height: 45%;
-           
+            width: 100%;
            display: flex;
            justify-content: center;
            flex-direction: column;
-           align-items: flex-end;
+           align-items: center;
            h2 {
+               
+               width: 100%;
              font-size: 3.4rem;
               margin-bottom: 5%;
-               text-align: left;
+               text-align: center;
                
               
               
                position: relative;
            }
            h2:after {
-               bottom: -2%;
-               left:45%;
+               bottom: -10%;
+               left:49%;
                position: absolute;
     height: 10px;
     display: block;
-    width: 10%;
+    width: 3%;
+      
     background: #0f5885;
     border-left: 1px white;
     content: '';
 }
            h3 {
+            
              font-size: 1.2rem;
-               text-align: right;
-               
-             
+               text-align:center;
+                 width: 100%;
+                
                    color: #7c7c7c;
 
                line-height: 1.5;
@@ -132,7 +136,7 @@ h3 {
    }
    .section_right {
      
-       width: 70%;
+       width: 60%;
        height: 80%;
        display: flex;
        justify-content: center;

@@ -32,7 +32,7 @@ export const Section = styled.section`
    height: 11rem;
    span {
        font-family: Proxima-Light;
-       width: 80%;
+       
        font-size: 2.188rem;
        color:white;
        text-transform: uppercase;
@@ -44,11 +44,13 @@ export const Section = styled.section`
 background-color: #dbb43f;
 position: relative;
 display: flex;
-justify-content: center;
+justify-content: flex-end;
 align-items: center;
+padding-right:3rem;
 span {
        font-size: 2.188rem;
        color:white;
+       text-align: left;
        text-transform: uppercase;
    }
 .tringle {
@@ -71,8 +73,9 @@ span {
 background-color: #dbb43f;
 position: relative;
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
+padding-left: 3rem;
 .tringle {
     position: absolute;
     left: 10%;
@@ -113,11 +116,6 @@ background-repeat: no-repeat;
 background-size: cover;
 .react-parallax  {
   width: 50%;
-}
-.react-parallax-bgimage {
- 
- height: 120% !important;
- 
 }
    
    .section_bottom_set {
@@ -353,7 +351,7 @@ justify-content:center;
 align-items: center;
  width:100%;
  height:20rem;
- 
+ background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624878455/pzisvhvh6fwumcwbjrlr.jpg");
 
 /* Set a specific height */
 
@@ -363,17 +361,10 @@ align-items: center;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-.react-parallax  {
-  width: 50%;
-}
-.react-parallax-bgimage {
  
- height: 100% !important;
- 
-}
  .section_bottom_set {
-  width:100%;
-  height: 20rem;
+  width:50%;
+  height: 100%;
 
 position: relative;
 

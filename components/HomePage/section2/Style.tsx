@@ -51,7 +51,7 @@ export const Section = styled.section`
     display:flex;
     width: 45%;
     height: 100%;
-  justify-content:space-around;
+  justify-content:space-evenly;
   align-items: left;
   flex-direction: column;
   h2 {
@@ -100,12 +100,16 @@ export const Section = styled.section`
   }
   p {
     height: 20%;
-   
+     width: 100%;
     font-size: 1.25rem;
       margin-top: 0.5rem;;
       text-transform: uppercase;
       color: white;
       text-align: center;
+       p{
+         height: 100%;
+         width: 100%;
+       }
 
   }
   img {

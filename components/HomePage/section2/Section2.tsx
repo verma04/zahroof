@@ -53,26 +53,26 @@ bottom line.
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={data.data.homeSecondRightImageOne} alt="Picture of the author" />
 </div>
- <p>{data.data.homeSecondRightTitleOne} </p>
+ <p dangerouslySetInnerHTML={{ __html: data.data.homeSecondRightTitleOne }} /> 
  </div>
 
  <div className="logo" >
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={data.data.homeSecondRightImageTwo} alt="Picture of the author" />
 </div>
- <p>{data.data.homeSecondRightTitleTwo} </p>
+<p dangerouslySetInnerHTML={{ __html: data.data.homeSecondRightTitleTwo }} /> 
  </div>
  <div className="logo" >
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={data.data.homeSecondRightImageThree} alt="Picture of the author" />
 </div>
- <p>{data.data.homeSecondRightTitleThree} </p>
+<p dangerouslySetInnerHTML={{ __html: data.data.homeSecondRightTitleThree }} /> 
  </div>
  <div className="logo" >
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={data.data.homeSecondRightImageFour} alt="Picture of the author" />
 </div>
- <p>{data.data.homeSecondRightTitleFour} </p>
+<p dangerouslySetInnerHTML={{ __html: data.data.homeSecondRightTitleFour }} /> 
  </div>
 
 </div>
