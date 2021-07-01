@@ -10,16 +10,23 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
 
-   
-  
+
+
+
    @media (min-width: 1281px) {
     .react-parallax  {
   width: 100%;
 }
+.react-parallax-bgimage {
+ 
+    height: 110% !important;
+    
+}
+
     .homePage-hero {
       width: 100%;
         position: relative;
-        height: 46em;
+        height: 50em;
         
 
 /* Set a specific height */
@@ -112,6 +119,7 @@ background: linear-gradient(to top, transparent, #2f4353);
     .react-parallax  {
   width: 100%;
 }
+
     .homePage-hero {
       width: 100%;
         position: relative;

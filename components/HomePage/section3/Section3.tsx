@@ -4,7 +4,9 @@ import { Section} from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 import AOS from 'aos';
+import { Parallax, Background } from "react-parallax";
 import "aos/dist/aos.css";
+const image = 'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457126/o7rt0bntgyc6nstows3k.jpg'
 interface Section3 {
   data: {
     homeThreeLeftHeading: string,
@@ -22,7 +24,7 @@ interface Section3 {
     return (
         <Section>
         
-           
+        <Parallax bgImage={ image} strength={500}>
            <div className="section3" >
   
   <div  data-aos="fade-up"
@@ -57,7 +59,7 @@ interface Section3 {
 <a>Learn More</a>
 </div>
 </div>
-            
+          </Parallax>  
         </Section>
     )
 }

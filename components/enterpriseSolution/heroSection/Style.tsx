@@ -17,6 +17,11 @@ export const Section = styled.section`
     .react-parallax  {
   width: 100%;
 }
+.react-parallax-bgimage {
+ 
+ height: 120% !important;
+ 
+}
   
     .homePage-hero {
         width: 100%;

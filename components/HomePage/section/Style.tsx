@@ -114,6 +114,11 @@ background-size: cover;
 .react-parallax  {
   width: 50%;
 }
+.react-parallax-bgimage {
+ 
+ height: 120% !important;
+ 
+}
    
    .section_bottom_set {
     width:100%;
@@ -360,6 +365,11 @@ background-repeat: no-repeat;
 background-size: cover;
 .react-parallax  {
   width: 50%;
+}
+.react-parallax-bgimage {
+ 
+ height: 100% !important;
+ 
 }
  .section_bottom_set {
   width:100%;

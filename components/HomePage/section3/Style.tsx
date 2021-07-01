@@ -13,6 +13,11 @@ export const Section = styled.section`
    
   
    @media (min-width: 1281px) {
+    .react-parallax  {
+  width: 100%;
+}
+
+
   
     .section3 {
       
@@ -25,7 +30,7 @@ export const Section = styled.section`
   align-items:center;
   position: relative;
   height: 40rem;;
-  background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457126/o7rt0bntgyc6nstows3k.jpg");
+
 
 /* Set a specific height */
 
