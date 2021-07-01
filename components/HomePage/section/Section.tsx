@@ -41,7 +41,7 @@ const image1 =
                    <div className="tringle" ></div>
                    </div>
                    <div className="section_top_right" >
-                   <span  dangerouslySetInnerHTML={{ __html: data.data.firstRightHeading }}   /> 
+ dangerouslySetInnerHTML={{ __html: data.data.firstRightHeading }}                    <span   /> 
                    <div className="tringle" ></div>
                    </div>
            </div>
