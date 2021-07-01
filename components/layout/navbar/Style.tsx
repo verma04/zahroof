@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 export const Nav = styled.nav` 
-
+z-index: 1000;
   display:flex;
   justify-content:center;
    flex-direction:column;
@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   position: absolute;
  
 top: 0%;
-z-index: 1;
+
 
 
    
