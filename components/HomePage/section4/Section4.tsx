@@ -2,9 +2,28 @@
 import React from 'react'
 import { Section} from './Style'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import  Navbar from '../../layout/navbar/navbar'
+interface Section4 {
+    data: {
+        homeFourHeading: string,
+        homeFourImageurl: string,
+        homeFiveImageurl: string,
+homeFiveRightContent: string,
+homeSixCaseStudyButtonUrl: string
+homeSixCaseStudyContent: string,
+homeSixRightOneImage: string,
+homeSixRightOneName: string,
+homeSixRightTwoImage: string,
+homeSixRightTwoName: string,
+homeThreeRightLink: string
+    
+    }, // Change the required prop to an optional prop.
+  }
 
- const HeroSection: React.FC<{}> = () => {
+ const Section4: React.FC<Section4> = (data) => {
+    const router = useRouter()
+  
     return (
         <Section>
         
@@ -18,10 +37,10 @@ import  Navbar from '../../layout/navbar/navbar'
    <div className="section4_top_data" >
 
       
-       <h2>performance across industries</h2>
+       <h2>{data.data.homeFourHeading}</h2>
        <div className="section4_top_data_logos" >
        
-        <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623837548/h6xa3cdujoxdhomdlyym.png'} alt="Picture of the author" />
+        <Image     objectFit="contain" layout="fill" src={data.data.homeFourImageurl} alt="Picture of the author" />
             </div>
             <div className="icon" id="gasses" >
                <div className="img-wrapper" >
@@ -102,12 +121,12 @@ import  Navbar from '../../layout/navbar/navbar'
 
       <div className="section4_mid_left"  >
       <div className="img_wrapper" >
-    <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624865322/z3hbhgthaaeqa2oxqiwr.png'} alt="Picture of the author" />
+    <Image     objectFit="contain" layout="fill" src={data.data.homeFiveImageurl} alt="Picture of the author" />
           </div>
           </div>
-          <div className="section4_mid_right"  >
+          <div  dangerouslySetInnerHTML={{ __html: data.data.homeFiveRightContent }} className="section4_mid_right"  >
 
-              <h2>HOW MUCH DIFFERENCE
+              {/* <h2>HOW MUCH DIFFERENCE
 CAN A VALVE ACTUALLY
 MAKE?</h2>
 
@@ -115,7 +134,7 @@ MAKE?</h2>
 risk. The difference is in the details, but effect is enormous.</p>
          
 <p>Discover how the Straight Flo™ compressor valve with patented MRV technology has changed the game and far surpassed the
-performance of all others in the industry.</p>
+performance of all others in the industry.</p> */}
           </div>
          
   </div>
@@ -131,44 +150,37 @@ performance of all others in the industry.</p>
            <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624446661/zugr9ahadrsbvxmfoi2v.jpg'} alt="Picture of the author" />
           
            <div className="section4_bottom_data" >
-           <div className="section4_mid_left"  >
-     
-           <h2>caSE STUDIES
-</h2>
+           <div className="section4_mid_left"   >
+       <div dangerouslySetInnerHTML={{ __html: data.data.homeSixCaseStudyContent }} className="top" >
+           
+           
+            </div>
+    
 
-              <p>Our customers are from all categories, types,
-and sizes. Upstream, Midstream, Downstream.
-E&P, Off-shore, and contract compression. Major
-oil & gas players and independent private
-producers. Refineries. Dirty wells and problem
-8
-( oí
-compressors. Across the continent and around
-the world. See their stories and imagine their
-same type of successes for your company.</p>
-         
+
 <div className="btn" >
-    <button>
+    <button onClick={() => router.push(`/${data.data.homeSixCaseStudyButtonUrl}`) } >
     See for YourSelf
     </button>
     </div>
           </div>
+     
           <div className="section4_mid_right"  >
 
           <div className="section4_logo" >
           <div className="img_wrapper" > 
-          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623835331/itccpwpe6st3ugusu1nt.png'} alt="Picture of the author" />
+          <Image     objectFit="contain" layout="fill" src={data.data.homeSixRightOneImage} alt="Picture of the author" />
           
           </div>
 
-<h3>Alex Bosossman</h3> 
+<h3>{data.data.homeSixRightOneName}</h3> 
        </div>
        <div className="section4_logo" >
           <div className="img_wrapper" > 
-          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623835331/w3hb3schn3u7pnjdrewv.png'} alt="Picture of the author" />
+          <Image     objectFit="contain" layout="fill" src={data.data.homeSixRightTwoImage} alt="Picture of the author" />
           </div>
 
-          <h3>Jim Jim , Foreman</h3>
+          <h3>{data.data.homeSixRightTwoName}</h3>
 
        </div>
        
@@ -188,4 +200,4 @@ same type of successes for your company.</p>
     )
 }
 
-export default HeroSection
+export default Section4

@@ -87,7 +87,7 @@ background: linear-gradient(to top, transparent, #2f4353);
   }
  
  }
- .text-right {
+ #text-right {
 
      width: 60%;
      margin-left: 42%;
@@ -109,12 +109,14 @@ background: linear-gradient(to top, transparent, #2f4353);
    }
 
    @media (max-width: 767px) {
-   
+    .react-parallax  {
+  width: 100%;
+}
     .homePage-hero {
       width: 100%;
         position: relative;
         height: 20em;
-        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1623820567/fw1lusinju10tx2bapi6.png");
+      
 
 /* Set a specific height */
 
@@ -177,7 +179,7 @@ background-size: cover;
   }
  
  }
- .text-right {
+ #text-right {
 
      width: 60%;
      margin-left: 42%;

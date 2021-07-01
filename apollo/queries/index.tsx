@@ -46,7 +46,32 @@ query MyQuery {
     homeSixRightOneName
     homeSixRightTwoImage
     homeSixRightTwoName
+    content
+    seo {
+      title
+      metaDesc
+      metaKeywords
+      focuskw
+      canonical
+      cornerstone
+      fullHead
+      metaRobotsNofollow
+      metaRobotsNoindex
+      opengraphAuthor
+      opengraphDescription
+      opengraphModifiedTime
+      opengraphPublishedTime
+      opengraphPublisher
+      opengraphSiteName
+      opengraphTitle
+      opengraphType
+      opengraphUrl
+      readingTime
+      twitterDescription
+      twitterTitle
+    }
   }
+  
 
 }
 `

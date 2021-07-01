@@ -5,7 +5,14 @@ import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 import AOS from 'aos';
 import "aos/dist/aos.css";
- const HeroSection: React.FC<{}> = () => {
+interface Section3 {
+  data: {
+    homeThreeLeftHeading: string,
+    homeThreeRightHeading: string,
+  
+  }, // Change the required prop to an optional prop.
+}
+ const Section3: React.FC<Section3> = (data) => {
     useEffect(() => {
         AOS.init({
           duration : 3000
@@ -43,10 +50,10 @@ import "aos/dist/aos.css";
    
       </div>
            <div className="section3_left" >
-<h2>Eco-Efficient</h2>
+<h2>{data.data.homeThreeLeftHeading}</h2>
 </div>
 <div className="section3_right" >
-<h2>eco-friendly</h2>
+<h2>{data.data.homeThreeRightHeading}</h2>
 <a>Learn More</a>
 </div>
 </div>
@@ -55,4 +62,4 @@ import "aos/dist/aos.css";
     )
 }
 
-export default HeroSection
+export default Section3

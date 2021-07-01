@@ -348,7 +348,7 @@ justify-content:center;
 align-items: center;
  width:100%;
  height:20rem;
- background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624878455/pzisvhvh6fwumcwbjrlr.jpg");
+ 
 
 /* Set a specific height */
 
@@ -358,10 +358,12 @@ align-items: center;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
- 
+.react-parallax  {
+  width: 50%;
+}
  .section_bottom_set {
-  width:50%;
-  height: 100%;
+  width:100%;
+  height: 20rem;
 
 position: relative;
 
