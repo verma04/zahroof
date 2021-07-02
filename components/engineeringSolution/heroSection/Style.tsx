@@ -18,14 +18,14 @@ export const Section = styled.section`
 }
 
 .react-parallax-bgimage {
- 
- height: 120% !important;
+  width: 100% !important;
+ height: 100% !important;
  
 }
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 50em;
+        height:70vh;
 
        
 

@@ -44,7 +44,7 @@ align-items: center;
   .section2_data_left {
     
     display:flex;
-    width: 50%;
+    width: 70%;
     height: 100%;
   justify-content:space-evenly;
   align-items: left;
@@ -53,7 +53,8 @@ align-items: center;
   color: white;
    position: relative;
    padding-left: 2rem;
-   font-size: 3.4rem;;
+   font-size: 4rem;;
+   line-height: 4rem;
 text-transform: uppercase;
    position: relative;
   }
@@ -61,9 +62,9 @@ text-transform: uppercase;
     position: absolute;
     content: '';
     display: block;
-    height: 100%;
+    height: 90%;
     width: 0.4rem;
-    top: 0;
+    top: 5;
     left: -0.3rem;
     background-color: #dbb43f;
   }
@@ -73,6 +74,7 @@ text-transform: uppercase;
     color:white;
     padding-left: 2rem;
     line-height: 2;
+    
   
   }
   h3 {
