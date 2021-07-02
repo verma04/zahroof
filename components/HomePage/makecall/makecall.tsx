@@ -40,13 +40,13 @@ import Image from 'next/image'
             <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624874075/pnqbtnq5yxgu1o7pyquc.png' alt="sd" />
             </li>
             <li>Tel</li>
-            <li>123456789</li>
+            <li>(713)554-2678</li>
         </ul>
 
         <ul>
             <li>  <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624874075/nt4lgdaec6ngnwwo8bro.png' alt="sd" /></li>
             <li>Email</li>
-            <li>xyz@gamil.com</li>
+            <li>info@zahroofvalues.com</li>
         </ul>
       
             </div>

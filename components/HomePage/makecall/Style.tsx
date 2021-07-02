@@ -24,7 +24,9 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
    
-  height:40rem;
+  height:50rem;
+
+
 
 
    
@@ -46,27 +48,27 @@ export const Section = styled.section`
    
    .section_left {
        width: 100%;
-       height: 30%;
-       
+       height: 20%;
+        
        
        display: flex;
-       justify-content: center;
+       justify-content: space-evenly;
        flex-direction: column;
        align-items: center;
       
        .section-left-top {
-         
-           height: 45%;
+           
+           height: 100%;
             width: 100%;
            display: flex;
-           justify-content: center;
+           justify-content: space-between;
            flex-direction: column;
            align-items: center;
            h2 {
                
                width: 100%;
              font-size: 3.4rem;
-              margin-bottom: 5%;
+           
                text-align: center;
                
               
@@ -74,12 +76,12 @@ export const Section = styled.section`
                position: relative;
            }
            h2:after {
-               bottom: -10%;
+               bottom: -15%;
                left:49%;
                position: absolute;
-    height: 10px;
+    height: 5px;
     display: block;
-    width: 3%;
+    width: 2%;
       
     background: #0f5885;
     border-left: 1px white;
@@ -135,11 +137,12 @@ h3 {
 
    }
    .section_right {
-     
+    margin-top:5rem;
+
        width: 60%;
-       height: 80%;
+       height: 50%;
        display: flex;
-       justify-content: center;
+       justify-content: space-evenly;
       
        align-items: center;
        .icon {
@@ -165,7 +168,7 @@ h3 {
                  width: 100%;
              }
              li {
-                 margin-top: 1rem;
+                 margin-top: 1.5rem;
                 font-family: Proxima-Bold;
                  width: 100%;
                  text-align: center;
@@ -175,7 +178,8 @@ h3 {
          }
        }
        .form {
-        width: 80%;
+       
+        width: 70%;
         height: 100%;
         display: flex;
         justify-content: flex-start;
@@ -190,6 +194,7 @@ h3 {
             opacity: 0.8;  
         }
         form {
+           
             
             display: flex;
             justify-content: space-around;
@@ -211,7 +216,7 @@ h3 {
                     
                     font-size: 1rem;
     padding: 1rem;
-    height: 3rem;;
+    height: 4.5rem;;
     border-radius: 1px;
     text-transform: uppercase;
        background-color: #3c4e62;
@@ -240,7 +245,7 @@ h3 {
                           height: 60%;
                           background-color: #f8f8f8;
                           border-radius:5px;
-
+                          color: #7c7c7c;
                       }
    
                   }
