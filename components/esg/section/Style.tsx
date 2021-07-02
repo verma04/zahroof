@@ -62,6 +62,7 @@ export const Section = styled.section`
       font-size: 3.438rem;
       text-align:left;
       color:white;
+      font-family: Proxima-Bold;
       font-weight: 1000;
       text-transform: uppercase;
       
@@ -76,6 +77,7 @@ export const Section = styled.section`
  }
 
   p {
+    font-family: Proxima-Bold;
   margin-top: 3rem;;
     width: 70%;
     line-height: 2;
@@ -117,6 +119,7 @@ export const Section = styled.section`
             position: relative;
           }
            p {
+            font-family: Proxima-Bold;
              color: white;
              width: 60%;
              line-height: 2;

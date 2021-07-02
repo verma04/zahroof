@@ -49,12 +49,13 @@ export const Section = styled.section`
   h3 {
     width: 70%;
     color:white;
-    font-size: 3.438em;
+    font-size: 3.4em;
   }
    p {
+     text-transform: uppercase;
     width: 70%;
     color:white;
-    font-weight: 600;
+    
     font-size: 1.5em;
     line-height: 1.5;
    }

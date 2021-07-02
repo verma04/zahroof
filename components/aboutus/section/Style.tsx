@@ -47,6 +47,7 @@ export const Section = styled.section`
     margin-top: 10rem;;
     margin-bottom: 2rem;;
   color:  white;
+  
    position: relative;
    padding-left: 0.5rem;
    font-size: 4rem;;

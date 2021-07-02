@@ -51,6 +51,7 @@ export const Section = styled.section`
 
       }
       p {
+        
           font-size: 1.5rem;
           color:white;
         }
@@ -106,6 +107,7 @@ export const Section = styled.section`
          color:white;
          font-size: 1.5rem;;
           width: 70%;
+          font-family: Proxima-Bold;
           text-align: center;
         
           

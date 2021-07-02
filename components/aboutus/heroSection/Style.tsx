@@ -29,8 +29,7 @@ export const Section = styled.section`
         height: 50vh;
         /* background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000541/cphgw5dj87cn4bt8me67.png"); */
 
-        background-color: #2f4353;
-background: linear-gradient(to top, transparent, #2f4353);
+       
     
 /* Set a specific height */
 
