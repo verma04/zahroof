@@ -26,7 +26,7 @@ import { useGetHomePage } from '../../apollo/actions'
         )
     }
  
- 
+    console.log(data)
 
 
     return (

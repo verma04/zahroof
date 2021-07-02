@@ -162,7 +162,7 @@ position: relative;
     li:nth-child(1){
         width: 12rem;
         height: 12rem;
-        margin-bottom: 1.5rem;
+       
 
     }
     li:nth-child(3){
