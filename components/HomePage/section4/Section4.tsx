@@ -28,20 +28,8 @@ homeThreeRightLink: string
 
  const Section4: React.FC<Section4> = (data) => {
     const router = useRouter()
-    useEffect(() => {
   
-        window.addEventListener("scroll", handleScroll);
-      
-        // returned function will be called on component unmount 
-        
-    console.log(window.pageYOffset)
-      
-    }, []);
-    const  handleScroll= () => {
-        console.log(window.pageYOffset)
-         
-         
-         }
+   
     return (
         <Section>
         
@@ -67,7 +55,7 @@ homeThreeRightLink: string
                    </div>
                    <span>Indusdrial gases</span>
                </div> 
-             <div className="icon" id="industry" >
+             <div data-aos="fade-up-left" className="icon" id="industry" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/istcdd90jzd7w26thtwl.png'} alt="" />
               
@@ -75,7 +63,7 @@ homeThreeRightLink: string
                    <span>Naurtal Gas Industry</span>
                </div>
 
-               <div className="icon" id="Refineries" >
+               <div data-aos="fade-left" className="icon" id="Refineries" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/ffeauowt4nte4j8cjv6t.png'} alt="" />
               
@@ -98,14 +86,14 @@ homeThreeRightLink: string
                    </div>
                    <span>Oil</span>
                </div>
-               <div className="icon" id="hydrogen" >
+               <div data-aos="fade-down-right" className="icon" id="hydrogen" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903830/bzmo2rxdmbgeibrwzdq4.png'} alt="" />
               
                    </div>
                    <span>Hydrogen production</span>
                </div>
-               <div className="icon" id="Lng" >
+               <div data-aos="fade-down-left" className="icon" id="Lng" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623905280/oqahwcfpdj4symxaaaki.png'} alt="" />
               
