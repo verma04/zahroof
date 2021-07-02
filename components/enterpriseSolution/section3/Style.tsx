@@ -24,19 +24,19 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 25rem;;
+  height: 40rem;;
   background-color: #dbb43f;
 
    
  .section2_data {
      width: 90%;
-     height: 95%;
+     height: 100%;
      display:flex;
   justify-content:space-evenly;
   align-items: center;
   flex-direction: column;
   .section2_top {
-   
+   margin-top: 7%;
     display:flex;
     width: 100%;
     height: 70%;
@@ -51,14 +51,16 @@ export const Section = styled.section`
     align-items: center;
     flex-direction: column;
     .wrapper {
-     
-      width: 100%;
+      
+      width: 80%;
       height: 55%;
       position: relative;
     }
     p {
-      width: 90%;
+      width: 85%;
       height: 40%;
+      line-height: 1.3;
+      font-family: Proxima-Bold;
       text-transform: uppercase;
       color: white;
       font-size: 1rem;;

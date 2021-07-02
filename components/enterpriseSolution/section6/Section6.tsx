@@ -77,8 +77,7 @@ need to stockpile spare parts</p>
 </div>
 
                    </div>
-              <div className="tringle" >
-                  </div>
+              
            </div>
             
         </Section>

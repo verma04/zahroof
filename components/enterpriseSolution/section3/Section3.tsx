@@ -66,10 +66,7 @@ EVENTS AND FUGITIVE
 EMISSIONS INTENSITY</p>
           </div>
       </div>
-      <div className="section2_bottom"  >
-          <h4>THE BENEFITS CAN EASILY ADD UP TO TENS OF MILLIONS OF DOLLARS ACROSS A SINGLE FIELD
-WHILE ALSO HELPING COMPANIES MEET OR EXCEED ENVIRONMENTAL STANDARDS.</h4>
-      </div>
+    
                    
                    
                    </div>

@@ -10,6 +10,7 @@ import Section7 from './section7/Section&'
 import Section6 from './section6/Section6'
 import Head from 'next/head'
 import Footer from '../layout/footer/Footer'
+import Makecall from '../HomePage/makecall/makecall'
 import { useEnterpriseSolutions } from '../../apollo/actions'
  const Home = () => {
     const { data , loading , error } = useEnterpriseSolutions();
@@ -73,7 +74,9 @@ import { useEnterpriseSolutions } from '../../apollo/actions'
         <Section5/>
         <Section6/>
         <Section7/>
+        <Makecall/>
         <Footer/>
+        
         </div>
     )
 }

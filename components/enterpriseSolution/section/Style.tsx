@@ -119,27 +119,29 @@ align-items: center;
   background-repeat: no-repeat;
 
   .section2_data_left {
-    
+     
     display:flex;
-    width: 80%;
+    width: 70%;
     height: 100%;
   justify-content:center;
   align-items: left;
+  margin-bottom: 10%;
   flex-direction: column;
   h2 {
   
    position: relative;
-   
-   font-size: 3.7rem;;
+     line-height: 4rem;
+   font-size: 4rem;;
 text-transform: uppercase;
    position: relative;
   }
 
  
   p {
-    width: 80%;
+    width: 50%;
     margin-top:2rem;
-    padding-left: 1rem;
+ 
+   font-weight: 600;
     line-height: 1.6;
     position: relative;
   }
@@ -150,7 +152,7 @@ text-transform: uppercase;
     height: 100%;
     width: 0.4rem;
     top: 0;
-    left: -0.3rem;
+    left: -2rem;
     background-color: #dbb43f;
   }
   h3 {
@@ -164,8 +166,8 @@ text-transform: uppercase;
  }
 
  .absol-bottom {
-  width: 50%;
-     height: 20%;
+  width: 60%;
+     height: 30%;
      background-color: #3b546a;
      bottom: 0%;
      left: 0%;
@@ -176,36 +178,38 @@ text-transform: uppercase;
   position: absolute;
 
   h2 {
-    width: 90%;
+    width: 80%;
    
     padding-left: 1rem;
     line-height: 1.6;
     position: relative;
     text-transform: uppercase;
-     font-size:2.2rem;
+     font-size:3rem;
+     line-height: 3rem;
      color:white;
   }
  h2:after {
     position: absolute;
     content: '';
     display: block;
-    height: 90%;
+    height: 80%;
     width: 0.4rem;
-    top: 0;
-    left: -0.3rem;
+    
+    top: 7%;
+    left: -1.5rem;
     background-color:#dbb43f;
   }
  }
 
  .triangle-down {
   position: absolute;
-    bottom: -4%;
-    left: 44%;
+    bottom: -5%;
+    left: 51%;
     width: 0;
     height: 0;
-    border-left: 2rem solid transparent;
-    border-right: 2rem solid transparent;
-    border-top: 2.5rem solid #3b546a;
+    border-left: 4rem solid transparent;
+    border-right: 4rem solid transparent;
+    border-top: 3rem solid #3b546a;
     z-index: 1;
 
 }

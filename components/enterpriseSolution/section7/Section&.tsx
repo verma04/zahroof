@@ -31,9 +31,10 @@ the stainless steel seat and carrier</p>
                
               
             <div className="section_bottom_data" >
-           
+            
+            <li>See  why the line guys Love us  </li>
                 <li>
-                <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356836/ruhkeqvmgfhctlmiswih.png' />
+                <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623835331/w3hb3schn3u7pnjdrewv.png' />
                 </li>
 
                 <li><h3>EnterPrise Solutions</h3></li>
@@ -53,7 +54,9 @@ the stainless steel seat and carrier</p>
               
            
             <div className="section_bottom_data" >
-            
+           
+            <li>See what we'have Done WIth Others </li>
+
                 <li>
                 <Image  alt="Picture of the author"   objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356709/w2u44k0jrx10hakvnri2.png' />
                 </li>
@@ -78,6 +81,13 @@ the stainless steel seat and carrier</p>
               
                </div>
          
+
+               <div className="section_bottom-1" >
+              
+             
+             <span>Redefining value in years , instend of month</span>
+              </div>
+        
            </div>
             
         </Section>

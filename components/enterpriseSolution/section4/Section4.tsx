@@ -22,7 +22,9 @@ emissions and cut maintenance costs by XX%
               <span> - Costomer Name</span>
                 
                </div>
+<div className="section-bottom" >
 
+   </div>
                <div className="tringle" >
                   </div>
          

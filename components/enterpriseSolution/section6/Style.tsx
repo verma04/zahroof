@@ -25,7 +25,7 @@ export const Section = styled.section`
   align-items:center;
   position: relative;
   
-  height: 50rem;;
+  height: 60rem;;
   background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624446661/zugr9ahadrsbvxmfoi2v.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
    /* You must set a specified height */
@@ -35,13 +35,13 @@ export const Section = styled.section`
   
   .tringle {
     position: absolute;
-    left: 10%;
+    left: 13%;
     width: 0;
     bottom: -5%;
     height: 0;
-    border-left: 3rem solid transparent;
-    border-right: 3rem solid transparent;
-    border-top: 2rem solid #3c4e62;
+    border-left: 4rem solid transparent;
+    border-right: 4rem solid transparent;
+    border-top: 3rem solid #3c4e62;
     z-index: 1;
 } 
    
@@ -54,26 +54,26 @@ export const Section = styled.section`
   .section2_data_left {
     background-color: #cea800;
     display:flex;
-    width: 25%;
+    width: 30%;
     height: 100%;
   justify-content:center;
   position: relative;
-  align-items: left;
+  align-items: center;
   flex-direction: column;
   align-items: center;
   h2 {
-  width: 92%;
-   font-size: 2.875rem;
+  width: 70%;
+   font-size: 3.5rem;
    color:white;
    text-transform: uppercase;
    line-height: 1;
    margin-top:2rem;
   }
   h3 {
-    
+    width: 70%;
       color:white;
-      font-size: 1.9rem;
-    width: 92%;
+      font-size: 2.2rem;
+  
     line-height: 1;
     text-transform: uppercase;
   }
@@ -94,7 +94,7 @@ export const Section = styled.section`
      
     display:flex;
     width: 70%;
-    height: 100%;
+    height: 90%;
   justify-content:space-around;
   align-items: center;
  align-items: center;
@@ -105,7 +105,7 @@ export const Section = styled.section`
    
     align-items: center;
     width: 100%;
-  height: 20%;
+  height: 10%;
   align-items: center;
   span {
     width: 60%;

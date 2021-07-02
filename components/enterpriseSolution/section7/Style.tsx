@@ -30,7 +30,7 @@ export const Section = styled.section`
 align-items: center;
    width:100%;
    background-color:#3b546a;
-   height: 10rem;
+   height: 25rem;
    p {
   
      width: 75%;
@@ -42,13 +42,13 @@ align-items: center;
    position: relative;
    .tringle {
     position: absolute;
-    left: 45%;
+    left: 40%;
     width: 0;
     bottom: -39%;
     height: 0;
-    border-left: 5rem solid transparent;
-    border-right: 5rem solid transparent;
-    border-top:4rem solid #3b546a;
+    border-left: 12rem solid transparent;
+    border-right: 12rem solid transparent;
+    border-top:10rem solid #3b546a;
     z-index: 1;
 } 
      
@@ -61,7 +61,7 @@ align-items: center;
   justify-content:center;
 align-items: center;
    width:100%;
-   height:20rem;
+   height:27rem;
  position: relative;   
 
  background-color: #cea800;
@@ -94,26 +94,42 @@ align-items: center;
     justify-content: center;
     align-items:center;
     flex-direction: column;
+    
     h3 {
         color: white;
         text-transform: uppercase;
     }
     li {
         position: relative;
+        text-transform:uppercase;
+        font-size: 2rem;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 1rem;
+        color:white;
+        font-family: Proxima-Bold;
     
     }
-    li:nth-child(1){
-        width: 10rem;
-        height: 10rem;
+    li:nth-child(2){
+        width: 13rem;
+        height: 13rem;
         margin-bottom: 1rem;
 
     }
     li:nth-child(3){
-        width: 3rem;
-        height: 3rem;
+        width: 100%; 
+        font-size: 1.7rem;
+       
+        text-align: center;
 
     }
 
+    li:nth-child(4){
+        width: 3rem;
+       
+        height: 3rem;
+
+    }
 
 }
 
@@ -121,6 +137,15 @@ align-items: center;
  }
  
   }  
+
+  .section_bottom-1 {
+    margin-top:2rem;
+    span {
+      font-size: 4rem;
+      font-family: Proxima-Thin;
+      text-transform: uppercase;
+    }
+  }
 
     }
    

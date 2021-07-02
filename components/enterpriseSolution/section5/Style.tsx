@@ -29,31 +29,35 @@ export const Section = styled.section`
   justify-content:center;
 align-items: center;
    width:100%;
-   height:20rem;
+   height:25rem;
  position: relative;  
 
  .section2_data {
-     width: 80%;
+     width: 100%;
      height: 100%;
      display:flex;
   justify-content:space-between;
   align-items: center;
   position: absolute;
   .section2_data_left {
-    
+     
     display:flex;
-    width: 80%;
+    width: 100%;
     height: 100%;
-  justify-content:space-around;
+  justify-content:space-evenly;
   align-items: left;
   align-items: center;
   h2 {
+   margin-left: 5%;
   
+     width: 50%;
    position: relative;
    padding-left: 1rem;
-   font-size: 2.8rem;;
+   font-size: 3.5rem;;
 text-transform: uppercase;
    position: relative;
+   color:#3b546a;
+   line-height: 3.5rem;
   }
 
   h2:after {
@@ -67,18 +71,16 @@ text-transform: uppercase;
     background-color: #dbb43f;
   }
   p {
-    width: 80%;
-    
+     width: 50%;
+     font-weight: 600;
     padding-left: 0.5rem;
     line-height: 1.6;
     position: relative;
+    font-size: 1.5rem;
+
   }
 
-  h3 {
-    line-height: 1.1;
-     
-  
-  }
+
   }
 
   

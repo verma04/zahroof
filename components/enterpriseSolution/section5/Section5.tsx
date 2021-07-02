@@ -20,7 +20,7 @@ import  Navbar from '../../layout/navbar/navbar'
 technology you ask?
  </h2>
 <p>
-It might surprise you. In fact, it might be something you haven’t considered at all. But fact is, until we turned the industry on its ear, compressor valves had been designed the same way for over 70 years. 
+It might surprise you. In fact, it might be <br/> something you haven’t considered at all. But <br/> fact is, until we turned the industry on its ear, <br/> compressor valves had been designed the <br/> same way for over 70 years. 
 </p>
 
 </div>
