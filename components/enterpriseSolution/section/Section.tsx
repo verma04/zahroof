@@ -13,8 +13,10 @@ import  Navbar from '../../layout/navbar/navbar'
                
 
                <div className="section_top" >
-               <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png'} alt="Picture of the author" />
-               <div className="section2_data" >  <div className="section2_data_left"  >
+               <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625215361/el7kaq4epxdnzvizovxw.png'} alt="Picture of the author" />
+               <div className="section2_data" >
+                   
+                     <div className="section2_data_left"  >
 
 <h2>The benefits are clear <br/>
 even from 30,000 ft </h2>

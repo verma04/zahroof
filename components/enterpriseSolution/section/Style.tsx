@@ -29,29 +29,29 @@ export const Section = styled.section`
   justify-content:center;
 align-items: center;
    width:100%;
-   height:30rem;
+   height:33rem;
  position: relative;  
 
  .section2_data {
      width: 80%;
      height: 100%;
      display:flex;
-  justify-content:space-between;
+  justify-content:center;
   align-items: center;
   position: absolute;
   .section2_data_left {
     
     display:flex;
-    width: 80%;
+    width: 100%;
     height: 100%;
-  justify-content:space-around;
+  justify-content:center;
   align-items: left;
   flex-direction: column;
   h2 {
   color: white;
    position: relative;
-   
-   font-size: 4.6rem;;
+     line-height: 5rem;
+   font-size: 5rem;;
 text-transform: uppercase;
    position: relative;
   }
@@ -60,7 +60,7 @@ text-transform: uppercase;
   p {
     width: 80%;
     color:white;
-    padding-left: 1rem;
+    padding-left: 1.2rem;
     line-height: 1.6;
     position: relative;
   }

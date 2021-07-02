@@ -10,9 +10,9 @@ import Section7 from './section7/Section&'
 import Section6 from './section6/Section6'
 import Head from 'next/head'
 import Footer from '../layout/footer/Footer'
-import { useGetHomePage } from '../../apollo/actions'
+import { useEnterpriseSolutions } from '../../apollo/actions'
  const Home = () => {
-    const { data , loading , error } = useGetHomePage();
+    const { data , loading , error } = useEnterpriseSolutions();
 
     const cafes = data && data.cafes || [];
 
@@ -65,7 +65,7 @@ import { useGetHomePage } from '../../apollo/actions'
   
   </Head>
 
-        <HeroSection/>
+        <HeroSection  data={data.page} />
         <Section/>
         <Section3/>
      

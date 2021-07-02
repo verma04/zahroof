@@ -7,7 +7,17 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import { Parallax, Background } from "react-parallax";
 const image = 'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624439858/m3sfku5fc0vyzjveyony.png'
- const HeroSection: React.FC<{}> = () => {
+interface HeroSectionProps {
+  data: {
+      featuredImage:{
+          node: {
+              sourceUrl: string
+          }
+      }
+   
+  }, // Change the required prop to an optional prop.
+}
+const HeroSection: React.FC<HeroSectionProps> = (data) => {
     useEffect(() => {
  
         AOS.init({
@@ -18,7 +28,7 @@ const image = 'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624439858/m3s
         <Section>
 
             <Navbar/>
-            <Parallax bgImage={ image} strength={500}>
+            <Parallax  bgImage={data.data.featuredImage.node.sourceUrl} strength={500}>
            <div className="homePage-hero" >
            {/* <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624439858/m3sfku5fc0vyzjveyony.png'} alt="Picture of the herosection" /> */}
    
