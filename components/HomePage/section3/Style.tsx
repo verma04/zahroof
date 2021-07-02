@@ -127,7 +127,7 @@ right: 0%;;
   flex-direction: column;
   a {
     margin-top: 2rem;
-    color:black;
+    color:#222222;
     font-size: 1.875rem;
     font-weight: 900;
     border-bottom: 1px solid black;
