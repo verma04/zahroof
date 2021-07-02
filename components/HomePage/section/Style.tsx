@@ -155,10 +155,12 @@ position: relative;
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.1); 
+  
 }
     li:nth-child(1){
         width: 12rem;
         height: 12rem;
+        margin-bottom: 1.5rem;
 
     }
     li:nth-child(3){

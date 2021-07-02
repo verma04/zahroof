@@ -259,7 +259,7 @@ h3 {
                  
                       input {
                           width: 100%;
-                          height: 60%;
+                          height: 65%;
                           background-color: #f8f8f8;
                           border-radius:5px;
 
@@ -271,13 +271,13 @@ h3 {
               .input-field-1{
                   width: 100%;
                   height: 40%;
-                 
+                    
                   display: flex;
-                  justify-content: space-between;
+                  justify-content: center;
                   flex-direction: column;
                   .field {
                       width: 100%;
-                      height: 100%;
+                      height: 94%;
                       display: flex;
                       justify-content: space-evenly;
                       align-items: flex-start;
