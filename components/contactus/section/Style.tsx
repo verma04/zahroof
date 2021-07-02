@@ -60,7 +60,7 @@ export const Section = styled.section`
            align-items: flex-end;
            
            h2 {
-             font-size: 4rem;
+             font-size: 3.5rem;
              
                text-align: right;
                  
