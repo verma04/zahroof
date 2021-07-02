@@ -51,7 +51,7 @@ align-items: center;
   color: white;
    position: relative;
      line-height: 5rem;
-   font-size: 5rem;;
+   font-size: 6rem;;
 text-transform: uppercase;
    position: relative;
   }
@@ -60,7 +60,7 @@ text-transform: uppercase;
   p {
     width: 80%;
     color:white;
-    padding-left: 1.2rem;
+    padding-left: 1.5rem;
     line-height: 1.6;
     position: relative;
   }
