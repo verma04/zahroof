@@ -87,14 +87,20 @@ interface Section3 {
           console.log(window.pageYOffset)  
         } else if (window.pageYOffset > 1950 &&  window.pageYOffset < 2000) {
           setwidth(90)
-          setright(-8)
-          setleft(-8)  
+          setright(-10)
+          setleft(-10)  
           console.log(window.pageYOffset)  
         }
-        else if (window.pageYOffset > 2000) {
+        else if (window.pageYOffset > 2000 &&  window.pageYOffset < 2020) {
           setwidth(100)
-          setright(-12)
-          setleft(-12)  
+          setright(-15)
+          setleft(-15)  
+          console.log(window.pageYOffset)  
+        }
+        else if (window.pageYOffset > 2020)  {
+          setwidth(100)
+          setright(-50)
+          setleft(-50)  
           console.log(window.pageYOffset)  
         }
        
