@@ -31,7 +31,7 @@ export const Section = styled.section`
   justify-content:center;
 align-items: center;
    width:100%;
-   height:35rem;
+   height:33rem;
  position: relative;  
 
  .section2_data {
@@ -90,13 +90,15 @@ text-transform: uppercase;
 
     display:flex;
     width: 45%;
+  
     height: 80%;
   justify-content:space-around;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   flex-wrap: wrap;
   .top {
-  width: 80%;
+   
+ 
   height: 20%;
   display:flex;
   justify-content:space-around;
@@ -104,15 +106,15 @@ text-transform: uppercase;
   flex-direction: column;
   h2 {
     width: 100%;
-    text-align: left;
+    text-align: center;
     color: white;
-    font-size: 5rem;;
+    font-size: 6.5rem;;
   }
   span {
     width: 100%;
     font-family: Proxima-Bold;
-    text-align: left;
-    font-size: 1.2rem;
+    text-align: center;
+    font-size: 1.7rem;
     text-transform: uppercase;
     color:white;
   }

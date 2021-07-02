@@ -25,7 +25,7 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 35rem;;
+height: 40rem;;
 
 position: relative;
 
@@ -41,14 +41,15 @@ position: relative;
     display:flex;
     width: 45%;
     height: 100%;
-  justify-content:space-around;
+  justify-content:center;
   align-items: left;
   flex-direction: column;
   h2 {
   color:  #24334d;
    position: relative;
    padding-left: 2rem;
-   font-size: 3.4rem;;
+   font-size: 4rem;;
+   line-height: 4rem;
   text-transform: uppercase;
    position: relative;
   }
@@ -58,14 +59,15 @@ position: relative;
     display: block;
     height: 100%;
     width: 0.4rem;
-    top: 0;
+    bottom: -1%;
     left: -0.3rem;
     background-color:  #dbb43f;
   }
  
   p {
-    width: 95%;
+    width: 90%;
     color:white;
+    margin-top:3rem;
     padding-left: 2rem;
     line-height: 2;
     color:black;

@@ -25,22 +25,22 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 27rem;;
+height: 30rem;;
 background-color: #dbb43f;;
 .tringle {
  position: absolute;
- right: 40%;
+ left: 20%;
  width: 0;
- top: -12%;
+ top: -15%;
  height: 0;
- border-left: 5rem solid transparent;
- border-right: 5rem solid transparent;
- border-bottom:4rem solid #dbb43f;;
+ border-left: 7rem solid transparent;
+ border-right: 7rem solid transparent;
+ border-bottom:5rem solid #dbb43f;;
  z-index: 1;
 } 
 
 .section2_data {
-     width: 80%;
+     width: 85%;
      height: 100%;
      display:flex;
   justify-content:space-between;
@@ -49,16 +49,17 @@ background-color: #dbb43f;;
   .section2_data_left {
     
     display:flex;
-    width: 45%;
+    width: 60%;
     height: 100%;
-  justify-content:space-around;
+  justify-content:center;
   align-items: left;
   flex-direction: column;
   h2 {
   color:  #24334d;
    position: relative;
    padding-left: 2rem;
-   font-size: 3.3rem;;
+   font-size: 4rem;;
+   line-height: 3.5rem;
 text-transform: uppercase;
    position: relative;
   }
@@ -66,19 +67,21 @@ text-transform: uppercase;
     position: absolute;
     content: '';
     display: block;
-    height: 100%;
-    width: 0.4rem;
+    height: 90%;
+    width: 0.5rem;
     top: 0;
     left: -0.3rem;
     background-color: #24334d;
   }
  
   p {
+    margin-top:1.5rem;
     width: 100%;
     color:white;
     padding-left: 2rem;
-    line-height: 2;
+    line-height: 1.6;
     color:black;
+    font-size:1.5rem;
   }
   h3 {
     line-height: 1.1;
@@ -91,7 +94,7 @@ text-transform: uppercase;
   
 
   display:flex;
-  width: 50%;
+  width: 40%;
   height: 80%;
 justify-content:space-between;
 align-items: center;
@@ -101,14 +104,16 @@ flex-wrap: wrap;
 width: 50%;
 height: 15%;
 display:flex;
-justify-content:space-around;
+justify-content:center;
 align-items: center;
 flex-direction: column;
 h2 {
+  
   width: 100%;
   text-align: center;
   color: white;
-  font-size: 7rem;;
+  font-size: 10rem;;
+  height: 12rem;
   text-transform: uppercase;
 }
 h3{
@@ -116,7 +121,7 @@ h3{
   width: 100%;
   text-align: center;
   color: white;
-  font-size: 4rem;;
+  font-size: 5rem;;
   text-transform: uppercase;
 
 }
@@ -124,7 +129,7 @@ span {
   width: 100%;
 
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color:white;
 }

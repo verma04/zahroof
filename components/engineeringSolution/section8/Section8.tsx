@@ -24,15 +24,15 @@ emissions and cut maintenance costs by XX%
                </div>
 
                <div className="section_bottom" >
-               <Image      objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png'} alt="Picture of the author" />
+               <Image      objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625219977/h3f70ouyykgpoigbcpgb.jpg'} alt="Picture of the author" />
                  
                
                <div className="section2_data" >
   
   <div className="section2_data_left"  >
 
-      <h2>The secret? 
-It’s all in the 
+      <h2>The secret? <br/>
+It’s all in the  <br/>
 modular design.</h2>
       <p>Our patented design delivers extraordinary reliability and efficiency by eliminating the common points of failure. There are no helical coil springs. No plates, rings or poppets. No moving plastic components. In other words, none of the things that often fail rapidly in a compressor while moving materials.</p>
       <p>
@@ -49,6 +49,9 @@ modular design.</h2>
                    
                </div>
          
+
+               <div className="tringle" >
+                  </div>
            </div>
             
         </Section>

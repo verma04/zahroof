@@ -24,7 +24,10 @@ Reliability </h2>
 
 
 <div className="top" > 
-<h2>10</h2>
+<h2  className="head" >10
+
+
+</h2>
 <h3>Year</h3>
 <span>Limited Warranty <br/> Stainless Housing</span>
 </div>

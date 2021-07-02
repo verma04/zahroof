@@ -4,10 +4,7 @@ import styled from 'styled-components'
 
 export const Foot = styled.footer` 
 
-::placeholder {
-  color: red;
-  opacity: 1; /* Firefox */
-}
+
 
 
   display:flex;
@@ -37,11 +34,12 @@ export const Foot = styled.footer`
   background-color: #3c4e62;
   border-bottom: 2px solid black;
   h3 {
-    color:#b2b2b3;
+    color:#b4b4b4;
  margin-right: 1rem;
  line-height: 1.4;
     text-transform: uppercase;
     text-align: left;
+    font-size: 1rem;
     
   }
   form {
@@ -62,7 +60,7 @@ export const Foot = styled.footer`
       padding-left: 2rem;
       background-color: black;
       ::placeholder {
-  color: white;
+  color: #dddddd;
   opacity: 1; /* Firefox */
 }
       }
