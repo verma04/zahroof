@@ -55,7 +55,7 @@ the stainless steel seat and carrier</p>
            
             <div className="section_bottom_data" >
            
-            <li>See what we'have Done WIth Others </li>
+            <li>See what we have Done WIth Others </li>
 
                 <li>
                 <Image  alt="Picture of the author"   objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356709/w2u44k0jrx10hakvnri2.png' />

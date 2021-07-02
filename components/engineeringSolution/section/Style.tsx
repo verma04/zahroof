@@ -31,7 +31,7 @@ export const Section = styled.section`
   justify-content:center;
 align-items: center;
    width:100%;
-   height:40rem;
+   height:35rem;
  position: relative;  
 
  .section2_data {
@@ -64,7 +64,7 @@ text-transform: uppercase;
     display: block;
     height: 90%;
     width: 0.4rem;
-    top: 5;
+    top: 5%;
     left: -0.3rem;
     background-color: #dbb43f;
   }
@@ -73,7 +73,8 @@ text-transform: uppercase;
     width: 100%;
     color:white;
     padding-left: 2rem;
-    line-height: 2;
+    line-height: 1.6;
+    font-size: 1.4rem;
     
   
   }
