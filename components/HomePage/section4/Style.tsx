@@ -114,7 +114,7 @@ margin-left:4%;
 
   top: 13%;
    
-  left: 44%;
+  left: 43%;
 width: 17%;
 height: 10%;
  }
@@ -129,7 +129,7 @@ height: 10%;
  }
  #industry {
   position: absolute;
-  top: 26%;
+  top: 27%;
     left: 29%;
 
 width: 15%;
