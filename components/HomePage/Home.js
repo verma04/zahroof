@@ -15,16 +15,12 @@ import { useGetHomePage } from '../../apollo/actions'
 
    
 
-    const { data , loading , error } = useGetHomePage();
+    const { data } = useGetHomePage();
 
     const home = data && data.home || [];
 
      
-    if(loading  ){
-        return (
-        <div>...Loading</div>
-        )
-    }
+  
  
     console.log(data)
 

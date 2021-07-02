@@ -105,7 +105,7 @@ export const Section = styled.section`
          padding-top: 1rem;
          padding-left: 1rem;;
          color:white;
-         font-size: 1.5rem;;
+         font-size: 2rem;;
           width: 70%;
           font-family: Proxima-Bold;
           text-align: center;
