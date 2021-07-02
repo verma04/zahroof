@@ -6,7 +6,17 @@ import  Navbar from '../../layout/navbar/navbar'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import { Parallax, Background } from "react-parallax";
- const HeroSection: React.FC<{}> = () => {
+interface HeroSectionProps {
+  data: {
+      featuredImage:{
+          node: {
+              sourceUrl: string
+          }
+      }
+   
+  }, // Change the required prop to an optional prop.
+}
+const HeroSection: React.FC<HeroSectionProps> = (data) => {
     useEffect(() => {
  
         AOS.init({
@@ -16,7 +26,7 @@ import { Parallax, Background } from "react-parallax";
     return (
         <Section>
             <Navbar/>
-            <Parallax bgImage={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000541/cphgw5dj87cn4bt8me67.png"} strength={500}>
+            <Parallax bgImage={data.data.featuredImage.node.sourceUrl} strength={500}>
            <div className="homePage-hero" >
           
    

@@ -187,6 +187,58 @@ query MyQuery {
 `
 
 
+export const ABOUTUS = gql`
+query MyQuery {
+  page(id: "cG9zdDo1MQ==") {
+    id
+    pageId
+    title
+    featuredImage {
+      node {
+        title
+        sourceUrl
+      }
+    }
+    content
+    aboutfirstleftContent
+    aboutfirstrightContent
+    aboutsecondleftContent
+    aboutsecondrightImage
+    seo {
+      title
+      metaDesc
+      metaKeywords
+      focuskw
+      canonical
+      cornerstone
+      fullHead
+      metaRobotsNofollow
+      metaRobotsNoindex
+      opengraphAuthor
+      opengraphDescription
+      opengraphModifiedTime
+      opengraphPublishedTime
+      opengraphPublisher
+      opengraphSiteName
+      opengraphTitle
+      opengraphType
+      opengraphUrl
+      readingTime
+      twitterDescription
+      twitterTitle
+    }
+  }
+  
+
+}
+
+`
+
+
+
+
+
+
 
 
 export const ENTERPRISESOLUSOLUSTIONS = gql`
@@ -222,6 +274,29 @@ query MyQuery {
     enterprisefiveLeftContent
     enterprisefiveRightIcon
     enterprisefiveRightContent
+    seo {
+      title
+      metaDesc
+      metaKeywords
+      focuskw
+      canonical
+      cornerstone
+      fullHead
+      metaRobotsNofollow
+      metaRobotsNoindex
+      opengraphAuthor
+      opengraphDescription
+      opengraphModifiedTime
+      opengraphPublishedTime
+      opengraphPublisher
+      opengraphSiteName
+      opengraphTitle
+      opengraphType
+      opengraphUrl
+      readingTime
+      twitterDescription
+      twitterTitle
+    }
   }
 
 

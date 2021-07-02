@@ -28,7 +28,7 @@ interface HeroSectionProps {
     return (
         <Section>
             <Navbar/>
-            <Parallax bgImage={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1625124002/eslszva0u2luywnhsxse.jpg"} strength={500}>
+            <Parallax bgImage={data.data.honebannerimageurl} strength={500}>
            <div className="homePage-hero" >
 
 

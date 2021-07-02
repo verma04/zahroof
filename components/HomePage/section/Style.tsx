@@ -29,11 +29,11 @@ export const Section = styled.section`
   justify-content:center;
   align-items: center;
    width:100%;
-   height: 11rem;
+   height: 10rem;
    span {
        font-family: Proxima-Light;
        
-       font-size: 2.188rem;
+       font-size: 2.5rem;
        color:white;
        text-transform: uppercase;
    }
@@ -48,20 +48,20 @@ justify-content: flex-end;
 align-items: center;
 padding-right:3rem;
 span {
-       font-size: 2.188rem;
+  font-size: 2.5rem;
        color:white;
        text-align: left;
        text-transform: uppercase;
    }
 .tringle {
-    position: absolute;
+        position: absolute;
     left: 10%;
     width: 0;
-    bottom: -14%;
+    bottom: -22%;
     height: 0;
-    border-left: 2.5rem solid transparent;
-    border-right: 2.5rem solid transparent;
-    border-top: 2rem solid #dbb43f;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-top: 2.5rem solid #dbb43f;
     z-index: 1;
 }   
 
@@ -77,14 +77,14 @@ justify-content: flex-start;
 align-items: center;
 padding-left: 3rem;
 .tringle {
-    position: absolute;
+        position: absolute;
     left: 10%;
     width: 0;
-    bottom: -14%;
+    bottom: -22%;
     height: 0;
-    border-left: 2.5rem solid transparent;
-    border-right: 2.5rem solid transparent;
-    border-top: 2rem solid #dbb43f;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-top: 2.5rem solid #dbb43f;
     z-index: 1;
 } 
 h2 {
@@ -103,7 +103,7 @@ h2 {
   justify-content:center;
 align-items: center;
    width:100%;
-   height:800px;
+  
   
 
 /* Set a specific height */
@@ -117,10 +117,15 @@ background-size: cover;
 .react-parallax  {
   width: 50%;
 }
+.react-parallax-bgimage {
+  
+    height: 120% !important;
+    
+}
    
    .section_bottom_set {
     width:100%;
-    height:800px;
+    height:45rem;
   
   
 position: relative;
@@ -167,7 +172,7 @@ position: relative;
 
 .section_bottom_set-1 {
     width:50%;
-    height: 100%;
+    height: 45rem;
 
 position: relative;
 

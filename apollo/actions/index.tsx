@@ -5,7 +5,8 @@ import {
   HOMEPAGE,
   ENTERPRISESOLUSOLUSTIONS,
   CONTACTUS,
-  ESG
+  ESG,
+  ABOUTUS
 
  
  
@@ -22,3 +23,5 @@ export const useGetHomePage = () => useQuery(HOMEPAGE);
 export const useGetContactPage = () => useQuery(CONTACTUS);
 
 export const useGetEsg = () => useQuery(ESG);
+
+export const useGetAboutus = () => useQuery(ABOUTUS);

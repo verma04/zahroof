@@ -18,15 +18,15 @@ export const Section = styled.section`
   width: 100%;
 }
 .react-parallax-bgimage {
- 
-    height: 110% !important;
+   width: 100% !important;;
+    height: 100% !important;
     
 }
 
     .homePage-hero {
       width: 100%;
         position: relative;
-        height: 50em;
+        height: 82vh;
         
 
 /* Set a specific height */
@@ -37,9 +37,7 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-background-color: #2f4353;
-background: linear-gradient(to top, transparent, #2f4353);
-    
+
         .homePage-layer {
             position: absolute;
             width: 100%;
@@ -57,8 +55,8 @@ background: linear-gradient(to top, transparent, #2f4353);
     
       margin-top: 5%;
       width: 55rem;
-     
-    height: 70%;
+   
+    height: 65%;
    
     display: flex;
     justify-content: center;
@@ -72,23 +70,27 @@ background: linear-gradient(to top, transparent, #2f4353);
      flex-direction: column;
  span {
       font-family: Proxima-Bold;
-      font-size: 3.75rem;
+      font-size: 4rem;
       text-align:right;
       color:white;
       font-weight: 1000;
+      line-height: 3.4rem;
+
       text-transform: uppercase;
       
   }
   span:nth-child(3) {
     margin-top: 0.3rem;;
     color: #eeba18;
-    margin-bottom: 0.3rem;;
+    margin-bottom: 0.1rem;;
     position: relative;
     display: flex;
     justify-content:  flex-end;
     li {
+      margin-top:0.7rem;
+       margin-bottom:0.7rem;
       font-family: Proxima-Bold;
-      border-bottom: 0.4rem solid  #eeba18;
+      border-bottom: 0.2rem solid  #eeba18;
     }
    
   }
