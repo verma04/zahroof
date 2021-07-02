@@ -99,8 +99,8 @@ export const Section = styled.section`
        
         display: flex;
         justify-content: center;
-        background-color: #7b470c;
-        opacity: 0.7;
+        background-color: rgb(123 69 7 / 72%);
+      
          p {
          padding-top: 1rem;
          padding-left: 1rem;;
