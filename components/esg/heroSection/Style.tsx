@@ -46,7 +46,7 @@ background-size: cover;
   justify-content: center;
   align-items: center;
   .homePage-data {
-      margin-top: 5%;
+      
       width: 80%;
 
     height: 60%;
@@ -61,6 +61,7 @@ background-size: cover;
   li {
       width: 20%;
       font-size: 4rem;
+      font-family: Proxima-Bold;
       text-align:left;
       color:white;
       font-weight: 1000;
@@ -88,10 +89,10 @@ background-size: cover;
  }
 
   p {
-    width: 40%;
-    line-height: 1.5;
+    width: 30%;
+    line-height: 1.4;
     margin-left:1rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 800;
     color: white;;
   }
