@@ -33,14 +33,14 @@ align-items: center;
  position: relative;  
 
  .section2_data {
-     width: 80%;
+     width: 70%;
      height: 100%;
      display:flex;
   justify-content:center;
   align-items: center;
   position: absolute;
   .section2_data_left {
-    
+      margin-bottom: 6%;
     display:flex;
     width: 100%;
     height: 100%;
@@ -51,27 +51,28 @@ align-items: center;
   color: white;
    position: relative;
      line-height: 5rem;
-   font-size: 6rem;;
+   font-size: 5rem;;
 text-transform: uppercase;
    position: relative;
   }
 
  
   p {
+    font-size: 1.5rem;
     width: 80%;
     color:white;
     padding-left: 1.5rem;
-    line-height: 1.6;
+    line-height: 1.2;
     position: relative;
   }
  p:after {
     position: absolute;
     content: '';
     display: block;
-    height: 100%;
+    height: 110%;
     width: 0.4rem;
     top: 0;
-    left: -0.3rem;
+    left: -2rem;
     background-color: #dbb43f;
   }
   h3 {
