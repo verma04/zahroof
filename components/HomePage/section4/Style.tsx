@@ -278,12 +278,11 @@ margin-bottom: 3rem;;
 
   background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625225330/chqd0bw4jqdfbpkd7dsb.png"); 
 
-   
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover; 
   margin-top: 1rem;;
-  margin-top: 10%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,17 +293,21 @@ margin-bottom: 3rem;;
     display: flex;
   justify-content: center;
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
   flex-direction: column;
   align-items: center;
    width:50%;
    height:70%;
    z-index: 1;
 
+  
+
    
    .top {
+
+    
      width: 100%;
-     height: 50%;
+     height: 70%;
      display: flex;
   justify-content: center;
   display: flex;
@@ -316,10 +319,10 @@ margin-bottom: 3rem;;
      text-align: left;
      width: 50%;
      position: relative;
-     font-size: 3.5rem;
+     font-size: 3rem;
       color:white;
      
-      margin-top:10rem;
+      
    }
    h2:after {
      position: absolute;
@@ -335,7 +338,7 @@ margin-bottom: 3rem;;
 }
 
     p {
-      margin-top:5rem;
+     margin-top:2rem;
       color:white;
       z-index: 1;
       text-align: left;
