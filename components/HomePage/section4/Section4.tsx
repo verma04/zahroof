@@ -1,9 +1,10 @@
 
-import React from 'react'
+import React , {useEffect} from 'react'
 import { Section} from './Style'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import  Navbar from '../../layout/navbar/navbar'
+import VisibilitySensor from 'react-visibility-sensor';
 interface Section4 {
     data: {
         homeFourHeading: string,
@@ -21,9 +22,26 @@ homeThreeRightLink: string
     }, // Change the required prop to an optional prop.
   }
 
+ 
+
+
+
  const Section4: React.FC<Section4> = (data) => {
     const router = useRouter()
+    useEffect(() => {
   
+        window.addEventListener("scroll", handleScroll);
+      
+        // returned function will be called on component unmount 
+        
+    console.log(window.pageYOffset)
+      
+    }, []);
+    const  handleScroll= () => {
+        console.log(window.pageYOffset)
+         
+         
+         }
     return (
         <Section>
         
@@ -42,7 +60,7 @@ homeThreeRightLink: string
        
         <Image     objectFit="contain" layout="fill" src={data.data.homeFourImageurl} alt="Picture of the author" />
             </div>
-            <div className="icon" id="gasses" >
+            <div data-aos="fade-up" className="icon" id="gasses" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623905280/oqahwcfpdj4symxaaaki.png'} alt="" />
               
@@ -66,14 +84,14 @@ homeThreeRightLink: string
                </div>
                
 
-               <div className="icon" id="Cng" >
+               <div data-aos="fade-up-right" className="icon" id="Cng" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623907055/usmugehexosnqgjxkpsy.png'} alt="" />
               
                    </div>
                    <span>Cng instury</span>
                </div>
-               <div className="icon" id="Oil" >
+               <div data-aos="fade-right" className="icon" id="Oil" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/ztqc0qrptre0bxp3vxfz.png'} alt="" />
               
@@ -94,15 +112,15 @@ homeThreeRightLink: string
                    </div>
                    <span>Lng</span>
                </div>
-               <div className="icon" id="chemical" >
+               <div data-aos="fade-down" className="icon" id="chemical" >
                <div className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/z1pr48ideklcy30kcodh.png'} alt="" />
               
                    </div>
                    <span>chemical</span>
                </div>
-               <div className="icon" id="offshore" >
-               <div className="img-wrapper" >
+               <div  data-aos="fade-down" className="icon" id="offshore" >
+               <div  className="img-wrapper" >
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903830/kzwiywblnokhn0vxvdmd.png'} alt="" />
               
                    </div>
@@ -115,8 +133,7 @@ homeThreeRightLink: string
 
       
   </div>
-
-
+  <VisibilitySensor >
   <div className="section4_mid" >
 
       <div className="section4_mid_left"  >
@@ -138,6 +155,9 @@ performance of all others in the industry.</p> */}
           </div>
          
   </div>
+ 
+ 
+ </VisibilitySensor>
   <div className="section4_bottom" >
 
   {/* <div className="img_absol" >
