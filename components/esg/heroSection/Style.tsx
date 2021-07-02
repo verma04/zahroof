@@ -60,7 +60,7 @@ background-size: cover;
      width: 100%;
   li {
       width: 20%;
-      font-size: 4rem;
+      font-size: 3.7rem;
       font-family: Proxima-Bold;
       text-align:left;
       color:white;
