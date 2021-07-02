@@ -268,14 +268,22 @@ margin-bottom: 8rem;
 
 .section4_bottom {
   position: relative;
-  height: 45rem;
+  height: 65rem;
   width: 100%;
   z-index: 1;
  
 margin-bottom: 3rem;;
 
 .section4_bottom_data {
+
+  background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625225330/chqd0bw4jqdfbpkd7dsb.png"); 
+
+   
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
   margin-top: 1rem;;
+  margin-top: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,7 +304,7 @@ margin-bottom: 3rem;;
    
    .top {
      width: 100%;
-     height: 70%;
+     height: 50%;
      display: flex;
   justify-content: center;
   display: flex;
@@ -311,7 +319,7 @@ margin-bottom: 3rem;;
      font-size: 3.5rem;
       color:white;
      
-     
+      margin-top:10rem;
    }
    h2:after {
      position: absolute;
@@ -327,6 +335,7 @@ margin-bottom: 3rem;;
 }
 
     p {
+      margin-top:5rem;
       color:white;
       z-index: 1;
       text-align: left;

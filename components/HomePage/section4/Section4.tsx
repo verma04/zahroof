@@ -140,14 +140,14 @@ performance of all others in the industry.</p> */}
   </div>
   <div className="section4_bottom" >
 
-  <div className="img_absol" >
+  {/* <div className="img_absol" >
        <div className="img_wrapper" >
     <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624447543/bdegy1j9jkvghjbzxvxl.png'} alt="Picture of the author" />
           </div>
-          </div>
+          </div> */}
        
 
-           <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624446661/zugr9ahadrsbvxmfoi2v.jpg'} alt="Picture of the author" />
+           {/* <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624446661/zugr9ahadrsbvxmfoi2v.jpg'} alt="Picture of the author" /> */}
           
            <div className="section4_bottom_data" >
            <div className="section4_mid_left"   >
