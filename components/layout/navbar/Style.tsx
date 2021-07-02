@@ -40,7 +40,7 @@ top: 0%;
         display: flex;
       justify-content: space-between;
     height: 53%;
-      width: 60%;
+      width: 65%;
       
       li {
         margin-top: 1rem;
@@ -84,7 +84,7 @@ z-index: 1000;
         display: flex;
       justify-content: space-between;
     height: 53%;
-      width: 60%;
+      width: 65%;
       
       li {
         margin-top: 1rem;
