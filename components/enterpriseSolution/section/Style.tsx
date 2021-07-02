@@ -29,7 +29,7 @@ export const Section = styled.section`
   justify-content:center;
 align-items: center;
    width:100%;
-   height:33rem;
+   height:32rem;
  position: relative;  
 
  .section2_data {
