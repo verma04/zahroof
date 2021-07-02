@@ -146,6 +146,8 @@ position: relative;
         font-size: 1.5rem;
         color: white;
         text-transform: uppercase;
+        text-shadow: 0 0 20px #000000;
+
     }
     li {
         position: relative;

@@ -166,10 +166,15 @@ h3 {
                   display: flex;
                   justify-content: space-between;
                  button {
-                     width: 20%;
+                     width: 25%;
                      font-size: 1.1rem;
                      font-weight: 1000;
-                     background: ${props => props.theme.colors.yellow};
+                     background: #7B6116;
+   background-image: -webkit-linear-gradient(top, #7B6116, #D6B34D);
+   background-image: -moz-linear-gradient(top, #7B6116, #D6B34D);
+   background-image: -ms-linear-gradient(top, #7B6116, #D6B34D);
+   background-image: -o-linear-gradient(top, #7B6116, #D6B34D);
+   background-image: -webkit-gradient(to bottom, #7B6116, #D6B34D);
                  }
                   .field {
                       width: 49%;

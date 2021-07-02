@@ -388,8 +388,9 @@ margin-bottom: 3rem;;
      .img_wrapper {
       transition: transform 0.5s;
               width: 100%;
-       height: 60%;
+       height: 50%;
        position: relative;
+       
      }
      .img_wrapper:hover {
   -ms-transform: scale(1.5); /* IE 9 */
