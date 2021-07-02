@@ -137,7 +137,7 @@ interface Section3 {
 </div>
 <div className="section3_right" >
 <h2>{data.data.homeThreeRightHeading}</h2>
-<a>Learn More</a>
+<a>Learn More &gt;</a>
 </div>
 </div>
           </Parallax>  
