@@ -50,7 +50,7 @@ align-items: center;
      text-align: left;
      width: 100%;
      position: relative;
-     font-size: 2.9rem;;
+     font-size: 3.5rem;;
      padding-left: 0.7rem;
      text-transform: uppercase;
       
@@ -59,9 +59,9 @@ align-items: center;
      position: absolute;
       width: 0.35rem;;
     display: block;
-    height: 70%;
+    height: 60%;
     left: -1%;
-    top:12%;
+    top:20%;
     background: #dcb01a;
     border-left: 1px white;
     content: '';
@@ -69,7 +69,7 @@ align-items: center;
     p {
       text-align: left;
       width: 100%;
-      font-size: 1rem;
+      font-size: 1.1rem;
       line-height: 1.4;
       font-family: Proxima-Bold;
     }
