@@ -115,6 +115,8 @@ export const Foot = styled.footer`
       }
   }
   span {
+
+    font-family: Proxima-Bold;
       color:#b2b2b3;
       font-size: 1rem;;
   }

@@ -17,15 +17,16 @@ export const Section = styled.section`
   width: 100%;
 }
 .react-parallax-bgimage {
+  width: 100% !important;
 
-    height: 120% !important;
+    height: 100% !important;
 
 }
 
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 48em;
+        height: 100vh;
        
 
 /* Set a specific height */
@@ -59,7 +60,7 @@ background-size: cover;
      width: 100%;
   li {
       width: 20%;
-      font-size: 3.438rem;
+      font-size: 4rem;
       text-align:left;
       color:white;
       font-weight: 1000;
@@ -87,10 +88,10 @@ background-size: cover;
  }
 
   p {
-    width: 30%;
-    line-height: 2;
+    width: 40%;
+    line-height: 1.5;
     margin-left:1rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: white;;
   }

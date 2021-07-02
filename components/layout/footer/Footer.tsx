@@ -25,7 +25,7 @@ import { Foot } from './Style'
     <ul className="footer-left">
       <li>
         <Link href="/">
-          <a>Privacy ploicy</a>
+          <a>Privacy policy</a>
         </Link>
       </li>
       <li>
@@ -76,7 +76,7 @@ import { Foot } from './Style'
         </ul>
         </div>
 
-        <span>@{new Date().getFullYear()} All Right reserved Zahroof Inc . EOE </span>
+        <span>@{new Date().getFullYear()} All Right Reserved Zahroof Inc . EOE </span>
 
                 </div>
         </Foot>

@@ -19,14 +19,14 @@ export const Section = styled.section`
 }
 .react-parallax-bgimage {
  
-    height: 120% !important;
+    height: 110% !important;
     
 }
   
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 40em;
+        height: 50vh;
         /* background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000541/cphgw5dj87cn4bt8me67.png"); */
 
         background-color: #2f4353;
@@ -67,7 +67,7 @@ background-size: cover;
      justify-content: center;
   li {
     
-      font-size: 3.3rem;
+      font-size: 4rem;
       font-family: Proxima-Bold;
       text-align:center;
       color:white;

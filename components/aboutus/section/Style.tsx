@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
    
-  height:40rem;
+  height:50rem;
 
 
    
@@ -49,7 +49,7 @@ export const Section = styled.section`
   color:  white;
    position: relative;
    padding-left: 0.5rem;
-   font-size: 3.3rem;;
+   font-size: 4rem;;
 text-transform: uppercase;
    position: relative;
   }
@@ -57,18 +57,18 @@ text-transform: uppercase;
     position: absolute;
     content: '';
     display: block;
-    height: 100%;
+    height: 90%;
     width: 0.4rem;
     top: 0;
-    left: -0.3rem;
+    left: -0.5rem;
     background-color: #dbb43f;;
   }
  
   p {
     width: 100%;
     color:white;
-
-    line-height: 2;
+    font-size: 1.5rem;
+    line-height: 1.6;
    
   }
   h3 {

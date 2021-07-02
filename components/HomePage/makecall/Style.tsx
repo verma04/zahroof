@@ -217,6 +217,7 @@ h3 {
                     font-size: 1rem;
     padding: 1rem;
     height: 4.5rem;;
+    width: 30%;
     border-radius: 1px;
     text-transform: uppercase;
        background-color: #3c4e62;
@@ -224,7 +225,7 @@ h3 {
                  }
                  button:after {
                top: 0%;
-               left:-5%;
+               left:-3%;
                position: absolute;
     height: 100%;
     display: block;

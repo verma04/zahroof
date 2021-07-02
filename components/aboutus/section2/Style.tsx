@@ -25,7 +25,7 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 40rem;;
+height: 55rem;;
 background-color: #dbb43f;
 
  
@@ -52,7 +52,7 @@ height: 100%;;
   .section_data_left {
     padding-left: 8%;
     display:flex;
-    width: 70%;
+    width: 75%;
     height: 100%;
   justify-content:space-evenly;
   align-items: left;
@@ -60,7 +60,7 @@ height: 100%;;
   h2 {
    position: relative;
    padding-left: 0.5rem;
-   font-size:3.438rem;
+   font-size:4rem;
    color:white;
    width: 70%;
    position: relative;
@@ -78,6 +78,8 @@ height: 100%;;
   p {
     color:white;
     width: 80%;
+    font-size: 1.5rem;
+    font-family: Proxima-Bold;
     line-height: 1.4;
   }
   }

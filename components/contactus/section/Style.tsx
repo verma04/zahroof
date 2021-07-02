@@ -60,26 +60,27 @@ export const Section = styled.section`
            align-items: flex-end;
            
            h2 {
-             font-size: 3.4rem;
+             font-size: 4rem;
              
                text-align: right;
                  
-               width: 60%;
+               width: 50%;
                color: white;
                position: relative;
            }
            h2:after {
                top: 0%;
-               left:5%;
+               left:-4%;
                position: absolute;
     height: 100%;
     display: block;
-    width: 10px;
+    width: 7px;
     background: ${props => props.theme.colors.yellow};
     border-left: 1px white;
     content: '';
 }
            h3 {
+               margin-top: 2rem;
              font-size: 1.2rem;
                text-align: right;
                

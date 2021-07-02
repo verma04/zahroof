@@ -61,7 +61,7 @@ background-size: cover;
      justify-content: center;
   li {
     
-      font-size: 3.3rem;
+      font-size: 4rem;
       text-align:center;
       color:white;
       font-weight: 1000;

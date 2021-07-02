@@ -103,7 +103,7 @@ background-size: cover;
     left: -1.4rem;
     top: 11%;
 
-    background-color: #286230;
+    background-color: #408f70;
   }
 
 

@@ -132,10 +132,10 @@ interface Section3 {
                    </div>
    
       </div>
-           <div className="section3_left" >
+           <div aos-duration="10000" data-aos="zoom-in" className="section3_left" >
 <h2>{data.data.homeThreeLeftHeading}</h2>
 </div>
-<div className="section3_right" >
+<div  aos-duration="10000" data-aos="zoom-in" className="section3_right" >
 <h2>{data.data.homeThreeRightHeading}</h2>
 <a>Learn More &gt;</a>
 </div>
