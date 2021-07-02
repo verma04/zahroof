@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
+    "@apollo/react-ssr": "^4.0.0",
     "@types/styled-components": "^5.1.10",
     "aos": "^2.3.4",
     "apollo-boost": "^0.4.9",

@@ -75,7 +75,7 @@ export const Foot = styled.footer`
      
    .footer {
     display:flex;
-  justify-content:space-evenly;
+ 
    flex-direction:column;
    align-items: center;
   width:100%;
@@ -119,6 +119,7 @@ export const Foot = styled.footer`
     font-family: Proxima-Bold;
       color:#b2b2b3;
       font-size: 1rem;;
+      margin-bottom:3rem;
   }
    }
 
@@ -231,6 +232,7 @@ export const Foot = styled.footer`
       }
   }
   span {
+    margin-bottom:3rem;
       color:#b2b2b3;
       font-size: 1rem;;
   }
