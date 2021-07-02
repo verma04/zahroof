@@ -293,7 +293,7 @@ margin-bottom: 3rem;;
    height:70%;
    z-index: 1;
 
-   border: 1px solid red;
+   
    .top {
      width: 100%;
      height: 70%;
@@ -358,14 +358,14 @@ margin-bottom: 3rem;;
   justify-content: center;
   display: flex;
   justify-content:space-evenly;
-  border: 1px solid red;
+  
   align-items: center;
    width:50%;
    height:70%;
    z-index: 1;
 
    .section4_logo {
-    border: 1px solid red;
+    
      width: 40%;
      height: 100%;
      display: flex;

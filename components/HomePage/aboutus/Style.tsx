@@ -18,11 +18,7 @@ export const Section = styled.section`
       
        
      
-   
- 
-
-
-.aboutus {
+  .aboutus {
   background: #fbfbfb;
   position: relative;
   height: 26rem;
@@ -63,9 +59,9 @@ align-items: center;
      position: absolute;
       width: 0.35rem;;
     display: block;
-    height: 90%;
+    height: 70%;
     left: -1%;
-    top:0%;
+    top:12%;
     background: #dcb01a;
     border-left: 1px white;
     content: '';
