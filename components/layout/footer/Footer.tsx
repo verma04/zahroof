@@ -76,7 +76,7 @@ import { Foot } from './Style'
         </ul>
         </div>
 
-        <span>@{new Date().getFullYear()} All Right Reserved Zahroof Inc . EOE </span>
+        <span>@{new Date().getFullYear()} All Rights Reserved Zahroof Inc . EOE </span>
 
                 </div>
         </Foot>
