@@ -14,6 +14,13 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "Caveat-Light";
+  src: url("../public/Caveat-Medium.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
   font-family: "Proxima-Thin";
   src: url("../public/Proxima\ Nova\ Alt\ Thin.otf");
   font-style: normal;
@@ -23,6 +30,13 @@
 @font-face {
   font-family: "Caveat";
   src: url("../public/Caveat-VariableFont_wght.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Caveat_reg";
+  src: url("../public/Caveat-Regular.ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;

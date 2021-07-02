@@ -7,21 +7,20 @@ import { getDataFromTree } from '@apollo/react-ssr';
 
 
 
-    
  const homePage = () => {
     const { data } = useGetHomePage();
 
-    const home = (data && data.home)  || [];
+    const home = data && data.page  || [];
 
-     
+       
+    console.log(home)
     
  
-    console.log(home)
     
     return (
         <div>
          
-            <Home />
+            <Home data={home} />
         </div>
 )
 }

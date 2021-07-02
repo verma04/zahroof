@@ -39,10 +39,10 @@ flex-direction: column;
      color: #dbb43f;
       
   
-        font-family: 'Caveat';
+        font-family: "Caveat_reg"
    }
    span {
-    font-family: 'Caveat';
+    font-family: 'Caveat-Light';
     font-size: 2rem;;
      width: 60%;
      margin-top: 2rem;

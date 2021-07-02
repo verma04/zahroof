@@ -43,27 +43,39 @@ export const Section = styled.section`
   justify-content:space-around;
   align-items: center;
   .logo {
-    width: 15%;
+   
+    width: 14%;
     height: 100%;
    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     .wrapper {
       
       width: 80%;
-      height: 55%;
+      height: 40%;
       position: relative;
+      display: flex;
+      justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.5s;
+    }
+    .wrapper:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
     }
     p {
-      width: 85%;
+      margin-top:2rem;
+      width: 100%;
       height: 40%;
       line-height: 1.3;
       font-family: Proxima-Bold;
       text-transform: uppercase;
       color: white;
-      font-size: 1rem;;
+      font-size: 1.1rem;;
     }
   }
 
