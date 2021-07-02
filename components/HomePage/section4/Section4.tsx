@@ -71,7 +71,7 @@ homeThreeRightLink: string
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623907055/usmugehexosnqgjxkpsy.png'} alt="" />
               
                    </div>
-                   <span>Cng</span>
+                   <span>Cng instury</span>
                </div>
                <div className="icon" id="Oil" >
                <div className="img-wrapper" >
@@ -85,7 +85,7 @@ homeThreeRightLink: string
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903830/bzmo2rxdmbgeibrwzdq4.png'} alt="" />
               
                    </div>
-                   <span>Hydrogen</span>
+                   <span>Hydrogen production</span>
                </div>
                <div className="icon" id="Lng" >
                <div className="img-wrapper" >
@@ -106,7 +106,7 @@ homeThreeRightLink: string
                <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903830/kzwiywblnokhn0vxvdmd.png'} alt="" />
               
                    </div>
-                   <span>offshore</span>
+                   <span>offshore Applications</span>
                </div>
               
               

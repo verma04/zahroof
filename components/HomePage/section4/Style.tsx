@@ -28,7 +28,7 @@ export const Section = styled.section`
 
 .section4_top {
   position: relative;
-  height: 55rem;
+  height: 110vh;
   width: 100%;
   background-image: linear-gradient(#d8b642 , #DBB42F);
 
@@ -38,7 +38,7 @@ margin-bottom: 3rem;;
   position: absolute;
     right: 10%;
     width: 0;
-    bottom: -7%;
+    bottom: -6%;
     height: 0;
     border-left: 6rem solid transparent;
     border-right: 6rem solid transparent;
@@ -64,20 +64,21 @@ margin-bottom: 3rem;;
   .section4_top_data_logos {
 
   
-width: 100%;
-margin-top:4%;
+width: 50%;
+margin-top:9%;
+margin-left:4%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 40%;
   position: relative;
 
 
 }
 
 .icon {
-   
-   
+     
+     
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -93,7 +94,9 @@ margin-top:4%;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 0.9rem;
-    color:white
+    width: 100%;
+    color:white;
+     text-align: center;
     }
 
  }
@@ -109,9 +112,10 @@ margin-top:4%;
  #gasses {
   position: absolute;
 
-  top: 12%;
-
-width: 10%;
+  top: 13%;
+   
+  left: 44%;
+width: 17%;
 height: 10%;
  }
  #Lng {
@@ -128,7 +132,7 @@ height: 10%;
   top: 26%;
     left: 29%;
 
-width: 10%;
+width: 15%;
 height: 10%;
  }
  #Refineries {
@@ -136,7 +140,7 @@ height: 10%;
 
   top: 46%;
     left: 25%;
-width: 10%;
+width: 15%;
 height: 10%;
  }
  #Cng {
@@ -145,7 +149,7 @@ height: 10%;
   top: 27%;
     left: 59%;
 
-width: 10%;
+width: 15%;
 height: 10%;
  }
  #Oil {
@@ -156,7 +160,7 @@ height: 10%;
     left: 63%;
 
 
-width: 10%;
+width: 15%;
 height: 10%;
  }
  #hydrogen {
@@ -165,14 +169,14 @@ height: 10%;
   top: 64%;
     left: 61%;
 
-width: 10%;
+width: 15%;
 height: 10%;
  }
  #chemical {
   position: absolute;
   top: 79%;
     left: 51%;
-width: 10%;
+width: 15%;
 height: 10%;
  }
  #offshore {
@@ -182,7 +186,7 @@ height: 10%;
     left: 38%;
 
 
-width: 10%;
+width: 15%;
 height: 10%;
  }
 
@@ -218,27 +222,31 @@ margin-bottom: 8rem;
 }
 
 .section4_mid_right {
+  
   display: flex;
   justify-content: center;
   display: flex;
   justify-content:center;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
    width:50%;
    height:100%;
+   margin-left: 10%;
 
    h2 {
      text-align: left;
-     width: 70%;
+     width: 100%;
      position: relative;
-     font-size: 2.813rem;
+     font-size: 3.5rem;
      color:#2b4056;
+     line-height: 3rem;
+     margin-bottom: 5rem;
    }
    h2:after {
      position: absolute;
-      width: 0.25rem;;
+      width: 0.4rem;;
     display: block;
-    height: 100%;
+    height: 110%;
     left: -5%;
     top:0%;
     background: #dcb01a;
@@ -246,10 +254,10 @@ margin-bottom: 8rem;
     content: '';
 }
     p {
-      margin-top:2rem;
+      margin-bottom:2rem;
       text-align: left;
-      width: 70%;
-      font-size: 1.2rem;
+      width: 90%;
+      font-size: 1.1rem;
       line-height: 1.6;
       font-family: Proxima-Bold;
     }
@@ -260,7 +268,7 @@ margin-bottom: 8rem;
 
 .section4_bottom {
   position: relative;
-  height: 50rem;
+  height: 45rem;
   width: 100%;
   z-index: 1;
  
@@ -273,6 +281,7 @@ margin-bottom: 3rem;;
   align-items: center;
   width: 100%;
   height: 100%;
+  z-index: 1;
   .section4_mid_left {
     display: flex;
   justify-content: center;
@@ -281,14 +290,17 @@ margin-bottom: 3rem;;
   flex-direction: column;
   align-items: center;
    width:50%;
-   height:60%;
+   height:70%;
+   z-index: 1;
+
+   border: 1px solid red;
    .top {
      width: 100%;
-     height: 100%;
+     height: 70%;
      display: flex;
   justify-content: center;
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
   flex-direction: column;
   align-items: center;
    h2 {
@@ -296,18 +308,19 @@ margin-bottom: 3rem;;
      text-align: left;
      width: 50%;
      position: relative;
-     font-size: 2.813rem;
+     font-size: 3.5rem;
       color:white;
-      padding-left: 0.7rem;
+     
      
    }
    h2:after {
      position: absolute;
       width: 0.35rem;;
     display: block;
-    height: 90%;
-    left: -5%;
-    top:0%;
+    
+    height: 60%;
+    left: -7%;
+    top:17%;
     background: #dcb01a;
     border-left: 1px white;
     content: '';
@@ -332,6 +345,8 @@ margin-bottom: 3rem;;
       button {
         font-size:1rem;
         padding: 1rem;;
+        height: 4.5rem;
+        border-radius: 0px;
         text-transform: uppercase;
         background-color: #398baa;
       }
@@ -343,12 +358,14 @@ margin-bottom: 3rem;;
   justify-content: center;
   display: flex;
   justify-content:space-evenly;
-
+  border: 1px solid red;
   align-items: center;
    width:50%;
-   height:100%;
+   height:70%;
+   z-index: 1;
 
    .section4_logo {
+    border: 1px solid red;
      width: 40%;
      height: 100%;
      display: flex;
@@ -359,7 +376,7 @@ margin-bottom: 3rem;;
      .img_wrapper {
       transition: transform 0.5s;
               width: 100%;
-       height: 50%;
+       height: 60%;
        position: relative;
      }
      .img_wrapper:hover {
@@ -480,7 +497,7 @@ position: absolute;
 
 top: 11%;
 
-width: 10%;
+width: 15%;
 height: 10%;
 }
 #Lng {
@@ -496,7 +513,7 @@ position: absolute;
 top: 31%;
   left: 31%;
 
-width: 10%;
+width: 15%;
 height: 10%;
 }
 #Refineries {
@@ -504,7 +521,7 @@ position: absolute;
 
 top: 50%;
 left: 29%;
-width: 10%;
+width: 15%;
 height: 10%;
 }
 #Cng {
@@ -513,7 +530,7 @@ position: absolute;
 top: 31%;
   left: 57%;
 
-width: 10%;
+width: 15%;
 height: 10%;
 }
 #Oil {
@@ -522,21 +539,21 @@ position: absolute;
 top: 50%;
   left: 60%;
 
-width: 10%;
+width: 15%;
 height: 10%;
 }
 #hydrogen {
 position: absolute;
 top: 65%;
   left: 58%;
-width: 10%;
+width: 15%;
 height: 10%;
 }
 #chemical {
 position: absolute;
 top: 76%;
   left: 51%;
-width: 10%;
+width: 15%;
 height: 10%;
 }
 #offshore {
@@ -544,7 +561,7 @@ position: absolute;
 top: 76%;
   left: 42%;
 
-width: 10%;
+width: 15%;
 height: 10%;
 }
 
