@@ -18,8 +18,8 @@ export const Section = styled.section`
   width: 100%;
 }
 .react-parallax-bgimage {
-
-height: 110% !important;
+width: 100% !important;
+height: 100% !important;
 
 }
 
