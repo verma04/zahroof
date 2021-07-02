@@ -116,7 +116,7 @@ align-items: center;
        
     display:flex;
     width: 30%;
-    height: 100%;
+    height: 80%;
   justify-content:center;
   align-items: center;
   flex-direction: column;
