@@ -24,53 +24,57 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 30rem;;
+  height: 32rem;;
   background-color: #3c4e62;
   .tringle {
     position: absolute;
     left: 10%;
     width: 0;
    
-    bottom: -12%;
+    bottom: -17%;
 
     height: 0;
-    border-left: 6rem solid transparent;
-    border-right: 6rem solid transparent;
-    border-top: 4rem solid #3c4e62;
+    border-left: 7rem solid transparent;
+    border-right: 7rem solid transparent;
+    border-top: 6rem solid #3c4e62;
     z-index: 1;
 } 
    
  .section2_data {
-     width: 70%;
+  
+     width: 100%;
      height: 80%;
      display:flex;
-  justify-content:space-between;
+  justify-content:space-evenly;
   align-items: center;
   .section2_data_left {
      
     display:flex;
-    width: 45%;
+    width: 40%;
     height: 100%;
   justify-content:space-evenly;
   align-items: left;
   flex-direction: column;
   h2 {
   width: 92%;
-   font-size: 2.875rem;
+   font-size: 3.5rem;
    color:#daaf1a;
+   line-height: 3.4rem;;
   }
   p {
       color:white;
-      font-size: 1.25rem;
-    width: 92%;
+      font-weight: 600;
+      font-size: 1.35rem;
+    width: 75%;
     line-height: 1.4;
+   
   }
   }
 
   .section2_data_right {
      
     display:flex;
-    width: 45%;
+    width: 40%;
     height: 100%;
   justify-content:space-around;
   align-items: center;
@@ -81,7 +85,7 @@ export const Section = styled.section`
       height: 50%;
       display:flex;
      position: relative;
-      justify-content:space-evenly;
+      justify-content:center;
   align-items: center;
   flex-direction: column;
 
@@ -101,6 +105,7 @@ export const Section = styled.section`
   p {
     height: 20%;
      width: 100%;
+     font-weight: 600;
     font-size: 1.25rem;
       margin-top: 0.5rem;;
       text-transform: uppercase;
@@ -108,6 +113,56 @@ export const Section = styled.section`
       text-align: center;
        p{
          height: 100%;
+         width: 100%;
+       }
+
+  }
+  img {
+      height: 65%;
+  }
+  }
+
+  .logo-1 {
+      width: 50%;
+      height: 50%;
+      display:flex;
+     position: relative;
+      justify-content:center;
+  align-items: center;
+  flex-direction: column;
+
+  
+    .img-wrapper:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+  .img-wrapper {
+   
+    transition: transform 0.5s;
+    width: 50%;
+    height: 50%;
+    position: relative;
+      position: relative;
+  }
+  p {
+   
+    height: 20%;
+     width: 100%;
+     font-weight: 600;
+    font-size: 1.25rem;
+      margin-top: 0.5rem;;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction:column;
+      align-items: center;
+
+      align-items: center;
+       p{
+         
          width: 100%;
        }
 

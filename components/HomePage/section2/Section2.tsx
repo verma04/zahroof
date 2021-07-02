@@ -56,19 +56,21 @@ bottom line.
  <p dangerouslySetInnerHTML={{ __html: data.data.homeSecondRightTitleOne }} /> 
  </div>
 
- <div className="logo" >
+ <div className="logo-1" >
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={data.data.homeSecondRightImageTwo} alt="Picture of the author" />
 </div>
 <p dangerouslySetInnerHTML={{ __html: data.data.homeSecondRightTitleTwo }} /> 
  </div>
+ 
+ 
  <div className="logo" >
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={data.data.homeSecondRightImageThree} alt="Picture of the author" />
 </div>
 <p dangerouslySetInnerHTML={{ __html: data.data.homeSecondRightTitleThree }} /> 
  </div>
- <div className="logo" >
+ <div className="logo-1" >
  <div className="img-wrapper">
  <Image     objectFit="contain" layout="fill" src={data.data.homeSecondRightImageFour} alt="Picture of the author" />
 </div>
