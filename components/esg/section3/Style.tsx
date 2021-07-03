@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 22rem;;
+  height: 435px;
   background-color: #3c4e62;
   .tringle {
     position: absolute;
@@ -47,17 +47,18 @@ export const Section = styled.section`
   align-items: center;
   flex-direction: column;
   h3 {
-    width: 70%;
+    width: 80%;
     color:white;
-    font-size: 3.4em;
+    font-size: 30px;
+    line-height: 38px;
   }
    p {
      text-transform: uppercase;
-    width: 70%;
+    width: 80%;
     color:white;
     
-    font-size: 1.5em;
-    line-height: 1.5;
+    font-size: 30px;
+    line-height: 38px;
    }
 
 }

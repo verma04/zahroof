@@ -30,12 +30,13 @@ export const Section = styled.section`
 align-items: center;
    width:100%;
    background-color: #dbb43f;
-   height: 7rem;
+   height: 140px;
    h3 {
      width: 80%;
-     line-height: 1.3;
+     line-height: 30px;
+     font-size: 24px;;
        color:white;
-       text-transform: uppercase;
+     
    }
    
 
@@ -49,12 +50,12 @@ align-items: center;
   justify-content:center;
 align-items: center;
    width:100%;
-   height:45rem;
+   height:685px;
  position: relative;   
 
  .section2_data {
      width: 70%;
-     height: 80%;
+     height: 100%;
      display:flex;
   justify-content:space-between;
   align-items: center;
@@ -62,15 +63,16 @@ align-items: center;
   .section2_data_left {
     
     display:flex;
-    width: 45%;
+    width: 48%;
     height: 100%;
-  justify-content:space-around;
+  justify-content:flex-start;
   align-items: left;
   flex-direction: column;
   h2 {
+    margin-top:120px;
    position: relative;
    padding-left: 0.5rem;
-   font-size:3.438rem;;
+   font-size:55px;
    color:white;
    position: relative;
   }
@@ -78,18 +80,22 @@ align-items: center;
    position:absolute;
    content: '';
    display: block;
-   height: 100%;
-   width: 0.4rem;;
+   height: 120%;
+   width: 0.2rem;;
    top:0;
    left:-0.3rem;
   background-color:#daaf1a;
 
   }
   p {
+    margin-top: 52px;
     color:white;
+    width: 100%;
     line-height: 1.4;
+    font-size: 20px;
   }
   h3 {
+    margin-top: 75px;
     line-height: 1.4;
       color:white;
   
@@ -99,8 +105,8 @@ align-items: center;
   .section2_data_right {
     
     display:flex;
-    width: 45%;
-    height: 100%;
+    width: 48%;
+    height: 80%;
   justify-content:space-around;
   align-items: center;
   flex-direction: column;

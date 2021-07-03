@@ -56,7 +56,8 @@ background-size: cover;
   li {
     margin-top:2rem;
     font-family: Proxima-Bold;
-      font-size: 3.438rem;
+      font-size: 55px;
+      line-height: 50px;
       text-align:left;
       color:white;
       font-weight: 1000;
@@ -70,9 +71,9 @@ background-size: cover;
     position: absolute;
     display: block;
     background-color: #eeba18;
-    height: 100%;
+    height: 130%;
     width: 0.4rem;
-    top:0;
+    top:-10%;
     left: -0.5rem;
    
   }
@@ -88,6 +89,8 @@ background-size: cover;
      li {
       font-family: Proxima-Bold;
        width: 60%;
+       font-size: 55px;
+      line-height: 50px;
       text-align:left;
      }
      li {
@@ -107,9 +110,9 @@ background-size: cover;
     position: absolute;
     display: block;
     background-color: #eeba18;
-    height: 100%;
+    height: 130%;
     width: 0.4rem;
-    top:0;
+    top:-10%;
     left: -0.5rem;
    
   }

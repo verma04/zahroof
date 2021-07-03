@@ -24,13 +24,13 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 25rem;;
+  height: 433px;
   background-color: #dbb43f;
   .tringle {
     position: absolute;
-    left: 10%;
+    left: 20%;
     width: 0;
-    top: -16%;
+    top: -14%;
     height: 0;
     border-left: 5rem solid transparent;
     border-right: 5rem solid transparent;
@@ -50,27 +50,33 @@ export const Section = styled.section`
     display:flex;
     width: 100%;
     height: 70%;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items: center;
+  
+ 
+  
   .logo {
+    
     width: 15%;
     height: 100%;
-   
+margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     .wrapper {
      
       width: 100%;
-      height: 55%;
+      height: 40%;
       position: relative;
     }
     p {
+      margin-top: 35px;
       width: 90%;
       height: 40%;
       text-transform: uppercase;
       color: white;
+      font-weight: 1000;
       font-size: 1rem;;
     }
   }
@@ -81,14 +87,16 @@ export const Section = styled.section`
   .section2_bottom {
    
     display:flex;
-    width: 100%;
+    width: 70%;
     height: 20%;
   justify-content:space-around;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
  h4 {
-   font-size: 1.3rem;
+   
+   font-size: 21.79px;
+   line-height: 25px;
    text-align: center;
 color:#24334d;
  }

@@ -34,7 +34,7 @@ can be reduced by more than 7dB</h3>
       <div className="section2_data_right"  >
 
       <div className="img_wrapper" > 
-      <Image   alt="Picture of the author"  objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624427229/isyupef3erz65btsfnmb.png'} />
+      <Image   alt="Picture of the author"  objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625310618/wkfots1x1chs0lyytjgw.png'} />
       </div>
       <h3>Super Deep Detail:
 </h3>

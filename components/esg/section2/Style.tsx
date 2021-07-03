@@ -43,7 +43,7 @@ export const Section = styled.section`
       justify-content: center;
     flex-direction: column;
       h2 {
-        font-size: 3.438rem;
+        font-size: 55px;
         color:white;
 
        
@@ -51,8 +51,11 @@ export const Section = styled.section`
 
       }
       p {
-        
-          font-size: 1.5rem;
+         
+        margin-top:30px;
+            width: 80%;
+          font-size: 25px;
+          line-height: 30px;
           color:white;
         }
     }
@@ -99,16 +102,17 @@ export const Section = styled.section`
        
         display: flex;
         justify-content: center;
-        background-color: rgb(123 69 7 / 72%);
-      
+        background-color: rgb(123 69 7 / 70%);
+       
          p {
-         padding-top: 1rem;
-         padding-left: 1rem;;
+         padding-top: 0.5rem;
+
          color:white;
-         font-size: 2rem;;
-          width: 70%;
+         font-size: 30.88px;
+          width:80%;
+          line-height: 30px;
           font-family: Proxima-Bold;
-          text-align: center;
+          text-align: left;
         
           
       
