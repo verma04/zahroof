@@ -33,7 +33,7 @@ align-items: center;
    height: 395px;
    p {
   
-     width: 75%;
+     width: 80%;
      text-align: center;
        color:white;
        text-transform: uppercase;

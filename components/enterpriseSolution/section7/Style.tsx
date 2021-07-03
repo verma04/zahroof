@@ -31,9 +31,10 @@ align-items: center;
    width:100%;
    background-color:#3b546a;
    height: 515px;
-   p {
+   p { 
+     
   
-     width: 75%;
+     width: 90%;
      text-align: center;
        color:white;
        text-transform: uppercase;

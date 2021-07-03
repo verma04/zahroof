@@ -100,7 +100,7 @@ text-transform: uppercase;
   
    margin-right: 10%;
     display:flex;
-    width: 20%;
+    width: 21%;
   
     height: 80%;
   justify-content:space-around;
@@ -111,7 +111,7 @@ text-transform: uppercase;
   .top {
    
  
-  height: 20%;
+  height: 30%;
   display:flex;
   justify-content:space-around;
   align-items: center;

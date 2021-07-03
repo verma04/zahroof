@@ -35,7 +35,7 @@ flex-direction: column;
    h3 {
      font-size: 65px;
      line-height: 70px;
-     width: 70%;
+     width: 80%;
      line-height: 1.3;
      color: #dbb43f;
         font-family: "Caveat-Light"

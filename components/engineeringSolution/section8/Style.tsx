@@ -36,7 +36,7 @@ flex-direction: column;
    h3 {
      font-size: 51px;
      line-height: 60px;
-     width: 55%;
+     width: 70%;
    
        color: #24334d;;
       

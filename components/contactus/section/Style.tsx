@@ -69,7 +69,7 @@ export const Section = styled.section`
              
                text-align: right;
                  
-               width: 55%;
+               width: 65%;
                color: white;
                position: relative;
            }

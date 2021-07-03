@@ -190,7 +190,7 @@ text-transform: uppercase;
   position: absolute;
 
   h2 {
-    width: 80%;
+    width: 90%;
    
     padding-left: 1rem;
     line-height: 1.6;
@@ -216,7 +216,7 @@ text-transform: uppercase;
  .triangle-down {
   position: absolute;
     bottom: -5%;
-    left: 51%;
+    right: 42%;
     width: 0;
     height: 0;
     border-left: 4rem solid transparent;

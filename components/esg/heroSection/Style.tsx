@@ -26,7 +26,7 @@ export const Section = styled.section`
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 105vh;
+        height: 100vh;
        
 
 /* Set a specific height */
@@ -59,7 +59,7 @@ background-size: cover;
     margin-left:0.5rem;
      width: 100%;
   li {
-      width: 20%;
+      width: 22%;
       font-size: 57px;
       line-height: 50px;
       font-family: Proxima-Bold;
