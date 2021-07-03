@@ -57,7 +57,7 @@ import  Navbar from '../../layout/navbar/navbar'
            
             <div className="section_bottom_data" >
            
-            <li>See what we've <br/> Done for Others  </li>
+            <li>See what we ve <br/> Done for Others  </li>
 
                 <li>
                 <Image  alt="Picture of the author"   objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356709/w2u44k0jrx10hakvnri2.png' />
