@@ -64,14 +64,14 @@ margin-bottom: 3rem;;
   .section4_top_data_logos {
 
   
-width: 50%;
-margin-top:9%;
-margin-left:4%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40%;
-  position: relative;
+    width: 50%;
+    margin-top:7%;
+    margin-left:4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    position: relative;
 
 
 }
@@ -91,12 +91,13 @@ margin-left:4%;
       width: 5rem;;
     }
     span {
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 0.9rem;
-    width: 100%;
-    color:white;
-     text-align: center;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 16px;
+      width: 100%;
+      color:white;
+      text-align: center;
+      line-height: 40px;
     }
 
  }
@@ -111,83 +112,67 @@ margin-left:4%;
 }
  #gasses {
   position: absolute;
-
   top: 13%;
-   
   left: 43%;
-width: 17%;
-height: 10%;
+  width: 17%;
+  height: 10%;
  }
  #Lng {
   position: absolute;
   position: absolute;
   top: 64%;
-    left: 31%;
-
-    height: 10%;
-height: 10%;
+  left: 31%;
+  height: 10%;
+  height: 10%;
  }
  #industry {
   position: absolute;
   top: 27%;
-    left: 29%;
-
-width: 15%;
-height: 10%;
+  left: 29%;
+  width: 15%;
+  height: 10%;
  }
  #Refineries {
   position: absolute;
-
   top: 46%;
-    left: 25%;
-width: 15%;
-height: 10%;
+  left: 25%;
+  width: 15%;
+  height: 10%;
  }
  #Cng {
   position: absolute;
-
   top: 27%;
-    left: 59%;
-
-width: 15%;
-height: 10%;
- }
+  left: 59%;
+  width: 15%;
+  height: 10%;
+}
  #Oil {
   position: absolute;
- 
- 
   top: 46%;
-    left: 63%;
-
-
-width: 15%;
-height: 10%;
+  left: 63%;
+  width: 15%;
+  height: 10%;
  }
  #hydrogen {
   position: absolute;
- 
   top: 64%;
-    left: 61%;
-
-width: 15%;
-height: 10%;
+  left: 61%;
+  width: 15%;
+  height: 10%;
  }
  #chemical {
   position: absolute;
   top: 79%;
-    left: 51%;
-width: 15%;
-height: 10%;
+  left: 51%;
+  width: 15%;
+  height: 10%;
  }
  #offshore {
   position: absolute;
- 
   top: 79%;
-    left: 38%;
-
-
-width: 15%;
-height: 10%;
+  left: 38%;
+  width: 15%;
+  height: 10%;
  }
 
 }
@@ -199,12 +184,12 @@ height: 10%;
   height: 50rem;
   width: 100%;
   z-index: 1;
- 
-margin-bottom: 3rem;;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-bottom: 8rem;
+  margin-bottom: 3rem;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -65px;
+
 .section4_mid_left {
   display: flex;
   justify-content: center;
@@ -212,7 +197,7 @@ margin-bottom: 8rem;
   justify-content: flex-end;
   align-items: center;
    width:50%;
-   height:80%;
+   height:50%;
    .img_wrapper {
      width: 100%;
      height: 100%;
@@ -237,9 +222,9 @@ margin-bottom: 8rem;
      text-align: left;
      width: 100%;
      position: relative;
-     font-size: 3.5rem;
+     font-size: 46px;
      color:#2b4056;
-     line-height: 3rem;
+     line-height: 40px;
      margin-bottom: 5rem;
    }
    h2:after {
@@ -254,11 +239,11 @@ margin-bottom: 8rem;
     content: '';
 }
     p {
-      margin-bottom:2rem;
+      margin-bottom:30px;
       text-align: left;
       width: 90%;
-      font-size: 1.1rem;
-      line-height: 1.6;
+      font-size: 16px;
+      line-height: 28px;
       font-family: Proxima-Bold;
     }
   
@@ -268,7 +253,7 @@ margin-bottom: 8rem;
 
 .section4_bottom {
   position: relative;
-  height: 65rem;
+  height: 100vh;
   width: 100%;
   z-index: 1;
  
@@ -278,11 +263,10 @@ margin-bottom: 3rem;;
 
   background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625225330/chqd0bw4jqdfbpkd7dsb.png"); 
 
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat; 
   background-size: cover; 
-  margin-top: 1rem;;
-  
+  margin-top: 0px;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,29 +275,27 @@ margin-bottom: 3rem;;
   z-index: 1;
   .section4_mid_left {
     display: flex;
-  justify-content: center;
-  display: flex;
-  justify-content:center;
-  flex-direction: column;
-  align-items: center;
-   width:50%;
-   height:70%;
-   z-index: 1;
-
-  
-
+    justify-content: center;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    height:50%;
+    z-index: 1;
    
-   .top {
-
-    
-     width: 100%;
-     height: 70%;
-     display: flex;
-  justify-content: center;
-  display: flex;
-  justify-content:center;
-  flex-direction: column;
-  align-items: center;
+   .top {    
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      display: flex;
+      justify-content:center;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 15px;
+      margin-top: 7rem;
+      
    h2 {
      text-transform: uppercase;
      text-align: left;
@@ -321,14 +303,11 @@ margin-bottom: 3rem;;
      position: relative;
      font-size: 3rem;
       color:white;
-     
-      
-   }
+     }
    h2:after {
      position: absolute;
       width: 0.35rem;;
     display: block;
-    
     height: 60%;
     left: -7%;
     top:17%;
@@ -338,14 +317,14 @@ margin-bottom: 3rem;;
 }
 
     p {
-     margin-top:2rem;
+      margin-top:2rem;
       color:white;
       z-index: 1;
       text-align: left;
       width: 50%;
-      font-size: 1.2rem;
+      font-size: 16px;
       font-family: Proxima-Bold;
-      line-height: 1.4;
+      line-height: 24px;
     }
    }
     .btn {
@@ -372,24 +351,24 @@ margin-bottom: 3rem;;
   justify-content:space-evenly;
   
   align-items: center;
-   width:50%;
-   height:70%;
-   z-index: 1;
+  width:50%;
+  height:90%;
+  z-index: 1;
 
    .section4_logo {
     
      width: 40%;
      height: 100%;
      display: flex;
-     justify-content: space-evenly;
+     justify-content: start;
      flex-direction: column;
      align-items: center;
- 
+      margin-top: 23rem;
      .img_wrapper {
       transition: transform 0.5s;
-              width: 100%;
-       height: 50%;
-       position: relative;
+      width: 100%;
+      height: 50%;
+      position: relative;
        
      }
      .img_wrapper:hover {
@@ -398,9 +377,10 @@ margin-bottom: 3rem;;
   transform: scale(1.1); 
 }
      h3 {
-       color:white;
+       /* color:white; */
       color: #f2e7c9;
        z-index: 1;
+      margin-top: 45px
      }
    }
    
@@ -463,11 +443,11 @@ flex-direction: column;
 h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 46px;
   text-transform: uppercase;
   color: white;
   width: 95%;
-  
+  line-height: 40px;   
     
 }
 .section4_top_data_logos {
@@ -586,23 +566,22 @@ height: 10%;
 position: relative;
 height: 50rem;
 width: 100%;
-z-index: 1;
-
-margin-bottom: 3rem;;
+z-index: 1; 
+margin-bottom: 0px;;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
  
 .section4_mid_left {
-display: flex;
-justify-content: center;
-display: flex;
-justify-content: flex-end;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width:95%;
+  height:50%;
 
- width:95%;
- height:50%;
  .img_wrapper {
    width: 100%;
    height: 100%;
@@ -619,13 +598,14 @@ justify-content:space-evenly;
 flex-direction: column;
 align-items: center;
  width:95%;
- height:50%;
+ height:80%;
 
  h2 {
    text-align: left;
    padding-left: 0.5rem;
    position: relative;
-   font-size: 1.5rem;
+   font-size: 46px;
+   line-height: 40px;
    
  }
  h2:after {
@@ -642,8 +622,8 @@ align-items: center;
   p {
     text-align: left;
     width: 95%;
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 28px;
     font-family: Proxima-Bold;
   }
 
@@ -668,23 +648,24 @@ width: 100%;
 height: 100%;
  flex-direction: column;
 .section4_mid_left {
-  display: flex;
+display: flex;
 justify-content: center;
 display: flex;
 justify-content:space-around;
 flex-direction: column;
 align-items: center;
- width:95%;
+  width:95%;
  height:60%;
  .top {
-     width: 100%;
-     height: 100%;
-     display: flex;
-  justify-content: center;
-  display: flex;
-  justify-content:space-around;
-  flex-direction: column;
-  align-items: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
  h2 {
    text-transform: uppercase;
    text-align: left;
@@ -748,10 +729,10 @@ align-items: center;
    width: 40%;
    height: 100%;
    display: flex;
-   justify-content: space-evenly;
+   justify-content: start;
    flex-direction: column;
    align-items: center;
-
+    margin-top: 175px;
    .img_wrapper {
     transition: transform 0.5s;
             width: 100%;
@@ -764,9 +745,10 @@ align-items: center;
 transform: scale(1.1); 
 }
    h3 {
-     color:white;
+     /* color:white; */
      z-index: 1;
      color:#f2e7c9;
+      margin-top: 45px
    }
  }
  

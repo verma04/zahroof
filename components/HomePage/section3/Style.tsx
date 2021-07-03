@@ -6,7 +6,7 @@ export const Section = styled.section`
 
   display:flex;
   justify-content:center;
-   flex-direction:column;
+  flex-direction:column;
   width:100%;
   align-items:center;
 
@@ -21,37 +21,30 @@ export const Section = styled.section`
   
     .section3 {
       
-        position: relative;
-     
-        display:flex;
-  justify-content:center;
+      position: relative;     
+      display:flex;
+      justify-content:center;
   
-  width:100%;
-  align-items:center;
-  position: relative;
-  height: 40rem;;
+      width:100%;
+      align-items:center;
+      position: relative;
+      height: 40rem;;
+
+      /* Set a specific height */
 
 
-/* Set a specific height */
-
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
  
- .middle {
-  position: absolute;
-    
- 
+  .middle {
+    position: absolute;    
     bottom: -3%;
-
-      width: 40%;
+    width: 40%;
     left: 31%;
 
-
-   
    .img-wrapper {
      width: 100%;
      height: 100%;
@@ -90,7 +83,8 @@ background-size: cover;
   h2 {
     position: relative;
     text-transform: uppercase;
-    font-size:2.875rem;
+    font-size:46px;
+    line-height: 46px;
     
   }
   h2:after{
@@ -109,26 +103,29 @@ background-size: cover;
 
 .section3_left {
   position: absolute;
-left: 0;
+  top: 45%;
+  left: 0;
   width: 30%;
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 .section3_right {
   position: absolute;
-right: 0%;;
+  top: 45%;
+  right: 0%;;
   width: 30%;
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
   a {
-    margin-top: 2rem;
+    margin-top: 25px;
     color:#222222;
-    font-size: 1.875rem;
+    font-size: 30px;
+    line-height: 28px;
     font-weight: 900;
     border-bottom: 1px solid black;
   }

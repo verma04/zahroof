@@ -15,16 +15,14 @@ export const Section = styled.section`
    @media (min-width: 1281px) {
   
     .section {
-      margin-bottom: 3rem;;
-        position: relative;
-     
+      /* margin-bottom: 3rem; */
+        position: relative;     
         display:flex;
-  justify-content:center;
-   flex-direction:column;
-  width:100%;
-  align-items:center;
-   
-  height:50rem;
+        justify-content:center;
+        flex-direction:column;
+        width:100%;
+        align-items:center;   
+        height:50rem;
 
 
 
@@ -35,9 +33,9 @@ export const Section = styled.section`
 .section_data {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items:center;
     flex-direction: column;
     align-items: center;
@@ -58,44 +56,38 @@ export const Section = styled.section`
       
        .section-left-top {
            
-           height: 100%;
+           height: 70%;
             width: 100%;
            display: flex;
            justify-content: space-between;
            flex-direction: column;
            align-items: center;
-           h2 {
-               
-               width: 100%;
-             font-size: 3.4rem;
-           
-               text-align: center;
-               
-              
-              
-               position: relative;
+           h2 {               
+                width: 100%;
+                font-size: 46px;
+                line-height: 40px;
+                text-align: center;
+                position: relative;
            }
            h2:after {
                bottom: -15%;
                left:49%;
                position: absolute;
-    height: 5px;
-    display: block;
-    width: 2%;
-      
-    background: #0f5885;
-    border-left: 1px white;
-    content: '';
+                height: 5px;
+                display: block;
+                width: 2%;
+                
+                background: #0f5885;
+                border-left: 1px white;
+                content: '';
 }
            h3 {
-            
-             font-size: 1.2rem;
-               text-align:center;
-                 width: 100%;
-                
-                   color: #7c7c7c;
-
-               line-height: 1.5;
+            font-size: 16px;
+            text-align: center;
+            width: 100%;
+            color: #7c7c7c;
+            line-height: 28px;
+            margin-top: 3rem;
            }
        }
        .section-left-bottom {
@@ -137,7 +129,7 @@ h3 {
 
    }
    .section_right {
-    margin-top:5rem;
+    margin-top:2rem;
 
        width: 60%;
        height: 50%;
@@ -186,12 +178,31 @@ h3 {
         input {
             opacity: 0.8;    
             background: #f8f8f8;
+            font-size: 14px;
+            line-height: 33px;
         }
         textarea {
-            opacity: 0.8;    
+            opacity: 0.8;   
+            resize : none;
+            width: 100%;
+            font-size: 14px;
+            line-height: 33px;
         }
         select {
-            opacity: 0.8;  
+            width: 100%;
+            height: 60%;
+            font-size: 14px;
+            line-height: 33px;
+            padding: 5px;
+            border: none;
+            color: #7c7c7c;
+            opacity: 0.8;
+            background: url(https://zahroofvalves.wpcdn-b.com/wp-content/uploads/2021/07/arrowe-1.png) no-repeat right #f8f8f8;
+            background-position-x: 97%;
+            background-size: 10px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            border: 1px solid #EFEAE4;
         }
         form {
            
@@ -211,16 +222,16 @@ h3 {
                   display: flex;
                   justify-content: space-between;
                  button {
-                     margin-left: 0.5rem;
-                     position: relative;
-                    
-                    font-size: 1rem;
-    padding: 1rem;
-    height: 4.5rem;;
-    width: 30%;
-    border-radius: 1px;
-    text-transform: uppercase;
-       background-color: #3c4e62;
+                    margin-left: 0.5rem;
+                    position: relative;
+                    font-size: 14px;
+                    line-height: 24px;
+                    padding: 1rem;
+                    height: 60px;
+                    width: 175px;
+                    border-radius: 1px;
+                    text-transform: uppercase;
+                    background-color: #3c4e62;
 
                  }
                  button:after {
@@ -245,8 +256,10 @@ h3 {
                           width: 100%;
                           height: 60%;
                           background-color: #f8f8f8;
-                          border-radius:5px;
+                          /* border-radius:5px; */
                           color: #7c7c7c;
+                          font-size: 14px;
+                          line-height: 33px;
                       }
    
                   }
@@ -262,7 +275,9 @@ h3 {
                           width: 100%;
                           height: 65%;
                           background-color: #f8f8f8;
-                          border-radius:5px;
+                          font-size: 14px;
+                          line-height: 33px;
+                          /* border-radius:5px; */
 
                       }
    
@@ -280,7 +295,7 @@ h3 {
                       width: 100%;
                       height: 94%;
                       display: flex;
-                      justify-content: space-evenly;
+                      justify-content: center;
                       align-items: flex-start;
                       flex-direction: column;
                  
@@ -288,8 +303,9 @@ h3 {
                           width: 100%;
                           height: 80%;
                           background-color: #f8f8f8;
-                          border-radius:5px;
-
+                          font-size: 14px;
+                          line-height: 33px;
+                          /* border-radius:5px; */
 
                       }
    
@@ -312,11 +328,17 @@ h3 {
                       flex-direction: column;
                       flex: 1;
                       select {
-                          width: 100%;
-                          height: 60%;
-                          background-color: #f8f8f8;
-                          border-radius:5px;
-
+                        width: 100%;
+                        height: 60%;
+                        /* background-color: #f8f8f8; */
+                        border-radius:5px;
+                        color: #7c7c7c;
+                        background: url(https://zahroofvalves.wpcdn-b.com/wp-content/uploads/2021/07/arrowe-1.png) no-repeat right #f8f8f8;
+                        background-position-x: 97%;
+                        background-size: 10px;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        border: 1px solid #EFEAE4;
                       }
                       label {
                           color: #7c7c7c;;
