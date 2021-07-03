@@ -66,7 +66,7 @@ background-size: cover;
      justify-content: center;
   li {
     
-      font-size: 3.4rem;
+      font-size: 60px;
       font-family: Proxima-Bold;
       text-align:center;
       color:white;

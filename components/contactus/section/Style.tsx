@@ -24,8 +24,12 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
    
-  height:60rem;
-
+  height:773px;
+  background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625296161/rfrkr499ec2ow6izav59.jpg"); /* The image used */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 
    
    
@@ -50,8 +54,8 @@ export const Section = styled.section`
       
        .section-left-top {
          
-           width: 70%;
-           height: 45%;
+           width: 60%;
+           height: 55%;
            padding-top:5%;
              
            display: flex;
@@ -60,7 +64,8 @@ export const Section = styled.section`
            align-items: flex-end;
            
            h2 {
-             font-size: 3.5rem;
+             font-size: 55px;
+             line-height: 46px;
              
                text-align: right;
                  
@@ -70,28 +75,28 @@ export const Section = styled.section`
            }
            h2:after {
                top: 0%;
-               left:-4%;
+               left:-10%;
                position: absolute;
     height: 100%;
     display: block;
-    width: 7px;
+    width: 5px;
     background: ${props => props.theme.colors.yellow};
     border-left: 1px white;
     content: '';
 }
            h3 {
                margin-top: 2rem;
-             font-size: 1.2rem;
+             font-size: 20px;
                text-align: right;
                
-               width: 90%;
+               width: 100%;
                color: white;
-               line-height: 1.5;
+               line-height: 30px;
            }
        }
        .section-left-bottom {
-           width: 70%;
-           height: 25%;
+           width: 60%;
+           height: 30%;
            
            display: flex;
            justify-content: space-evenly;
@@ -101,7 +106,7 @@ export const Section = styled.section`
            :after {
                top: 0%;
                position: absolute;
-    height: 10px;
+    height: 7px;
     display: block;
     width: 100%;
     background: ${props => props.theme.colors.yellow};
@@ -138,7 +143,7 @@ h3 {
        align-items: flex-start;
        .form {
         width: 70%;
-        height: 70%;
+        height: 80%;
         display: flex;
         justify-content: center;
         input {
@@ -264,7 +269,11 @@ h3 {
                           height: 60%;
                           background-color: #c1c4ca;
                           border-radius:5px;
+                          font-family: Proxima-Light;
 
+                      }
+                      input {
+                        font-family: Proxima-Light;
                       }
                       label {
                           color:#c1c4ca;

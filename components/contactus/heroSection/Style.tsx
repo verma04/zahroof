@@ -27,7 +27,7 @@ height: 100% !important;
     .homePage-hero {
         width: 100%;
         position: relative;
-        height: 40em;
+        height: 60vh;
         /* background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000543/nszogjpikgvufgyx7tar.png"); */
 
 /* Set a specific height */

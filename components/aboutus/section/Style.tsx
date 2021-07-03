@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
    
-  height:50rem;
+  height:640px;
 
 
    
@@ -44,13 +44,13 @@ export const Section = styled.section`
   align-items: left;
   flex-direction: column;
   h2 {
-    margin-top: 10rem;;
-    margin-bottom: 2rem;;
+      margin-top:115px;
+    margin-bottom: 66px;
   color:  white;
   
    position: relative;
    padding-left: 0.5rem;
-   font-size: 4rem;;
+   font-size: 55px;
 text-transform: uppercase;
    position: relative;
   }
@@ -66,10 +66,10 @@ text-transform: uppercase;
   }
  
   p {
-    width: 100%;
+    width: 90%;
     color:white;
-    font-size: 1.5rem;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 35px;
    
   }
   h3 {

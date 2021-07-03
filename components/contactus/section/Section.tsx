@@ -20,7 +20,7 @@ interface Section {
            
              
 
-               <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png'} alt="Picture of the author" />
+
                <div className="section_data" >
 <div className="section_left" >
 
@@ -101,7 +101,7 @@ quote, please use the contact form to the right
                 <div className="field" >
                 <label>Select One*</label>
                 <select name="pets" id="pet-select">
-    <option value="">--Please choose an option--</option>
+    <option value="">I WOULD LIKE AN ESTIMATE</option>
     <option value="dog">Dog</option>
     <option value="cat">Cat</option>
     <option value="hamster">Hamster</option>
@@ -121,7 +121,7 @@ quote, please use the contact form to the right
                 <div className="input-field-1" >
 
                 <div className="field" >
-                <label>Location*</label>
+                <label>Comment*</label>
          <textarea></textarea>
                 </div>
                 
