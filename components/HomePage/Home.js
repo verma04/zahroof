@@ -22,7 +22,7 @@ import { useGetHomePage } from '../../apollo/actions'
      
     if(loading  ){
         return (
-        <div>...Loading</div>
+        <div>....Loading</div>
         )
     }
  
