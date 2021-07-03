@@ -30,25 +30,26 @@ export const Section = styled.section`
 align-items: center;
    width:100%;
    background-color:#3b546a;
-   height: 25rem;
+   height: 515px;
    p {
   
      width: 75%;
      text-align: center;
        color:white;
        text-transform: uppercase;
-       font-size: 3.3rem;
+       font-size: 50px;
+       line-height: 50px;
    }
    position: relative;
    .tringle {
     position: absolute;
     left: 40%;
     width: 0;
-    bottom: -39%;
+    bottom: -18%;
     height: 0;
-    border-left: 12rem solid transparent;
-    border-right: 12rem solid transparent;
-    border-top:10rem solid #3b546a;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+    border-top:8rem solid #3b546a;
     z-index: 1;
 } 
      
@@ -61,13 +62,13 @@ align-items: center;
   justify-content:center;
 align-items: center;
    width:100%;
-   height:27rem;
+   height:342px;
  position: relative;   
 
  background-color: #cea800;
  .section2_data {
      width: 80%;
-     height: 90%;
+     height: 100%;
      display:flex;
   justify-content:space-between;
   align-items: center;
@@ -78,7 +79,7 @@ align-items: center;
     
     display:flex;
     width: 45%;
-    height: 95%;
+    height: 100%;
   justify-content:space-around;
   align-items: center;
   flex-direction: column;
@@ -91,7 +92,7 @@ align-items: center;
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items:center;
     flex-direction: column;
     
@@ -102,32 +103,41 @@ align-items: center;
     li {
         position: relative;
         text-transform:uppercase;
-        font-size: 2rem;
+        font-size: 29.99px;
+        line-height: 33.32px;
         width: 70%;
         text-align: center;
-        margin-bottom: 1rem;
+        
         color:white;
         font-family: Proxima-Bold;
     
     }
+    li:nth-child(1){
+        margin-top: 20px
+        
+
+    }
     li:nth-child(2){
-        width: 13rem;
-        height: 13rem;
-        margin-bottom: 1rem;
+      margin-top:16px;
+      margin-bottom:20px;
+        width: 130px;
+        height: 132px;
+        
 
     }
     li:nth-child(3){
         width: 100%; 
-        font-size: 1.7rem;
+        font-size: 23.51px;
+        line-height: 40.3px;
        
         text-align: center;
 
     }
 
     li:nth-child(4){
-        width: 3rem;
+        width: 2.5rem;
        
-        height: 3rem;
+        height: 2.5rem;
 
     }
 
@@ -139,9 +149,10 @@ align-items: center;
   }  
 
   .section_bottom-1 {
-    margin-top:2rem;
+    margin-top:40px;
     span {
-      font-size: 4rem;
+      font-size: 46px;
+      line-height: 40px;
       font-family: Proxima-Thin;
       text-transform: uppercase;
     }

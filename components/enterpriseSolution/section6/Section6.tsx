@@ -25,7 +25,7 @@ your business?
 
          <h2>
          If it’s a 
-StraightFloTM 
+StraightFlo<sup>TM  </sup>
 Valve it can.
              </h2>
 

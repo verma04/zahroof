@@ -13,7 +13,7 @@ import  Navbar from '../../layout/navbar/navbar'
                
 
                <div className="section_top" >
-               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625215361/el7kaq4epxdnzvizovxw.png'} alt="Picture of the author" />
+            
                <div className="section2_data" >
                    
                      <div className="section2_data_left"  >

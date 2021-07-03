@@ -31,15 +31,14 @@ align-items: center;
 flex-direction: column;
    width:100%;
    background-color: #3b546a;
-   height: 30rem;
+   height: 442px;
    h3 {
-     font-size: 4rem;;
-     width: 60%;
+     font-size: 65px;
+     line-height: 70px;
+     width: 70%;
      line-height: 1.3;
      color: #dbb43f;
-      
-  
-        font-family: "Caveat_reg"
+        font-family: "Caveat-Light"
    }
    span {
     font-family: 'Caveat-Light';
@@ -70,7 +69,7 @@ flex-direction: column;
 } 
 .section-bottom {
   background-color: #dbb43f;
-  height: 3rem;
+  height: 36px;
   width: 100%;
 }
 

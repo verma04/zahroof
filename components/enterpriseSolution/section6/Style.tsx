@@ -25,8 +25,8 @@ export const Section = styled.section`
   align-items:center;
   position: relative;
   
-  height: 60rem;;
-  background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624446661/zugr9ahadrsbvxmfoi2v.jpg"); /* The image used */
+  height: 737px;
+  background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625296161/rfrkr499ec2ow6izav59.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
    /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -63,17 +63,21 @@ export const Section = styled.section`
   align-items: center;
   h2 {
   width: 70%;
-   font-size: 3.5rem;
+    font-size: 45.98px;
+    line-height: 50.29px;
    color:white;
    text-transform: uppercase;
-   line-height: 1;
+  
    margin-top:2rem;
+   sup {
+    font-size: 1rem;
+   }
   }
   h3 {
     width: 70%;
       color:white;
-      font-size: 2.2rem;
-  
+      font-size: 31px;
+      line-height: 30px;
     line-height: 1;
     text-transform: uppercase;
   }
@@ -110,7 +114,9 @@ export const Section = styled.section`
   span {
     width: 60%;
     text-align:left;
-    font-size: 2.3rem;
+    font-size: 37px;
+    line-height: 40px;
+    font-weight: 600;
     color: white;
     
   }
@@ -132,19 +138,21 @@ export const Section = styled.section`
 }
   .img-wrapper {
     transition: transform 0.5s;
-    width: 50%;
-    height: 70%;
+    width: 120px;
+    height: 120px;
     position: relative;
       position: relative;
   }
   p {
     height: 20%;
     width: 60%;
-    font-size: 1.25rem;
+    font-size: 17px;
+    line-height: 17px;
       margin-top: 0.5rem;;
       text-transform: uppercase;
       color: white;
       text-align: center;
+      font-weight: 600;
 
   }
   img {

@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 40rem;;
+  height: 480px;;
   background-color: #dbb43f;
 
    
@@ -36,25 +36,27 @@ export const Section = styled.section`
   align-items: center;
   flex-direction: column;
   .section2_top {
-   margin-top: 7%;
+
+  
     display:flex;
     width: 100%;
-    height: 70%;
+    height: 100%;
   justify-content:space-around;
   align-items: center;
+  
   .logo {
-   
+    height: 50%;
+    
     width: 14%;
-    height: 100%;
    
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     .wrapper {
-      
-      width: 80%;
-      height: 40%;
+       
+       width: 100%;
+      height: 135px;
       position: relative;
       display: flex;
       justify-content: center;
@@ -68,14 +70,15 @@ export const Section = styled.section`
   transform: scale(1.1); 
     }
     p {
-      margin-top:2rem;
-      width: 100%;
-      height: 40%;
-      line-height: 1.3;
+      
+     margin-top:30px;
+      width: 85%;
+      
+      line-height: 16.87px;
       font-family: Proxima-Bold;
       text-transform: uppercase;
       color: white;
-      font-size: 1.1rem;;
+      font-size: 14.05px;
     }
   }
 

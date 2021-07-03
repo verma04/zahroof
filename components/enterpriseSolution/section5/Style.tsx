@@ -29,7 +29,7 @@ export const Section = styled.section`
   justify-content:center;
 align-items: center;
    width:100%;
-   height:25rem;
+   height:290px;
  position: relative;  
 
  .section2_data {
@@ -53,11 +53,12 @@ align-items: center;
      width: 50%;
    position: relative;
    padding-left: 1rem;
-   font-size: 3.5rem;;
+   font-size: 46px;
+   line-height: 40px;
 text-transform: uppercase;
    position: relative;
    color:#3b546a;
-   line-height: 3.5rem;
+  
   }
 
   h2:after {
@@ -72,11 +73,12 @@ text-transform: uppercase;
   }
   p {
      width: 50%;
-     font-weight: 600;
+     /* font-weight: 600; */
     padding-left: 0.5rem;
-    line-height: 1.6;
+    line-height: 38px;
     position: relative;
-    font-size: 1.5rem;
+    font-size: 22px;
+    color:#3b546a;
 
   }
 

@@ -32,8 +32,14 @@ align-items: center;
    height:32rem;
  position: relative;  
 
+ background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625215361/el7kaq4epxdnzvizovxw.png"); 
+  
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+
  .section2_data {
-     width: 70%;
+     width: 80%;
      height: 100%;
      display:flex;
   justify-content:center;
@@ -50,16 +56,19 @@ align-items: center;
   h2 {
   color: white;
    position: relative;
-     line-height: 5rem;
-   font-size: 5rem;;
+     line-height: 70px;
+   font-size: 74px;
 text-transform: uppercase;
    position: relative;
   }
 
  
   p {
-    font-size: 1.5rem;
+    margin-top:42px;
+    font-size: 21px;
     width: 80%;
+    font-weight:600;
+    line-height: 28px;
     color:white;
     padding-left: 1.5rem;
     line-height: 1.2;
@@ -69,9 +78,10 @@ text-transform: uppercase;
     position: absolute;
     content: '';
     display: block;
-    height: 110%;
-    width: 0.4rem;
-    top: 0;
+    height: 120%;
+    width: 6px;
+    bottom: 0px;
+   
     left: -2rem;
     background-color: #dbb43f;
   }
@@ -96,12 +106,13 @@ text-transform: uppercase;
   justify-content:center;
 align-items: center;
    width:100%;
-   height:52rem;
+   height:820px;
  position: relative;  
 
 
   background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625043594/hqwarrxjqh0g5tixezvi.png")  ;
- background-position: left center;
+
+ background-position-y: 31%;
   background-repeat: no-repeat;
 
   
@@ -130,8 +141,8 @@ align-items: center;
   h2 {
   
    position: relative;
-     line-height: 4rem;
-   font-size: 4rem;;
+     line-height: 55.31px;;
+   font-size: 55.31px;;
 text-transform: uppercase;
    position: relative;
   }
@@ -140,9 +151,10 @@ text-transform: uppercase;
   p {
     width: 50%;
     margin-top:2rem;
- 
+    font-size:16px;
    font-weight: 600;
-    line-height: 1.6;
+    line-height: 28px;
+    color:#777777;
     position: relative;
   }
  p:after {
@@ -167,7 +179,7 @@ text-transform: uppercase;
 
  .absol-bottom {
   width: 60%;
-     height: 30%;
+     height: 150px;
      background-color: #3b546a;
      bottom: 0%;
      left: 0%;
@@ -184,8 +196,8 @@ text-transform: uppercase;
     line-height: 1.6;
     position: relative;
     text-transform: uppercase;
-     font-size:3rem;
-     line-height: 3rem;
+     font-size:40px;
+     line-height: 40px;
      color:white;
   }
  h2:after {
