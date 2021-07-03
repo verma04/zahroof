@@ -40,20 +40,21 @@ align-items: center;
   display: flex;
   justify-content: center;
   display: flex;
-  justify-content:space-evenly;
+  justify-content:start;
   flex-direction: column;
   align-items: center;
    width:80%;
    height:100%;
-
+  margin-top: 4rem;
    h2 {
      text-align: left;
      width: 100%;
      position: relative;
-     font-size: 3.5rem;;
+     font-size: 46px;
+     line-height: 46px;
      padding-left: 0.7rem;
      text-transform: uppercase;
-      
+     margin-bottom: 20px;
    }
    h2:after {
      position: absolute;
@@ -69,9 +70,10 @@ align-items: center;
     p {
       text-align: left;
       width: 100%;
-      font-size: 1.1rem;
-      line-height: 1.4;
+      font-size: 16px;
+      line-height: 28px;
       font-family: Proxima-Bold;
+      margin-bottom: 20px;
     }
   
 }
@@ -112,12 +114,12 @@ align-items: center;
   display: flex;
   justify-content: center;
   display: flex;
-  justify-content:space-evenly;
+  justify-content:start;
   flex-direction: column;
   align-items: center;
-   width:95%;
-   height:100%;
-
+  width:95%;
+  height:100%;
+  margin-top: 4rem;
    h2 {
      text-align: left;
      width: 100%;
@@ -125,7 +127,7 @@ align-items: center;
      font-size: 1.5rem;;
      padding-left:0.5rem;
      text-transform: uppercase;
-      
+     margin-bottom: 20px;
    }
    h2:after {
      position: absolute;

@@ -54,14 +54,12 @@ background-size: cover;
   .homePage-data {
     
       margin-top: 5%;
-      width: 55rem;
-   
-    height: 65%;
-   
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
- flex-direction: column;
+      width: 55rem;   
+      height: 65%;   
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
   ul {
     
      width:60%;
@@ -70,19 +68,18 @@ background-size: cover;
      flex-direction: column;
  span {
       font-family: Proxima-Bold;
-      font-size: 4rem;
+      font-size: 60px;
       text-align:right;
       color:white;
       font-weight: 1000;
-      line-height: 3.4rem;
-
+      line-height: 52px;
       text-transform: uppercase;
       
   }
   span:nth-child(3) {
-    margin-top: 0.3rem;;
+    margin-top: 0.1rem;;
     color: #eeba18;
-    margin-bottom: 0.1rem;;
+    margin-bottom: 0.2rem;;
     position: relative;
     display: flex;
     justify-content:  flex-end;
