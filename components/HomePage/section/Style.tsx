@@ -31,11 +31,11 @@ export const Section = styled.section`
    width:100%;
    height: 10rem;
    span {
-       font-family: Proxima-Light;
-       
-       font-size: 2.5rem;
+       font-family: Proxima-Light;       
+       font-size: 35px;
        color:white;
        text-transform: uppercase;
+       line-height: 35px;
    }
    
    .section_top_left {
@@ -47,12 +47,13 @@ display: flex;
 justify-content: flex-end;
 align-items: center;
 padding-right:3rem;
-span {
-  font-size: 2.5rem;
-       color:white;
-       text-align: left;
-       text-transform: uppercase;
-   }
+  span {
+     font-size: 35px;
+    color: white;
+    text-align: left;
+    line-height: 35px;
+    text-transform: uppercase;
+  }
 .tringle {
         position: absolute;
     left: 10%;
@@ -120,12 +121,14 @@ background-size: cover;
 .react-parallax-bgimage {
   
     height: 120% !important;
+    width: 100% !important;
+    object-fit: cover;
     
 }
    
    .section_bottom_set {
     width:100%;
-    height:45rem;
+    height:570px;
   
   
 position: relative;
@@ -176,7 +179,7 @@ position: relative;
 
 .section_bottom_set-1 {
     width:50%;
-    height: 45rem;
+    height: 570px;
 
 position: relative;
 
@@ -285,11 +288,11 @@ align-items:center;
  
 .section_top {
   display:flex;
-justify-content:center;
-align-items: center;
- width:100%;
-
- height: 11rem;
+  justify-content:center;
+  align-items: center;
+  width:100%;
+  height: 146px;
+  
  span {
      font-family: Proxima-Light;
      width: 90%;
@@ -299,18 +302,18 @@ align-items: center;
  }
  
  .section_top_left {
-  width:50%;
-  height: 100%;
-background-color: #dbb43f;
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-span {
-     font-size: 1.2rem;
-     color:white;
-     text-transform: uppercase;
- }
+    width:50%;
+    height: 100%;
+    background-color: #dbb43f;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  span {
+      font-size: 1.2rem;
+      color:white;
+      text-transform: uppercase;
+  }
 .tringle {
   position: absolute;
   left: 10%;

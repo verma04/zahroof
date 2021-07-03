@@ -71,7 +71,13 @@ import Image from 'next/image'
                 </div>
                 <div className="field" >
                 
-         <input  placeholder="Departmnet" ></input>
+                <select className="select">
+                    <option value="">Departmnet</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                {/* <input  placeholder="Departmnet" ></input> */}
                 </div>
 
                 </div>

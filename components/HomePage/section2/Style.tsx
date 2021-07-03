@@ -52,23 +52,38 @@ export const Section = styled.section`
     display:flex;
     width: 40%;
     height: 100%;
-  justify-content:space-evenly;
-  align-items: left;
-  flex-direction: column;
-  h2 {
-  width: 92%;
-   font-size: 3.5rem;
-   color:#daaf1a;
-   line-height: 3.4rem;;
-  }
-  p {
-      color:white;
-      font-weight: 600;
-      font-size: 1.35rem;
-    width: 75%;
-    line-height: 1.4;
-   
-  }
+    justify-content:start;
+    align-items: left;
+    flex-direction: column;
+      h2 {
+        width: 92%;
+        font-size: 46px;
+        color:#daaf1a;
+        line-height: 46px;
+        margin-left: 20px;
+        margin-top: 45px;
+
+        /* overflow: hidden; */
+        position: relative;
+        ::after {
+              content: '';
+              width: 7px;
+              height: 33px;
+              background: #38506d;
+              position: absolute;
+              top: 70%;
+              left: -20px;
+        }
+      }
+      
+      p {
+        color:white;
+        font-weight: 600;
+        font-size: 20px;
+        width: 75%;
+        line-height: 28px;
+        margin-top: 35px;
+      }
   }
 
   .section2_data_right {
@@ -103,14 +118,15 @@ export const Section = styled.section`
       position: relative;
   }
   p {
-    height: 20%;
-     width: 100%;
-     font-weight: 600;
-    font-size: 1.25rem;
-      margin-top: 0.5rem;;
-      text-transform: uppercase;
-      color: white;
-      text-align: center;
+        height: 20%;
+        width: 100%;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 0.5rem;;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
        p{
          height: 100%;
          width: 100%;
@@ -118,7 +134,8 @@ export const Section = styled.section`
 
   }
   img {
-      height: 65%;
+    height: 65px !important;
+    width: auto !important;
   }
   }
 
@@ -220,19 +237,36 @@ flex-direction: column;
   display:flex;
   width: 100%;
   height: 50%;
-justify-content:space-around;
-align-items: left;
-flex-direction: column;
-h2 {
-width: 100%;
- font-size: 1.5rem;
- color:#daaf1a;
-}
+  justify-content:start;
+  align-items: left;
+  flex-direction: column;
+  h2 {
+    width: 100%;
+    font-size: 46px;
+    color:#daaf1a;
+    line-height: 46px;
+    margin-left: 20px;
+    margin-top: 45px;
+
+    /* overflow: hidden; */
+    position: relative;
+    ::after {
+          content: '';
+          width: 7px;
+          height: 33px;
+          background: #38506d;
+          position: absolute;
+          top: 70%;
+          left: -20px;
+    }
+  }
 p {
     color:white;
-    font-size: 1.2rem;
-  width: 100%;
-  line-height: 1.2;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    line-height: 28px;
+    margin-top: 35px;
 }
 }
 
