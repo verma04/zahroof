@@ -24,7 +24,7 @@ Reliability </h2>
 
 
 <div className="top" > 
-<h2  className="head" >10
+<h2 className="head" >10
 
 
 </h2>

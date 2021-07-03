@@ -52,21 +52,22 @@ background-size: cover;
   .homePage-data {
       margin-top: 5%;
       width: 70%;
-    height: 60%;
+    height: 50%;
      
- 
+      
     display: flex;
     justify-content: center;
     align-items: flex-start;
  flex-direction: column;
 
   .text-left {
-     width:35%;
+     width:40%;
   
   li {
     margin-top:2rem;
     font-family: Proxima-Bold;
-      font-size: 3.4rem;
+      font-size: 55px;
+      line-height: 46px;;
       text-align:right;
       color:white;
       font-weight: 1000;
@@ -81,7 +82,7 @@ background-size: cover;
     position: absolute;
     display: block;
     background-color: #eeba18;
-    height: 100%;
+    height: 110%;
     width: 0.4rem;
     top:0;
     right: -2rem;
@@ -89,7 +90,7 @@ background-size: cover;
   }
  }
  .text-right {
-  
+   
      width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -97,14 +98,16 @@ background-size: cover;
 
 
      li {
+     
       font-family: Proxima-Bold;
-       width: 50%;
+       width: 48%;
       text-align:left;
      }
      li {
-    margin-top:2rem;
+   
      
-      font-size: 3.4rem;
+      font-size: 55px;
+      line-height: 46px;;
       text-align:left;
       color:white;
       font-weight: 1000;
@@ -118,7 +121,7 @@ background-size: cover;
     position: absolute;
     display: block;
     background-color: #eeba18;
-    height: 100%;
+    height: 110%;
     width: 0.4rem;
     top:0;
     left: -2rem;

@@ -20,6 +20,8 @@ emissions and cut maintenance costs by XX%
              
               </h3>
               <span> - Costomer Name</span>
+
+              <div className="triangle-down"></div>
                 
                </div>
 

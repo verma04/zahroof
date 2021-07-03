@@ -19,7 +19,7 @@ import  Navbar from '../../layout/navbar/navbar'
                      <div className="section2_data_left"  >
 
 <h2>The benefits are clear <br/>
-even from 30,000 ft </h2>
+even from 30,000 ft. </h2>
 <p>
 We get it—you’re a big picture person. You care about results, not how we make the sausage. 
 So instead of delving into the details of how we do what we do, we’ll topline it for you

@@ -11,8 +11,10 @@ import  Navbar from '../../layout/navbar/navbar'
            
            <div className="section" >
                <div className="section_top" >
-                   <p>a 10-Year Limited Warranty on 
-the stainless steel seat and carrier</p>
+                   <p>On average, Zahroof StraightFloTM Valves
+
+                       <br/>
+                       pay for themselves in 2 to 5 months.</p>
                <div className="tringle" >
                   </div>
                 
@@ -32,9 +34,9 @@ the stainless steel seat and carrier</p>
               
             <div className="section_bottom_data" >
             
-            <li>See  why the line guys Love us  </li>
+            <li>See  how to sell <br/> it up the ladder  </li>
                 <li>
-                <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623835331/w3hb3schn3u7pnjdrewv.png' />
+                <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356836/ruhkeqvmgfhctlmiswih.png' />
                 </li>
 
                 <li><h3>EnterPrise Solutions</h3></li>
@@ -55,13 +57,13 @@ the stainless steel seat and carrier</p>
            
             <div className="section_bottom_data" >
            
-            <li>See what we have Done WIth Others </li>
+            <li>See what we've <br/> Done for Others  </li>
 
                 <li>
                 <Image  alt="Picture of the author"   objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356709/w2u44k0jrx10hakvnri2.png' />
                 </li>
 
-                <li><h3>Case Studies</h3></li>
+                <li><h3>Case studies</h3></li>
                 <li>
                 <Image  alt="Picture of the author"    objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356837/zh1sycnu12s4n75hizoj.png' />
                 </li>

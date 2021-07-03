@@ -25,7 +25,7 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 40rem;;
+height: 518px;
 
 position: relative;
 
@@ -41,15 +41,17 @@ position: relative;
     display:flex;
     width: 45%;
     height: 100%;
-  justify-content:center;
+  justify-content:flex-start;
   align-items: left;
   flex-direction: column;
   h2 {
-  color:  #24334d;
+    margin-left:  20px;
+    margin-top:86px;
+  color:  #27364e;
    position: relative;
-   padding-left: 2rem;
-   font-size: 4rem;;
-   line-height: 4rem;
+   
+   font-size: 55px;;
+   line-height: 46px;
   text-transform: uppercase;
    position: relative;
   }
@@ -57,19 +59,22 @@ position: relative;
     position: absolute;
     content: '';
     display: block;
-    height: 100%;
+    height: 130%;
     width: 0.4rem;
-    bottom: -1%;
-    left: -0.3rem;
+    bottom: -12%;
+    left: -20px;
+
+ 
     background-color:  #dbb43f;
   }
  
   p {
-    width: 90%;
+    width: 80%;
     color:white;
-    margin-top:3rem;
-    padding-left: 2rem;
-    line-height: 2;
+    margin-top:81px;
+    padding-left: 20px;
+    line-height: 35px;
+    text-align: left;
     color:black;
   }
   h3 {
@@ -92,7 +97,7 @@ position: relative;
   .img-wrapper { 
   position: relative;
   width: 80%;
-    height: 80%;
+    height: 70%;
   }
   }
  }

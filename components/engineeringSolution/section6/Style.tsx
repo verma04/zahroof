@@ -25,13 +25,13 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 30rem;;
+height: 420px;
 background-color: #dbb43f;;
 .tringle {
  position: absolute;
  left: 20%;
  width: 0;
- top: -15%;
+ top: -12%;
  height: 0;
  border-left: 7rem solid transparent;
  border-right: 7rem solid transparent;
@@ -49,17 +49,19 @@ background-color: #dbb43f;;
   .section2_data_left {
     
     display:flex;
-    width: 60%;
+    width: 70%;
     height: 100%;
-  justify-content:center;
+  justify-content:flex-start;
   align-items: left;
   flex-direction: column;
   h2 {
-  color:  #24334d;
+  color:  #27364e;
    position: relative;
-   padding-left: 2rem;
-   font-size: 4rem;;
-   line-height: 3.5rem;
+ 
+   font-size: 55px;
+   line-height: 46px;
+margin-top: 78px;
+margin-bottom: 38px;
 text-transform: uppercase;
    position: relative;
   }
@@ -67,21 +69,21 @@ text-transform: uppercase;
     position: absolute;
     content: '';
     display: block;
-    height: 90%;
+    height: 100%;
     width: 0.5rem;
     top: 0;
-    left: -0.3rem;
+    left: -27px;
     background-color: #24334d;
   }
  
   p {
-    margin-top:1.5rem;
-    width: 100%;
+   
+    width: 80%;
     color:white;
-    padding-left: 2rem;
-    line-height: 1.6;
-    color:black;
-    font-size:1.5rem;
+    font-size: 20px;
+   line-height: 35px;
+    color:#2e3031;
+    
   }
   h3 {
     line-height: 1.1;
@@ -91,8 +93,8 @@ text-transform: uppercase;
   }
 
   .section2_data_right {
+    
   
-
   display:flex;
   width: 40%;
   height: 80%;
@@ -102,9 +104,9 @@ align-items: center;
 flex-wrap: wrap;
 .top {
 width: 50%;
-height: 15%;
+
 display:flex;
-justify-content:center;
+justify-content:flex-start;
 align-items: center;
 flex-direction: column;
 h2 {
@@ -112,16 +114,19 @@ h2 {
   width: 100%;
   text-align: center;
   color: white;
-  font-size: 10rem;;
-  height: 12rem;
+
+
+ font-size: 150px;
+
+
   text-transform: uppercase;
 }
 h3{
-  
+  margin-top: -38px;
   width: 100%;
   text-align: center;
   color: white;
-  font-size: 5rem;;
+  font-size: 70.44px;
   text-transform: uppercase;
 
 }
@@ -129,7 +134,7 @@ span {
   width: 100%;
 
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 20px;
   text-transform: uppercase;
   color:white;
 }

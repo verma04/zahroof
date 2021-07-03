@@ -6,7 +6,7 @@ import  Navbar from '../../layout/navbar/navbar'
 import AOS from 'aos';
 import { Parallax, Background } from "react-parallax";
 import "aos/dist/aos.css";
-const image = 'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625219977/ccgto14lcobhqxjmhpel.jpg'
+const image = 'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625301208/sgogb0rbrec6n3j9trb3.jpg'
  const HeroSection: React.FC<{}> = () => {
     useEffect(() => {
  

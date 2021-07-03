@@ -82,7 +82,7 @@ button {
     line-height: var(--line-height-lg);
   font-family: Proxima-Bold;
   color: #2f3435; 
-  word-spacing:0.2rem;
+  
   }
   li {
    list-style: none;
@@ -93,7 +93,7 @@ button {
     color: ${props => props.theme.colors.grey};
   font-family: Proxima-Bold;
   color: #2f3435; 
-  word-spacing:0.2rem;
+  
   line-height: 1.2;
   }
   h3 {
@@ -102,12 +102,12 @@ button {
     color: ${props => props.theme.colors.grey};
 font-family: Proxima-Bold;;
     color: #2f3435; 
-    word-spacing:0.2rem;
+    
     /* family=FiesoleTextW00-Italic */
   }
   p {
     font-family: Proxima-Light;
-    word-spacing:0.2rem;
+    
     
   }
   h4 {
@@ -115,20 +115,20 @@ font-family: Proxima-Bold;;
     font-size: 1rem;
     line-height: var(--line-height-md);
     color: #2f3435; 
-    word-spacing:0.2rem;
+    
     line-height: 1.2;
   }
   h5 {
     font-size: 0.75;
     line-height: var(--line-height-md);
     color: #2f3435; 
-    word-spacing:0.2rem;
+    
   }
   h6 {
     font-size: 0.6rem;
     line-height: var(--line-height-md);
     color: #2f3435; 
-    word-spacing:0.2rem;
+    
   }
   input {
     font-family: Proxima-Light;
@@ -144,7 +144,7 @@ font-family: Proxima-Bold;;
 line-height:1.1;
   
     font-family: Proxima-Light;
-    word-spacing:0.2rem;
+    
     color: #7c7c7c;
   }
   select {
