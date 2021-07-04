@@ -12,14 +12,14 @@ import  Navbar from '../../layout/navbar/navbar'
            <div className="section" >
            <div className="section_top" >
               
-              <h3>
+              <span id="top" >
               No other valve performs as well across categories 
 We increased production, reduced energy use and 
 emissions and cut maintenance costs by XX% 
              
              
-              </h3>
-              <span> - Costomer Name</span>
+              </span>
+              <span> - Customer Name</span>
                 
                </div>
 <div className="section-bottom" >

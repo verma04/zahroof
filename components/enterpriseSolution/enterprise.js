@@ -12,25 +12,19 @@ import Head from 'next/head'
 import Footer from '../layout/footer/Footer'
 import Makecall from '../HomePage/makecall/makecall'
 import { useEnterpriseSolutions } from '../../apollo/actions'
- const Home = () => {
-    const { data , loading , error } = useEnterpriseSolutions();
-
-    const cafes = data && data.cafes || [];
-
-    console.log(data)
-  
-    if (loading) return null;
+ const Home = ({data}) => {
+    
 
     return (
         <div>
                             <Head>
-        <title>{data.page.seo.title} - Zahroof</title>
-        <meta name="og:title" content={data.page.seo.title}/>
+        <title>{data.seo.title} - Zahroof</title>
+        <meta name="og:title" content={data.seo.title}/>
 
-<meta name="og:url" content={data.page.seo.opengraphDescription}/>
+<meta name="og:url" content={data.seo.opengraphDescription}/>
 <meta name="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
-<meta name="og:site_name" content={data.page.seo.opengraphSiteName}/>
-<meta name="og:description" content={data.page.seo.opengraphDescription} />
+<meta name="og:site_name" content={data.seo.opengraphSiteName}/>
+<meta name="og:description" content={data.seo.opengraphDescription} />
 {/* 
 <meta name="fb:page_id" content="43929265776" />
 
@@ -66,7 +60,7 @@ import { useEnterpriseSolutions } from '../../apollo/actions'
   
   </Head>
 
-        <HeroSection  data={data.page} />
+        <HeroSection  data={data} />
         <Section/>
         <Section3/>
      

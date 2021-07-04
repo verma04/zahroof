@@ -56,7 +56,7 @@ pay for themselves in 2 to 5 months.</p>
            
             <div className="section_bottom_data" >
            
-            <li>See what we've Done for Others . </li>
+            <li>See what we ve Done for Others . </li>
 
                 <li>
                 <Image  alt="Picture of the author"   objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356709/w2u44k0jrx10hakvnri2.png' />

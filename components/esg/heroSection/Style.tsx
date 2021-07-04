@@ -59,8 +59,9 @@ background-size: cover;
     margin-left:0.5rem;
      width: 100%;
   li {
-      width: 20%;
-      font-size: 3.7rem;
+      width: 22%;
+      font-size: 57px;
+      line-height: 50px;
       font-family: Proxima-Bold;
       text-align:left;
       color:white;
@@ -90,10 +91,10 @@ background-size: cover;
 
   p {
     width: 30%;
-    line-height: 1.4;
+    line-height: 30px;
     margin-left:1rem;
-    font-size: 1.4rem;
-    font-weight: 800;
+    font-size: 19px;
+    font-weight: 1000;
     color: white;;
   }
  .text-right {

@@ -59,8 +59,9 @@ export const Section = styled.section`
 
   li {
       width: 100%;
-      font-size: 3.438rem;
+      font-size: 55px;
       text-align:left;
+      line-height: 46px;
       color:white;
       font-family: Proxima-Bold;
       font-weight: 1000;
@@ -80,7 +81,8 @@ export const Section = styled.section`
     font-family: Proxima-Bold;
   margin-top: 3rem;;
     width: 70%;
-    line-height: 2;
+    line-height: 30px;
+    font-size: 16px;
     color: white;;
     position: relative;
     padding-left: 1rem;
@@ -110,11 +112,11 @@ export const Section = styled.section`
             width: 100%;
             height: 20%;
           display: flex;
-          justify-content: space-around;
+          justify-content: flex-start;
           align-items: center;
           
           .logo-wrapper {
-            width: 30%;
+            width: 20%;
             height: 60%;
             position: relative;
           }
@@ -122,7 +124,8 @@ export const Section = styled.section`
             font-family: Proxima-Bold;
              color: white;
              width: 60%;
-             line-height: 2;
+             line-height: 30px;
+    font-size: 16px;
              position: relative;
            }
            p::after {

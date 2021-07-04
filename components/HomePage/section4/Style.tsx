@@ -28,7 +28,7 @@ export const Section = styled.section`
 
 .section4_top {
   position: relative;
-  height: 110vh;
+  height: 60rem;
   width: 100%;
   background-image: linear-gradient(#d8b642 , #DBB42F);
 
@@ -65,7 +65,7 @@ margin-bottom: 3rem;;
 
   
     width: 50%;
-    margin-top:7%;
+    margin-top:10%;
     margin-left:4%;
     display: flex;
     justify-content: center;
@@ -121,56 +121,56 @@ margin-bottom: 3rem;;
   position: absolute;
   position: absolute;
   top: 64%;
-  left: 31%;
+  left: 29%;
   height: 10%;
   height: 10%;
  }
  #industry {
   position: absolute;
   top: 27%;
-  left: 29%;
+  left: 28%;
   width: 15%;
   height: 10%;
  }
  #Refineries {
   position: absolute;
   top: 46%;
-  left: 25%;
+  left: 24%;
   width: 15%;
   height: 10%;
  }
  #Cng {
   position: absolute;
   top: 27%;
-  left: 59%;
+  left: 60%;
   width: 15%;
   height: 10%;
 }
  #Oil {
   position: absolute;
   top: 46%;
-  left: 63%;
+  left: 64%;
   width: 15%;
   height: 10%;
  }
  #hydrogen {
   position: absolute;
   top: 64%;
-  left: 61%;
+  left: 62%;
   width: 15%;
   height: 10%;
  }
  #chemical {
   position: absolute;
   top: 79%;
-  left: 51%;
+  left: 52%;
   width: 15%;
   height: 10%;
  }
  #offshore {
   position: absolute;
   top: 79%;
-  left: 38%;
+  left: 37%;
   width: 15%;
   height: 10%;
  }

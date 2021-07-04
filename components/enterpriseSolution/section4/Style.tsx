@@ -32,10 +32,11 @@ flex-direction: column;
    width:100%;
    background-color: #3b546a;
    height: 442px;
-   h3 {
+   #top {
      font-size: 65px;
      line-height: 70px;
-     width: 70%;
+     width: 80%;
+     text-align:left;
      line-height: 1.3;
      color: #dbb43f;
         font-family: "Caveat-Light"

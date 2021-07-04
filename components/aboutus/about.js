@@ -6,24 +6,18 @@ import Footer from '../layout/footer/Footer'
 import { useGetAboutus } from '../../apollo/actions'
 import withApollo from '../../hoc/withApollo'
 import Head from 'next/head'
- const Home = () => {
-    const { data , loading , error } = useGetAboutus();
-
-    const contact = data && data.contact || [];
-
-    if (loading) return null;
-
-    console.log(data)
+ const Home = ({data}) => {
+  
     return (
         <div>
                       <Head>
-        <title>{data.page.seo.title} - Zahroof</title>
-        <meta name="og:title" content={data.page.seo.title}/>
+        <title>{data.seo.title} - Zahroof</title>
+        <meta name="og:title" content={data.seo.title}/>
 
-<meta name="og:url" content={data.page.seo.opengraphDescription}/>
+<meta name="og:url" content={data.seo.opengraphDescription}/>
 <meta name="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
-<meta name="og:site_name" content={data.page.seo.opengraphSiteName}/>
-<meta name="og:description" content={data.page.seo.opengraphDescription} />
+<meta name="og:site_name" content={data.seo.opengraphSiteName}/>
+<meta name="og:description" content={data.seo.opengraphDescription} />
 {/* 
 <meta name="fb:page_id" content="43929265776" />
 
@@ -59,9 +53,9 @@ import Head from 'next/head'
   
   </Head>
 
-        <HeroSection  data={data.page} />
-        <Section  data={data.page} />
-       <Section2  data={data.page} />
+        <HeroSection  data={data} />
+        <Section  data={data} />
+       <Section2  data={data} />
         <Footer/>
         </div>
     )

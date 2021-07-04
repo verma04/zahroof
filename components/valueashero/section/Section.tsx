@@ -15,13 +15,13 @@ import  Navbar from '../../layout/navbar/navbar'
               <h3>
               If you re on this page chances are you want to know more about how the StraightFloTM valve works Or
 perhaps you just enjoy geeking out on ground-breaking technology. Either way we ll give you all the info
-you could possibly want  And maybe a little more
+you could possibly want  And maybe a little more.
               </h3>
                 
                </div>
 
                <div className="section_bottom" >
-               <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png'} alt="Picture of the author" />
+               <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625219977/h3f70ouyykgpoigbcpgb.jpg'} alt="Picture of the author" />
                  
                
                <div className="section2_data" >
