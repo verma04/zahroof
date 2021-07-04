@@ -61,7 +61,7 @@ distributed. Our product greatly improves operational performance, boosts profit
                  
                  <div className="absol-bottom" >
                  <h2>Zahroof customers regularly <br/>
-see results like these </h2>
+see results like these: </h2>
                      </div>  
              
                      <div className="triangle-down"></div>

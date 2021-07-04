@@ -61,7 +61,7 @@ background-size: cover;
  flex-direction: column;
 
   .text-left {
-     width:40%;
+     width:38%;
   
   li {
     margin-top:2rem;

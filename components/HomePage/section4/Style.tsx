@@ -30,19 +30,22 @@ export const Section = styled.section`
   position: relative;
   height: 110vh;
   width: 100%;
-  background-image: linear-gradient(#d8b642 , #DBB42F);
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
 margin-bottom: 3rem;;
 
 .tringle {
-  position: absolute;
+    position: absolute;
     right: 10%;
     width: 0;
     bottom: -6%;
     height: 0;
     border-left: 6rem solid transparent;
     border-right: 6rem solid transparent;
-    border-top: 4rem solid #DBB42F;
+    border-top: 4rem solid #e9ab2f;
+    z-index: -1
    
 } 
 .section4_top_data {
@@ -316,7 +319,7 @@ margin-bottom: 3rem;;
 }
 
     p {
-      margin-top:2rem;
+      margin-top:1rem;
       color:white;
       z-index: 1;
       text-align: left;
@@ -324,6 +327,7 @@ margin-bottom: 3rem;;
       font-size: 16px;
       font-family: Proxima-Bold;
       line-height: 24px;
+      margin-left: -20px;
     }
    }
     .btn {
@@ -428,7 +432,9 @@ position: relative;
 position: relative;
 height: 25rem;
 width: 100%;
-background-image: linear-gradient(#d8b642 , #DBB42F);
+background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+/* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
 margin-bottom: 3rem;;
 .section4_top_data {
@@ -663,7 +669,7 @@ align-items: center;
     justify-content:space-around;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
  h2 {
    text-transform: uppercase;
    text-align: left;
