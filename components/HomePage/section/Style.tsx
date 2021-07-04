@@ -50,7 +50,7 @@ padding-right:3rem;
   span {
      font-size: 35px;
     color: white;
-    text-align: left;
+    text-align: right;
     line-height: 35px;
     text-transform: uppercase;
   }

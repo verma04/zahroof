@@ -96,7 +96,7 @@ background-size: cover;
  #text-right {
 
      width: 60%;
-     margin-left: 42%;
+     margin-left: 41%;
 
      span {
       text-align:left;

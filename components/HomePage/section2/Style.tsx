@@ -60,12 +60,12 @@ export const Section = styled.section`
         font-size: 46px;
         color:#daaf1a;
         line-height: 46px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         margin-top: 45px;
 
         /* overflow: hidden; */
         position: relative;
-        ::after {
+        /* ::after {
               content: '';
               width: 7px;
               height: 33px;
@@ -73,12 +73,12 @@ export const Section = styled.section`
               position: absolute;
               top: 70%;
               left: -20px;
-        }
+        } */
       }
       
       p {
         color:white;
-        font-weight: 600;
+        /* font-weight: 600; */
         font-size: 20px;
         width: 75%;
         line-height: 28px;
@@ -245,12 +245,12 @@ flex-direction: column;
     font-size: 46px;
     color:#daaf1a;
     line-height: 46px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 45px;
 
     /* overflow: hidden; */
     position: relative;
-    ::after {
+    /* ::after {
           content: '';
           width: 7px;
           height: 33px;
@@ -258,11 +258,11 @@ flex-direction: column;
           position: absolute;
           top: 70%;
           left: -20px;
-    }
+    } */
   }
 p {
     color:white;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 20px;
     width: 100%;
     line-height: 28px;

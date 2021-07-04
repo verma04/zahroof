@@ -74,6 +74,7 @@ align-items: center;
       line-height: 28px;
       font-family: Proxima-Bold;
       margin-bottom: 20px;
+      margin-left: 20px;
     }
   
 }

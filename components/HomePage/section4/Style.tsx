@@ -321,7 +321,7 @@ margin-bottom: 3rem;;
       color:white;
       z-index: 1;
       text-align: left;
-      width: 50%;
+      width: 49%;
       font-size: 16px;
       font-family: Proxima-Bold;
       line-height: 24px;

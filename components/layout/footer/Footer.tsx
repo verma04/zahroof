@@ -7,7 +7,7 @@ import { Foot } from './Style'
         <Foot >
             <div className="footer_newsLetter" >
 
-                <h3>Stay informed  recieve our <br/> monthly zmail industry report</h3>
+                <h3>Stay informed  receive our <br/> monthly zmail industry report</h3>
 
                 <form>
   <input  placeholder="Enter Your Email" ></input>
@@ -76,7 +76,7 @@ import { Foot } from './Style'
         </ul>
         </div>
 
-        <span>@{new Date().getFullYear()} All Rights Reserved Zahroof Inc . EOE </span>
+          <span>©{new Date().getFullYear()} All Rights Reserved Zahroof Inc . EOE </span>
 
                 </div>
         </Foot>
