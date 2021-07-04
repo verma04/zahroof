@@ -5,7 +5,7 @@ import withApollo from '../hoc/withApollo'
 
 
   
-    return (
+return (
         <div>
             
             <Home/>
