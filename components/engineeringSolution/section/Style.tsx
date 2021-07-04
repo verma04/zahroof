@@ -58,14 +58,15 @@ align-items: center;
   align-items: left;
   flex-direction: column;
   h2 {
-  color: white;
-   position: relative;
- margin-top: 88px;
-
-   font-size: 55px;
-   line-height: 46px;
-text-transform: uppercase;
-   position: relative;
+    color: white;
+    position: relative;
+    margin-top: 88px;
+    font-size: 55px;
+    line-height: 46px;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 2rem;
+    padding: 5px 0px;
   }
   h2:after {
     position: absolute;
@@ -79,15 +80,13 @@ text-transform: uppercase;
   }
  
   p {
-    margin-top: 35px;
-    width: 100%;
+    margin-top: 25px;
+    width: 90%;
     color:white;
-    font-weight: 500;
-     
+    font-weight: 500;     
     line-height: 35px;
     font-size: 20px;
-    
-  
+    margin-left: 2rem;  
   }
   h3 {
     line-height: 1.1;

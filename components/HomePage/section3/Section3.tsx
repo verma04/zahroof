@@ -143,7 +143,7 @@ interface Section3 {
 </div>
 <div  aos-duration="10000" data-aos="zoom-in" className="section3_right" >
 <h2>{data.data.homeThreeRightHeading}</h2>
-<a>Learn More &gt;</a>
+<a>Learn More&gt;</a>
 </div>
 </div>
           </Parallax>  

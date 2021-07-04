@@ -26,17 +26,17 @@ export const Section = styled.section`
    
   .section_top {
     display:flex;
-  justify-content:center;
-align-items: center;
-   width:100%;
-   height:32rem;
- position: relative;  
-
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height:32rem;
+    position: relative;  
  background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625392438/p4rsx9pl8iaarxbjucrw.png"); 
+
   
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
 
  .section2_data {
      width: 80%;
@@ -103,17 +103,14 @@ text-transform: uppercase;
 
   .section_bottom {
     display:flex;
-  justify-content:center;
-align-items: center;
-   width:100%;
-   height:820px;
- position: relative;  
-
-
-  background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625043594/hqwarrxjqh0g5tixezvi.png")  ;
-
- background-position-y: 31%;
-  background-repeat: no-repeat;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height:820px;
+    position: relative;  
+    background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625043594/hqwarrxjqh0g5tixezvi.png");
+    background-position-y: 31%;
+    background-repeat: no-repeat;
 
   
 
@@ -190,15 +187,15 @@ text-transform: uppercase;
   position: absolute;
 
   h2 {
-    width: 90%;
-   
-    padding-left: 1rem;
+    width: 90%;   
+    padding-left: 0.5rem;
     line-height: 1.6;
     position: relative;
     text-transform: uppercase;
-     font-size:40px;
-     line-height: 40px;
-     color:white;
+    font-size:40px;
+    line-height: 40px;
+    color:white;
+    margin-left: 5rem;
   }
  h2:after {
     position: absolute;

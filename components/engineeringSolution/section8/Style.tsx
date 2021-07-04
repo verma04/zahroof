@@ -34,14 +34,12 @@ flex-direction: column;
    background-color: #dbb43f;
    height: 375px;
    h3 {
-     font-size: 51px;
-     line-height: 60px;
-     width: 70%;
-   
-       color: #24334d;;
-      
-  
-        font-family: 'Caveat';
+      font-size: 51px;
+      line-height: 60px;
+      width: 70%;
+      color: #24334d;
+      font-family: 'Caveat';
+      font-weight: 500;
    }
    span {
      position: absolute;

@@ -78,7 +78,7 @@ export const Section = styled.section`
       
       p {
         color:white;
-        font-weight: 600;
+        /* font-weight: 600; */
         font-size: 20px;
         width: 75%;
         line-height: 28px;
@@ -262,7 +262,7 @@ flex-direction: column;
   }
 p {
     color:white;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 20px;
     width: 100%;
     line-height: 28px;

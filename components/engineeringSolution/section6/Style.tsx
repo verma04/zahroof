@@ -64,6 +64,7 @@ margin-top: 78px;
 margin-bottom: 38px;
 text-transform: uppercase;
    position: relative;
+   padding: 5px 0px;
   }
   h2:after {
     position: absolute;
