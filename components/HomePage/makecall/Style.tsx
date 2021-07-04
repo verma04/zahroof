@@ -15,6 +15,7 @@ export const Section = styled.section`
    @media (min-width: 1281px) {
   
     .section {
+        
       /* margin-bottom: 3rem; */
         position: relative;     
         display:flex;
@@ -22,7 +23,7 @@ export const Section = styled.section`
         flex-direction:column;
         width:100%;
         align-items:center;   
-        height:50rem;
+        height:40rem;
 
 
 
@@ -31,9 +32,10 @@ export const Section = styled.section`
    
   
 .section_data {
+    margin-bottom:3rem;
     position: absolute;
     width: 100%;
-    height: 90%;
+    height: 100%;
     display: flex;
     justify-content: start;
     align-items:center;
@@ -56,7 +58,7 @@ export const Section = styled.section`
       
        .section-left-top {
            
-           height: 70%;
+           height: 80%;
             width: 100%;
            display: flex;
            justify-content: space-between;
@@ -130,12 +132,12 @@ h3 {
    }
    .section_right {
     margin-top:2rem;
-
+    
        width: 60%;
-       height: 50%;
+       height: 70%;
        display: flex;
        justify-content: space-evenly;
-      
+        
        align-items: center;
        .icon {
          width: 20%;
@@ -197,7 +199,7 @@ h3 {
             border: none;
             color: #7c7c7c;
             opacity: 0.8;
-            background: url(https://zahroofvalves.wpcdn-b.com/wp-content/uploads/2021/07/arrowe-1.png) no-repeat right #f8f8f8;
+            background: url("https://zahroofvalves.wpcdn-b.com/wp-content/uploads/2021/07/arrowe-1.png") no-repeat right #f8f8f8;
             background-position-x: 97%;
             background-size: 10px;
             -webkit-appearance: none;
@@ -208,20 +210,21 @@ h3 {
            
             
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
            
              width: 90%;
              height: 100%;
-            
+        
               flex-direction: column;
               .input-field {
                   width: 100%;
-                  height: 23%;
-                 
+                  height: 20%;
+                  
                   display: flex;
                   justify-content: space-between;
                  button {
+                     margin-top:5%;
                     margin-left: 0.5rem;
                     position: relative;
                     font-size: 14px;
@@ -246,7 +249,7 @@ h3 {
     content: '';
 }
                   .field {
-                      width: 49%;
+                      width: 47%;
                       display: flex;
                       justify-content: flex-end;
                       align-items: flex-start;
@@ -285,23 +288,24 @@ h3 {
 
               }
               .input-field-1{
+                
                   width: 100%;
-                  height: 40%;
+                  height: 45%;
                     
                   display: flex;
                   justify-content: center;
                   flex-direction: column;
                   .field {
                       width: 100%;
-                      height: 94%;
+                      height: 95%;
                       display: flex;
-                      justify-content: center;
+                      justify-content: flex-end;
                       align-items: flex-start;
                       flex-direction: column;
                  
                       textarea {
                           width: 100%;
-                          height: 80%;
+                          height: 84%;
                           background-color: #f8f8f8;
                           font-size: 14px;
                           line-height: 33px;
@@ -312,40 +316,7 @@ h3 {
                   }
 
               }
-              .input-field-2 {
-                  width: 100%;
-                  height: 7%;
-                 
-                  display: flex;
-                  justify-content: space-between;
-             
-                  .field {
-                    
-                      width: 100%;
-                      display: flex;
-                      justify-content: flex-end;
-                      align-items: flex-start;
-                      flex-direction: column;
-                      flex: 1;
-                      select {
-                        width: 100%;
-                        height: 60%;
-                        /* background-color: #f8f8f8; */
-                        border-radius:5px;
-                        color: #7c7c7c;
-                        background: url(https://zahroofvalves.wpcdn-b.com/wp-content/uploads/2021/07/arrowe-1.png) no-repeat right #f8f8f8;
-                        background-position-x: 97%;
-                        background-size: 10px;
-                        -webkit-appearance: none;
-                        -moz-appearance: none;
-                        border: 1px solid #EFEAE4;
-                      }
-                      label {
-                          color: #7c7c7c;;
-                      }
-                  }
-
-              }
+              
          
         }
         
