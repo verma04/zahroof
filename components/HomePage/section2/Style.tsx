@@ -60,20 +60,12 @@ export const Section = styled.section`
         font-size: 46px;
         color:#daaf1a;
         line-height: 46px;
-        margin-left: 20px;
+        
         margin-top: 45px;
 
         /* overflow: hidden; */
         position: relative;
-        ::after {
-              content: '';
-              width: 7px;
-              height: 33px;
-              background: #38506d;
-              position: absolute;
-              top: 70%;
-              left: -20px;
-        }
+       
       }
       
       p {

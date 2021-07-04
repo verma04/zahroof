@@ -9,7 +9,7 @@ import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
  const homePage = ({data}) => {
 
     
-   console.log9
+ 
     
     return (
         <div>
@@ -99,7 +99,8 @@ export async function getStaticProps() {
     return {
       props: {
         data: data.page
-      }
+      },
+      revalidate: 1,
     }
   }
 
