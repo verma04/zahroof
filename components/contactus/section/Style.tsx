@@ -313,7 +313,7 @@ justify-content:center;
 width:100%;
 align-items:center;
  
-height:773px;
+height:80rem;
 background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625296161/rfrkr499ec2ow6izav59.jpg"); /* The image used */
 
 background-position: center; /* Center the image */
@@ -330,35 +330,38 @@ background-size: cover; /* Resize the background image to cover the entire conta
   display: flex;
   justify-content: space-evenly;
   align-items:center;
+  
+  flex-direction: column-reverse;
  
  .section_left {
      
-     width: 45%;
-     height: 100%;
+     width: 100%;
+     height: 50%;
      
      display: flex;
      justify-content: center;
      flex-direction: column;
-     align-items: flex-end;
+     align-items: center;
     
      .section-left-top {
        
-         width: 60%;
+         width: 95%;
          height: 55%;
-         padding-top:5%;
+        
            
          display: flex;
          justify-content:flex-start;
          flex-direction: column;
-         align-items: flex-end;
+         align-items: center;
          
          h2 {
            font-size: 55px;
            line-height: 46px;
-           
+             
              text-align: right;
                
-             width: 65%;
+             width: 78%;
+
              color: white;
              position: relative;
          }
@@ -384,7 +387,7 @@ background-size: cover; /* Resize the background image to cover the entire conta
          }
      }
      .section-left-bottom {
-         width: 60%;
+         width: 95%;
          height: 30%;
          
          display: flex;
@@ -422,8 +425,8 @@ h3 {
 
  }
  .section_right {
-     width: 50%;
-     height: 100%;
+     width: 95%;
+     height: 50%;
      
     
      display: flex;
@@ -431,8 +434,8 @@ h3 {
      flex-direction: column;
      align-items: flex-start;
      .form {
-      width: 70%;
-      height: 80%;
+      width: 100%;
+      height: 100%;
       display: flex;
       justify-content: center;
       input {
