@@ -143,6 +143,11 @@ height: 100%;;
 
    }
 
+   @media (max-width: 1281px) {
+     display: none;
+
+   }
+
   
 
  
