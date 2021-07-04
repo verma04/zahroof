@@ -60,11 +60,11 @@ export const Section = styled.section`
         font-size: 46px;
         color:#daaf1a;
         line-height: 46px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         margin-top: 45px;
 
         /* overflow: hidden; */
-        position: relative;
+        /* position: relative;
         ::after {
               content: '';
               width: 7px;
@@ -73,7 +73,7 @@ export const Section = styled.section`
               position: absolute;
               top: 70%;
               left: -20px;
-        }
+        } */
       }
       
       p {
@@ -245,11 +245,11 @@ flex-direction: column;
     font-size: 46px;
     color:#daaf1a;
     line-height: 46px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 45px;
 
     /* overflow: hidden; */
-    position: relative;
+    /* position: relative;
     ::after {
           content: '';
           width: 7px;
@@ -258,7 +258,7 @@ flex-direction: column;
           position: absolute;
           top: 70%;
           left: -20px;
-    }
+    } */
   }
 p {
     color:white;

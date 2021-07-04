@@ -74,6 +74,7 @@ align-items: center;
       line-height: 28px;
       font-family: Proxima-Bold;
       margin-bottom: 20px;
+      margin-left: 20px;
     }
   
 }
@@ -146,6 +147,7 @@ align-items: center;
       font-size: 0.9rem;
       line-height: 1.4;
       font-family: Proxima-Bold;
+      margin-left: 20px;
     }
   
 }
