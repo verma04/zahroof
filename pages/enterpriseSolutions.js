@@ -1,23 +1,16 @@
 import React from 'react'
-import Home from '../components/HomePage/Home'
+import Home from '../components/enterpriseSolution/enterprise'
 import withApollo from '../hoc/withApollo'
-
+ 
 import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
-
-
-
- const homePage = ({data}) => {
-
-    
-   console.log9
-    
+const Enterprise = ({data}) => {
     return (
         <div>
-         
             <Home data={data} />
         </div>
-)
+    )
 }
+
 
 export async function getStaticProps() {
     const client = new ApolloClient({
@@ -27,45 +20,39 @@ export async function getStaticProps() {
 
     const   { data }  = await client.query({
         query: gql`
-  query MyQuery {
-  page(id: "cG9zdDo2") {
+
+query MyQuery {
+  page(id: "cG9zdDoyNA==") {
     title
     pageId
     uri
     status
-    homebannercontent
-    honebannerimageurl
-    firstLeftBgimage
-    firstLeftHeading
-    firstLeftIcon
-    firstLeftTitle
-    firstRightBgimage
-    firstRightHeading
-    firstRightIcon
-    firstRightTitle
-    homeSecondLeftContent
-    homeSecondRightImageOne
-    homeSecondRightTitleOne
-    homeSecondRightImageTwo
-    homeSecondRightTitleTwo
-    homeSecondRightImageThree
-    homeSecondRightTitleThree
-    homeSecondRightImageFour
-    homeSecondRightTitleFour
-    homeThreeLeftHeading
-    homeThreeRightHeading
-    homeThreeRightLink
-    homeFourHeading
-    homeFourImageurl
-    homeFiveImageurl
-    homeFiveRightContent
-    homeSixCaseStudyContent
-    homeSixCaseStudyButtonUrl
-    homeSixRightOneImage
-    homeSixRightOneName
-    homeSixRightTwoImage
-    homeSixRightTwoName
-    content
+    featuredImage {
+      node {
+        title
+        sourceUrl
+      }
+    }
+    enterprisetwoitemOneImage
+    enterprisetwoitemOneTitle
+    enterprisetwoitemTwoImage
+    enterprisetwoitemTwoTitle
+    enterprisetwoitemThreeImage
+    enterprisetwoitemThreeTitle
+    enterprisetwoitemFourImage
+    enterprisetwoitemFourTitle
+    enterprisetwoitemFiveImage
+    enterprisetwoitemFiveTitle
+    enterprisetwoitemSixImage
+    enterprisetwoitemSixTitle
+    enterprisefirstcontent
+    enterprisefourLeftImage
+    enterprisefourRightContent
+    enterprisefourBottomContent
+    enterprisefiveLeftIcon
+    enterprisefiveLeftContent
+    enterprisefiveRightIcon
+    enterprisefiveRightContent
     seo {
       title
       metaDesc
@@ -90,9 +77,10 @@ export async function getStaticProps() {
       twitterTitle
     }
   }
-  
+
 
 }
+  
         `
       });
       console.log(data.page)
@@ -103,6 +91,4 @@ export async function getStaticProps() {
     }
   }
 
-export default withApollo(homePage);
-
-
+export default  withApollo(Enterprise)

@@ -11,34 +11,27 @@ import Head from 'next/head'
 
 // import withApollo from '@/hoc/withApollo'
 import { useGetHomePage } from '../../apollo/actions'
- const Home = () => {
+ const Home = ({data}) => {
 
    
 
-    const { data , loading , error } = useGetHomePage();
+   
 
-    const home = data && data.home || [];
-
-     
-    if(loading  ){
-        return (
-        <div>....Loading</div>
-        )
-    }
+   
  
-    console.log(data)
+    
 
 
     return (
         <div>
  <Head>
-        <title>{data.page.seo.title} - Zahroof</title>
-        <meta name="og:title" content={data.page.seo.title}/>
+        <title>{data.seo.title} - Zahroof</title>
+        <meta name="og:title" content={data.seo.title}/>
 
-<meta name="og:url" content={data.page.seo.opengraphDescription}/>
+<meta name="og:url" content={data.seo.opengraphDescription}/>
 <meta name="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
-<meta name="og:site_name" content={data.page.seo.opengraphSiteName}/>
-<meta name="og:description" content={data.page.seo.opengraphDescription} />
+<meta name="og:site_name" content={data.seo.opengraphSiteName}/>
+<meta name="og:description" content={data.seo.opengraphDescription} />
 {/* 
 <meta name="fb:page_id" content="43929265776" />
 
@@ -75,12 +68,12 @@ import { useGetHomePage } from '../../apollo/actions'
   </Head>
 
 
-        <HeroSection data={data.page} />
-        <Section    data={data.page}  />
-        <Section2   data={data.page}  />
-        <Section3    data={data.page}  />
-        <Section4   data={data.page}  />
-        <AboutUs   data={data.page}  />
+        <HeroSection data={data} />
+        <Section    data={data}  />
+        <Section2   data={data}  />
+        <Section3    data={data}  />
+        <Section4   data={data}  />
+        <AboutUs   data={data}  />
         <MakeCall/>
         <Footer/>
         

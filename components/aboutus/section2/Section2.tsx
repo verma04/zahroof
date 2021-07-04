@@ -43,9 +43,9 @@ Zahroof`s specialty is the development of compressors, rotordynamics, bearing de
           <Image     objectFit="cover" layout="fill" src={data.data.aboutsecondrightImage} alt="Picture of the herosection" />
          
          <ul>
-            <li>Zahroof Zee Mohomad </li>
-            <li>Predenit & Founder</li>
-            <li>Zahroof@zahroofvalues.com</li>
+            <li>Zahroof Zee Mohomed </li>
+            <li>President & Founder</li>
+            <li>Zahroof@zahroofvalves.com</li>
          </ul>
          
        </div>
