@@ -50,7 +50,11 @@ padding-right:3rem;
   span {
      font-size: 35px;
     color: white;
+<<<<<<< HEAD
     text-align: right;
+=======
+    text-align: left;
+>>>>>>> Munish-Dhiman
     line-height: 35px;
     text-transform: uppercase;
   }
