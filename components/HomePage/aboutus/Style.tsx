@@ -74,10 +74,6 @@ align-items: center;
       line-height: 28px;
       font-family: Proxima-Bold;
       margin-bottom: 20px;
-<<<<<<< HEAD
-      margin-left: 20px;
-=======
->>>>>>> Munish-Dhiman
     }
   
 }

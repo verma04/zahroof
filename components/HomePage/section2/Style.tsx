@@ -60,20 +60,12 @@ export const Section = styled.section`
         font-size: 46px;
         color:#daaf1a;
         line-height: 46px;
-<<<<<<< HEAD
-        /* margin-left: 20px; */
-=======
         margin-left: 20px;
->>>>>>> Munish-Dhiman
         margin-top: 45px;
 
         /* overflow: hidden; */
         position: relative;
-<<<<<<< HEAD
-        /* ::after {
-=======
         ::after {
->>>>>>> Munish-Dhiman
               content: '';
               width: 7px;
               height: 33px;
@@ -81,20 +73,12 @@ export const Section = styled.section`
               position: absolute;
               top: 70%;
               left: -20px;
-<<<<<<< HEAD
-        } */
-=======
         }
->>>>>>> Munish-Dhiman
       }
       
       p {
         color:white;
-<<<<<<< HEAD
-        /* font-weight: 600; */
-=======
         font-weight: 600;
->>>>>>> Munish-Dhiman
         font-size: 20px;
         width: 75%;
         line-height: 28px;
@@ -261,20 +245,12 @@ flex-direction: column;
     font-size: 46px;
     color:#daaf1a;
     line-height: 46px;
-<<<<<<< HEAD
-    /* margin-left: 20px; */
-=======
     margin-left: 20px;
->>>>>>> Munish-Dhiman
     margin-top: 45px;
 
     /* overflow: hidden; */
     position: relative;
-<<<<<<< HEAD
-    /* ::after {
-=======
     ::after {
->>>>>>> Munish-Dhiman
           content: '';
           width: 7px;
           height: 33px;
@@ -282,19 +258,11 @@ flex-direction: column;
           position: absolute;
           top: 70%;
           left: -20px;
-<<<<<<< HEAD
-    } */
-  }
-p {
-    color:white;
-    /* font-weight: 600; */
-=======
     }
   }
 p {
     color:white;
     font-weight: 600;
->>>>>>> Munish-Dhiman
     font-size: 20px;
     width: 100%;
     line-height: 28px;

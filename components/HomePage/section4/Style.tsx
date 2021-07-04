@@ -28,7 +28,7 @@ export const Section = styled.section`
 
 .section4_top {
   position: relative;
-  height: 60rem;
+  height: 110vh;
   width: 100%;
   background-image: linear-gradient(#d8b642 , #DBB42F);
 
@@ -65,11 +65,7 @@ margin-bottom: 3rem;;
 
   
     width: 50%;
-<<<<<<< HEAD
-    margin-top:10%;
-=======
     margin-top:7%;
->>>>>>> Munish-Dhiman
     margin-left:4%;
     display: flex;
     justify-content: center;
@@ -125,88 +121,56 @@ margin-bottom: 3rem;;
   position: absolute;
   position: absolute;
   top: 64%;
-<<<<<<< HEAD
-  left: 29%;
-=======
   left: 31%;
->>>>>>> Munish-Dhiman
   height: 10%;
   height: 10%;
  }
  #industry {
   position: absolute;
   top: 27%;
-<<<<<<< HEAD
-  left: 28%;
-=======
   left: 29%;
->>>>>>> Munish-Dhiman
   width: 15%;
   height: 10%;
  }
  #Refineries {
   position: absolute;
   top: 46%;
-<<<<<<< HEAD
-  left: 24%;
-=======
   left: 25%;
->>>>>>> Munish-Dhiman
   width: 15%;
   height: 10%;
  }
  #Cng {
   position: absolute;
   top: 27%;
-<<<<<<< HEAD
-  left: 60%;
-=======
   left: 59%;
->>>>>>> Munish-Dhiman
   width: 15%;
   height: 10%;
 }
  #Oil {
   position: absolute;
   top: 46%;
-<<<<<<< HEAD
-  left: 64%;
-=======
   left: 63%;
->>>>>>> Munish-Dhiman
   width: 15%;
   height: 10%;
  }
  #hydrogen {
   position: absolute;
   top: 64%;
-<<<<<<< HEAD
-  left: 62%;
-=======
   left: 61%;
->>>>>>> Munish-Dhiman
   width: 15%;
   height: 10%;
  }
  #chemical {
   position: absolute;
   top: 79%;
-<<<<<<< HEAD
-  left: 52%;
-=======
   left: 51%;
->>>>>>> Munish-Dhiman
   width: 15%;
   height: 10%;
  }
  #offshore {
   position: absolute;
   top: 79%;
-<<<<<<< HEAD
-  left: 37%;
-=======
   left: 38%;
->>>>>>> Munish-Dhiman
   width: 15%;
   height: 10%;
  }
@@ -357,11 +321,7 @@ margin-bottom: 3rem;;
       color:white;
       z-index: 1;
       text-align: left;
-<<<<<<< HEAD
-      width: 49%;
-=======
       width: 50%;
->>>>>>> Munish-Dhiman
       font-size: 16px;
       font-family: Proxima-Bold;
       line-height: 24px;
