@@ -104,7 +104,7 @@ export const Section = styled.section`
 .section3_left {
   position: absolute;
   top: 45%;
-  left: 0;
+  left: 5%;
   width: 30%;
   /* height: 100%; */
   display: flex;
@@ -128,6 +128,7 @@ export const Section = styled.section`
     line-height: 28px;
     font-weight: 900;
     border-bottom: 1px solid black;
+    margin-left: 8rem;
   }
 }
 

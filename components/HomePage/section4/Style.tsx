@@ -255,9 +255,8 @@ margin-bottom: 3rem;;
   position: relative;
   height: 100vh;
   width: 100%;
-  z-index: 1;
- 
-margin-bottom: 3rem;;
+  z-index: 1; 
+/* margin-bottom: 3rem; */
 
 .section4_bottom_data {
 
@@ -321,7 +320,7 @@ margin-bottom: 3rem;;
       color:white;
       z-index: 1;
       text-align: left;
-      width: 50%;
+      width: 47%;
       font-size: 16px;
       font-family: Proxima-Bold;
       line-height: 24px;
@@ -1425,8 +1424,7 @@ position: relative;
 height: 40rem;
 width: 100%;
 z-index: 1;
-
-margin-bottom: 3rem;;
+/* margin-bottom: 3rem; */
 
 .section4_bottom_data {
 margin-top: 1rem;;

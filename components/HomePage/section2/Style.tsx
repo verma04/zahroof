@@ -60,12 +60,29 @@ export const Section = styled.section`
         font-size: 46px;
         color:#daaf1a;
         line-height: 46px;
+<<<<<<< HEAD
         
         margin-top: 45px;
 
         /* overflow: hidden; */
         position: relative;
        
+=======
+        /* margin-left: 20px; */
+        margin-top: 45px;
+
+        /* overflow: hidden; */
+        /* position: relative;
+        ::after {
+              content: '';
+              width: 7px;
+              height: 33px;
+              background: #38506d;
+              position: absolute;
+              top: 70%;
+              left: -20px;
+        } */
+>>>>>>> Munish-Dhiman
       }
       
       p {
@@ -237,11 +254,11 @@ flex-direction: column;
     font-size: 46px;
     color:#daaf1a;
     line-height: 46px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 45px;
 
     /* overflow: hidden; */
-    position: relative;
+    /* position: relative;
     ::after {
           content: '';
           width: 7px;
@@ -250,7 +267,7 @@ flex-direction: column;
           position: absolute;
           top: 70%;
           left: -20px;
-    }
+    } */
   }
 p {
     color:white;
