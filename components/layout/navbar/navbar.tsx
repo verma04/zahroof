@@ -58,14 +58,12 @@ const Navbar: React.FC<{}> = () => {
           </Link>
         </li>
         <li>
-          <Link href="/esgbenifits">
-            <a>ESG BENIFITS</a>
+          <Link href="/esgbenefits">
+            <a>ESG BENeFITS</a>
           </Link>
         </li>
         <li>
-          <Link href="/aboutus">
-            <a>News & Rerources</a>
-          </Link>
+        
         </li>
         <li>
           <Link href="/aboutus">
@@ -82,7 +80,7 @@ const Navbar: React.FC<{}> = () => {
              
           </div>
          
-          <div  style={{background:"red"}} className="nav-sm" >
+          <div  style={{backgroundColor: "#3c4e62"}} className="nav-sm" >
         <div  className="nav-item" >
       
       <div onClick={() => router.push('/') } className="nav-center" >
@@ -131,8 +129,8 @@ const Navbar: React.FC<{}> = () => {
           </Link>
         </li>
         <li>
-          <Link href="/esgbenifits">
-            <a>ESG BENIFITS</a>
+          <Link href="/esgbenefits">
+            <a>ESG BENeFITS</a>
           </Link>
         </li>
         <li>

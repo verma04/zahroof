@@ -206,7 +206,7 @@ z-index: 1000;
    @media (min-width: 768px) and (max-width: 1024px) {
     width:100%;
     height: 6rem;
-    border: 1px solid red;
+  
     .navbar {
       width:95%;
       height: 100%;

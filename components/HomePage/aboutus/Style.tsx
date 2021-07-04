@@ -70,6 +70,7 @@ align-items: center;
     p {
       text-align: left;
       width: 100%;
+      margin-left: 20px;
       font-size: 16px;
       line-height: 28px;
       font-family: Proxima-Bold;
