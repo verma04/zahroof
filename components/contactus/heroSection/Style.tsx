@@ -91,6 +91,85 @@ background-size: cover;
 
    }
 
+
+   @media (max-width: 1281px) {
+
+.react-parallax  {
+width: 100%;
+}
+.react-parallax-bgimage {
+width: 100% !important;
+height: 100% !important;
+
+}
+
+
+.homePage-hero {
+    width: 100%;
+    position: relative;
+    height: 20rem;
+    /* background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000543/nszogjpikgvufgyx7tar.png"); */
+
+/* Set a specific height */
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    .homePage-layer {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+     
+display: flex;
+justify-content: center;
+align-items: center;
+.homePage-data {
+  margin-top: 5%;
+  width: 100%;
+height: 60%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+ul {
+ width:100%;
+ display: flex;
+ justify-content: center;
+li {
+width: 100%;
+  font-size: 2rem;
+  text-align:center;
+  color:white;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-family: Proxima-Bold;
+}
+
+}
+.text-right {
+
+ width: 60%;
+ margin-left: 32%;
+
+ li {
+  text-align:left;
+ }
+}
+}
+
+
+    }
+
+}
+
+
+
+
+}
   
 
  

@@ -131,19 +131,26 @@ align-items: center;
 position: absolute;
 flex-direction: column;
 .section2_data_left {
+
+  margin-top:1.5rem;
   
   display:flex;
   width: 95%;
   height: 50%;
+  
 justify-content:flex-start;
 align-items: left;
 flex-direction: column;
+align-items: center;
 h2 {
+
+  margin-top:1rem;
       
 
  
 color:  white;
-
+ width: 95%;
+ align-items: left;
  position: relative;
  padding-left: 0.5rem;
  font-size: 2rem;
@@ -162,9 +169,11 @@ h2:after {
 }
 
 p {
-  width: 100%;
+  padding-left: 0.5rem;
+  width: 95%;
   color:white;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 1.6;
   
  
 }
@@ -179,7 +188,7 @@ h3 {
 
 
   display:flex;
-  width: 45%;
+  width: 100%;
   height: 50%;
 justify-content:space-around;
 align-items: center;

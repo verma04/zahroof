@@ -52,7 +52,7 @@ align-items: center;
   
      width: 50%;
    position: relative;
-   padding-left: 1rem;
+   padding-left: 2rem;
    font-size: 46px;
    line-height: 40px;
 text-transform: uppercase;

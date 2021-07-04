@@ -32,7 +32,7 @@ align-items: center;
    height:32rem;
  position: relative;  
 
- background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625215361/el7kaq4epxdnzvizovxw.png"); 
+ background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625392438/p4rsx9pl8iaarxbjucrw.png"); 
   
   background-position: center; 
   background-repeat: no-repeat; 
@@ -70,7 +70,7 @@ text-transform: uppercase;
     font-weight:600;
     line-height: 28px;
     color:white;
-    padding-left: 1.5rem;
+     font-family: Proxmia-Bold;
     line-height: 1.2;
     position: relative;
   }

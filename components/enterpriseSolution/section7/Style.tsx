@@ -44,13 +44,13 @@ align-items: center;
    position: relative;
    .tringle {
     position: absolute;
-    left: 40%;
+    left: 34%;
     width: 0;
-    bottom: -18%;
+    bottom: -30%;
     height: 0;
-    border-left: 10rem solid transparent;
-    border-right: 10rem solid transparent;
-    border-top:8rem solid #3b546a;
+    border-left: 15rem solid transparent;
+    border-right: 15rem solid transparent;
+    border-top:20rem solid #3b546a;
     z-index: 1;
 } 
      
@@ -69,7 +69,7 @@ align-items: center;
 
  background-color: #cea800;
  .section2_data {
-     width: 80%;
+     width: 100%;
      
      height: 100%;
      display:flex;
@@ -89,7 +89,7 @@ align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   position: relative;
-
+ 
  
 .section_bottom_data {
 
@@ -154,6 +154,7 @@ align-items: center;
 
   .section_bottom-1 {
     margin-top:40px;
+    margin-bottom: 40px;
     span {
       font-size: 46px;
       line-height: 40px;
