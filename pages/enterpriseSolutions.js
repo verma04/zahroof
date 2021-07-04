@@ -88,6 +88,8 @@ query MyQuery {
       props: {
         data: data.page
       }
+      ,
+      revalidate: 1,
     }
   }
 

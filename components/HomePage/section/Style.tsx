@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 
-
 export const Section = styled.section` 
 
   display:flex;
@@ -41,19 +40,19 @@ export const Section = styled.section`
    .section_top_left {
     width:50%;
     height: 100%;
-background-color: #dbb43f;
-position: relative;
-display: flex;
-justify-content: flex-end;
-align-items: center;
-padding-right:3rem;
-  span {
-     font-size: 35px;
-    color: white;
-    text-align: left;
-    line-height: 35px;
-    text-transform: uppercase;
-  }
+    background-color: #dbb43f;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right:3rem;
+    span {
+      font-size: 35px;
+      color: white;
+      text-align: right;
+      line-height: 35px;
+      text-transform: uppercase;
+    }
 .tringle {
         position: absolute;
     left: 10%;

@@ -91,6 +91,12 @@ align-items: center;
 
    }
 
+   @media (min-width: 1024px) and (max-width: 1280px) {
+  
+  display: none;
+
+   }
+
 
    @media (max-width: 767px) {
     .aboutus {
