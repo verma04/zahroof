@@ -94,7 +94,8 @@ background-size: cover;
     line-height: 30px;
     margin-left:1rem;
     font-size: 19px;
-    font-weight: 1000;
+    font-family: Proxima-Bold;
+
     color: white;;
   }
  .text-right {

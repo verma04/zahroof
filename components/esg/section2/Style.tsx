@@ -73,7 +73,7 @@ export const Section = styled.section`
       display: flex;
       justify-content:space-between;
       .logo {
-        width: 22%;
+        width: 25%;
         height: 100%;
         background-color: #dbb43f;
        
@@ -96,7 +96,7 @@ export const Section = styled.section`
       justify-content:space-between;
       margin-top:1rem;
       .logo-1 {
-        width: 22%;
+        width: 25%;
        
      
        

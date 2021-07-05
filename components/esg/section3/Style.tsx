@@ -24,7 +24,7 @@ export const Section = styled.section`
   width:100%;
   align-items:center;
   position: relative;
-  height: 435px;
+  height: 20rem;
   background-color: #3c4e62;
   .tringle {
     position: absolute;

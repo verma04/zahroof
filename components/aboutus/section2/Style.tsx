@@ -248,7 +248,7 @@ height: 100%;;
      color: white;
      font-size: 22.30px;
      padding-left: 5%;
-      font-weight: 600;
+  
    }
  
  }
