@@ -27,8 +27,7 @@ function MyApp({ Component, pageProps }: AppProps) {
  <div>
  
 <Head>
-        <link rel="shortcut icon" href="http://18.217.254.134/wp-content/uploads/2021/07/z5k5c8xjr9o0dunv7gce.png " />
-
+      <link rel="shortcut icon" href="http://18.217.254.134/wp-content/uploads/2021/07/z5k5c8xjr9o0dunv7gce.png " />
       <meta
         name="viewport"
         content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
