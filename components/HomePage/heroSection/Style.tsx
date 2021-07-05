@@ -127,6 +127,12 @@ background-size: cover;
     
 }
 
+.react-parallax-bgimage {
+   width: 100% !important;;
+    height: 100% !important;
+    
+}
+
     .homePage-hero {
       width: 100%;
         position: relative;
@@ -319,7 +325,14 @@ background-size: cover;
 
  @media (max-width: 767px) {
     .react-parallax  {
-  width: 100%;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.react-parallax-bgimage {
+
+    height: 100% !important;
+    
 }
 
     .homePage-hero {

@@ -226,7 +226,7 @@ background-color: #3c4e62;
 } 
  
 .section2_data {
-   width: 95%;
+   width: 90%;
    height: 90%;
    display:flex;
 justify-content:space-between;

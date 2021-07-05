@@ -16,11 +16,13 @@ interface Section3 {
   }, // Change the required prop to an optional prop.
 }
 
-
+import {BrowserView, MobileView} from 'react-device-detect';
 
  const Section3: React.FC<Section3> = (data) => {
   
   const [ width , setwidth] = useState(0)
+
+  const [ width2 , setwidth2] = useState(0)
   const [ right , setright] = useState(21)
   const [ left , setleft] = useState(21)
     useEffect(() => {
@@ -29,7 +31,7 @@ interface Section3 {
         });
       
           window.addEventListener("scroll", handleScroll);
-        
+          window.addEventListener("scroll", handleScroll1);
           // returned function will be called on component unmount 
           
      console.log(window.pageYOffset)
@@ -106,9 +108,92 @@ interface Section3 {
        
        
       }
+
+      const  handleScroll1= () => {
+        if (window.pageYOffset < 1000) {
+      console.log(window.pageYOffset , "0")
+         
+          
+        }
+        else if (window.pageYOffset > 1000 && window.pageYOffset < 1020 ) {
+          setwidth2(10)
+              
+        }
+        else if (window.pageYOffset > 1020 && window.pageYOffset < 1040) {
+          setwidth2(20)
+              
+        }
+        else if (window.pageYOffset > 1040  &&  window.pageYOffset < 1060) {
+          setwidth2(30)
+              
+        }
+        else if (window.pageYOffset > 1080 &&  window.pageYOffset < 1100) {
+          setwidth2(40)
+          console.log(window.pageYOffset)  
+          setright(15)  
+          setleft(15)  
+        }
+
+        else if (window.pageYOffset > 1110 &&  window.pageYOffset < 1120) {
+          setwidth2(50)
+          console.log(window.pageYOffset)  
+          setright(10) 
+          setleft(10)  
+        }
+        else if (window.pageYOffset > 1120 &&  window.pageYOffset < 1130) {
+          setwidth2(60)
+          console.log(window.pageYOffset) 
+          setright(5) 
+          setleft(5)  
+        }
+        else if (window.pageYOffset > 1130 &&  window.pageYOffset < 1140 ) {
+          setwidth2(70)
+          console.log(window.pageYOffset)
+          setright(0)  
+          setleft(0)    
+        }
+      
+        else if (window.pageYOffset > 1150 &&  window.pageYOffset < 1160) {
+          setwidth2(80)
+          setright(-2)
+          setleft(-2)  
+          console.log(window.pageYOffset)  
+        } else if (window.pageYOffset > 1160 &&  window.pageYOffset < 1200) {
+          setwidth2(90)
+          setright(-10)
+          setleft(-10)  
+          console.log(window.pageYOffset)  
+        }
+       
+
+        else if (window.pageYOffset > 1160 &&  window.pageYOffset < 1200) {
+          setwidth2(90)
+          setright(-10)
+          setleft(-10)  
+          console.log(window.pageYOffset)  
+        }
+        else if (window.pageYOffset > 1200) {
+          setwidth2(100)
+          setright(-10)
+          setleft(-10)  
+          console.log(window.pageYOffset)  
+        }
+       
+       
+      }
     
     return (
+      <>
+      <BrowserView>
         <Section>
+
+
+                {/* <h1>This is rendered only in browser</h1> */}
+           
+            {/* <MobileView>
+                <h1>This is rendered only on mobile</h1>
+            </MobileView> */}
+
         
         <Parallax bgImage={ image} strength={500}>
            <div className="section3" >
@@ -147,7 +232,63 @@ interface Section3 {
 </div>
 </div>
           </Parallax>  
+          
         </Section>
+        </BrowserView>
+     
+
+        <MobileView>
+        <Section>
+
+
+                {/* <h1>This is rendered only in browser</h1> */}
+           
+            {/* <MobileView>
+                <h1>This is rendered only on mobile</h1>
+            </MobileView> */}
+
+        
+        <Parallax bgImage={ image} strength={500}>
+           <div className="section3" >
+  
+  <div  
+  style={{height:`${width2}%`}}
+      className="middle" >
+          <div    className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457130/oj0pfthu3lt2ergdljyf.png'} alt="" />
+              
+                   </div>
+   
+      </div>
+
+      <div    style={{right:`${right}%`}} className="right" >
+      <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457125/wx89iw4xzkq1tffegfgh.png'} alt="" />
+              
+                   </div>
+   
+      </div>
+
+      <div style={{left:`${left}%`}}   className="left" >
+      <div className="img-wrapper" >
+               <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457125/c5qjzndd22pgdc0xpzvg.png'} alt="" />
+              
+                   </div>
+   
+      </div>
+           <div aos-duration="10000" data-aos="zoom-in" className="section3_left" >
+<h2>{data.data.homeThreeLeftHeading}</h2>
+</div>
+<div  aos-duration="10000" data-aos="zoom-in" className="section3_right" >
+<h2>{data.data.homeThreeRightHeading}</h2>
+<a>Learn More&gt;</a>
+</div>
+</div>
+          </Parallax>  
+          
+        </Section>
+        </MobileView>
+     </>
     )
 }
 
