@@ -7,7 +7,9 @@ interface Section3 {
    data: {
       aboutsecondrightImage:string,
       aboutsecondleftContent:string
-    
+     
+      aboutsecondrightContent:string
+      
    }, // Change the required prop to an optional prop.
  }
 const Section3:  React.FC<Section3> = (data) => {
@@ -42,10 +44,8 @@ Zahroof`s specialty is the development of compressors, rotordynamics, bearing de
           <div className="section_data_right"  >
           <Image     objectFit="cover" layout="fill" src={data.data.aboutsecondrightImage} alt="Picture of the herosection" />
          
-         <ul>
-            <li>Zahroof Zee Mohomed </li>
-            <li>President & Founder</li>
-            <li>Zahroof@zahroofvalves.com</li>
+         <ul dangerouslySetInnerHTML={{ __html: data.data. aboutsecondrightContent }}   >
+
          </ul>
          
        </div>

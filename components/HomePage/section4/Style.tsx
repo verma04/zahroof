@@ -1238,7 +1238,7 @@ h2 {
   
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: white;
   width: 95%;
@@ -1255,7 +1255,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 30%;
-margin-top: 28%;
+
+margin-top: 17%;
 position: relative;
 
 
@@ -1433,13 +1434,15 @@ align-items: center;
 
 .section4_bottom {
 position: relative;
-height: 40rem;
+
 width: 100%;
 z-index: 1;
-border: 1px solid red;
-background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625225330/chqd0bw4jqdfbpkd7dsb.png"); 
 
+background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625296161/rfrkr499ec2ow6izav59.jpg"); 
 
+display:flex;
+justify-content: center;
+height: 40rem;
 background-repeat: no-repeat; 
 background-size: cover;
 /* margin-bottom: 3rem; */
@@ -1450,8 +1453,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 100%;
-height: 100%;
+height: 40rem;
  flex-direction: column;
+ 
 .section4_mid_left {
 display: flex;
 justify-content: center;
@@ -1460,16 +1464,19 @@ justify-content:space-around;
 flex-direction: column;
 align-items: center;
   width:95%;
- height:60%;
+  
+  height: 60%;
+
  .top {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-space-evenly;
     flex-direction: column;
     align-items: center;
+    height: 80%;
   
  h2 {
    text-transform: uppercase;
@@ -1525,19 +1532,19 @@ display: flex;
 justify-content: center;
 display: flex;
 justify-content:space-evenly;
-
+height: 50%;
 align-items: center;
  width:95%;
- height:100%;
+ 
 
  .section4_logo {
    width: 40%;
    height: 100%;
    display: flex;
-   justify-content: start;
+   justify-content:center;
    flex-direction: column;
    align-items: center;
-    margin-top: 175px;
+  
    .img_wrapper {
     transition: transform 0.5s;
             width: 100%;
@@ -1552,6 +1559,8 @@ transform: scale(1.1);
    h3 {
      /* color:white; */
      z-index: 1;
+     width: 100%;
+     text-align: center;
      color:#f2e7c9;
      
    }
