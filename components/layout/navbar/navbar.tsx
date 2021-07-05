@@ -67,9 +67,7 @@ const Navbar: React.FC<{}> = () => {
             <a>ESG BENeFITS</a>
           </Link>
         </li>
-        <li>
-        
-        </li>
+       
         <li>
           <Link href="/aboutus">
             <a>About Us</a>
