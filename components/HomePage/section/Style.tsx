@@ -273,7 +273,6 @@ position: relative;
 
    }
 
-
    @media (min-width: 1025px) and (max-width: 1280px) {
     .section {
       
@@ -533,6 +532,7 @@ to {
 
   
    }
+  }
 
    @media (min-width: 768px) and (max-width: 1025px) {
     .section {
@@ -743,7 +743,7 @@ transform: scale(1.1);
   }
    }
 
->>>>>>> pankaj
+
    @media (max-width: 767px) {
    
   .section {
