@@ -83,7 +83,7 @@ const Navbar: React.FC<{}> = () => {
              
           </div>
          
-          <div  style={{backgroundColor: "#3c4e62"}} className="nav-sm" >
+          <div   className="nav-sm" >
         <div  className="nav-item" >
       
       <div onClick={() => router.push('/') } className="nav-center" >
@@ -129,9 +129,9 @@ const Navbar: React.FC<{}> = () => {
  
         
         <div className="list" >
-        <h3 id={router.pathname == "/profile" ? "active" : ""} >  <Link  href="/Home" >Home</Link></h3>
-        <h3 id={router.pathname == "/profile" ? "active" : ""} >  <Link  href="/profile" >  Enterprise Solutions</Link></h3>
-         <h3 id={router.pathname == "/people" ? "active" : ""}> <Link   href="/enterpriseSolutions" >Enterprise Solutions</Link></h3>
+        <h3 id={router.pathname == "/profile" ? "active" : ""} >  <Link  href="/" >Home</Link></h3>
+        <h3 id={router.pathname == "/profile" ? "active" : ""} >  <Link  href="/enterpriseSolutions" >  Enterprise Solutions</Link></h3>
+         <h3 id={router.pathname == "/people" ? "active" : ""}> <Link   href="/engineeringSolutions" >Engineering Solutions</Link></h3>
          <h3 id={router.pathname == "/careers" ? "active" : ""}>  <Link   href="/esgbenefits" >Esg Benefits</Link></h3>
          <h3 id={router.pathname == "/news" ? "active" : ""} >  <Link  href="/aboutus" >About Us</Link></h3>
          <h3 id={router.pathname == "/partnerships" ? "active" : ""}>  <Link   href="/contactus">Contact Us</Link></h3>

@@ -34,46 +34,60 @@ const HeroSection: React.FC<Section> = (data) => {
 
     <Section>
 
-      {isMobile ? 
-        (<section className="section-mobile">
-          <div className="section_mobile_left" >
+     
+  
+          <div className="section-1" >
+       
 
-            <div className="section_top_left" >
+          <div className="section_bottom" >
+            
+            <Parallax bgImage={data.data.firstLeftBgimage} strength={100}>
+            <div className="section_top" >
+            <div className="section_top_" >
+
               <span dangerouslySetInnerHTML={{ __html: data.data.firstLeftHeading }} />
               <div className="tringle" ></div>
             </div>
-
-            <Parallax bgImage={data.data.firstLeftBgimage} strength={500}>
+          
+          </div>
               <div className="section_bottom_set" >
+
                 <div className="section_bottom_data" >
                   <li> <Image objectFit="contain" layout="fill" src={data.data.firstLeftIcon} alt="sd" /> </li>
+
                   <li><h3>{data.data.firstLeftTitle}</h3></li>
+
                   <li> <Image objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' alt="" /></li>
+
                 </div>
               </div>
             </Parallax>
 
-          </div>
-          <div className="section_mobile_right" >
-
-            <div className="section_top_right" >
+            <Parallax bgImage={data.data.firstRightBgimage} strength={100}>
+            <div className="section_top" >
+           
+            <div className="section_top_" >
               <span dangerouslySetInnerHTML={{ __html: data.data.firstRightHeading }} />
               <div className="tringle" ></div>
             </div>
-
-            <Parallax bgImage={data.data.firstRightBgimage} strength={500}>
+          </div>
               <div className="section_bottom_set" >
+
                 <div className="section_bottom_data" >
-                  <li> <Image objectFit="contain" layout="fill" src={data.data.firstRightIcon} alt="sd" /></li>
+                  <li><Image objectFit="contain" layout="fill" src={data.data.firstRightIcon} alt="sd" /></li>
+
                   <li><h3>{data.data.firstRightTitle}</h3></li>
-                  <li> <Image objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' alt="" /> </li>
+
+                  <li><Image objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' alt="" /></li>
+
                 </div>
               </div>
             </Parallax>
 
           </div>
-        </section>) :
-       (
+        </div>
+    
+   
           <div className="section" >
             <div className="section_top" >
               <div className="section_top_left" >
@@ -118,8 +132,9 @@ const HeroSection: React.FC<Section> = (data) => {
 
             </div>
           </div>
-       )
-      }
+      
+      
+  
 
     </Section>
 

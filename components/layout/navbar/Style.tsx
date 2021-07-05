@@ -382,7 +382,7 @@ z-index: 1;
    align-items:center;
    flex-direction:column;
    align-items:center;
-    background-color: rgb(60, 78, 98);
+   background-color: rgb(60 78 98 / 95%);
    .logo {
       width:90%;
       height:10%;
