@@ -33,7 +33,7 @@ flex-direction: column;
    width:100%;
    background-color: #dbb43f;
    height: 375px;
-   h3 {
+   #top {
       font-size: 51px;
       line-height: 60px;
       width: 70%;
@@ -41,7 +41,7 @@ flex-direction: column;
       font-family: 'Caveat';
       font-weight: 500;
    }
-   span {
+   #ab {
      position: absolute;
     font-size: 1.5rem;;
     bottom: 10%;
@@ -162,6 +162,140 @@ align-items: center;
    }
 
   
+   @media (max-width: 1281px) {
+  
+  .section {
+    
+      
+   
+      display:flex;
+justify-content:center;
+ flex-direction:column;
+width:100%;
+align-items:center;
+ 
+.section_top {
+  position: relative;
+  display:flex;
+justify-content:center;
+align-items: center;
+flex-direction: column;
+ width:100%;
+ background-color: #dbb43f;
+ height: 375px;
+ #top {
+    font-size: 2rem;
+  
+    width: 90%;
+    color: #24334d;
+    font-family: 'Caveat';
+   
+ }
+ #ab {
+   position: absolute;
+  font-size: 1.5rem;;
+  bottom: 5%;
+  left: 60%;
+  
+   margin-top: 3rem;
+  
+     color: #24334d;;
+     text-align: right;
+ }
+
+
+ 
+ .tringle {
+position: absolute;
+left: 20%;
+width: 0;
+top: -15%;
+height: 0;
+border-left: 7rem solid transparent;
+border-right: 7rem solid transparent;
+border-top:5rem solid #dbb43f;;
+z-index: 1;
+}  
+   
+
+
+}       
+
+.section_bottom {
+  display:flex;
+justify-content:center;
+align-items: center;
+ width:100%;
+ height:50rem;
+position: relative;   
+
+.section2_data {
+   width: 100%;
+   height: 100%;
+   display:flex;
+justify-content:space-evenly;
+align-items: center;
+position: absolute;
+flex-direction: column-reverse;
+.section2_data_left {
+   
+  display:flex;
+  width: 100%;
+  height: 60%;
+justify-content:space-around;
+align-items: center;
+flex-direction: column;
+h2 {
+ 
+text-transform: uppercase;
+ position: relative;
+  width: 95%;
+ font-size: 1.5rem;
+ color:white;
+ position: relative;
+}
+
+
+
+p {
+  width: 95%;
+  color:white;
+  
+  line-height: 1.1;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+h3 {
+  line-height: 1.1;
+    color:white;
+
+}
+}
+
+.section2_data_right {
+     
+  display:flex;
+  width: 95%;
+  height: 30%;
+justify-content:center;
+align-items: center;
+flex-direction: column;
+
+position: relative;
+}
+}
+} 
+
+
+
+  }
+ 
+
+
+
+ }
+
 
  
 `

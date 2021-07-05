@@ -164,6 +164,161 @@ export const Section = styled.section`
    }
 
   
+   @media (max-width: 1281px) {
+  
+  .section {
+    
+      position: relative;
+   
+      display:flex;
+justify-content:center;
+ flex-direction:column;
+width:100%;
+align-items:center;
+height: 100rem;
+
+ .section-1 {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     .wrapper {
+      top: -8rem;
+         width: 100%;
+         height: 100%;
+         position: relative;
+         display: flex;
+         justify-content:center;
+         align-items: center;
+         flex-direction: column;
+         .section-data{
+      width: 100%;
+      height: 80%;
+      position:absolute;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+z-index: 1;
+flex-direction: column;
+      .left {
+        margin-top: 10%;
+        
+        width: 100%;
+        height: 50%;
+    
+        align-items: center;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         ul {
+
+  width: 90%;
+
+li {
+    width: 100%;
+    font-size: 2rem;
+    text-align:left;
+    line-height: 2rem;
+    color:white;
+    font-family: Proxima-Bold;
+    font-weight: 1000;
+    text-transform: uppercase;
+    
+}
+li:nth-child(1) {
+  position: relative;
+
+  
+ 
+}
+
+}
+
+p {
+  font-family: Proxima-Bold;
+margin-top: 3rem;;
+  width: 95%;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;;
+  position: relative;
+  padding-left: 1rem;
+}
+p:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 0.3rem;;
+  position: absolute;
+ background-color: #eeba18;
+ top: 0%;
+ left: -.4%;
+ 
+}
+      }
+      .right {
+        width: 100%;
+        height: 50%;
+        
+        align-items: center;
+        
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .right_logo {
+          width: 95%;
+          height: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        .logo-wrapper {
+          width: 20%;
+          height: 60%;
+          position: relative;
+          margin-right: 5%;
+        }
+         p {
+          font-family: Proxima-Bold;
+           color: white;
+           width: 70%;
+           line-height: 30px;
+  font-size: 16px;
+           position: relative;
+         }
+         p::after {
+          
+          content: '';
+  display: block;
+  height: 100%;
+  width: 0.3rem;;
+  position: absolute;
+ background-color: #eeba18;
+ top: 0%;
+ left: -1rem;;
+         }
+         
+        }
+
+        
+    
+      }
+ 
+    }
+      
+
+     }
+
+    
+     
+ }
+
+
+  }
+ 
+
+
+
+ }
 
  
 `
