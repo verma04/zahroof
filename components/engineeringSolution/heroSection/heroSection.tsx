@@ -34,9 +34,7 @@ the ground. </li>
        
     </ul>
     <ul className="text-right">
-     <li>We give you<br/>
-less ground <br/>
-to cover. </li>  
+     <li>We give you<br/>  less ground <br/> to cover. </li>
   
     </ul>
 
