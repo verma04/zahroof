@@ -152,7 +152,7 @@ export const Section = styled.section`
       text-transform: uppercase;
       color: white;
       text-align: center;
-      font-weight: 600;
+     
 
   }
   img {

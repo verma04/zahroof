@@ -38,7 +38,7 @@ pay for themselves in 2 to 5 months.</p>
                 <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623835331/w3hb3schn3u7pnjdrewv.png' />
                 </li>
 
-                <li><h3>EnterPrise Solutions</h3></li>
+                <li><h3>Field Operations</h3></li>
                 <li>
                 <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356837/zh1sycnu12s4n75hizoj.png' />
                 </li>

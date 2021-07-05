@@ -210,7 +210,7 @@ justify-content:center;
 width:100%;
 align-items:center;
 position: relative;
-height: 30rem;;
+height: 35rem;;
 flex-direction: column;
 background-color: #3c4e62;
 .tringle {
@@ -236,17 +236,17 @@ flex-direction: column;
   
   display:flex;
   width: 100%;
-  height: 50%;
-  justify-content:start;
+  height: 48%;
+  justify-content:space-evenly;
   align-items: left;
   flex-direction: column;
   h2 {
     width: 100%;
-    font-size: 46px;
+    font-size: 1.5rem;
     color:#daaf1a;
-    line-height: 46px;
+    line-height: 1.1;
     /* margin-left: 20px; */
-    margin-top: 45px;
+ 
 
     /* overflow: hidden; */
     /* position: relative;
@@ -263,10 +263,10 @@ flex-direction: column;
 p {
     color:white;
     /* font-weight: 600; */
-    font-size: 20px;
+    font-size: 16px;
     width: 100%;
-    line-height: 28px;
-    margin-top: 35px;
+    line-height: 1.3;
+   
 }
 }
 
@@ -274,7 +274,8 @@ p {
    
   display:flex;
   width: 90%;
-  height: 50%;
+  height: 48%;
+  
 justify-content:space-around;
 align-items: center;
 flex-direction: column;
@@ -305,6 +306,9 @@ p {
   height: 40%;
  
   font-size: 1rem;
+  font-size: 16px;
+ 
+    line-height: 1;
     margin-top: 0.5rem;;
     text-transform: uppercase;
     color: white;

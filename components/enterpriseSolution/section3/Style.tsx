@@ -70,7 +70,7 @@ export const Section = styled.section`
   transform: scale(1.1); 
     }
     p {
-      
+       margin-left:10%;
      margin-top:1rem;
       width: 85%;
       
