@@ -120,7 +120,7 @@ export const Section = styled.section`
   p {
         height: 20%;
         width: 100%;
-        font-weight: 600;
+       
         font-size: 20px;
         line-height: 20px;
         margin-top: 0.5rem;;
