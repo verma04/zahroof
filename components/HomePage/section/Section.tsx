@@ -4,7 +4,7 @@ import { Section } from './Style'
 import Image from 'next/image'
 import Navbar from '../../layout/navbar/navbar'
 import { Parallax, Background } from "react-parallax";
-import { isMobile , isBrowser } from 'react-device-detect';
+
 
 const image1 =
   "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624859749/cawdyff1kgtdbfyrmxcu.jpg";
