@@ -45,7 +45,7 @@ export const Section = styled.section`
   align-items: center;
   
   .logo {
-    height: 50%;
+    height: 60%;
     
     width: 14%;
    
@@ -54,12 +54,12 @@ export const Section = styled.section`
     align-items: center;
     flex-direction: column;
     .wrapper {
-       
+        
        width: 100%;
-      height: 135px;
+      height: 60%;
       position: relative;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     transition: transform 0.5s;
@@ -70,8 +70,8 @@ export const Section = styled.section`
   transform: scale(1.1); 
     }
     p {
-      
-     margin-top:30px;
+       margin-left:10%;
+     margin-top:1rem;
       width: 85%;
       
       line-height: 16.87px;

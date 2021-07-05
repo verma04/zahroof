@@ -6,6 +6,11 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 const Navbar: React.FC<{}> = () => {
   const [nav, setnav] = useState(false);
+  const [pop, setPop] = useState(true);
+
+  const smtoggle = () => {
+    setPop(!pop)
+     } 
   useEffect(() => {
   
       window.addEventListener("scroll", handleScroll);
@@ -58,14 +63,12 @@ const Navbar: React.FC<{}> = () => {
           </Link>
         </li>
         <li>
-          <Link href="/esgbenifits">
-            <a>ESG BENIFITS</a>
+          <Link href="/esgbenefits">
+            <a>ESG BENeFITS</a>
           </Link>
         </li>
         <li>
-          <Link href="/aboutus">
-            <a>News & Rerources</a>
-          </Link>
+        
         </li>
         <li>
           <Link href="/aboutus">
@@ -82,7 +85,7 @@ const Navbar: React.FC<{}> = () => {
              
           </div>
          
-          <div  style={{background:"red"}} className="nav-sm" >
+          <div  style={{backgroundColor: "#3c4e62"}} className="nav-sm" >
         <div  className="nav-item" >
       
       <div onClick={() => router.push('/') } className="nav-center" >
@@ -94,7 +97,61 @@ const Navbar: React.FC<{}> = () => {
       <div className="nav-right" >
   
   
-      <i className="fas fa-bars"></i>
+      {(() => {
+        if (pop) {
+          return (
+            <i  onClick={() => smtoggle() }  className="fas fa-bars"></i>
+          )
+        } else {
+          return (
+            <i  onClick={() => smtoggle() }  className="fas fa-times"></i>
+          )
+        }
+      })()}
+
+{!pop &&
+<div className="sm" >
+
+<div className="logo" >
+
+  <div className="img" >
+  <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png'} alt="Zaharoof Logo" />
+  </div>
+
+<i  onClick={() => smtoggle() }  className="fas fa-times"></i>
+</div>
+<div id="first" className="link" >
+
+
+  
+
+
+
+         
+ 
+        
+        <div className="list" >
+        <h3 id={router.pathname == "/profile" ? "active" : ""} >  <Link  href="/Home" >Home</Link></h3>
+        <h3 id={router.pathname == "/profile" ? "active" : ""} >  <Link  href="/profile" >  Enterprise Solutions</Link></h3>
+         <h3 id={router.pathname == "/people" ? "active" : ""}> <Link   href="/enterpriseSolutions" >Enterprise Solutions</Link></h3>
+         <h3 id={router.pathname == "/careers" ? "active" : ""}>  <Link   href="/esgbenefits" >Esg Benefits</Link></h3>
+         <h3 id={router.pathname == "/news" ? "active" : ""} >  <Link  href="/aboutus" >About Us</Link></h3>
+         <h3 id={router.pathname == "/partnerships" ? "active" : ""}>  <Link   href="/contactus">Contact Us</Link></h3>
+        </div>
+       
+       
+ 
+  
+
+             
+
+  </div>
+
+
+  
+  </div>
+   
+}
   
   
       </div>
@@ -131,8 +188,8 @@ const Navbar: React.FC<{}> = () => {
           </Link>
         </li>
         <li>
-          <Link href="/esgbenifits">
-            <a>ESG BENIFITS</a>
+          <Link href="/esgbenefits">
+            <a>ESG BENeFITS</a>
           </Link>
         </li>
         <li>
@@ -162,7 +219,17 @@ const Navbar: React.FC<{}> = () => {
       <div className="nav-right" >
   
   
-      <i className="fas fa-bars"></i>
+      {(() => {
+        if (pop) {
+          return (
+            <i  onClick={() => smtoggle() }  className="fas fa-bars"></i>
+          )
+        } else {
+          return (
+            <i  onClick={() => smtoggle() }  className="fas fa-times"></i>
+          )
+        }
+      })()}
   
   
       </div>

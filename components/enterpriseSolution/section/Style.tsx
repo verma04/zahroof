@@ -31,21 +31,22 @@ export const Section = styled.section`
     width:100%;
     height:32rem;
     position: relative;  
+ background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625392438/p4rsx9pl8iaarxbjucrw.png"); 
 
-    background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625215361/el7kaq4epxdnzvizovxw.png"); 
   
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 
  .section2_data {
-     width: 80%;
+     width: 70%;
      height: 100%;
      display:flex;
   justify-content:center;
   align-items: center;
   position: absolute;
   .section2_data_left {
+    
       margin-bottom: 6%;
     display:flex;
     width: 100%;
@@ -70,7 +71,7 @@ text-transform: uppercase;
     font-weight:600;
     line-height: 28px;
     color:white;
-    padding-left: 1.5rem;
+    font-family: Proxima-Bold;
     line-height: 1.2;
     position: relative;
   }
@@ -149,7 +150,7 @@ text-transform: uppercase;
     width: 50%;
     margin-top:2rem;
     font-size:16px;
-   font-weight: 600;
+    font-family: Proxima-Bold;
     line-height: 28px;
     color:#777777;
     position: relative;

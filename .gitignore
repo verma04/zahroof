@@ -7,7 +7,7 @@
 /package-lock
 # testing
 /coverage
-
+/package-lock.josn
 # next.js
 /.next/
 /out/

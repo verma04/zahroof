@@ -35,6 +35,7 @@ query MyQuery {
     aboutfirstrightContent
     aboutsecondleftContent
     aboutsecondrightImage
+    aboutsecondrightContent
     seo {
       title
       metaDesc
@@ -69,6 +70,8 @@ query MyQuery {
       props: {
         data: data.page
       }
+      ,
+      revalidate: 1,
     }
   }
 

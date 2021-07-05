@@ -5,6 +5,10 @@ import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 
  const HeroSection: React.FC<{}> = () => {
+  
+   
+    const      set:string = "SEE WHAT We'VE DONE FOR OTHERS "
+    
     return (
         <Section>
         
@@ -38,7 +42,7 @@ pay for themselves in 2 to 5 months.</p>
                 <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623835331/w3hb3schn3u7pnjdrewv.png' />
                 </li>
 
-                <li><h3>EnterPrise Solutions</h3></li>
+                <li><h3>Field Operations</h3></li>
                 <li>
                 <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356837/zh1sycnu12s4n75hizoj.png' />
                 </li>
@@ -56,7 +60,7 @@ pay for themselves in 2 to 5 months.</p>
            
             <div className="section_bottom_data" >
            
-            <li>See what we ve Done for Others . </li>
+            <li>{set} </li>
 
                 <li>
                 <Image  alt="Picture of the author"   objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356709/w2u44k0jrx10hakvnri2.png' />
