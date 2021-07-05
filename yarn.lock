@@ -1956,7 +1956,7 @@
   dependencies:
     "tslib" "^2.1.0"
 
-"graphql@^15.5.1", "graphql@14.x || 15.x":
+"graphql@^15.5.1":
   "integrity" "sha512-FeTRX67T3LoE3LWAxxOlW2K3Bz+rMYAC18rRguK4wgXaTZMiJwSUwDmPFo3UadAKbzirKIg5Qy+sNJXbpPRnQw=="
   "resolved" "https://registry.npmjs.org/graphql/-/graphql-15.5.1.tgz"
   "version" "15.5.1"
@@ -3084,6 +3084,13 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
+"react-device-detect@^1.17.0":
+  "integrity" "sha512-bBblIStwpHmoS281JFIVqeimcN3LhpoP5YKDWzxQdBIUP8S2xPvHDgizLDhUq2ScguLfVPmwfF5y268EEQR60w=="
+  "resolved" "https://registry.npmjs.org/react-device-detect/-/react-device-detect-1.17.0.tgz"
+  "version" "1.17.0"
+  dependencies:
+    "ua-parser-js" "^0.7.24"
+
 "react-dom@17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
@@ -3795,6 +3802,11 @@
   "integrity" "sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.3.2.tgz"
   "version" "4.3.2"
+
+"ua-parser-js@^0.7.24":
+  "integrity" "sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g=="
+  "resolved" "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.28.tgz"
+  "version" "0.7.28"
 
 "unbox-primitive@^1.0.1":
   "integrity" "sha512-tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw=="

@@ -31,7 +31,7 @@ export const Section = styled.section`
     width:100%;
     height:32rem;
     position: relative;  
- background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625392438/p4rsx9pl8iaarxbjucrw.png"); 
+ background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625479794/wlt5l3wylkudtjprdhba.png"); 
 
   
     background-position: center; 

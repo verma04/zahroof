@@ -44,7 +44,7 @@ margin-bottom: 3rem;;
     height: 0;
     border-left: 6rem solid transparent;
     border-right: 6rem solid transparent;
-    border-top: 4rem solid #e9ab2f;
+    border-top: 4rem solid #FDB931 ;
     z-index: -1
    
 } 

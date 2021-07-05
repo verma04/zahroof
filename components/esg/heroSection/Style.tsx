@@ -119,7 +119,112 @@ background-size: cover;
 
    }
 
+   @media (max-width: 1281px) {
+    .react-parallax  {
+  width: 100%;
+}
+.react-parallax-bgimage {
+ 
 
+    height: 100% !important;
+
+}
+
+    .homePage-hero {
+        width: 100%;
+        position: relative;
+        height: 40rem;
+       
+
+/* Set a specific height */
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+        .homePage-layer {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .homePage-data {
+      
+      width: 100%;
+
+    height: 60%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+ flex-direction: column;
+  ul {
+    margin-left:0.5rem;
+     width: 100%;
+  li {
+      width: 100%;
+      font-size: 1.8rem;
+      line-height: 2rem;
+      font-family: Proxima-Bold;
+      text-align:left;
+      color:white;
+      font-weight: 1000;
+      text-transform: uppercase;
+
+  }
+  li:nth-child(1) {
+    position: relative;
+
+
+
+  }
+  li:nth-child(1)::after {
+    content: '';
+    display: block;
+    height: 80%;
+    margin-top:0.2rem;
+    width: 0.35rem;;
+    position: absolute;
+   background-color: #eeba18;
+   top: 0%;
+   left: -1rem;;
+
+  }
+ }
+
+  p {
+    width: 96%;
+    line-height: 30px;
+    margin-left:1rem;
+    font-size: 19px;
+    font-family: Proxima-Bold;
+
+    color: white;;
+  }
+ .text-right {
+
+     width: 60%;
+     margin-left: 32%;
+
+     li {
+      text-align:left;
+     }
+ }
+  }
+
+
+        }
+
+    }
+
+
+
+
+   }
 
 
 `

@@ -140,6 +140,134 @@ background-size: cover;
 
    }
 
+
+   @media (max-width: 767px) {
+    .react-parallax  {
+  width: 100%;
+}
+
+.react-parallax-bgimage {
+  width: 100% !important;
+ height: 100% !important;
+ 
+}
+    .homePage-hero {
+        width: 100%;
+        position: relative;
+        height: 20em;
+
+       
+
+/* Set a specific height */
+
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+        .homePage-layer {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+           
+
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .homePage-data {
+      margin-top: 5%;
+      width: 100%;
+
+     
+      
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ flex-direction: column;
+
+  .text-left {
+     width:50%;
+  
+  li {
+    margin-top:2rem;
+    font-family: Proxima-Bold;
+      font-size: 1.5rem;
+     
+      text-align:right;
+      color:white;
+      font-weight: 1000;
+      text-transform: uppercase;
+      position: relative;
+      padding-right: 0.5rem;
+      margin-right: 1rem;;
+      
+  }
+  li:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #eeba18;
+    height: 110%;
+    width: 0.4rem;
+    top:0;
+    right: -0.5rem;
+   
+  }
+ }
+ .text-right {
+    margin-top:1rem;
+     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+     li {
+     
+      font-family: Proxima-Bold;
+       width: 48%;
+      text-align:left;
+     }
+     li {
+   
+     
+      font-size: 1.5rem;
+  
+      text-align:left;
+      color:white;
+      font-weight: 1000;
+      text-transform: uppercase;
+      position: relative;
+      padding-right: 0.5rem;
+      
+  }
+  li:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #eeba18;
+    height: 110%;
+    width: 0.4rem;
+    top:0;
+    left: -0.5rem;
+   
+  }
+ }
+  }
+  
+
+        }
+
+    }
+   
+
+
+
+   }
   
 
  
