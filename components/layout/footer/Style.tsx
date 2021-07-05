@@ -20,7 +20,7 @@ export const Foot = styled.footer`
    
   
    @media (min-width: 1281px) {
-     margin-top:2rem;
+   
   a {
       font-weight: 900;
   }
