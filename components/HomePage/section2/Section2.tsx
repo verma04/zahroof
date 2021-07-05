@@ -17,6 +17,9 @@ interface Section2 {
       homeSecondRightTitleOne: string,
       homeSecondRightTitleThree: string,
       homeSecondRightTitleTwo: string,
+    
+      
+
     }, // Change the required prop to an optional prop.
   }
    const HeroSection: React.FC<Section2> = (data) => {
