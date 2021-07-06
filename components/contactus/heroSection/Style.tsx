@@ -60,7 +60,7 @@ background-size: cover;
      display: flex;
      justify-content: center;
   li {
-    
+    margin-top:0.9rem;
       font-size: 4rem;
       text-align:center;
       color:white;
@@ -140,6 +140,7 @@ ul {
  display: flex;
  justify-content: center;
 li {
+  margin-top:2.5rem;
 width: 100%;
   font-size: 2rem;
   text-align:center;

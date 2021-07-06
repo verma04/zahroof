@@ -259,13 +259,14 @@ align-items: center;
   align-items: center;
   width:95%;
   height:100%;
+
   margin-top: 4rem;
    h2 {
      text-align: left;
-     width: 100%;
+     width: 95%;
      position: relative;
      font-size: 1.5rem;;
-     padding-left:0.5rem;
+    
      text-transform: uppercase;
      margin-bottom: 20px;
    }
@@ -274,7 +275,7 @@ align-items: center;
       width: 0.3rem;;
     display: block;
     height: 90%;
-    left: -1%;
+    left: -3%;
     top:0%;
     background: #dcb01a;
     border-left: 1px white;
@@ -282,11 +283,11 @@ align-items: center;
 }
     p {
       text-align: left;
-      width: 100%;
+      width: 95%;
       font-size: 0.9rem;
       line-height: 1.4;
       font-family: Proxima-Bold;
-      margin-left: 20px;
+      
     }
   
 }

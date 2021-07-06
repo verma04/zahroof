@@ -41,7 +41,7 @@ export const Section = styled.section`
  
   .middle {
     position: absolute;    
-    bottom: -3%;
+   bottom:-3%;
     width: 40%;
     left: 31%;
 

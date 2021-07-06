@@ -7,6 +7,7 @@ import Section3 from './section3/Section3'
 import Section4 from './section4/Section4'
 import { useGetEsg } from '../../apollo/actions'
 import Footer from '../layout/footer/Footer'
+import Map from './map/map'
  const Home = ({data}) => {
   
     return (
@@ -57,6 +58,7 @@ import Footer from '../layout/footer/Footer'
         <Section data={data}/>
          <Section2 data={data}/> 
          <Section3 data={data}/>
+         <Map/>
         {/* <Section4/> */}
       
         <Footer/>  

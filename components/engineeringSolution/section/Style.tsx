@@ -52,15 +52,15 @@ align-items: center;
   .section2_data_left {
     margin-left: 5%;
     display:flex;
-    width: 50%;
-    height: 100%;
-  justify-content:flex-start;
+    width: 60%;
+    height: 60%;
+  justify-content:space-between;
   align-items: left;
   flex-direction: column;
   h2 {
     color: white;
     position: relative;
-    margin-top: 88px;
+  
     font-size: 55px;
     line-height: 46px;
     text-transform: uppercase;

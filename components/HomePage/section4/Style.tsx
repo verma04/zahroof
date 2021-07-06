@@ -1274,6 +1274,7 @@ position: relative;
     width: 2rem;;
   }
   span {
+    margin-top: 0.3rem;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 0.7rem;

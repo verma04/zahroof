@@ -669,12 +669,12 @@ export const Section = styled.section`
           width: 100%;
         span {
           width: 100%;
-         
+text-align: center;
           line-height: 1.5rem;
            text-align: center;
           
           color: white;
-          text-align: right;
+          
           line-height: 2rem;
           text-transform: uppercase;
         }
