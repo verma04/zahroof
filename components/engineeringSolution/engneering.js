@@ -1,23 +1,18 @@
 import React from 'react'
 import HeroSection from './heroSection/heroSection'
 import Section from './section/Section'
-
-import Section3 from './section3/Section3'
-
-import Section4 from './section4/Section4'
-import Section5 from './section5/Section5'
-import Section7 from './section7/Section&'
-import Section6 from './section6/Section6'
-import Head from 'next/head'
-import Footer from '../layout/footer/Footer'
 import Makecall from '../HomePage/makecall/makecall'
-import { useEnterpriseSolutions } from '../../apollo/actions'
- const Home = ({data}) => {
-    
-
+import Section6 from './section6/Section6'
+import Section7 from './section7/Section7'
+import Section8 from './section8/Section8'
+import Section9 from './section9/Section9'
+import Footer from '../layout/footer/Footer'
+import Head from 'next/head'
+ const Home  = ({data}) => {
     return (
         <div>
-                            <Head>
+
+<Head>
         <title>{data.seo.title} - Zahroof</title>
         <meta name="og:title" content={data.seo.title}/>
 
@@ -62,17 +57,15 @@ import { useEnterpriseSolutions } from '../../apollo/actions'
 
     
     
-        <HeroSection  data={data} />
-        <Section  data={data}/>
-        <Section3  data={data}/>
-     
-        <Section4  data={data}/>
-        <Section5  data={data}/>
+        <HeroSection data={data} />
+        <Section data={data}/>
         <Section6 data={data}/>
         <Section7 data={data}/>
-        <Makecall />
-        <Footer/>
-        
+        <Section8 data={data}/>
+        <Section9 data={data}/>
+        <Makecall data={data}/>
+        <Footer data={data}/>
+       
         </div>
     )
 }

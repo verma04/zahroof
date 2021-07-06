@@ -4,7 +4,17 @@ import { Section} from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 
- const HeroSection: React.FC<{}> = () => {
+interface HeroSectionProps {
+    data : {
+       enterprisefourBottomContent:String
+       enterprisefiveLeftIcon:string,
+       enterprisefiveLeftContent:string,
+       enterprisefiveRightIcon:string,
+       enterprisefiveRightContent: string,
+    }  
+ }
+ const HeroSection: React.FC<HeroSectionProps> = (data) => {
+ 
   
    
     const      set:string = "SEE WHAT We'VE DONE FOR OTHERS "
@@ -15,9 +25,7 @@ import  Navbar from '../../layout/navbar/navbar'
            
            <div className="section" >
                <div className="section_top" >
-                   <p>On average, Zahroof StraightFloTM Valves
-                       <br/>
-pay for themselves in 2 to 5 months.</p>
+                   <p>{data.data.enterprisefourBottomContent}</p>
                <div className="tringle" >
                   </div>
                 
@@ -39,10 +47,10 @@ pay for themselves in 2 to 5 months.</p>
             
             <li>See  why the line guys Love us.  </li>
                 <li>
-                <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623835331/w3hb3schn3u7pnjdrewv.png' />
+                <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src={data.data.enterprisefiveLeftIcon} />
                 </li>
 
-                <li><h3>Field Operations</h3></li>
+                <li><h3>{data.data.enterprisefiveLeftContent}</h3></li>
                 <li>
                 <Image    alt="Picture of the author"  objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356837/zh1sycnu12s4n75hizoj.png' />
                 </li>
@@ -63,10 +71,10 @@ pay for themselves in 2 to 5 months.</p>
             <li>{set} </li>
 
                 <li>
-                <Image  alt="Picture of the author"   objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356709/w2u44k0jrx10hakvnri2.png' />
+                <Image  alt="Picture of the author"   objectFit="contain" layout="fill" src={data.data.enterprisefiveRightIcon} />
                 </li>
 
-                <li><h3>Case studies</h3></li>
+                <li><h3>{data.data.enterprisefiveRightContent}</h3></li>
                 <li>
                 <Image  alt="Picture of the author"    objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356837/zh1sycnu12s4n75hizoj.png' />
                 </li>

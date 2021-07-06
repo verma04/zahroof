@@ -235,10 +235,11 @@ export const Foot = styled.footer`
   }
    }
    }
-   @media (min-width: 768px) and (max-width: 1024px) {
+   @media (min-width: 768px) and (max-width: 1023px) {
     a {
       font-weight: 900;
   }
+ 
    .footer_newsLetter {
     display:flex;
   justify-content:center;
@@ -303,8 +304,8 @@ export const Foot = styled.footer`
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-      width: 70%;
-      height: 70%;
+      width: 99%;
+      height: 80%;
   
 
       .footer-left {

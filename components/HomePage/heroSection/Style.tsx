@@ -116,7 +116,7 @@ background-size: cover;
 
  
 
- @media (min-width: 1025px) and (max-width: 1280px) {
+ @media (min-width: 1024px) and (max-width: 1280px) {
  
   .react-parallax  {
   width: 100%;
@@ -221,14 +221,14 @@ background-size: cover;
 
 
  }
- @media (min-width: 769px) and (max-width: 1024px) {
+ @media (min-width: 768px) and (max-width: 1023px) {
 
 
   .react-parallax  {
   width: 100%;
 }
 .react-parallax-bgimage {
-   width: 100% !important;;
+    
     height: 100% !important;
     
 }
@@ -278,7 +278,7 @@ background-size: cover;
      flex-direction: column;
  span {
       font-family: Proxima-Bold;
-      font-size: 60px;
+      font-size: 50px;
       text-align:right;
       color:white;
       font-weight: 1000;
@@ -396,7 +396,7 @@ background-size: cover;
     justify-content:  flex-end;
     li {
       font-family: Proxima-Bold;
-      border-bottom: 0.4rem solid  #eeba18;
+      border-bottom: 0.2rem solid  #eeba18;
     }
    
   }

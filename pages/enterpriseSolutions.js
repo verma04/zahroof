@@ -21,7 +21,8 @@ export async function getStaticProps() {
     const   { data }  = await client.query({
         query: gql`
 
-query MyQuery {
+
+  query MyQuery {
   page(id: "cG9zdDoyNA==") {
     title
     pageId
@@ -33,6 +34,9 @@ query MyQuery {
         sourceUrl
       }
     }
+    enterprisebannercontent
+    enterprisefirstcontent
+    enterprisefirstbottomcontent
     enterprisetwoitemOneImage
     enterprisetwoitemOneTitle
     enterprisetwoitemTwoImage
@@ -45,7 +49,18 @@ query MyQuery {
     enterprisetwoitemFiveTitle
     enterprisetwoitemSixImage
     enterprisetwoitemSixTitle
-    enterprisefirstcontent
+    enterpriseTwoContent
+    enterprisethreeTopContent
+    enterprisethreebottomleftContent
+    enterprisethreebottomrightContent
+    enterprisethreeitemOneImage
+    enterprisethreeitemOneTitle
+    enterprisethreeitemTwoImage
+    enterprisethreeitemTwoTitle
+    enterprisethreeitemThreeImage
+    enterprisethreeitemThreeTitle
+    enterprisethreeitemFourImage
+    enterprisethreeitemFourTitle
     enterprisefourLeftImage
     enterprisefourRightContent
     enterprisefourBottomContent
@@ -77,9 +92,8 @@ query MyQuery {
       twitterTitle
     }
   }
+  }
 
-
-}
   
         `
       });

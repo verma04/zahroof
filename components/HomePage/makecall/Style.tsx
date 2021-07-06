@@ -72,16 +72,15 @@ export const Section = styled.section`
                 position: relative;
            }
            h2:after {
-               bottom: -15%;
-               left:49%;
-               position: absolute;
-                height: 5px;
-                display: block;
-                width: 2%;
-                
-                background: #0f5885;
-                border-left: 1px white;
-                content: '';
+            bottom: -49%;
+    left: 49%;
+    position: absolute;
+    height: 5px;
+    display: block;
+    width: 3%;
+    background: #0f5885;
+    border-left: 1px white;
+    content: '';
 }
            h3 {
             font-size: 16px;
@@ -151,12 +150,13 @@ h3 {
             
              width: 100%;
              height: 40%;
+           
              display: flex;
              justify-content:center;
              align-items: center;
              flex-direction: column;
              li:nth-child(1) {
-             
+             margin-bottom: 1rem;
                  position: relative;
                  height: 2rem;
                  width: 100%;
@@ -336,7 +336,7 @@ h3 {
 
    }
 
-   @media (min-width: 1025px) and (max-width: 1280px) {
+   @media (min-width: 1024px) and (max-width: 1280px) {
     .section {
         
         /* margin-bottom: 3rem; */
@@ -355,7 +355,7 @@ h3 {
      
     
   .section_data {
-      margin-bottom:3rem;
+      
       position: absolute;
       width: 100%;
       height: 100%;
@@ -456,7 +456,7 @@ h3 {
      .section_right {
       margin-top:2rem;
       
-         width: 70%;
+         width: 90%;
          height: 70%;
          display: flex;
          justify-content: space-evenly;
@@ -657,9 +657,9 @@ h3 {
    }
 
 
-   @media (min-width: 769px) and (max-width: 1024px) {
+   @media (min-width: 768px) and (max-width: 1023px) {
     .section {
-        
+      
         /* margin-bottom: 3rem; */
           position: relative;     
           display:flex;
@@ -667,7 +667,7 @@ h3 {
           flex-direction:column;
           width:100%;
           align-items:center;   
-          height:40rem;
+          height: 35rem;
   
   
   
@@ -676,7 +676,7 @@ h3 {
      
     
   .section_data {
-      margin-bottom:3rem;
+     
       position: absolute;
       width: 100%;
       height: 100%;
@@ -693,6 +693,7 @@ h3 {
      .section_left {
          width: 100%;
          height: 20%;
+        
           
          
          display: flex;
@@ -737,7 +738,7 @@ h3 {
              }
          }
          .section-left-bottom {
-             width: 70%;
+             width: 80%;
              height: 25%;
              
              display: flex;
@@ -775,9 +776,9 @@ h3 {
   
      }
      .section_right {
-      margin-top:2rem;
+      margin-top:1rem;
       
-         width: 70%;
+         width: 100%;
          height: 70%;
          display: flex;
          justify-content: space-evenly;
@@ -786,7 +787,8 @@ h3 {
          .icon {
            width: 20%;
            height : 100%;
-            
+       
+           
            display: flex;
            justify-content:flex-start;
            flex-direction: column;
@@ -806,6 +808,7 @@ h3 {
                    width: 100%;
                }
                li {
+                font-size: 0.9rem;
                    margin-top: 1.5rem;
                   font-family: Proxima-Bold;
                    width: 100%;

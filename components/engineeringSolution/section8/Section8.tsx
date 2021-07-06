@@ -5,6 +5,7 @@ import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 
  const HeroSection: React.FC<{}> = () => {
+     const data:any = ' "   No other valve performs as well across categories  We increased production, reduced energy use and   emissions and cut maintenance costs by XX%      "'
     return (
         <Section>
         
@@ -13,10 +14,7 @@ import  Navbar from '../../layout/navbar/navbar'
            <div className="section_top" >
               
               <span id="top">
-              No other valve performs as well across categories 
-We increased production, reduced energy use and 
-emissions and cut maintenance costs by XX% 
-             
+           {data}
              
               </span>
               <span id="ab" > - Customer Name</span>

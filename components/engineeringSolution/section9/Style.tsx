@@ -153,6 +153,7 @@ align-items: center;
 
   .section_bottom-1 {
     margin-top:40px;
+    margin-bottom: 2rem;;
     span {
       font-size: 46px;
       line-height: 40px;

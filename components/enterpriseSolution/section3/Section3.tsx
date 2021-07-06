@@ -3,8 +3,23 @@ import React from 'react'
 import { Section } from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
-
- const HeroSection: React.FC<{}> = () => {
+interface HeroSectionProps {
+     data : {
+          enterprisetwoitemOneImage:  string
+      enterprisetwoitemOneTitle: string
+      enterprisetwoitemTwoImage: string
+      enterprisetwoitemTwoTitle: string,
+      enterprisetwoitemThreeImage: string,
+      enterprisetwoitemThreeTitle: string,
+      enterprisetwoitemFourImage: string,
+      enterprisetwoitemFourTitle: string,
+      enterprisetwoitemFiveImage: string,
+      enterprisetwoitemFiveTitle: string,
+      enterprisetwoitemSixImage: string,
+      enterprisetwoitemSixTitle: string
+     }  
+ }
+ const HeroSection: React.FC<HeroSectionProps> = (data) => {
     return (
         <Section>
         
@@ -17,54 +32,50 @@ import  Navbar from '../../layout/navbar/navbar'
 
       <div className="logo" >
           <div className="wrapper"  >
-          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625393724/da1aktotievrmyf4zmtv.png'} alt="Picture of the author" />
+          <Image     objectFit="contain" layout="fill" src={data.data.enterprisetwoitemOneImage} alt="Picture of the author" />
                </div>
-          <p>INCREASES INCREMENTAL
-REVENUE BY HUNDREDS
-OF THOUSANDS TO
-MILLIONS OF DOLLARS</p>
+          <p>{data.data.enterprisetwoitemOneTitle}</p>
           </div>
+
           <div className="logo" >
           <div className="wrapper"  >
-          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625393724/pqivhal99jalrsflhuzi.png'} alt="Picture of the author" />
+          <Image     objectFit="contain" layout="fill" src={data.data.enterprisetwoitemTwoImage} alt="Picture of the author" />
                </div>
-          <p>REDUCES POWER
-CONSUMPTION BY
-5-15%</p>
+          <p>{data.data.enterprisetwoitemTwoTitle}</p>
           </div>
+        
           <div className="logo" >
           <div className="wrapper"  >
-          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625393724/avq7anxvtsb3v3rkdluo.png'} alt="Picture of the author" />
+          <Image     objectFit="contain" layout="fill" src={data.data.enterprisetwoitemThreeImage} alt="Picture of the author" />
                </div>
-          <p>GUARANTEED 5-20%
-THROUGHPUT
-IMPROVEMENT</p>
+          <p>{data.data.enterprisetwoitemThreeTitle}</p>
           </div>
+         
+
           <div className="logo" >
           <div className="wrapper"  >
-          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625393724/td9e52tv1wqerys6cgsy.png'} alt="Picture of the author" />
+          <Image     objectFit="contain" layout="fill" src={data.data.enterprisetwoitemFourImage} alt="Picture of the author" />
                </div>
-          <p>REDUCES SERVICE COSTS,
-ALL BUT ELIMINATES
-UNSCHEDULED
-COMPRESSOR DOWNTIME</p>
+          <p>{data.data.enterprisetwoitemFourTitle}</p>
           </div>
+         
+
           <div className="logo" >
           <div className="wrapper"  >
-          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625393724/ppfl659nswsejvoq2vtq.png'} alt="Picture of the author" />
+          <Image     objectFit="contain" layout="fill" src={data.data.enterprisetwoitemFiveImage} alt="Picture of the author" />
                </div>
-          <p>REDUCES INVENTORY
-COSTS BY AS MUCH
-AS 80%</p>
+          <p>{data.data.enterprisetwoitemFiveTitle}</p>
           </div>
+
           <div className="logo" >
           <div className="wrapper"  >
-          <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625393724/hpvnhr8bhjihmekpz939.png'} alt="Picture of the author" />
+          <Image     objectFit="contain" layout="fill" src={data.data.enterprisetwoitemSixImage} alt="Picture of the author" />
                </div>
-          <p>REDUCES # OF EMISSION
-EVENTS AND FUGITIVE
-EMISSIONS INTENSITY</p>
+          <p>{data.data.enterprisetwoitemSixTitle}</p>
           </div>
+         
+
+
       </div>
     
                    

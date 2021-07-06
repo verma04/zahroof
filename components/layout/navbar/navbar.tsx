@@ -133,6 +133,7 @@ const Navbar: React.FC<{}> = () => {
         <h3 id={router.pathname == "/profile" ? "active" : ""} >  <Link  href="/enterpriseSolutions" >  Enterprise Solutions</Link></h3>
          <h3 id={router.pathname == "/people" ? "active" : ""}> <Link   href="/engineeringSolutions" >Engineering Solutions</Link></h3>
          <h3 id={router.pathname == "/careers" ? "active" : ""}>  <Link   href="/esgbenefits" >Esg Benefits</Link></h3>
+         <h3 id={router.pathname == "/news" ? "active" : ""} >  <Link  href="/valueashero" >Value as Hero</Link></h3>
          <h3 id={router.pathname == "/news" ? "active" : ""} >  <Link  href="/aboutus" >About Us</Link></h3>
          <h3 id={router.pathname == "/partnerships" ? "active" : ""}>  <Link   href="/contactus">Contact Us</Link></h3>
         </div>

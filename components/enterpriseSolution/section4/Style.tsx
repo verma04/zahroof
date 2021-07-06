@@ -31,15 +31,16 @@ align-items: center;
 flex-direction: column;
    width:100%;
    background-color: #3b546a;
-   height: 442px;
+   height: 350px;
    #top {
-     font-size: 65px;
-     line-height: 70px;
-     width: 80%;
-     text-align:left;
-     line-height: 1.3;
+    font-size: 51px;
+    line-height: 60px;
+    width: 60%;
+   
+    font-family: 'Caveat';
+   
      color: #dbb43f;
-        font-family: "Caveat-Light"
+       
    }
    span {
     font-family: 'Caveat-Light';

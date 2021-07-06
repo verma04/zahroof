@@ -140,7 +140,7 @@ export const Section = styled.section`
 
    }
 
-   @media (min-width: 1025px) and (max-width: 1280px) {
+   @media (min-width: 1024px) and (max-width: 1280px) {
     .react-parallax  {
   width: 100%;
 }
@@ -263,7 +263,7 @@ export const Section = styled.section`
    
    }
 
-   @media (min-width: 768px) and (max-width: 1024px) {
+   @media (min-width: 768px) and (max-width: 1023px) {
     .react-parallax  {
   width: 100%;
 }
@@ -279,7 +279,7 @@ export const Section = styled.section`
       width:100%;
       align-items:center;
       position: relative;
-      height: 40rem;;
+      height: 30rem;;
 
       /* Set a specific height */
 
@@ -323,6 +323,7 @@ export const Section = styled.section`
    height: 30%;
    top: 5%;
    width: 30%;
+ 
    right: -4%;
   
    .img-wrapper {
@@ -334,8 +335,8 @@ export const Section = styled.section`
   h2 {
     position: relative;
     text-transform: uppercase;
-    font-size:46px;
-    line-height: 46px;
+    font-size:2rem;
+    line-height: 2rem;
     
   }
   h2:after{
@@ -355,7 +356,7 @@ export const Section = styled.section`
 .section3_left {
   position: absolute;
   top: 45%;
-  left: 0;
+  left: 5%;
   width: 30%;
   /* height: 100%; */
   display: flex;
@@ -365,7 +366,7 @@ export const Section = styled.section`
 .section3_right {
   position: absolute;
   top: 45%;
-  right: 0%;;
+  right: 5%;;
   width: 30%;
   /* height: 100%; */
   display: flex;

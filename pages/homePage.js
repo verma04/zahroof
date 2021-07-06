@@ -9,7 +9,7 @@ import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
  const homePage = ({data}) => {
 
     
-   console.log9
+  
     
     return (
         <div>

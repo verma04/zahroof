@@ -6,7 +6,24 @@ import  Navbar from '../../layout/navbar/navbar'
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
 
- const HeroSection: React.FC<{}> = () => {
+
+interface HeroSectionProps {
+    data : {
+       enterprisethreeTopContent: string
+       enterprisethreebottomleftContent: string
+       enterprisethreebottomrightContent: string
+       enterprisethreeitemOneImage: string
+       enterprisethreeitemOneTitle: string
+       enterprisethreeitemTwoImage: string
+       enterprisethreeitemTwoTitle: string
+       enterprisethreeitemThreeImage: string
+       enterprisethreeitemThreeTitle: string
+       enterprisethreeitemFourImage: string
+       enterprisethreeitemFourTitle: string
+    }  
+ }
+ const HeroSection: React.FC<HeroSectionProps> = (data) => {
+ 
  
     return (
         <Section>
@@ -16,20 +33,9 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveI
 
                <div className="section2_data" >
 
-                   <div  className="section2_data_left">
-     <h3>
-     Can a valVe really 
-revolutionize 
-your business?
-         </h3>
+                   <div dangerouslySetInnerHTML={{ __html: data.data.enterprisethreebottomleftContent }}  className="section2_data_left">
 
-         <h2>
-         If it’s a 
-StraightFlo<sup>TM  </sup>
-Valve it can.
-             </h2>
-
-             <div className="triangle-right"></div>
+           
 
                        </div>
 
@@ -38,42 +44,39 @@ Valve it can.
                        <div  className="section2_data_right">
        <div className="data" >
        <span>
-       Zahroof StraightFloTM compressor valves 
-are unmatched in the industry today
+       { data.data.enterprisethreebottomrightContent }
            </span>
            </div>
  <div className="logo" >
  <div className="img-wrapper">
- <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625046694/sd2fafqjhgvsuju86zih.png'} alt="Picture of the author" />
+ <Image     objectFit="contain" layout="fill" src={data.data.enterprisethreeitemOneImage} alt="Picture of the author" />
 </div>
- <p>2x TO 25x OR MORE MEAN TIME
-BETWEEN FAILURE, THEY OPERATE
-FOR YEARS INSTEAD OF MONTHS </p>
+ <p>{data.data.enterprisethreeitemOneTitle}</p>
+ </div>
+ <div className="logo" >
+ <div className="img-wrapper">
+ <Image     objectFit="contain" layout="fill" src={data.data.enterprisethreeitemTwoImage} alt="Picture of the author" />
+</div>
+ <p>{data.data.enterprisethreeitemTwoTitle}</p>
  </div>
 
  <div className="logo" >
  <div className="img-wrapper">
- <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625046694/qnv6jygrlsths4mrdb2b.png'} alt="Picture of the author" />
+ <Image     objectFit="contain" layout="fill" src={data.data.enterprisethreeitemThreeImage} alt="Picture of the author" />
+</div>
+ <p>{data.data.enterprisethreeitemThreeTitle}</p>
  </div>
- <p>Able to withstand more liquid 
-AND DEBRIS PREVENTING UNPLANNED
-FAILURES AND DOWNTIME</p>
- </div>
+
  <div className="logo" >
  <div className="img-wrapper">
- <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625046694/rxbrp9tbxipw1pp0sthc.png'} alt="Picture of the author" />
- </div>
- <p>Serviced on-site without machining, 
-as easy offshore as on dry land
-</p>
- </div>
- <div className="logo" >
-     <div className="img-wrapper">
- <Image     objectFit="contain" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1625046694/clwydtwl2uwlibnvxsr1.png'} alt="Picture of the author" />
+ <Image     objectFit="contain" layout="fill" src={data.data.enterprisethreeitemFourImage} alt="Picture of the author" />
 </div>
-<p>Pull, repair & replace means no 
-need to stockpile spare parts</p>
+ <p>{data.data.enterprisethreeitemFourTitle}</p>
  </div>
+
+
+ 
+
 </div>
 
                    </div>

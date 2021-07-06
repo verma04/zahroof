@@ -95,7 +95,139 @@ align-items: center;
 
    @media (min-width: 1024px) and (max-width: 1280px) {
   
-  display: none;
+    .aboutus {
+  background: #fbfbfb;
+  position: relative;
+  height: 26rem;
+  width: 100%;
+  z-index: 1;
+  display:flex;
+  justify-content:center;
+   flex-direction: column;
+  width:100%;
+  align-items:center;
+  position: relative;
+margin-bottom: 3rem;;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+.aboutus_section {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content:start;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+   height:100%;
+  margin-top: 4rem;
+   h2 {
+     text-align: left;
+     width: 100%;
+     position: relative;
+     font-size: 46px;
+     line-height: 46px;
+     padding-left: 0.7rem;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+   }
+   h2:after {
+     position: absolute;
+      width: 0.35rem;;
+    display: block;
+    height: 60%;
+    left: -1%;
+    top:20%;
+    background: #dcb01a;
+    border-left: 1px white;
+    content: '';
+}
+    p {
+      text-align: left;
+      width: 100%;
+      margin-left: 20px;
+      font-size: 16px;
+      line-height: 28px;
+      font-family: Proxima-Bold;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  
+}
+
+}
+
+
+   }
+
+   @media (min-width: 768px) and (max-width: 1023px) {
+  
+    .aboutus {
+  background: #fbfbfb;
+  position: relative;
+  height: 26rem;
+  width: 100%;
+  z-index: 1;
+  display:flex;
+  justify-content:center;
+   flex-direction: column;
+  width:100%;
+  align-items:center;
+  position: relative;
+margin-bottom: 3rem;;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+.aboutus_section {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content:start;
+  flex-direction: column;
+  align-items: center;
+   width:90%;
+   height:100%;
+  margin-top: 4rem;
+   h2 {
+     text-align: left;
+     width: 100%;
+     position: relative;
+     font-size: 46px;
+     line-height: 46px;
+     padding-left: 0.7rem;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+   }
+   h2:after {
+     position: absolute;
+      width: 0.35rem;;
+    display: block;
+    height: 60%;
+    left: -1%;
+    top:20%;
+    background: #dcb01a;
+    border-left: 1px white;
+    content: '';
+}
+    p {
+      text-align: left;
+      width: 100%;
+      margin-left: 20px;
+      font-size: 16px;
+      line-height: 28px;
+      font-family: Proxima-Bold;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  
+}
+
+}
+
 
    }
 
