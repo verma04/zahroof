@@ -32,9 +32,7 @@ interface OptionalMiddleName {
 const HeroSection: React.FC<Section> = (data) => {
   return (
 
-    <Section>
-
-     
+    <Section>     
   
           <div className="section-1" >
        
