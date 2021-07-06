@@ -42,9 +42,9 @@ FEWER CALL-OUTS.<br/>
 
             </h2>
 
-         <p>When you're maintaining rotating equipment, you spend a lot of
+         <p>When youre maintaining rotating equipment, you spend a lot of
 time knocking down problems. Sometimes, barely getting one
-solved before another pops up. But Zahroof's cutting-edge
+solved before another pops up. But Zahroof s cutting-edge
 technology offers anywhere from 2x, 5x, 10x, or more mean time
 between failure and on-site servicing without machining. See how
 our customized solutions can make life easier for you.

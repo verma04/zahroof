@@ -38,14 +38,14 @@ const Landing: React.FC<{}> = () => {
 LESS DOWNTIME.<br/>
 MORE REVENUE.<br/>
 </span>
-<h3 className="inner" > WE DON'T THINK THAT'S
+<h3 className="inner" > WE DON T THINK THAT S
 TOO MUCH TO ASK.</h3>
 
             </h2>
 
          <p>Your job is to your operation runs efficiently..
-continuously and above all, profitably. It's a demanding
-position, expectations are high. But with Zahroof's
+continuously and above all, profitably. It s a demanding
+position, expectations are high. But with Zahroof s
 state-of-the-art technology, you can maximize compressor
 performance to achieve astounding results in production,
 maintenance and reliability. See how our customized
