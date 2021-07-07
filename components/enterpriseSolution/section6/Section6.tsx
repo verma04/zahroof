@@ -18,20 +18,21 @@ import {
 } from "react-scroll-motion";
 
 interface HeroSectionProps {
-  data: {
-    enterprisethreeTopContent: string;
-    enterprisethreebottomleftContent: string;
-    enterprisethreebottomrightContent: string;
-    enterprisethreeitemOneImage: string;
-    enterprisethreeitemOneTitle: string;
-    enterprisethreeitemTwoImage: string;
-    enterprisethreeitemTwoTitle: string;
-    enterprisethreeitemThreeImage: string;
-    enterprisethreeitemThreeTitle: string;
-    enterprisethreeitemFourImage: string;
-    enterprisethreeitemFourTitle: string;
-  };
-}
+    data : {
+       enterprisethreeTopContent: string
+       enterprisethreebottomleftContent: string
+       enterprisethreebottomrightContent: string
+       enterprisethreeitemOneImage: string
+       enterprisethreeitemOneTitle: string
+       enterprisethreeitemTwoImage: string
+       enterprisethreeitemTwoTitle: string
+       enterprisethreeitemThreeImage: string
+       enterprisethreeitemThreeTitle: string
+       enterprisethreeitemFourImage: string
+       enterprisethreeitemFourTitle: string
+    }  
+ }
+ 
 const HeroSection: React.FC<HeroSectionProps> = (data) => {
   return (
     <Section>

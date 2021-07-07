@@ -22,29 +22,29 @@ const Home = ({ data }) => {
         {/* 
 <meta name="fb:page_id" content="43929265776" />
 
-<meta name="og:email" content="me@example.com"/>
-<meta name="og:phone_number" content="650-123-4567"/>
-<meta name="og:fax_number" content="+1-415-123-4567"/>
+        <meta name="og:email" content="me@example.com"/>
+        <meta name="og:phone_number" content="650-123-4567"/>
+        <meta name="og:fax_number" content="+1-415-123-4567"/>
 
-<meta name="og:latitude" content="37.416343"/>
-<meta name="og:longitude" content="-122.153013"/>
-<meta name="og:street-address" content="1601 S California Ave"/>
-<meta name="og:locality" content="Palo Alto"/>
-<meta name="og:region" content="CA"/>
-<meta name="og:postal-code" content="94304"/>
-<meta name="og:country-name" content="USA"/>
+        <meta name="og:latitude" content="37.416343"/>
+        <meta name="og:longitude" content="-122.153013"/>
+        <meta name="og:street-address" content="1601 S California Ave"/>
+        <meta name="og:locality" content="Palo Alto"/>
+        <meta name="og:region" content="CA"/>
+        <meta name="og:postal-code" content="94304"/>
+        <meta name="og:country-name" content="USA"/>
 
-<meta property="og:type" content="game.achievement"/>
-<meta property="og:points" content="POINTS_FOR_ACHIEVEMENT"/>
+        <meta property="og:type" content="game.achievement"/>
+        <meta property="og:points" content="POINTS_FOR_ACHIEVEMENT"/>
 
-<meta property="og:video" content="http://example.com/awesome.swf" />
-<meta property="og:video:height" content="640" />
-<meta property="og:video:width" content="385" />
-<meta property="og:video:type" content="application/x-shockwave-flash" />
-<meta property="og:video" content="http://example.com/html5.mp4" />
-<meta property="og:video:type" content="video/mp4" />
-<meta property="og:video" content="http://example.com/fallback.vid" />
-<meta property="og:video:type" content="text/html" />
+        <meta property="og:video" content="http://example.com/awesome.swf" />
+        <meta property="og:video:height" content="640" />
+        <meta property="og:video:width" content="385" />
+        <meta property="og:video:type" content="application/x-shockwave-flash" />
+        <meta property="og:video" content="http://example.com/html5.mp4" />
+        <meta property="og:video:type" content="video/mp4" />
+        <meta property="og:video" content="http://example.com/fallback.vid" />
+        <meta property="og:video:type" content="text/html" />
 
 <meta property="og:audio" content="http://example.com/amazing.mp3" />
 <meta property="og:audio:title" content="Amazing Song" />
