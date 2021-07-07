@@ -401,6 +401,17 @@ export const Section = styled.section`
               font-family: Proxima-Bold;
               width: 48%;
               text-align: left;
+
+              font-family: Proxima-Bold;
+              font-size: 1.5rem;
+
+            
+              color: white;
+              font-weight: 1000;
+              text-transform: uppercase;
+              position: relative;
+              padding-right: 1rem;
+             
             }
             li {
               font-size: 1.5rem;
@@ -420,7 +431,8 @@ export const Section = styled.section`
               height: 110%;
               width: 0.4rem;
               top: 0;
-              left: -0.5rem;
+              left: -0.8rem;
+
             }
           }
         }
