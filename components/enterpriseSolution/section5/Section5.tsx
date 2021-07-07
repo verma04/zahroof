@@ -4,7 +4,13 @@ import { Section} from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 
- const HeroSection: React.FC<{}> = () => {
+interface SectionThreeeProps {
+    data: {
+        enterprisethreeTopContent: string,
+    }, // Change the required prop to an optional prop.
+}
+
+const HeroSection: React.FC<SectionThreeeProps> = (data) => {
     return (
         <Section>
         
@@ -12,11 +18,7 @@ import  Navbar from '../../layout/navbar/navbar'
            <div className="section" >
                 <div className="section_top" >             
                     <div className="section2_data" > 
-                        <div className="section2_data_left"  >
-                            
-                            <h2>So what is this amazing technology you ask? </h2>
-                            <p> It might surprise you. In fact, it might be <br/> something you haven’t considered at all. But <br/> fact is, until we turned the industry on its ear, <br/> compressor valves had been designed the <br/> same way for over 70 years. </p>
-                        </div>    
+                        <div className="section2_data_left" dangerouslySetInnerHTML={{ __html: data.data.enterprisethreeTopContent }} />
                     </div>
                 </div>
            </div>
