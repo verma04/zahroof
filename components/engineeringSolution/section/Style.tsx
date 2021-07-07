@@ -357,7 +357,7 @@ export const Section = styled.section`
         background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625301760/e92mprbfemr6lekh6lyp.jpg"); /* The image used */
 
         /* You must set a specified height */
-        background-position: center; /* Center the image */
+         /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
         display: flex;

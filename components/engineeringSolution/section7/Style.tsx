@@ -296,12 +296,15 @@ export const Section = styled.section`
           align-items: center;
           flex-direction: column;
           h2 {
-            width: 95%;
+            width: 90%;
             color: #27364e;
             position: relative;
 
             text-transform: uppercase;
             position: relative;
+            br {
+              display: none;
+            }
           }
           h2:after {
             position: absolute;
@@ -316,7 +319,7 @@ export const Section = styled.section`
           }
 
           p {
-            width: 95%;
+            width: 90%;
             color: white;
 
             line-height: 35px;

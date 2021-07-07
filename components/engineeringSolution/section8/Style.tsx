@@ -404,7 +404,7 @@ export const Section = styled.section`
           position: absolute;
           font-size: 1.5rem;
           bottom: 5%;
-          left: 60%;
+        
 
           margin-top: 3rem;
 
