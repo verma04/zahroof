@@ -4,54 +4,25 @@ import { Section} from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 
- const HeroSection: React.FC<{}> = () => {
+interface SectionTwoProps {
+    data: {
+        engineeringtwoleftcontent: string,
+        engineeringtworightcontent: string,
+    }, // Change the required prop to an optional prop.
+}
+
+const HeroSection: React.FC<SectionTwoProps> = (data) => {
     return (
         <Section>
         
            
-           <div className="section6" >
-           <div className="section2_data" > 
-            <div className="section2_data_left"  >
-
-<h2>Unmatched <br/>
-Reliability </h2>
-<p>Unlike our competitors, we don’t profit when our products fail, so instead of mere months, our valves operate for years in the field. More tolerant of liquid and debris, they turn problems into producers. And they’re so dependable, we back them with one of the best warranties in the business. </p>
-
-</div>
- 
-
-<div className="section2_data_right"  >
-
-
-<div className="top" > 
-<h2 className="head" >10
-
-
-</h2>
-<h3>Year</h3>
-<span>Limited Warranty <br/> Stainless Housing</span>
-</div>
-
-
-<div className="top" >
-    
-<h2>5</h2>
-<h3>Year</h3>
-<span>Limited Warranty <br/> For transmission Apps</span> </div>
-     
-      </div>
-             
-     
-            
-     
-                   
-                   </div>
-                   
-             
-           <div className="tringle" >
-                  </div>
-
-</div>
+            <div className="section6" >
+                <div className="section2_data" > 
+                    <div className="section2_data_left" dangerouslySetInnerHTML={{ __html: data.data.engineeringtwoleftcontent }} /> 
+                    <div className="section2_data_right" dangerouslySetInnerHTML={{ __html: data.data.engineeringtworightcontent }} />                   
+                </div>
+                <div className="tringle" ></div>
+            </div>
             
         </Section>
     )
