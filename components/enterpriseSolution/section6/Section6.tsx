@@ -30,57 +30,40 @@ interface HeroSectionProps {
         
            
            <div className="section2" >
-
                <div className="section2_data" >
-
-                   <div dangerouslySetInnerHTML={{ __html: data.data.enterprisethreebottomleftContent }}  className="section2_data_left">
-
-           
-
-                       </div>
-
-             
+                   <div dangerouslySetInnerHTML={{ __html: data.data.enterprisethreebottomleftContent }}  className="section2_data_left" />
       
-                       <div  className="section2_data_right">
-       <div className="data" >
-       <span>
-       { data.data.enterprisethreebottomrightContent }
-           </span>
-           </div>
- <div className="logo" >
- <div className="img-wrapper">
- <Image     objectFit="contain" layout="fill" src={data.data.enterprisethreeitemOneImage} alt="Picture of the author" />
-</div>
- <p>{data.data.enterprisethreeitemOneTitle}</p>
- </div>
- <div className="logo" >
- <div className="img-wrapper">
- <Image     objectFit="contain" layout="fill" src={data.data.enterprisethreeitemTwoImage} alt="Picture of the author" />
-</div>
- <p>{data.data.enterprisethreeitemTwoTitle}</p>
- </div>
+                    <div  className="section2_data_right">
+                        <div className="data" >
+                            <span dangerouslySetInnerHTML={{ __html:  data.data.enterprisethreebottomrightContent }} />
+                        </div>
+                        <div className="logo" >
+                            <div className="img-wrapper">
+                                <Image objectFit="contain" layout="fill" src={data.data.enterprisethreeitemOneImage} alt="Picture of the author" />
+                            </div>
+                            <p>{data.data.enterprisethreeitemOneTitle}</p>
+                        </div>
+                        <div className="logo" >
+                            <div className="img-wrapper">
+                                <Image objectFit="contain" layout="fill" src={data.data.enterprisethreeitemTwoImage} alt="Picture of the author" />
+                            </div>
+                            <p>{data.data.enterprisethreeitemTwoTitle}</p>
+                        </div>
 
- <div className="logo" >
- <div className="img-wrapper">
- <Image     objectFit="contain" layout="fill" src={data.data.enterprisethreeitemThreeImage} alt="Picture of the author" />
-</div>
- <p>{data.data.enterprisethreeitemThreeTitle}</p>
- </div>
-
- <div className="logo" >
- <div className="img-wrapper">
- <Image     objectFit="contain" layout="fill" src={data.data.enterprisethreeitemFourImage} alt="Picture of the author" />
-</div>
- <p>{data.data.enterprisethreeitemFourTitle}</p>
- </div>
-
-
- 
-
-</div>
-
-                   </div>
-              
+                        <div className="logo" >
+                            <div className="img-wrapper">
+                                <Image objectFit="contain" layout="fill" src={data.data.enterprisethreeitemThreeImage} alt="Picture of the author" />
+                            </div>
+                            <p>{data.data.enterprisethreeitemThreeTitle}</p>
+                        </div>
+                        <div className="logo" >
+                            <div className="img-wrapper">
+                                <Image objectFit="contain" layout="fill" src={data.data.enterprisethreeitemFourImage} alt="Picture of the author" />
+                            </div>
+                            <p>{data.data.enterprisethreeitemFourTitle}</p>
+                        </div>
+                    </div>
+                </div>              
            </div>
             
         </Section>

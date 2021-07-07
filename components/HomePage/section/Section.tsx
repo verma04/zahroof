@@ -115,6 +115,7 @@ const HeroSection: React.FC<Section> = (data) => {
 
                     <li><Image objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' alt="" /></li>
 
+
                   </div>
                 </div>
               </Parallax>
