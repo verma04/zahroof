@@ -99,7 +99,7 @@ const HeroSection: React.FC<Section> = (data) => {
 
                     <li><h3>{data.data.firstLeftTitle}</h3></li>
 
-                    <li> <Image objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' alt="" /></li>
+                    <li> <Image objectFit="contain" layout="fill" src='http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
 
                   </div>
                 </div>
@@ -113,7 +113,7 @@ const HeroSection: React.FC<Section> = (data) => {
 
                     <li><h3>{data.data.firstRightTitle}</h3></li>
 
-                    <li><Image objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' alt="" /></li>
+                    <li><Image objectFit="contain" layout="fill" src='http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
 
                   </div>
                 </div>
