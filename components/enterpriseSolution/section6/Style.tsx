@@ -62,9 +62,7 @@ export const Section = styled.section`
             text-transform: uppercase;
 
             margin-top: 2rem;
-            sup {
-              font-size: 1rem;
-            }
+          
           }
           h3 {
             width: 70%;
