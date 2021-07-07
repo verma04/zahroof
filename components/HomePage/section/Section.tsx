@@ -148,33 +148,36 @@ const HeroSection: React.FC<Section> = (data) => {
                 </li>
               </div>
             </div>
-          </Parallax>
 
-          <Parallax bgImage={data.data.firstRightBgimage} strength={400}>
-            <div className="section_bottom_set">
-              <div className="section_bottom_data">
-                <li>
-                  <Image
-                    objectFit="contain"
-                    layout="fill"
-                    src={data.data.firstRightIcon}
-                    alt="sd"
-                  />
-                </li>
+            <div className="section_bottom" >
+              <Parallax bgImage={data.data.firstLeftBgimage} strength={500}>
+                <div className="section_bottom_set" >
 
-                <li>
-                  <h3>{data.data.firstRightTitle}</h3>
-                </li>
+                  <div className="section_bottom_data" >
+                    <li> <Image objectFit="contain" layout="fill" src={data.data.firstLeftIcon} alt="sd" /> </li>
 
-                <li>
-                  <Image
-                    objectFit="contain"
-                    layout="fill"
-                    src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png"
-                    alt=""
-                  />
-                </li>
-              </div>
+                    <li><h3>{data.data.firstLeftTitle}</h3></li>
+
+                    <li> <Image objectFit="contain" layout="fill" src='http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
+
+                  </div>
+                </div>
+              </Parallax>
+
+              <Parallax bgImage={data.data.firstRightBgimage} strength={500}>
+                <div className="section_bottom_set" >
+
+                  <div className="section_bottom_data" >
+                    <li><Image objectFit="contain" layout="fill" src={data.data.firstRightIcon} alt="sd" /></li>
+
+                    <li><h3>{data.data.firstRightTitle}</h3></li>
+
+                    <li><Image objectFit="contain" layout="fill" src='http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
+
+                  </div>
+                </div>
+              </Parallax>
+
             </div>
           </Parallax>
         </div>
