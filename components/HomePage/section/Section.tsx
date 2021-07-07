@@ -21,13 +21,7 @@ interface Section {
     firstRightTitle: string,
   }, // Change the required prop to an optional prop.
 }
-const image2 =
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624859749/sdouzbuocrwq67wffz95.jpg";
-interface OptionalMiddleName {
-  homebannercontent: string;
-  honebannerimageurl: string;
 
-}
 
 const HeroSection: React.FC<Section> = (data) => {
   return (
@@ -52,11 +46,8 @@ const HeroSection: React.FC<Section> = (data) => {
 
                 <div className="section_bottom_data" >
                   <li> <Image objectFit="contain" layout="fill" src={data.data.firstLeftIcon} alt="sd" /> </li>
-
                   <li><h3>{data.data.firstLeftTitle}</h3></li>
-
                   <li> <Image objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1623825001/kphxeenbazcwieocomkx.png' alt="" /></li>
-
                 </div>
               </div>
             </Parallax>
