@@ -206,6 +206,20 @@ export const Section = styled.section`
           }
         }
       }
+
+      .absol {
+        position: absolute;
+        width: 100%;
+        height: 8rem;
+        background-image: url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1625647930/b77aizoerfwavnpd4lcz.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+       
+    top: 33rem;
+
+      }
     }
   }
 
@@ -301,7 +315,7 @@ export const Section = styled.section`
         position: absolute;
         width: 100%;
         height: 7rem;
-        background-image: url(https://res.cloudinary.com/dzcmadjl1/image/upload/v1625647930/b77aizoerfwavnpd4lcz.png);
+        background-image: url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1625647930/b77aizoerfwavnpd4lcz.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
