@@ -39,13 +39,16 @@ margin-bottom: 3rem;;
 .tringle {
     position: absolute;
     right: 10%;
-    width: 0;
-    bottom: -6%;
-    height: 0;
-    border-left: 6rem solid transparent;
-    border-right: 6rem solid transparent;
-    border-top: 4rem solid #FDB931 ;
-    z-index: -1
+    width: 200px;
+    bottom: -7.4%;
+    height: 65px;
+    /* border-left: 6rem solid transparent; */
+    /* border-right: 6rem solid transparent; */
+    /* border-top: 4rem solid #FDB931; */
+    /* z-index: -1; */
+    background-image: url(http://18.217.254.134/wp-content/uploads/2021/07/Arrow-home-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
    
 } 
 .section4_top_data {

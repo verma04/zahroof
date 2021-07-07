@@ -20,57 +20,59 @@ export async function getStaticProps() {
         query: gql`
 
 
-query MyQuery {
-  page(id: "cG9zdDozNw==") {
-    id
-    pageId
-    title
-    featuredImage {
-      node {
-        title
-        sourceUrl
-      }
-    }
-    engineeringbannerleftcontent
-    engineeringbannerrightcontent
-    engineeringfirstleftcontent
-    engineeringfirstrightcontent
-    engineeringtwoleftcontent
-    engineeringtworightcontent
-    engineeringthreeleftimage
-    engineeringthreerightcontent
-    engineeringfourleftimage
-    engineeringfourrightcontent
-    engineeringfourbottomcontent
-    engineeringfiveLeftIcon
-    engineeringfiveLeftContent
-    engineeringfiveRightIcon
-    engineeringfiveRightContent
-    seo {
-      title
-      metaDesc
-      metaKeywords
-      focuskw
-      canonical
-      cornerstone
-      fullHead
-      metaRobotsNofollow
-      metaRobotsNoindex
-      opengraphAuthor
-      opengraphDescription
-      opengraphModifiedTime
-      opengraphPublishedTime
-      opengraphPublisher
-      opengraphSiteName
-      opengraphTitle
-      opengraphType
-      opengraphUrl
-      readingTime
-      twitterDescription
-      twitterTitle
-    }
-  }
-  }
+      query MyQuery {
+        page(id: "cG9zdDozNw==") {
+          id
+          pageId
+          title
+          featuredImage {
+            node {
+              title
+              sourceUrl
+            }
+          }
+          engineeringbannerleftcontent
+          engineeringbannerrightcontent
+          engineeringfirstleftcontent
+          engineeringfirstrightcontent
+          engineeringtwoleftcontent
+          engineeringtworightcontent
+          engineeringthreeleftimage
+          engineeringthreerightcontent
+          engineeringfourleftimage
+          engineeringfourrightcontent
+          engineeringfourbottomcontent
+          engineeringfiveLeftTitle
+          engineeringfiveLeftIcon
+          engineeringfiveLeftContent
+          engineeringfiveRightTitle
+          engineeringfiveRightIcon
+          engineeringfiveRightContent
+          seo {
+            title
+            metaDesc
+            metaKeywords
+            focuskw
+            canonical
+            cornerstone
+            fullHead
+            metaRobotsNofollow
+            metaRobotsNoindex
+            opengraphAuthor
+            opengraphDescription
+            opengraphModifiedTime
+            opengraphPublishedTime
+            opengraphPublisher
+            opengraphSiteName
+            opengraphTitle
+            opengraphType
+            opengraphUrl
+            readingTime
+            twitterDescription
+            twitterTitle
+          }
+        }
+        }
 
   
         `

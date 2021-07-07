@@ -29,15 +29,12 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
 
             <Navbar/>
             <Parallax  bgImage={data.data.featuredImage.node.sourceUrl} strength={500}>
-           <div className="homePage-hero" >
+             <div className="homePage-hero" >
            {/* <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624439858/m3sfku5fc0vyzjveyony.png'} alt="Picture of the herosection" /> */}
    
-           <div className="homePage-layer" > 
+                <div className="homePage-layer" ></div>
 
-
-</div>
-
-           </div>
+            </div>
             </Parallax>
         </Section>
     )
