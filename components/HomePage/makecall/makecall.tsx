@@ -54,19 +54,16 @@ const HeroSection: React.FC<{}> = () => {
                     <input placeholder="Your Email"></input>
                   </div>
                 </div>
-                <div className="input-field">
-                  <div className="field">
-                    <input placeholder="Subject"></input>
-                  </div>
-                  <div className="field">
-                    <select className="select">
-                      <option value="">Departmnet</option>
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                    {/* <input  placeholder="Departmnet" ></input> */}
-                  </div>
+                <div className="field" >
+                
+                <select className="select">
+                    <option value="">Department</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                {/* <input  placeholder="Departmnet" ></input> */}
+
                 </div>
 
                 <div className="input-field-1">
