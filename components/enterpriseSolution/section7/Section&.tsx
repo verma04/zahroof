@@ -17,7 +17,7 @@ interface HeroSectionProps {
  
   
    
-    const      set:string = "SEE WHAT We'VE DONE FOR OTHERS "
+    const      set:string = "Redefining value in years, instead of month "
     
     return (
         <Section>

@@ -238,16 +238,16 @@ align-items: center;
   display:flex;
   width: 40%;
   height: 100%;
-  justify-content:start;
+  justify-content:space-evenly;
   align-items: left;
   flex-direction: column;
     h2 {
       width: 92%;
-      font-size: 46px;
+      font-size: 37px;
       color:#daaf1a;
       line-height: 46px;
       /* margin-left: 20px; */
-      margin-top: 45px;
+   
 
       /* overflow: hidden; */
       /* position: relative;
@@ -268,7 +268,7 @@ align-items: center;
       font-size: 20px;
       width: 75%;
       line-height: 28px;
-      margin-top: 35px;
+     
     }
 }
 

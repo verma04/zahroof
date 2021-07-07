@@ -4,7 +4,14 @@ import { Section} from './Style'
 import Image from 'next/image'
 import  Navbar from '../../layout/navbar/navbar'
 
- const HeroSection: React.FC<{}> = () => {
+interface SectionProps {
+    data : {
+       enterprisethreeTopContent: string
+      
+    }  
+ }
+ const Section5: React.FC<SectionProps> = (data) => {
+ 
     return (
         <Section>
         
@@ -20,7 +27,7 @@ import  Navbar from '../../layout/navbar/navbar'
 technology you ask?
  </h2>
 <p>
-It might surprise you. In fact, it might be <br/> something you haven’t considered at all. But <br/> fact is, until we turned the industry on its ear, <br/> compressor valves had been designed the <br/> same way for over 70 years. 
+It might surprise you. In fact, it might be  something you haven’t considered at all. But  fact is, until we turned the industry on its ear, <br/> compressor valves had been designed the  same way for over 70 years. 
 </p>
 
 </div>
@@ -43,4 +50,4 @@ It might surprise you. In fact, it might be <br/> something you haven’t consid
     )
 }
 
-export default HeroSection
+export default Section5

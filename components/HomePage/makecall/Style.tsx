@@ -395,12 +395,12 @@ h3 {
                   position: relative;
              }
              h2:after {
-                 bottom: -15%;
+                 bottom: -25%;
                  left:49%;
                  position: absolute;
                   height: 5px;
                   display: block;
-                  width: 2%;
+                  width: 4%;
                   
                   background: #0f5885;
                   border-left: 1px white;
@@ -717,12 +717,12 @@ h3 {
                   position: relative;
              }
              h2:after {
-                 bottom: -15%;
+                 bottom: -25%;
                  left:49%;
                  position: absolute;
                   height: 5px;
                   display: block;
-                  width: 2%;
+                  width: 4%;
                   
                   background: #0f5885;
                   border-left: 1px white;

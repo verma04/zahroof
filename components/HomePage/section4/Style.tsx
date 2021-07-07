@@ -413,7 +413,7 @@ margin-bottom: 3rem;;
 
 
    }
-   @media (min-width: 1025px) and (max-width: 1280px) {
+   @media (min-width: 1024px) and (max-width: 1280px) {
     .section4 {
       
       position: relative;
@@ -428,21 +428,24 @@ position: relative;
 
 .section4_top {
 position: relative;
-height: 55rem;
+height: 47rem;
 width: 100%;
-background-image: linear-gradient(#d8b642 , #DBB42F);
+background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+              radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+/* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
 margin-bottom: 3rem;;
 
 .tringle {
-position: absolute;
+  position: absolute;
   right: 10%;
   width: 0;
   bottom: -6%;
   height: 0;
   border-left: 6rem solid transparent;
   border-right: 6rem solid transparent;
-  border-top: 4rem solid #DBB42F;
+  border-top: 4rem solid #FDB931 ;
+  z-index: -1
  
 } 
 .section4_top_data {
@@ -464,13 +467,13 @@ h2 {
 .section4_top_data_logos {
 
 
-  width: 50%;
+  width: 30%;
   margin-top:10%;
   margin-left:4%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40%;
+  height: 30%;
   position: relative;
 
 
@@ -478,8 +481,7 @@ h2 {
 
 .icon {
    
-  width: 17%;
-height: 10%;
+   
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -488,8 +490,8 @@ height: 10%;
   .img-wrapper {
     transition: transform 0.5s;
     position: relative;
-    height: 4rem;;
-    width: 5rem;;
+    height: 5rem;
+    width: 5rem;
   }
   span {
     text-transform: uppercase;
@@ -513,7 +515,7 @@ transform: scale(1.1);
 }
 #gasses {
 position: absolute;
-top: 13%;
+top: 14%;
 left: 43%;
 width: 17%;
 height: 10%;
@@ -522,7 +524,7 @@ height: 10%;
 position: absolute;
 position: absolute;
 top: 64%;
-left: 28%;
+left: 31%;
 height: 10%;
 height: 10%;
 }
@@ -530,7 +532,7 @@ height: 10%;
 position: absolute;
 top: 27%;
 left: 29%;
-width: 15%;
+
 height: 10%;
 }
 #Refineries {
@@ -558,7 +560,7 @@ height: 10%;
 position: absolute;
 top: 64%;
 left: 61%;
-width: 16%;
+width: 15%;
 height: 10%;
 }
 #chemical {
@@ -572,7 +574,7 @@ height: 10%;
 position: absolute;
 top: 79%;
 left: 38%;
-width: 16%;
+width: 15%;
 height: 10%;
 }
 
@@ -582,7 +584,7 @@ height: 10%;
 }
 .section4_mid {
 position: relative;
-height: 50rem;
+height: 40rem;
 width: 100%;
 z-index: 1;
 margin-bottom: 3rem;;
@@ -654,17 +656,15 @@ align-items: flex-start;
 
 .section4_bottom {
 position: relative;
-height: 100vh;
+height: 50rem;
 width: 100%;
-z-index: 1;
-
-margin-bottom: 3rem;;
+z-index: 1; 
+/* margin-bottom: 3rem; */
 
 .section4_bottom_data {
 
-background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625225330/chqd0bw4jqdfbpkd7dsb.png"); 
+background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625301760/e92mprbfemr6lekh6lyp.jpg"); 
 
-background-position: top;
 background-repeat: no-repeat; 
 background-size: cover; 
 margin-top: 0px;  
@@ -695,12 +695,13 @@ z-index: 1;
     flex-direction: column;
     align-items: center;
     margin-bottom: 15px;
-    margin-top: 7rem;
+
     
  h2 {
    text-transform: uppercase;
    text-align: left;
-   width: 50%;
+   width: 67%;
+
    position: relative;
    font-size: 3rem;
     color:white;
@@ -718,21 +719,23 @@ z-index: 1;
 }
 
   p {
-    margin-top:2rem;
+    margin-top:1rem;
     color:white;
     z-index: 1;
     text-align: left;
-    width: 50%;
+    width: 67%;
+
     font-size: 16px;
     font-family: Proxima-Bold;
     line-height: 24px;
+    margin-left: -20px;
   }
  }
   .btn {
     color:white;
     z-index: 1;
     text-align: left;
-    width: 50%;
+    width: 67%;
 
     button {
       font-size:1rem;
@@ -750,25 +753,28 @@ display: flex;
 justify-content: center;
 display: flex;
 justify-content:space-evenly;
-
+ 
 align-items: center;
 width:50%;
-height:90%;
+height:60%;
 z-index: 1;
+align-items: center;
 
  .section4_logo {
   
    width: 40%;
-   height: 100%;
+
+   height: 67%;
+
    display: flex;
-   justify-content: start;
+   justify-content: space-between;
    flex-direction: column;
    align-items: center;
-    margin-top: 23rem;
+    
    .img_wrapper {
     transition: transform 0.5s;
     width: 100%;
-    height: 50%;
+    height: 100%;
     position: relative;
      
    }
@@ -781,7 +787,7 @@ transform: scale(1.1);
      /* color:white; */
     color: #f2e7c9;
      z-index: 1;
-    margin-top: 45px
+   
    }
  }
  
@@ -807,8 +813,9 @@ position: absolute;
 
 
   }
+ 
    }
-   @media (min-width: 768px) and (max-width: 1024px) {
+   @media (min-width: 768px) and (max-width: 1023px) {
     .section4 {
       
       position: relative;
@@ -863,7 +870,8 @@ justify-content: center;
 align-items: center;
 height: 30%;
 
-margin-top: 17%;
+
+margin-top: 22%;
 position: relative;
 
 
@@ -884,6 +892,7 @@ position: relative;
     width: 2.5rem;;
   }
   span {
+    margin-top: 0.5rem;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 1rem;
@@ -952,8 +961,8 @@ position: absolute;
 }
 #chemical {
   position: absolute;
-    top: 67%;
-    left: 60%;
+    top: 77%;
+    left: 47%;
     width: 27%;
     height: 10%;
 }

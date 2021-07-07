@@ -112,7 +112,7 @@ z-index: 1000;
    }
 
 
-   @media (min-width: 1025px) and (max-width: 1280px) {
+   @media (min-width: 1024px) and (max-width: 1280px) {
     
 
     width:100%;
@@ -135,11 +135,12 @@ z-index: 1000;
       .navbar_right {
         display: flex;
       justify-content: space-between;
+      align-items: center;
     height: 53%;
       width: 75%;
       
       li {
-        margin-top: 1rem;
+       
       a {
        font-family: Proxima-Bold;
         font-size: 0.9rem;
@@ -180,10 +181,11 @@ z-index: 1000;
         display: flex;
       justify-content: space-between;
     height: 53%;
-      width: 65%;
+      width: 70%;
+      align-items: center;
       
       li {
-        margin-top: 1rem;
+    
       a {
        font-family: Proxima-Bold;
         font-size: 0.9rem;
@@ -203,7 +205,7 @@ z-index: 1000;
 
    }
 
-   @media (min-width: 768px) and (max-width: 1024px) {
+   @media (min-width: 768px) and (max-width: 1023px) {
     display: none;
   width:100%;
   height: 6rem;

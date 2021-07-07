@@ -223,7 +223,7 @@ export const Section = styled.section`
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .section {
     position: relative;
     display: flex;
@@ -254,7 +254,8 @@ export const Section = styled.section`
         align-items: center;
         padding-right: 3rem;
         span {
-          font-size: 35px;
+          font-size: 26px;
+
           color: white;
           text-align: right;
           line-height: 35px;
@@ -281,6 +282,7 @@ export const Section = styled.section`
         justify-content: flex-start;
         align-items: center;
         padding-left: 3rem;
+      
         .tringle {
           position: absolute;
           left: 10%;
@@ -297,6 +299,10 @@ export const Section = styled.section`
           color: white;
           font-size: 1.5rem;
           text-align: right;
+        }
+        span {
+          font-size: 26px;
+
         }
       }
     }
@@ -437,13 +443,10 @@ export const Section = styled.section`
   }
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
-
-}
 
 
 
-@media (min-width: 768px) and (max-width: 1025px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .section {
     display: none;
   }

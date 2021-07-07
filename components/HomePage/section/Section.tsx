@@ -102,7 +102,7 @@ const HeroSection: React.FC<Section> = (data) => {
             </div>
 
             <div className="section_bottom" >
-              <Parallax bgImage={data.data.firstLeftBgimage} strength={500}>
+              <Parallax bgImage={data.data.firstLeftBgimage} strength={400}>
                 <div className="section_bottom_set" >
 
                   <div className="section_bottom_data" >
@@ -116,7 +116,7 @@ const HeroSection: React.FC<Section> = (data) => {
                 </div>
               </Parallax>
 
-              <Parallax bgImage={data.data.firstRightBgimage} strength={500}>
+              <Parallax bgImage={data.data.firstRightBgimage} strength={400}>
                 <div className="section_bottom_set" >
 
                   <div className="section_bottom_data" >

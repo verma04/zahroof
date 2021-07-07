@@ -35,7 +35,9 @@ export async function getStaticProps() {
       }
     }
     enterprisebannercontent
+    
     enterprisefirstcontent
+   
     enterprisefirstbottomcontent
     enterprisetwoitemOneImage
     enterprisetwoitemOneTitle
