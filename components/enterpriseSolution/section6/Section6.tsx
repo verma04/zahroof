@@ -46,8 +46,10 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
           ></div>
 
           <div className="section2_data_right">
-            <div className="data">
-              <span>{data.data.enterprisethreebottomrightContent}</span>
+            <div    dangerouslySetInnerHTML={{
+              __html: data.data.enterprisethreebottomrightContent,
+            }} className="data">
+           
             </div>
             <div className="logo">
               <div className="img-wrapper">

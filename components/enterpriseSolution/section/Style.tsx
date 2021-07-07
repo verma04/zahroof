@@ -296,7 +296,7 @@ export const Section = styled.section`
           background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625043594/mxydeuw45cap9go1nesh.png");
           background-position: right center;
           background-repeat: no-repeat;
-
+          background-size: 202px 167px;
           .section2_data_left {
             display: flex;
 
@@ -435,8 +435,10 @@ export const Section = styled.section`
             h2 {
               color: white;
               position: relative;
-              line-height: 54px;
-              font-size: 50px;
+              line-height: 34px;
+             
+    font-size: 34.31px;
+
               text-transform: uppercase;
               position: relative;
             }

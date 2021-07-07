@@ -5,7 +5,7 @@ import Navbar from "../../layout/navbar/navbar";
 
 interface HeroSectionProps {
   data: {
-    enterprisefourBottomContent: String;
+    enterprisefourBottomContent: string;
     enterprisefiveLeftIcon: string;
     enterprisefiveLeftContent: string;
     enterprisefiveRightIcon: string;
@@ -18,8 +18,16 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
   return (
     <Section>
       <div className="section">
-        <div className="section_top">
-          <p>{data.data.enterprisefourBottomContent}</p>
+        <div 
+ 
+
+className="section_top">
+          <div
+          
+          dangerouslySetInnerHTML={{
+            __html: data.data.enterprisefourBottomContent,
+          }}
+          ></div>
           <div className="tringle"></div>
         </div>
 
