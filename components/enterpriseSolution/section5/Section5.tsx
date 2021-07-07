@@ -17,6 +17,7 @@ interface SectionProps {
         
            
            <div className="section" >
+<<<<<<< HEAD
                
 
                <div className="section_top" >
@@ -44,6 +45,17 @@ It might surprise you. In fact, it might be  something you haven’t considered 
                </div>
          
         
+=======
+                <div className="section_top" >             
+                    <div className="section2_data" > 
+                        <div className="section2_data_left"  >
+                            
+                            <h2>So what is this amazing technology you ask? </h2>
+                            <p> It might surprise you. In fact, it might be <br/> something you haven’t considered at all. But <br/> fact is, until we turned the industry on its ear, <br/> compressor valves had been designed the <br/> same way for over 70 years. </p>
+                        </div>    
+                    </div>
+                </div>
+>>>>>>> Munish-Dhiman
            </div>
             
         </Section>
