@@ -1,8 +1,8 @@
 import Router from "next/router";
 import NProgress from "nprogress";
 
-let timer:any;
-let state:any;
+let timer: any;
+let state: any;
 let activeRequests = 0;
 const delay = 250;
 

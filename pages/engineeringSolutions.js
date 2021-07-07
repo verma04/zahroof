@@ -1,25 +1,22 @@
-import React from 'react'
-import Home from '../components/engineeringSolution/engneering'
-import { ApolloClient, InMemoryCache, gql } from '@apollo/client';
-const Enterprise = ({data}) => {
-    return (
-        <div>
-            <Home data={data} />
-        </div>
-    )
-}
-
+import React from "react";
+import Home from "../components/engineeringSolution/engneering";
+import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
+const Enterprise = ({ data }) => {
+  return (
+    <div>
+      <Home data={data} />
+    </div>
+  );
+};
 
 export async function getStaticProps() {
-    const client = new ApolloClient({
-        uri: 'http://18.217.254.134/graphql',
-        cache: new InMemoryCache()
-      });
+  const client = new ApolloClient({
+    uri: "http://18.217.254.134/graphql",
+    cache: new InMemoryCache(),
+  });
 
-    const   { data }  = await client.query({
-        query: gql`
-
-
+  const { data } = await client.query({
+    query: gql`
       query MyQuery {
         page(id: "cG9zdDozNw==") {
           id
@@ -72,19 +69,16 @@ export async function getStaticProps() {
             twitterTitle
           }
         }
-        }
-
-  
-        `
-      });
-      console.log(data.page)
-    return {
-      props: {
-        data: data.page
       }
-      ,
-      revalidate: 1,
-    }
-  }
+    `,
+  });
+  console.log(data.page);
+  return {
+    props: {
+      data: data.page,
+    },
+    revalidate: 1,
+  };
+}
 
-export default  Enterprise
+export default Enterprise;

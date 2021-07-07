@@ -1,24 +1,23 @@
-import React from 'react'
-import HeroSection from './heroSection/heroSection'
- import Section from './section/Section'
- import Section2 from './section2/Section2'
-import Footer from '../layout/footer/Footer'
-import { useGetAboutus } from '../../apollo/actions'
-import withApollo from '../../hoc/withApollo'
-import Head from 'next/head'
- const Home = ({data}) => {
-  
-    return (
-        <div>
-                      <Head>
+import React from "react";
+import HeroSection from "./heroSection/heroSection";
+import Section from "./section/Section";
+import Section2 from "./section2/Section2";
+import Footer from "../layout/footer/Footer";
+import { useGetAboutus } from "../../apollo/actions";
+import withApollo from "../../hoc/withApollo";
+import Head from "next/head";
+const Home = ({ data }) => {
+  return (
+    <div>
+      <Head>
         <title>{data.seo.title} - Zahroof</title>
-        <meta name="og:title" content={data.seo.title}/>
+        <meta name="og:title" content={data.seo.title} />
 
-<meta name="og:url" content={data.seo.opengraphDescription}/>
-<meta name="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
-<meta name="og:site_name" content={data.seo.opengraphSiteName}/>
-<meta name="og:description" content={data.seo.opengraphDescription} />
-{/* 
+        <meta name="og:url" content={data.seo.opengraphDescription} />
+        <meta name="og:image" content="http://ia.media-imdb.com/rock.jpg" />
+        <meta name="og:site_name" content={data.seo.opengraphSiteName} />
+        <meta name="og:description" content={data.seo.opengraphDescription} />
+        {/* 
 <meta name="fb:page_id" content="43929265776" />
 
 <meta name="og:email" content="me@example.com"/>
@@ -50,16 +49,14 @@ import Head from 'next/head'
 <meta property="og:audio:artist" content="Amazing Band" />
 <meta property="og:audio:album" content="Amazing Album" />
    */}
-  
-  </Head>
+      </Head>
 
-        <HeroSection  data={data} />
-        <Section  data={data} />
-       <Section2  data={data} />
-        <Footer/>
-        </div>
-    )
-}
+      <HeroSection data={data} />
+      <Section data={data} />
+      <Section2 data={data} />
+      <Footer />
+    </div>
+  );
+};
 
-
-export default  withApollo(Home)
+export default withApollo(Home);

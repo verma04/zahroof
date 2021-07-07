@@ -1,26 +1,25 @@
-import React from 'react'
-import HeroSection from './heroSection/heroSection'
-import Section from './section/Section'
-import Makecall from '../HomePage/makecall/makecall'
-import Section6 from './section6/Section6'
-import Section7 from './section7/Section7'
-import Section8 from './section8/Section8'
-import Section9 from './section9/Section9'
-import Footer from '../layout/footer/Footer'
-import Head from 'next/head'
- const Home  = ({data}) => {
-    return (
-        <div>
-
-<Head>
+import React from "react";
+import HeroSection from "./heroSection/heroSection";
+import Section from "./section/Section";
+import Makecall from "../HomePage/makecall/makecall";
+import Section6 from "./section6/Section6";
+import Section7 from "./section7/Section7";
+import Section8 from "./section8/Section8";
+import Section9 from "./section9/Section9";
+import Footer from "../layout/footer/Footer";
+import Head from "next/head";
+const Home = ({ data }) => {
+  return (
+    <div>
+      <Head>
         <title>{data.seo.title} - Zahroof</title>
-        <meta name="og:title" content={data.seo.title}/>
+        <meta name="og:title" content={data.seo.title} />
 
-<meta name="og:url" content={data.seo.opengraphDescription}/>
-<meta name="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
-<meta name="og:site_name" content={data.seo.opengraphSiteName}/>
-<meta name="og:description" content={data.seo.opengraphDescription} />
-{/* 
+        <meta name="og:url" content={data.seo.opengraphDescription} />
+        <meta name="og:image" content="http://ia.media-imdb.com/rock.jpg" />
+        <meta name="og:site_name" content={data.seo.opengraphSiteName} />
+        <meta name="og:description" content={data.seo.opengraphDescription} />
+        {/* 
 <meta name="fb:page_id" content="43929265776" />
 
 <meta name="og:email" content="me@example.com"/>
@@ -52,23 +51,18 @@ import Head from 'next/head'
 <meta property="og:audio:artist" content="Amazing Band" />
 <meta property="og:audio:album" content="Amazing Album" />
    */}
-  
-  </Head>
+      </Head>
 
-    
-    
-        <HeroSection data={data} />
-        <Section data={data}/>
-        <Section6 data={data}/>
-        <Section7 data={data}/>
-        <Section8 data={data}/>
-        <Section9 data={data}/>
-        <Makecall data={data}/>
-        <Footer data={data}/>
-       
-        </div>
-    )
-}
+      <HeroSection data={data} />
+      <Section data={data} />
+      <Section6 data={data} />
+      <Section7 data={data} />
+      <Section8 data={data} />
+      <Section9 data={data} />
+      <Makecall data={data} />
+      <Footer data={data} />
+    </div>
+  );
+};
 
-
-export default Home
+export default Home;

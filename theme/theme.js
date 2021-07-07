@@ -1,7 +1,6 @@
-import {  createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
-
- export default   createGlobalStyle`
+export default createGlobalStyle`
 a { 
   text-decoration: none; 
  color:#fafafb;
@@ -54,12 +53,12 @@ button {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: ${props => props.theme.colors.brown}; 
+  background: ${(props) => props.theme.colors.brown}; 
   border-radius: 5px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: ${props => props.theme.colors.darkBrown};
+  background: ${(props) => props.theme.colors.darkBrown};
 }
       
   }
@@ -68,7 +67,7 @@ button {
     li {
       
     cursor: pointer;
-    color: ${props => props.theme.colors.text1};
+    color: ${(props) => props.theme.colors.text1};
   }
   }
   img {
@@ -90,7 +89,7 @@ button {
   h2 {
     font-size: 1.4rem;
     
-    color: ${props => props.theme.colors.grey};
+    color: ${(props) => props.theme.colors.grey};
   font-family: Proxima-Bold;
   color: #2f3435; 
   
@@ -99,7 +98,7 @@ button {
   h3 {
     font-size: 1.2rem;
     line-height: var(--line-height-lg);
-    color: ${props => props.theme.colors.grey};
+    color: ${(props) => props.theme.colors.grey};
 font-family: Proxima-Bold;;
     color: #2f3435; 
     
@@ -191,7 +190,7 @@ transition: transform .8s;
   font-family: Proxima-Light;
   }
   i {
-    color: ${props => props.theme.colors.darkBrown};
+    color: ${(props) => props.theme.colors.darkBrown};
   }
   @media only screen and (max-width: 767px) {
     body {
@@ -206,7 +205,7 @@ transition: transform .8s;
       font-size: 1.75rem;
     }
     h2 {
-      color: ${props => props.theme.colors.grey};
+      color: ${(props) => props.theme.colors.grey};
     }
     h3 {
       font-size: 1.25rem;
@@ -214,7 +213,7 @@ transition: transform .8s;
   }
   a { 
     text-decoration: none; 
-    color: ${props => props.theme.colors.darkBrown};
+    color: ${(props) => props.theme.colors.darkBrown};
   font-family: Proxima-Bold;
 } 
 button {
@@ -228,4 +227,3 @@ img {
 }
 
  `;
-

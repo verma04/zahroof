@@ -1,16 +1,12 @@
-import React from 'react'
-import Landing from '../components/newlanding/Engnering'
+import React from "react";
+import Landing from "../components/newlanding/Engnering";
 
- const index = () => {
-    return (
-        <div>
-            <Landing/>
-        </div>
-    )
-}
+const index = () => {
+  return (
+    <div>
+      <Landing />
+    </div>
+  );
+};
 
-
-
-
-
-export default index
+export default index;

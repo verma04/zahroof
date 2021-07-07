@@ -1,39 +1,33 @@
-
-import React from 'react'
-import { Section} from './Style'
-import Image from 'next/image'
-import  Navbar from '../../layout/navbar/navbar'
+import React from "react";
+import { Section } from "./Style";
+import Image from "next/image";
+import Navbar from "../../layout/navbar/navbar";
 
 interface Section {
-    data: {
-        esgbenifitsfirstRightOneContent: string,
-esgbenifitsfirstRightThreeContent: string,
-esgbenifitsfirstRightTwoContent: string,
-esgbenifitsfirstleftcontent: string,
-esgbenifitsfirstrightoneicon: string,
-esgbenifitsfirstrightthreeicon: string,
-esgbenifitsfirstrighttwoicon: string
-        }
-     
-   
-  }
- const HeroSection: React.FC<Section> = (data) => {
-    return (
-        <Section>
-        
-           
-           <div className="section" >
-             
-
-<div  className='section-1' > 
-
-<div className="wrapper" > 
-<Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624030704/gvlo9vwrbjbpiasvv66j.png'} alt="Picture of the author" />
-
-<div className="section-data" >
-<div    dangerouslySetInnerHTML={{ __html: data.data.esgbenifitsfirstleftcontent }} className="left" >
-   
-{/* <ul>
+  data: {
+    esgbenifitsfirstRightOneContent: string;
+    esgbenifitsfirstRightThreeContent: string;
+    esgbenifitsfirstRightTwoContent: string;
+    esgbenifitsfirstleftcontent: string;
+    esgbenifitsfirstrightoneicon: string;
+    esgbenifitsfirstrightthreeicon: string;
+    esgbenifitsfirstrighttwoicon: string;
+  };
+}
+const HeroSection: React.FC<Section> = (data) => {
+  return (
+    <Section>
+      <div className="section">
+        <div className="section-1">
+          <div className="wrapper">
+            <div className="section-data">
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: data.data.esgbenifitsfirstleftcontent,
+                }}
+                className="left"
+              >
+                {/* <ul>
 
 
 
@@ -55,53 +49,49 @@ resources more eco-friendly. By keeping more gas moving
 through your system, there s far less to flare.
 
 </p> */}
+              </div>
+              <div className="right">
+                <div className="right_logo">
+                  <div className="logo-wrapper">
+                    <Image
+                      objectFit="contain"
+                      layout="fill"
+                      src={data.data.esgbenifitsfirstrightoneicon}
+                      alt="Picture of the author"
+                    />
+                  </div>
+                  <p>{data.data.esgbenifitsfirstRightOneContent}</p>
+                </div>
+                <div className="right_logo">
+                  <div className="logo-wrapper">
+                    <Image
+                      objectFit="contain"
+                      layout="fill"
+                      src={data.data.esgbenifitsfirstrighttwoicon}
+                      alt="Picture of the author"
+                    />
+                  </div>
+                  <p>{data.data.esgbenifitsfirstRightTwoContent}</p>
+                </div>
 
-    </div>
-<div className="right" > 
-<div className='right_logo' >
-<div className="logo-wrapper" >
-<Image     objectFit="contain" layout="fill" src={data.data.esgbenifitsfirstrightoneicon} alt="Picture of the author" />
-    </div>
-<p>
-{data.data.esgbenifitsfirstRightOneContent} 
-</p>
+                <div className="right_logo">
+                  <div className="logo-wrapper">
+                    <Image
+                      objectFit="contain"
+                      layout="fill"
+                      src={data.data.esgbenifitsfirstrightthreeicon}
+                      alt="Picture of the author"
+                    />
+                  </div>
+                  <p>{data.data.esgbenifitsfirstRightThreeContent}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Section>
+  );
+};
 
-
-    </div>
-    <div className='right_logo' >
-<div className="logo-wrapper" >
-<Image     objectFit="contain" layout="fill" src={data.data.esgbenifitsfirstrighttwoicon} alt="Picture of the author" />
-    </div>
-<p>
-{data.data.esgbenifitsfirstRightTwoContent} 
-</p>
-
-
-    </div>
-
-    <div className='right_logo' >
-<div className="logo-wrapper" >
-<Image     objectFit="contain" layout="fill" src={data.data.esgbenifitsfirstrightthreeicon} alt="Picture of the author" />
-    </div>
-<p>
-{data.data.esgbenifitsfirstRightThreeContent} 
-</p>
-
-
-    </div>
-
-
-</div>
-     </div>
- </div>
-
-
-
-</div>
-           </div>
-            
-        </Section>
-    )
-}
-
-export default HeroSection
+export default HeroSection;
