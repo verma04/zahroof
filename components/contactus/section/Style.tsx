@@ -298,7 +298,7 @@ export const Section = styled.section`
         justify-content: space-evenly;
         align-items: center;
 
-        flex-direction: column-reverse;
+        flex-direction: column;
 
         .section_left {
           width: 100%;

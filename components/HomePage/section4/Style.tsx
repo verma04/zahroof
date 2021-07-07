@@ -52,7 +52,7 @@ export const Section = styled.section`
           /* border-right: 6rem solid transparent; */
           /* border-top: 4rem solid #FDB931; */
           /* z-index: -1; */
-          background-image: url(http://18.217.254.134/wp-content/uploads/2021/07/Arrow-home-1.png);
+          background-image: url('http://18.217.254.134/wp-content/uploads/2021/07/Arrow-home-1.png');
           background-repeat: no-repeat;
           background-size: 100% 100%;
         }
@@ -180,7 +180,7 @@ export const Section = styled.section`
       }
       .section4_mid {
         position: relative;
-        height: 50rem;
+        height: 40rem;
         width: 100%;
         z-index: 1;
         margin-bottom: 3rem;
@@ -195,7 +195,7 @@ export const Section = styled.section`
           display: flex;
           justify-content: flex-end;
           align-items: center;
-          width: 50%;
+          width: 60%;
           height: 50%;
           .img_wrapper {
             width: 100%;

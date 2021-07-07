@@ -13,7 +13,7 @@ interface HeroSectionProps {
   };
 }
 const HeroSection: React.FC<HeroSectionProps> = (data) => {
-  const set: string = "Redefining value in years, instead of month ";
+  const set: string = "Redefining valve in years, instead of month";
 
   return (
     <Section>
@@ -85,7 +85,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
         </div>
 
         <div className="section_bottom-1">
-          <span>Redefining value in years , instend of month</span>
+          <span>Redefining valve in years, instead of month</span>
         </div>
       </div>
     </Section>
