@@ -12,7 +12,7 @@ interface SectionFourProps {
 }
 
 const HeroSection: React.FC<SectionFourProps> = (data) => {
-     const testimonial:any = ' "   No other valve performs as well across categories  We increased production, reduced energy use and   emissions and cut maintenance costs by XX%      "'
+     const testimonial:any = ' " No other valve performs as well across categories  We increased production, reduced energy use and   emissions and cut maintenance costs by XX%      "'
     return (
         <Section>
         
@@ -36,7 +36,6 @@ const HeroSection: React.FC<SectionFourProps> = (data) => {
                     </div> 
                 </div>
                 
-
                 <div className="tringle" ></div>
             </div>
             
