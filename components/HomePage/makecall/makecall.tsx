@@ -72,7 +72,7 @@ import Image from 'next/image'
                 <div className="field" >
                 
                 <select className="select">
-                    <option value="">Departmnet</option>
+                    <option value="">Department</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
