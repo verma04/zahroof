@@ -284,9 +284,9 @@ export const Section = styled.section`
       align-items: center;
 
       height: 80rem;
-      background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625296161/rfrkr499ec2ow6izav59.jpg"); /* The image used */
+      background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625301760/e92mprbfemr6lekh6lyp.jpg"); /* The image used */
 
-      background-position: center; /* Center the image */
+      /* Center the image */
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: cover; /* Resize the background image to cover the entire container */
 
