@@ -7,7 +7,7 @@ const Footer: React.FC<{}> = () => {
     <Foot>
       <div className="footer_newsLetter">
         <h3>
-          Stay informed receive our <br /> monthly zmail industry report
+          Stay informed Receive our <br /> monthly zmail industry report
         </h3>
 
         <form>
