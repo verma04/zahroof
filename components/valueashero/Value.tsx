@@ -10,6 +10,8 @@ import Section7 from "./section7/Section7";
 import Section8 from "./section8/Section8";
 import Section9 from "./section9/Section9";
 import Footer from "../layout/footer/Footer";
+import Makecall from "../HomePage/makecall/makecall";
+
 const Home: React.FC<{}> = () => {
   return (
     <div>
@@ -23,7 +25,9 @@ const Home: React.FC<{}> = () => {
       <Section7 />
       <Section8 />
       <Section9 />
+      <Makecall/>
       <Footer />
+
     </div>
   );
 };

@@ -42,6 +42,7 @@ export const Section = styled.section`
           align-items: flex-end;
 
           .section-left-top {
+            
             width: 60%;
             height: 55%;
             padding-top: 5%;
@@ -52,7 +53,7 @@ export const Section = styled.section`
             align-items: flex-end;
 
             h2 {
-              font-size: 55px;
+              font-size: 56px;
               line-height: 46px;
 
               text-align: right;
@@ -129,7 +130,7 @@ export const Section = styled.section`
           align-items: flex-start;
           .form {
             width: 70%;
-            height: 80%;
+            height: 85%;
             display: flex;
             justify-content: center;
             input {

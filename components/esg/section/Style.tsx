@@ -38,7 +38,8 @@ export const Section = styled.section`
           align-items: center;
           .section-data {
             width: 100%;
-            height: 80%;
+            
+            height: 90%;
             position: absolute;
             display: flex;
             justify-content: center;
@@ -95,8 +96,8 @@ export const Section = styled.section`
             }
             .right {
               width: 50%;
-              height: 100%;
-
+              height: 70%;
+   
               align-items: center;
               display: flex;
               justify-content: center;
@@ -104,13 +105,14 @@ export const Section = styled.section`
               flex-direction: column;
               .right_logo {
                 width: 100%;
-                height: 20%;
+                
+                height: 33%;
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
 
                 .logo-wrapper {
-                  width: 20%;
+                  width: 30%;
                   height: 60%;
                   position: relative;
                 }

@@ -4,6 +4,8 @@ import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
 const HeroSection: React.FC<{}> = () => {
+
+  const set: any ='   <p> The StraightFlo<sup>TM</sup> valve guarantee is 2x the MTBF (Mean time between shut down of compressor due to valve issues) of the compressor compared to MTBF wi th the valves we replace under the same operating conditions (includes quality of gas) plus 10% reduction in valve losses.</p>'
   return (
     <Section>
       <div className="section">
@@ -18,14 +20,13 @@ const HeroSection: React.FC<{}> = () => {
               }
             />
           </div>
-          <div className="section2_data_left">
-            <p>
-              The StraightFloTM valve guarantee is 2x the MTBF (Mean time
-              between shut down of compressor due to valve issues) of the
-              compressor compared to MTBF wi th the valves we replace under the
-              same operating conditions (includes quality of gas) plus 10%
-              reduction in valve losses.
-            </p>
+          <div
+           dangerouslySetInnerHTML={{
+            __html: set,
+          }}
+          
+          className="section2_data_left">
+          
           </div>
         </div>
       </div>
