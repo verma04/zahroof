@@ -62,8 +62,10 @@ export async function getStaticProps() {
           enterprisethreeitemFourTitle
           enterprisefourLeftImage
           enterprisefourRightContent
+          enterprisefiveLeftTitle
           enterprisefourBottomContent
           enterprisefiveLeftIcon
+          enterprisefiveRightTitle
           enterprisefiveLeftContent
           enterprisefiveRightIcon
           enterprisefiveRightContent

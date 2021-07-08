@@ -5,9 +5,11 @@ import Navbar from "../../layout/navbar/navbar";
 
 interface HeroSectionProps {
   data: {
+    enterprisefiveLeftTitle: string;
     enterprisefourBottomContent: string;
     enterprisefiveLeftIcon: string;
     enterprisefiveLeftContent: string;
+    enterprisefiveRightTitle: string;
     enterprisefiveRightIcon: string;
     enterprisefiveRightContent: string;
   };
@@ -36,7 +38,7 @@ className="section_top">
             <div className="section2_data">
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
-                  <li>See why the line guys Love us. </li>
+                  <li>{data.data.enterprisefiveLeftTitle} </li>
                   <li>
                     <Image
                       alt="Picture of the author"
@@ -64,7 +66,7 @@ className="section_top">
             <div className="section2_data">
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
-                  <li>{set} </li>
+                  <li>{data.data.enterprisefiveRightTitle} </li>
 
                   <li>
                     <Image
