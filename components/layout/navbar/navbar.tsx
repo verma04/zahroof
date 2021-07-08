@@ -166,7 +166,11 @@ const Navbar: React.FC<{}> = () => {
                 )}
               </div>
             </div>
+       
+       
           </div>
+       
+       
         </Nav>
       ) : (
         <Nav>
@@ -192,6 +196,12 @@ const Navbar: React.FC<{}> = () => {
                 <Link href="/enterpriseSolutions">
                   <a>Enterprise Solutions</a>
                 </Link>
+
+                <div className="valve" >
+                <Link href="/valveashero">
+                  <a>Valveashero</a>
+                </Link>
+                </div>
               </li>
               <li>
                 <Link href="/engineeringSolutions">
@@ -216,8 +226,8 @@ const Navbar: React.FC<{}> = () => {
             </ul>
           </div>
 
-          <div className="nav-sm">
-            <div className="nav-item">
+          <div id="fixed-sm" className="nav-sm">
+          <div className="nav-item">
               <div onClick={() => router.push("/")} className="nav-center">
                 <Image
                   layout="fill"
@@ -241,8 +251,70 @@ const Navbar: React.FC<{}> = () => {
                     );
                   }
                 })()}
+
+                {!pop && (
+                  <div className="sm">
+                    <div className="logo">
+                      <div className="img">
+                        <Image
+                          objectFit="contain"
+                          layout="fill"
+                          src={
+                            "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png"
+                          }
+                          alt="Zaharoof Logo"
+                        />
+                      </div>
+
+                      <i
+                        onClick={() => smtoggle()}
+                        className="fas fa-times"
+                      ></i>
+                    </div>
+                    <div id="first" className="link">
+                      <div className="list">
+                        <h3 id={router.pathname == "/profile" ? "active" : ""}>
+                      
+                          <Link href="/">Home</Link>
+                        </h3>
+                        <h3 id={router.pathname == "/profile" ? "active" : ""}>
+                      
+                          <Link href="/enterpriseSolutions">
+                        
+                            Enterprise Solutions
+                          </Link>
+                        </h3>
+                        <h3 id={router.pathname == "/people" ? "active" : ""}>
+                      
+                          <Link href="/engineeringSolutions">
+                            Engineering Solutions
+                          </Link>
+                        </h3>
+                        <h3 id={router.pathname == "/careers" ? "active" : ""}>
+                          {" "}
+                          <Link href="/esgbenefits">Esg Benefits</Link>
+                        </h3>
+                       
+                        <h3 id={router.pathname == "/news" ? "active" : ""}>
+                          {" "}
+                          <Link href="/aboutus">About Us</Link>
+                        </h3>
+                        <h3
+                          id={
+                            router.pathname == "/partnerships" ? "active" : ""
+                          }
+                        >
+                          {" "}
+                          <Link href="/contactus">Contact Us</Link>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
+       
+       
           </div>
         </Nav>
       )}
