@@ -72,9 +72,9 @@ import Image from 'next/image'
                 
                 <select className="select">
                     <option value="">Department</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Enterprise">Enterprise</option>
+                    <option value="Sales">Sales</option>
                 </select>
                 {/* <input  placeholder="Departmnet" ></input> */}
                 </div>

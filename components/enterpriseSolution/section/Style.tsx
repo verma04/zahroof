@@ -38,7 +38,7 @@ export const Section = styled.section`
           align-items: center;
           position: absolute;
           .section2_data_left {
-            margin-bottom: 6%;
+            margin-bottom: 4rem;
             display: flex;
             width: 100%;
             height: 100%;
@@ -162,7 +162,7 @@ export const Section = styled.section`
           position: absolute;
 
           h2 {
-            width: 90%;
+       
             padding-left: 0.5rem;
             line-height: 1.6;
             position: relative;

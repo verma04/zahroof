@@ -39,10 +39,19 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
               className="homePage-data"
             >
               <ul className="text-left">
-                <li>{data.data.engineeringbannerleftcontent} </li>
+                <li 
+                
+                dangerouslySetInnerHTML={{
+                  __html: data.data.engineeringbannerleftcontent,
+                }}
+                /> 
               </ul>
               <ul className="text-right">
-                <li>{data.data.engineeringbannerrightcontent}</li>
+                <li
+                  dangerouslySetInnerHTML={{
+                    __html: data.data.engineeringbannerrightcontent,
+                  }}
+                />
               </ul>
             </div>
           </div>

@@ -34,7 +34,7 @@ export const Section = styled.section`
           position: absolute;
           .section2_data_left {
             display: flex;
-            width: 100%;
+            width: 90%;
             height: 100%;
             justify-content: space-evenly;
             align-items: left;

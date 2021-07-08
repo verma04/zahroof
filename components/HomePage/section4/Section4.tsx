@@ -63,7 +63,7 @@ const Section4: React.FC<Section4> = (data) => {
                   alt=""
                 />
               </div>
-              <span>Naurtal Gas Industry</span>
+              <span>Natural gas Industry</span>
             </div>
 
             <div data-aos="fade-left" className="icon" id="Refineries">
@@ -91,7 +91,7 @@ const Section4: React.FC<Section4> = (data) => {
                   alt=""
                 />
               </div>
-              <span>Cng instury</span>
+              <span>Cng Industry</span>
             </div>
             <div data-aos="fade-right" className="icon" id="Oil">
               <div className="img-wrapper">

@@ -15,7 +15,7 @@ interface HeroSectionProps {
   };
 }
 const HeroSection: React.FC<HeroSectionProps> = (data) => {
-  const set: string = "Redefining valve in years, instead of month";
+  const set: string = "SEE WHAT WE'VE DONE FOR OTHERS";
 
   return (
     <Section>
@@ -25,7 +25,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
 
 className="section_top">
           <div
-          
+            style={{display:"flex", justifyContent:"center"}}
           dangerouslySetInnerHTML={{
             __html: data.data.enterprisefourBottomContent,
           }}
