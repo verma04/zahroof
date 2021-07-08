@@ -4,30 +4,17 @@ import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
 const HeroSection: React.FC<{}> = () => {
+  const set:any = "     <h2>REED VALVE MODULES WITH A STRAIGHT-THROUGH FLOW PATH</h2>   <p>  Whats more the modules plastic components don t move or impact the  metal housingsSo not only is wear-and-tear completely contained    inside the modules but compressors with StraightFlo<sup>TM </sup> valves   typically operate at 1/10th the vibration levels of those with     conventional valves  </p><p>   Each StraightFlo<sup>TM </sup> module is an enhanced reed valve designed with a straight-through flow pathSince the gas doesnt have to traverse the usual tortuous high-loss path our valves have the highest    effective area for a given diameter </p> <h3> With StraightFlo <sup>TM </sup> Valves noise can be reduced by more than 7dB </h3>"
   return (
     <Section>
       <div className="section4">
         <div className="section2_data">
-          <div className="section2_data_left">
-            <h2>REED VALVE MODULES WITH A STRAIGHT-THROUGH FLOW PATH</h2>
-            <p>
-              Whats more the modules plastic components don t move or impact the
-              metal housingsSo not only is wear-and-tear completely contained
-              inside the modules but compressors with StraightFloTM valves
-              typically operate at 1/10th the vibration levels of those with
-              conventional valves
-            </p>
-            <p>
-              Each StraightFloTM module is an enhanced reed valve designed with
-              a straight-through flow pathSince the gas doesnt have to traverse
-              the usual tortuous high-loss path our valves have the highest
-              effective area for a given diameter
-            </p>
-
-            <h3>
-              {" "}
-              With StraightFloTM Valves noise can be reduced by more than 7dB
-            </h3>
+          <div 
+           dangerouslySetInnerHTML={{
+            __html: set}}
+          
+          className="section2_data_left" >
+           
           </div>
           <div className="section2_data_right">
             <div className="img_wrapper">

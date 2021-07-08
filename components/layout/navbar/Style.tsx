@@ -44,6 +44,33 @@ export const Nav = styled.nav`
             text-transform: uppercase;
           }
         }
+
+        li:nth-child(2)  {
+
+position: relative;
+.valve {
+ position: absolute;
+width: 100%;
+
+height: 100%;
+bottom: -30%;
+
+display: none;
+justify-content: center;
+align-items: center;
+background-color: #dbb43fde;
+}
+
+
+}
+li:nth-child(2):hover {
+        
+         .valve {
+           display: flex;
+         }
+         
+          
+          }
       }
     }
 
@@ -134,7 +161,7 @@ export const Nav = styled.nav`
 
   @media (min-width: 1024px) and (max-width: 1280px) {
     width: 100%;
-    height: 10rem;
+    height: 6rem;
     .navbar {
       width: 95%;
       height: 100%;
@@ -165,6 +192,24 @@ export const Nav = styled.nav`
             text-transform: uppercase;
           }
         }
+        li:nth-child(2)  {
+
+position: relative;
+.valve {
+ position: absolute;
+width: 100%;
+
+height: 100%;
+bottom: -30%;
+
+display: none;
+justify-content: center;
+align-items: center;
+background-color: #dbb43fde;
+}
+
+
+}
       }
     }
 
@@ -175,7 +220,7 @@ export const Nav = styled.nav`
       top: 0%;
 
       width: 100%;
-      height: 5rem;
+      height: 4rem;
 
       display: flex;
       justify-content: space-between;
@@ -188,23 +233,58 @@ export const Nav = styled.nav`
         height: 50%;
       }
       .navbar_right {
-        margin-right: 2%;
+        
         display: flex;
         justify-content: space-between;
         height: 53%;
-        width: 70%;
+        width: 75%;
         align-items: center;
 
         li {
+          display: flex;
+           justify-content: center;
+           align-items: center;
+          height: 100%;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
           a {
             font-family: Proxima-Bold;
             font-size: 0.9rem;
             word-spacing: 0.2rem;
             font-weight: 1000;
             color: white;
+            align-items: center;
+           
             text-transform: uppercase;
           }
         }
+
+        li:nth-child(2)  {
+
+position: relative;
+.valve {
+ position: absolute;
+width: 100%;
+
+height: 100%;
+bottom: -100%;
+
+display: none;
+justify-content: center;
+align-items: center;
+background-color: #dbb43fde;
+}
+
+
+}
+li:nth-child(2):hover {
+         background-color: #dbb43fde;
+         .valve {
+           display: flex;
+         }
+         
+          
+          }
       }
     }
 

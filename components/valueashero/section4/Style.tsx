@@ -17,7 +17,7 @@ export const Section = styled.section`
       width: 100%;
       align-items: center;
       position: relative;
-      height: 50rem;
+      height: 55rem;
       background-color: #23344e;
       .tringle {
         position: absolute;
@@ -39,7 +39,7 @@ export const Section = styled.section`
 
         .section2_data_left {
           display: flex;
-          width: 45%;
+          width: 55%;
           height: 100%;
           justify-content: space-around;
           align-items: left;
@@ -71,6 +71,114 @@ export const Section = styled.section`
           h3 {
             line-height: 1.1;
             color: white;
+            font-style: italic;
+            font-size:2rem;
+          }
+          p {
+            color: white;
+            line-height: 1.5;
+          }
+        }
+
+        .section2_data_right {
+          display: flex;
+          width: 40%;
+          height: 100%;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: column;
+          flex-wrap: wrap;
+          position: relative;
+          .img_wrapper {
+            position: relative;
+            height: 55%;
+            width: 100%;
+            line-height: 1.1;
+          }
+          h3 {
+            color: white;
+
+            font-size: 1.5rem;
+            text-align: left;
+            width: 80%;
+            text-transform: uppercase;
+          }
+
+          p {
+            width: 80%;
+            line-height: 1.5;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .section4 {
+      position: relative;
+
+      display: flex;
+      justify-content: center;
+
+      width: 100%;
+      align-items: center;
+      position: relative;
+      height: 55rem;
+      background-color: #23344e;
+      .tringle {
+        position: absolute;
+        right: 10%;
+        width: 0;
+        top: -6%;
+        height: 0;
+        border-left: 5rem solid transparent;
+        border-right: 5rem solid transparent;
+        border-bottom: 4rem solid #23344e;
+      }
+
+      .section2_data {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .section2_data_left {
+          display: flex;
+          width: 50%;
+          height: 100%;
+          justify-content: space-around;
+          align-items: left;
+          flex-direction: column;
+          h2 {
+            position: relative;
+            padding-left: 0.5rem;
+            font-size: 3rem;
+            color: white;
+            position: relative;
+
+            text-transform: uppercase;
+          }
+          h2:after {
+            position: absolute;
+            content: "";
+            display: block;
+            height: 100%;
+            width: 0.4rem;
+            top: 0;
+            left: -0.3rem;
+          }
+          .img_wrapper {
+            position: relative;
+            height: 60%;
+            width: 100%;
+            line-height: 1.1;
+          }
+          h3 {
+            line-height: 1.1;
+            color: white;
+            font-style: italic;
+            font-size:2rem;
           }
           p {
             color: white;
@@ -104,15 +212,12 @@ export const Section = styled.section`
 
           p {
             width: 80%;
-            line-height: 1.5;
+            line-height: 1.2;
             color: white;
           }
         }
       }
     }
-  }
-  @media (min-width: 1024px) and (max-width: 1280px) {
-    display: none;
 
 
 
@@ -125,14 +230,223 @@ export const Section = styled.section`
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
-    display: none;
+    .section4 {
+      position: relative;
+
+      display: flex;
+      justify-content: center;
+
+      width: 100%;
+      align-items: center;
+      position: relative;
+      
+      background-color: #23344e;
+      .tringle {
+        position: absolute;
+        right: 10%;
+        width: 0;
+        top: -5%;
+        height: 0;
+        border-left: 5rem solid transparent;
+        border-right: 5rem solid transparent;
+        border-bottom: 4rem solid #23344e;
+      }
+
+      .section2_data {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+        .section2_data_left {
+          display: flex;
+          width: 100%;
+          height: 30rem;
+          justify-content: space-around;
+          align-items: left;
+          flex-direction: column;
+          h2 {
+            position: relative;
+            padding-left: 0.5rem;
+            font-size: 2.5rem;
+            color: white;
+            position: relative;
+
+            text-transform: uppercase;
+          }
+          h2:after {
+            position: absolute;
+            content: "";
+            display: block;
+            height: 100%;
+            width: 0.4rem;
+            top: 0;
+            left: -0.3rem;
+          }
+          .img_wrapper {
+            position: relative;
+            height: 60%;
+            width: 100%;
+            line-height: 1.1;
+          }
+          h3 {
+            line-height: 1.1;
+            color: white;
+            font-style: italic;
+            font-size:2rem;
+          }
+          p {
+            color: white;
+            line-height: 1.5;
+          }
+        }
+
+        .section2_data_right {
+          display: flex;
+          width: 95%;
+          height: 40rem;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: column;
+        
+          position: relative;
+          .img_wrapper {
+            position: relative;
+            height: 45%;
+            width: 100%;
+            line-height: 1.1;
+          }
+          h3 {
+            color: white;
+ 
+            font-size: 1.5rem;
+            text-align: left;
+            width: 100%;
+            text-transform: uppercase;
+          }
+
+          p {
+            width: 100%;
+            line-height: 1.2;
+            color: white;
+          }
+        }
+      }
+    }
     
 
 
   }
 
   @media (max-width: 767px) {
-    display: none;
+    .section4 {
+      position: relative;
+
+      display: flex;
+      justify-content: center;
+
+      width: 100%;
+      align-items: center;
+      position: relative;
+      
+      background-color: #23344e;
+      .tringle {
+        position: absolute;
+        right: 10%;
+        width: 0;
+        top: -4%;
+        height: 0;
+        border-left: 5rem solid transparent;
+        border-right: 5rem solid transparent;
+        border-bottom: 4rem solid #23344e;
+      }
+
+      .section2_data {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+        .section2_data_left {
+          display: flex;
+          width: 100%;
+          height: 45rem;
+          justify-content: space-around;
+          align-items: left;
+          flex-direction: column;
+          h2 {
+            position: relative;
+            padding-left: 0.5rem;
+            font-size: 1.5rem;
+            color: white;
+            position: relative;
+
+            text-transform: uppercase;
+          }
+          h2:after {
+            position: absolute;
+            content: "";
+            display: block;
+            height: 100%;
+            width: 0.4rem;
+            top: 0;
+            left: -0.3rem;
+          }
+          .img_wrapper {
+            position: relative;
+            height: 60%;
+            width: 100%;
+            line-height: 1.1;
+          }
+          h3 {
+            line-height: 1.1;
+            color: white;
+            font-style: italic;
+            font-size:2rem;
+          }
+          p {
+            color: white;
+            line-height: 1.5;
+          }
+        }
+
+        .section2_data_right {
+          display: flex;
+          width: 95%;
+          height: 50rem;
+         
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: column;
+        
+          position: relative;
+          .img_wrapper {
+            position: relative;
+            height: 45%;
+            width: 100%;
+            line-height: 1.1;
+          }
+          h3 {
+            color: white;
+ 
+            font-size: 1.5rem;
+            text-align: left;
+            width: 100%;
+            text-transform: uppercase;
+          }
+
+          p {
+            width: 100%;
+            line-height: 1.2;
+            color: white;
+          }
+        }
+      }
+    }
 
  
   }

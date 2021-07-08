@@ -4,20 +4,22 @@ import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
 const HeroSection: React.FC<{}> = () => {
+  
+   const set: any = "    <h2>How IT works</h2>  <p> Our modular design features interchangeable modules held stationary between the valve seat and carrier. There are 12 standard modules in 3 materials, each with varying reed lift and stiffness, so StraightFlo<sup>TM</sup> valves can cover all speeds and  operating conditions of existing industrial compressors and be optimized for any given application.  </p>     "
+
   return (
     <Section>
       <div className="section3">
         <div className="section2_data">
           <div className="section2_data_left">
-            <h2>How IT works</h2>
-            <p>
-              Our modular design features interchangeable modules held
-              stationary between the valve seat and carrier. There are 12
-              standard modules in 3 materials, each with varying reed lift and
-              stiffness, so StraightFloTM valves can cover all speeds and
-              operating conditions of existing industrial compressors and be
-              optimized for any given application.
-            </p>
+
+            <div  className="set"    dangerouslySetInnerHTML={{
+              __html: set,
+            }} >
+
+
+              </div>
+           
 
             <div className="img_wrapper">
               <Image

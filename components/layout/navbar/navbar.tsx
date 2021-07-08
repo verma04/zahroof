@@ -54,6 +54,12 @@ const Navbar: React.FC<{}> = () => {
                 <Link href="/enterpriseSolutions">
                   <a>Enterprise Solutions</a>
                 </Link>
+
+                <div className="valve" >
+                <Link href="/valveashero">
+                  <a>Valveashero</a>
+                </Link>
+                </div>
               </li>
               <li>
                 <Link href="/engineeringSolutions">
@@ -143,6 +149,12 @@ const Navbar: React.FC<{}> = () => {
                             Engineering Solutions
                           </Link>
                         </h3>
+                        <h3 id={router.pathname == "/people" ? "active" : ""}>
+                      
+                      <Link href="/valveashero">
+                        Valveashero
+                      </Link>
+                    </h3>
                         <h3 id={router.pathname == "/careers" ? "active" : ""}>
                           {" "}
                           <Link href="/esgbenefits">Esg Benefits</Link>
@@ -290,6 +302,13 @@ const Navbar: React.FC<{}> = () => {
                             Engineering Solutions
                           </Link>
                         </h3>
+
+                        <h3 id={router.pathname == "/people" ? "active" : ""}>
+                      
+                      <Link href="/valveashero">
+                        Valveashero
+                      </Link>
+                    </h3>
                         <h3 id={router.pathname == "/careers" ? "active" : ""}>
                           {" "}
                           <Link href="/esgbenefits">Esg Benefits</Link>

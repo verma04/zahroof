@@ -23,7 +23,7 @@ export const Section = styled.section`
         align-items: center;
         width: 100%;
         background-color: #3b546a;
-        height: 50rem;
+        height: 40rem;
         p {
           width: 80%;
           text-align: center;
@@ -51,7 +51,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 50rem;
+        height: 40rem;
         position: relative;
 
         .section2_data {
@@ -70,6 +70,7 @@ export const Section = styled.section`
             text-transform: uppercase;
           }
           li {
+          
             position: relative;
             text-transform: uppercase;
             font-size: 29.99px;
@@ -84,17 +85,21 @@ export const Section = styled.section`
             color: black;
             display: flex;
             flex-direction: column;
+             width: 80%;
+             text-align:left;
           }
           span {
             margin-top: 43px;
             font-weight: 500;
             font-family: "Proxima-Light";
+            font-style: italic;
             font-size: 1rem;
             margin-bottom: 0.5rem;
           }
           li:nth-child(1) {
             width: 100%;
-            height: 90%;
+            height: 72%;
+           
             position: relative;
             color: black;
           }
