@@ -417,7 +417,7 @@ export const Section = styled.section`
           
           h3 {
             color: #24334d;
-       margin-bottom: 2rem;
+       margin-top: 2rem;
 
             font-size: 26.64px;
             text-align: left;
