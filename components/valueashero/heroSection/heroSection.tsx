@@ -26,14 +26,14 @@ const HeroSection: React.FC<{}> = () => {
             <ul className="text-left">
               <li>
                 ALL THE DETAILS YOU
-                <br />
+               
                 EVER WANTED TO KNOW{" "}
               </li>
             </ul>
             <ul className="text-right">
               <li>
-                BUCKLE UP
-                <br />
+                BUCKLE  <br/>
+              
                 WE RE DIVING DEEP{" "}
               </li>
             </ul>

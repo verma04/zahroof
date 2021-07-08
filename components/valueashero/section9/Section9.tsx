@@ -19,17 +19,23 @@ const HeroSection: React.FC<{}> = () => {
             <div className="section2_data">
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
+
+                <li>
+SEE HOW TO SELL
+IT UP THE LADDER
+                
+                  </li>
                   <li>
                     <Image
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
-                      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356836/ruhkeqvmgfhctlmiswih.png"
+                      src="http://18.217.254.134/wp-content/uploads/2021/06/ruhkeqvmgfhctlmiswih.png"
                     />
                   </li>
 
                   <li>
-                    <h3>EnterPrise Solutions</h3>
+                    <h3>ENTERPRISE SOLUTIONS</h3>
                   </li>
                   <li>
                     <Image
@@ -46,12 +52,17 @@ const HeroSection: React.FC<{}> = () => {
             <div className="section2_data">
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
+
+                  <li>
+                  SEE WHAT WE VE
+DONE FOR OTHERS
+                    </li>
                   <li>
                     <Image
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
-                      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356709/w2u44k0jrx10hakvnri2.png"
+                      src="http://18.217.254.134/wp-content/uploads/2021/06/w2u44k0jrx10hakvnri2.png"
                     />
                   </li>
 
@@ -71,7 +82,7 @@ const HeroSection: React.FC<{}> = () => {
             </div>
           </div>
         </div>
-      </div>
+    </div>
     </Section>
   );
 };
