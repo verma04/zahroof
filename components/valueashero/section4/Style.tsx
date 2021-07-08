@@ -352,16 +352,7 @@ export const Section = styled.section`
       position: relative;
       
       background-color: #23344e;
-      .tringle {
-        position: absolute;
-        right: 10%;
-        width: 0;
-        top: -4%;
-        height: 0;
-        border-left: 5rem solid transparent;
-        border-right: 5rem solid transparent;
-        border-bottom: 4rem solid #23344e;
-      }
+   
 
       .section2_data {
         width: 90%;
