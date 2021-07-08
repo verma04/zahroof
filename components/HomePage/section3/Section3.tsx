@@ -98,7 +98,7 @@ const Section3: React.FC<Section3> = (data) => {
 
   return (
     <>
-      <BrowserView>
+    
         <Section>
           {/* <h1>This is rendered only in browser</h1> */}
 
@@ -164,9 +164,9 @@ const Section3: React.FC<Section3> = (data) => {
             </div>
           </Parallax>
         </Section>
-      </BrowserView>
+     
 
-      <MobileView>
+    
         <Section>
           {/* <h1>This is rendered only in browser</h1> */}
 
@@ -174,9 +174,12 @@ const Section3: React.FC<Section3> = (data) => {
                 <h1>This is rendered only on mobile</h1>
             </MobileView> */}
 
-          <Parallax bgImage={image} strength={500}>
-            <div className="section3">
-              <div style={{ height: `${width2}%` }} className="middle">
+          <Parallax bgImage={image} >
+            <div className="section3-sm">
+              <div  
+              data-aos="zoom-in-up"
+              
+              className="middle-1">
                 <div className="img-wrapper">
                   <Image
                     objectFit="contain"
@@ -189,7 +192,7 @@ const Section3: React.FC<Section3> = (data) => {
                 </div>
               </div>
 
-              <div style={{ right: `${right2}%` }} className="right">
+              <div data-aos="fade-right" className="right">
                 <div className="img-wrapper">
                   <Image
                     objectFit="contain"
@@ -202,7 +205,7 @@ const Section3: React.FC<Section3> = (data) => {
                 </div>
               </div>
 
-              <div style={{ left: `${left2}%` }} className="left">
+              <div data-aos="fade-left"  className="left">
                 <div className="img-wrapper">
                   <Image
                     objectFit="contain"
@@ -232,7 +235,7 @@ const Section3: React.FC<Section3> = (data) => {
             </div>
           </Parallax>
         </Section>
-      </MobileView>
+     
     </>
   );
 };
