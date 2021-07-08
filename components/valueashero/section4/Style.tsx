@@ -371,7 +371,7 @@ export const Section = styled.section`
           flex-direction: column;
           h2 {
             position: relative;
-            padding-left: 0.5rem;
+            
             font-size: 1.5rem;
             color: white;
             position: relative;
