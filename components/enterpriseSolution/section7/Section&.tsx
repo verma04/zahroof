@@ -20,10 +20,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
   return (
     <Section>
       <div className="section">
-        <div 
- 
-
-className="section_top">
+        <div className="section_top">
           <div
             style={{display:"flex", justifyContent:"center"}}
           dangerouslySetInnerHTML={{
@@ -38,7 +35,7 @@ className="section_top">
             <div className="section2_data">
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
-                  <li>{data.data.enterprisefiveLeftTitle} </li>
+                  <li dangerouslySetInnerHTML={{ __html: data.data.enterprisefiveLeftTitle, }} />
                   <li>
                     <Image
                       alt="Picture of the author"
@@ -66,8 +63,7 @@ className="section_top">
             <div className="section2_data">
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
-                  <li>{data.data.enterprisefiveRightTitle} </li>
-
+                  <li dangerouslySetInnerHTML={{ __html: data.data.enterprisefiveRightTitle, }} />
                   <li>
                     <Image
                       alt="Picture of the author"

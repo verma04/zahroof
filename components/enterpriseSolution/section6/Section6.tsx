@@ -46,7 +46,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
           ></div>
 
           <div className="section2_data_right">
-            <div    dangerouslySetInnerHTML={{
+            <div dangerouslySetInnerHTML={{
               __html: data.data.enterprisethreebottomrightContent,
             }} className="data">
            
