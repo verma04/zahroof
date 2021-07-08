@@ -93,7 +93,8 @@ export const Section = styled.section`
         position: absolute;
         top: 45%;
         left: 4.5%;
-        width: 30%;
+        width: 25%;
+
         /* height: 100%; */
         display: flex;
         justify-content: center;
@@ -103,7 +104,8 @@ export const Section = styled.section`
         position: absolute;
         top: 45%;
         right: 0%;
-        width: 30%;
+        width: 24%;
+
         /* height: 100%; */
         display: flex;
         justify-content: center;

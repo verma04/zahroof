@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link
           rel="shortcut icon"
-          href="http://18.217.254.134/wp-content/uploads/2021/07/z5k5c8xjr9o0dunv7gce.png "
+          href="https://res.cloudinary.com/dzcmadjl1/image/upload/v1625722926/irixxsrjzdt3zlsw7bou.png "
         />
         <meta
           name="viewport"

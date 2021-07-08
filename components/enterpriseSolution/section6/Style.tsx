@@ -55,20 +55,21 @@ export const Section = styled.section`
           flex-direction: column;
           align-items: center;
           h2 {
-            width: 70%;
+            width: 80%;
             font-size: 45.98px;
             line-height: 50.29px;
             color: white;
             text-transform: uppercase;
 
             margin-top: 2rem;
-          
+            font-style: italic;
           }
           h3 {
-            width: 70%;
+            width: 80%;
             color: white;
             font-size: 31px;
             line-height: 30px;
+             
             line-height: 1;
             text-transform: uppercase;
           }
@@ -202,7 +203,7 @@ export const Section = styled.section`
           h2 {
             width: 90%;
             font-size: 1.5rem;
-
+            font-style: italic;
             color: white;
             text-transform: uppercase;
 
@@ -351,8 +352,8 @@ export const Section = styled.section`
             color: white;
             text-transform: uppercase;
             margin-top: 2rem;
-
-            sup {
+            font-style: italic;
+           sup {
               font-size: 1rem;
             }
           }
@@ -498,9 +499,7 @@ export const Section = styled.section`
             color: white;
             text-transform: uppercase;
 
-            sup {
-              font-size: 1rem;
-            }
+            font-style: italic;
           }
           h3 {
             width: 90%;
