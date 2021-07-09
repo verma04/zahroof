@@ -99,7 +99,7 @@ const HeroSection: React.FC<SectionFiveProps> = (data) => {
         </div>
 
         <div className="section_bottom-1">
-          <span>Redefining value in years , instend of months</span>
+          <span>Redefining value in years , instend of months.</span>
         </div>
       </div>
     </Section>
