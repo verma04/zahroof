@@ -5,6 +5,8 @@ import Navbar from "../../layout/navbar/navbar";
 
 const HeroSection: React.FC<{}> = () => {
   
+  const set2:any = "   <h3>TECH HEAD SIDEBAR</h3> <p>  Our modular design features interchangeable modules held  stationary We use our proprietary Dynamic Valve Sizing between the   valve seat and carrier. There are 12 standard modules in Program to determine the optimum module for 3 materials each with varying reed lift and stiffness so StraightFlo<sup>TM</sup> your situation. This  program simulates the valves In the cylinder for the given  application using valves can cover all speeds and operating  conditions of existing NIST real gas properties to calculate the  reed industrial compressors and be optimized for any givenapplication.</p>"
+
    const set: any = "    <h2>How IT works</h2>  <p> Our modular design features interchangeable modules held stationary between the valve seat and carrier. There are 12 standard modules in 3 materials, each with varying reed lift and stiffness, so StraightFlo<sup>TM</sup> valves can cover all speeds and  operating conditions of existing industrial compressors and be optimized for any given application.  </p>     "
 
   return (
@@ -32,20 +34,14 @@ const HeroSection: React.FC<{}> = () => {
               />
             </div>
           </div>
-          <div className="section2_data_right">
-            <h3>TECH HEAD SIDEBAR</h3>
-            <p>
-              Our modular design features interchangeable modules held
-              stationary We use our proprietary Dynamic Valve Sizing between the
-              valve seat and carrier. There are 12 standard modules in Program
-              to determine the optimum module for 3 materials each with varying
-              reed lift and stiffness so StraightFloTM your situation. This
-              program simulates the valves In the cylinder for the given
-              application using valves can cover all speeds and operating
-              conditions of existing NIST real gas properties to calculate the
-              reed industrial compressors and be optimized for any given
-              application.
-            </p>
+          <div 
+          
+         dangerouslySetInnerHTML={{
+            __html: set2,
+          }} 
+          className="section2_data_right">
+         
+        
           </div>
         </div>
       </div>
