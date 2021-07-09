@@ -37,7 +37,7 @@ export const Section = styled.section`
           .logo {
             height: 60%;
 
-            width: 15%;
+            width: 17%;
 
             display: flex;
             justify-content: flex-start;
