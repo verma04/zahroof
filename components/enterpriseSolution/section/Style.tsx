@@ -125,7 +125,7 @@ export const Section = styled.section`
             }
 
             p {
-              width: 50%;
+              width: 60%;
               margin-top: 2rem;
               font-size: 16px;
               font-family: Proxima-Bold;
