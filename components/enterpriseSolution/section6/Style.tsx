@@ -136,7 +136,9 @@ export const Section = styled.section`
             }
             p {
               height: 20%;
-              width: 60%;
+           
+    width: 62%;
+
               font-size: 17px;
               line-height: 17px;
               margin-top: 0.5rem;
