@@ -10,7 +10,10 @@ const HeroSection: React.FC<{}> = () => {
       duration: 5000,
     });
   }, []);
+  const set:any = " We’re diving deep."
   return (
+    
+  
     <Section>
       <Navbar />
 
@@ -28,8 +31,8 @@ const HeroSection: React.FC<{}> = () => {
             </ul>
             <ul className="text-right">
               <li>
-                BUCKLE <br />
-                WE RE DIVING DEEP.
+                BUCKLE UP. <br />
+               {set}
               </li>
             </ul>
           </div>
