@@ -23,7 +23,7 @@ export const Section = styled.section`
         position: absolute;
         right: 10%;
         width: 0;
-        top: -8%;
+        top: -6%;
         height: 0;
         border-left: 5rem solid transparent;
         border-right: 5rem solid transparent;
@@ -87,7 +87,7 @@ export const Section = styled.section`
           justify-content: space-between;
           align-items: center;
           flex-direction: column;
-          flex-wrap: wrap;
+          
           position: relative;
           .img_wrapper {
             position: relative;
@@ -193,7 +193,7 @@ export const Section = styled.section`
           justify-content: space-between;
           align-items: center;
           flex-direction: column;
-          flex-wrap: wrap;
+          
           position: relative;
           .img_wrapper {
             position: relative;
