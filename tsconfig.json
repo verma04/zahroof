@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -14,6 +18,12 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "theme/theme.js", "components/HomePage/section/Section.js", "components/HomePage/section/Section.js", "components/HomePage/Home.tsx", "pages/index.tsx",components/contactus/contact.tsxjs",components/esg/esg.tsxjs"components/enterpriseSolution/enterprise.tsx.jscomponents/aboutus/about.tsxt.js", "pages/homePage.js",pages/esgbenefits.tsxpages/contactus.tsxtus.pages/aboutus.tsxtus.jspages/enterpriseSolutions.tsxs.js", "pages/engineeringSoluticomponents/engineeringSolution/engneering.tsx, "next.config.js"neering.js"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

@@ -57,7 +57,7 @@ const Navbar: React.FC<{}> = () => {
 
                 <div className="valve" >
                 <Link href="/valveashero">
-                  <a>Valveashero</a>
+                  <a>Valve as hero</a>
                 </Link>
                 </div>
               </li>
@@ -211,7 +211,7 @@ const Navbar: React.FC<{}> = () => {
 
                 <div className="valve" >
                 <Link href="/valveashero">
-                  <a>Valveashero</a>
+                  <a>Valve as hero</a>
                 </Link>
                 </div>
               </li>
