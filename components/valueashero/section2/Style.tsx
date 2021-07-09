@@ -32,7 +32,7 @@ export const Section = styled.section`
       }
 
       .section2_data {
-        width: 90%;
+        width: 95%;
         height: 95%;
         display: flex;
         justify-content: space-evenly;
@@ -46,7 +46,7 @@ export const Section = styled.section`
           align-items: center;
 
           .logo {
-            width: 15%;
+            width: 17%;
             height: 100%;
             margin-top: 40px;
             display: flex;
@@ -61,6 +61,7 @@ export const Section = styled.section`
             p {
               margin-top: 35px;
               width: 90%;
+              margin-left: 10%;
               height: 40%;
               text-transform: uppercase;
               color: white;
