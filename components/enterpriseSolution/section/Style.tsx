@@ -171,7 +171,7 @@ export const Section = styled.section`
             font-size: 40px;
             line-height: 40px;
             color: white;
-            margin-left: 5rem;
+            margin-left: 2rem;
           }
           h2:after {
             position: absolute;
