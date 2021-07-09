@@ -3,6 +3,7 @@ import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 import AOS from "aos";
+import Link from 'next/link'
 import { Parallax, Background } from "react-parallax";
 import {
   Element,
@@ -230,7 +231,7 @@ const Section3: React.FC<Section3> = (data) => {
                 className="section3_right"
               >
                 <h2>{data.data.homeThreeRightHeading}</h2>
-                <a>Learn More&gt;</a>
+                <Link href="/" >Learn More&gt;</Link>
               </div>
             </div>
           </Parallax>
