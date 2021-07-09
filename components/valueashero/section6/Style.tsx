@@ -53,14 +53,17 @@ export const Section = styled.section`
           align-items: left;
           flex-direction: column;
           h2 {
-            position: relative;
-            padding-left: 0.5rem;
-            font-size: 3.438rem;
-            color: white;
-            width: 70%;
-            position: relative;
-            color: #24334d;
-            text-transform: uppercase;
+            width: 100%;
+    position: relative;
+    padding-left: 0.5rem;
+    font-size: 55px;
+    line-height: 46px;
+    color: white;
+    position: relative;
+    color: #24334d;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+          
           }
           h2:after {
             position: absolute;
@@ -86,6 +89,7 @@ export const Section = styled.section`
             width: 80%;
             color: #24334d;
             line-height: 2;
+            font-weight: 600;
           }
         }
 
@@ -109,6 +113,7 @@ export const Section = styled.section`
           }
 
           p {
+            margin-top: 1rem;
             width: 60%;
             color: white;
             line-height: 2;

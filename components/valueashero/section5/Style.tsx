@@ -31,9 +31,12 @@ export const Section = styled.section`
         align-items: left;
         flex-direction: column;
         h2 {
+          width: 118%;
           position: relative;
           padding-left: 0.5rem;
-          font-size: 3.438rem;
+          font-size: 55px;
+    line-height: 46px;
+   
           color: white;
           position: relative;
           color: #24334d;
@@ -61,9 +64,11 @@ export const Section = styled.section`
           line-height: 1.1;
         }
         p {
+          padding-left: 0.5rem;
           margin-bottom: 1.5rem;
           width: 80%;
           line-height: 2;
+          font-family: "Proxima-Bold";
         }
       }
 

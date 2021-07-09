@@ -10,14 +10,9 @@ const HeroSection: React.FC<{}> = () => {
         <div className="section2_data_left">
           <h2>HIGHLY TOLERANT DESIGN</h2>
           <p>
-            The straight-through flow path makes our valves self-cleaning and
-            highly tolerant to liquids and solids. When the reeds are wide open
-            liquids and solids go right through the module without any impact on
-            the critical sealing faces. With conventional valves liquids and
-            solids strike hot highly stressed plastic often causing embedded
-            particles breakage and affecting the sealing surface to the point
-            where the valve must be serviced With StraightFlo valves that doesn
-            t happen.
+           
+          The straight-through flow path makes our valves self-cleaning and highly tolerant to liquids and solids. When the reeds are wide open, liquids and solids go right through the module without any impact on the critical sealing faces. With conventional valves, liquids and solids strike hot, highly stressed plastic, often causing embedded particles, breakage, and affecting the sealing surface to the point where the valve must be serviced. With StraightFlo valves, that doesn’t happen.
+
           </p>
         </div>
         <div className="section2_data_right">

@@ -4,12 +4,14 @@ import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
 const HeroSection: React.FC<{}> = () => {
+  const set:any = "           SEE WHAT WE'VE </br> DONE FOR OTHERS."
   return (
     <Section>
       <div className="section">
         <div className="section_top">
           <p>
-            a 10-Year Limited Warranty on the stainless steel seat and carrier
+          a 10-Year Limited Warranty on 
+the stainless steel seat and carrier.
           </p>
           <div className="tringle"></div>
         </div>
@@ -21,8 +23,8 @@ const HeroSection: React.FC<{}> = () => {
                 <div className="section_bottom_data">
 
                 <li>
-SEE HOW TO SELL
-IT UP THE LADDER
+SEE HOW TO SELL<br/>
+IT UP THE LADDER.
                 
                   </li>
                   <li>
@@ -53,9 +55,12 @@ IT UP THE LADDER
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
 
-                  <li>
-                  SEE WHAT WE VE
-DONE FOR OTHERS
+                  <li 
+                  
+                  dangerouslySetInnerHTML={{
+                    __html: set,
+                  }} >
+       
                     </li>
                   <li>
                     <Image

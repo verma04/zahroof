@@ -38,6 +38,7 @@ export const Section = styled.section`
           align-items: left;
           flex-direction: column;
           h2 {
+            
             position: relative;
             padding-left: 0.5rem;
             font-size: 55px;

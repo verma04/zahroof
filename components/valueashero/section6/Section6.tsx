@@ -4,14 +4,17 @@ import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
 const HeroSection: React.FC<{}> = () => {
+
+  
+
   return (
     <Section>
       <div className="section4">
         <div className="section_data">
           <div className="section_data_left">
-            <h2>Easy to service, no need for spare VALVES</h2>
+            <h2>Easy to service,<br/> no need for spare VALVES</h2>
             <p>
-              Its modular design means the StraightFloTM Valve can be easily
+              Its modular design means the StraightFlo<sup>TM</sup> Valve can be easily
               serviced in minutes. Just unscrew the valve seat, slide out the
               old modules with your fingers, slide in the new and reattach the
               valve seat to the carrier. There’s no need to ship valves off site
@@ -26,10 +29,14 @@ const HeroSection: React.FC<{}> = () => {
           <div className="section_data_right">
             <h3> Fun Fact: </h3>
             <p>
-              No machining means the valve seat <br /> pressure rating never
-              drops below that of <br /> the new valve. <br />
-              It also eliminates the chance of <br /> machining errors that
-              result in tolerance <br /> stack up and prevent valves <br /> from
+              No machining means the valve seat pressure rating never
+              drops below that of  the new valve. <br />
+  
+            </p>
+
+            <p>
+            It also eliminates the chance of  machining errors that
+              result in tolerance  stack up and prevent valves  from
               being installed during service.
             </p>
           </div>

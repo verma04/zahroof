@@ -129,6 +129,9 @@ export const Section = styled.section`
           flex-direction: column;
           align-items: flex-start;
           .form {
+
+    margin-left: 6%;
+
             width: 70%;
             height: 85%;
             display: flex;
