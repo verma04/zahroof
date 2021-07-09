@@ -88,14 +88,14 @@ export const Section = styled.section`
 
             font-size: 26.64px;
             text-align: left;
-            width: 50%;
+            width: 60%;
 
             text-transform: uppercase;
           }
 
           p {
             margin-top: 55px;
-            width: 50%;
+            width: 60%;
             line-height: 30px;
             text-align: left;
             font-size: 15px;
