@@ -12,6 +12,7 @@
   font-weight: 400;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Caveat-Light";
   src: url("../public/Caveat-Medium.ttf");

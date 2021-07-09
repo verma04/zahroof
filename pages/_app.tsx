@@ -40,6 +40,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css   "
         />
+
+<style data-href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap">
+
+</style>
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalFonts />

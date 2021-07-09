@@ -1,18 +1,84 @@
 import React from "react";
 import HeroSection from "./heroSection/heroSection";
 import Section from "./section/Section";
-
+import Section2 from "./section2/Section2";
 import Section3 from "./section3/Section3";
-
 import Section4 from "./section4/Section4";
-import Section5 from "./section5/Section5";
-import Section7 from "./section7/Section&";
-import Section6 from "./section6/Section6";
-import Head from "next/head";
+import AboutUs from "./aboutus/aboutus";
 import Footer from "../layout/footer/Footer";
-import Makecall from "../HomePage/makecall/makecall";
-import { useEnterpriseSolutions } from "../../apollo/actions";
-const Home = ({ data }) => {
+import MakeCall from "./makecall/makecall";
+import Head from "next/head";
+
+// import withApollo from '@/hoc/withApollo'
+import { useGetHomePage } from "../../apollo/actions";
+interface Section {
+  data: {
+    esgbenifitsthreerightcontent: string
+ title:string
+    pageId:string
+    uri:string
+    status:string
+    homebannercontent:string
+    honebannerimageurl:string
+    firstLeftBgimage:string
+    firstLeftHeading:string
+    firstLeftIcon:string
+    firstLeftTitle:string
+    firstRightBgimage:string
+    firstRightHeading:string
+    firstRightIcon:string
+    firstRightTitle:string
+    homeSecondLeftContent:string
+    homeSecondRightImageOne:string
+    homeSecondRightTitleOne:string
+    homeSecondRightImageTwo:string
+    homeSecondRightTitleTwo:string
+    homeSecondRightImageThree:string
+    homeSecondRightTitleThree:string
+    homeSecondRightImageFour:string
+    homeSecondRightTitleFour:string
+    homeThreeLeftHeading:string
+    homeThreeRightHeading:string
+    homeThreeRightLink:string
+    homeFourHeading:string
+    homeFourImageurl:string
+    homeFiveImageurl:string
+    homeFiveRightContent:string
+    homeSixCaseStudyContent:string
+    homeSixCaseStudyButtonUrl:string
+    homeSixRightOneImage:string
+    homeSixRightOneName:string
+    homeSixRightTwoImage:string
+    homeSixRightTwoName:string
+    content:string,
+      seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+const Home: React.FC<Section> = ({data}) => {
   return (
     <div>
       <Head>
@@ -59,16 +125,17 @@ const Home = ({ data }) => {
 
       <HeroSection data={data} />
       <Section data={data} />
+      <Section2 data={data} />
       <Section3 data={data} />
-
       <Section4 data={data} />
-      <Section5 data={data} />
-      <Section6 data={data} />
-      <Section7 data={data} />
-      <Makecall />
+      <AboutUs data={data} />
+      <MakeCall />
       <Footer />
     </div>
-  );
+ 
+ 
+ 
+ );
 };
 
 export default Home;

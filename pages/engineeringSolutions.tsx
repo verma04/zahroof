@@ -1,15 +1,76 @@
 import React from "react";
+import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
 import Home from "../components/engineeringSolution/engneering";
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
-const Enterprise = ({ data }) => {
+interface Engineering {
+  data: {
+    title:any
+    pageId:any
+    uri:any
+    status:any
+    featuredImage: {
+      node: {
+        title: any
+        sourceUrl:any
+      }
+    }
+    engineeringbannerleftcontent:string
+    engineeringbannerrightcontent:string
+    engineeringfirstleftcontent:string
+    engineeringfirstrightcontent:string
+    engineeringtwoleftcontent:string
+    engineeringtworightcontent:string
+    engineeringthreeleftimage:string
+    engineeringthreerightcontent:string
+    engineeringfourleftimage:string
+    engineeringfourrightcontent:string
+    engineeringfourbottomcontent:string
+    engineeringfiveLeftTitle:string
+    engineeringfiveLeftIcon:string
+    engineeringfiveLeftContent:string
+    engineeringfiveRightTitle:string
+    engineeringfiveRightIcon:string
+    engineeringfiveRightContent:string
+ 
+
+
+  
+    seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+
+const index: React.FC<Engineering> = ({data}) => {
   return (
     <div>
       <Home data={data} />
     </div>
   );
 };
-
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async (context) => {
   const client = new ApolloClient({
     uri: "http://18.217.254.134/graphql",
     cache: new InMemoryCache(),
@@ -81,4 +142,4 @@ export async function getStaticProps() {
   };
 }
 
-export default Enterprise;
+export default index ;

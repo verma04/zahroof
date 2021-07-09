@@ -49,20 +49,22 @@ export const Section = styled.section`
         .section_logo {
           width: 70%;
           height: 60%;
-
+ 
           display: flex;
-          justify-content: flex-start;
+          justify-content: space-between;
 
           .section_logo_top {
-            width: 100%;
-            height: 100%;
-
+            width: 25%;
+            height: 80%;
+    
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
             align-items: center;
+          
             .logo {
-              width: 70%;
+              width: 100%;
+
               height: 50%;
               background-color: #dbb43f;
 
@@ -71,14 +73,14 @@ export const Section = styled.section`
               align-items: center;
               .wrapper {
                 position: relative;
-                width: 80%;
-                height: 80%;
+                width: 60%;
+                height: 60%;
               }
             }
 
             .logo-1 {
               margin-top: 1rem;
-              width: 70%;
+              width: 100%;
 
               padding-bottom: 1.5em;
               padding-top: 1.5em;
@@ -99,32 +101,7 @@ export const Section = styled.section`
             }
           }
 
-          .section_logo_bottom {
-            width: 100%;
-            height: 40%;
-
-            display: flex;
-            justify-content: space-between;
-            margin-top: 1rem;
-            .logo-1 {
-              width: 25%;
-
-              display: flex;
-              justify-content: center;
-              background-color: rgb(123 69 7 / 70%);
-
-              p {
-                padding-top: 0.5rem;
-
-                color: white;
-                font-size: 30.88px;
-                width: 80%;
-                line-height: 30px;
-                font-family: Proxima-Bold;
-                text-align: left;
-              }
-            }
-          }
+        
         }
       }
     }
