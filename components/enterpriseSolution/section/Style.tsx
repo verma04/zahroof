@@ -55,9 +55,10 @@ export const Section = styled.section`
             }
 
             p {
+             
               margin-top: 42px;
               font-size: 21px;
-              width: 80%;
+              width: 100%;
               font-weight: 600;
               line-height: 28px;
               color: white;
