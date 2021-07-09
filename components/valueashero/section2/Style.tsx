@@ -73,7 +73,7 @@ export const Section = styled.section`
 
         .section2_bottom {
           display: flex;
-          width: 70%;
+          width: 80%;
           height: 20%;
           justify-content: space-around;
           align-items: center;
