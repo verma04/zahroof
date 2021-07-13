@@ -17,7 +17,6 @@ const HeroSection: React.FC<HeroSection> = (data) => {
       duration: 5000,
     });
   }, []);
-  const set:any = " We’re diving deep."
   return (
     
   
@@ -31,23 +30,8 @@ const HeroSection: React.FC<HeroSection> = (data) => {
           <div
             aos-duration="10000"
             data-aos="zoom-in"
-<<<<<<< HEAD
-            className="homePage-data"
-          >
-            <ul className="text-left">
-              <li>ALL THE DETAILS YOU EVER WANTED TO KNOW.</li>
-            </ul>
-            <ul className="text-right">
-              <li>
-                BUCKLE UP. <br />
-               {set}
-              </li>
-            </ul>
-          </div>
-=======
             className="homePage-data"          
             dangerouslySetInnerHTML={{ __html: data.data.valveasherobannercontent }} />
->>>>>>> Munish-Dhiman
         </div>
       </div>
     </Section>
