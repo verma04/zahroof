@@ -108,7 +108,7 @@ export const Section = styled.section`
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        top: 84vh;
+        top: 86vh;
       }
     }
   }
@@ -217,7 +217,7 @@ export const Section = styled.section`
         background-size: cover;
 
        
-    top: 33rem;
+    top: 34rem;
 
       }
     }

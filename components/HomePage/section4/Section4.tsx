@@ -266,7 +266,7 @@ performance of all others in the industry.</p> */}
           {/* <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624446661/zugr9ahadrsbvxmfoi2v.jpg'} alt="Picture of the author" /> */}
 
           <div className="section4_bottom_data">
-            <div className="section4_mid_left">
+            <div  data-aos="fade-up" className="section4_mid_left">
               <div
                 dangerouslySetInnerHTML={{
                   __html: data.data.homeSixCaseStudyContent,
@@ -285,7 +285,7 @@ performance of all others in the industry.</p> */}
               </div>
             </div>
 
-            <div className="section4_mid_right">
+            <div  data-aos="fade-up" className="section4_mid_right">
               <div className="section4_logo">
                 <div className="img_wrapper">
                   <Image

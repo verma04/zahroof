@@ -8,9 +8,7 @@ export const Section = styled.section`
   align-items: center;
 
   @media (min-width: 1281px) {
-    [data-aos="example-anim3"] {
- 
-}
+
 
     .section4 {
       position: relative;
@@ -196,7 +194,7 @@ export const Section = styled.section`
               position: absolute;
     top: 0%;
     right: 10%;
-    width: 13rem;
+    width: 29%;
     height: 10rem;
     
             }
@@ -218,7 +216,7 @@ min-width: 10% !important;
               position: absolute;
               bottom:0%;
                left:4%;
-               width: 13rem;
+               width: 29%;
     height: 10rem;
                
             }
@@ -427,22 +425,13 @@ min-width: 10% !important;
         position: relative;
         height: 47rem;
         width: 100%;
-        background: radial-gradient( ellipse farthest-corner at right bottom,#fedb37 0%,#fddb45 8%,#af9746 30%,#7b692b 55%,transparent 80% ),radial-gradient( ellipse farthest-corner at left top,#ffffff 0%,#ffffac 8%,#d1b464 25%,#5d4a1f 62.5%,#5d4a1f 100% );
+        background:  radial-gradient(ellipse farthest-corner at right bottom, #d49e03 0%, #d49a06 8%, #e19b05 30%, #c28f1c 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #DBB42F 0%, #f9d674 8%, #e2bb50 25%, #c39733 62.5%, #DBB42F 100%);
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
 
-        .tringle {
-          position: absolute;
-          right: 10%;
-          width: 0;
-          bottom: -6%;
-          height: 0;
-          border-left: 6rem solid transparent;
-          border-right: 6rem solid transparent;
-          border-top: 4rem solid #fdb931;
-          z-index: -1;
-        }
+       
         .section4_top_data {
           display: flex;
           justify-content: flex-start;
@@ -582,12 +571,42 @@ min-width: 10% !important;
           display: flex;
           justify-content: flex-end;
           align-items: center;
-          width: 50%;
-          height: 50%;
+          width: 100%;
+          height: 70%;
           .img_wrapper {
             width: 100%;
             height: 100%;
             position: relative;
+            .text-1 {
+              position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 29%;
+    height: 10rem;
+    
+            }
+            [data-aos="example-anim3"] {
+          transform: rotate(
+-81deg
+);
+
+min-width: 10% !important;
+ 
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: rotate(0);
+    opacity: 1;
+    min-width: 100% !important;;
+  }
+          }
+            .text-2 {
+              position: absolute;
+              bottom:0%;
+               left:4%;
+               width: 29%;
+    height: 10rem;
+               
+            }
           }
         }
 
@@ -935,6 +954,36 @@ min-width: 10% !important;
             width: 100%;
             height: 100%;
             position: relative;
+            .text-1 {
+              position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 29%;
+    height: 10rem;
+    
+            }
+            [data-aos="example-anim3"] {
+          transform: rotate(
+-81deg
+);
+
+min-width: 10% !important;
+ 
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: rotate(0);
+    opacity: 1;
+    min-width: 100% !important;;
+  }
+          }
+            .text-2 {
+              position: absolute;
+              bottom:0%;
+               left:4%;
+               width: 29%;
+    height: 10rem;
+               
+            }
           }
         }
 
@@ -1280,6 +1329,36 @@ min-width: 10% !important;
             width: 100%;
             height: 100%;
             position: relative;
+            .text-1 {
+              position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 29%;
+    height: 10rem;
+    
+            }
+            [data-aos="example-anim3"] {
+          transform: rotate(
+-81deg
+);
+
+min-width: 10% !important;
+ 
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: rotate(0);
+    opacity: 1;
+    min-width: 100% !important;;
+  }
+          }
+            .text-2 {
+              position: absolute;
+              bottom:0%;
+               left:4%;
+               width: 29%;
+    height: 10rem;
+               
+            }
           }
         }
 
