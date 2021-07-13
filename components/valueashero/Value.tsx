@@ -12,10 +12,84 @@ import Section9 from "./section9/Section9";
 import Footer from "../layout/footer/Footer";
 import Makecall from "../HomePage/makecall/makecall";
 
-const Home: React.FC<{}> = () => {
+interface Valueashero {
+  data: {
+    title: any
+    pageId: any
+    uri: any
+    status: any
+    featuredImage: {
+      node: {
+        title: any
+        sourceUrl: any
+      }
+    }
+    valveasherobannercontent: string
+    valveasheroTwoContent: string
+    valveasheroeighthbottomcontent: string
+    valveasheroeighthbottomimage: string
+    valveasheroeighthcontent: string
+    valveasherofirstbottomcontent: string
+    valveasherofirstcontent: string
+    valveasherofiveLeftIcon: string
+    valveasherofiveLeftContent: string
+    valveasherofiveLeftTitle: string
+    valveasherofiveRightContent: string
+    valveasherofiveRightIcon: string
+    valveasherofiveRightTitle: string
+    valveasherofourLeftContent: string
+    valveasherofourRightContent: string
+    valveasherosevenLeftContent: string
+    valveasherosevenRightContent: string
+    valveasherofourRightImage: string
+    valveasherothreeLeftContent: string
+    valveasherothreeLeftImage: string
+    valveasherothreeRightContent: string
+    valveasherotwoitemFiveImage: string
+    valveasherotwoitemFiveTitle: string
+    valveasherotwoitemFourImage: string
+    valveasherotwoitemFourTitle: string
+    valveasherotwoitemOneImage: string
+    valveasherotwoitemOneTitle: string
+    valveasherotwoitemSixImage: string
+    valveasherotwoitemSixTitle: string
+    valveasherotwoitemThreeImage: string
+    valveasherotwoitemThreeTitle: string
+    valveasherotwoitemTwoImage: string
+    valveasherotwoitemTwoTitle: string
+
+
+    seo: {
+      title: string
+      metaDesc: string
+      metaKeywords: string
+      focuskw: string
+      canonical: string
+      cornerstone: string
+      fullHead: string
+      metaRobotsNofollow: string
+      metaRobotsNoindex: string
+      opengraphAuthor: string
+      opengraphDescription: string
+      opengraphModifiedTime: string
+      opengraphPublishedTime: string
+      opengraphPublisher: string
+      opengraphSiteName: string
+      opengraphTitle: string
+      opengraphType: string
+      opengraphUrl: string
+      readingTime: string
+      twitterDescription: string
+      twitterTitle: string
+    }
+
+  };
+}
+
+const Valueashero: React.FC<Valueashero> = ({data}) => {
   return (
     <div>
-      <HeroSection />
+      <HeroSection data={data} />
       <Section />
       <Section2 />
       <Section3 />
@@ -32,4 +106,4 @@ const Home: React.FC<{}> = () => {
   );
 };
 
-export default Home;
+export default Valueashero;
