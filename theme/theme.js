@@ -7,6 +7,8 @@ a {
 
   font-family: Proxima-Bold;
 } 
+
+
 sub, sup {
   /* Specified in % so that the sup/sup is the right size relative to the surrounding text */
   font-size: 75%;
