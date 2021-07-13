@@ -4,19 +4,22 @@ import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-interface HeroSection {
+interface Valueashero {
   data: {
-    valveasherobannercontent: string;
-  }; // Change the required prop to an optional prop.
+   
+    valveasherobannercontent: string
+  
+
+  };
 }
 
-const HeroSection: React.FC<HeroSection> = (data) => {
+const HeroSection: React.FC<Valueashero> = ({data}) => {
   useEffect(() => {
     AOS.init({
       duration: 5000,
     });
   }, []);
+  const set:any = " We’re diving deep."
   return (
     
   
@@ -28,10 +31,27 @@ const HeroSection: React.FC<HeroSection> = (data) => {
 
         <div className="homePage-layer">
           <div
-            aos-duration="10000"
-            data-aos="zoom-in"
-            className="homePage-data"          
-            dangerouslySetInnerHTML={{ __html: data.data.valveasherobannercontent }} />
+            
+            
+            className="homePage-data"
+            dangerouslySetInnerHTML={{
+              __html: data.valveasherobannercontent,
+            }}
+            
+          >
+            {/* <ul className="text-left">
+              <li>ALL THE DETAILS YOU EVER WANTED TO KNOW.</li>
+            </ul>
+            <ul className="text-right">
+              <li>
+                BUCKLE UP. <br />
+               {set}
+              </li>
+            </ul>
+         
+          */}
+         
+          </div>
         </div>
       </div>
     </Section>
