@@ -200,7 +200,42 @@ code {
 border-radius:5px;
 font-family: Proxima-Bold;
 transition: transform .8s;
+    transition: all 0.2s linear 0s;
 
+    &:before {
+    content: ">";
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    font-size: 22px;
+    font-weight: bold;
+    }
+
+    &:hover {
+    text-indent: -20px;
+
+    &:before {
+        opacity: 1;
+        text-indent: 0px;
+    }
+}
   }
   input {
     font-family: Proxima-Bold;
