@@ -3,7 +3,26 @@ import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
-const HeroSection: React.FC<{}> = () => {
+interface SectionTwo {
+  data: {
+    valveasherotwoitemOneImage: string;
+    valveasherotwoitemOneTitle: string;
+    valveasherotwoitemTwoImage: string;
+    valveasherotwoitemTwoTitle: string;
+    valveasherotwoitemThreeImage: string;
+    valveasherotwoitemThreeTitle: string;
+    valveasherotwoitemFourImage: string;
+    valveasherotwoitemFourTitle: string;
+    valveasherotwoitemFiveImage: string;
+    valveasherotwoitemFiveTitle: string;
+    valveasherotwoitemSixImage: string;
+    valveasherotwoitemSixTitle: string;
+    valveasheroTwoContent: string;
+
+  }; // Change the required prop to an optional prop.
+}
+
+const SectionTwo: React.FC<SectionTwo> = (data) => {
   return (
     <Section>
       <div className="section2">
@@ -14,94 +33,84 @@ const HeroSection: React.FC<{}> = () => {
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/pwwwdrq3uayndd0rdo96.png"
-                  }
-                  alt="Picture of the author"
+                  src={data.data.valveasherotwoitemOneImage}
+                  alt={data.data.valveasherotwoitemOneTitle}
                 />
               </div>
-              <p>
-                INCREASES INCREMENTAL REVENUE BY HUNDREDS OF THOUSANDS TO
-                MILLIONS OF DOLLARS
-              </p>
+              <p dangerouslySetInnerHTML={{
+                __html: data.data.valveasherotwoitemOneTitle
+              }} />
             </div>
             <div className="logo">
               <div className="wrapper">
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/i1838bk5jeu2ysxgwoaq.png"
-                  }
-                  alt="Picture of the author"
+                  src={data.data.valveasherotwoitemTwoImage}
+                  alt={data.data.valveasherotwoitemTwoTitle}
                 />
               </div>
-              <p>REDUCES POWER CONSUMPTION BY 5-15%</p>
+              <p dangerouslySetInnerHTML={{
+                __html: data.data.valveasherotwoitemTwoTitle
+              }} />
             </div>
             <div className="logo">
               <div className="wrapper">
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/lzdhjmxmm14aiukd93em.png"
-                  }
-                  alt="Picture of the author"
+                  src={data.data.valveasherotwoitemThreeImage}
+                  alt={data.data.valveasherotwoitemThreeTitle}
                 />
               </div>
-              <p>GUARANTEED 5-20% THROUGHPUT IMPROVEMENT</p>
+              <p dangerouslySetInnerHTML={{
+                __html: data.data.valveasherotwoitemThreeTitle
+              }} />
             </div>
             <div className="logo">
               <div className="wrapper">
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/gkvlyeikv9dkymhpofrs.png"
-                  }
-                  alt="Picture of the author"
+                  src={data.data.valveasherotwoitemFourImage}
+                  alt={data.data.valveasherotwoitemFourTitle}
                 />
               </div>
-              <p>
-                REDUCES SERVICE COSTS, ALL BUT ELIMINATES UNSCHEDULED COMPRESSOR
-                DOWNTIME
-              </p>
+              <p dangerouslySetInnerHTML={{
+                __html: data.data.valveasherotwoitemFourTitle
+              }} />
             </div>
             <div className="logo">
               <div className="wrapper">
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/jfg7ajopgu0szchdrbfd.png"
-                  }
-                  alt="Picture of the author"
+                  src={data.data.valveasherotwoitemFiveImage}
+                  alt={data.data.valveasherotwoitemFiveTitle}
                 />
               </div>
-              <p>REDUCES INVENTORY COSTS BY AS MUCH AS 80%</p>
+              <p dangerouslySetInnerHTML={{
+                __html: data.data.valveasherotwoitemFiveTitle
+              }} />
             </div>
             <div className="logo">
               <div className="wrapper">
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624346390/mcoz0vzmrueea4tei6dy.png"
-                  }
-                  alt="Picture of the author"
+                  src={data.data.valveasherotwoitemSixImage}
+                  alt={data.data.valveasherotwoitemSixTitle}
                 />
               </div>
-              <p>
-                REDUCES # OF EMISSION EVENTS AND FUGITIVE EMISSIONS INTENSITY
-              </p>
+              <p dangerouslySetInnerHTML={{
+                __html: data.data.valveasherotwoitemSixTitle
+              }} />
             </div>
           </div>
           <div className="section2_bottom">
-            <h4>
-              THE BENEFITS CAN EASILY ADD UP TO TENS OF MILLIONS OF DOLLARS
-              ACROSS A SINGLE FIELD WHILE ALSO HELPING COMPANIES MEET OR EXCEED
-              ENVIRONMENTAL STANDARDS.
-            </h4>
+            <h4 dangerouslySetInnerHTML={{
+              __html: data.data.valveasheroTwoContent
+            }} />
           </div>
         </div>
         <div className="tringle"></div>
@@ -110,4 +119,4 @@ const HeroSection: React.FC<{}> = () => {
   );
 };
 
-export default HeroSection;
+export default SectionTwo;

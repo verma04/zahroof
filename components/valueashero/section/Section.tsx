@@ -3,18 +3,21 @@ import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
-const HeroSection: React.FC<{}> = () => {
-  const set: any = "  <h3>  If you're on this page chances are you want to know more about how the StraightFlo<sup>TM </sup> valve works Or perhaps you just enjoy geeking out on ground-breaking technology. Either way we'll give you all the info you could possibly want And maybe a little more. </h3>  "
-  
-  const set2: any = "   <h2>WHAT IT IS</h2> <p> The Zahroof StraightFlo<sup>TM</sup> Valve is a drop-in replacement valve for industrial reciprocating compressors for speeds from 200 - 3600+ rpm pressure differential across a valve to 4350 psi 300  bar service temperatures from 290 to 482F180 to 250C and for all gases including sweet and sour natural gas acid gas CO<sub>2</sub> Hydrogen  Nitrogen Ethylene Air Ammonia HCl etc. <p>  <h3>This revolutionary technology is patented around the world and offers significant improvements over conventional valves.</h3> "
+interface SectionOne {
+  data: {
+    valveasherofirstcontent: string;
+    valveasherofirstbottomcontent: string;
+  }; // Change the required prop to an optional prop.
+}
+
+const SectionOne: React.FC<SectionOne> = (data) => {
   return (
     <Section>
       <div className="section">
         <div className="section_top"
             dangerouslySetInnerHTML={{
-              __html: set
+              __html: data.data.valveasherofirstcontent
             }}
-        
         >
         
         </div>
@@ -33,7 +36,7 @@ const HeroSection: React.FC<{}> = () => {
             <div
             
             dangerouslySetInnerHTML={{
-              __html: set2
+                __html: data.data.valveasherofirstbottomcontent
             }}
             className="section2_data_left">
               
@@ -57,4 +60,4 @@ const HeroSection: React.FC<{}> = () => {
   );
 };
 
-export default HeroSection;
+export default SectionOne;
