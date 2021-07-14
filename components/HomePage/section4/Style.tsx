@@ -343,13 +343,12 @@ min-width: 10% !important;
 
               button {
                 font-size: 1rem;
-                padding: 1rem;
+                padding: 1rem 2rem;
                 height: 4.5rem;
                 border-radius: 0px;
                 text-transform: uppercase;
                 background-color: #398baa;
   
-            
               }
 
    
