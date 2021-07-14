@@ -3,9 +3,17 @@ import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
-const HeroSection: React.FC<{}> = () => {
 
-  const set: any ='   <p> The StraightFlo<sup>TM</sup> valve guarantee is 2x the MTBF (Mean time between shut down of compressor due to valve issues) of the compressor compared to MTBF wi th the valves we replace under the same operating conditions (includes quality of gas) plus 10% reduction in valve losses.</p>'
+interface SectionEighth {
+  data: {
+    valveasheronineleftcontent: string;
+    valveasheroninerightimage: string;
+
+  }; // Change the required prop to an optional prop.
+}
+
+
+const SectionEighth: React.FC<SectionEighth> = (data) => {
   return (
     <Section>
       <div className="section">
@@ -15,14 +23,12 @@ const HeroSection: React.FC<{}> = () => {
               alt="Picture of the author"
               objectFit="contain"
               layout="fill"
-              src={
-                "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624355379/h1unhu03kiuawgjuk5vz.png"
-              }
+              src={data.data.valveasheroninerightimage }
             />
           </div>
           <div
            dangerouslySetInnerHTML={{
-            __html: set,
+              __html: data.data.valveasheronineleftcontent
           }}
           
           className="section2_data_left">
@@ -34,4 +40,4 @@ const HeroSection: React.FC<{}> = () => {
   );
 };
 
-export default HeroSection;
+export default SectionEighth;

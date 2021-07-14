@@ -25,18 +25,16 @@ interface Valueashero {
       }
     }
     valveasherobannercontent: string
-    valveasheroTwoContent: string
-    valveasheroeighthbottomcontent: string
-    valveasheroeighthbottomimage: string
-    valveasheroeighthcontent: string
     valveasherofirstbottomcontent: string
     valveasherofirstcontent: string
+    valveasheroTwoContent: string
     valveasherofiveLeftIcon: string
     valveasherofiveLeftContent: string
     valveasherofiveLeftTitle: string
     valveasherofiveRightContent: string
     valveasherofiveRightIcon: string
     valveasherofiveRightTitle: string
+    valveasherofiveTopContent: string
     valveasherofourLeftContent: string
     valveasherofourRightContent: string
     valveasherosevenLeftContent: string
@@ -57,6 +55,13 @@ interface Valueashero {
     valveasherotwoitemThreeTitle: string
     valveasherotwoitemTwoImage: string
     valveasherotwoitemTwoTitle: string
+    valveasherosixLeftContent: string
+    valveasherosixRightImageOne: string
+    valveasherosixRightImageTwo: string
+    valveasheronineleftcontent: string
+    valveasheroninerightimage: string
+    valveasheroeighthleftcontent: string
+    valveasheroeighthrightimage: string
 
 
     seo: {
@@ -90,16 +95,16 @@ const Valueashero: React.FC<Valueashero> = ({data}) => {
   return (
     <div>
       <HeroSection data={data} />
-      <Section />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      <Section8 />
-      <Section9 />
-      <Makecall/>
+      <Section data={data} />
+      <Section2 data={data} />
+      <Section3 data={data} />
+      <Section4 data={data} />
+      <Section5 data={data} />
+      <Section6 data={data} />
+      <Section7 data={data} />
+      <Section8 data={data} />
+      <Section9 data={data} />
+      <Makecall />
       <Footer />
 
     </div>
