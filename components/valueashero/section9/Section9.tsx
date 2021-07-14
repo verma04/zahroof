@@ -3,16 +3,30 @@ import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
-const HeroSection: React.FC<{}> = () => {
+interface SectionNine {
+  data: {
+    valveasherofiveTopContent: string;
+   
+    valveasherofiveLeftTitle: string;
+    valveasherofiveLeftIcon: string;
+    valveasherofiveLeftContent: string;
+    valveasherofiveRightTitle: string;
+    valveasherofiveRightIcon: string;
+    valveasherofiveRightContent: string;
+
+  }; // Change the required prop to an optional prop.
+}
+
+
+const SectionNine: React.FC<SectionNine> = (data) => {
   const set:any = "           SEE WHAT WE'VE </br> DONE FOR OTHERS."
   return (
     <Section>
       <div className="section">
         <div className="section_top">
-          <p>
-          a 10-Year Limited Warranty on 
-the stainless steel seat and carrier.
-          </p>
+          <p dangerouslySetInnerHTML={{
+            __html: data.data.valveasherofiveTopContent
+          }} />
           <div className="tringle"></div>
         </div>
 
@@ -22,22 +36,22 @@ the stainless steel seat and carrier.
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
 
-                <li>
-SEE HOW TO SELL<br/>
-IT UP THE LADDER.
-                
-                  </li>
+                  <li dangerouslySetInnerHTML={{
+                    __html: data.data.valveasherofiveLeftTitle
+                  }} />
                   <li>
                     <Image
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
-                      src="http://18.217.254.134/wp-content/uploads/2021/06/ruhkeqvmgfhctlmiswih.png"
+                      src={data.data.valveasherofiveLeftIcon}
                     />
                   </li>
 
                   <li>
-                    <h3>ENTERPRISE SOLUTIONS</h3>
+                    <h3 dangerouslySetInnerHTML={{
+                      __html: data.data.valveasherofiveLeftContent
+                    }} />
                   </li>
                   <li>
                     <Image
@@ -55,24 +69,22 @@ IT UP THE LADDER.
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
 
-                  <li 
-                  
-                  dangerouslySetInnerHTML={{
-                    __html: set,
-                  }} >
-       
-                    </li>
+                  <li dangerouslySetInnerHTML={{
+                    __html: data.data.valveasherofiveRightTitle
+                  }} />
                   <li>
                     <Image
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
-                      src="http://18.217.254.134/wp-content/uploads/2021/06/w2u44k0jrx10hakvnri2.png"
+                      src={data.data.valveasherofiveRightIcon}
                     />
                   </li>
 
                   <li>
-                    <h3>Case Studies</h3>
+                    <h3 dangerouslySetInnerHTML={{
+                      __html: data.data.valveasherofiveRightContent
+                    }} />
                   </li>
                   <li>
                     <Image
@@ -92,4 +104,4 @@ IT UP THE LADDER.
   );
 };
 
-export default HeroSection;
+export default SectionNine;

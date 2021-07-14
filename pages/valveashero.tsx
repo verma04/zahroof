@@ -14,42 +14,44 @@ interface Valueashero {
         sourceUrl: any
       }
     }
-      valveasherobannercontent: string
-      valveasheroTwoContent: string
-      valveasheroeighthbottomcontent: string
-      valveasheroeighthbottomimage: string
-      valveasheroeighthcontent: string
-      valveasherofirstbottomcontent: string
-      valveasherofirstcontent: string
-      valveasherofiveLeftIcon: string
-      valveasherofiveLeftContent: string
-      valveasherofiveLeftTitle: string
-      valveasherofiveRightContent: string
-      valveasherofiveRightIcon: string
-      valveasherofiveRightTitle: string
-      valveasherofourLeftContent: string
-      valveasherofourRightContent: string
-      valveasherosevenLeftContent: string
-      valveasherosevenRightContent: string
-      valveasherofourRightImage: string
-      valveasherothreeLeftContent: string
-      valveasherothreeLeftImage: string
-      valveasherothreeRightContent: string
-      valveasherotwoitemFiveImage: string
-      valveasherotwoitemFiveTitle: string
-      valveasherotwoitemFourImage: string
-      valveasherotwoitemFourTitle: string
-      valveasherotwoitemOneImage: string
-      valveasherotwoitemOneTitle: string
-      valveasherotwoitemSixImage: string
-      valveasherotwoitemSixTitle: string
-      valveasherotwoitemThreeImage: string
-      valveasherotwoitemThreeTitle: string
-      valveasherotwoitemTwoImage: string
-      valveasherotwoitemTwoTitle: string
-      valveasherosixLeftContent: string;
-      valveasherosixRightImageOne: string;
-      valveasherosixRightImageTwo: string;
+    valveasherobannercontent: string
+    valveasherofirstbottomcontent: string
+    valveasherofirstcontent: string
+    valveasheroTwoContent: string
+    valveasherofiveLeftIcon: string
+    valveasherofiveLeftContent: string
+    valveasherofiveLeftTitle: string
+    valveasherofiveRightContent: string
+    valveasherofiveRightIcon: string
+    valveasherofiveRightTitle: string
+    valveasherofiveTopContent: string
+    valveasherofourLeftContent: string
+    valveasherofourRightContent: string
+    valveasherosevenLeftContent: string
+    valveasherosevenRightContent: string
+    valveasherofourRightImage: string
+    valveasherothreeLeftContent: string
+    valveasherothreeLeftImage: string
+    valveasherothreeRightContent: string
+    valveasherotwoitemFiveImage: string
+    valveasherotwoitemFiveTitle: string
+    valveasherotwoitemFourImage: string
+    valveasherotwoitemFourTitle: string
+    valveasherotwoitemOneImage: string
+    valveasherotwoitemOneTitle: string
+    valveasherotwoitemSixImage: string
+    valveasherotwoitemSixTitle: string
+    valveasherotwoitemThreeImage: string
+    valveasherotwoitemThreeTitle: string
+    valveasherotwoitemTwoImage: string
+    valveasherotwoitemTwoTitle: string
+    valveasherosixLeftContent: string
+    valveasherosixRightImageOne: string
+    valveasherosixRightImageTwo: string
+    valveasheronineleftcontent: string
+    valveasheroninerightimage: string
+    valveasheroeighthleftcontent: string
+    valveasheroeighthrightimage: string
 
 
     seo: {
@@ -109,18 +111,16 @@ export async function getStaticProps() {
             }
           }
           valveasherobannercontent
-          valveasheroTwoContent
-          valveasheroeighthbottomcontent
-          valveasheroeighthbottomimage
-          valveasheroeighthcontent
           valveasherofirstbottomcontent
           valveasherofirstcontent
+          valveasheroTwoContent
           valveasherofiveLeftIcon
           valveasherofiveLeftContent
           valveasherofiveLeftTitle
           valveasherofiveRightContent
           valveasherofiveRightIcon
           valveasherofiveRightTitle
+          valveasherofiveTopContent
           valveasherofourLeftContent
           valveasherofourRightContent
           valveasherosevenLeftContent
@@ -144,6 +144,10 @@ export async function getStaticProps() {
           valveasherosixLeftContent
           valveasherosixRightImageOne
           valveasherosixRightImageTwo
+          valveasheronineleftcontent
+          valveasheroninerightimage
+          valveasheroeighthleftcontent
+          valveasheroeighthrightimage
           seo {
             title
             metaDesc

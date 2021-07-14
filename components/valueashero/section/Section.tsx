@@ -33,11 +33,10 @@ const SectionOne: React.FC<SectionOne> = (data) => {
           />
 
           <div className="section2_data">
-            <div
-            
-            dangerouslySetInnerHTML={{
-                __html: data.data.valveasherofirstbottomcontent
-            }}
+            <div            
+              dangerouslySetInnerHTML={{
+                  __html: data.data.valveasherofirstbottomcontent
+              }}
             className="section2_data_left">
               
              
