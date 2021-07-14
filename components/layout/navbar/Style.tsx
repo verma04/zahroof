@@ -49,7 +49,7 @@ export const Nav = styled.nav`
             }
         }
 
-        li:nth-child(2)  {
+        li:nth-child(3)  {
 
 position: relative;
 .valve {
@@ -67,7 +67,7 @@ background-color: #dbb43fde;
 
 
 }
-li:nth-child(2):hover {
+li:nth-child(3):hover {
         
          .valve {
            display: flex;
@@ -129,7 +129,7 @@ li:nth-child(2):hover {
             }
          
         }
-        li:nth-child(2):hover {
+        li:nth-child(3):hover {
          background-color: #dbb43fde;
          .valve {
            display: flex;
@@ -139,7 +139,7 @@ li:nth-child(2):hover {
           }
 
 
-          li:nth-child(2)  {
+          li:nth-child(3)  {
 
            position: relative;
            .valve {
@@ -202,7 +202,7 @@ li:nth-child(2):hover {
               color: #fddb45;
             }
         }
-        li:nth-child(2)  {
+        li:nth-child(3)  {
 
 position: relative;
 .valve {
@@ -269,7 +269,7 @@ background-color: #dbb43fde;
           }
         }
 
-        li:nth-child(2)  {
+        li:nth-child(3)  {
 
 position: relative;
 .valve {
@@ -287,7 +287,7 @@ background-color: #dbb43fde;
 
 
 }
-li:nth-child(2):hover {
+li:nth-child(3):hover {
          background-color: #dbb43fde;
          .valve {
            display: flex;

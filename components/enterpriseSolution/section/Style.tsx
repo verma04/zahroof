@@ -59,10 +59,10 @@ export const Section = styled.section`
               margin-top: 42px;
               font-size: 21px;
               width: 100%;
-              font-weight: 600;
+             
               line-height: 28px;
               color: white;
-              font-family: Proxima-Bold;
+           
               line-height: 1.2;
               position: relative;
             }

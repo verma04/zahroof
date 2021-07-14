@@ -55,16 +55,17 @@ const Navbar: React.FC<{}> = () => {
                   <a   className={router.pathname == "/enterpriseSolutions" ? "active" : ""} >Enterprise Solutions</a>
                 </Link>
 
-                <div className="valve" >
-                <Link href="/valveashero">
-                  <a>Valve as hero</a>
-                </Link>
-                </div>
+               
               </li>
               <li>
                 <Link href="/engineeringSolutions">
                   <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} >Engineering Solutions</a>
                 </Link>
+                <div className="valve" >
+                <Link href="/valveashero">
+                  <a>Valve as hero</a>
+                </Link>
+                </div>
               </li>
               <li>
                 <Link href="/esgbenefits">
@@ -211,16 +212,17 @@ const Navbar: React.FC<{}> = () => {
                   <a   className={router.pathname == "/enterpriseSolutions" ? "active" : ""} >Enterprise Solutions</a>
                 </Link>
 
-                <div className="valve" >
-                <Link href="/valveashero">
-                  <a>Valve as hero</a>
-                </Link>
-                </div>
+               
               </li>
               <li>
                 <Link href="/engineeringSolutions">
                   <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} >Engineering Solutions</a>
                 </Link>
+                <div className="valve" >
+                <Link href="/valveashero">
+                  <a>Valve as hero</a>
+                </Link>
+                </div>
               </li>
               <li>
                 <Link href="/esgbenefits">

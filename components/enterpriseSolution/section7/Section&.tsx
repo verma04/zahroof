@@ -91,7 +91,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
         </div>
 
         <div className="section_bottom-1">
-          <span>Redefining valve in years, instead of months.</span>
+          <span>Redefining valve in years instead of months.</span>
         </div>
       </div>
     </Section>

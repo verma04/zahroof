@@ -140,7 +140,7 @@ const Section3: React.FC<Section3> = (data) => {
                 className="section3_right"
               >
                 <h2>{data.data.homeThreeRightHeading}</h2>
-                <a>Learn More&gt;</a>
+                <Link href="/esgbenefits" >Learn More&gt;</Link>
               </div>
             </div>
           </Parallax>

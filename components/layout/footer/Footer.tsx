@@ -7,7 +7,7 @@ const Footer: React.FC<{}> = () => {
     <Foot>
       <div className="footer_newsLetter">
         <h3>
-          Stay informed Receive our <br /> monthly zmail industry report
+          Stay informed. Receive our <br /> monthly zmail industry report
         </h3>
 
         <form>
@@ -38,26 +38,14 @@ const Footer: React.FC<{}> = () => {
                 <a>About Us</a>
               </Link>
             </li>
-            <li>
-              <Link href="/blog/hello-world">
-                <a>Support</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/blog/hello-world">
-                <a>Faq</a>
-              </Link>
-            </li>
+          
+         
             <li>
               <Link href="/blog/hello-world">
                 <a>Blog</a>
               </Link>
             </li>
-            <li>
-              <Link href="/blog/hello-world">
-                <a>FORM</a>
-              </Link>
-            </li>
+            
           </ul>
 
           <ul className="footer-right">

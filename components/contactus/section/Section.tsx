@@ -87,13 +87,11 @@ quote, please use the contact form to the right
                   <div className="field">
                     <label>Select One*</label>
                     <select name="pets" id="pet-select">
-                      <option value="">I WOULD LIKE AN ESTIMATE</option>
-                      <option value="dog">Dog</option>
-                      <option value="cat">Cat</option>
-                      <option value="hamster">Hamster</option>
-                      <option value="parrot">Parrot</option>
-                      <option value="spider">Spider</option>
-                      <option value="goldfish">Goldfish</option>
+                      <option value="">I Would Like An Estimate</option>
+                      <option value="dog">Additional Information</option>
+                      <option value="cat">General Inquiry</option>
+                      <option value="hamster">Design Integration</option>
+                   
                     </select>
                   </div>
                 </div>

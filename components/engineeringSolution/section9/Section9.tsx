@@ -2,7 +2,7 @@ import React from "react";
 import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
-
+import { useRouter } from 'next/router'
 interface SectionFiveProps {
   data: {
     engineeringfourbottomcontent: string;
@@ -16,6 +16,7 @@ interface SectionFiveProps {
 }
 
 const HeroSection: React.FC<SectionFiveProps> = (data) => {
+  const router = useRouter()
   return (
     <Section>
       <div className="section">
@@ -47,6 +48,7 @@ const HeroSection: React.FC<SectionFiveProps> = (data) => {
                     />
                   </li>
                   <li
+                  onClick={()=>router.push('/enterpriseSolutions')}
                     dangerouslySetInnerHTML={{
                       __html: data.data.engineeringfiveLeftContent,
                     }}
@@ -99,7 +101,7 @@ const HeroSection: React.FC<SectionFiveProps> = (data) => {
         </div>
 
         <div className="section_bottom-1">
-          <span>Redefining value in years , instend of months</span>
+          <span>Redefining value in years instend of months</span>
         </div>
       </div>
     </Section>

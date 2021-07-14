@@ -39,7 +39,7 @@ import Image from 'next/image'
             <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624874075/pnqbtnq5yxgu1o7pyquc.png' alt="sd" />
             </li>
             <li>Tel</li>
-            <li>(713)554-2678</li>
+            <li>(713) 554-2678</li>
         </ul>
 
         <ul>

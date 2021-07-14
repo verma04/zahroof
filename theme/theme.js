@@ -4,14 +4,14 @@ export default createGlobalStyle`
 a { 
   text-decoration: none; 
  color:#fafafb;
-
+  cursor: pointer;
   font-family: Proxima-Bold;
 } 
 
 
 sub, sup {
   /* Specified in % so that the sup/sup is the right size relative to the surrounding text */
-  font-size: 75%;
+  font-size: 60%;
 
   /* Zero out the line-height so that it doesn't interfere with the positioning that follows */
   line-height: 0;
