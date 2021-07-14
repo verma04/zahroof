@@ -123,6 +123,9 @@ const Home: React.FC<Section> = ({data}) => {
    */}
       </Head>
 
+
+
+
       <HeroSection data={data} />
       <Section data={data} />
       <Section2 data={data} />
