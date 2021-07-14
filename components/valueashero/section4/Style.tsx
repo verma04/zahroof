@@ -17,13 +17,13 @@ export const Section = styled.section`
       width: 100%;
       align-items: center;
       position: relative;
-      height: 55rem;
+      height: 50rem;
       background-color: #23344e;
       .tringle {
         position: absolute;
         right: 10%;
         width: 0;
-        top: -8%;
+        top: -6%;
         height: 0;
         border-left: 5rem solid transparent;
         border-right: 5rem solid transparent;
@@ -32,7 +32,7 @@ export const Section = styled.section`
 
       .section2_data {
         width: 90%;
-        height: 80%;
+        height: 70%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -45,9 +45,11 @@ export const Section = styled.section`
           align-items: left;
           flex-direction: column;
           h2 {
+            width: 124%;
             position: relative;
             padding-left: 0.5rem;
-            font-size: 3.3rem;
+            font-size: 55px;
+    line-height: 46px;
             color: white;
             position: relative;
 
@@ -70,11 +72,13 @@ export const Section = styled.section`
           }
           h3 {
             line-height: 1.1;
+            width: 80%;
             color: white;
             font-style: italic;
             font-size:2rem;
           }
           p {
+            width: 80%;
             color: white;
             line-height: 1.5;
           }
@@ -87,7 +91,7 @@ export const Section = styled.section`
           justify-content: space-between;
           align-items: center;
           flex-direction: column;
-          flex-wrap: wrap;
+          
           position: relative;
           .img_wrapper {
             position: relative;
@@ -100,14 +104,14 @@ export const Section = styled.section`
 
             font-size: 1.5rem;
             text-align: left;
-            width: 80%;
+            width: 109%;
             text-transform: uppercase;
           }
 
           p {
-            width: 80%;
-            line-height: 1.5;
-            color: white;
+            width: 109%;
+    line-height: 1.5;
+    color: white;
           }
         }
       }
@@ -193,7 +197,7 @@ export const Section = styled.section`
           justify-content: space-between;
           align-items: center;
           flex-direction: column;
-          flex-wrap: wrap;
+          
           position: relative;
           .img_wrapper {
             position: relative;
@@ -352,16 +356,7 @@ export const Section = styled.section`
       position: relative;
       
       background-color: #23344e;
-      .tringle {
-        position: absolute;
-        right: 10%;
-        width: 0;
-        top: -4%;
-        height: 0;
-        border-left: 5rem solid transparent;
-        border-right: 5rem solid transparent;
-        border-bottom: 4rem solid #23344e;
-      }
+   
 
       .section2_data {
         width: 90%;
@@ -379,8 +374,9 @@ export const Section = styled.section`
           align-items: left;
           flex-direction: column;
           h2 {
+           
             position: relative;
-            padding-left: 0.5rem;
+            
             font-size: 1.5rem;
             color: white;
             position: relative;

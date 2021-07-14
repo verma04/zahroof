@@ -56,7 +56,7 @@ const HeroSection: React.FC<SectionFiveProps> = (data) => {
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
-                      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356837/zh1sycnu12s4n75hizoj.png"
+                      src="http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png"
                     />
                   </li>
                 </div>
@@ -89,7 +89,7 @@ const HeroSection: React.FC<SectionFiveProps> = (data) => {
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
-                      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356837/zh1sycnu12s4n75hizoj.png"
+                      src="http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png"
                     />
                   </li>
                 </div>

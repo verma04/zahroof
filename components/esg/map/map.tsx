@@ -10,12 +10,14 @@ const HeroSection: React.FC<{}> = () => {
         <div className="section_bottom">
           <div className="section2_data">
             <li>
-              <Image
+
+            <Image
                 alt="Picture of the author"
                 objectFit="contain"
                 layout="fill"
-                src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1625564206/rkjkub9gd82rmigu3kge.png"
+                src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1625564206/gr81uhaffzt11ra3xq4w.png"
               />
+           
             </li>
 
             <li>
@@ -32,20 +34,25 @@ const HeroSection: React.FC<{}> = () => {
           </div>
 
           <div className="section2_data">
-            <li>
-              <Image
+            <li>   <Image
                 alt="Picture of the author"
                 objectFit="contain"
                 layout="fill"
-                src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1625564206/gr81uhaffzt11ra3xq4w.png"
+                src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1625564206/rkjkub9gd82rmigu3kge.png"
               />
+             
             </li>
 
             <li>
               <h3>
-                Valve opening and closing is negligible. <br />
-                <span>10 psi lower peak cylinder pressures. </span>
-              </h3>
+               
+             
+
+              SFV valves: Same resolution 
+              <span>Valve opening and closing is negligible. 
+10 psi lower peak cylinder pressures. </span>
+
+</h3>
             </li>
           </div>
         </div>

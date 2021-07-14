@@ -80,7 +80,7 @@ export const Section = styled.section`
               font-size: 20px;
             }
             h3 {
-              margin-top: 75px;
+             
               line-height: 1.4;
               color: white;
             }
@@ -174,7 +174,7 @@ export const Section = styled.section`
               margin-top: 1rem;
             }
             h3 {
-              margin-top: 75px;
+           
               line-height: 1.4;
               color: white;
             }

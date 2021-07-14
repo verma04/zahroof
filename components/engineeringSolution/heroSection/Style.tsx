@@ -41,7 +41,7 @@ export const Section = styled.section`
         align-items: center;
         .homePage-data {
           margin-top: 5%;
-          width: 70%;
+          width: 78%;
           height: 50%;
 
           display: flex;

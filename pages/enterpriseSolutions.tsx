@@ -3,7 +3,87 @@ import Home from "../components/enterpriseSolution/enterprise";
 import withApollo from "../hoc/withApollo";
 
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
-const Enterprise = ({ data }) => {
+interface Enterprise {
+  data: {
+    title:any
+    pageId:any
+    uri:any
+    status:any
+    featuredImage: {
+      node: {
+        title: any
+        sourceUrl:any
+      }
+    }
+    enterprisebannercontent:string
+
+    enterprisefirstcontent:string
+
+    enterprisefirstbottomcontent:string
+    enterprisetwoitemOneImage:string
+    enterprisetwoitemOneTitle:string
+    enterprisetwoitemTwoImage:string
+    enterprisetwoitemTwoTitle:string
+    enterprisetwoitemThreeImage:string
+    enterprisetwoitemThreeTitle:string
+    enterprisetwoitemFourImage:string
+    enterprisetwoitemFourTitle:string
+    enterprisetwoitemFiveImage:string
+    enterprisetwoitemFiveTitle:string
+    enterprisetwoitemSixImage:string
+    enterprisetwoitemSixTitle:string
+    enterpriseTwoContent:string
+    enterprisethreeTopContent:string
+    enterprisethreebottomleftContent:string
+    enterprisethreebottomrightContent:string
+    enterprisethreeitemOneImage:string
+    enterprisethreeitemOneTitle:string
+    enterprisethreeitemTwoImage:string
+    enterprisethreeitemTwoTitle:string
+    enterprisethreeitemThreeImage:string
+    enterprisethreeitemThreeTitle:string
+    enterprisethreeitemFourImage:string
+    enterprisethreeitemFourTitle:string
+    enterprisefourLeftImage:string
+    enterprisefourRightContent:string
+    enterprisefiveLeftTitle:string
+    enterprisefourBottomContent:string
+    enterprisefiveLeftIcon:string
+    enterprisefiveRightTitle:string
+    enterprisefiveLeftContent:string
+    enterprisefiveRightIcon:string
+    enterprisefiveRightContent:string
+
+  
+    seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+
+const index: React.FC<Enterprise> = ({data}) => {
   return (
     <div>
       <Home data={data} />
@@ -96,7 +176,7 @@ export async function getStaticProps() {
       }
     `,
   });
-  console.log(data.page);
+ 
   return {
     props: {
       data: data.page,
@@ -105,4 +185,4 @@ export async function getStaticProps() {
   };
 }
 
-export default withApollo(Enterprise);
+export default withApollo(index);

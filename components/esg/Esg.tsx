@@ -8,7 +8,65 @@ import Section3 from "./section3/Section3";
 import { useGetEsg } from "../../apollo/actions";
 import Footer from "../layout/footer/Footer";
 import Map from "./map/map";
-const Home = ({ data }) => {
+interface esg {
+  data: {
+    id:any
+    pageId:any
+    title:any
+    featuredImage: {
+      node: {
+        title:any
+        sourceUrl:any
+      }
+    }
+    esgbenifitsbannerimage:string
+    esgbenifitsbannerrightcontent:string
+    esgbenifitsfirstleftcontent:string
+    esgbenifitsfirstrightoneicon:string
+    esgbenifitsfirstRightOneContent:string
+    esgbenifitsfirstrighttwoicon:string
+    esgbenifitsfirstRightTwoContent:string
+    esgbenifitsfirstrightthreeicon:string
+    esgbenifitsfirstRightThreeContent:string
+    esgbenifitstwoleftcontent:string
+    esgbenifitstworightoneicon:string
+    esgbenifitstwoRightOneContent:string
+    esgbenifitstworighttwoicon:string
+    esgbenifitstwoRightTwoContent:string
+    esgbenifitstworightthreeicon:string
+    esgbenifitstwoRightThreeContent:string
+    esgbenifitsthreerightcontent:string
+
+  
+    seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+
+const Esg: React.FC<esg> = ({data}) => {
   return (
     <div>
       <Head>
@@ -64,4 +122,4 @@ const Home = ({ data }) => {
   );
 };
 
-export default Home;
+export default Esg;

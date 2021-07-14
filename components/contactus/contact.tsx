@@ -1,17 +1,55 @@
 import React from "react";
 import HeroSection from "./heroSection/heroSection";
 import Section from "./section/Section";
-import Section2 from "./section2/Section2";
-import Section3 from "./section3/Section3";
-import Section4 from "./section4/Section4";
-import AboutUs from "./aboutus/aboutus";
-import Footer from "../layout/footer/Footer";
-import MakeCall from "./makecall/makecall";
 import Head from "next/head";
+import Footer from "../layout/footer/Footer";
+import { useGetContactPage } from "../../apollo/actions";
+interface Contact {
+  data: {
+    title:any
+    pageId:any
+    uri:any
+    status:any
+    featuredImage: {
+      node: {
+        title: any
+        sourceUrl:any
+      }
+    }
+    content:string
+    contactaddress:string
+ 
 
-// import withApollo from '@/hoc/withApollo'
-import { useGetHomePage } from "../../apollo/actions";
-const Home = ({ data }) => {
+
+  
+    seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+const contact: React.FC<Contact> = ({data}) => {
   return (
     <div>
       <Head>
@@ -58,14 +96,10 @@ const Home = ({ data }) => {
 
       <HeroSection data={data} />
       <Section data={data} />
-      <Section2 data={data} />
-      <Section3 data={data} />
-      <Section4 data={data} />
-      <AboutUs data={data} />
-      <MakeCall />
+
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default contact;

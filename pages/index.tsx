@@ -1,18 +1,88 @@
 import React from "react";
 import Home from "../components/HomePage/Home";
 import withApollo from "../hoc/withApollo";
-
+import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
+ 
 
-const homePage = ({ data }) => {
+interface Home {
+  data: {
+    esgbenifitsthreerightcontent: string;
+
+    title:string
+    pageId:string
+    uri:string
+    status:string
+    homebannercontent:string
+    honebannerimageurl:string
+    firstLeftBgimage:string
+    firstLeftHeading:string
+    firstLeftIcon:string
+    firstLeftTitle:string
+    firstRightBgimage:string
+    firstRightHeading:string
+    firstRightIcon:string
+    firstRightTitle:string
+    homeSecondLeftContent:string
+    homeSecondRightImageOne:string
+    homeSecondRightTitleOne:string
+    homeSecondRightImageTwo:string
+    homeSecondRightTitleTwo:string
+    homeSecondRightImageThree:string
+    homeSecondRightTitleThree:string
+    homeSecondRightImageFour:string
+    homeSecondRightTitleFour:string
+    homeThreeLeftHeading:string
+    homeThreeRightHeading:string
+    homeThreeRightLink:string
+    homeFourHeading:string
+    homeFourImageurl:string
+    homeFiveImageurl:string
+    homeFiveRightContent:string
+    homeSixCaseStudyContent:string
+    homeSixCaseStudyButtonUrl:string
+    homeSixRightOneImage:string
+    homeSixRightOneName:string
+    homeSixRightTwoImage:string
+    homeSixRightTwoName:string
+    content:string,
+    seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+const index: React.FC<Home> = ({data}) => {
   return (
     <div>
+   
       <Home data={data} />
     </div>
   );
 };
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async (context) => {
   const client = new ApolloClient({
     uri: "http://18.217.254.134/graphql",
     cache: new InMemoryCache(),
@@ -86,7 +156,7 @@ export async function getStaticProps() {
       }
     `,
   });
-  console.log(data.page);
+  
   return {
     props: {
       data: data.page,
@@ -95,4 +165,4 @@ export async function getStaticProps() {
   };
 }
 
-export default withApollo(homePage);
+export default withApollo(index);

@@ -62,12 +62,17 @@ export const Section = styled.section`
           justify-content: space-around;
           align-items: center;
           flex-direction: column;
-
+  
           position: relative;
           align-items: center;
 
           h3 {
             text-transform: uppercase;
+            font-family: 'Montserrat Alternates', sans-serif;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            
           }
           li {
           
@@ -75,6 +80,9 @@ export const Section = styled.section`
             text-transform: uppercase;
             font-size: 29.99px;
             line-height: 33.32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             text-align: center;
 
@@ -89,7 +97,7 @@ export const Section = styled.section`
              text-align:left;
           }
           span {
-            margin-top: 43px;
+            
             font-weight: 500;
             font-family: "Proxima-Light";
             font-style: italic;

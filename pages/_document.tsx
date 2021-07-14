@@ -21,6 +21,10 @@ export default class MyDocument extends Document {
         styles: (
           <>
             {initialProps.styles}
+
+            <style data-href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap">
+
+</style>
             {sheet.getStyleElement()}
           </>
         ),

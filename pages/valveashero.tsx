@@ -47,6 +47,9 @@ interface Valueashero {
       valveasherotwoitemThreeTitle: string
       valveasherotwoitemTwoImage: string
       valveasherotwoitemTwoTitle: string
+      valveasherosixLeftContent: string;
+      valveasherosixRightImageOne: string;
+      valveasherosixRightImageTwo: string;
 
 
     seo: {
@@ -138,6 +141,9 @@ export async function getStaticProps() {
           valveasherotwoitemThreeTitle
           valveasherotwoitemTwoImage
           valveasherotwoitemTwoTitle
+          valveasherosixLeftContent
+          valveasherosixRightImageOne
+          valveasherosixRightImageTwo
           seo {
             title
             metaDesc

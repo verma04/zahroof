@@ -32,6 +32,9 @@ export const Section = styled.section`
           flex-direction: column;
 
           p {
+
+    font-weight: 600;
+
             line-height: 2;
           }
           h3 {

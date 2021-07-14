@@ -3,6 +3,7 @@ import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 import AOS from "aos";
+import Link from 'next/link'
 import { Parallax, Background } from "react-parallax";
 import {
   Element,
@@ -30,8 +31,7 @@ const Section3: React.FC<Section3> = (data) => {
   const [right, setright] = useState(21);
   const [left, setleft] = useState(21);
 
-  const [right2, setright2] = useState(21);
-  const [left2, setleft2] = useState(21);
+
   useEffect(() => {
     AOS.init({
       duration: 3000,
@@ -49,65 +49,46 @@ const Section3: React.FC<Section3> = (data) => {
       console.log(window.pageYOffset, "0");
     } else if (window.pageYOffset > 1600 && window.pageYOffset < 1610) {
       setwidth(10);
-    } else if (window.pageYOffset > 1610 && window.pageYOffset < 1620) {
-      setwidth(20);
-    } else if (window.pageYOffset > 1620 && window.pageYOffset < 1630) {
+    } else if (window.pageYOffset > 1610 && window.pageYOffset < 1650) {
       setwidth(30);
-    } else if (window.pageYOffset > 1640 && window.pageYOffset < 1650) {
-      setwidth(40);
-      console.log(window.pageYOffset);
-      setright(15);
-      setleft(15);
-    } else if (window.pageYOffset > 1660 && window.pageYOffset < 1670) {
+      setright(10)
+      setleft(10)
+    }
+    else if (window.pageYOffset > 1650 && window.pageYOffset < 1700) {
       setwidth(50);
-      console.log(window.pageYOffset);
-      setright(10);
-      setleft(10);
-    } else if (window.pageYOffset > 1670 && window.pageYOffset < 1675) {
-      setwidth(60);
-      console.log(window.pageYOffset);
-      setright(5);
-      setleft(5);
-    } else if (window.pageYOffset > 1675 && window.pageYOffset < 1680) {
+      setright(0)
+      setleft(0)
+    }
+    else if (window.pageYOffset > 1700 && window.pageYOffset < 1750) {
       setwidth(70);
-      console.log(window.pageYOffset);
-      setright(0);
-      setleft(0);
-    } else if (window.pageYOffset > 1680 && window.pageYOffset < 1685) {
-      setwidth(80);
-      setright(-2);
-      setleft(-2);
-      console.log(window.pageYOffset);
-    } else if (window.pageYOffset > 1685 && window.pageYOffset < 1690) {
-      setwidth(90);
-      setright(-10);
-      setleft(-10);
-      console.log(window.pageYOffset);
-    } else if (window.pageYOffset > 1690 && window.pageYOffset < 1700) {
+      setright(-10)
+      setleft(-10)
+    }
+    else if (window.pageYOffset > 1750 && window.pageYOffset < 1800) {
+      setwidth(70);
+      setright(-15)
+      setleft(-15)
+    }
+    else if (window.pageYOffset > 1800 ) {
       setwidth(100);
-      setright(-15);
-      setleft(-15);
-      console.log(window.pageYOffset);
-    } else if (window.pageYOffset > 1700) {
-      setwidth(100);
-      setright(-50);
-      setleft(-50);
-      console.log(window.pageYOffset);
+      setright(-21)
+      setleft(-21)
     }
   };
 
   return (
     <>
-      <BrowserView>
+    
         <Section>
           {/* <h1>This is rendered only in browser</h1> */}
 
           {/* <MobileView>
                 <h1>This is rendered only on mobile</h1>
             </MobileView> */}
-
+{/* {window.pageYOffset} */}
           <Parallax bgImage={image} strength={500}>
             <div className="section3">
+       
               <div style={{ height: `${width}%` }} className="middle">
                 <div className="img-wrapper">
                   <Image
@@ -164,9 +145,9 @@ const Section3: React.FC<Section3> = (data) => {
             </div>
           </Parallax>
         </Section>
-      </BrowserView>
+     
 
-      <MobileView>
+    
         <Section>
           {/* <h1>This is rendered only in browser</h1> */}
 
@@ -174,9 +155,12 @@ const Section3: React.FC<Section3> = (data) => {
                 <h1>This is rendered only on mobile</h1>
             </MobileView> */}
 
-          <Parallax bgImage={image} strength={500}>
-            <div className="section3">
-              <div style={{ height: `${width2}%` }} className="middle">
+          <Parallax bgImage={image} >
+            <div className="section3-sm">
+              <div  
+              data-aos="zoom-in-up"
+              
+              className="middle-1">
                 <div className="img-wrapper">
                   <Image
                     objectFit="contain"
@@ -189,7 +173,7 @@ const Section3: React.FC<Section3> = (data) => {
                 </div>
               </div>
 
-              <div style={{ right: `${right2}%` }} className="right">
+              <div data-aos="fade-right" className="right">
                 <div className="img-wrapper">
                   <Image
                     objectFit="contain"
@@ -202,7 +186,7 @@ const Section3: React.FC<Section3> = (data) => {
                 </div>
               </div>
 
-              <div style={{ left: `${left2}%` }} className="left">
+              <div data-aos="fade-left"  className="left">
                 <div className="img-wrapper">
                   <Image
                     objectFit="contain"
@@ -227,12 +211,12 @@ const Section3: React.FC<Section3> = (data) => {
                 className="section3_right"
               >
                 <h2>{data.data.homeThreeRightHeading}</h2>
-                <a>Learn More&gt;</a>
+                <Link href="/" >Learn More&gt;</Link>
               </div>
             </div>
           </Parallax>
         </Section>
-      </MobileView>
+     
     </>
   );
 };

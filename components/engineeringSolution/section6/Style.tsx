@@ -32,7 +32,7 @@ export const Section = styled.section`
       }
 
       .section2_data {
-        width: 85%;
+        width: 90%;
         height: 100%;
         display: flex;
         justify-content: space-between;
@@ -40,7 +40,7 @@ export const Section = styled.section`
         position: absolute;
         .section2_data_left {
           display: flex;
-          width: 70%;
+          width: 60%;
           height: 100%;
           justify-content: flex-start;
           align-items: left;
@@ -116,7 +116,9 @@ export const Section = styled.section`
             span {
               width: 100%;
 
-              text-align: center;
+              margin-left: 25%;
+
+              text-align: left;
               font-size: 20px;
               text-transform: uppercase;
               color: white;

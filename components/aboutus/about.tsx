@@ -1,10 +1,62 @@
 import React from "react";
 import HeroSection from "./heroSection/heroSection";
 import Section from "./section/Section";
-import Head from "next/head";
+import Section2 from "./section2/Section2";
 import Footer from "../layout/footer/Footer";
-import { useGetContactPage } from "../../apollo/actions";
-const Home = ({ data }) => {
+import { useGetAboutus } from "../../apollo/actions";
+import withApollo from "../../hoc/withApollo";
+import Head from "next/head";
+interface About {
+  data: {
+    title:any
+    pageId:any
+    uri:any
+    status:any
+    featuredImage: {
+      node: {
+        title: any
+        sourceUrl:any
+      }
+    }
+    content:string
+          aboutfirstleftContent:string
+          aboutfirstrightContent:string
+          aboutsecondleftContent:string
+          aboutsecondrightImage:string
+          aboutsecondrightContent:string
+ 
+
+
+  
+    seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+
+const index: React.FC<About> = ({data}) => {
   return (
     <div>
       <Head>
@@ -51,10 +103,10 @@ const Home = ({ data }) => {
 
       <HeroSection data={data} />
       <Section data={data} />
-
+      <Section2 data={data} />
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default index;

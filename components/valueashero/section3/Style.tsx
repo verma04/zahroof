@@ -38,6 +38,7 @@ export const Section = styled.section`
           align-items: left;
           flex-direction: column;
           h2 {
+            
             position: relative;
             padding-left: 0.5rem;
             font-size: 55px;
@@ -88,14 +89,14 @@ export const Section = styled.section`
 
             font-size: 26.64px;
             text-align: left;
-            width: 50%;
+            width: 60%;
 
             text-transform: uppercase;
           }
 
           p {
             margin-top: 55px;
-            width: 50%;
+            width: 60%;
             line-height: 30px;
             text-align: left;
             font-size: 15px;
@@ -417,7 +418,7 @@ export const Section = styled.section`
           
           h3 {
             color: #24334d;
-       margin-bottom: 1rem;
+       margin-top: 2rem;
 
             font-size: 26.64px;
             text-align: left;

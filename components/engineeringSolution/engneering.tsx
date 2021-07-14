@@ -8,7 +8,68 @@ import Section8 from "./section8/Section8";
 import Section9 from "./section9/Section9";
 import Footer from "../layout/footer/Footer";
 import Head from "next/head";
-const Home = ({ data }) => {
+interface Engineering {
+  data: {
+    title:any
+    pageId:any
+    uri:any
+    status:any
+    featuredImage: {
+      node: {
+        title: any
+        sourceUrl:any
+      }
+    }
+    engineeringbannerleftcontent:string
+    engineeringbannerrightcontent:string
+    engineeringfirstleftcontent:string
+    engineeringfirstrightcontent:string
+    engineeringtwoleftcontent:string
+    engineeringtworightcontent:string
+    engineeringthreeleftimage:string
+    engineeringthreerightcontent:string
+    engineeringfourleftimage:string
+    engineeringfourrightcontent:string
+    engineeringfourbottomcontent:string
+    engineeringfiveLeftTitle:string
+    engineeringfiveLeftIcon:string
+    engineeringfiveLeftContent:string
+    engineeringfiveRightTitle:string
+    engineeringfiveRightIcon:string
+    engineeringfiveRightContent:string
+ 
+
+
+  
+    seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+
+const Engineering: React.FC<Engineering> = ({data}) => {
   return (
     <div>
       <Head>
@@ -59,10 +120,10 @@ const Home = ({ data }) => {
       <Section7 data={data} />
       <Section8 data={data} />
       <Section9 data={data} />
-      <Makecall data={data} />
-      <Footer data={data} />
+      <Makecall  />
+      <Footer />
     </div>
   );
 };
 
-export default Home;
+export default Engineering;

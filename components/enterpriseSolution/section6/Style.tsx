@@ -103,7 +103,9 @@ export const Section = styled.section`
             height: 10%;
             align-items: center;
             span {
-              width: 60%;
+             
+    width: 74%;
+
               text-align: left;
               font-size: 37px;
               line-height: 40px;
@@ -134,7 +136,9 @@ export const Section = styled.section`
             }
             p {
               height: 20%;
-              width: 60%;
+           
+    width: 62%;
+
               font-size: 17px;
               line-height: 17px;
               margin-top: 0.5rem;

@@ -15,7 +15,7 @@ interface HeroSectionProps {
   };
 }
 const HeroSection: React.FC<HeroSectionProps> = (data) => {
-  const set: string = "SEE WHAT WE'VE DONE FOR OTHERS";
+  const set: string = "SEE WHAT WE'VE DONE FOR OTHERS.";
 
   return (
     <Section>
@@ -53,7 +53,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
-                      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356837/zh1sycnu12s4n75hizoj.png"
+                      src="http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png"
                     />
                   </li>
                 </div>
@@ -81,7 +81,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
-                      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1624356837/zh1sycnu12s4n75hizoj.png"
+                      src="http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png"
                     />
                   </li>
                 </div>
@@ -91,7 +91,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
         </div>
 
         <div className="section_bottom-1">
-          <span>Redefining valve in years, instead of months</span>
+          <span>Redefining valve in years, instead of months.</span>
         </div>
       </div>
     </Section>

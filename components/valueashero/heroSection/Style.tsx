@@ -25,7 +25,7 @@ export const Section = styled.section`
         position: absolute;
         width: 100%;
         height: 100%;
-        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1624085966/yoy5pmbutgpdmghuktg6.png");
+        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625813528/dzoefyedywxy5qeorb9o.png");
 
         background-position: center;
         background-repeat: no-repeat;
@@ -35,7 +35,7 @@ export const Section = styled.section`
         align-items: center;
         .homePage-data {
           margin-top: 5%;
-          width: 75%;
+          width: 80%;
           height: 70%;
 
           display: flex;

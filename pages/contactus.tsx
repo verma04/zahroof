@@ -1,8 +1,53 @@
 import React from "react";
 import Contact from "../components/contactus/contact";
-import withApollo from "../hoc/withApollo";
+import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
-const index = ({ data }) => {
+interface Contact {
+  data: {
+    title:any
+    pageId:any
+    uri:any
+    status:any
+    featuredImage: {
+      node: {
+        title: any
+        sourceUrl:any
+      }
+    }
+    content:string
+    contactaddress:string
+ 
+
+
+  
+    seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+const index: React.FC<Contact> = ({data}) => {
   return (
     <div>
       <Contact data={data} />
@@ -10,7 +55,7 @@ const index = ({ data }) => {
   );
 };
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async (context) => {
   const client = new ApolloClient({
     uri: "http://18.217.254.134/graphql",
     cache: new InMemoryCache(),
@@ -58,7 +103,7 @@ export async function getStaticProps() {
       }
     `,
   });
-  console.log(data.page);
+ 
   return {
     props: {
       data: data.page,
@@ -67,4 +112,4 @@ export async function getStaticProps() {
   };
 }
 
-export default withApollo(index);
+export default index;

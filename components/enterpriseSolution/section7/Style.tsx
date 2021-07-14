@@ -35,14 +35,14 @@ export const Section = styled.section`
         position: relative;
         .tringle {
           position: absolute;
-          left: 34%;
-          width: 0;
-          bottom: -30%;
-          height: 0;
-          border-left: 15rem solid transparent;
-          border-right: 15rem solid transparent;
-          border-top: 20rem solid #3b546a;
-          z-index: 1;
+    left: 40%;
+    width: 0px;
+    bottom: -18%;
+    height: 0px;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+    border-top: 8rem solid rgb(59, 84, 106);
+    z-index: 1;
         }
       }
 

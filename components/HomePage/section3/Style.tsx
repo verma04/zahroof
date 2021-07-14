@@ -123,14 +123,20 @@ export const Section = styled.section`
         }
       }
     }
+    .section3-sm {
+      display: none;
+    }
   }
 
   @media (min-width: 1024px) and (max-width: 1280px) {
     .react-parallax {
       width: 100%;
     }
-
     .section3 {
+      display: none;
+    }
+
+    .section3-sm {
       position: relative;
       display: flex;
       justify-content: center;
@@ -148,11 +154,12 @@ export const Section = styled.section`
       background-repeat: no-repeat;
       background-size: cover;
 
-      .middle {
+      .middle-1 {
         position: absolute;
         bottom: -3%;
         width: 40%;
         left: 31%;
+        height: 88%;
 
         .img-wrapper {
           width: 100%;
@@ -192,8 +199,8 @@ export const Section = styled.section`
       h2 {
         position: relative;
         text-transform: uppercase;
-        font-size: 46px;
-        line-height: 46px;
+        font-size: 34px;
+        line-height: 34px;
       }
       h2:after {
         position: absolute;
@@ -210,8 +217,8 @@ export const Section = styled.section`
       .section3_left {
         position: absolute;
         top: 45%;
-        left: 0;
-        width: 30%;
+        left: 43px;
+    width: 33%;
         /* height: 100%; */
         display: flex;
         justify-content: center;
@@ -219,9 +226,13 @@ export const Section = styled.section`
       }
       .section3_right {
         position: absolute;
-        top: 45%;
-        right: 0%;
-        width: 30%;
+        
+    top: 45%;
+    right: 0%;
+    
+    width: 26%;
+
+
         /* height: 100%; */
         display: flex;
         justify-content: center;
@@ -245,6 +256,12 @@ export const Section = styled.section`
     }
 
     .section3 {
+      display: none;
+    }
+
+
+
+    .section3-sm {
       position: relative;
       display: flex;
       justify-content: center;
@@ -262,11 +279,12 @@ export const Section = styled.section`
       background-repeat: no-repeat;
       background-size: cover;
 
-      .middle {
+      .middle-1 {
         position: absolute;
         bottom: -3%;
         width: 40%;
         left: 31%;
+        height: 82%;
 
         .img-wrapper {
           width: 100%;
@@ -360,6 +378,10 @@ export const Section = styled.section`
     }
 
     .section3 {
+      display: none;
+    }
+
+    .section3-sm {
       position: relative;
       display: flex;
       justify-content: center;
@@ -377,15 +399,16 @@ export const Section = styled.section`
       background-repeat: no-repeat;
       background-size: cover;
 
-      .middle {
+      .middle-1 {
         position: absolute;
-        bottom: -3%;
-        width: 40%;
-        left: 31%;
+    bottom: -3%;
+    width: 61%;
+    left: 20%;
+    height: 82%;
 
         .img-wrapper {
           width: 100%;
-          height: 100%;
+          height:100%;
           position: relative;
           transition: transform 0.5s;
         }
@@ -396,7 +419,7 @@ export const Section = styled.section`
         height: 30%;
         top: 5%;
         width: 30%;
-        left: -4%;
+        left: -14%;
 
         .img-wrapper {
           width: 100%;
@@ -410,7 +433,7 @@ export const Section = styled.section`
         height: 30%;
         top: 5%;
         width: 30%;
-        right: -4%;
+        right: -14%;
 
         .img-wrapper {
           width: 100%;
@@ -439,8 +462,9 @@ export const Section = styled.section`
       .section3_left {
         position: absolute;
         top: 45%;
-        left: 4.5%;
-        width: 30%;
+      left:8%;
+    width: 31%;
+
         /* height: 100%; */
         display: flex;
         justify-content: center;
@@ -449,7 +473,7 @@ export const Section = styled.section`
       .section3_right {
         position: absolute;
         top: 45%;
-        right: 0%;
+        right: 3%;
         width: 30%;
         /* height: 100%; */
         display: flex;
@@ -457,14 +481,13 @@ export const Section = styled.section`
         align-items: start;
         flex-direction: column;
         a {
-          margin-left: 8rem;
+         
           margin-top: 25px;
           color: #222222;
-          font-size: 30px;
-          line-height: 28px;
-          font-weight: 900;
+         
+          
           border-bottom: 1px solid black;
-          margin-left: 8rem;
+         
         }
       }
     }

@@ -1,8 +1,67 @@
 import React from "react";
-import Esg from "../components/esg/esg";
+import Esg from "../components/esg/Esg";
 import withApollo from "../hoc/withApollo";
+import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
-const index = ({ data }) => {
+interface Esg {
+  data: {
+    id:any
+    pageId:any
+    title:any
+    featuredImage: {
+      node: {
+        title:any
+        sourceUrl:any
+      }
+    }
+    esgbenifitsbannerimage:string
+    esgbenifitsbannerrightcontent:string
+    esgbenifitsfirstleftcontent:string
+    esgbenifitsfirstrightoneicon:string
+    esgbenifitsfirstRightOneContent:string
+    esgbenifitsfirstrighttwoicon:string
+    esgbenifitsfirstRightTwoContent:string
+    esgbenifitsfirstrightthreeicon:string
+    esgbenifitsfirstRightThreeContent:string
+    esgbenifitstwoleftcontent:string
+    esgbenifitstworightoneicon:string
+    esgbenifitstwoRightOneContent:string
+    esgbenifitstworighttwoicon:string
+    esgbenifitstwoRightTwoContent:string
+    esgbenifitstworightthreeicon:string
+    esgbenifitstwoRightThreeContent:string
+    esgbenifitsthreerightcontent:string
+
+  
+    seo : {
+      title:string 
+      metaDesc:string
+      metaKeywords:string
+      focuskw:string
+      canonical:string
+      cornerstone:string
+      fullHead:string
+      metaRobotsNofollow:string
+      metaRobotsNoindex:string
+      opengraphAuthor:string
+      opengraphDescription:string
+      opengraphModifiedTime:string
+      opengraphPublishedTime:string
+      opengraphPublisher:string
+      opengraphSiteName:string
+      opengraphTitle:string
+      opengraphType:string
+      opengraphUrl:string
+      readingTime:string
+      twitterDescription:string
+      twitterTitle:string
+    }
+
+  };
+}
+
+
+const index: React.FC<Esg> = ({data}) => {
   return (
     <div>
       <Esg data={data} />
@@ -10,7 +69,7 @@ const index = ({ data }) => {
   );
 };
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async (context) => {
   const client = new ApolloClient({
     uri: "http://18.217.254.134/graphql",
     cache: new InMemoryCache(),
@@ -73,7 +132,7 @@ export async function getStaticProps() {
       }
     `,
   });
-  console.log(data.page);
+  
   return {
     props: {
       data: data.page,

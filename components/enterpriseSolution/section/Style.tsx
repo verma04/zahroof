@@ -55,9 +55,10 @@ export const Section = styled.section`
             }
 
             p {
+             
               margin-top: 42px;
               font-size: 21px;
-              width: 80%;
+              width: 100%;
               font-weight: 600;
               line-height: 28px;
               color: white;
@@ -124,7 +125,7 @@ export const Section = styled.section`
             }
 
             p {
-              width: 50%;
+              width: 55%;
               margin-top: 2rem;
               font-size: 16px;
               font-family: Proxima-Bold;
@@ -170,7 +171,7 @@ export const Section = styled.section`
             font-size: 40px;
             line-height: 40px;
             color: white;
-            margin-left: 5rem;
+            margin-left: 2rem;
           }
           h2:after {
             position: absolute;
