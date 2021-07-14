@@ -57,6 +57,9 @@ interface Valueashero {
     valveasherotwoitemThreeTitle: string
     valveasherotwoitemTwoImage: string
     valveasherotwoitemTwoTitle: string
+    valveasherosixLeftContent : string
+    valveasherosixRightImageOne : string
+    valveasherosixRightImageTwo : string
 
 
     seo: {
@@ -90,16 +93,16 @@ const Valueashero: React.FC<Valueashero> = ({data}) => {
   return (
     <div>
       <HeroSection data={data} />
-      <Section />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
+      <Section data={data} />
+      <Section2 data={data} />
+      <Section3 data={data} />
+      <Section4 data={data} />
+      <Section5 data={data} />
       <Section6 />
       <Section7 />
       <Section8 />
       <Section9 />
-      <Makecall/>
+      <Makecall />
       <Footer />
 
     </div>
