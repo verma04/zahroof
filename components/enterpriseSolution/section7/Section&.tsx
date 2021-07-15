@@ -2,7 +2,7 @@ import React from "react";
 import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
-
+import { useRouter } from 'next/router'
 interface HeroSectionProps {
   data: {
     enterprisefiveLeftTitle: string;
@@ -16,7 +16,7 @@ interface HeroSectionProps {
 }
 const HeroSection: React.FC<HeroSectionProps> = (data) => {
   const set: string = "SEE WHAT WE'VE DONE FOR OTHERS.";
-
+  const router = useRouter()
   return (
     <Section>
       <div className="section">
@@ -45,7 +45,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
                     />
                   </li>
 
-                  <li>
+                  <li   onClick={()=>router.push('/engineeringSolutions')} >
                     <h3>{data.data.enterprisefiveLeftContent}</h3>
                   </li>
                   <li>
@@ -74,7 +74,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
                   </li>
 
                   <li>
-                    <h3>{data.data.enterprisefiveRightContent}</h3>
+                    <h3  onClick={()=>router.push('/contactus')} >{data.data.enterprisefiveRightContent}</h3>
                   </li>
                   <li>
                     <Image

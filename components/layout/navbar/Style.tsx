@@ -45,7 +45,7 @@ export const Nav = styled.nav`
            
           }
           .active {
-              color: #fddb45;
+               color: #dbb43f;
             }
         }
 
@@ -125,7 +125,7 @@ li:nth-child(3):hover {
             text-transform: uppercase;
           }
           .active {
-              color: #fddb45;
+            color: #dbb43f;
             }
          
         }
@@ -199,7 +199,7 @@ li:nth-child(3):hover {
             text-transform: uppercase;
           }
           .active {
-              color: #fddb45;
+             color: #dbb43f;
             }
         }
         li:nth-child(3)  {

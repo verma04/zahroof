@@ -140,7 +140,9 @@ export const Section = styled.section`
     width: 62%;
 
               font-size: 17px;
-              line-height: 17px;
+              
+    line-height: 19px;
+
               margin-top: 0.5rem;
               text-transform: uppercase;
               color: white;
@@ -287,7 +289,9 @@ export const Section = styled.section`
               height: 20%;
               width: 100%;
               font-size: 17px;
-              line-height: 17px;
+              
+    line-height: 19px;
+
               margin-top: 0.5rem;
               text-transform: uppercase;
               color: white;
@@ -433,7 +437,9 @@ export const Section = styled.section`
               height: 20%;
               width: 60%;
               font-size: 17px;
-              line-height: 17px;
+              
+    line-height: 19px;
+
               margin-top: 0.5rem;
               text-transform: uppercase;
               color: white;
@@ -577,7 +583,9 @@ export const Section = styled.section`
               height: 20%;
               width: 100%;
               font-size: 17px;
-              line-height: 17px;
+              
+    line-height: 19px;
+
               margin-top: 0.5rem;
               text-transform: uppercase;
               color: white;

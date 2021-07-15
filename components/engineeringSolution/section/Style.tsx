@@ -87,7 +87,7 @@ export const Section = styled.section`
           .section2_data_right {
             margin-right: 10%;
             display: flex;
-            width: 21%;
+            width: 25%;
 
             height: 80%;
             justify-content: space-around;

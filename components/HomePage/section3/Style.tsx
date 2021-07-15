@@ -118,8 +118,40 @@ export const Section = styled.section`
           font-size: 30px;
           line-height: 28px;
           font-weight: 900;
-          border-bottom: 1px solid black;
+         
           margin-left: 8rem;
+          position: relative;
+
+          &:before {
+    content: ">";
+    position: absolute;
+   
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+    right: -20%;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    -webkit-transition: all 1s linear 0s;
+    transition: all 0.2s linear 0s;
+    font-size: 22px;
+    font-weight: bold;
+    }
+
+    
+
+    &:hover {
+    text-indent: -20px;
+    background-color: transparent;
+    &:before {
+        opacity: 1;
+        text-indent: 0px;
+    }
+}
         }
       }
     }

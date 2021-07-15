@@ -330,7 +330,7 @@ min-width: 10% !important;
                 text-align: left;
                 width: 47%;
                 font-size: 16px;
-                font-family: Proxima-Bold;
+                font-weight: 600;
                 line-height: 24px;
                 margin-left: -20px;
               }

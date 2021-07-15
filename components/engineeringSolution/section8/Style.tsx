@@ -35,7 +35,7 @@ export const Section = styled.section`
         #ab {
           position: absolute;
           font-size: 1.5rem;
-          bottom: 10%;
+          bottom: 5%;
           left: 60%;
           margin-top: 3rem;
           line-height: 2;

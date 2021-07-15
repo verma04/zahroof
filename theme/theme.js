@@ -11,7 +11,7 @@ a {
 
 sub, sup {
   /* Specified in % so that the sup/sup is the right size relative to the surrounding text */
-  font-size: 60%;
+  font-size: 52%;
 
   /* Zero out the line-height so that it doesn't interfere with the positioning that follows */
   line-height: 0;
@@ -25,7 +25,9 @@ sub, sup {
 
 sup {
   /* Move the superscripted text up */
-  top: -0.5em;
+  
+  top: -0.8em;
+
 }
 
 sub {
