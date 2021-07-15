@@ -189,7 +189,7 @@ export const Section = styled.section`
             .text-1 {
               position: absolute;
     top: 0%;
-    right: 10%;
+    right: 12%;
     width: 29%;
     height: 10rem;
     
@@ -211,7 +211,9 @@ min-width: 10% !important;
             .text-2 {
               position: absolute;
               bottom:0%;
-               left:4%;
+             
+    left: 10%;
+
                width: 29%;
     height: 10rem;
                

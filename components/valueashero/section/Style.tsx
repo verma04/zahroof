@@ -23,6 +23,8 @@ export const Section = styled.section`
         align-items: center;
         width: 100%;
         background-color: #dbb43f;
+        font-family: Proxima-Light;
+        font-weight: 600;
         height: 140px;
         h3 {
           width: 80%;

@@ -61,7 +61,7 @@ export const Section = styled.section`
             width: 90%;
             font-size: 20px;
             line-height: 30px;
-            font-family: Proxima-Bold;
+                font-weight: 800;
             line-height: 1.4;
           }
         }
@@ -156,7 +156,7 @@ export const Section = styled.section`
             width: 95%;
             font-size: 16px;
             line-height: 30px;
-            font-family: Proxima-Bold;
+                font-weight: 800;
             line-height: 1.4;
           }
         }
@@ -250,7 +250,7 @@ export const Section = styled.section`
             width: 90%;
             font-size: 20px;
             line-height: 30px;
-            font-family: Proxima-Bold;
+                font-weight: 800;
             line-height: 1.4;
           }
         }
@@ -344,7 +344,7 @@ export const Section = styled.section`
             width: 95%;
             font-size: 16px;
             line-height: 30px;
-            font-family: Proxima-Bold;
+                font-weight: 800;
             line-height: 1.4;
           }
         }

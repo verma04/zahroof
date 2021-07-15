@@ -24,19 +24,20 @@ export const Section = styled.section`
       width: 100%;
 
       .section2_data {
-        width: 90%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
         .section2_data_left {
           display: flex;
-          width: 45%;
-          height: 100%;
+          width: 55%;
+          height: 80%;
           justify-content: space-around;
           align-items: left;
           flex-direction: column;
+          margin-left: 5%;
           h2 {
             
             position: relative;
@@ -76,7 +77,9 @@ export const Section = styled.section`
 
         .section2_data_right {
           display: flex;
+         
           width: 45%;
+          background-color: #2f3032;
           height: 100%;
           justify-content: flex-start;
           align-items: center;
@@ -84,9 +87,9 @@ export const Section = styled.section`
           flex-wrap: wrap;
           position: relative;
           h3 {
-            color: #24334d;
-            margin-top: 10px;
-
+            margin-top: 15%;
+            color:  white;
+          
             font-size: 26.64px;
             text-align: left;
             width: 60%;
@@ -100,7 +103,7 @@ export const Section = styled.section`
             line-height: 30px;
             text-align: left;
             font-size: 15px;
-            color: #2e3031;
+            color:  white;
           }
         }
       }
