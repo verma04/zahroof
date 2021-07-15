@@ -32,7 +32,7 @@ export const Section = styled.section`
       }
 
       .section2_data {
-        width: 90%;
+        width: 86%;
         height: 100%;
         display: flex;
         justify-content: space-between;

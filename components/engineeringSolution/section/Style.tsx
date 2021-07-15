@@ -88,7 +88,7 @@ export const Section = styled.section`
             margin-right: 10%;
             display: flex;
             width: 25%;
-
+ 
             height: 80%;
             justify-content: space-around;
             align-items: flex-start;
@@ -96,8 +96,8 @@ export const Section = styled.section`
             flex-wrap: wrap;
 
             .top {
-             
-         
+            
+            width: 100%;
               height: 30%;
               display: flex;
               justify-content: space-around;
@@ -107,7 +107,7 @@ export const Section = styled.section`
                 width: 100%;
                 text-align: center;
                 color: white;
-                font-size: 88.95px;
+                font-size: 70.95px;
               }
               span {
                 width: 100%;
