@@ -203,12 +203,12 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   data-aos="example-anim3" 
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626156797/ozeod0ebhmh66i1o1hsn.png"}
+                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626325570/eenj3zbz04sxqrafjixh.png"}
                   alt="Picture of the author"
                 />
 
 
-
+{/* 
 <div className="text-1">
               
          
@@ -232,7 +232,7 @@ const Section4: React.FC<Section4> = (data) => {
                 />
               </div>
            
-           
+            */}
            
             </div>
           
