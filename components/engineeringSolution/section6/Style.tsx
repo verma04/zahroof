@@ -115,7 +115,7 @@ export const Section = styled.section`
             }
             span {
               width: 100%;
-
+       
               margin-left: 25%;
 
               text-align: left;
