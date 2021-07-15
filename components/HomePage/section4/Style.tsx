@@ -805,7 +805,7 @@ min-width: 10% !important;
         position: relative;
         height: 39rem;
         width: 100%;
-        background: radial-gradient( ellipse farthest-corner at right bottom,#fedb37 0%,#fddb45 8%,#af9746 30%,#7b692b 55%,transparent 80% ),radial-gradient( ellipse farthest-corner at left top,#ffffff 0%,#ffffac 8%,#d1b464 25%,#5d4a1f 62.5%,#5d4a1f 100% );
+        background:  #eeba18;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -1176,7 +1176,7 @@ min-width: 10% !important;
         position: relative;
         height: 25rem;
         width: 100%;
-        background: radial-gradient( ellipse farthest-corner at right bottom,#fedb37 0%,#fddb45 8%,#af9746 30%,#7b692b 55%,transparent 80% ),radial-gradient( ellipse farthest-corner at left top,#ffffff 0%,#ffffac 8%,#d1b464 25%,#5d4a1f 62.5%,#5d4a1f 100% );
+        background:  #eeba18;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
