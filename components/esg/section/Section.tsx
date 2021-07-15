@@ -71,7 +71,11 @@ through your system, there s far less to flare.
                       alt="Picture of the author"
                     />
                   </div>
-                  <p>{data.data.esgbenifitsfirstRightTwoContent}</p>
+                  <p
+                      dangerouslySetInnerHTML={{
+                        __html: data.data.esgbenifitsfirstRightTwoContent,
+                      }}
+                  ></p>
                 </div>
 
                 <div className="right_logo">
@@ -83,7 +87,12 @@ through your system, there s far less to flare.
                       alt="Picture of the author"
                     />
                   </div>
-                  <p>{data.data.esgbenifitsfirstRightThreeContent}</p>
+                  <p
+                   dangerouslySetInnerHTML={{
+                    __html: data.data.esgbenifitsfirstRightThreeContent
+                  }}
+                  
+                  ></p>
                 </div>
               </div>
             </div>

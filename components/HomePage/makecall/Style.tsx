@@ -72,7 +72,7 @@ export const Section = styled.section`
               width: 100%;
               color: #7c7c7c;
               line-height: 28px;
-              margin-top: 3rem;
+              margin-top: 2rem;
             }
           }
           .section-left-bottom {
