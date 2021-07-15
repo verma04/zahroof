@@ -36,7 +36,7 @@ export const Section = styled.section`
           width: 100%;
           height: 100%;
           z-index: 1;
-
+        
           .section4_mid_left {
             display: flex;
             justify-content: center;
@@ -47,12 +47,12 @@ export const Section = styled.section`
             width: 50%;
             height: 100%;
             z-index: 1;
-
+           
             .top {
               width: 100%;
-
-              height: 80%;
-              height: auto;
+            
+              height: 70%;
+              
               display: flex;
               justify-content: center;
               display: flex;
@@ -68,7 +68,7 @@ export const Section = styled.section`
                 position: relative;
                 color: #3c3f72;
                 font-size: 3rem;
-                margin-top: 2rem;
+                margin-top: 20vh;
                 span {
                   color: #3c3f72;
                   font-size: 2.5rem;

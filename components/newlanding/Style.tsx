@@ -27,7 +27,7 @@ export const Section = styled.section`
       .section4_bottom {
         position: relative;
         height: 100%;
-
+    
         width: 100%;
         z-index: 1;
         /* margin-bottom: 3rem; */

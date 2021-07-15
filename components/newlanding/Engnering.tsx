@@ -39,7 +39,7 @@ const Landing: React.FC<{}> = () => {
                   When youre maintaining rotating equipment, you spend a lot of
                   time knocking down problems. Sometimes, barely getting one
                   solved before another pops up. But Zahroof s cutting-edge
-                  technology offers anywhere from 2x, 5x, 10x, or more mean time
+                  technology offers anywhere from 2–10x more mean time
                   between failure and on-site servicing without machining. See
                   how our customized solutions can make life easier for you.
                 </p>

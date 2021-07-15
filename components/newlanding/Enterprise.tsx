@@ -39,11 +39,11 @@ const Landing: React.FC<{}> = () => {
                 </h2>
 
                 <p>
-                  Your job is to your operation runs efficiently.. continuously
-                  and above all, profitably. It s a demanding position,
+                  Your job is to your operation runs efficiently. continuously,
+                  and  above all, profitably. It s a demanding position,
                   expectations are high. But with Zahroof s state-of-the-art
                   technology, you can maximize compressor performance to achieve
-                  astounding results in production, maintenance and reliability.
+                  astounding results in production, maintenance , and reliability.
                   See how our customized solutions can improve your bottom line.
                 </p>
               </div>
