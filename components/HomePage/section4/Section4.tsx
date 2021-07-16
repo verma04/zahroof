@@ -176,7 +176,7 @@ const Section4: React.FC<Section4> = (data) => {
                   alt=""
                 />
               </div>
-              <span>chemical</span>
+              <span>chemicals</span>
             </div>
             <div   className="icon" id="offshore">
               <div className="img-wrapper">
