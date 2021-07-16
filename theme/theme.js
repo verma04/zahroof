@@ -223,7 +223,7 @@ transition: transform .8s;
     top: 0;
     opacity: 0;
     height: 100%;
-    width: 40px;
+    width: 15px;
     -webkit-transition: all 0.2s linear 0s;
     transition: all 0.2s linear 0s;
     font-size: 22px;
@@ -231,7 +231,7 @@ transition: transform .8s;
     }
 
     &:hover {
-    text-indent: -10px;
+    text-indent: 10px;
 
     &:before {
         opacity: 1;
