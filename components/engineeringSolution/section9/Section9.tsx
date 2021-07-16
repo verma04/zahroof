@@ -41,6 +41,7 @@ const HeroSection: React.FC<SectionFiveProps> = (data) => {
                   />
                   <li>
                     <Image
+                                      onClick={()=>router.push('/enterpriseSolutions')}
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
@@ -75,6 +76,7 @@ const HeroSection: React.FC<SectionFiveProps> = (data) => {
                   />
                   <li>
                     <Image
+                     onClick={()=>router.push('/contactus')}
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
@@ -82,12 +84,14 @@ const HeroSection: React.FC<SectionFiveProps> = (data) => {
                     />
                   </li>
                   <li
+                   onClick={()=>router.push('/contactus')}
                     dangerouslySetInnerHTML={{
                       __html: data.data.engineeringfiveRightContent,
                     }}
                   />
                   <li>
                     <Image
+                                     
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"

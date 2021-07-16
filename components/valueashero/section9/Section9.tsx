@@ -2,7 +2,7 @@ import React from "react";
 import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
-
+import { useRouter } from 'next/router'
 interface SectionNine {
   data: {
     valveasherofiveTopContent: string;
@@ -19,6 +19,8 @@ interface SectionNine {
 
 
 const SectionNine: React.FC<SectionNine> = (data) => {
+  
+  const router = useRouter()
   const set:any = "           SEE WHAT WE'VE </br> DONE FOR OTHERS."
   return (
     <Section>
@@ -41,6 +43,7 @@ const SectionNine: React.FC<SectionNine> = (data) => {
                   }} />
                   <li>
                     <Image
+                     onClick={()=>router.push('/enterpriseSolutions')}
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
@@ -48,7 +51,7 @@ const SectionNine: React.FC<SectionNine> = (data) => {
                     />
                   </li>
 
-                  <li>
+                  <li  onClick={()=>router.push('/enterpriseSolutions')}>
                     <h3 dangerouslySetInnerHTML={{
                       __html: data.data.valveasherofiveLeftContent
                     }} />
@@ -69,11 +72,16 @@ const SectionNine: React.FC<SectionNine> = (data) => {
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
 
-                  <li dangerouslySetInnerHTML={{
+                  <li
+                  
+                 
+                  dangerouslySetInnerHTML={{
+                    
                     __html: data.data.valveasherofiveRightTitle
                   }} />
                   <li>
                     <Image
+                     onClick={()=>router.push('/contactus')}
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
@@ -82,7 +90,9 @@ const SectionNine: React.FC<SectionNine> = (data) => {
                   </li>
 
                   <li>
-                    <h3 dangerouslySetInnerHTML={{
+                    <h3
+                     onClick={()=>router.push('/contactus')}
+                    dangerouslySetInnerHTML={{
                       __html: data.data.valveasherofiveRightContent
                     }} />
                   </li>
