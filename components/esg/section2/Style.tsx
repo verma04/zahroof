@@ -86,7 +86,7 @@ export const Section = styled.section`
               padding-top: 1.5em;
               display: flex;
               justify-content: center;
-              background-color: rgb(218 177 27 / 48%);
+              background-color: rgb(214 143 62 / 46%);
 
               p {
                 padding-top: 0.5rem;
@@ -189,7 +189,7 @@ export const Section = styled.section`
               padding-top: 1.5em;
               display: flex;
               justify-content: center;
-              background-color: rgb(218 177 27 / 48%);
+              background-color: rgb(214 143 62 / 46%);
 
               p {
                 padding-top: 0.5rem;
@@ -313,7 +313,7 @@ export const Section = styled.section`
               padding-top: 1.5em;
               display: flex;
               justify-content: center;
-              background-color: rgb(218 177 27 / 48%);
+              background-color: rgb(214 143 62 / 46%);
 
               p {
                 padding-top: 0.5rem;
@@ -437,7 +437,7 @@ export const Section = styled.section`
               padding-top: 1.5em;
               display: flex;
               justify-content: center;
-              background-color: rgb(218 177 27 / 48%);
+              background-color: rgb(214 143 62 / 46%);
 
               p {
                 padding-top: 0.5rem;
