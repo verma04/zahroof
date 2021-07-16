@@ -114,9 +114,10 @@ export const Section = styled.section`
               text-transform: uppercase;
             }
             span {
-              width: 100%;
-       
-              margin-left: 25%;
+             
+    width: 81%;
+    margin-left: 27%;
+
 
               text-align: left;
               font-size: 20px;
