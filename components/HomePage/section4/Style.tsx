@@ -32,7 +32,7 @@ export const Section = styled.section`
         .tringle {
           position: absolute;
           right: 10%;
-          width: 200px;
+          width: 180px;
           bottom: -7.4%;
           height: 65px;
           border-left: 6rem solid transparent; 
