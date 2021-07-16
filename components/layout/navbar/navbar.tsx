@@ -313,7 +313,7 @@ const Navbar: React.FC<{}> = () => {
                         <h3 id={router.pathname == "/people" ? "active" : ""}>
                       
                       <Link href="/valveashero">
-                        Valveashero
+                        Valve as hero
                       </Link>
                     </h3>
                         <h3 id={router.pathname == "/careers" ? "active" : ""}>
