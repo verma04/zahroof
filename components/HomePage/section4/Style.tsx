@@ -338,6 +338,7 @@ min-width: 10% !important;
               }
             }
             .btn {
+              margin-top: 8%;
               color: white;
               z-index: 1;
               text-align: left;
@@ -346,7 +347,7 @@ min-width: 10% !important;
               button {
                 font-size: 1rem;
                 padding: 1rem 2rem;
-                height: 4.5rem;
+                height: 4rem;
                 border-radius: 0px;
                 text-transform: uppercase;
                 background-color: #398baa;
