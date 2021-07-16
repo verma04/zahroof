@@ -45,7 +45,7 @@ export const Section = styled.section`
         justify-content: space-between;
         align-items: center;
         .section2_data_left {
-          background-color: #cea800;
+          background-color: #dbb43f;
           display: flex;
           width: 30%;
           height: 100%;
@@ -81,7 +81,7 @@ export const Section = styled.section`
             right: -10%;
             top: 10%;
             border-top: 49px solid transparent;
-            border-left: 60px solid #cea800;
+            border-left: 60px solid #dbb43f;
             border-bottom: 52px solid transparent;
           }
         }
@@ -196,7 +196,7 @@ export const Section = styled.section`
         align-items: center;
         flex-direction: column;
         .section2_data_left {
-          background-color: #cea800;
+          background-color: #dbb43f;
           display: flex;
           width: 100%;
           height: 20%;
@@ -234,7 +234,7 @@ export const Section = styled.section`
             right: -10%;
             top: 10%;
             border-top: 49px solid transparent;
-            border-left: 60px solid #cea800;
+            border-left: 60px solid #dbb43f;
             border-bottom: 52px solid transparent;
           }
         }
@@ -344,7 +344,7 @@ export const Section = styled.section`
         justify-content: space-between;
         align-items: center;
         .section2_data_left {
-          background-color: #cea800;
+          background-color: #dbb43f;
           display: flex;
           width: 30%;
           height: 100%;
@@ -381,7 +381,7 @@ export const Section = styled.section`
             right: -10%;
             top: 10%;
             border-top: 49px solid transparent;
-            border-left: 60px solid #cea800;
+            border-left: 60px solid #dbb43f;
             border-bottom: 52px solid transparent;
           }
         }
@@ -492,7 +492,7 @@ export const Section = styled.section`
         align-items: center;
         flex-direction: column;
         .section2_data_left {
-          background-color: #cea800;
+          background-color: #dbb43f;
           display: flex;
           width: 100%;
           height: 20%;
@@ -528,7 +528,7 @@ export const Section = styled.section`
             right: -10%;
             top: 10%;
             border-top: 49px solid transparent;
-            border-left: 60px solid #cea800;
+            border-left: 60px solid #dbb43f;
             border-bottom: 52px solid transparent;
           }
         }

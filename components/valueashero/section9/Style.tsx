@@ -56,7 +56,7 @@ export const Section = styled.section`
         height: 342px;
         position: relative;
 
-        background-color: #cea800;
+        background-color: #dbb43f;
         .section2_data {
           width: 80%;
 
@@ -188,7 +188,7 @@ export const Section = styled.section`
         height: 389px;
         position: relative;
 
-        background-color: #cea800;
+        background-color: #dbb43f;
         .section2_data {
           width: 100%;
 
@@ -321,7 +321,7 @@ export const Section = styled.section`
         height: 342px;
         position: relative;
 
-        background-color: #cea800;
+        background-color: #dbb43f;
         .section2_data {
           width: 100%;
 
@@ -455,7 +455,7 @@ export const Section = styled.section`
         height: 26rem;
         position: relative;
 
-        background-color: #cea800;
+        background-color: #dbb43f;
         .section2_data {
           width: 95%;
 
