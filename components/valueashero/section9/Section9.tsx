@@ -48,7 +48,7 @@ const SectionNine: React.FC<SectionNine> = (data) => {
                       objectFit="contain"
                       layout="fill"
                       src={data.data.valveasherofiveLeftIcon}
-                    />
+                  />
                   </li>
 
                   <li  onClick={()=>router.push('/enterpriseSolutions')}>
