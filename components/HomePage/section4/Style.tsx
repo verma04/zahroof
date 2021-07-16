@@ -1305,7 +1305,7 @@ min-width: 10% !important;
         position: relative;
         height: 40rem;
         width: 100%;
-        z-index: 1;
+        
         margin-bottom: 0px;
         display: flex;
         justify-content: center;
@@ -1401,7 +1401,7 @@ min-width: 10% !important;
         position: relative;
 
         width: 100%;
-        z-index: 1;
+      
 
         background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625296161/rfrkr499ec2ow6izav59.jpg");
 
@@ -1464,7 +1464,7 @@ min-width: 10% !important;
               }
               p {
                 color: white;
-                z-index: 1;
+                
                 text-align: left;
                 width: 100%;
                 font-size: 1rem;
@@ -1475,7 +1475,7 @@ min-width: 10% !important;
             }
             .btn {
               color: white;
-              z-index: 1;
+              
               text-align: left;
 
               button {
@@ -1518,7 +1518,7 @@ min-width: 10% !important;
               }
               h3 {
                 /* color:white; */
-                z-index: 1;
+               
                 width: 100%;
                 text-align: center;
                 color: #f2e7c9;
@@ -1531,7 +1531,7 @@ min-width: 10% !important;
 
           width: 10rem;
           height: 9rem;
-          z-index: 1;
+         
           right: 24%;
           top: -100px;
         }

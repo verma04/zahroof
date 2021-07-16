@@ -201,7 +201,7 @@ export const Section = styled.section`
       position: relative;
       height: 30rem;
       width: 100%;
-      z-index: 1;
+      
       display: flex;
       justify-content: center;
       flex-direction: column;
