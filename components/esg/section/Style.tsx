@@ -179,7 +179,7 @@ export const Section = styled.section`
             display: flex;
             justify-content: center;
             align-items: center;
-            z-index: 1;
+           
             flex-direction: column;
             .left {
               width: 100%;
