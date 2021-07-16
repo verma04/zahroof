@@ -70,7 +70,7 @@ export const Section = styled.section`
               content: "";
               display: block;
               height: 120%;
-              width: 0.2rem;
+              width: 0.3rem;
               top: 0;
               left: -0.3rem;
               background-color: #daaf1a;
