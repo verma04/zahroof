@@ -412,7 +412,7 @@ export const Section = styled.section`
 
         .section2_data_right {
           display: flex;
-          width: 95%;
+          width: 90%;
           height: 50rem;
          
           justify-content: space-evenly;

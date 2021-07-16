@@ -63,6 +63,7 @@ export const Section = styled.section`
     color: #24334d;
     text-transform: uppercase;
     margin-bottom: 2rem;
+  
           
           }
           h2:after {
@@ -416,7 +417,7 @@ export const Section = styled.section`
          
           display: flex;
           width: 90%;
-          height: 100%;
+          height: 60%;
           justify-content: space-evenly;
           align-items: left;
           flex-direction: column;
@@ -429,6 +430,10 @@ export const Section = styled.section`
             position: relative;
             color: #24334d;
             text-transform: uppercase;
+            br {
+ display: none;
+            }
+            
           }
           h2:after {
             position: absolute;
@@ -460,7 +465,7 @@ export const Section = styled.section`
         .section_data_right {
           display: flex;
           width: 100%;
-          height: 100%;
+          height: 40%;
           justify-content: flex-start;
 
           background-color: #2f3032;
