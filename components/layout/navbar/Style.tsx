@@ -10,6 +10,9 @@ export const Nav = styled.nav`
   position: absolute;
 
   top: 0%;
+  #active  {
+    color: #dbb43f;
+  }
 
   @media (min-width: 1281px) {
     width: 100%;

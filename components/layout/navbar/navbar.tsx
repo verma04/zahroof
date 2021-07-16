@@ -59,7 +59,7 @@ const Navbar: React.FC<{}> = () => {
               </li>
               <li>
                 <Link href="/engineeringSolutions">
-                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} >Engineering Solutions</a>
+                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} id={router.pathname == "/valveashero" ? "active" : ""} >Engineering Solutions</a>
                 </Link>
                 <div className="valve" >
                 <Link href="/valveashero">
@@ -216,7 +216,7 @@ const Navbar: React.FC<{}> = () => {
               </li>
               <li>
                 <Link href="/engineeringSolutions">
-                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} >Engineering Solutions</a>
+                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} id={router.pathname == "/valveashero" ? "active" : ""} >Engineering Solutions</a>
                 </Link>
                 <div className="valve" >
                 <Link href="/valveashero">
