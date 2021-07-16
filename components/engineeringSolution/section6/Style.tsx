@@ -116,7 +116,7 @@ export const Section = styled.section`
             span {
              
     width: 81%;
-    margin-left: 27%;
+    margin-left: 25%;
 
 
               text-align: left;
