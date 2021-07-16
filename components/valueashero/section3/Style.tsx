@@ -78,7 +78,7 @@ export const Section = styled.section`
         .section2_data_right {
           display: flex;
          
-          width: 45%;
+          width: 30%;
           background-color: #2f3032;
           height: 100%;
           justify-content: flex-start;
@@ -92,14 +92,14 @@ export const Section = styled.section`
           
             font-size: 26.64px;
             text-align: left;
-            width: 60%;
+            width: 80%;
 
             text-transform: uppercase;
           }
 
           p {
             margin-top: 55px;
-            width: 60%;
+            width: 80%;
             line-height: 30px;
             text-align: left;
             font-size: 15px;
