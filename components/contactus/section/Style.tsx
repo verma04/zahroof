@@ -77,6 +77,7 @@ export const Section = styled.section`
               content: "";
             }
             h3 {
+              font-family: 'Proxima-Light';
               margin-top: 2rem;
               font-size: 20px;
               text-align: right;
@@ -339,7 +340,7 @@ export const Section = styled.section`
               margin-top: 2rem;
               font-size: 20px;
               text-align: right;
-
+              font-family: 'Proxima-Light';
               width: 100%;
               color: white;
               line-height: 30px;
