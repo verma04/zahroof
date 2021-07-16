@@ -85,7 +85,7 @@ export const Section = styled.section`
         #top {
           font-size: 1.5rem;
 
-          width: 80%;
+          width: 90%;
           text-align: left;
           line-height: 1.3;
           color: #dbb43f;
@@ -101,17 +101,7 @@ export const Section = styled.section`
         }
       }
 
-      .tringle {
-        position: absolute;
-        left: 10%;
-        width: 0;
-        top: -11%;
-        height: 0;
-        border-left: 3rem solid transparent;
-        border-right: 3rem solid transparent;
-        border-bottom: 2rem solid #3b546a;
-        z-index: 1;
-      }
+    
       .section-bottom {
         background-color: #dbb43f;
         height: 36px;

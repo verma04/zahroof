@@ -279,11 +279,11 @@ export const Section = styled.section`
       width: 100%;
       align-items: center;
       position: relative;
-      height: 1000px;
+      height: 1100px;
       background-color: #dbb43f;
    
       .section2_data {
-        width: 95%;
+        width: 90%;
         height: 95%;
         display: flex;
         justify-content: space-evenly;
@@ -299,7 +299,7 @@ export const Section = styled.section`
           
 
           .logo {
-            width: 45%;
+            width: 50%;
             height: 30%;
             margin-top: 40px;
             display: flex;
@@ -318,6 +318,7 @@ export const Section = styled.section`
               text-transform: uppercase;
               color: white;
               font-weight: 1000;
+               text-align: center;
               font-size: 1rem;
             }
           }

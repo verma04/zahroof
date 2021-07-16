@@ -381,9 +381,9 @@ export const Section = styled.section`
       width: 100%;
       align-items: center;
       position: relative;
-      height: 50rem;
+      height: 37rem;
       background-color: #dbb43f;
-      .tringle {
+      /* .tringle {
         position: absolute;
         left: 20%;
         width: 0;
@@ -393,7 +393,7 @@ export const Section = styled.section`
         border-right: 5rem solid transparent;
         border-bottom: 3rem solid #dbb43f;
         z-index: 1;
-      }
+      } */
 
       .section2_data {
         width: 95%;
@@ -415,7 +415,7 @@ export const Section = styled.section`
             color: #27364e;
             position: relative;
 
-            font-size: 1.5rem;
+            font-size: 2rem;
             width: 95%;
 
             text-transform: uppercase;
@@ -436,7 +436,7 @@ export const Section = styled.section`
             width: 95%;
             color: white;
             font-size: 20px;
-            line-height: 35px;
+            line-height: 25px;
             color: #2e3031;
           }
           h3 {

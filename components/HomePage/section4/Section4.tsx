@@ -203,7 +203,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   data-aos="example-anim3" 
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626345607/g19qmljzuv5wayakekwy.png"}
+                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626413919/ztssxgdudjwgkieybi7f.png"}
                   alt="Picture of the author"
                 />
 
@@ -216,7 +216,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   data-aos="zoom-in"
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626345606/iketebgo37tkczjuawf6.png"}
+                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626413918/ezbr949axrtwmzseyrxr.png"}
                   alt="Picture of the author"
                 />
              
@@ -226,7 +226,7 @@ const Section4: React.FC<Section4> = (data) => {
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626345606/uwqnjnvokzyipfdgwavv.png"}
+                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626413919/smmukplhbhdcnwbu54ok.png"}
                   data-aos="zoom-in"
                   alt="Picture of the author"
                 />

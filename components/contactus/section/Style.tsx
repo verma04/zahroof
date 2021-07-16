@@ -299,7 +299,7 @@ export const Section = styled.section`
 
       .section_data {
         position: absolute;
-        width: 100%;
+        width: 90%;
         height: 100%;
         display: flex;
         justify-content: space-evenly;

@@ -402,7 +402,7 @@ export const Section = styled.section`
       .section_data {
         display: flex;
         justify-content: center;
-
+   flex-direction: column;
         width: 100%;
         align-items: center;
         position: relative;
@@ -413,9 +413,9 @@ export const Section = styled.section`
         align-items: center;
 
         .section_data_left {
-          padding-left: 3%;
+         
           display: flex;
-          width: 60%;
+          width: 90%;
           height: 100%;
           justify-content: space-evenly;
           align-items: left;
@@ -425,7 +425,7 @@ export const Section = styled.section`
             padding-left: 0.5rem;
             font-size: 1.5rem;
             color: white;
-            width: 95%;
+            width: 100%;
             position: relative;
             color: #24334d;
             text-transform: uppercase;
@@ -451,7 +451,7 @@ export const Section = styled.section`
             line-height: 1.1;
           }
           p {
-            width: 95%;
+            width: 100%;
             color: #24334d;
             line-height: 1.5;
           }
@@ -459,7 +459,7 @@ export const Section = styled.section`
 
         .section_data_right {
           display: flex;
-          width: 40%;
+          width: 100%;
           height: 100%;
           justify-content: flex-start;
 

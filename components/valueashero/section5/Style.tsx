@@ -263,7 +263,7 @@ export const Section = styled.section`
       display: flex;
       justify-content: center;
 
-      width: 95%;
+      width: 90%;
       align-items: center;
       position: relative;
       

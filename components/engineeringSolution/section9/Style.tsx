@@ -450,12 +450,12 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 26rem;
+        height: 24rem;
         position: relative;
 
         background-color: #cea800;
         .section2_data {
-          width: 100%;
+          width: 90%;
 
           height: 100%;
           display: flex;

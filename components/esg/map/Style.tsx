@@ -28,7 +28,7 @@ export const Section = styled.section`
           width: 80%;
           text-align: center;
           color: white;
-          text-transform: uppercase;
+          
           font-size: 50px;
           line-height: 50px;
         }
@@ -67,7 +67,7 @@ export const Section = styled.section`
           align-items: center;
 
           h3 {
-            text-transform: uppercase;
+            
             font-family: 'Montserrat Alternates', sans-serif;
             display: flex;
             justify-content: flex-start;
@@ -77,7 +77,7 @@ export const Section = styled.section`
           li {
           
             position: relative;
-            text-transform: uppercase;
+            
             font-size: 29.99px;
             line-height: 33.32px;
             display: flex;
@@ -149,13 +149,19 @@ export const Section = styled.section`
           position: relative;
           align-items: center;
 
-          h3 {
-            text-transform: uppercase;
+              h3 {
+            
+            font-family: 'Montserrat Alternates', sans-serif;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            
+          
           }
           li {
             width: 100%;
             position: relative;
-            text-transform: uppercase;
+            
             font-size: 29.99px;
             line-height: 33.32px;
 
@@ -218,11 +224,11 @@ export const Section = styled.section`
           align-items: center;
 
           h3 {
-            text-transform: uppercase;
+            
           }
           li {
             position: relative;
-            text-transform: uppercase;
+            
             font-size: 29.99px;
             line-height: 33.32px;
 
@@ -288,12 +294,13 @@ export const Section = styled.section`
           align-items: center;
 
           h3 {
-            text-transform: uppercase;
-          }
+             display: flex;
+             justify-content: center;
+          } 
           li {
             width: 100%;
             position: relative;
-            text-transform: uppercase;
+            
             font-size: 29.99px;
             line-height: 33.32px;
 
@@ -306,6 +313,10 @@ export const Section = styled.section`
             color: black;
             display: flex;
             flex-direction: column;
+            h3 {
+             display: flex;
+             justify-content: center;
+          }
           }
           span {
             margin-top: 43px;

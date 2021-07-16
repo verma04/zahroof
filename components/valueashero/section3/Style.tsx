@@ -350,7 +350,7 @@ export const Section = styled.section`
 
       .section2_data {
         width: 100%;
-        height: 95%;
+        height: 90%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -359,7 +359,7 @@ export const Section = styled.section`
         .section2_data_left {
           margin-top: 1rem;
           display: flex;
-          width: 95%;
+          width: 90%;
           height: 50%;
           justify-content: space-around;
           align-items:center;
@@ -393,7 +393,7 @@ export const Section = styled.section`
             font-weight: 600;
             font-size: 18px;
             margin-top: 20px;
-            line-height: 40px;
+            line-height: 25px;
           }
 
           }
@@ -409,8 +409,9 @@ export const Section = styled.section`
         }
 
         .section2_data_right {
+          margin-bottom: 2rem;
           display: flex;
-          width: 95%;
+          width: 90%;
        
           height: 50%;
           justify-content: center;
@@ -433,7 +434,7 @@ export const Section = styled.section`
           p {
           
             width: 100%;
-            line-height: 30px;
+            line-height: 25px;
             text-align: left;
             font-size: 15px;
             color: #2e3031;

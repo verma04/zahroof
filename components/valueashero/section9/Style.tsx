@@ -457,7 +457,7 @@ export const Section = styled.section`
 
         background-color: #cea800;
         .section2_data {
-          width: 100%;
+          width: 95%;
 
           height: 100%;
           display: flex;

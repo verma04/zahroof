@@ -26,7 +26,7 @@ const HeroSection: React.FC<{}> = () => {
                 Field measurements on an Ariel JGD/2, 1100 rpm <br />
                 <span>
                   {" "}
-                  Original plate valves: Pronounced opening and closing impacts
+                  Original plate valves: Pronounced opening and <br/> closing impacts
                   + noise from flow.{" "}
                 </span>
               </h3>
@@ -49,7 +49,7 @@ const HeroSection: React.FC<{}> = () => {
              
 
               SFV valves: Same resolution 
-              <span>Valve opening and closing is negligible. 
+              <span>Valve opening and closing is negligible.  <br/>
 10 psi lower peak cylinder pressures. </span>
 
 </h3>

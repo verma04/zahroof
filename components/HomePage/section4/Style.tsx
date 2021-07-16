@@ -24,7 +24,7 @@ export const Section = styled.section`
         position: relative;
         height: 55rem;
         width: 100%;
-        background:  #eeba18;
+        background:  #dbb43f;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -37,7 +37,7 @@ export const Section = styled.section`
           height: 65px;
           border-left: 6rem solid transparent; 
           border-right: 6rem solid transparent;
-         border-top: 4rem solid #eeba18; 
+         border-top: 4rem solid #dbb43f; 
        
         }
         .section4_top_data {
@@ -422,7 +422,7 @@ min-width: 10% !important;
         position: relative;
         height: 47rem;
         width: 100%;
-        background:  #eeba18;
+        background:  #dbb43f;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -807,7 +807,7 @@ min-width: 10% !important;
         position: relative;
         height: 39rem;
         width: 100%;
-        background:  #eeba18;
+        background:  #dbb43f;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -1178,7 +1178,7 @@ min-width: 10% !important;
         position: relative;
         height: 25rem;
         width: 100%;
-        background:  #eeba18;
+        background:  #dbb43f;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;

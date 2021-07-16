@@ -141,7 +141,7 @@ export const Section = styled.section`
 
             font-size: 2rem;
             color: white;
-            width: 95%;
+            width: 90%;
             position: relative;
             color: white;
             text-transform: uppercase;
@@ -153,7 +153,7 @@ export const Section = styled.section`
           }
           p {
             color: white;
-            width: 95%;
+            width: 90%;
             font-size: 16px;
             line-height: 30px;
                 font-weight: 800;
