@@ -25,17 +25,17 @@ export const Section = styled.section`
       background-position: center; /* Center the image */
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: cover;
-
-      .tringle {
+  position: relative;
+      .triangle {
         position: absolute;
-        left: 13%;
-        width: 0;
-        bottom: -5%;
-        height: 0;
-        border-left: 4rem solid transparent;
-        border-right: 4rem solid transparent;
-        border-top: 3rem solid #3c4e62;
-        z-index: 1;
+    left: 30%;
+    width: 0;
+    bottom: 63%;
+    height: 0;
+    border-top: 4rem solid transparent;
+    border-bottom: 4rem solid transparent;
+    border-left: 4rem solid #dbb43f;
+    z-index: 1;
       }
 
       .section2_data {
