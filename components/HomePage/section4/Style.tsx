@@ -1329,9 +1329,9 @@ min-width: 10% !important;
             .text-1 {
               position: absolute;
     top: 0%;
-    right: 10%;
-    width: 29%;
-    height: 10rem;
+    right: 2%;
+    width: 38%;
+    height: 7rem;
     
             }
             [data-aos="example-anim3"] {
@@ -1350,10 +1350,10 @@ min-width: 10% !important;
           }
             .text-2 {
               position: absolute;
-              bottom:0%;
-               left:4%;
-               width: 29%;
-    height: 10rem;
+    bottom: 0%;
+    left: 2%;
+    width: 29%;
+    height: 10rem
                
             }
           }

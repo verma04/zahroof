@@ -659,9 +659,9 @@ export const Section = styled.section`
             width: 100%;
             span {
               width: 100%;
-              text-align: center;
+              text-align: left;
               line-height: 1.5rem;
-              text-align: center;
+             
 
               color: white;
 
