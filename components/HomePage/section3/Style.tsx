@@ -31,7 +31,7 @@ export const Section = styled.section`
       background-size: cover;
 
       .middle {
-        transition: all linear .5s;
+        transition: all linear 1s;
         position: absolute;
         bottom: -3%;
         width: 40%;
@@ -46,7 +46,7 @@ export const Section = styled.section`
       }
 
       .left {
-        transition: all linear .5s;
+        transition: all linear 1s;
         position: absolute;
         height: 30%;
         top: 5%;
@@ -61,7 +61,7 @@ export const Section = styled.section`
       }
 
       .right {
-        transition: all linear .5s;
+        transition: all linear 1s;
         position: absolute;
         height: 30%;
         top: 5%;
