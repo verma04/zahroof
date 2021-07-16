@@ -45,7 +45,7 @@ export const Section = styled.section`
         align-items: center;
 
         .section_data_left {
-          padding-left: 6%;
+          padding-left: 6.5%;
           display: flex;
           width: 70%;
           height: 100%;
