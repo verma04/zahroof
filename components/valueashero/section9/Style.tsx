@@ -107,6 +107,12 @@ export const Section = styled.section`
                 margin-bottom: 10px;
                 width: 130px;
                 height: 132px;
+                transition: transform 0.5s;
+                :hover {
+              -ms-transform: scale(1.5); /* IE 9 */
+              -webkit-transform: scale(1.5); /* Safari 3-8 */
+              transform: scale(1.1);
+            }
               }
               li:nth-child(3) {
                 width: 100%;

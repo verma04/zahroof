@@ -40,6 +40,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
                     <Image
                     onClick={()=>router.push('/engineeringSolutions')}
                       alt="Picture of the author"
+                    
                       objectFit="contain"
                       layout="fill"
                       src={data.data.enterprisefiveLeftIcon}
