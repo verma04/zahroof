@@ -187,8 +187,8 @@ line-height:1.1;
     color: #2f3435; 
   }
   button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  transform: scale(1.1); 
+ 
+  transform: scale(1); 
  
 }
 i:hover {
@@ -231,7 +231,7 @@ transition: transform .8s;
     }
 
     &:hover {
-    text-indent: -20px;
+    text-indent: -10px;
 
     &:before {
         opacity: 1;
