@@ -201,8 +201,8 @@ code {
   button {
 border-radius:5px;
 font-family: Proxima-Bold;
-transition: transform .8s;
-    transition: all 0.2s linear 0s;
+transition: transform .1s;
+    transition: all 0.5s linear 0s;
 
     &:before {
     content: ">";
@@ -219,11 +219,11 @@ transition: transform .8s;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    right: 0;
+    right: 5%;
     top: 0;
     opacity: 0;
     height: 100%;
-    width: 15px;
+  
     -webkit-transition: all 0.2s linear 0s;
     transition: all 0.2s linear 0s;
     font-size: 22px;
@@ -231,14 +231,17 @@ transition: transform .8s;
     }
 
     &:hover {
-    text-indent: 10px;
+    text-indent: 5px;
+    padding-right: 1rem;
 
     &:before {
         opacity: 1;
-        text-indent: 0px;
+        padding-left: 1rem;
     }
 }
   }
+
+ 
   input {
     font-family: Proxima-Bold;
     border:1px solid #EFEAE4;
