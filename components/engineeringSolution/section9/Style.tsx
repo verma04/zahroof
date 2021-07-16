@@ -51,7 +51,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 355px;
+        height: 370px;
         position: relative;
 
         background-color: #dbb43f;
