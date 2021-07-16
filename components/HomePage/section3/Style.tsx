@@ -31,6 +31,7 @@ export const Section = styled.section`
       background-size: cover;
 
       .middle {
+        transition: all linear .5s;
         position: absolute;
         bottom: -3%;
         width: 40%;
@@ -45,6 +46,7 @@ export const Section = styled.section`
       }
 
       .left {
+        transition: all linear .5s;
         position: absolute;
         height: 30%;
         top: 5%;
@@ -59,10 +61,11 @@ export const Section = styled.section`
       }
 
       .right {
+        transition: all linear .5s;
         position: absolute;
         height: 30%;
         top: 5%;
-        width: 30%;
+        width: 35%;
         right: -4%;
 
         .img-wrapper {
@@ -493,7 +496,7 @@ export const Section = styled.section`
 
       .section3_left {
         position: absolute;
-        top: 45%;
+        top: 10%;
       left:8%;
     width: 31%;
 
@@ -504,7 +507,7 @@ export const Section = styled.section`
       }
       .section3_right {
         position: absolute;
-        top: 45%;
+        top: 10%;
         right: 3%;
         width: 30%;
         /* height: 100%; */

@@ -386,7 +386,7 @@ export const Section = styled.section`
               display: block;
               background-color: #eeba18;
               height: 110%;
-              width: 0.4rem;
+              width: 0.3rem;
               top: 0;
               right: -0.5rem;
             }
@@ -429,7 +429,7 @@ export const Section = styled.section`
               display: block;
               background-color: #eeba18;
               height: 110%;
-              width: 0.4rem;
+              width: 0.3rem;
               top: 0;
               left: -0.8rem;
 

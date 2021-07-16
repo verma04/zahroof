@@ -137,7 +137,7 @@ export const Section = styled.section`
         .section2_data {
           display: flex;
           width: 100%;
-
+ 
           height: 22rem;
 
           margin-top: 3rem;
@@ -170,13 +170,13 @@ export const Section = styled.section`
             font-family: Proxima-Bold;
           }
           li:nth-child(2) {
-            margin-top: 43px;
+            margin-top: 10px;
             color: black;
             display: flex;
             flex-direction: column;
           }
           span {
-            margin-top: 43px;
+            margin-top: 10px;
             font-weight: 500;
             font-family: "Proxima-Light";
             font-size: 1rem;
@@ -185,6 +185,7 @@ export const Section = styled.section`
           li:nth-child(1) {
             width: 100%;
             height: 90%;
+            
             position: relative;
             color: black;
           }

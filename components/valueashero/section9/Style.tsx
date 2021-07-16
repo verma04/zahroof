@@ -437,6 +437,9 @@ export const Section = styled.section`
           color: white;
           text-transform: uppercase;
           font-size: 1.5rem;
+          br {
+            display: none;
+          }
         }
         position: relative;
         .tringle {
@@ -458,7 +461,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 26rem;
+        height: 45rem;
         position: relative;
 
         background-color: #dbb43f;
@@ -469,6 +472,7 @@ export const Section = styled.section`
           display: flex;
           justify-content: flex-start;
           align-items: center;
+          flex-direction: column;
 
           .section2_data {
             display: flex;

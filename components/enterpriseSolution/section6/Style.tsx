@@ -221,8 +221,7 @@ export const Section = styled.section`
             width: 90%;
             font-size: 2rem;
             color: white;
-            font-size: 31px;
-            line-height: 30px;
+      
             line-height: 1;
             text-transform: uppercase;
           }

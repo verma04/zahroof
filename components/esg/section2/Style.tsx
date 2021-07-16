@@ -142,7 +142,7 @@ export const Section = styled.section`
           }
           p {
             margin-top: 30px;
-            width: 80%;
+            width: 100%;
             font-size: 25px;
             line-height: 30px;
             color: white;

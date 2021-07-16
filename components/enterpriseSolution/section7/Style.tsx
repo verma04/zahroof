@@ -188,7 +188,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 373px;
+        height: 700px;
         position: relative;
 
         background-color: #dbb43f;
@@ -199,6 +199,7 @@ export const Section = styled.section`
           display: flex;
           justify-content: flex-start;
           align-items: center;
+          flex-direction: column;
 
           .section2_data {
             display: flex;

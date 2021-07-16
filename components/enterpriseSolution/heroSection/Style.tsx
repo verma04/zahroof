@@ -174,7 +174,7 @@ export const Section = styled.section`
               display: block;
               background-color: #dbb43f;
               height: 100%;
-              width: 0.4rem;
+              width: 0.3rem;
               top: 0;
               right: -0.5rem;
             }
@@ -205,7 +205,7 @@ export const Section = styled.section`
               display: block;
               background-color: #dbb43f;
               height: 100%;
-              width: 0.4rem;
+              width: 0.3rem;
               top: 0;
               left: -0.5rem;
             }

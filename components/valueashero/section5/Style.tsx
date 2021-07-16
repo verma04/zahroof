@@ -315,7 +315,7 @@ export const Section = styled.section`
         p {
           margin-bottom: 1.5rem;
           width: 100%;
-          line-height: 1.1;
+          line-height: 1.3;
         }
       }
 

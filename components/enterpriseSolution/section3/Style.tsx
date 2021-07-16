@@ -121,7 +121,7 @@ export const Section = styled.section`
           .logo {
             height: 30%;
 
-            width: 45%;
+            width: 50%;
 
             display: flex;
             justify-content: flex-start;
