@@ -208,7 +208,7 @@ export const Section = styled.section`
           flex-direction: column;
           h2 {
             width: 90%;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             font-style: italic;
             color: white;
             text-transform: uppercase;
@@ -219,10 +219,9 @@ export const Section = styled.section`
           }
           h3 {
             width: 90%;
-            font-size: 2rem;
-            color: white;
-      
-            line-height: 1;
+            font-size: 20px;
+            color: white;      
+            line-height: 1.3;
             text-transform: uppercase;
           }
           .triangle-right {
@@ -287,9 +286,8 @@ export const Section = styled.section`
             p {
               height: 20%;
               width: 100%;
-              font-size: 17px;
-              
-    line-height: 19px;
+              font-size: 16px;              
+              line-height: 19px;
 
               margin-top: 0.5rem;
               text-transform: uppercase;

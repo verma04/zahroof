@@ -90,6 +90,7 @@ export const Section = styled.section`
           line-height: 1.3;
           color: #dbb43f;
           font-family: "Caveat-Light";
+          padding-top: 2rem;
         }
         span {
           font-family: "Caveat-Light";
@@ -98,6 +99,7 @@ export const Section = styled.section`
 
           color: #dbb43f;
           text-align: right;
+          padding-bottom: 2rem;
         }
       }
 
@@ -132,7 +134,6 @@ export const Section = styled.section`
 
         #top {
           font-size: 1.5rem;
-
           width: 80%;
           text-align: left;
           line-height: 1.3;

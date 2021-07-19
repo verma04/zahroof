@@ -250,13 +250,12 @@ export const Section = styled.section`
 
             p {
               margin-top: 42px;
-              font-size: 21px;
+              font-size: 18px;
               width: 100%;
               font-weight: 600;
-              line-height: 28px;
               color: white;
-              font-family: Proxima-Bold;
-              line-height: 1.2;
+              font-family: Proxima-Light;
+              line-height: 1.3;
               position: relative;
             }
             p:after {
@@ -317,8 +316,9 @@ export const Section = styled.section`
               width: 95%;
               margin-top: 2rem;
               font-size: 16px;
-              font-family: Proxima-Bold;
-              line-height: 28px;
+              font-family: Proxima-Light;
+              font-weight: 600;
+              line-height: 1.3;
               color: #777777;
               position: relative;
             }

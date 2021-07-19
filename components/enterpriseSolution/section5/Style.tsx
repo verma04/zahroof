@@ -114,9 +114,7 @@ export const Section = styled.section`
             h2 {
               width: 90%;
               position: relative;
-
               font-size: 1.5rem;
-
               text-transform: uppercase;
               position: relative;
               color: #3b546a;
@@ -134,10 +132,11 @@ export const Section = styled.section`
             }
             p {
               width: 90%;
-              /* font-weight: 600; */
-
+              font-weight: 600;
+              font-family: Proxima-Light;
               position: relative;
-              font-size: 1rem;
+              font-size: 18px;
+              line-height: 1.3;
               color: #3b546a;
             }
           }

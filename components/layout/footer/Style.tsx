@@ -325,8 +325,8 @@ export const Foot = styled.footer`
       h3 {
         color: #b2b2b3;
         margin-right: 1rem;
-        line-height: 1.4;
-
+        line-height: 1.3;
+        font-size: 1rem;
         text-transform: uppercase;
         text-align: center;
       }

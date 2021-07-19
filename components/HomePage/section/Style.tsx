@@ -660,13 +660,10 @@ export const Section = styled.section`
             span {
               width: 100%;
               text-align: left;
-              line-height: 1.5rem;
-             
-
+              line-height: 1.3rem;
               color: white;
-
-              line-height: 2rem;
               text-transform: uppercase;
+              font-size: 20px;
             }
           }
           .tringle {

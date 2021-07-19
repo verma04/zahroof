@@ -516,11 +516,8 @@ export const Section = styled.section`
         align-items: start;
         flex-direction: column;
         a {
-         
-          margin-top: 25px;
-          color: #222222;
-         
-          
+          margin-top: 10px;
+          color: #222222;          
           border-bottom: 1px solid black;
          
         }

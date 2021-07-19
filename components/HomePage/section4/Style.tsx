@@ -1392,8 +1392,9 @@ min-width: 10% !important;
             text-align: left;
             width: 95%;
             font-size: 16px;
-            line-height: 1.1;
-            font-family: Proxima-Bold;
+            line-height: 1.3;
+            font-family: Proxima-Light;
+            font-weight: 600;
           }
         }
       }
@@ -1464,13 +1465,13 @@ min-width: 10% !important;
                 content: "";
               }
               p {
-                color: white;
-                
+                color: white;                
                 text-align: left;
                 width: 100%;
                 font-size: 1rem;
-                font-family: Proxima-Bold;
-                line-height: 1.4;
+                font-family: Proxima-Light;
+                font-weight: 600;
+                line-height: 1.3;
                 margin-left: 1rem;
               }
             }

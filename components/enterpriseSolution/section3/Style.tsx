@@ -120,9 +120,7 @@ export const Section = styled.section`
 
           .logo {
             height: 30%;
-
             width: 50%;
-
             display: flex;
             justify-content: flex-start;
             align-items: center;
@@ -145,13 +143,13 @@ export const Section = styled.section`
             p {
               margin-left: 10%;
               margin-top: 1rem;
-              width: 85%;
+              width: 90%;
 
               line-height: 16.87px;
               font-family: Proxima-Bold;
               text-transform: uppercase;
               color: white;
-              font-size: 14.05px;
+              font-size: 13px;
             }
           }
         }

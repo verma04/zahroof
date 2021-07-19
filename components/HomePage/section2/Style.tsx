@@ -610,10 +610,8 @@ export const Section = styled.section`
             }
             p {
               height: 40%;
-
               font-size: 1rem;
-              font-size: 16px;
-
+              font-size: 14px;
               line-height: 1;
               margin-top: 0.5rem;
               text-transform: uppercase;

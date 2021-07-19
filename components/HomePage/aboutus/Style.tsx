@@ -247,9 +247,11 @@ export const Section = styled.section`
         p {
           text-align: left;
           width: 95%;
-          font-size: 0.9rem;
+          font-size: 1rem;
           line-height: 1.4;
-          font-family: Proxima-Bold;
+          font-family: Proxima-Light;
+          font-weight: 600;
+          margin-bottom: 10px;
         }
       }
     }
