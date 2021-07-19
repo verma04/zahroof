@@ -873,7 +873,7 @@ export const Section = styled.section`
       height: 40rem;
 
       .section_data {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         position: absolute;
         width: 100%;
         height: 100%;
@@ -905,7 +905,6 @@ export const Section = styled.section`
             h2 {
               width: 100%;
               font-size: 1.5rem;
-
               text-align: center;
               position: relative;
             }
@@ -922,7 +921,7 @@ export const Section = styled.section`
               content: "";
             }
             h3 {
-              font-size: 16px;
+              font-size: 13px;
               text-align: center;
               width: 100%;
               color: #7c7c7c;

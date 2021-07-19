@@ -183,7 +183,6 @@ export const Section = styled.section`
         width: 100%;
         height: 373px;
         position: relative;
-
         background-color: #cea800;
         .section2_data {
           width: 100%;
@@ -215,15 +214,14 @@ export const Section = styled.section`
               h3 {
                 color: white;
                 text-transform: uppercase;
+                font-size: 1rem;
               }
               li {
                 position: relative;
                 text-transform: uppercase;
-                font-size: 1.3rem;
-
+                font-size: 1rem;
                 width: 90%;
                 text-align: center;
-
                 color: white;
                 font-family: Proxima-Bold;
               }
@@ -261,7 +259,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         span {
-          font-size: 1.5rem;
+          font-size: 1.4rem;
           width: 90%;
           text-align: center;
           font-family: Proxima-Thin;

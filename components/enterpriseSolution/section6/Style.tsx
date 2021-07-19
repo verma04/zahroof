@@ -60,7 +60,6 @@ export const Section = styled.section`
             line-height: 50.29px;
             color: white;
             text-transform: uppercase;
-
             margin-top: 2rem;
             font-style: italic;
           }
@@ -68,8 +67,7 @@ export const Section = styled.section`
             width: 80%;
             color: white;
             font-size: 31px;
-            line-height: 30px;
-             
+            line-height: 30px;             
             line-height: 1;
             text-transform: uppercase;
           }
@@ -206,20 +204,19 @@ export const Section = styled.section`
           flex-direction: column;
           h2 {
             width: 90%;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-style: italic;
             color: white;
             text-transform: uppercase;
-
             sup {
               font-size: 1rem;
             }
           }
           h3 {
             width: 90%;
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: white;
-            font-size: 31px;
+            /* font-size: 31px; */
             line-height: 30px;
             line-height: 1;
             text-transform: uppercase;
@@ -248,7 +245,6 @@ export const Section = styled.section`
           .data {
             display: flex;
             justify-content: center;
-
             align-items: center;
             width: 100%;
             height: 10%;
@@ -286,12 +282,13 @@ export const Section = styled.section`
             p {
               height: 20%;
               width: 100%;
-              font-size: 17px;
+              font-size: 14px;
               line-height: 17px;
               margin-top: 0.5rem;
               text-transform: uppercase;
               color: white;
               text-align: center;
+              /* font-weight: 600; */
             }
             img {
               height: 65%;
@@ -499,10 +496,8 @@ export const Section = styled.section`
           h2 {
             width: 90%;
             font-size: 1.5rem;
-
             color: white;
             text-transform: uppercase;
-
             font-style: italic;
           }
           h3 {

@@ -414,10 +414,8 @@ export const Section = styled.section`
           h2 {
             color: #27364e;
             position: relative;
-
             font-size: 1.5rem;
             width: 95%;
-
             text-transform: uppercase;
             position: relative;
           }
@@ -431,13 +429,13 @@ export const Section = styled.section`
             left: -4%;
             background-color: #24334d;
           }
-
           p {
             width: 95%;
             color: white;
-            font-size: 20px;
-            line-height: 35px;
+            line-height: 1.3;
             color: #2e3031;
+            font-size: 18px;
+            margin-top: 20px;
           }
           h3 {
             line-height: 1.1;

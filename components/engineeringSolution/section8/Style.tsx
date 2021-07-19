@@ -461,8 +461,8 @@ export const Section = styled.section`
               width: 95%;
               color: white;
 
-              line-height: 1.1;
-              font-size: 20px;
+              line-height: 1.3;
+              font-size: 18px;
               font-weight: 600;
             }
             h3 {

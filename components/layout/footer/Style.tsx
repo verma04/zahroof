@@ -326,9 +326,10 @@ export const Foot = styled.footer`
         color: #b2b2b3;
         margin-right: 1rem;
         line-height: 1.4;
-
         text-transform: uppercase;
         text-align: center;
+        font-size: 1rem;
+
       }
       form {
         margin-top: 1rem;

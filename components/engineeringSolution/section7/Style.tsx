@@ -320,11 +320,11 @@ export const Section = styled.section`
 
           p {
             width: 90%;
-            color: white;
-
-            line-height: 35px;
             text-align: left;
             color: black;
+            line-height: 1.3;
+            font-size: 18px;
+            margin-top: 20px;
           }
           h3 {
             line-height: 1.1;

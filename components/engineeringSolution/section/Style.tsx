@@ -296,8 +296,9 @@ export const Section = styled.section`
             p {
               width: 100%;
               color: white;
-
-              font-size: 20px;
+              font-size: 18px;
+              font-family: Proxima-Light;
+              font-weight: 600;
             }
             h3 {
               line-height: 1.1;

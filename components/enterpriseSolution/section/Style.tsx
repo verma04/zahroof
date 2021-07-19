@@ -204,7 +204,6 @@ export const Section = styled.section`
   @media (max-width: 767px) {
     .section {
       position: relative;
-
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -219,7 +218,6 @@ export const Section = styled.section`
         height: 20rem;
         position: relative;
         background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625296161/rfrkr499ec2ow6izav59.jpg");
-
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -242,7 +240,6 @@ export const Section = styled.section`
             h2 {
               color: white;
               position: relative;
-
               font-size: 1.5rem;
               text-transform: uppercase;
               position: relative;
@@ -250,12 +247,12 @@ export const Section = styled.section`
 
             p {
               margin-top: 42px;
-              font-size: 21px;
+              font-size: 18px;
               width: 100%;
               font-weight: 600;
               line-height: 28px;
               color: white;
-              font-family: Proxima-Bold;
+              font-family: 'Proxima-Light';
               line-height: 1.2;
               position: relative;
             }
@@ -266,7 +263,6 @@ export const Section = styled.section`
               height: 100%;
               width: 6px;
               bottom: 0px;
-
               left: -4%;
               background-color: #dbb43f;
             }
@@ -294,15 +290,13 @@ export const Section = styled.section`
           align-items: center;
 
           position: absolute;
-          background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625043594/mxydeuw45cap9go1nesh.png");
+          /* background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625043594/mxydeuw45cap9go1nesh.png"); */
           background-position: right center;
           background-repeat: no-repeat;
           background-size: 202px 167px;
           .section2_data_left {
             display: flex;
-
             width: 90%;
-
             height: 100%;
             justify-content: flex-start;
             align-items: left;
@@ -320,10 +314,11 @@ export const Section = styled.section`
               width: 95%;
               margin-top: 2rem;
               font-size: 16px;
-              font-family: Proxima-Bold;
+              font-family: 'Proxima-Light';
               line-height: 28px;
               color: #777777;
               position: relative;
+              font-weight: 600;
             }
 
             p:after {
@@ -353,7 +348,6 @@ export const Section = styled.section`
           display: flex;
           justify-content: center;
           align-items: center;
-
           position: absolute;
 
           h2 {
@@ -362,7 +356,7 @@ export const Section = styled.section`
 
             position: relative;
             text-transform: uppercase;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             text-align: left;
 
             color: white;

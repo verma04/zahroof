@@ -1317,7 +1317,9 @@ min-width: 10% !important;
             width: 95%;
             font-size: 16px;
             line-height: 1.1;
-            font-family: Proxima-Bold;
+            font-weight: 600;
+            font-family: 'Proxima-Light';
+
           }
         }
       }
@@ -1393,7 +1395,8 @@ min-width: 10% !important;
                 text-align: left;
                 width: 100%;
                 font-size: 1rem;
-                font-family: Proxima-Bold;
+                font-weight: 600;
+                font-family: 'Proxima-Light';
                 line-height: 1.4;
                 margin-left: 1rem;
               }

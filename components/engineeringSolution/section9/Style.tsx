@@ -488,12 +488,9 @@ export const Section = styled.section`
               li {
                 position: relative;
                 text-transform: uppercase;
-                font-size: 1.2rem;
-
-
+                font-size: 1rem;
                 width: 100%;
                 text-align: center;
-
                 color: white;
                 font-family: Proxima-Bold;
               }
@@ -508,9 +505,9 @@ export const Section = styled.section`
               }
               li:nth-child(3) {
                 width: 100%;
-    font-size: 17.51px;
-    line-height: 25.3px;
-    text-align: center;
+                font-size: 1rem;
+                line-height: 1.3;
+                text-align: center;
               }
 
               li:nth-child(4) {
