@@ -4,14 +4,14 @@ export default createGlobalStyle`
 a { 
   text-decoration: none; 
  color:#fafafb;
-
+  cursor: pointer;
   font-family: Proxima-Bold;
 } 
 
 
 sub, sup {
   /* Specified in % so that the sup/sup is the right size relative to the surrounding text */
-  font-size: 75%;
+  font-size: 52%;
 
   /* Zero out the line-height so that it doesn't interfere with the positioning that follows */
   line-height: 0;
@@ -25,7 +25,9 @@ sub, sup {
 
 sup {
   /* Move the superscripted text up */
-  top: -0.5em;
+  
+  top: -0.8em;
+
 }
 
 sub {
@@ -185,8 +187,8 @@ line-height:1.1;
     color: #2f3435; 
   }
   button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-  transform: scale(1.1); 
+ 
+  transform: scale(1); 
  
 }
 i:hover {
@@ -199,9 +201,47 @@ code {
   button {
 border-radius:5px;
 font-family: Proxima-Bold;
-transition: transform .8s;
+transition: transform .1s;
+    transition: all 0.5s linear 0s;
 
+    &:before {
+    content: ">";
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    right: 5%;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+  
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    font-size: 22px;
+    font-weight: bold;
+    }
+
+    &:hover {
+    text-indent: 5px;
+    padding-right: 1rem;
+
+    &:before {
+        opacity: 1;
+        padding-left: 1rem;
+    }
+}
   }
+
+ 
   input {
     font-family: Proxima-Bold;
     border:1px solid #EFEAE4;

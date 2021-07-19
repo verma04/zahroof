@@ -32,7 +32,7 @@ export const Section = styled.section`
       }
 
       .section2_data {
-        width: 90%;
+        width: 86%;
         height: 100%;
         display: flex;
         justify-content: space-between;
@@ -114,9 +114,10 @@ export const Section = styled.section`
               text-transform: uppercase;
             }
             span {
-              width: 100%;
+             
+              width: 91%;
+    margin-left: 21%;
 
-              margin-left: 25%;
 
               text-align: left;
               font-size: 20px;
@@ -381,9 +382,9 @@ export const Section = styled.section`
       width: 100%;
       align-items: center;
       position: relative;
-      height: 50rem;
+      height: 37rem;
       background-color: #dbb43f;
-      .tringle {
+      /* .tringle {
         position: absolute;
         left: 20%;
         width: 0;
@@ -393,7 +394,7 @@ export const Section = styled.section`
         border-right: 5rem solid transparent;
         border-bottom: 3rem solid #dbb43f;
         z-index: 1;
-      }
+      } */
 
       .section2_data {
         width: 95%;
@@ -414,7 +415,8 @@ export const Section = styled.section`
           h2 {
             color: #27364e;
             position: relative;
-            font-size: 1.5rem;
+
+            font-size: 2rem;
             width: 95%;
             text-transform: uppercase;
             position: relative;
@@ -432,7 +434,8 @@ export const Section = styled.section`
           p {
             width: 95%;
             color: white;
-            line-height: 1.3;
+            font-size: 20px;
+            line-height: 25px;
             color: #2e3031;
             font-size: 18px;
             margin-top: 20px;

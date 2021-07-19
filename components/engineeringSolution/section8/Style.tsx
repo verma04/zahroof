@@ -35,7 +35,7 @@ export const Section = styled.section`
         #ab {
           position: absolute;
           font-size: 1.5rem;
-          bottom: 10%;
+          bottom: 5%;
           left: 60%;
           margin-top: 3rem;
           line-height: 2;
@@ -443,7 +443,7 @@ export const Section = styled.section`
           flex-direction: column-reverse;
           .section2_data_left {
             display: flex;
-            width: 100%;
+            width: 90%;
             height: 60%;
             justify-content: space-around;
             align-items: center;
@@ -451,14 +451,14 @@ export const Section = styled.section`
             h2 {
               text-transform: uppercase;
               position: relative;
-              width: 95%;
+              width: 100%;
               font-size: 1.5rem;
               color: white;
               position: relative;
             }
 
             p {
-              width: 95%;
+              width: 100%;
               color: white;
 
               line-height: 1.3;
@@ -473,7 +473,7 @@ export const Section = styled.section`
 
           .section2_data_right {
             display: flex;
-            width: 95%;
+            width: 90%;
             height: 30%;
             justify-content: center;
             align-items: center;

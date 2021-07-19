@@ -3,7 +3,7 @@ import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
 
-interface SectionTwo {
+interface SectionThree {
   data: {
     valveasherotwoitemOneImage: string;
     valveasherotwoitemOneTitle: string;
@@ -22,7 +22,7 @@ interface SectionTwo {
   }; // Change the required prop to an optional prop.
 }
 
-const SectionTwo: React.FC<SectionTwo> = (data) => {
+const SectionThree: React.FC<SectionThree> = (data) => {
   return (
     <Section>
       <div className="section2">
@@ -119,4 +119,4 @@ const SectionTwo: React.FC<SectionTwo> = (data) => {
   );
 };
 
-export default SectionTwo;
+export default SectionThree;

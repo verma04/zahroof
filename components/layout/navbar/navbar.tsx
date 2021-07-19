@@ -55,16 +55,17 @@ const Navbar: React.FC<{}> = () => {
                   <a   className={router.pathname == "/enterpriseSolutions" ? "active" : ""} >Enterprise Solutions</a>
                 </Link>
 
+               
+              </li>
+              <li>
+                <Link href="/engineeringSolutions">
+                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} id={router.pathname == "/valveashero" ? "active" : ""} >Engineering Solutions</a>
+                </Link>
                 <div className="valve" >
                 <Link href="/valveashero">
                   <a>Valve as hero</a>
                 </Link>
                 </div>
-              </li>
-              <li>
-                <Link href="/engineeringSolutions">
-                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} >Engineering Solutions</a>
-                </Link>
               </li>
               <li>
                 <Link href="/esgbenefits">
@@ -154,7 +155,7 @@ const Navbar: React.FC<{}> = () => {
                         <h3 id={router.pathname == "/people" ? "active" : ""}>
                       
                       <Link href="/valveashero">
-                        Valveashero
+                      Valve as hero
                       </Link>
                     </h3>
                         <h3 id={router.pathname == "/careers" ? "active" : ""}>
@@ -211,16 +212,17 @@ const Navbar: React.FC<{}> = () => {
                   <a   className={router.pathname == "/enterpriseSolutions" ? "active" : ""} >Enterprise Solutions</a>
                 </Link>
 
+               
+              </li>
+              <li>
+                <Link href="/engineeringSolutions">
+                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} id={router.pathname == "/valveashero" ? "active" : ""} >Engineering Solutions</a>
+                </Link>
                 <div className="valve" >
                 <Link href="/valveashero">
                   <a>Valve as hero</a>
                 </Link>
                 </div>
-              </li>
-              <li>
-                <Link href="/engineeringSolutions">
-                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} >Engineering Solutions</a>
-                </Link>
               </li>
               <li>
                 <Link href="/esgbenefits">
@@ -311,7 +313,7 @@ const Navbar: React.FC<{}> = () => {
                         <h3 id={router.pathname == "/people" ? "active" : ""}>
                       
                       <Link href="/valveashero">
-                        Valveashero
+                        Valve as hero
                       </Link>
                     </h3>
                         <h3 id={router.pathname == "/careers" ? "active" : ""}>

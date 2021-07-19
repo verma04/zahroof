@@ -6,6 +6,9 @@ export const Section = styled.section`
   flex-direction: column;
   width: 100%;
   align-items: center;
+  option {
+    text-transform: uppercase;
+  }
 
   @media (min-width: 1281px) {
     .section {
@@ -74,6 +77,7 @@ export const Section = styled.section`
               content: "";
             }
             h3 {
+              font-family: 'Proxima-Light';
               margin-top: 2rem;
               font-size: 20px;
               text-align: right;
@@ -164,20 +168,8 @@ export const Section = styled.section`
                   width: 25%;
                   font-size: 1.1rem;
                   font-weight: 1000;
-                  background: #7b6116;
-                  background-image: -webkit-linear-gradient(
-                    top,
-                    #7b6116,
-                    #d6b34d
-                  );
-                  background-image: -moz-linear-gradient(top, #7b6116, #d6b34d);
-                  background-image: -ms-linear-gradient(top, #7b6116, #d6b34d);
-                  background-image: -o-linear-gradient(top, #7b6116, #d6b34d);
-                  background-image: -webkit-gradient(
-                    to bottom,
-                    #7b6116,
-                    #d6b34d
-                  );
+                  background: #dbb43f;;
+                  
                 }
                 .field {
                   width: 49%;
@@ -296,7 +288,7 @@ export const Section = styled.section`
 
       .section_data {
         position: absolute;
-        width: 100%;
+        width: 90%;
         height: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -348,7 +340,7 @@ export const Section = styled.section`
               margin-top: 2rem;
               font-size: 20px;
               text-align: right;
-
+              font-family: 'Proxima-Light';
               width: 100%;
               color: white;
               line-height: 30px;

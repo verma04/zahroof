@@ -8,9 +8,7 @@ export const Section = styled.section`
   align-items: center;
 
   @media (min-width: 1281px) {
-    [data-aos="example-anim3"] {
- 
-}
+
 
     .section4 {
       position: relative;
@@ -26,8 +24,7 @@ export const Section = styled.section`
         position: relative;
         height: 55rem;
         width: 100%;
-        background:  radial-gradient(ellipse farthest-corner at right bottom, #d49e03 0%, #d49a06 8%, #e19b05 30%, #c28f1c 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #DBB42F 0%, #f9d674 8%, #e2bb50 25%, #c39733 62.5%, #DBB42F 100%);
+        background:  #dbb43f;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -35,16 +32,13 @@ export const Section = styled.section`
         .tringle {
           position: absolute;
           right: 10%;
-          width: 200px;
+          width: 180px;
           bottom: -7.4%;
           height: 65px;
-          /* border-left: 6rem solid transparent; */
-          /* border-right: 6rem solid transparent; */
-          /* border-top: 4rem solid #FDB931; */
-          /* z-index: -1; */
-          background-image: url('http://18.217.254.134/wp-content/uploads/2021/07/Arrow-home-1.png');
-          background-repeat: no-repeat;
-          background-size: 100% 100%;
+          border-left: 6rem solid transparent; 
+          border-right: 6rem solid transparent;
+         border-top: 4rem solid #dbb43f; 
+       
         }
         .section4_top_data {
           display: flex;
@@ -195,8 +189,8 @@ export const Section = styled.section`
             .text-1 {
               position: absolute;
     top: 0%;
-    right: 10%;
-    width: 13rem;
+    right: 12%;
+    width: 29%;
     height: 10rem;
     
             }
@@ -217,8 +211,10 @@ min-width: 10% !important;
             .text-2 {
               position: absolute;
               bottom:0%;
-               left:4%;
-               width: 13rem;
+             
+    left: 10%;
+
+               width: 29%;
     height: 10rem;
                
             }
@@ -336,12 +332,13 @@ min-width: 10% !important;
                 text-align: left;
                 width: 47%;
                 font-size: 16px;
-                font-family: Proxima-Bold;
+                font-weight: 600;
                 line-height: 24px;
                 margin-left: -20px;
               }
             }
             .btn {
+              margin-top: 8%;
               color: white;
               z-index: 1;
               text-align: left;
@@ -349,13 +346,12 @@ min-width: 10% !important;
 
               button {
                 font-size: 1rem;
-                padding: 1rem;
-                height: 4.5rem;
+                padding: 1rem 2rem;
+                height: 4rem;
                 border-radius: 0px;
                 text-transform: uppercase;
                 background-color: #398baa;
   
-            
               }
 
    
@@ -427,22 +423,12 @@ min-width: 10% !important;
         position: relative;
         height: 47rem;
         width: 100%;
-        background: radial-gradient( ellipse farthest-corner at right bottom,#fedb37 0%,#fddb45 8%,#af9746 30%,#7b692b 55%,transparent 80% ),radial-gradient( ellipse farthest-corner at left top,#ffffff 0%,#ffffac 8%,#d1b464 25%,#5d4a1f 62.5%,#5d4a1f 100% );
+        background:  #dbb43f;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
 
-        .tringle {
-          position: absolute;
-          right: 10%;
-          width: 0;
-          bottom: -6%;
-          height: 0;
-          border-left: 6rem solid transparent;
-          border-right: 6rem solid transparent;
-          border-top: 4rem solid #fdb931;
-          z-index: -1;
-        }
+       
         .section4_top_data {
           display: flex;
           justify-content: flex-start;
@@ -582,12 +568,42 @@ min-width: 10% !important;
           display: flex;
           justify-content: flex-end;
           align-items: center;
-          width: 50%;
-          height: 50%;
+          width: 100%;
+          height: 70%;
           .img_wrapper {
             width: 100%;
             height: 100%;
             position: relative;
+            .text-1 {
+              position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 29%;
+    height: 10rem;
+    
+            }
+            [data-aos="example-anim3"] {
+          transform: rotate(
+-81deg
+);
+
+min-width: 10% !important;
+ 
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: rotate(0);
+    opacity: 1;
+    min-width: 100% !important;;
+  }
+          }
+            .text-2 {
+              position: absolute;
+              bottom:0%;
+               left:4%;
+               width: 29%;
+    height: 10rem;
+               
+            }
           }
         }
 
@@ -792,7 +808,7 @@ min-width: 10% !important;
         position: relative;
         height: 39rem;
         width: 100%;
-        background: radial-gradient( ellipse farthest-corner at right bottom,#fedb37 0%,#fddb45 8%,#af9746 30%,#7b692b 55%,transparent 80% ),radial-gradient( ellipse farthest-corner at left top,#ffffff 0%,#ffffac 8%,#d1b464 25%,#5d4a1f 62.5%,#5d4a1f 100% );
+        background:  #dbb43f;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -935,6 +951,36 @@ min-width: 10% !important;
             width: 100%;
             height: 100%;
             position: relative;
+            .text-1 {
+              position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 29%;
+    height: 10rem;
+    
+            }
+            [data-aos="example-anim3"] {
+          transform: rotate(
+-81deg
+);
+
+min-width: 10% !important;
+ 
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: rotate(0);
+    opacity: 1;
+    min-width: 100% !important;;
+  }
+          }
+            .text-2 {
+              position: absolute;
+              bottom:0%;
+               left:4%;
+               width: 29%;
+    height: 10rem;
+               
+            }
           }
         }
 
@@ -1133,7 +1179,7 @@ min-width: 10% !important;
         position: relative;
         height: 25rem;
         width: 100%;
-        background: radial-gradient( ellipse farthest-corner at right bottom,#fedb37 0%,#fddb45 8%,#af9746 30%,#7b692b 55%,transparent 80% ),radial-gradient( ellipse farthest-corner at left top,#ffffff 0%,#ffffac 8%,#d1b464 25%,#5d4a1f 62.5%,#5d4a1f 100% );
+        background:  #dbb43f;
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -1260,7 +1306,7 @@ min-width: 10% !important;
         position: relative;
         height: 40rem;
         width: 100%;
-        z-index: 1;
+        
         margin-bottom: 0px;
         display: flex;
         justify-content: center;
@@ -1280,6 +1326,36 @@ min-width: 10% !important;
             width: 100%;
             height: 100%;
             position: relative;
+            .text-1 {
+              position: absolute;
+    top: 0%;
+    right: 2%;
+    width: 38%;
+    height: 7rem;
+    
+            }
+            [data-aos="example-anim3"] {
+          transform: rotate(
+-81deg
+);
+
+min-width: 10% !important;
+ 
+  transition-property: transform, opacity;
+  &.aos-animate {
+    transform: rotate(0);
+    opacity: 1;
+    min-width: 100% !important;;
+  }
+          }
+            .text-2 {
+              position: absolute;
+    bottom: 0%;
+    left: 2%;
+    width: 29%;
+    height: 10rem
+               
+            }
           }
         }
 
@@ -1328,7 +1404,7 @@ min-width: 10% !important;
         position: relative;
 
         width: 100%;
-        z-index: 1;
+      
 
         background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625296161/rfrkr499ec2ow6izav59.jpg");
 
@@ -1391,7 +1467,7 @@ min-width: 10% !important;
               }
               p {
                 color: white;
-                z-index: 1;
+                
                 text-align: left;
                 width: 100%;
                 font-size: 1rem;
@@ -1403,7 +1479,7 @@ min-width: 10% !important;
             }
             .btn {
               color: white;
-              z-index: 1;
+              
               text-align: left;
 
               button {
@@ -1446,7 +1522,7 @@ min-width: 10% !important;
               }
               h3 {
                 /* color:white; */
-                z-index: 1;
+               
                 width: 100%;
                 text-align: center;
                 color: #f2e7c9;
@@ -1459,7 +1535,7 @@ min-width: 10% !important;
 
           width: 10rem;
           height: 9rem;
-          z-index: 1;
+         
           right: 24%;
           top: -100px;
         }

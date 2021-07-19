@@ -87,8 +87,8 @@ export const Section = styled.section`
           .section2_data_right {
             margin-right: 10%;
             display: flex;
-            width: 21%;
-
+            width: 25%;
+ 
             height: 80%;
             justify-content: space-around;
             align-items: flex-start;
@@ -96,8 +96,8 @@ export const Section = styled.section`
             flex-wrap: wrap;
 
             .top {
-             
-         
+            
+            width: 100%;
               height: 30%;
               display: flex;
               justify-content: space-around;
@@ -107,7 +107,7 @@ export const Section = styled.section`
                 width: 100%;
                 text-align: center;
                 color: white;
-                font-size: 88.95px;
+                font-size: 70.95px;
               }
               span {
                 width: 100%;
@@ -378,7 +378,7 @@ export const Section = styled.section`
           position: absolute;
           flex-direction: column;
           .section2_data_left {
-            margin-left: 5%;
+         
             display: flex;
             width: 90%;
             height: 50%;
@@ -421,12 +421,12 @@ export const Section = styled.section`
             width: 100%;
             height: 50%;
             justify-content: space-around;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: column;
             flex-wrap: wrap;
             margin-bottom: 10%;
             .top {
-              width: 100%;
+              width: 90%;
 
               height: 30%;
               display: flex;
@@ -437,7 +437,7 @@ export const Section = styled.section`
                 width: 100%;
                 text-align: center;
                 color: white;
-                font-size: 88.95px;
+                font-size: 40.95px;
               }
               span {
                 width: 100%;

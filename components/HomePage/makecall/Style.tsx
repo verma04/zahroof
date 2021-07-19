@@ -42,7 +42,7 @@ export const Section = styled.section`
           align-items: center;
 
           .section-left-top {
-            height: 80%;
+            height: 75%;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -72,7 +72,7 @@ export const Section = styled.section`
               width: 100%;
               color: #7c7c7c;
               line-height: 28px;
-              margin-top: 3rem;
+              
             }
           }
           .section-left-bottom {

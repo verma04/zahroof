@@ -68,7 +68,7 @@ export const Section = styled.section`
           margin-bottom: 1.5rem;
           width: 80%;
           line-height: 2;
-          font-family: "Proxima-Bold";
+          font-weight: 800;
         }
       }
 
@@ -263,7 +263,7 @@ export const Section = styled.section`
       display: flex;
       justify-content: center;
 
-      width: 95%;
+      width: 90%;
       align-items: center;
       position: relative;
       
@@ -282,6 +282,7 @@ export const Section = styled.section`
         align-items: left;
         flex-direction: column;
         h2 {
+          
           position: relative;
           padding-left: 0.5rem;
           font-size: 1.5rem;
@@ -314,7 +315,7 @@ export const Section = styled.section`
         p {
           margin-bottom: 1.5rem;
           width: 100%;
-          line-height: 1.1;
+          line-height: 1.3;
         }
       }
 

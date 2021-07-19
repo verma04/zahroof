@@ -21,13 +21,13 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = (data) => {
   const data1: any =
-    ' " No other valve performs as well across categories We increased production, reduced energy use and emissions and cut maintenance costs by XX%"';
+    '   “ The stock in our very full warehouse went from about 10 pallets down to a few shelves of spare modules and gaskets.    ” ';
   return (
     <Section>
       <div className="section">
         <div className="section_top">
           <span id="top">{data1}</span>
-          <span> - Customer Name</span>
+          <span> -ZVI Customer</span>
         </div>
         <div className="section-bottom"></div>
         <div className="tringle"></div>

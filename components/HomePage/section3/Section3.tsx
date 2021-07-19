@@ -51,8 +51,8 @@ const Section3: React.FC<Section3> = (data) => {
       setwidth(10);
     } else if (window.pageYOffset > 1610 && window.pageYOffset < 1650) {
       setwidth(30);
-      setright(10)
-      setleft(10)
+      setright(15)
+      setleft(15)
     }
     else if (window.pageYOffset > 1650 && window.pageYOffset < 1700) {
       setwidth(50);
@@ -140,7 +140,7 @@ const Section3: React.FC<Section3> = (data) => {
                 className="section3_right"
               >
                 <h2>{data.data.homeThreeRightHeading}</h2>
-                <a>Learn More&gt;</a>
+                <Link href="/esgbenefits" >Learn More</Link>
               </div>
             </div>
           </Parallax>

@@ -190,7 +190,7 @@ export const Section = styled.section`
         align-items: center;
         flex-direction: column;
         h3 {
-          width: 80%;
+          width: 90%;
           color: white;
           font-size: 26px;
           line-height: 32px;

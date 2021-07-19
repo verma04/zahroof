@@ -359,7 +359,7 @@ export const Section = styled.section`
    
 
       .section2_data {
-        width: 90%;
+        width: 100%;
         height: 80%;
         display: flex;
         justify-content: space-between;
@@ -368,7 +368,7 @@ export const Section = styled.section`
 
         .section2_data_left {
           display: flex;
-          width: 100%;
+          width: 90%;
           height: 45rem;
           justify-content: space-around;
           align-items: left;
@@ -399,7 +399,7 @@ export const Section = styled.section`
             line-height: 1.1;
           }
           h3 {
-            line-height: 1.1;
+            line-height: 1.3;
             color: white;
             font-style: italic;
             font-size:2rem;
@@ -412,7 +412,7 @@ export const Section = styled.section`
 
         .section2_data_right {
           display: flex;
-          width: 95%;
+          width: 90%;
           height: 50rem;
          
           justify-content: space-evenly;

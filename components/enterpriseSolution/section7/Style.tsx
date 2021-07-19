@@ -51,10 +51,10 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 342px;
+        height: 370px;
         position: relative;
 
-        background-color: #cea800;
+        background-color: #dbb43f;
         .section2_data {
           width: 100%;
 
@@ -105,7 +105,14 @@ export const Section = styled.section`
                 margin-bottom: 10px;
                 width: 130px;
                 height: 132px;
+                transition: transform 0.5s;
+                :hover {
+              -ms-transform: scale(1.5); /* IE 9 */
+              -webkit-transform: scale(1.5); /* Safari 3-8 */
+              transform: scale(1.1);
+            }
               }
+              
               li:nth-child(3) {
                 width: 100%;
                 font-size: 23.51px;
@@ -181,9 +188,10 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 373px;
+        height: 700px;
         position: relative;
-        background-color: #cea800;
+
+        background-color: #dbb43f;
         .section2_data {
           width: 100%;
 
@@ -191,6 +199,7 @@ export const Section = styled.section`
           display: flex;
           justify-content: flex-start;
           align-items: center;
+          flex-direction: column;
 
           .section2_data {
             display: flex;
@@ -318,7 +327,7 @@ export const Section = styled.section`
         height: 389px;
         position: relative;
 
-        background-color: #cea800;
+        background-color: #dbb43f;
         .section2_data {
           width: 100%;
 
@@ -450,7 +459,7 @@ export const Section = styled.section`
         height: 342px;
         position: relative;
 
-        background-color: #cea800;
+        background-color: #dbb43f;
         .section2_data {
           width: 100%;
 

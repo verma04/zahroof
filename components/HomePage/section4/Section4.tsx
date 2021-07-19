@@ -62,9 +62,9 @@ const Section4: React.FC<Section4> = (data) => {
         <div className="section4_top">
           <div className="tringle"></div>
 
-          <div className="section4_top_data">
+          <div data-aos="zoom-in" className="section4_top_data">
             <h2>{data.data.homeFourHeading}</h2>
-            <div className="section4_top_data_logos">
+            <div  className="section4_top_data_logos">
               <Image
                 objectFit="contain"
                 layout="fill"
@@ -72,7 +72,7 @@ const Section4: React.FC<Section4> = (data) => {
                 alt="Picture of the author"
               />
             </div>
-            <div data-aos="fade-up" className="icon" id="gasses">
+            <div  className="icon" id="gasses">
               <div className="img-wrapper">
                 <Image
                   objectFit="contain"
@@ -85,7 +85,7 @@ const Section4: React.FC<Section4> = (data) => {
               </div>
               <span>Industrial gases</span>
             </div>
-            <div data-aos="fade-up-left" className="icon" id="industry">
+            <div  className="icon" id="industry">
               <div className="img-wrapper">
                 <Image
                   objectFit="contain"
@@ -99,7 +99,7 @@ const Section4: React.FC<Section4> = (data) => {
               <span>Natural gas Industry</span>
             </div>
 
-            <div data-aos="fade-left" className="icon" id="Refineries">
+            <div  className="icon" id="Refineries">
               <div className="img-wrapper">
                 <Image
                   objectFit="contain"
@@ -113,7 +113,7 @@ const Section4: React.FC<Section4> = (data) => {
               <span>Refineries</span>
             </div>
 
-            <div data-aos="fade-up-right" className="icon" id="Cng">
+            <div  className="icon" id="Cng">
               <div className="img-wrapper">
                 <Image
                   objectFit="contain"
@@ -126,7 +126,7 @@ const Section4: React.FC<Section4> = (data) => {
               </div>
               <span>Cng Industry</span>
             </div>
-            <div data-aos="fade-right" className="icon" id="Oil">
+            <div  className="icon" id="Oil">
               <div className="img-wrapper">
                 <Image
                   objectFit="contain"
@@ -139,7 +139,7 @@ const Section4: React.FC<Section4> = (data) => {
               </div>
               <span>Oil</span>
             </div>
-            <div data-aos="fade-down-right" className="icon" id="hydrogen">
+            <div  className="icon" id="hydrogen">
               <div className="img-wrapper">
                 <Image
                   objectFit="contain"
@@ -152,7 +152,7 @@ const Section4: React.FC<Section4> = (data) => {
               </div>
               <span>Hydrogen production</span>
             </div>
-            <div data-aos="fade-down-left" className="icon" id="Lng">
+            <div  className="icon" id="Lng">
               <div className="img-wrapper">
                 <Image
                   objectFit="contain"
@@ -165,7 +165,7 @@ const Section4: React.FC<Section4> = (data) => {
               </div>
               <span>Lng</span>
             </div>
-            <div data-aos="fade-down" className="icon" id="chemical">
+            <div  className="icon" id="chemical">
               <div className="img-wrapper">
                 <Image
                   objectFit="contain"
@@ -176,9 +176,9 @@ const Section4: React.FC<Section4> = (data) => {
                   alt=""
                 />
               </div>
-              <span>chemical</span>
+              <span>chemicals</span>
             </div>
-            <div data-aos="fade-down" className="icon" id="offshore">
+            <div   className="icon" id="offshore">
               <div className="img-wrapper">
                 <Image
                   objectFit="contain"
@@ -203,7 +203,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   data-aos="example-anim3" 
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626156797/ozeod0ebhmh66i1o1hsn.png"}
+                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626413919/ztssxgdudjwgkieybi7f.png"}
                   alt="Picture of the author"
                 />
 
@@ -216,7 +216,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   data-aos="zoom-in"
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626157052/ayjxixh0b31jgr0jbxdz.png"}
+                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626413918/ezbr949axrtwmzseyrxr.png"}
                   alt="Picture of the author"
                 />
              
@@ -226,13 +226,13 @@ const Section4: React.FC<Section4> = (data) => {
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626157052/yxgg9kcrc4rxotzs8ejd.png"}
+                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626413919/smmukplhbhdcnwbu54ok.png"}
                   data-aos="zoom-in"
                   alt="Picture of the author"
                 />
               </div>
            
-           
+            
            
             </div>
           
@@ -266,7 +266,7 @@ performance of all others in the industry.</p> */}
           {/* <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624446661/zugr9ahadrsbvxmfoi2v.jpg'} alt="Picture of the author" /> */}
 
           <div className="section4_bottom_data">
-            <div className="section4_mid_left">
+            <div  data-aos="fade-up" className="section4_mid_left">
               <div
                 dangerouslySetInnerHTML={{
                   __html: data.data.homeSixCaseStudyContent,
@@ -285,7 +285,7 @@ performance of all others in the industry.</p> */}
               </div>
             </div>
 
-            <div className="section4_mid_right">
+            <div  data-aos="fade-up" className="section4_mid_right">
               <div className="section4_logo">
                 <div className="img_wrapper">
                   <Image

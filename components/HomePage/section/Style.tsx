@@ -661,6 +661,8 @@ export const Section = styled.section`
               width: 100%;
               text-align: left;
               line-height: 1.5rem;
+             
+
               color: white;
               text-transform: uppercase;
               font-size: 18px;

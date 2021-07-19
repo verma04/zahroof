@@ -31,6 +31,7 @@ export const Section = styled.section`
       background-size: cover;
 
       .middle {
+        transition: all linear 1s;
         position: absolute;
         bottom: -3%;
         width: 40%;
@@ -45,6 +46,7 @@ export const Section = styled.section`
       }
 
       .left {
+        transition: all linear 1s;
         position: absolute;
         height: 30%;
         top: 5%;
@@ -59,10 +61,11 @@ export const Section = styled.section`
       }
 
       .right {
+        transition: all linear 1s;
         position: absolute;
         height: 30%;
         top: 5%;
-        width: 30%;
+        width: 35%;
         right: -4%;
 
         .img-wrapper {
@@ -118,8 +121,40 @@ export const Section = styled.section`
           font-size: 30px;
           line-height: 28px;
           font-weight: 900;
-          border-bottom: 1px solid black;
+         
           margin-left: 8rem;
+          position: relative;
+
+          &:before {
+    content: ">";
+    position: absolute;
+   
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+    right: -20%;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    -webkit-transition: all 1s linear 0s;
+    transition: all 0.2s linear 0s;
+    font-size: 22px;
+    font-weight: bold;
+    }
+
+    
+
+    &:hover {
+    text-indent: -20px;
+    background-color: transparent;
+    &:before {
+        opacity: 1;
+        text-indent: 0px;
+    }
+}
         }
       }
     }
@@ -461,7 +496,7 @@ export const Section = styled.section`
 
       .section3_left {
         position: absolute;
-        top: 45%;
+        top: 10%;
       left:8%;
     width: 31%;
 
@@ -472,7 +507,7 @@ export const Section = styled.section`
       }
       .section3_right {
         position: absolute;
-        top: 45%;
+        top: 10%;
         right: 3%;
         width: 30%;
         /* height: 100%; */

@@ -10,6 +10,9 @@ export const Nav = styled.nav`
   position: absolute;
 
   top: 0%;
+  #active  {
+    color: #dbb43f;
+  }
 
   @media (min-width: 1281px) {
     width: 100%;
@@ -45,11 +48,11 @@ export const Nav = styled.nav`
            
           }
           .active {
-              color: #fddb45;
+               color: #dbb43f;
             }
         }
 
-        li:nth-child(2)  {
+        li:nth-child(3)  {
 
 position: relative;
 .valve {
@@ -67,7 +70,7 @@ background-color: #dbb43fde;
 
 
 }
-li:nth-child(2):hover {
+li:nth-child(3):hover {
         
          .valve {
            display: flex;
@@ -125,11 +128,11 @@ li:nth-child(2):hover {
             text-transform: uppercase;
           }
           .active {
-              color: #fddb45;
+            color: #dbb43f;
             }
          
         }
-        li:nth-child(2):hover {
+        li:nth-child(3):hover {
          background-color: #dbb43fde;
          .valve {
            display: flex;
@@ -139,7 +142,7 @@ li:nth-child(2):hover {
           }
 
 
-          li:nth-child(2)  {
+          li:nth-child(3)  {
 
            position: relative;
            .valve {
@@ -199,10 +202,10 @@ li:nth-child(2):hover {
             text-transform: uppercase;
           }
           .active {
-              color: #fddb45;
+             color: #dbb43f;
             }
         }
-        li:nth-child(2)  {
+        li:nth-child(3)  {
 
 position: relative;
 .valve {
@@ -269,7 +272,7 @@ background-color: #dbb43fde;
           }
         }
 
-        li:nth-child(2)  {
+        li:nth-child(3)  {
 
 position: relative;
 .valve {
@@ -287,7 +290,7 @@ background-color: #dbb43fde;
 
 
 }
-li:nth-child(2):hover {
+li:nth-child(3):hover {
          background-color: #dbb43fde;
          .valve {
            display: flex;

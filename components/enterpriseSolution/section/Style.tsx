@@ -59,10 +59,10 @@ export const Section = styled.section`
               margin-top: 42px;
               font-size: 21px;
               width: 100%;
-              font-weight: 600;
+             
               line-height: 28px;
               color: white;
-              font-family: Proxima-Bold;
+           
               line-height: 1.2;
               position: relative;
             }
@@ -279,7 +279,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 535px;
+        height: 500px;
         position: relative;
 
         .section2_data {
@@ -290,10 +290,7 @@ export const Section = styled.section`
           align-items: center;
 
           position: absolute;
-          /* background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625043594/mxydeuw45cap9go1nesh.png"); */
-          background-position: right center;
-          background-repeat: no-repeat;
-          background-size: 202px 167px;
+        
           .section2_data_left {
             display: flex;
             width: 90%;

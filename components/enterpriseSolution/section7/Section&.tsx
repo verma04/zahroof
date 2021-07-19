@@ -2,7 +2,7 @@ import React from "react";
 import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
-
+import { useRouter } from 'next/router'
 interface HeroSectionProps {
   data: {
     enterprisefiveLeftTitle: string;
@@ -16,7 +16,7 @@ interface HeroSectionProps {
 }
 const HeroSection: React.FC<HeroSectionProps> = (data) => {
   const set: string = "SEE WHAT WE'VE DONE FOR OTHERS.";
-
+  const router = useRouter()
   return (
     <Section>
       <div className="section">
@@ -38,14 +38,16 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
                   <li dangerouslySetInnerHTML={{ __html: data.data.enterprisefiveLeftTitle, }} />
                   <li>
                     <Image
+                    onClick={()=>router.push('/engineeringSolutions')}
                       alt="Picture of the author"
+                    
                       objectFit="contain"
                       layout="fill"
                       src={data.data.enterprisefiveLeftIcon}
                     />
                   </li>
 
-                  <li>
+                  <li   onClick={()=>router.push('/engineeringSolutions')} >
                     <h3>{data.data.enterprisefiveLeftContent}</h3>
                   </li>
                   <li>
@@ -66,6 +68,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
                   <li dangerouslySetInnerHTML={{ __html: data.data.enterprisefiveRightTitle, }} />
                   <li>
                     <Image
+                    onClick={()=>router.push('/contactus')}
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
@@ -74,10 +77,11 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
                   </li>
 
                   <li>
-                    <h3>{data.data.enterprisefiveRightContent}</h3>
+                    <h3  onClick={()=>router.push('/contactus')} >{data.data.enterprisefiveRightContent}</h3>
                   </li>
                   <li>
                     <Image
+                    
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
@@ -91,7 +95,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
         </div>
 
         <div className="section_bottom-1">
-          <span>Redefining valve in years, instead of months.</span>
+          <span>Redefining valve in years instead of months.</span>
         </div>
       </div>
     </Section>

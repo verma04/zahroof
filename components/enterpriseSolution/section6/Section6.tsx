@@ -45,6 +45,9 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
             className="section2_data_left"
           ></div>
 
+          <div className="triangle" >
+            </div> 
+
           <div className="section2_data_right">
             <div dangerouslySetInnerHTML={{
               __html: data.data.enterprisethreebottomrightContent,

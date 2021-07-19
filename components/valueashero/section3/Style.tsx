@@ -24,19 +24,20 @@ export const Section = styled.section`
       width: 100%;
 
       .section2_data {
-        width: 90%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
         .section2_data_left {
           display: flex;
-          width: 45%;
-          height: 100%;
+          width: 55%;
+          height: 80%;
           justify-content: space-around;
           align-items: left;
           flex-direction: column;
+          margin-left: 5%;
           h2 {
             
             position: relative;
@@ -76,7 +77,9 @@ export const Section = styled.section`
 
         .section2_data_right {
           display: flex;
-          width: 45%;
+         
+          width: 30%;
+          background-color: #2f3032;
           height: 100%;
           justify-content: flex-start;
           align-items: center;
@@ -84,23 +87,23 @@ export const Section = styled.section`
           flex-wrap: wrap;
           position: relative;
           h3 {
-            color: #24334d;
-            margin-top: 10px;
-
+            margin-top: 15%;
+            color:  white;
+          
             font-size: 26.64px;
             text-align: left;
-            width: 60%;
+            width: 80%;
 
             text-transform: uppercase;
           }
 
           p {
             margin-top: 55px;
-            width: 60%;
+            width: 80%;
             line-height: 30px;
             text-align: left;
             font-size: 15px;
-            color: #2e3031;
+            color:  white;
           }
         }
       }
@@ -347,7 +350,7 @@ export const Section = styled.section`
 
       .section2_data {
         width: 100%;
-        height: 95%;
+        height: 90%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -356,7 +359,7 @@ export const Section = styled.section`
         .section2_data_left {
           margin-top: 1rem;
           display: flex;
-          width: 95%;
+          width: 90%;
           height: 50%;
           justify-content: space-around;
           align-items:center;
@@ -390,7 +393,7 @@ export const Section = styled.section`
             font-weight: 600;
             font-size: 18px;
             margin-top: 20px;
-            line-height: 40px;
+            line-height: 25px;
           }
 
           }
@@ -406,8 +409,9 @@ export const Section = styled.section`
         }
 
         .section2_data_right {
+          margin-bottom: 2rem;
           display: flex;
-          width: 95%;
+          width: 90%;
        
           height: 50%;
           justify-content: center;
@@ -430,7 +434,7 @@ export const Section = styled.section`
           p {
           
             width: 100%;
-            line-height: 30px;
+            line-height: 25px;
             text-align: left;
             font-size: 15px;
             color: #2e3031;

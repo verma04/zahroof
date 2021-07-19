@@ -12,7 +12,7 @@ interface SectionFourProps {
 
 const HeroSection: React.FC<SectionFourProps> = (data) => {
 
-     const testimonial:any = ' " No other valve performs as well across categories  We increased production, reduced energy use and   emissions and cut maintenance costs by XX%      "'
+     const testimonial:any = ' “ The main benefit is an increase in MTBF on all of the compressors. We used to average 0.5 to 2 years, now we’re confident we’ll be able to get 5+ years  or more. Our longest current run  time is 3.5 years, and the valves still look great.    ” '
     return (
         <Section>
         
@@ -20,7 +20,7 @@ const HeroSection: React.FC<SectionFourProps> = (data) => {
             <div className="section" >
                 <div className="section_top" >              
                     <span id="top">{testimonial}</span>
-                    <span id="ab" > - Customer Name</span>
+                    <span id="ab" > - ZVI Customer </span>
                     <div className="triangle-down"></div>                
                 </div>
 
