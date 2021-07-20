@@ -427,6 +427,15 @@ export const Section = styled.section`
     .homePage-hero {
       .homePage-layer{
         background-color: rgb(0 0 0 / 35%);
+        .homePage-data {
+          ul {
+            li {
+              font-size: 2.1rem;
+              margin-left: 1rem;
+              line-height: 1;
+            }
+          }
+        }
       }
     }
   }

@@ -406,11 +406,35 @@ export const Section = styled.section`
  
   }
 
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section {
+      .section_bottom {
+        .section2_data {
+          .section2_data_left {
+            height: 65%;
+            h2{
+              margin-left: 7px;
+            }
+          }
+          .section2_data_right{
+            height: 65%;
+          }
+            
+        }
+      }
+    }
+  }
+
+
   @media (max-width: 414px) {
     .section {
       .section_bottom{
          .section2_data {
            .section2_data_left {
+             h2{
+               margin-left: 5px;
+             }
              p{
                 margin-top: 1rem;
              }

@@ -444,4 +444,41 @@ export const Section = styled.section`
  
   }
 
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section3 {
+      height: 38rem;
+      .section2_data{
+         .section2_data_left {
+            height: 40%;
+           .set {
+             p{
+                line-height: 1.4;
+             }
+           }
+         }
+         .section2_data_right {
+            p{
+              line-height: 1.3;
+              font-size: 18px;
+              font-weight: 600;
+            }
+          }
+      }
+    }
+  }
+
+  @media (max-width: 414px) {
+    .section3 {
+      .section2_data {
+        .section2_data_left {
+          .set {
+            h2 {
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
 `;

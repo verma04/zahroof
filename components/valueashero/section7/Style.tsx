@@ -266,4 +266,20 @@ export const Section = styled.section`
  
   }
 
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section4 {
+      height: 27rem;
+      .section2_data{
+        flex-direction: row;
+        .section2_data_right{
+          height: 70%;
+        }
+      }
+    }
+  }
+
+   @media (max-width: 414px) {
+  }
+
+
 `;

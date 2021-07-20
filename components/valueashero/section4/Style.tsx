@@ -447,6 +447,30 @@ export const Section = styled.section`
  
   }
 
+
+   @media (max-width: 991px) and (orientation : landscape) {
+     .section4 {
+       .section2_data {
+         .section2_data_left{
+            height: 26rem;
+            margin-top: 10px;
+            margin-bottom: 10px;
+         }
+         .section2_data_right {
+            height: 30rem;
+            justify-content: end;
+            h3{
+              margin-top: 20px;
+            }
+            p {
+              margin-top: 10px;
+            }
+         }
+       }
+     }
+   }
+
+
   @media (max-width: 414px) {
     .section4 {
       .section2_data {

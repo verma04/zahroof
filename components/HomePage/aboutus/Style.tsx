@@ -249,22 +249,22 @@ export const Section = styled.section`
           width: 95%;
           font-size: 1rem;
           line-height: 1.4;
-<<<<<<< HEAD
-          font-weight: 600;
-          font-family: 'Proxima-Light';
-=======
           font-family: Proxima-Light;
           font-weight: 600;
->>>>>>> main
           margin-bottom: 10px;
         }
       }
     }
   }
 
-  @media (max-width: 412px) {
+  @media (max-width: 414px) {
     .aboutus{
       height: 32rem;
+      .aboutus_section {
+        h2 {
+          margin-left: 1rem;
+        }
+      }
     }
   }
 

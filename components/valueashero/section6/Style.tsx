@@ -500,10 +500,30 @@ export const Section = styled.section`
   }
 
 
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section4{
+      height: 27rem;
+      .section_data {
+        .section_data_left {
+          p{
+            line-height: 1.3;
+            font-weight: 600;
+            font-size: 18px;
+          }
+        }
+      }
+    } 
+  }
+
   @media (max-width: 414px) {
     .section4 {
       height: 50rem;
       .section_data {
+        .section_data_left {
+          h2{
+            margin-left: 5px;
+          }
+        }
         .section_data_right {
           /* height: 30%; */
         }

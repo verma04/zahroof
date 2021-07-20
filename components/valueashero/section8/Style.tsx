@@ -214,4 +214,22 @@ export const Section = styled.section`
  
   }
 
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section{
+        height: 15rem;
+       .section2_data {
+         .section2_data_left {
+            p {
+              line-height: 1.3;
+              font-size: 18px;
+              font-weight: 600;
+            }
+         }
+       }
+    }
+  }
+
+
+
 `;

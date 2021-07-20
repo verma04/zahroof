@@ -230,7 +230,7 @@ export const Section = styled.section`
      .section {
        .section_top {
          #top {
-            font-size: 1.8rem;
+            font-size: 2rem;
         }
        }
      }

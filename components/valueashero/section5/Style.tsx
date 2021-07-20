@@ -337,4 +337,29 @@ export const Section = styled.section`
  
   }
 
+
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section4 {
+      .section2_data_left {
+        h2{
+          margin-bottom: 1rem;
+        }
+        p{
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 414px) {
+    .section4{
+       .section2_data_left {
+         h2 {
+           margin-left: 5px;
+         }
+       }
+    }
+  }
+
 `;

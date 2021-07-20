@@ -332,6 +332,8 @@ export const Section = styled.section`
     .section {
       .section_bottom {
         .section2_data {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
           li:nth-child(2) {
             h3{
               width: 100%;

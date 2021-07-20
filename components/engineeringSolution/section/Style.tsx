@@ -488,6 +488,11 @@ export const Section = styled.section`
       .section_bottom {
         height: 38rem;
         .section2_data {
+          .section2_data_left {
+            h2{
+              margin-left: 1rem;
+            }
+          }
           .section2_data_right{
             height: 30%;
             margin-bottom: 0;

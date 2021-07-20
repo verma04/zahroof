@@ -347,7 +347,7 @@ export const Section = styled.section`
       .homePage-layer{
          .homePage-data {
             #text-right {
-              margin-left: 43%;
+              margin-left: 44%;
             }
          }
       }

@@ -789,14 +789,24 @@ export const Section = styled.section`
 
    @media (max-width: 414px) {
     .section {
+      .section_top {
+        .section2_data_left{
+          p{
+            margin-left: 1rem;
+          }
+        }
+      }
       .section_bottom{
         height: 35rem;
-        .section2_data{
+        .section2_data{          
           .section2_data_left{
             h2{
               br{
                 display: none;
               }
+            }
+            p{
+              margin-left: 1rem;
             }
           }
           .image-wapper{
@@ -807,6 +817,11 @@ export const Section = styled.section`
                 width: 100% !important;
               }
             }
+          }
+        }
+        .absol-bottom{
+          h2{
+            margin-left: 1rem;
           }
         }
       }

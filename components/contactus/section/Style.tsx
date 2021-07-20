@@ -1069,4 +1069,35 @@ export const Section = styled.section`
       }
     }
   }
+
+
+    @media (max-width: 414px) {
+      
+      .section {
+        background-image: url('http://18.217.254.134/wp-content/uploads/2021/07/e92mprbfemr6lekh6lyp.jpg');
+        .section_data {
+          .section_left {
+
+            .section-left-top {
+              height: 50%;
+              h2{
+                font-size: 50px;
+                text-align: left;
+                margin-right: 15px;
+              }
+              h3 {
+                text-align: left;
+              }
+            }
+            .section-left-bottom:after {
+              height: 5px;
+            }
+          }
+          
+        }
+      }
+
+    }
+
+
 `;

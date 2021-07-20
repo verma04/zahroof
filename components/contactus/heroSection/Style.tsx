@@ -273,4 +273,14 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 414px) {
+    .react-parallax  .react-parallax-bgimage {
+      object-fit: cover;
+    } 
+  }
+
+
+
+
 `;

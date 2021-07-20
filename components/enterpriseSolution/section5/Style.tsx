@@ -299,7 +299,17 @@ export const Section = styled.section`
    }
 
   @media (max-width: 414px) {
-
+    .section {
+      .section_top {
+        .section2_data {
+          .section2_data_left{
+             h2 {
+               margin-left: 1rem;
+             }
+          }
+        }
+      }
+    }
   }
 
 `;

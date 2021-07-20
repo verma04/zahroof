@@ -1545,6 +1545,7 @@ min-width: 10% !important;
      .section4 {
        .section4_mid {
          .section4_mid_left {
+           
            .img_wrapper {
               .text-2 {
                 left: 15%;
@@ -1554,16 +1555,37 @@ min-width: 10% !important;
             }
            }
          }
+         .section4_mid_right {
+           h2{
+              margin-left: 2rem;
+           }
+         }
        }
        .section4_bottom{
           .section4_bottom_data {
             .section4_mid_left {
               height: 40%;
+             
             }
           }
        }
      }
    }
+
+
+  @media (max-width: 414px) {
+    .section4 {
+       .section4_mid {
+         .section4_mid_left {
+         }
+         .section4_mid_right {
+           h2{
+              margin-left: 2rem;
+           }
+         }
+       }
+     }
+  }
 
 
 `;

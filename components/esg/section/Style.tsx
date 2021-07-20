@@ -556,6 +556,26 @@ export const Section = styled.section`
   @media (max-width: 414px) {
     .section{
       height: 55rem;
+      .section-1 {
+        .wrapper {
+          .section-data {
+            .left{
+              p{
+                margin-top: 2rem;
+                margin-left: 2rem;
+                padding-right: 10px;
+              }
+            }
+            .right {
+              .right_logo {
+                p {
+                  padding-right: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 

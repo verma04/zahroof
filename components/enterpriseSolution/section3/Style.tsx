@@ -342,8 +342,10 @@ export const Section = styled.section`
     .section2 {
       height: 40rem;
       .section2_data {
+
         .section2_top  {
           height: auto;
+          
           .logo {
             height: 100px;
             width: 100%;
