@@ -131,7 +131,6 @@ export const Section = styled.section`
         .head {
           width: 90%;
           height: 30%;
-
           display: flex;
           justify-content: center;
           flex-direction: column;
@@ -143,9 +142,10 @@ export const Section = styled.section`
           p {
             margin-top: 30px;
             width: 100%;
-            font-size: 25px;
-            line-height: 30px;
+            font-size: 19px;
+            line-height: 1.3;
             color: white;
+            font-weight: 600;
           }
         }
         .section_logo {
@@ -193,7 +193,6 @@ export const Section = styled.section`
 
               p {
                 padding-top: 0.5rem;
-
                 color: white;
                 font-size: 22.88px;
                 width: 80%;
