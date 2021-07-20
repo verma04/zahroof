@@ -299,7 +299,6 @@ export const Section = styled.section`
             width: 90%;
             color: #27364e;
             position: relative;
-
             text-transform: uppercase;
             position: relative;
             br {
@@ -320,11 +319,12 @@ export const Section = styled.section`
 
           p {
             width: 90%;
-            color: white;
-
-            line-height: 35px;
+            line-height: 1.3;
             text-align: left;
-            color: black;
+            color: #2f3435;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 15px;
           }
           h3 {
             line-height: 1.1;

@@ -470,7 +470,7 @@ export const Section = styled.section`
           flex-direction: column;
           .section2_data {
             display: flex;
-            width: 50%;
+            width: 65%;
             height: 100%;
 
             justify-content: flex-start;

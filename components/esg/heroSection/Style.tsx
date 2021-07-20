@@ -143,9 +143,7 @@ export const Section = styled.section`
         align-items: center;
         .homePage-data {
           width: 100%;
-
           height: 60%;
-
           display: flex;
           justify-content: space-around;
           align-items: flex-start;
@@ -160,7 +158,6 @@ export const Section = styled.section`
 
             li {
               width: 80%;
-
               padding-left: 1rem;
               font-size: 1.8rem;
               line-height: 2rem;
@@ -189,11 +186,11 @@ export const Section = styled.section`
           p {
             padding-left: 1rem;
             width: 96%;
-            line-height: 30px;
+            line-height: 1.3;
             margin-left: 1rem;
             font-size: 19px;
-            font-family: Proxima-Bold;
-
+            font-family: Proxima-Light;
+            font-weight: 600;
             color: white;
           }
           .text-right {

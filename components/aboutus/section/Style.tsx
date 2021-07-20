@@ -88,7 +88,6 @@ export const Section = styled.section`
   @media (max-width: 767px) {
     .section {
       position: relative;
-
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -107,7 +106,6 @@ export const Section = styled.section`
         flex-direction: column;
         .section2_data_left {
           margin-top: 1.5rem;
-
           display: flex;
           width: 95%;
           height: 50%;
@@ -143,8 +141,10 @@ export const Section = styled.section`
             padding-left: 0.5rem;
             width: 95%;
             color: white;
-            font-size: 16px;
-            line-height: 1.6;
+            font-size: 18px;
+            line-height: 1.3;
+            font-weight: 600;
+            padding-top: 15px;
           }
           h3 {
             line-height: 1.1;
@@ -331,4 +331,6 @@ export const Section = styled.section`
       }
     }
   }
+
+  
 `;

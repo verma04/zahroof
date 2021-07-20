@@ -270,7 +270,6 @@ export const Section = styled.section`
             justify-content: space-evenly;
             align-items: center;
             flex-direction: column;
-
             .img-wrapper:hover {
               -ms-transform: scale(1.5); /* IE 9 */
               -webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -288,7 +287,6 @@ export const Section = styled.section`
               width: 100%;
               font-size: 16px;              
               line-height: 19px;
-
               margin-top: 0.5rem;
               text-transform: uppercase;
               color: white;

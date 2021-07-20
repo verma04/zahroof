@@ -136,12 +136,9 @@ export const Section = styled.section`
 
         .section2_data {
           display: flex;
-          width: 100%;
- 
+          width: 100%; 
           height: 22rem;
-
           margin-top: 3rem;
-
           justify-content: space-around;
           align-items: center;
           flex-direction: column;
@@ -149,22 +146,18 @@ export const Section = styled.section`
           position: relative;
           align-items: center;
 
-              h3 {
-            
+          h3 {            
             font-family: 'Montserrat Alternates', sans-serif;
             display: flex;
             justify-content: flex-start;
-            flex-direction: column;
-            
+            flex-direction: column;            
           
           }
           li {
             width: 100%;
-            position: relative;
-            
+            position: relative;            
             font-size: 29.99px;
             line-height: 33.32px;
-
             text-align: center;
 
             font-family: Proxima-Bold;
@@ -179,8 +172,9 @@ export const Section = styled.section`
             margin-top: 10px;
             font-weight: 500;
             font-family: "Proxima-Light";
-            font-size: 1rem;
+            font-size: 16px;
             margin-bottom: 0.5rem;
+            line-height: 1.3;
           }
           li:nth-child(1) {
             width: 100%;

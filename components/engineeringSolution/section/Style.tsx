@@ -68,7 +68,6 @@ export const Section = styled.section`
               left: -35px;
               background-color: #dbb43f;
             }
-
             p {
               margin-top: 25px;
               width: 90%;
@@ -406,8 +405,9 @@ export const Section = styled.section`
             p {
               width: 100%;
               color: white;
-
-              font-size: 20px;
+              font-size: 18px;
+              font-weight: 600;
+              margin-top: 10px;
             }
             h3 {
               line-height: 1.1;
@@ -418,7 +418,7 @@ export const Section = styled.section`
           .section2_data_right {
             display: flex;
             width: 100%;
-            height: 50%;
+            height: 35%;
             justify-content: space-around;
             align-items: center;
             flex-direction: column;

@@ -35,8 +35,7 @@ export const Section = styled.section`
           position: relative;
           padding-left: 0.5rem;
           font-size: 55px;
-    line-height: 46px;
-   
+          line-height: 46px;   
           color: white;
           position: relative;
           color: #24334d;
@@ -316,6 +315,7 @@ export const Section = styled.section`
           margin-bottom: 1.5rem;
           width: 100%;
           line-height: 1.3;
+          font-weight: 600;
         }
       }
 

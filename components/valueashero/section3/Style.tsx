@@ -39,8 +39,6 @@ export const Section = styled.section`
           flex-direction: column;
           margin-left: 5%;
           h2 {
-            
-            position: relative;
             padding-left: 0.5rem;
             font-size: 55px;
             line-height: 46px;
@@ -48,6 +46,7 @@ export const Section = styled.section`
             position: relative;
             color: #24334d;
             text-transform: uppercase;
+            
           }
           h2:after {
             position: absolute;
@@ -368,14 +367,14 @@ export const Section = styled.section`
             width: 100%;
             height: 100%;
             h2 {
-            position: relative;
             padding-left: 0.5rem;
             font-size: 35px;
-            line-height: 35px;
+            line-height: 1.3;
             color: white;
             position: relative;
             color: #24334d;
             text-transform: uppercase;
+            margin-top: 15px;
           }
           h2:after {
             position: absolute;
@@ -422,22 +421,21 @@ export const Section = styled.section`
           
           h3 {
             color: #24334d;
-       margin-top: 2rem;
-
+            margin-top: 2rem;
             font-size: 26.64px;
             text-align: left;
             width: 100%;
-
             text-transform: uppercase;
           }
 
-          p {
-          
+          p {           
             width: 100%;
-            line-height: 25px;
+            line-height: 1.3;
             text-align: left;
-            font-size: 15px;
+            font-size: 18px;
             color: #2e3031;
+            font-weight: 600;
+            margin-top: 15px;
           }
         }
       }

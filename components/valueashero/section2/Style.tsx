@@ -334,7 +334,7 @@ export const Section = styled.section`
          
           h4 {
             font-size: 16px;
-            line-height: 16px;
+            line-height: 1.3;
             text-align: center;
             color: #24334d;
           }

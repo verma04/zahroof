@@ -433,12 +433,11 @@ export const Section = styled.section`
           }
           p {
             width: 95%;
-            color: white;
-            font-size: 20px;
             line-height: 25px;
             color: #2e3031;
             font-size: 18px;
             margin-top: 20px;
+            font-weight: 600;
           }
           h3 {
             line-height: 1.1;
@@ -480,11 +479,11 @@ export const Section = styled.section`
             }
             span {
               width: 100%;
-
               text-align: center;
-              font-size: 16px;
+              font-size: 15px;
               text-transform: uppercase;
               color: white;
+              font-weight: 600;
             }
           }
         }

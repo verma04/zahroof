@@ -203,10 +203,8 @@ export const Section = styled.section`
   @media (max-width: 767px) {
     .section4 {
       position: relative;
-
       display: flex;
       justify-content: center;
-
       width: 100%;
       align-items: center;
       position: relative;
@@ -240,6 +238,9 @@ export const Section = styled.section`
           p {
             color: white;
             line-height: 1.3;
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: 15px;
           }
           h3 {
             line-height: 1.1;

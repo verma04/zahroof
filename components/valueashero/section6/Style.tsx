@@ -54,17 +54,15 @@ export const Section = styled.section`
           flex-direction: column;
           h2 {
             width: 100%;
-    position: relative;
-    padding-left: 0.5rem;
-    font-size: 55px;
-    line-height: 46px;
-    color: white;
-    position: relative;
-    color: #24334d;
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-  
-          
+            position: relative;
+            padding-left: 0.5rem;
+            font-size: 55px;
+            line-height: 46px;
+            color: white;
+            position: relative;
+            color: #24334d;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
           }
           h2:after {
             position: absolute;
@@ -431,7 +429,7 @@ export const Section = styled.section`
             color: #24334d;
             text-transform: uppercase;
             br {
- display: none;
+              display: none;
             }
             
           }
@@ -458,7 +456,8 @@ export const Section = styled.section`
           p {
             width: 100%;
             color: #24334d;
-            line-height: 1.5;
+            line-height: 1.3;
+            font-weight: 600;
           }
         }
 
@@ -467,7 +466,6 @@ export const Section = styled.section`
           width: 100%;
           height: 40%;
           justify-content: flex-start;
-
           background-color: #2f3032;
           flex-direction: column;
           display: flex;
@@ -485,9 +483,10 @@ export const Section = styled.section`
           p {
             width: 90%;
             color: white;
-            line-height: 1.4;
-            font-size: 1.1rem;
-            margin-top:1rem;
+            line-height: 1.3;
+            font-size: 18px;
+            margin-top: 1rem;
+            font-weight: 600
           }
           .wrapper {
             position: relative;
