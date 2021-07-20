@@ -27,8 +27,7 @@ export const Section = styled.section`
         p {
           width: 80%;
           text-align: center;
-          color: white;
-          
+          color: white;          
           font-size: 50px;
           line-height: 50px;
         }
@@ -58,44 +57,41 @@ export const Section = styled.section`
           display: flex;
           width: 50%;
           height: 80%;
-
           justify-content: space-around;
           align-items: center;
-          flex-direction: column;
-  
+          flex-direction: column;  
           position: relative;
           align-items: center;
 
-          h3 {
-            
+          h3 {            
             font-family: 'Montserrat Alternates', sans-serif;
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
+            font-style: italic;
+            line-height: 1.5;
+            width: 74%;
             
           }
           li {
           
-            position: relative;
-            
+            position: relative;            
             font-size: 29.99px;
             line-height: 33.32px;
             display: flex;
             justify-content: center;
             align-items: center;
-
             text-align: center;
-
             font-family: Proxima-Bold;
           }
           li:nth-child(2) {
-            margin-top: 43px;
+            margin-top: 10px;
             color: black;
             display: flex;
             flex-direction: column;
-             width: 80%;
-             text-align:left;
-          }
+            width: 80%;
+            text-align:left;
+          }X
           span {
             
             font-weight: 500;
@@ -136,12 +132,9 @@ export const Section = styled.section`
 
         .section2_data {
           display: flex;
-          width: 100%;
- 
+          width: 100%; 
           height: 22rem;
-
           margin-top: 3rem;
-
           justify-content: space-around;
           align-items: center;
           flex-direction: column;
@@ -149,22 +142,21 @@ export const Section = styled.section`
           position: relative;
           align-items: center;
 
-              h3 {
-            
+          h3 {            
             font-family: 'Montserrat Alternates', sans-serif;
             display: flex;
             justify-content: flex-start;
-            flex-direction: column;
-            
+            flex-direction: column;       
+            font-style: italic;
+            line-height: 1.5;
+            width: 74%;
           
           }
           li {
             width: 100%;
-            position: relative;
-            
+            position: relative;            
             font-size: 29.99px;
             line-height: 33.32px;
-
             text-align: center;
 
             font-family: Proxima-Bold;
@@ -179,8 +171,9 @@ export const Section = styled.section`
             margin-top: 10px;
             font-weight: 500;
             font-family: "Proxima-Light";
-            font-size: 1rem;
+            font-size: 16px;
             margin-bottom: 0.5rem;
+            line-height: 1.3;
           }
           li:nth-child(1) {
             width: 100%;
@@ -290,7 +283,6 @@ export const Section = styled.section`
           justify-content: space-around;
           align-items: center;
           flex-direction: column;
-
           position: relative;
           align-items: center;
 
@@ -300,13 +292,10 @@ export const Section = styled.section`
           } 
           li {
             width: 100%;
-            position: relative;
-            
+            position: relative;            
             font-size: 29.99px;
             line-height: 33.32px;
-
             text-align: center;
-
             font-family: Proxima-Bold;
           }
           li:nth-child(2) {
@@ -336,4 +325,27 @@ export const Section = styled.section`
       }
     }
   }
+
+
+
+   @media (max-width: 414px) {
+    .section {
+      .section_bottom {
+        .section2_data {
+          li:nth-child(2) {
+            h3{
+              width: 100%;
+              padding: 0px 20px;
+              text-align: left;
+              span{
+                margin-bottom: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
 `;

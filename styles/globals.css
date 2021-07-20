@@ -5,6 +5,7 @@
   font-weight: 400;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Proxima-Light";
   src: url("../public/Proxima\ Nova\ Alt\ Light.otf");
@@ -20,6 +21,7 @@
   font-weight: 400;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Proxima-Thin";
   src: url("../public/Proxima\ Nova\ Alt\ Thin.otf");
@@ -27,6 +29,7 @@
   font-weight: 400;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Caveat";
   src: url("../public/Caveat-VariableFont_wght.ttf");
@@ -34,6 +37,7 @@
   font-weight: 400;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Caveat_reg";
   src: url("../public/Caveat-Regular.ttf");
@@ -41,6 +45,7 @@
   font-weight: 400;
   font-display: swap;
 }
+
 html,
 body {
   padding: 0;
@@ -56,4 +61,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+sub,sup {
+  font-size: 48% !important;
 }

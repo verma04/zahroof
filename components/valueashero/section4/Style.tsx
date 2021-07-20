@@ -373,15 +373,12 @@ export const Section = styled.section`
           justify-content: space-around;
           align-items: left;
           flex-direction: column;
-          h2 {
-           
-            position: relative;
-            
+          h2 {            
             font-size: 1.5rem;
             color: white;
             position: relative;
-
             text-transform: uppercase;
+            margin-top: 15px;
           }
           h2:after {
             position: absolute;
@@ -406,19 +403,19 @@ export const Section = styled.section`
           }
           p {
             color: white;
-            line-height: 1.5;
+            line-height: 1.3;
+            font-weight: 600;
+            font-size: 18px;
           }
         }
 
         .section2_data_right {
           display: flex;
           width: 90%;
-          height: 50rem;
-         
+          height: 50rem;         
           justify-content: space-evenly;
           align-items: center;
-          flex-direction: column;
-        
+          flex-direction: column;        
           position: relative;
           .img_wrapper {
             position: relative;
@@ -437,8 +434,11 @@ export const Section = styled.section`
 
           p {
             width: 100%;
-            line-height: 1.2;
+            line-height: 1.3;
             color: white;
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: 15px;
           }
         }
       }
@@ -446,5 +446,20 @@ export const Section = styled.section`
 
  
   }
+
+  @media (max-width: 414px) {
+    .section4 {
+      .section2_data {
+        .section2_data_left {
+            height: 37rem;
+        }
+        .section2_data_right {
+          height: 38rem;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+
 
 `;

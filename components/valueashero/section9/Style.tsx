@@ -476,9 +476,8 @@ export const Section = styled.section`
 
           .section2_data {
             display: flex;
-            width: 50%;
+            width: 65%;
             height: 100%;
-
             justify-content: flex-start;
             align-items: center;
             flex-direction: column;
@@ -501,11 +500,8 @@ export const Section = styled.section`
                 position: relative;
                 text-transform: uppercase;
                 font-size: 1.2rem;
-
-
                 width: 100%;
                 text-align: center;
-
                 color: white;
                 font-family: Proxima-Bold;
               }
@@ -520,9 +516,9 @@ export const Section = styled.section`
               }
               li:nth-child(3) {
                 width: 100%;
-    font-size: 17.51px;
-    line-height: 25.3px;
-    text-align: center;
+                font-size: 17.51px;
+                line-height: 25.3px;
+                text-align: center;
               }
 
               li:nth-child(4) {

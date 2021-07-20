@@ -68,7 +68,6 @@ export const Section = styled.section`
               left: -35px;
               background-color: #dbb43f;
             }
-
             p {
               margin-top: 25px;
               width: 90%;
@@ -407,8 +406,9 @@ export const Section = styled.section`
             p {
               width: 100%;
               color: white;
-
-              font-size: 20px;
+              font-size: 18px;
+              font-weight: 600;
+              margin-top: 10px;
             }
             h3 {
               line-height: 1.1;
@@ -419,7 +419,7 @@ export const Section = styled.section`
           .section2_data_right {
             display: flex;
             width: 100%;
-            height: 50%;
+            height: 35%;
             justify-content: space-around;
             align-items: center;
             flex-direction: column;
@@ -454,4 +454,47 @@ export const Section = styled.section`
       }
     }
   }
+
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section {
+      .section_bottom {
+        .section2_data {
+          .section2_data_right {
+            height: 45%;
+            .top{
+               h2 {
+                  font-size: 4rem;
+              }
+            }
+          }
+          .section2_data_left {
+            justify-content: flex-start;
+            h2 {
+              margin-bottom: 10px;
+              font-size: 1.8rem;
+              br{
+                /* display: none; */
+              }
+          }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 414px) {
+    .section {
+      .section_bottom {
+        height: 38rem;
+        .section2_data {
+          .section2_data_right{
+            height: 30%;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
 `;

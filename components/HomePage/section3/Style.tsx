@@ -516,15 +516,57 @@ export const Section = styled.section`
         align-items: start;
         flex-direction: column;
         a {
-         
-          margin-top: 25px;
-          color: #222222;
-         
-          
+          margin-top: 10px;
+          color: #222222;          
           border-bottom: 1px solid black;
          
         }
       }
     }
   }
+
+
+   @media (max-width: 412px) {
+      .section3-sm {
+          h2 {
+          font-size: 13px;
+          line-height: 1.3;
+        }
+        .section3_left{
+          top: 15%;
+        }
+        .section3_right {
+          top: 15%;
+           a {
+            font-size: 13px;
+            line-height: 1.3;
+          }
+        }
+      }
+   }
+
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section3-sm {
+      h2 {
+          font-size: 1.5rem;
+          line-height: 1.2;
+      }
+      .section3_left {
+        top: 30%;
+      }
+      .section3_right{
+        top: 30%;
+        right: 1%;
+        a {
+            font-size: 1.3rem;
+            line-height: 1.1;
+        }
+      }
+
+    }
+  }
+
+   
+
 `;

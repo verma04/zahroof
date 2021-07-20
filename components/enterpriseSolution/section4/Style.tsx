@@ -90,6 +90,7 @@ export const Section = styled.section`
           line-height: 1.3;
           color: #dbb43f;
           font-family: "Caveat-Light";
+          padding-top: 2rem;
         }
         span {
           font-family: "Caveat-Light";
@@ -98,6 +99,7 @@ export const Section = styled.section`
 
           color: #dbb43f;
           text-align: right;
+          padding-bottom: 2rem;
         }
       }
 
@@ -132,7 +134,6 @@ export const Section = styled.section`
 
         #top {
           font-size: 1.5rem;
-
           width: 80%;
           text-align: left;
           line-height: 1.3;
@@ -224,4 +225,25 @@ export const Section = styled.section`
       }
     }
   }
+
+   @media (max-width: 991px) and (orientation : landscape) {
+     .section {
+       .section_top {
+         #top {
+            font-size: 1.8rem;
+        }
+       }
+     }
+   }
+
+  @media (max-width: 414px) {
+    .section {
+      .section_top {
+        #top{
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
+
 `;

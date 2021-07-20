@@ -188,7 +188,9 @@ export const Section = styled.section`
           flex-direction: column;
 
           p {
-            line-height: 1.1;
+            line-height: 1.3;
+            font-weight: 600;
+            font-size: 18px;
           }
           h3 {
             line-height: 1.1;

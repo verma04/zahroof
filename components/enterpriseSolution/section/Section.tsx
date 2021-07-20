@@ -47,7 +47,18 @@ better mousetrap.  </h2>
 We’ve changed the way gas is compressed, transferred, processed, and
 distributed. Our product greatly improves operational performance, boosts profitability, lowers costs and reduces emissions. 
 </p> */}
+            
             </div>
+            <div className="image-wapper">
+                <Image
+
+                  alt="Picture of the author"
+                  objectFit="none"
+                  layout="fill"
+                  src="http://18.217.254.134/wp-content/uploads/2021/07/mxydeuw45cap9go1nesh-1.png"
+                />
+            </div>
+           
           </div>
 
           <div

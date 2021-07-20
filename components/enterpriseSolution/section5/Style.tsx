@@ -133,10 +133,11 @@ export const Section = styled.section`
             p {
               width: 90%;
               font-weight: 600;
-              font-family: 'Proxima-Light';
+              font-family: Proxima-Light;
               position: relative;
-              font-size: 1rem;
-              /* color: #3b546a; */
+              font-size: 18px;
+              line-height: 1.3;
+              color: #3b546a;
             }
           }
         }
@@ -282,4 +283,23 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 991px) and (orientation : landscape) {
+     .section{
+        .section_top {
+          .section2_data {
+            .section2_data_left {
+              p {
+                padding-right: 1rem;
+              }
+            }
+          }
+        }
+     }
+   }
+
+  @media (max-width: 414px) {
+
+  }
+
 `;

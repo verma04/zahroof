@@ -460,7 +460,6 @@ export const Section = styled.section`
             p {
               width: 100%;
               color: white;
-
               line-height: 1.3;
               font-size: 18px;
               font-weight: 600;
@@ -485,4 +484,31 @@ export const Section = styled.section`
       }
     }
   }
+
+
+   @media (max-width: 991px) and (orientation : landscape) {
+     .section{
+        .section_bottom {
+          height: 30rem;
+          .section2_data {
+            flex-direction: row;
+            .section2_data_left {
+              height: 40%;
+              padding-left: 2rem;
+               p {
+                line-height: 1.2;
+                font-size: 17px;
+                margin-top: 10px;
+              }
+            }
+            .section2_data_right{
+              height: 80%;
+              width: 100%;
+            }
+          }
+        }
+     }
+   }
+
+
 `;

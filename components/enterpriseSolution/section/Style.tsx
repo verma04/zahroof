@@ -7,6 +7,10 @@ export const Section = styled.section`
   width: 100%;
   align-items: center;
 
+  .image-wapper{
+    display: none;
+  }
+
   @media (min-width: 1281px) {
     .section {
       position: relative;
@@ -229,6 +233,15 @@ export const Section = styled.section`
           justify-content: center;
           align-items: center;
           position: absolute;
+          /* .image-wapper{
+              display: block;
+            div{
+              top: 80px !important;
+              img{
+                width: 100% !important;
+              }
+            }
+          } */
           .section2_data_left {
             margin-bottom: 6%;
             display: flex;
@@ -250,10 +263,9 @@ export const Section = styled.section`
               font-size: 18px;
               width: 100%;
               font-weight: 600;
-              line-height: 28px;
               color: white;
-              font-family: 'Proxima-Light';
-              line-height: 1.2;
+              font-family: Proxima-Light;
+              line-height: 1.3;
               position: relative;
             }
             p:after {
@@ -311,8 +323,9 @@ export const Section = styled.section`
               width: 95%;
               margin-top: 2rem;
               font-size: 16px;
-              font-family: 'Proxima-Light';
-              line-height: 28px;
+              font-family: Proxima-Light;
+              font-weight: 600;
+              line-height: 1.3;
               color: #777777;
               position: relative;
               font-weight: 600;
@@ -773,4 +786,31 @@ export const Section = styled.section`
       }
     }
   }
+
+   @media (max-width: 414px) {
+    .section {
+      .section_bottom{
+        height: 35rem;
+        .section2_data{
+          .section2_data_left{
+            h2{
+              br{
+                display: none;
+              }
+            }
+          }
+          .image-wapper{
+            display: block;
+            div{
+              top: 80px !important;
+              img{
+                width: 100% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 `;

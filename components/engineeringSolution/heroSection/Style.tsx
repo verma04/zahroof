@@ -439,4 +439,37 @@ export const Section = styled.section`
       }
     }
   }
+
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .homePage-hero {
+      .homePage-layer {
+        .homePage-data {
+          .text-left {
+            li {
+                line-height: 1;
+            }
+          }
+          .text-right{
+            li {
+                line-height: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 414px) {
+    .homePage-hero {
+      .homePage-layer {
+        .homePage-data{
+           .text-right {
+              margin-top: 2rem;
+           }
+        }
+      }
+    }
+  }
+
 `;

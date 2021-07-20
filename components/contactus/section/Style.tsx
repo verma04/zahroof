@@ -57,7 +57,7 @@ export const Section = styled.section`
 
             h2 {
               font-size: 56px;
-              line-height: 46px;
+              line-height: 0.9;
 
               text-align: right;
 
@@ -316,7 +316,7 @@ export const Section = styled.section`
 
             h2 {
               font-size: 55px;
-              line-height: 46px;
+              line-height: 0.9;
 
               text-align: right;
 
@@ -583,7 +583,7 @@ export const Section = styled.section`
 
             h2 {
               font-size: 55px;
-              line-height: 46px;
+              line-height: 0.9;
 
               text-align: right;
 
@@ -850,9 +850,7 @@ export const Section = styled.section`
 
             h2 {
               font-size: 48px;
-
-              line-height: 46px;
-
+              line-height: 0.9;
               text-align: right;
 
               width: 65%;

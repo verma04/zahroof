@@ -660,12 +660,14 @@ export const Section = styled.section`
             span {
               width: 100%;
               text-align: left;
-              line-height: 1.5rem;
-             
-
+              line-height: 1.3rem;
               color: white;
               text-transform: uppercase;
+<<<<<<< HEAD
               font-size: 18px;
+=======
+              font-size: 20px;
+>>>>>>> main
             }
           }
           .tringle {
@@ -815,4 +817,43 @@ export const Section = styled.section`
 } */
     }
   }
+
+  @media (max-width: 412px) {
+      .section-1 {
+        .section_bottom {
+          .section_bottom_set {
+            .section_bottom_data{
+                h3 {
+                  font-size: 1.3rem;
+                }
+                li:nth-child(1) {
+                    width: 10rem;
+                    height: 10rem;
+                }
+                li:nth-child(3) {
+                  width: 3rem;
+                  height: 3rem;
+                }
+            }
+          }
+        }
+
+      }
+   }
+
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section-1 {
+      .section_top {
+        .section_top_ {
+            justify-content: center;            
+            padding-left: 3rem;
+            span {
+              text-align: left;
+          }
+        }
+      }
+    }
+  }
+
 `;

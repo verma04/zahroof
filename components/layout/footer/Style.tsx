@@ -325,7 +325,8 @@ export const Foot = styled.footer`
       h3 {
         color: #b2b2b3;
         margin-right: 1rem;
-        line-height: 1.4;
+        line-height: 1.3;
+        font-size: 1rem;
         text-transform: uppercase;
         text-align: center;
         font-size: 1rem;
@@ -385,10 +386,11 @@ export const Foot = styled.footer`
           align-items: center;
           flex-direction: column;
           width: 70%;
-          height: 70%;
+          height: 45%;
           li {
             a {
               text-transform: uppercase;
+              font-size: 15px;
             }
           }
         }
@@ -412,4 +414,28 @@ export const Foot = styled.footer`
       }
     }
   }
+
+   @media (max-width: 991px) and (orientation : landscape) {
+     .footer {
+       .footer-top {
+         .footer-left {
+           li{
+              a {
+                  font-size: 14px;
+              }
+           }
+         }
+       }
+     }
+   }
+
+  @media (max-width: 412px) {
+    .footer_newsLetter {
+      h3 {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  }
+
 `;

@@ -323,9 +323,11 @@ export const Section = styled.section`
         height: 200px;
         h3 {
           width: 90%;
-          line-height: 24px;
-          font-size: 16px;
+          line-height: 1.3;
+          font-size: 18px;
           color: white;
+          font-weight: 600;
+          font-family: 'Proxima-Light';
         }
       }
 
@@ -376,8 +378,9 @@ export const Section = styled.section`
               margin-top: 0.5rem;
               color: white;
               width: 100%;
-              line-height: 1.4;
-              font-size: 20px;
+              line-height: 1.3;
+              font-size: 18px;
+              font-weight: 600;
             }
             h3 {
             
@@ -401,6 +404,20 @@ export const Section = styled.section`
     }
 
  
+  }
+
+  @media (max-width: 414px) {
+    .section {
+      .section_bottom{
+         .section2_data {
+           .section2_data_left {
+             p{
+                margin-top: 1rem;
+             }
+           }
+         }
+      }
+    }
   }
 
 `;

@@ -199,11 +199,19 @@ export const Section = styled.section`
           text-transform: uppercase;
           width: 90%;
           color: white;
-
-          font-size: 20px;
-          line-height: 22px;
+          font-size: 18px;
+          line-height: 1.3;
+          font-weight: 600;
         }
       }
     }
   }
+
+
+ 
+
+
+
+
+
 `;

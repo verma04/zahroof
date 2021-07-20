@@ -433,12 +433,11 @@ export const Section = styled.section`
           }
           p {
             width: 95%;
-            color: white;
-            font-size: 20px;
             line-height: 25px;
             color: #2e3031;
             font-size: 18px;
             margin-top: 20px;
+            font-weight: 600;
           }
           h3 {
             line-height: 1.1;
@@ -480,15 +479,53 @@ export const Section = styled.section`
             }
             span {
               width: 100%;
-
               text-align: center;
-              font-size: 16px;
+              font-size: 15px;
               text-transform: uppercase;
               color: white;
+              font-weight: 600;
             }
           }
         }
       }
     }
   }
+
+
+    @media (max-width: 991px) and (orientation : landscape) {
+      .section6 {
+        height: 30rem;
+        .section2_data {
+          .section2_data_left {
+            h2{
+              margin-bottom: 10px;
+              br{
+                display: none;
+              }
+            }
+            p {
+              line-height: 1.3;
+            }
+          }
+          .section2_data_right{
+              height: 35%;
+             .top {
+               h2 {
+                font-size: 80px;
+              }
+              h3 {
+                font-size: 40px;
+              }
+              span{
+                margin-top: 10px;
+                font-weight: 600;
+              }
+             }
+          }
+          
+        }
+      }
+    }
+
+
 `;

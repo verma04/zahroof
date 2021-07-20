@@ -470,7 +470,7 @@ export const Section = styled.section`
           flex-direction: column;
           .section2_data {
             display: flex;
-            width: 50%;
+            width: 65%;
             height: 100%;
 
             justify-content: flex-start;
@@ -542,4 +542,27 @@ export const Section = styled.section`
       }
     }
   }
+
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section {
+      .section_bottom-1 {
+        span {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 414px) {
+    .section {
+      .section_bottom {
+        height: 40rem;
+      }
+    }
+  }
+
+
+
+
 `;

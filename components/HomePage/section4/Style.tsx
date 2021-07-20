@@ -1327,12 +1327,12 @@ min-width: 10% !important;
             height: 100%;
             position: relative;
             .text-1 {
-              position: absolute;
-    top: 0%;
-    right: 2%;
-    width: 38%;
-    height: 7rem;
-    
+                position: absolute;
+                top: 0%;
+                right: 2%;
+                width: 38%;
+                height: 7rem;
+                
             }
             [data-aos="example-anim3"] {
           transform: rotate(
@@ -1392,10 +1392,9 @@ min-width: 10% !important;
             text-align: left;
             width: 95%;
             font-size: 16px;
-            line-height: 1.1;
+            line-height: 1.3;
+            font-family: Proxima-Light;
             font-weight: 600;
-            font-family: 'Proxima-Light';
-
           }
         }
       }
@@ -1466,14 +1465,13 @@ min-width: 10% !important;
                 content: "";
               }
               p {
-                color: white;
-                
+                color: white;                
                 text-align: left;
                 width: 100%;
                 font-size: 1rem;
+                font-family: Proxima-Light;
                 font-weight: 600;
-                font-family: 'Proxima-Light';
-                line-height: 1.4;
+                line-height: 1.3;
                 margin-left: 1rem;
               }
             }
@@ -1485,7 +1483,7 @@ min-width: 10% !important;
               button {
                 font-size: 1rem;
                 padding: 1rem;
-                margin-top: 2rem;
+                /* margin-top: 2rem; */
                 text-transform: uppercase;
                 background-color: #398baa;
               }
@@ -1542,4 +1540,30 @@ min-width: 10% !important;
       }
     }
   }
+
+   @media (max-width: 991px) and (orientation : landscape) {
+     .section4 {
+       .section4_mid {
+         .section4_mid_left {
+           .img_wrapper {
+              .text-2 {
+                left: 15%;
+            }
+            .text-1 {
+                right: 15%;
+            }
+           }
+         }
+       }
+       .section4_bottom{
+          .section4_bottom_data {
+            .section4_mid_left {
+              height: 40%;
+            }
+          }
+       }
+     }
+   }
+
+
 `;

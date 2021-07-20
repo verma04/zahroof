@@ -214,14 +214,15 @@ export const Section = styled.section`
               }
 
               p {
-                font-family: Proxima-Bold;
+                font-family: Proxima-Light;
                 margin-top: 3rem;
                 width: 90%;
-                line-height: 30px;
-                font-size: 16px;
+                line-height: 1.3;
+                font-size: 18px;
                 color: white;
                 position: relative;
                 padding-left: 1rem;
+                font-weight: 600;
               }
               p:after {
                 content: "";
@@ -257,12 +258,13 @@ export const Section = styled.section`
                   position: relative;
                 }
                 p {
-                  font-family: Proxima-Bold;
+                  font-family: Proxima-Light;
                   color: white;
                   width: 70%;
-                  line-height: 30px;
-                  font-size: 16px;
+                  line-height: 1.3;
+                  font-size: 18px;
                   position: relative;
+                  font-weight: 600;
                 }
                 p::after {
                   content: "";
@@ -550,4 +552,13 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 414px) {
+    .section{
+      height: 55rem;
+    }
+  }
+
+
+
 `;
