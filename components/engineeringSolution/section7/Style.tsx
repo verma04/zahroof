@@ -351,4 +351,10 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 414px) {
+    .section4 {
+      height: 40rem;
+    }
+  }
 `;

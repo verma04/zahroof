@@ -337,4 +337,32 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 414px) {
+
+    .section2 {
+      height: 40rem;
+      .section2_data {
+        .section2_top  {
+          height: auto;
+          .logo {
+            height: 100px;
+            width: 100%;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            .wrapper {
+                width: 35%;
+                height: 75%;
+            }
+            p {
+              margin-left: 0;
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
 `;

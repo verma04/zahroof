@@ -481,4 +481,18 @@ export const Section = styled.section`
       }
     }
   }
+
+
+  @media (max-width: 414px) {
+    .section2{
+      height: 90rem;
+      .section_data {
+        .head {
+          height: 25%;
+        }
+      }
+  }
+}
+
+
 `;

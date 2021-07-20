@@ -283,4 +283,23 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 991px) and (orientation : landscape) {
+     .section{
+        .section_top {
+          .section2_data {
+            .section2_data_left {
+              p {
+                padding-right: 1rem;
+              }
+            }
+          }
+        }
+     }
+   }
+
+  @media (max-width: 414px) {
+
+  }
+
 `;

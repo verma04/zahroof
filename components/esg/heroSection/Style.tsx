@@ -54,7 +54,7 @@ export const Section = styled.section`
             li {
               width: 22%;
               font-size: 57px;
-              line-height: 50px;
+              line-height: 0.9;
               font-family: Proxima-Bold;
               text-align: left;
               color: white;
@@ -160,7 +160,7 @@ export const Section = styled.section`
               width: 80%;
               padding-left: 1rem;
               font-size: 1.8rem;
-              line-height: 2rem;
+              line-height: 0.9;
               font-family: Proxima-Bold;
               text-align: left;
               color: white;
@@ -251,9 +251,7 @@ export const Section = styled.section`
         align-items: center;
         .homePage-data {
           width: 80%;
-
           height: 60%;
-
           display: flex;
           justify-content: space-around;
           align-items: flex-start;
@@ -264,7 +262,7 @@ export const Section = styled.section`
             li {
               width: 22%;
               font-size: 42px;
-              line-height: 50px;
+              line-height: 0.9;
               font-family: Proxima-Bold;
               text-align: left;
               color: white;
@@ -366,7 +364,7 @@ export const Section = styled.section`
             width: 100%;
             li {
               font-size: 42px;
-              line-height: 50px;
+              line-height: 0.9;
               font-family: Proxima-Bold;
               text-align: left;
               color: white;
@@ -423,4 +421,16 @@ export const Section = styled.section`
       }
     }
   }
+
+
+  @media (max-width: 414px) {
+    .homePage-hero {
+      .homePage-layer{
+        background-color: rgb(0 0 0 / 35%);
+      }
+    }
+  }
+
+
+
 `;

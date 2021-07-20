@@ -499,4 +499,17 @@ export const Section = styled.section`
  
   }
 
+
+  @media (max-width: 414px) {
+    .section4 {
+      height: 50rem;
+      .section_data {
+        .section_data_right {
+          /* height: 30%; */
+        }
+      }
+    }
+  }
+
+
 `;

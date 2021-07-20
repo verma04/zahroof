@@ -225,4 +225,25 @@ export const Section = styled.section`
       }
     }
   }
+
+   @media (max-width: 991px) and (orientation : landscape) {
+     .section {
+       .section_top {
+         #top {
+            font-size: 1.8rem;
+        }
+       }
+     }
+   }
+
+  @media (max-width: 414px) {
+    .section {
+      .section_top {
+        #top{
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
+
 `;

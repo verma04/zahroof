@@ -447,4 +447,19 @@ export const Section = styled.section`
  
   }
 
+  @media (max-width: 414px) {
+    .section4 {
+      .section2_data {
+        .section2_data_left {
+            height: 37rem;
+        }
+        .section2_data_right {
+          height: 38rem;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+
+
 `;

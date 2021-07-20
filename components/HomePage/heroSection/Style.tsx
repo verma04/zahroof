@@ -331,7 +331,7 @@ export const Section = styled.section`
           }
           #text-right {
             width: 60%;
-            margin-left: 42%;
+            margin-left: 43%;
 
             span {
               text-align: left;
@@ -341,4 +341,17 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .homePage-hero {
+      .homePage-layer{
+         .homePage-data {
+            #text-right {
+              margin-left: 43%;
+            }
+         }
+      }
+    }
+  }
+
 `;

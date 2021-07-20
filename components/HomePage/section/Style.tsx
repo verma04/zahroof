@@ -838,4 +838,18 @@ export const Section = styled.section`
    }
 
 
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section-1 {
+      .section_top {
+        .section_top_ {
+            justify-content: center;            
+            padding-left: 3rem;
+            span {
+              text-align: left;
+          }
+        }
+      }
+    }
+  }
+
 `;

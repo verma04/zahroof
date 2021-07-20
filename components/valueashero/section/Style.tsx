@@ -406,4 +406,18 @@ export const Section = styled.section`
  
   }
 
+  @media (max-width: 414px) {
+    .section {
+      .section_bottom{
+         .section2_data {
+           .section2_data_left {
+             p{
+                margin-top: 1rem;
+             }
+           }
+         }
+      }
+    }
+  }
+
 `;

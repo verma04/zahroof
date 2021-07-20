@@ -545,4 +545,27 @@ export const Section = styled.section`
       }
     }
   }
+
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section {
+      .section_bottom-1 {
+        span {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 414px) {
+    .section {
+      .section_bottom {
+        height: 40rem;
+      }
+    }
+  }
+
+
+
+
 `;

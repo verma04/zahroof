@@ -453,4 +453,47 @@ export const Section = styled.section`
       }
     }
   }
+
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section {
+      .section_bottom {
+        .section2_data {
+          .section2_data_right {
+            height: 45%;
+            .top{
+               h2 {
+                  font-size: 4rem;
+              }
+            }
+          }
+          .section2_data_left {
+            justify-content: flex-start;
+            h2 {
+              margin-bottom: 10px;
+              font-size: 1.8rem;
+              br{
+                /* display: none; */
+              }
+          }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 414px) {
+    .section {
+      .section_bottom {
+        height: 38rem;
+        .section2_data {
+          .section2_data_right{
+            height: 30%;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
 `;

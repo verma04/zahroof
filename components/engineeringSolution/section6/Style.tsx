@@ -490,4 +490,42 @@ export const Section = styled.section`
       }
     }
   }
+
+
+    @media (max-width: 991px) and (orientation : landscape) {
+      .section6 {
+        height: 30rem;
+        .section2_data {
+          .section2_data_left {
+            h2{
+              margin-bottom: 10px;
+              br{
+                display: none;
+              }
+            }
+            p {
+              line-height: 1.3;
+            }
+          }
+          .section2_data_right{
+              height: 35%;
+             .top {
+               h2 {
+                font-size: 80px;
+              }
+              h3 {
+                font-size: 40px;
+              }
+              span{
+                margin-top: 10px;
+                font-weight: 600;
+              }
+             }
+          }
+          
+        }
+      }
+    }
+
+
 `;

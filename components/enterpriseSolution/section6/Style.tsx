@@ -594,4 +594,34 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 991px) and (orientation : landscape) {
+     .section2 {
+       .section2_data {
+         .section2_data_left{
+            h3 {
+              font-size: 25px;
+              margin-bottom: 10px;
+          }
+          h2 {
+            font-size: 2rem;
+          }
+         }
+       }
+     }
+   }
+
+
+   @media (max-width: 414px) {
+      .section2 {
+       .section2_data {
+         .section2_data_left{
+            h3 {
+              margin-bottom: 10px;
+            }
+         }
+       }
+     }
+  }
+
 `;

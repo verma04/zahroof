@@ -256,4 +256,11 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 412px) {
+    .aboutus{
+      height: 32rem;
+    }
+  }
+
 `;

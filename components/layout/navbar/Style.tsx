@@ -319,7 +319,7 @@ li:nth-child(3):hover {
     position: absolute;
 
     top: 0%;
-    z-index: 1;
+    z-index: 99999;
     .navbar {
       display: none;
     }
@@ -362,8 +362,8 @@ li:nth-child(3):hover {
       }
     }
     #fixed-sm {
-      z-index: 1000;
-        height: 6rem;
+      z-index: 99999;
+      height: 6rem;
       position: fixed;
       background-color: #3c4e62;
       top: 0%;

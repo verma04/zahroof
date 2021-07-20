@@ -42,7 +42,7 @@ export const Section = styled.section`
           align-items: center;
 
           .section-left-top {
-            height: 75%;
+            height: 80%;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -67,7 +67,7 @@ export const Section = styled.section`
               content: "";
             }
             h3 {
-              font-size: 16px;
+              font-size: 18px;
               text-align: center;
               width: 100%;
               color: #7c7c7c;
@@ -327,7 +327,7 @@ export const Section = styled.section`
           align-items: center;
 
           .section-left-top {
-            height: 80%;
+            height: 85%;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -353,7 +353,7 @@ export const Section = styled.section`
               content: "";
             }
             h3 {
-              font-size: 16px;
+              font-size: 18px;
               text-align: center;
               width: 100%;
               color: #7c7c7c;
@@ -637,7 +637,7 @@ export const Section = styled.section`
               content: "";
             }
             h3 {
-              font-size: 16px;
+              font-size: 18px;
               text-align: center;
               width: 100%;
               color: #7c7c7c;
@@ -896,7 +896,7 @@ export const Section = styled.section`
           align-items: center;
 
           .section-left-top {
-            height: 80%;
+            height: 85%;
             width: 100%;
             display: flex;
             justify-content: space-between;

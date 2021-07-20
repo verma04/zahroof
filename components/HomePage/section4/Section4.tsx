@@ -137,7 +137,7 @@ const Section4: React.FC<Section4> = (data) => {
                   alt=""
                 />
               </div>
-              <span>Oil</span>
+              <span>Oil And Gas </span>
             </div>
             <div  className="icon" id="hydrogen">
               <div className="img-wrapper">

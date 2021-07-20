@@ -552,4 +552,13 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (max-width: 414px) {
+    .section{
+      height: 55rem;
+    }
+  }
+
+
+
 `;

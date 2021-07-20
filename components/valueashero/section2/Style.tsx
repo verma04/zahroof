@@ -345,4 +345,39 @@ export const Section = styled.section`
  
   }
 
+    @media (max-width: 414px) {
+
+    .section2 {
+      height: 55rem;
+      .section2_data {
+        .section2_top  {
+          height: auto;
+          .logo {
+            height: 100px;
+            width: 100%;
+            margin-top: 5px;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            .wrapper {
+                width: 35%;
+                height: 60%;
+            }
+            p {
+              margin-left: 0;
+              margin-top: 0;
+              width: 90%;
+              line-height: 16.87px;
+              font-family: Proxima-Bold;
+              text-transform: uppercase;
+              color: white;
+              font-size: 13px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+
 `;
