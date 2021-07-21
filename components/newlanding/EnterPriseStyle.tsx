@@ -93,15 +93,14 @@ export const Section = styled.section`
               }
 
               p {
-                margin-top: 3rem;
+                margin-top: 2rem;
                 color: white;
                 z-index: 1;
                 width: 70%;
                 text-align: left;
                 color: black;
-                font-size: 16px;
-
-                line-height: 30px;
+                font-size: 18px;
+                line-height: 1.4;
               }
             }
             .btn {

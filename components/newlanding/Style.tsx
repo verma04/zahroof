@@ -50,7 +50,6 @@ export const Section = styled.section`
 
             .top {
               width: 100%;
-
               height: 80%;
               height: auto;
               display: flex;
@@ -68,7 +67,7 @@ export const Section = styled.section`
                 position: relative;
                 color: #3c3f72;
                 font-size: 3rem;
-                margin-top: 2rem;
+                margin-top: 4rem;
                 span {
                   color: #3c3f72;
                   font-size: 2.5rem;
@@ -99,9 +98,8 @@ export const Section = styled.section`
                 width: 70%;
                 text-align: left;
                 color: black;
-                font-size: 16px;
-
-                line-height: 30px;
+                font-size: 18px;
+                line-height: 1.4;
               }
             }
             .btn {
