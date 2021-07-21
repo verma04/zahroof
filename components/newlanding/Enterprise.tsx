@@ -34,17 +34,18 @@ const Landing: React.FC<{}> = () => {
                   </span>
                   <h3 className="inner">
                     {" "}
-                    WE DON T THINK THAT S TOO MUCH TO ASK.
+                    WE DON&apos;T THINK THAT&apos;S TOO MUCH TO ASK.
                   </h3>
                 </h2>
 
                 <p>
-                  Your job is to your operation runs efficiently. continuously,
-                  and  above all, profitably. It s a demanding position,
-                  expectations are high. But with Zahroof s state-of-the-art
-                  technology, you can maximize compressor performance to achieve
-                  astounding results in production, maintenance , and reliability.
-                  See how our customized solutions can improve your bottom line.
+                  Your job is to your operation runs efficiently.. 
+                  continuously, and  above all, profitably. It&apos;s a demanding
+                  position, expectations are high. But with Zahroof&apos;s 
+                  state-of-the-art technology, you can maximize compressor 
+                  performance to achieve astounding results in production, 
+                  maintenance , and reliability. See how our customized 
+                  solutions can improve your bottom line.
                 </p>
               </div>
 
