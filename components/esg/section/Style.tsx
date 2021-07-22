@@ -553,6 +553,29 @@ export const Section = styled.section`
     }
   }
 
+
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section{
+       .section-1 {
+         .wrapper {
+           .section-data {
+             .right {
+                height: 40%;
+                .right_logo {
+                  .logo-wrapper{
+                      height: 85%;
+                  }
+                }
+             }
+           }
+         }
+       }
+    }
+
+  }
+
+
+
   @media (max-width: 414px) {
     .section{
       height: 55rem;

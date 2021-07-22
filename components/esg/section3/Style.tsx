@@ -209,7 +209,21 @@ export const Section = styled.section`
 
 
  
-
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section2 {
+      .section_data {
+        h3{
+          line-height: 1.3;
+          margin-left: -6rem;
+        }
+        p{
+          font-size: 18px;
+          line-height: 1.2;
+          font-weight: 600;
+        }
+      }
+    }
+  }
 
 
 

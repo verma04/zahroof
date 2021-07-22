@@ -327,6 +327,30 @@ export const Section = styled.section`
   }
 
 
+  @media (max-width: 991px) and (orientation : landscape) {
+     .section {
+        width: 95%;
+       .section_bottom {
+         flex-direction: row;
+         .section2_data {
+            margin-bottom: 2rem;
+           li:nth-child(2) {
+             margin-top: 0px;
+             h3 {
+                flex-direction: column;
+                padding: 0px 20px;
+                font-size: 18px;
+               span{
+                 margin-top: 0;
+                 line-height: 1.3;
+               }
+             }
+           }
+         }
+       }
+     }
+  }
+
 
    @media (max-width: 414px) {
     .section {

@@ -354,4 +354,33 @@ export const Section = styled.section`
     }
   }
 
+
+  
+
+  @media (max-width: 375px) {
+    .homePage-hero {
+      .homePage-layer{
+         .homePage-data {
+            #text-right {
+              margin-left: 42%;
+            }
+         }
+      }
+    }
+  }
+
+  @media (max-width: 360px) {
+    .homePage-hero {
+      .homePage-layer{
+         .homePage-data {
+            #text-right {
+              margin-left: 41%;
+            }
+         }
+      }
+    }
+  }
+
+  
+
 `;

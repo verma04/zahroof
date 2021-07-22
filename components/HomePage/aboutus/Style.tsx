@@ -268,4 +268,15 @@ export const Section = styled.section`
     }
   }
 
+  @media (max-width: 360px) {
+    .aboutus{
+      height: 32rem;
+      .aboutus_section {
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
 `;

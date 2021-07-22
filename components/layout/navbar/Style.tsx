@@ -13,6 +13,14 @@ export const Nav = styled.nav`
   #active  {
     color: #dbb43f;
   }
+  .navbar1,
+  #fixed-sm{
+    -webkit-transition: background-color .5s,color .5s,transform .5s,opacity .5s ease-in-out;
+    -webkit-transition: background-color .5s,color .5s,opacity .5s ease-in-out,-webkit-transform .5s;
+    transition: background-color .5s,color .5s,opacity .5s ease-in-out,-webkit-transform .5s;
+    transition: background-color .5s,color .5s,transform .5s,opacity .5s ease-in-out;
+    transition: background-color .5s,color .5s,transform .5s,opacity .5s ease-in-out,-webkit-transform .5s;
+  }
 
   @media (min-width: 1281px) {
     width: 100%;
@@ -625,4 +633,9 @@ li:nth-child(3):hover {
       }
     }
   }
+
+
+  
+
+
 `;

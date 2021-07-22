@@ -483,6 +483,12 @@ export const Section = styled.section`
   }
 
 
+  @media (max-width: 991px) and (orientation : landscape) {
+    
+  }
+
+
+
   @media (max-width: 414px) {
     .section2{
       height: 90rem;

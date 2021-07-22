@@ -526,24 +526,7 @@ export const Section = styled.section`
   }
 
 
-   @media (max-width: 412px) {
-      .section3-sm {
-          h2 {
-          font-size: 13px;
-          line-height: 1.3;
-        }
-        .section3_left{
-          top: 15%;
-        }
-        .section3_right {
-          top: 15%;
-           a {
-            font-size: 13px;
-            line-height: 1.3;
-          }
-        }
-      }
-   }
+
 
 
   @media (max-width: 991px) and (orientation : landscape) {
@@ -567,6 +550,41 @@ export const Section = styled.section`
     }
   }
 
+
+  @media (max-width: 768px) {
+     .section3-sm {
+       .section3_left {
+          top: 25%;
+      }
+      .section3_right {
+          top: 25%;
+      }
+     }
+  }
+
+  @media (max-width: 412px) {
+    .section3-sm {
+        h2 {
+        font-size: 13px;
+        line-height: 1.3;
+      }
+      .section3_left{
+        top: 15%;
+      }
+      .section3_right {
+        top: 15%;
+          a {
+          font-size: 13px;
+          line-height: 1.3;
+        }
+      }
+    }
+  }
+
+
+ 
+
+ 
    
 
 `;

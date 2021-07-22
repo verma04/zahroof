@@ -663,11 +663,7 @@ export const Section = styled.section`
               line-height: 1.3rem;
               color: white;
               text-transform: uppercase;
-<<<<<<< HEAD
-              font-size: 18px;
-=======
               font-size: 20px;
->>>>>>> main
             }
           }
           .tringle {
@@ -818,30 +814,6 @@ export const Section = styled.section`
     }
   }
 
-  @media (max-width: 412px) {
-      .section-1 {
-        .section_bottom {
-          .section_bottom_set {
-            .section_bottom_data{
-                h3 {
-                  font-size: 1.3rem;
-                }
-                li:nth-child(1) {
-                    width: 10rem;
-                    height: 10rem;
-                }
-                li:nth-child(3) {
-                  width: 3rem;
-                  height: 3rem;
-                }
-            }
-          }
-        }
-
-      }
-   }
-
-
   @media (max-width: 991px) and (orientation : landscape) {
     .section-1 {
       .section_top {
@@ -850,6 +822,63 @@ export const Section = styled.section`
             padding-left: 3rem;
             span {
               text-align: left;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 414px) {
+    .section-1 {
+      .section_bottom {
+        .section_bottom_set {
+          .section_bottom_data{
+              h3 {
+                font-size: 1.3rem;
+              }
+              li:nth-child(1) {
+                  width: 10rem;
+                  height: 10rem;
+              }
+              li:nth-child(3) {
+                width: 3rem;
+                height: 3rem;
+              }
+          }
+        }
+      }
+
+    }
+  }
+
+
+
+  @media (max-width: 375px) {
+    .section-1 {
+      .section_top {
+        height: 5rem;
+        .section_top_ {
+          span {
+            span {
+              font-size: 18px;
+              padding:0px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 360px) {
+    .section-1 {
+      .section_top {
+        height: 5rem;
+        .section_top_ {
+          span {
+            span {
+              font-size: 18px;
+              padding:0px 10px;
+            }
           }
         }
       }
