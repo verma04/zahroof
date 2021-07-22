@@ -1541,42 +1541,49 @@ min-width: 10% !important;
     }
   }
 
-   @media (max-width: 991px) and (orientation : landscape) {
-     .section4 {
-       .section4_mid {
-         .section4_mid_left {
-           
-           .img_wrapper {
-              .text-2 {
-                left: 15%;
-            }
-            .text-1 {
-                right: 15%;
-            }
-           }
-         }
-         .section4_mid_right {
-           h2{
-              margin-left: 2rem;
-           }
-         }
-       }
-       .section4_bottom{
-          .section4_bottom_data {
-            .section4_mid_left {
-              height: 40%;
-             
-            }
+  @media (max-width: 991px) and (orientation : landscape) {
+    .section4 {
+      .section4_mid {
+        .section4_mid_left {
+          
+          .img_wrapper {
+            .text-2 {
+              left: 15%;
           }
-       }
-     }
-   }
+          .text-1 {
+              right: 15%;
+          }
+          }
+        }
+        .section4_mid_right {
+          h2{
+            margin-left: 2rem;
+          }
+        }
+      }
+      .section4_bottom{
+        .section4_bottom_data {
+          .section4_mid_left {
+            height: 40%;
+            
+          }
+        }
+      }
+    }
+  }
 
+
+  
 
   @media (max-width: 414px) {
     .section4 {
        .section4_mid {
          .section4_mid_left {
+           .top{
+              h2 {
+                margin-left: 1rem;
+              }
+           }
          }
          .section4_mid_right {
            h2{
@@ -1584,8 +1591,69 @@ min-width: 10% !important;
            }
          }
        }
+       .section4_bottom_data{
+         .section4_mid_left {
+           .top{
+              h2 {
+                margin-left: 1rem;
+                margin-bottom: 10px;
+              }
+           }
+         }
+       }
      }
   }
+
+  @media (max-width: 375px) {
+    .section4 {
+      .section4_top {
+         .section4_top_data {
+           h2 {
+             font-size: 1.3rem;
+           }
+         }
+       }
+       .section4_mid {
+         .section4_mid_left {
+         }
+         .section4_mid_right {
+           h2{
+              font-size: 1.3rem;
+              margin-left: 2rem;
+           }
+           p{
+             font-size: 16px;
+           }
+         }
+       }
+     }
+  }
+
+  @media (max-width: 360px) {
+    .section4 {
+      .section4_top {
+         .section4_top_data {
+           h2 {
+             font-size: 1.3rem;
+           }
+         }
+       }
+       .section4_mid {
+         .section4_mid_left {
+         }
+         .section4_mid_right {
+           h2{
+              font-size: 1.2rem;
+               margin-left: 2rem;
+           }
+           p{
+             font-size: 15px;
+           }
+         }
+       }
+     }
+  }
+
 
 
 `;
