@@ -11,6 +11,9 @@ export const Section = styled.section`
   }
 
   @media (min-width: 1281px) {
+    .section-1 {
+      display: none;
+    }
     .section {
       position: relative;
 
@@ -270,7 +273,7 @@ export const Section = styled.section`
   }
 
   @media (max-width: 767px) {
-    .section {
+    .section-1 {
       position: relative;
 
       display: flex;
@@ -298,7 +301,7 @@ export const Section = styled.section`
 
         .section_left {
           width: 100%;
-          height: 50%;
+          height: 25%;
 
           display: flex;
           justify-content: center;
@@ -533,11 +536,69 @@ export const Section = styled.section`
             }
           }
         }
+
+          .section_left_bottom {
+          width: 100%;
+          height: 25%;
+
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+
+        
+          .section-left-bottom {
+            width: 95%;
+            height: 70%;
+
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            flex-direction: column;
+            position: relative;
+            :after {
+              top: 0%;
+              position: absolute;
+              height: 7px;
+              display: block;
+              width: 100%;
+              background: ${(props) => props.theme.colors.yellow};
+              border-top: 1px white;
+              content: "";
+            }
+            li {
+              font-size: 1.5rem;
+              text-align: left;
+
+              width: 100%;
+              color: white;
+              line-height: 1.5;
+            }
+            h3 {
+              font-size: 1.2rem;
+              text-align: left;
+
+              width: 100%;
+              color: white;
+              line-height: 1.5;
+            }
+          }
+        }
       }
     }
+
+    .section {
+      display: none;
+    }
+
+
   }
 
   @media (min-width: 1024px) and (max-width: 1280px) {
+    .section-1 {
+      display: none;
+    }
+    
     .section {
       position: relative;
 
@@ -804,6 +865,10 @@ export const Section = styled.section`
     }
   }
   @media (min-width: 768px) and (max-width: 1023px) {
+    .section-1 {
+      display: none;
+    }
+    
     .section {
       position: relative;
 
@@ -1073,7 +1138,7 @@ export const Section = styled.section`
 
     @media (max-width: 414px) {
       
-      .section {
+      .section-1 {
         background-image: url('http://18.217.254.134/wp-content/uploads/2021/07/e92mprbfemr6lekh6lyp.jpg');
         .section_data {
           .section_left {

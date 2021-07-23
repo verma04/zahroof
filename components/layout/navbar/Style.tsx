@@ -13,6 +13,7 @@ export const Nav = styled.nav`
   #active  {
     color: #dbb43f;
   }
+ 
   .navbar1,
   #fixed-sm{
 
@@ -54,6 +55,9 @@ export const Nav = styled.nav`
             text-transform: uppercase;
            
           }
+          a:hover {
+    color: #dbb43f;
+  }
           .active {
                color: #dbb43f;
             }
@@ -134,6 +138,9 @@ li:nth-child(3):hover {
            
             text-transform: uppercase;
           }
+          a:hover {
+    color: #dbb43f;
+  }
           .active {
             color: #dbb43f;
             }
