@@ -4,7 +4,7 @@ import Section from "./section/Section";
 import Section2 from "./section2/Section2";
 import Footer from "../layout/footer/Footer";
 import { useGetAboutus } from "../../apollo/actions";
-import withApollo from "../../hoc/withApollo";
+
 import Head from "next/head";
 interface About {
   data: {
