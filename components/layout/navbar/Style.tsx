@@ -15,11 +15,10 @@ export const Nav = styled.nav`
   }
   .navbar1,
   #fixed-sm{
-    -webkit-transition: background-color .5s,color .5s,transform .5s,opacity .5s ease-in-out;
-    -webkit-transition: background-color .5s,color .5s,opacity .5s ease-in-out,-webkit-transform .5s;
-    transition: background-color .5s,color .5s,opacity .5s ease-in-out,-webkit-transform .5s;
+
+    transition: background-color .5s,color .5s,opacity .5s ease-in-out;
     transition: background-color .5s,color .5s,transform .5s,opacity .5s ease-in-out;
-    transition: background-color .5s,color .5s,transform .5s,opacity .5s ease-in-out,-webkit-transform .5s;
+    transition: background-color .5s,color .5s,transform .5s,opacity .5s ease-in-out;
   }
 
   @media (min-width: 1281px) {
