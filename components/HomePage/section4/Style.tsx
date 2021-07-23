@@ -414,7 +414,7 @@ height: 10rem;
 
     .section4 {
       position: relative;
-  border: 1px solid red;
+  
       display: flex;
       justify-content: center;
       flex-direction: column;
