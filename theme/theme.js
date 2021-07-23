@@ -207,9 +207,7 @@ transition: transform .1s;
     &:before {
     content: ">";
     position: absolute;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+   
     display: flex;
     -webkit-align-items: center;
     -webkit-box-align: center;

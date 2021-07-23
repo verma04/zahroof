@@ -553,7 +553,7 @@ min-width: 10% !important;
       }
       .section4_mid {
         position: relative;
-        height: 40rem;
+        height: 50rem;
         width: 100%;
         z-index: 1;
         margin-bottom: 3rem;
@@ -568,7 +568,8 @@ min-width: 10% !important;
           display: flex;
           justify-content: flex-end;
           align-items: center;
-          width: 100%;
+          width: 50%;
+         
           height: 70%;
           .img_wrapper {
             width: 100%;
@@ -615,10 +616,14 @@ min-width: 10% !important;
           flex-direction: column;
           align-items: flex-start;
           width: 50%;
+         
           height: 100%;
           margin-left: 10%;
 
           h2 {
+            br {
+              display: none;
+            }
             text-align: left;
             width: 100%;
             position: relative;

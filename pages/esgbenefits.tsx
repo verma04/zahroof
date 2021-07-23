@@ -1,6 +1,6 @@
 import React from "react";
 import Esg from "../components/esg/Esg";
-import withApollo from "../hoc/withApollo";
+
 import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 interface Esg {
@@ -141,4 +141,4 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 }
 
-export default withApollo(index);
+export default index;

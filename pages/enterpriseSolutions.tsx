@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../components/enterpriseSolution/enterprise";
-import withApollo from "../hoc/withApollo";
+
 
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 interface Enterprise {
@@ -185,4 +185,4 @@ export async function getStaticProps() {
   };
 }
 
-export default withApollo(index);
+export default  index;

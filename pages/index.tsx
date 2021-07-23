@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../components/HomePage/Home";
-import withApollo from "../hoc/withApollo";
+
 import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
  
@@ -165,4 +165,4 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 }
 
-export default withApollo(index);
+export default index;
