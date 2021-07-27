@@ -49,7 +49,7 @@ export const Section = styled.section`
           h2 {
             width: 92%;
             font-size: 46px;
-            color: #daaf1a;
+            color:  ${(props) => props.theme.colors.blue};
             line-height: 46px;
             /* margin-left: 20px; */
             margin-top: 45px;
@@ -218,7 +218,7 @@ export const Section = styled.section`
           h2 {
             width: 92%;
             font-size: 37px;
-            color: #daaf1a;
+            color:  ${(props) => props.theme.colors.blue};
             line-height: 46px;
             /* margin-left: 20px; */
 
@@ -385,7 +385,7 @@ export const Section = styled.section`
           h2 {
             width: 92%;
             font-size: 2rem;
-            color: #daaf1a;
+            color:  ${(props) => props.theme.colors.blue};
             line-height: 2rem;
             /* margin-left: 20px; */
 
@@ -553,7 +553,7 @@ export const Section = styled.section`
           h2 {
             width: 100%;
             font-size: 1.5rem;
-            color: #daaf1a;
+            color:  ${(props) => props.theme.colors.blue};
             line-height: 1.1;
             /* margin-left: 20px; */
 
