@@ -54,7 +54,7 @@ export const Section = styled.section`
         height: 370px;
         position: relative;
 
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         .section2_data {
           width: 80%;
 
@@ -192,7 +192,7 @@ export const Section = styled.section`
         height: 389px;
         position: relative;
 
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         .section2_data {
           width: 100%;
 
@@ -325,7 +325,7 @@ export const Section = styled.section`
         height: 342px;
         position: relative;
 
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         .section2_data {
           width: 100%;
 
@@ -459,7 +459,7 @@ export const Section = styled.section`
         height: 45rem;
         position: relative;
 
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         .section2_data {
           width: 90%;
 

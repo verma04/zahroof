@@ -24,7 +24,7 @@ export const Section = styled.section`
     position: relative;
     height: 73rem;
     width: 100%;
-    background:  #dbb43f;
+    background:     ${(props) => props.theme.colors.blue};
     /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
     margin-bottom: 3rem;
@@ -37,7 +37,7 @@ export const Section = styled.section`
     height: 65px;
     border-left: 10rem solid transparent;
     border-right: 10rem solid transparent;
-    border-top: 7rem solid #dbb43f;
+    border-top: 7rem solid    ${(props) => props.theme.colors.blue};
    
     }
     .section4_top_data {
@@ -248,7 +248,7 @@ height: 10rem;
         height: 110%;
         left: -5%;
         top: 0%;
-        background: #dcb01a;
+        background:     ${(props) => props.theme.colors.blue};
         border-left: 1px white;
         content: "";
       }
@@ -320,7 +320,7 @@ height: 10rem;
             height: 60%;
             left: -7%;
             top: 17%;
-            background: #dcb01a;
+            background:     ${(props) => props.theme.colors.blue};
             border-left: 1px white;
             content: "";
           }
@@ -362,15 +362,15 @@ height: 10rem;
         display: flex;
         justify-content: center;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
 
         align-items: center;
         width: 50%;
-        height: 90%;
+        height: 100%;
         z-index: 1;
-
+        
         .section4_logo {
-          width: 40%;
+          width: 100%;
           height: 100%;
           display: flex;
           justify-content: start;
@@ -378,6 +378,7 @@ height: 10rem;
           align-items: center;
           margin-top: 23rem;
           .img_wrapper {
+
             transition: transform 0.5s;
             width: 100%;
             height: 50%;
@@ -426,7 +427,7 @@ height: 10rem;
         position: relative;
         height: 55rem;
         width: 100%;
-        background:  #dbb43f;
+        background:     ${(props) => props.theme.colors.blue};
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -439,7 +440,7 @@ height: 10rem;
           height: 65px;
           border-left: 6rem solid transparent; 
           border-right: 6rem solid transparent;
-         border-top: 4rem solid #dbb43f; 
+         border-top: 4rem solid    ${(props) => props.theme.colors.blue}; 
        
         }
         .section4_top_data {
@@ -460,11 +461,11 @@ height: 10rem;
           .section4_top_data_logos {
             width: 50%;
             margin-top: 7%;
-            margin-left: 4%;
+    margin-left: 2%;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 40%;
+            height: 42%;
             position: relative;
           }
 
@@ -509,42 +510,43 @@ height: 10rem;
             position: absolute;
             position: absolute;
             top: 64%;
-            left: 31%;
+            left: 28%;
             height: 10%;
             height: 10%;
           }
           #industry {
             position: absolute;
             top: 27%;
-            left: 29%;
+            left: 25%;
             width: 15%;
             height: 10%;
           }
           #Refineries {
             position: absolute;
             top: 46%;
-            left: 25%;
+            left: 20%;
             width: 15%;
             height: 10%;
           }
           #Cng {
             position: absolute;
             top: 27%;
-            left: 59%;
+            left: 63%;
             width: 15%;
             height: 10%;
           }
           #Oil {
             position: absolute;
             top: 46%;
-            left: 63%;
+            left: 67%;
+
             width: 15%;
             height: 10%;
           }
           #hydrogen {
             position: absolute;
             top: 64%;
-            left: 61%;
+            left: 63%;
             width: 15%;
             height: 10%;
           }
@@ -558,7 +560,7 @@ height: 10rem;
           #offshore {
             position: absolute;
             top: 79%;
-            left: 38%;
+            left: 35%;
             width: 15%;
             height: 10%;
           }
@@ -650,7 +652,7 @@ min-width: 10% !important;
             height: 110%;
             left: -5%;
             top: 0%;
-            background: #dcb01a;
+            background:     ${(props) => props.theme.colors.blue};
             border-left: 1px white;
             content: "";
           }
@@ -722,7 +724,7 @@ min-width: 10% !important;
                 height: 60%;
                 left: -7%;
                 top: 17%;
-                background: #dcb01a;
+                background:     ${(props) => props.theme.colors.blue};
                 border-left: 1px white;
                 content: "";
               }
@@ -764,25 +766,27 @@ min-width: 10% !important;
             display: flex;
             justify-content: center;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: center;
 
             align-items: center;
-            width: 50%;
-            height: 90%;
+   
+      margin-top:8%;
+              width: 50%;
+            height: 100%;
             z-index: 1;
 
             .section4_logo {
-              width: 40%;
+              width: 100%;
               height: 100%;
               display: flex;
               justify-content: start;
               flex-direction: column;
               align-items: center;
-              margin-top: 23rem;
+              
               .img_wrapper {
                 transition: transform 0.5s;
                 width: 100%;
-                height: 50%;
+                height: 100%;
                 position: relative;
               }
               .img_wrapper:hover {
@@ -825,7 +829,7 @@ min-width: 10% !important;
         position: relative;
         height: 47rem;
         width: 100%;
-        background:  #dbb43f;
+        background:     ${(props) => props.theme.colors.blue};
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -1041,7 +1045,7 @@ min-width: 10% !important;
             height: 110%;
             left: -5%;
             top: 0%;
-            background: #dcb01a;
+            background:     ${(props) => props.theme.colors.blue};
             border-left: 1px white;
             content: "";
           }
@@ -1113,7 +1117,7 @@ min-width: 10% !important;
                 height: 60%;
                 left: -7%;
                 top: 17%;
-                background: #dcb01a;
+                background:     ${(props) => props.theme.colors.blue};
                 border-left: 1px white;
                 content: "";
               }
@@ -1163,7 +1167,7 @@ min-width: 10% !important;
             .section4_logo {
               width: 40%;
 
-              height: 67%;
+              height: 100%;
 
               display: flex;
               justify-content: space-between;
@@ -1215,7 +1219,7 @@ min-width: 10% !important;
         position: relative;
         height: 39rem;
         width: 100%;
-        background:  #dbb43f;
+        background:     ${(props) => props.theme.colors.blue};
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -1416,7 +1420,7 @@ min-width: 10% !important;
             height: 100%;
             left: -1%;
             top: 0%;
-            background: #dcb01a;
+            background:     ${(props) => props.theme.colors.blue};
             border-left: 1px white;
             content: "";
           }
@@ -1491,7 +1495,7 @@ min-width: 10% !important;
                 height: 100%;
                 left: 0%;
                 top: 0%;
-                background: #dcb01a;
+                background:     ${(props) => props.theme.colors.blue};
                 border-left: 1px white;
                 content: "";
               }
@@ -1586,7 +1590,7 @@ min-width: 10% !important;
         position: relative;
         height: 25rem;
         width: 100%;
-        background:  #dbb43f;
+        background:     ${(props) => props.theme.colors.blue};
         /* background-image: linear-gradient(#d8b642 , #DBB42F); */
 
         margin-bottom: 3rem;
@@ -1791,7 +1795,7 @@ min-width: 10% !important;
             height: 100%;
             left: -1%;
             top: 0%;
-            background: #dcb01a;
+            background:     ${(props) => props.theme.colors.blue};
             border-left: 1px white;
             content: "";
           }
@@ -1867,7 +1871,7 @@ min-width: 10% !important;
                 height: 100%;
                 left: 0%;
                 top: 0%;
-                background: #dcb01a;
+                background:     ${(props) => props.theme.colors.blue};
                 border-left: 1px white;
                 content: "";
               }
@@ -1888,6 +1892,7 @@ min-width: 10% !important;
               text-align: left;
 
               button {
+                margin-bottom:20%;
                 font-size: 1rem;
                 padding: 1rem;
                 /* margin-top: 2rem; */
@@ -1902,12 +1907,12 @@ min-width: 10% !important;
             justify-content: center;
             display: flex;
             justify-content: space-evenly;
-            height: 50%;
+            height: 40%;
             align-items: center;
             width: 95%;
 
             .section4_logo {
-              width: 40%;
+              width: 100%;
               height: 100%;
               display: flex;
               justify-content: center;
@@ -1917,7 +1922,7 @@ min-width: 10% !important;
               .img_wrapper {
                 transition: transform 0.5s;
                 width: 100%;
-                height: 50%;
+                height: 90%;
                 position: relative;
               }
               .img_wrapper:hover {

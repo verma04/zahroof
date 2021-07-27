@@ -34,6 +34,8 @@ const SectionEighth: React.FC<SectionEighth> = (data) => {
           className="section2_data_left">
           
           </div>
+
+          
         </div>
       </div>
     </Section>

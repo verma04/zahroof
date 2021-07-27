@@ -56,7 +56,7 @@ export const Section = styled.section`
             width: 0.3rem;
             top: -20%;
             left: -0.3rem;
-            background-color: #daaf1a;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
           p {
             width: 90%;
@@ -157,7 +157,7 @@ export const Section = styled.section`
             width: 0.3rem;
             top: -20%;
             left: -0.3rem;
-            background-color: #daaf1a;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
           p {
             width: 90%;
@@ -270,7 +270,7 @@ export const Section = styled.section`
             width: 0.3rem;
             top: -20%;
             left: -0.3rem;
-            background-color: #daaf1a;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
           p {
             width: 90%;
@@ -384,7 +384,7 @@ export const Section = styled.section`
             width: 0.3rem;
             top: -20%;
             left: -0.3rem;
-            background-color: #daaf1a;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
           p {
             width: 100%;

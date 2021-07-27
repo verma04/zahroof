@@ -22,7 +22,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
      
         height: 140px;
         h3 {
@@ -73,7 +73,7 @@ export const Section = styled.section`
               width: 0.3rem;
               top: 0;
               left: -0.3rem;
-              background-color: #daaf1a;
+              background-color: ${(props) => props.theme.colors.blue} ;
             }
             p {
               margin-top: 52px;
@@ -118,7 +118,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 140px;
         h3 {
           width: 85%;
@@ -222,7 +222,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 140px;
         h3 {
           width: 90%;
@@ -319,7 +319,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 200px;
         h3 {
           width: 90%;

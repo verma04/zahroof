@@ -66,7 +66,7 @@ export const Section = styled.section`
               width: 0.4rem;
               top: 5%;
               left: -35px;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
             p {
               margin-top: 25px;
@@ -180,7 +180,7 @@ export const Section = styled.section`
               width: 0.4rem;
               top: 5%;
               left: -5%;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
 
             p {
@@ -289,7 +289,7 @@ export const Section = styled.section`
               width: 0.4rem;
               top: 5%;
               left: -5%;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
 
             p {
@@ -400,7 +400,7 @@ export const Section = styled.section`
               width: 0.4rem;
               top: 5%;
               left: -5%;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
 
             p {

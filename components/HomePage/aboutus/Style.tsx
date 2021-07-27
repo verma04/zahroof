@@ -52,7 +52,7 @@ export const Section = styled.section`
           height: 60%;
           left: -1%;
           top: 20%;
-          background: #dcb01a;
+          background:  ${(props) => props.theme.colors.blue};
           border-left: 1px white;
           content: "";
         }
@@ -115,7 +115,7 @@ export const Section = styled.section`
           height: 60%;
           left: -1%;
           top: 20%;
-          background: #dcb01a;
+          background:  ${(props) => props.theme.colors.blue};
           border-left: 1px white;
           content: "";
         }
@@ -178,7 +178,7 @@ export const Section = styled.section`
           height: 60%;
           left: -1%;
           top: 20%;
-          background: #dcb01a;
+          background:  ${(props) => props.theme.colors.blue};
           border-left: 1px white;
           content: "";
         }
@@ -240,7 +240,7 @@ export const Section = styled.section`
           height: 90%;
           left: -3%;
           top: 0%;
-          background: #dcb01a;
+          background:  ${(props) => props.theme.colors.blue};
           border-left: 1px white;
           content: "";
         }

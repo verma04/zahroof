@@ -18,7 +18,7 @@ export const Section = styled.section`
       align-items: center;
       position: relative;
       height: 35rem;
-      background-color: #dbb43f;
+      background-color:  ${(props) => props.theme.colors.blue};
       .tringle {
         position: absolute;
         right: 40%;
@@ -27,7 +27,7 @@ export const Section = styled.section`
         height: 0;
         border-left: 5rem solid transparent;
         border-right: 5rem solid transparent;
-        border-bottom: 4rem solid #dbb43f;
+        border-bottom: 4rem solid  ${(props) => props.theme.colors.blue};
         z-index: 1;
       }
 
@@ -139,7 +139,7 @@ export const Section = styled.section`
       align-items: center;
       position: relative;
       height: 40rem;
-      background-color: #dbb43f;
+      background-color:  ${(props) => props.theme.colors.blue};
       .tringle {
         position: absolute;
         right: 40%;
@@ -148,7 +148,7 @@ export const Section = styled.section`
         height: 0;
         border-left: 5rem solid transparent;
         border-right: 5rem solid transparent;
-        border-bottom: 4rem solid #dbb43f;
+        border-bottom: 4rem solid  ${(props) => props.theme.colors.blue};
         z-index: 1;
       }
 
@@ -265,7 +265,7 @@ export const Section = styled.section`
       align-items: center;
       position: relative;
       height: 40rem;
-      background-color: #dbb43f;
+      background-color:  ${(props) => props.theme.colors.blue};
       .tringle {
         position: absolute;
         right: 40%;
@@ -274,7 +274,7 @@ export const Section = styled.section`
         height: 0;
         border-left: 5rem solid transparent;
         border-right: 5rem solid transparent;
-        border-bottom: 4rem solid #dbb43f;
+        border-bottom: 4rem solid  ${(props) => props.theme.colors.blue};
         z-index: 1;
       }
 
@@ -385,7 +385,7 @@ export const Section = styled.section`
       align-items: center;
       position: relative;
       height: 60rem;
-      background-color: #dbb43f;
+      background-color:  ${(props) => props.theme.colors.blue};
       /* .tringle {
         position: absolute;
         right: 40%;
@@ -394,7 +394,7 @@ export const Section = styled.section`
         height: 0;
         border-left: 5rem solid transparent;
         border-right: 5rem solid transparent;
-        border-bottom: 4rem solid #dbb43f;
+        border-bottom: 4rem solid  ${(props) => props.theme.colors.blue};
         z-index: 1;
       } */
 

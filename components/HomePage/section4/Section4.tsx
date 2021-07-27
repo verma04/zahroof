@@ -266,6 +266,24 @@ performance of all others in the industry.</p> */}
           {/* <Image     objectFit="cover" layout="fill" src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1624446661/zugr9ahadrsbvxmfoi2v.jpg'} alt="Picture of the author" /> */}
 
           <div className="section4_bottom_data">
+
+          <div  data-aos="fade-up" className="section4_mid_right">
+              <div className="section4_logo">
+                <div className="img_wrapper">
+                  <Image
+                    objectFit="contain"
+                    layout="fill"
+                    src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1627380874/mz8scwuleyzs5tmkmobd.png'}
+                    alt="Picture of the author"
+                  />
+                </div>
+
+              
+              </div>
+           
+            </div>
+         
+         
             <div  data-aos="fade-up" className="section4_mid_left">
               <div
                 dangerouslySetInnerHTML={{
@@ -285,32 +303,8 @@ performance of all others in the industry.</p> */}
               </div>
             </div>
 
-            <div  data-aos="fade-up" className="section4_mid_right">
-              <div className="section4_logo">
-                <div className="img_wrapper">
-                  <Image
-                    objectFit="contain"
-                    layout="fill"
-                    src={data.data.homeSixRightOneImage}
-                    alt="Picture of the author"
-                  />
-                </div>
-
-                <h3>{data.data.homeSixRightOneName}</h3>
-              </div>
-              <div className="section4_logo">
-                <div className="img_wrapper">
-                  <Image
-                    objectFit="contain"
-                    layout="fill"
-                    src={data.data.homeSixRightTwoImage}
-                    alt="Picture of the author"
-                  />
-                </div>
-
-                <h3>{data.data.homeSixRightTwoName}</h3>
-              </div>
-            </div>
+        
+         
           </div>
         </div>
       </div>

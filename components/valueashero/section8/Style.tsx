@@ -27,9 +27,16 @@ export const Section = styled.section`
           display: flex;
           width: 45%;
           height: 100%;
-          justify-content: space-around;
+          justify-content: center;
           align-items: left;
           flex-direction: column;
+
+          h2 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            line-height: 3rem;
+            margin-bottom: 1rem;
+          }
 
           p {
 
@@ -77,10 +84,15 @@ export const Section = styled.section`
           display: flex;
           width: 45%;
           height: 100%;
-          justify-content: space-around;
+          justify-content: center;
           align-items: left;
           flex-direction: column;
-
+          h2 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            line-height: 2rem;
+            margin-bottom: 2rem;
+          }
           p {
             line-height: 2;
           }
@@ -132,9 +144,15 @@ export const Section = styled.section`
           display: flex;
           width: 45%;
           height: 100%;
-          justify-content: space-around;
+          justify-content: center;
           align-items: left;
           flex-direction: column;
+          h2 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            line-height: 2rem;
+            margin-bottom: 2rem;
+          }
 
           p {
             line-height: 2;
@@ -186,6 +204,13 @@ export const Section = styled.section`
           justify-content: space-around;
           align-items: left;
           flex-direction: column;
+
+          h2 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            line-height: 2rem;
+            margin-bottom: 1rem;
+          }
 
           p {
             line-height: 1.3;

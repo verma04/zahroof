@@ -48,7 +48,7 @@ export const Section = styled.section`
           height: 100%;
           left: -1%;
           top: 0%;
-          background: #dcb01a;
+          background:  ${(props) => props.theme.colors.blue};
           border-left: 1px white;
           content: "";
         }

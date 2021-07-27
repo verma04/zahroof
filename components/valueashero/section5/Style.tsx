@@ -50,7 +50,7 @@ export const Section = styled.section`
           width: 0.4rem;
           top: 0;
           left: -0.3rem;
-          background-color: #daaf1a;
+          background-color:  ${(props) => props.theme.colors.blue};
         }
         .img_wrapper {
           position: relative;
@@ -129,7 +129,7 @@ export const Section = styled.section`
           width: 0.4rem;
           top: 0;
           left: -0.3rem;
-          background-color: #daaf1a;
+          background-color:  ${(props) => props.theme.colors.blue};
         }
         .img_wrapper {
           position: relative;
@@ -217,7 +217,7 @@ export const Section = styled.section`
           width: 0.4rem;
           top: 0;
           left: -0.3rem;
-          background-color: #daaf1a;
+          background-color:  ${(props) => props.theme.colors.blue};
         }
         .img_wrapper {
           position: relative;
@@ -299,7 +299,7 @@ export const Section = styled.section`
           width: 0.4rem;
           top: 0;
           left: -0.3rem;
-          background-color: #daaf1a;
+          background-color:  ${(props) => props.theme.colors.blue};
         }
         .img_wrapper {
           position: relative;

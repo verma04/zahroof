@@ -22,7 +22,7 @@ export const Section = styled.section`
         align-items: center;
         flex-direction: column;
         width: 100%;
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 375px;
         #top {
           font-size: 51px;
@@ -54,7 +54,7 @@ export const Section = styled.section`
           height: 0;
           border-left: 100px solid transparent;
           border-right: 100px solid transparent;
-          border-top: 100px solid #dbb43f;
+          border-top: 100px solid  ${(props) => props.theme.colors.blue};
         }
 
         .tringle {
@@ -65,7 +65,7 @@ export const Section = styled.section`
           height: 0;
           border-left: 7rem solid transparent;
           border-right: 7rem solid transparent;
-          border-top: 5rem solid #dbb43f;
+          border-top: 5rem solid  ${(props) => props.theme.colors.blue};
           z-index: 1;
         }
       }
@@ -152,7 +152,7 @@ export const Section = styled.section`
         align-items: center;
         flex-direction: column;
         width: 100%;
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 375px;
         #top {
           font-size: 51px;
@@ -184,7 +184,7 @@ export const Section = styled.section`
           height: 0;
           border-left: 100px solid transparent;
           border-right: 100px solid transparent;
-          border-top: 100px solid #dbb43f;
+          border-top: 100px solid  ${(props) => props.theme.colors.blue};
         }
 
         .tringle {
@@ -195,7 +195,7 @@ export const Section = styled.section`
           height: 0;
           border-left: 7rem solid transparent;
           border-right: 7rem solid transparent;
-          border-top: 5rem solid #dbb43f;
+          border-top: 5rem solid  ${(props) => props.theme.colors.blue};
           z-index: 1;
         }
       }
@@ -281,7 +281,7 @@ export const Section = styled.section`
         align-items: center;
         flex-direction: column;
         width: 100%;
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 300px;
         #top {
           font-size: 2rem;
@@ -310,7 +310,7 @@ export const Section = styled.section`
           height: 0;
           border-left: 7rem solid transparent;
           border-right: 7rem solid transparent;
-          border-top: 5rem solid #dbb43f;
+          border-top: 5rem solid  ${(props) => props.theme.colors.blue};
           z-index: 1;
         }
       }
@@ -391,7 +391,7 @@ export const Section = styled.section`
         align-items: center;
         flex-direction: column;
         width: 100%;
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 375px;
         #top {
           font-size: 2rem;
@@ -420,7 +420,7 @@ export const Section = styled.section`
           height: 0;
           border-left: 7rem solid transparent;
           border-right: 7rem solid transparent;
-          border-top: 5rem solid #dbb43f;
+          border-top: 5rem solid  ${(props) => props.theme.colors.blue};
           z-index: 1;
         }
       }

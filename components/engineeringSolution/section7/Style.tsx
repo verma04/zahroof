@@ -55,7 +55,7 @@ export const Section = styled.section`
             bottom: -12%;
             left: -20px;
 
-            background-color: #dbb43f;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
 
           p {
@@ -141,7 +141,7 @@ export const Section = styled.section`
             bottom: -12%;
             left: -20px;
 
-            background-color: #dbb43f;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
 
           p {
@@ -227,7 +227,7 @@ export const Section = styled.section`
             bottom: -12%;
             left: -20px;
 
-            background-color: #dbb43f;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
 
           p {
@@ -314,7 +314,7 @@ export const Section = styled.section`
             bottom: -12%;
             left: -3%;
 
-            background-color: #dbb43f;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
 
           p {

@@ -6,7 +6,7 @@ export default {
     yellow: "#dbb43f",
     background: "#efefef",
     mainBack: "rgb( 249, 248, 246)",
-    blue: "#0085C5",
+    blue: "rgb(0 ,144 ,205)",
     grey: "#2B3339",
     darlgrey: "#C8C8C8",
     color1: "rgb(241 ,229 ,213)",

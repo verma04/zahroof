@@ -31,7 +31,7 @@ export const Section = styled.section`
         .section_top_left {
           width: 50%;
           height: 100%;
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           position: relative;
           display: flex;
           justify-content: flex-end;
@@ -52,14 +52,14 @@ export const Section = styled.section`
             height: 0;
             border-left: 3rem solid transparent;
             border-right: 3rem solid transparent;
-            border-top: 2.5rem solid #dbb43f;
+            border-top: 2.5rem solid  ${(props) => props.theme.colors.blue};
             z-index: 1;
           }
         }
         .section_top_right {
           width: 50%;
           height: 100%;
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           position: relative;
           display: flex;
           justify-content: flex-start;
@@ -73,7 +73,7 @@ export const Section = styled.section`
             height: 0;
             border-left: 3rem solid transparent;
             border-right: 3rem solid transparent;
-            border-top: 2.5rem solid #dbb43f;
+            border-top: 2.5rem solid  ${(props) => props.theme.colors.blue};
             z-index: 1;
           }
           h2 {
@@ -245,7 +245,7 @@ export const Section = styled.section`
         .section_top_left {
           width: 50%;
           height: 100%;
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           position: relative;
           display: flex;
           justify-content: flex-end;
@@ -267,14 +267,14 @@ export const Section = styled.section`
             height: 0;
             border-left: 3rem solid transparent;
             border-right: 3rem solid transparent;
-            border-top: 2.5rem solid #dbb43f;
+            border-top: 2.5rem solid  ${(props) => props.theme.colors.blue};
             z-index: 1;
           }
         }
         .section_top_right {
           width: 50%;
           height: 100%;
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           position: relative;
           display: flex;
           justify-content: flex-start;
@@ -289,7 +289,7 @@ export const Section = styled.section`
             height: 0;
             border-left: 3rem solid transparent;
             border-right: 3rem solid transparent;
-            border-top: 2.5rem solid #dbb43f;
+            border-top: 2.5rem solid  ${(props) => props.theme.colors.blue};
             z-index: 1;
           }
           h2 {
@@ -461,7 +461,7 @@ export const Section = styled.section`
         .section_top_ {
           width: 100%;
           height: 100%;
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           position: relative;
           display: flex;
           justify-content: flex-end;
@@ -486,7 +486,7 @@ export const Section = styled.section`
             height: 0;
             border-left: 3rem solid transparent;
             border-right: 3rem solid transparent;
-            border-top: 2.5rem solid #dbb43f;
+            border-top: 2.5rem solid  ${(props) => props.theme.colors.blue};
           }
         }
       }
@@ -647,7 +647,7 @@ export const Section = styled.section`
         .section_top_ {
           width: 100%;
           height: 100%;
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           position: relative;
           display: flex;
           justify-content: flex-end;
@@ -674,7 +674,7 @@ export const Section = styled.section`
             height: 0;
             border-left: 3rem solid transparent;
             border-right: 3rem solid transparent;
-            border-top: 2.5rem solid #dbb43f;
+            border-top: 2.5rem solid  ${(props) => props.theme.colors.blue};
           }
         }
       }

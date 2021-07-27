@@ -32,7 +32,7 @@ export const Section = styled.section`
 
           font-family: "Caveat";
 
-          color: #dbb43f;
+          color:  ${(props) => props.theme.colors.blue};
         }
         span {
           font-family: "Caveat-Light";
@@ -40,7 +40,7 @@ export const Section = styled.section`
           width: 60%;
           margin-top: 2rem;
           line-height: 1.3;
-          color: #dbb43f;
+          color:  ${(props) => props.theme.colors.blue};
           text-align: right;
         }
       }
@@ -57,7 +57,7 @@ export const Section = styled.section`
         z-index: 1;
       }
       .section-bottom {
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 36px;
         width: 100%;
       }
@@ -88,7 +88,7 @@ export const Section = styled.section`
           width: 90%;
           text-align: left;
           line-height: 1.3;
-          color: #dbb43f;
+          color:  ${(props) => props.theme.colors.blue};
           font-family: "Caveat-Light";
           padding-top: 2rem;
         }
@@ -97,7 +97,7 @@ export const Section = styled.section`
           font-size: 1.5rem;
           width: 80%;
 
-          color: #dbb43f;
+          color:  ${(props) => props.theme.colors.blue};
           text-align: right;
           padding-bottom: 2rem;
         }
@@ -105,7 +105,7 @@ export const Section = styled.section`
 
     
       .section-bottom {
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 36px;
         width: 100%;
       }
@@ -137,7 +137,7 @@ export const Section = styled.section`
           width: 80%;
           text-align: left;
           line-height: 1.3;
-          color: #dbb43f;
+          color:  ${(props) => props.theme.colors.blue};
           font-family: "Caveat-Light";
         }
         span {
@@ -145,7 +145,7 @@ export const Section = styled.section`
           font-size: 1.5rem;
           width: 80%;
 
-          color: #dbb43f;
+          color:  ${(props) => props.theme.colors.blue};
           text-align: right;
         }
       }
@@ -162,7 +162,7 @@ export const Section = styled.section`
         z-index: 1;
       }
       .section-bottom {
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 36px;
         width: 100%;
       }
@@ -194,7 +194,7 @@ export const Section = styled.section`
           width: 80%;
           text-align: left;
           line-height: 1.3;
-          color: #dbb43f;
+          color:  ${(props) => props.theme.colors.blue};
           font-family: "Caveat-Light";
         }
         span {
@@ -202,7 +202,7 @@ export const Section = styled.section`
           font-size: 1.5rem;
           width: 80%;
 
-          color: #dbb43f;
+          color:  ${(props) => props.theme.colors.blue};
           text-align: right;
         }
       }
@@ -219,7 +219,7 @@ export const Section = styled.section`
         z-index: 1;
       }
       .section-bottom {
-        background-color: #dbb43f;
+        background-color:  ${(props) => props.theme.colors.blue};
         height: 36px;
         width: 100%;
       }

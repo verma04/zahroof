@@ -71,7 +71,7 @@ export const Section = styled.section`
               margin-top: 0.2rem;
               width: 0.35rem;
               position: absolute;
-              background-color: #eeba18;
+              background-color:  ${(props) => props.theme.colors.blue};
               top: 0%;
               left: -1rem;
             }
@@ -177,7 +177,7 @@ export const Section = styled.section`
               margin-top: 0.2rem;
               width: 0.35rem;
               position: absolute;
-              background-color: #eeba18;
+              background-color:  ${(props) => props.theme.colors.blue};
               top: 0%;
               left: -0.1rem;
             }
@@ -279,7 +279,7 @@ export const Section = styled.section`
               margin-top: 0.2rem;
               width: 0.35rem;
               position: absolute;
-              background-color: #eeba18;
+              background-color:  ${(props) => props.theme.colors.blue};
               top: 0%;
               left: -1rem;
             }
@@ -381,7 +381,7 @@ export const Section = styled.section`
               margin-top: 0.2rem;
               width: 0.35rem;
               position: absolute;
-              background-color: #eeba18;
+              background-color:  ${(props) => props.theme.colors.blue};
               top: 0%;
               left: -1rem;
             }

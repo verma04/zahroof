@@ -18,7 +18,7 @@ export const Section = styled.section`
       align-items: center;
       position: relative;
       height: 433px;
-      background-color: #dbb43f;
+      background-color:  ${(props) => props.theme.colors.blue};
       .tringle {
         position: absolute;
         left: 20%;
@@ -27,7 +27,7 @@ export const Section = styled.section`
         height: 0;
         border-left: 5rem solid transparent;
         border-right: 5rem solid transparent;
-        border-bottom: 4rem solid #dbb43f;
+        border-bottom: 4rem solid  ${(props) => props.theme.colors.blue};
         z-index: 1;
       }
 
@@ -100,7 +100,7 @@ export const Section = styled.section`
       align-items: center;
       position: relative;
       height: 500px;
-      background-color: #dbb43f;
+      background-color:  ${(props) => props.theme.colors.blue};
       .tringle {
         position: absolute;
         left: 20%;
@@ -109,7 +109,7 @@ export const Section = styled.section`
         height: 0;
         border-left: 5rem solid transparent;
         border-right: 5rem solid transparent;
-        border-bottom: 4rem solid #dbb43f;
+        border-bottom: 4rem solid  ${(props) => props.theme.colors.blue};
         z-index: 1;
       }
 
@@ -193,7 +193,7 @@ export const Section = styled.section`
       align-items: center;
       position: relative;
       height: 700px;
-      background-color: #dbb43f;
+      background-color:  ${(props) => props.theme.colors.blue};
       .tringle {
         position: absolute;
         left: 20%;
@@ -202,7 +202,7 @@ export const Section = styled.section`
         height: 0;
         border-left: 5rem solid transparent;
         border-right: 5rem solid transparent;
-        border-bottom: 4rem solid #dbb43f;
+        border-bottom: 4rem solid  ${(props) => props.theme.colors.blue};
         z-index: 1;
       }
 
@@ -280,7 +280,7 @@ export const Section = styled.section`
       align-items: center;
       position: relative;
       height: 1100px;
-      background-color: #dbb43f;
+      background-color:  ${(props) => props.theme.colors.blue};
    
       .section2_data {
         width: 90%;

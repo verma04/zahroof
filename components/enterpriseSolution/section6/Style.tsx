@@ -34,7 +34,7 @@ export const Section = styled.section`
     height: 0;
     border-top: 4rem solid transparent;
     border-bottom: 4rem solid transparent;
-    border-left: 4rem solid #dbb43f;
+    border-left: 4rem solid  ${(props) => props.theme.colors.blue};
     z-index: 1;
       }
 
@@ -45,7 +45,7 @@ export const Section = styled.section`
         justify-content: space-between;
         align-items: center;
         .section2_data_left {
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           display: flex;
           width: 30%;
           height: 100%;
@@ -79,7 +79,7 @@ export const Section = styled.section`
             right: -10%;
             top: 10%;
             border-top: 49px solid transparent;
-            border-left: 60px solid #dbb43f;
+            border-left: 60px solid  ${(props) => props.theme.colors.blue};
             border-bottom: 52px solid transparent;
           }
         }
@@ -194,7 +194,7 @@ export const Section = styled.section`
         align-items: center;
         flex-direction: column;
         .section2_data_left {
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           display: flex;
           width: 100%;
           height: 20%;
@@ -229,7 +229,7 @@ export const Section = styled.section`
             right: -10%;
             top: 10%;
             border-top: 49px solid transparent;
-            border-left: 60px solid #dbb43f;
+            border-left: 60px solid  ${(props) => props.theme.colors.blue};
             border-bottom: 52px solid transparent;
           }
         }
@@ -336,7 +336,7 @@ export const Section = styled.section`
         justify-content: space-between;
         align-items: center;
         .section2_data_left {
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           display: flex;
           width: 30%;
           height: 100%;
@@ -373,7 +373,7 @@ export const Section = styled.section`
             right: -10%;
             top: 10%;
             border-top: 49px solid transparent;
-            border-left: 60px solid #dbb43f;
+            border-left: 60px solid  ${(props) => props.theme.colors.blue};
             border-bottom: 52px solid transparent;
           }
         }
@@ -484,7 +484,7 @@ export const Section = styled.section`
         align-items: center;
         flex-direction: column;
         .section2_data_left {
-          background-color: #dbb43f;
+          background-color:  ${(props) => props.theme.colors.blue};
           display: flex;
           width: 100%;
           height: 20%;
@@ -518,7 +518,7 @@ export const Section = styled.section`
             right: -10%;
             top: 10%;
             border-top: 49px solid transparent;
-            border-left: 60px solid #dbb43f;
+            border-left: 60px solid  ${(props) => props.theme.colors.blue};
             border-bottom: 52px solid transparent;
           }
         }

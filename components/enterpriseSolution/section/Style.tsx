@@ -79,7 +79,7 @@ export const Section = styled.section`
               bottom: 0px;
 
               left: -2rem;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
             h3 {
               line-height: 1.1;
@@ -145,7 +145,7 @@ export const Section = styled.section`
               width: 0.4rem;
               top: 0;
               left: -2rem;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
             h3 {
               line-height: 1.1;
@@ -186,7 +186,7 @@ export const Section = styled.section`
 
             top: 7%;
             left: -1.5rem;
-            background-color: #dbb43f;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
         }
 
@@ -276,7 +276,7 @@ export const Section = styled.section`
               width: 6px;
               bottom: 0px;
               left: -4%;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
             h3 {
               line-height: 1.1;
@@ -340,7 +340,7 @@ export const Section = styled.section`
               bottom: 0px;
 
               left: -4%;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
             h3 {
               line-height: 1.1;
@@ -380,7 +380,7 @@ export const Section = styled.section`
             bottom: 0px;
 
             left: -4%;
-            background-color: #dbb43f;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
         }
 
@@ -468,7 +468,7 @@ export const Section = styled.section`
               bottom: 0px;
 
               left: -2rem;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
             h3 {
               line-height: 1.1;
@@ -534,7 +534,7 @@ export const Section = styled.section`
               width: 0.4rem;
               top: 0;
               left: -2rem;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
             h3 {
               line-height: 1.1;
@@ -575,7 +575,7 @@ export const Section = styled.section`
 
             top: 7%;
             left: -1.5rem;
-            background-color: #dbb43f;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
         }
 
@@ -660,7 +660,7 @@ export const Section = styled.section`
               bottom: 0px;
 
               left: -2rem;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
             h3 {
               line-height: 1.1;
@@ -727,7 +727,7 @@ export const Section = styled.section`
               width: 0.4rem;
               top: 0;
               left: -2rem;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
             }
             h3 {
               line-height: 1.1;
@@ -768,7 +768,7 @@ export const Section = styled.section`
 
             top: 7%;
             left: -1.5rem;
-            background-color: #dbb43f;
+            background-color:  ${(props) => props.theme.colors.blue};
           }
         }
 

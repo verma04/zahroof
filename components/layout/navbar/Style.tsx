@@ -11,7 +11,7 @@ export const Nav = styled.nav`
 
   top: 0%;
   #active  {
-    color: #dbb43f;
+    color:  ${(props) => props.theme.colors.blue};
   }
  
   .navbar1,
@@ -56,10 +56,10 @@ export const Nav = styled.nav`
            
           }
           a:hover {
-    color: #dbb43f;
+    color:  ${(props) => props.theme.colors.blue};
   }
           .active {
-               color: #dbb43f;
+               color:  ${(props) => props.theme.colors.blue};
             }
         }
 
@@ -76,7 +76,7 @@ bottom: -30%;
 display: none;
 justify-content: center;
 align-items: center;
-background-color: #dbb43fde;
+background-color:  ${(props) => props.theme.colors.blue};
 }
 
 
@@ -139,15 +139,15 @@ li:nth-child(3):hover {
             text-transform: uppercase;
           }
           a:hover {
-    color: #dbb43f;
+    color:  ${(props) => props.theme.colors.blue};
   }
           .active {
-            color: #dbb43f;
+            color:  white;
             }
          
         }
         li:nth-child(3):hover {
-         background-color: #dbb43fde;
+         background-color:  ${(props) => props.theme.colors.blue};;
          .valve {
            display: flex;
          }
@@ -169,7 +169,7 @@ li:nth-child(3):hover {
            display: none;
            justify-content: center;
            align-items: center;
-    background-color: #dbb43fde;
+    background-color:  ${(props) => props.theme.colors.blue};;
            }
     
           
@@ -216,7 +216,7 @@ li:nth-child(3):hover {
             text-transform: uppercase;
           }
           .active {
-             color: #dbb43f;
+             color:  ${(props) => props.theme.colors.blue};
             }
         }
         li:nth-child(3)  {
@@ -232,7 +232,7 @@ bottom: -30%;
 display: none;
 justify-content: center;
 align-items: center;
-background-color: #dbb43fde;
+background-color:  ${(props) => props.theme.colors.blue};;
 }
 
 
@@ -299,13 +299,13 @@ bottom: -100%;
 display: none;
 justify-content: center;
 align-items: center;
-background-color: #dbb43fde;
+background-color:  ${(props) => props.theme.colors.blue};;
 }
 
 
 }
 li:nth-child(3):hover {
-         background-color: #dbb43fde;
+         background-color:  ${(props) => props.theme.colors.blue};;
          .valve {
            display: flex;
          }

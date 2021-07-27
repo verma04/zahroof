@@ -68,7 +68,7 @@ export const Section = styled.section`
               content: "";
               position: absolute;
               display: block;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
               height: 100%;
               width: 0.4rem;
               top: 0;
@@ -99,7 +99,7 @@ export const Section = styled.section`
               content: "";
               position: absolute;
               display: block;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
               height: 100%;
               width: 0.4rem;
               top: 0;
@@ -172,7 +172,7 @@ export const Section = styled.section`
               content: "";
               position: absolute;
               display: block;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
               height: 100%;
               width: 0.3rem;
               top: 0;
@@ -203,7 +203,7 @@ export const Section = styled.section`
               content: "";
               position: absolute;
               display: block;
-              background-color: #dbb43f;
+              background-color:  ${(props) => props.theme.colors.blue};
               height: 100%;
               width: 0.3rem;
               top: 0;
@@ -271,7 +271,7 @@ export const Section = styled.section`
             }
             span:nth-child(3) {
               margin-top: 0.1rem;
-              color: #dbb43f;
+              color:  ${(props) => props.theme.colors.blue};
               margin-bottom: 0.2rem;
               position: relative;
               display: flex;
@@ -280,7 +280,7 @@ export const Section = styled.section`
                 margin-top: 0.7rem;
                 margin-bottom: 0.7rem;
                 font-family: Proxima-Bold;
-                border-bottom: 0.2rem solid #dbb43f;
+                border-bottom: 0.2rem solid  ${(props) => props.theme.colors.blue};
               }
             }
           }
