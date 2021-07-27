@@ -1165,7 +1165,7 @@ min-width: 10% !important;
             align-items: center;
 
             .section4_logo {
-              width: 40%;
+              width: 100%;
 
               height: 100%;
 
