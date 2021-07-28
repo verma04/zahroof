@@ -29,13 +29,13 @@ export const Section = styled.section`
         height: 100%;
 
         width: 100%;
-        z-index: 1;
+        
         /* margin-bottom: 3rem; */
 
         .section4_bottom_data {
           width: 100%;
           height: 100%;
-          z-index: 1;
+          
         
           .section4_mid_left {
             display: flex;
@@ -46,7 +46,7 @@ export const Section = styled.section`
             align-items: center;
             width: 50%;
             height: 100%;
-            z-index: 1;
+            
            
             .top {
               width: 100%;
@@ -95,7 +95,7 @@ export const Section = styled.section`
               p {
                 margin-top: 2rem;
                 color: white;
-                z-index: 1;
+                
                 width: 70%;
                 text-align: left;
                 color: black;
@@ -106,7 +106,7 @@ export const Section = styled.section`
             .btn {
               margin-top: 4rem;
               color: white;
-              z-index: 1;
+              
               text-align: left;
               width: 70%;
 
@@ -131,7 +131,7 @@ export const Section = styled.section`
             align-items: center;
             width: 50%;
             height: 90%;
-            z-index: 1;
+            
 
             .section4_logo {
               width: 40%;
@@ -155,7 +155,7 @@ export const Section = styled.section`
               h3 {
                 /* color:white; */
                 color: #f2e7c9;
-                z-index: 1;
+                
                 margin-top: 45px;
               }
             }
@@ -165,7 +165,7 @@ export const Section = styled.section`
           position: absolute;
           width: 20rem;
           height: 15rem;
-          z-index: 1;
+          
           right: 24%;
           top: -201px;
         }
@@ -191,13 +191,13 @@ export const Section = styled.section`
         height: 100%;
 
         width: 100%;
-        z-index: 1;
+        
         /* margin-bottom: 3rem; */
 
         .section4_bottom_data {
           width: 100%;
           height: 100%;
-          z-index: 1;
+          
         
           .section4_mid_left {
             display: flex;
@@ -208,7 +208,7 @@ export const Section = styled.section`
             align-items: center;
             width: 50%;
             height: 100%;
-            z-index: 1;
+            
            
             .top {
               width: 100%;
@@ -257,7 +257,7 @@ export const Section = styled.section`
               p {
                 margin-top: 2rem;
                 color: white;
-                z-index: 1;
+                
                 width: 70%;
                 text-align: left;
                 color: black;
@@ -268,7 +268,7 @@ export const Section = styled.section`
             .btn {
               margin-top: 4rem;
               color: white;
-              z-index: 1;
+              
               text-align: left;
               width: 70%;
 
@@ -293,7 +293,7 @@ export const Section = styled.section`
             align-items: center;
             width: 50%;
             height: 90%;
-            z-index: 1;
+            
 
             .section4_logo {
               width: 40%;
@@ -317,7 +317,7 @@ export const Section = styled.section`
               h3 {
                 /* color:white; */
                 color: #f2e7c9;
-                z-index: 1;
+                
                 margin-top: 45px;
               }
             }
@@ -327,7 +327,7 @@ export const Section = styled.section`
           position: absolute;
           width: 20rem;
           height: 15rem;
-          z-index: 1;
+          
           right: 24%;
           top: -201px;
         }
@@ -352,13 +352,13 @@ export const Section = styled.section`
         height: 100%;
 
         width: 100%;
-        z-index: 1;
+        
         /* margin-bottom: 3rem; */
 
         .section4_bottom_data {
           width: 100%;
           height: 100%;
-          z-index: 1;
+          
         
           .section4_mid_left {
             display: flex;
@@ -369,7 +369,7 @@ export const Section = styled.section`
             align-items: center;
             width: 100%;
             height: 100%;
-            z-index: 1;
+            
            
             .top {
               width: 100%;
@@ -419,7 +419,7 @@ export const Section = styled.section`
               p {
                 margin-top: 2rem;
                 color: white;
-                z-index: 1;
+                
                 width: 90%;
                 text-align: left;
                 color: black;
@@ -430,7 +430,7 @@ export const Section = styled.section`
             .btn {
               margin-bottom: 4rem;
               color: white;
-              z-index: 1;
+              
               text-align: left;
               width: 70%;
 
@@ -455,7 +455,7 @@ export const Section = styled.section`
             align-items: center;
             width: 50%;
             height: 90%;
-            z-index: 1;
+            
 
             .section4_logo {
               width: 40%;
@@ -479,7 +479,7 @@ export const Section = styled.section`
               h3 {
                 /* color:white; */
                 color: #f2e7c9;
-                z-index: 1;
+                
                 margin-top: 45px;
               }
             }
@@ -489,7 +489,7 @@ export const Section = styled.section`
           position: absolute;
           width: 20rem;
           height: 15rem;
-          z-index: 1;
+          
           right: 24%;
           top: -201px;
         }
@@ -515,13 +515,13 @@ export const Section = styled.section`
         height: 100%;
 
         width: 100%;
-        z-index: 1;
+        
         /* margin-bottom: 3rem; */
 
         .section4_bottom_data {
           width: 100%;
           height: 100%;
-          z-index: 1;
+          
         
           .section4_mid_left {
             display: flex;
@@ -532,7 +532,7 @@ export const Section = styled.section`
             align-items: center;
             width: 100%;
             height: 100%;
-            z-index: 1;
+            
            
             .top {
               width: 100%;
@@ -582,7 +582,7 @@ export const Section = styled.section`
               p {
                 margin-top: 2rem;
                 color: white;
-                z-index: 1;
+                
                 width: 90%;
                 text-align: left;
                 color: black;
@@ -593,7 +593,7 @@ export const Section = styled.section`
             .btn {
               margin-bottom: 4rem;
               color: white;
-              z-index: 1;
+              
               text-align: left;
               width: 70%;
 
@@ -618,7 +618,7 @@ export const Section = styled.section`
             align-items: center;
             width: 50%;
             height: 90%;
-            z-index: 1;
+            
 
             .section4_logo {
               width: 40%;
@@ -642,7 +642,7 @@ export const Section = styled.section`
               h3 {
                 /* color:white; */
                 color: #f2e7c9;
-                z-index: 1;
+                
                 margin-top: 45px;
               }
             }
@@ -652,7 +652,7 @@ export const Section = styled.section`
           position: absolute;
           width: 20rem;
           height: 15rem;
-          z-index: 1;
+          
           right: 24%;
           top: -201px;
         }
