@@ -14,38 +14,7 @@ export const Nav = styled.nav`
   @media (min-width: 1281px) {
     width: 100%;
     height: 10rem;
-    .navbar {
-      width: 95%;
-      height: 100%;
-
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      .navbar_left {
-        position: relative;
-        width: 24%;
-
-        height: 100%;
-      }
-      .navbar_right {
-        display: flex;
-        justify-content: space-between;
-        height: 53%;
-        width: 60%;
-
-        li {
-          margin-top: 1rem;
-          a {
-            font-family: Proxima-Bold;
-            font-size: 0.9rem;
-            word-spacing: 0.2rem;
-            font-weight: 1000;
-            color: white;
-            text-transform: uppercase;
-          }
-        }
-      }
-    }
+   
 
     .navbar1 {
       z-index: 1000;
@@ -92,46 +61,13 @@ export const Nav = styled.nav`
     }
   }
 
-  @media (min-width: 1025px) and (max-width: 1280px) {
+  @media (min-width: 1024px) and (max-width: 1280px) {
     width: 100%;
     height: 10rem;
-    .navbar {
-      width: 95%;
-      height: 100%;
-
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      .navbar_left {
-        position: relative;
-        width: 20%;
-
-        height: 100%;
-      }
-      .navbar_right {
-        display: flex;
-        justify-content: space-between;
-        height: 53%;
-        width: 75%;
-
-        li {
-          margin-top: 1rem;
-          a {
-            font-family: Proxima-Bold;
-            font-size: 0.9rem;
-            word-spacing: 0.2rem;
-            font-weight: 1000;
-            color: white;
-            text-transform: uppercase;
-          }
-        }
-      }
-    }
-
     .navbar1 {
       z-index: 1000;
       position: fixed;
-      background-color: #3c4e62;
+      background-color: #3c4e62a8;
       top: 0%;
 
       width: 100%;
@@ -143,7 +79,7 @@ export const Nav = styled.nav`
       .navbar_left {
         margin-left: 3%;
         position: relative;
-        width: 24%;
+        width: 18%;
 
         height: 50%;
       }
@@ -152,7 +88,7 @@ export const Nav = styled.nav`
         display: flex;
         justify-content: space-between;
         height: 53%;
-        width: 65%;
+        width: 71%;
 
         li {
           margin-top: 1rem;
@@ -173,7 +109,7 @@ export const Nav = styled.nav`
     }
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     display: none;
     width: 100%;
     height: 6rem;
@@ -187,10 +123,11 @@ export const Nav = styled.nav`
 
     top: 0%;
     z-index: 1;
-    .navbar {
+    .navbar1 {
       display: none;
     }
 
+    
     .nav-sm {
       width: 100%;
       height: 100%;
@@ -228,16 +165,12 @@ export const Nav = styled.nav`
         }
       }
     }
-    #fixed {
-      display: none;
-      position: fixed;
-      top: 0rem;
-      width: 100%;
-      opacity: 1;
-      z-index: 1000;
-      background: rgba(255, 255, 255, 0.9);
-      box-shadow: 0 3px 2px rgb(0 0 0 / 5%);
+    #fixed-sm {
+      z-index: 99999;
       height: 6rem;
+      position: fixed;
+      background-color: #3c4e62;
+      top: 0%;
     }
     .sm {
       box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
@@ -248,7 +181,7 @@ export const Nav = styled.nav`
       width: 100%;
       height: 100%;
       z-index: 1000;
-      background-color: red;
+      
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -351,14 +284,14 @@ export const Nav = styled.nav`
 
     top: 0%;
     z-index: 1;
-    .navbar {
+    .navbar1 {
       display: none;
     }
 
     .nav-sm {
       width: 100%;
       height: 100%;
-
+      height: 4rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -392,16 +325,12 @@ export const Nav = styled.nav`
         }
       }
     }
-    #fixed {
-      display: none;
-      position: fixed;
-      top: 0rem;
-      width: 100%;
-      opacity: 1;
+    #fixed-sm {
       z-index: 1000;
-      background: rgba(255, 255, 255, 0.9);
-      box-shadow: 0 3px 2px rgb(0 0 0 / 5%);
-      height: 6rem;
+      
+      position: fixed;
+      background-color: #3c4e62;
+      top: 0%;
     }
     .sm {
       box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
@@ -412,7 +341,7 @@ export const Nav = styled.nav`
       width: 100%;
       height: 100%;
       z-index: 1000;
-      background-color: red;
+      
       display: flex;
       justify-content: flex-start;
       align-items: center;
