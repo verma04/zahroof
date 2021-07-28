@@ -512,7 +512,7 @@ export const Section = styled.section`
     .flex {
       width: 100%;
       height: 100%;
-
+      margin-top: 2rem;;
       .section4_bottom {
         position: relative;
         height: 100%;

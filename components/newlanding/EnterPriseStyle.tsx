@@ -506,6 +506,7 @@ export const Section = styled.section`
     background-size: cover; /* Resize the background image to cover the entire container */
 
     .flex {
+      margin-top: 2rem;;
       width: 100%;
       height: 100%;
 
