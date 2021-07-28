@@ -70,7 +70,7 @@ export const Section = styled.section`
             flex-direction: column;
             font-style: italic;
             line-height: 1.5;
-            width: 74%;
+                width: 93%;
             
           }
           li {
@@ -149,7 +149,7 @@ export const Section = styled.section`
             flex-direction: column;       
             font-style: italic;
             line-height: 1.5;
-            width: 74%;
+                width: 93%;
           
           }
           li {

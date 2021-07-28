@@ -27,7 +27,7 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
       <div className="section">
         <div className="section_top">
           <span id="top">{data1}</span>
-          <span> -ZVI Customer</span>
+          <span> -ZVI Midstream Oil and Gas Customer</span>
         </div>
         <div className="section-bottom"></div>
         <div className="tringle"></div>

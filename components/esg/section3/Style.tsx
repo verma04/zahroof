@@ -53,6 +53,15 @@ export const Section = styled.section`
           font-size: 30px;
           line-height: 38px;
         }
+      span {
+          text-transform: uppercase;
+          width: 80%;
+          color: white;
+
+          font-size: 30px;
+          line-height: 38px;
+          margin-left:20%;
+        }
       }
     }
   }
@@ -103,6 +112,15 @@ export const Section = styled.section`
           font-size: 30px;
           line-height: 38px;
         }
+      span{
+          text-transform: uppercase;
+          width: 80%;
+          color: white;
+
+          font-size: 30px;
+          line-height: 38px;
+          margin-left: 20%;
+        }
       }
     }
   }
@@ -146,6 +164,14 @@ export const Section = styled.section`
           line-height: 32px;
         }
         p {
+          text-transform: uppercase;
+          width: 90%;
+          color: white;
+
+          font-size: 20px;
+          line-height: 22px;
+        }
+      span {
           text-transform: uppercase;
           width: 90%;
           color: white;
@@ -203,6 +229,18 @@ export const Section = styled.section`
           line-height: 1.3;
           font-weight: 600;
         }
+
+
+      span {
+          text-transform: uppercase;
+          width: 90%;
+          color: white;
+          font-size: 18px;
+          line-height: 1.3;
+          font-weight: 600;
+        }
+
+
       }
     }
   }

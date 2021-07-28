@@ -18,6 +18,9 @@ const HeroSection: React.FC<Section> = (data) => {
         ></div>
 
         <div className="tringle"></div>
+
+
+      
       </div>
     </Section>
   );
