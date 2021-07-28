@@ -99,7 +99,7 @@ export const Section = styled.section`
                 width: 70%;
                 text-align: left;
                 color: black;
-                font-size: 18px;
+                font-size: 24px;
                 line-height: 1.4;
               }
             }
@@ -111,9 +111,9 @@ export const Section = styled.section`
               width: 70%;
 
               button {
-                font-size: 1rem;
+                font-size: 24px;
                 padding: 1rem;
-                height: 3rem;
+                height: 3.5rem;
                 color: #474c78;
                 border-radius: 0px;
                 text-transform: uppercase;

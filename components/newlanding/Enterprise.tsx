@@ -34,7 +34,7 @@ const Landing: React.FC<{}> = () => {
                   </span>
                   <h3 className="inner">
                     {" "}
-                    WE DON&apos;T THINK THAT&apos;S TOO MUCH TO ASK.
+                    WE DON&apos;T THINK THAT&apos;S <br/> TOO MUCH TO ASK.
                   </h3>
                 </h2>
 

@@ -6,6 +6,8 @@ import { Section } from "./Style";
 import { useRouter } from "next/router";
 import Navbar from "./navbar/navbar";
 const Landing: React.FC<{}> = () => {
+ 
+
   const router = useRouter();
   return (
     <Section>
@@ -32,7 +34,7 @@ const Landing: React.FC<{}> = () => {
                     FEWER CALL-OUTS.
                     <br />
                   </span>
-                  <h3 className="inner"> YES, REALLY</h3>
+                  <h3 className="inner"> YES, REALLY.</h3>
                 </h2>
 
                 <p>
