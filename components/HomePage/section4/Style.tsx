@@ -350,7 +350,7 @@ height: 10rem;
             height: 4rem;
             border-radius: 0px;
             text-transform: uppercase;
-            background-color: #398baa;
+            background-color:  ${(props) => props.theme.colors.blue};;
 
           }
 
@@ -754,7 +754,7 @@ min-width: 10% !important;
                 height: 4rem;
                 border-radius: 0px;
                 text-transform: uppercase;
-                background-color: #398baa;
+                background-color:  ${(props) => props.theme.colors.blue};;
   
               }
 
@@ -1147,7 +1147,7 @@ min-width: 10% !important;
                 height: 4.5rem;
                 border-radius: 0px;
                 text-transform: uppercase;
-                background-color: #398baa;
+                background-color:  ${(props) => props.theme.colors.blue};;
               }
             }
           }
@@ -1520,7 +1520,7 @@ min-width: 10% !important;
                 padding: 1rem;
                 margin-top: 2rem;
                 text-transform: uppercase;
-                background-color: #398baa;
+                background-color:  ${(props) => props.theme.colors.blue};;
               }
             }
           }
@@ -1897,7 +1897,7 @@ min-width: 10% !important;
                 padding: 1rem;
                 /* margin-top: 2rem; */
                 text-transform: uppercase;
-                background-color: #398baa;
+                background-color:  ${(props) => props.theme.colors.blue};;
               }
             }
           }

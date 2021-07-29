@@ -17,7 +17,7 @@ const Footer: React.FC<{}> = () => {
               objectFit="contain"
               layout="fill"
               src={
-                "https://res.cloudinary.com/dzcmadjl1/image/upload/v1627383069/nf89smpilwlxedcq4qrm.png"
+                "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623843328/kclegz6cvq3lqyqqzkvt.png"
               }
               alt="Picture of the author"
             />
@@ -54,7 +54,7 @@ const Footer: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1627383443/jiicypmbtxjvxgmis4il.png"
+                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623841777/n6f7lujxbhvkz6za2frl.png"
                 }
                 alt="Picture of the author"
               />
@@ -65,7 +65,7 @@ const Footer: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1627383068/jpnotffcgm9bs0f1bgod.png"
+                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623841790/jw3muruu6zwsdmnv9xc3.png"
                 }
                 alt="Picture of the author"
               />
@@ -76,7 +76,7 @@ const Footer: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1627383068/hyqvec3pze4pak12jx01.png"
+                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1627537207/pf9m8jb8z90g8qznl1bw.png"
                 }
                 alt="Picture of the author"
               />
@@ -87,7 +87,7 @@ const Footer: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1627383068/lcurd08lwfnh8nmirmza.png"
+                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623841790/z2atpdve4bhqjlnnmtbf.png"
                 }
                 alt="Picture of the author"
               />
