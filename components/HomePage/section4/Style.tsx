@@ -123,7 +123,7 @@ export const Section = styled.section`
           #Refineries {
             position: absolute;
             top: 46%;
-            left: 20%;
+            left: 21%;
             width: 15%;
             height: 10%;
           }
@@ -137,7 +137,7 @@ export const Section = styled.section`
           #Oil {
             position: absolute;
             top: 46%;
-            left: 67%;
+            left: 66%;
 
             width: 15%;
             height: 10%;
@@ -529,21 +529,21 @@ height: 10rem;
           #Refineries {
             position: absolute;
             top: 46%;
-            left: 20%;
+            left: 21%;
             width: 15%;
             height: 10%;
           }
           #Cng {
             position: absolute;
             top: 26.5%;
-            left: 63%;
+            left: 62%;
             width: 15%;
             height: 10%;
           }
           #Oil {
             position: absolute;
             top: 46%;
-            left: 67%;
+            left: 66%;
 
             width: 15%;
             height: 10%;
