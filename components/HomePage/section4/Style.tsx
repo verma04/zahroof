@@ -57,8 +57,8 @@ export const Section = styled.section`
       }
       .section4_top_data_logos {
         width: 50%;
-        margin-top: 7.5%;
-        margin-left: 4%;
+        margin-top: 9.5%;
+    margin-left: 3%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -96,70 +96,74 @@ export const Section = styled.section`
         -webkit-transform: scale(1.5); /* Safari 3-8 */
         transform: scale(1.1);
       }
+
+
       #gasses {
-        position: absolute;
-        top: 13%;
-        left: 43%;
-        width: 17%;
-        height: 10%;
-      }
-      #Lng {
-        position: absolute;
-        position: absolute;
-        top: 64%;
-        left: 31%;
-        height: 10%;
-        height: 10%;
-      }
-      #industry {
-        position: absolute;
-        top: 27%;
-        left: 29%;
-        width: 15%;
-        height: 10%;
-      }
-      #Refineries {
-        position: absolute;
-        top: 46%;
-        left: 25%;
-        width: 15%;
-        height: 10%;
-      }
-      #Cng {
-        position: absolute;
-        top: 27%;
-        left: 59%;
-        width: 15%;
-        height: 10%;
-      }
-      #Oil {
-        position: absolute;
-        top: 46%;
-        left: 63%;
-        width: 15%;
-        height: 10%;
-      }
-      #hydrogen {
-        position: absolute;
-        top: 64%;
-        left: 61%;
-        width: 15%;
-        height: 10%;
-      }
-      #chemical {
-        position: absolute;
-        top: 79%;
-        left: 51%;
-        width: 15%;
-        height: 10%;
-      }
-      #offshore {
-        position: absolute;
-        top: 79%;
-        left: 38%;
-        width: 15%;
-        height: 10%;
-      }
+            position: absolute;
+            top: 13%;
+            left: 43%;
+            width: 17%;
+            height: 10%;
+          }
+          #Lng {
+            position: absolute;
+            position: absolute;
+            top: 64%;
+            left: 28.5%;
+            height: 10%;
+            height: 10%;
+          }
+          #industry {
+            position: absolute;
+            top: 27%;
+            left: 24.5%;
+            width: 15%;
+            height: 10%;
+          }
+          #Refineries {
+            position: absolute;
+            top: 46%;
+            left: 20%;
+            width: 15%;
+            height: 10%;
+          }
+          #Cng {
+            position: absolute;
+            top: 26.5%;
+            left: 63%;
+            width: 15%;
+            height: 10%;
+          }
+          #Oil {
+            position: absolute;
+            top: 46%;
+            left: 67%;
+
+            width: 15%;
+            height: 10%;
+          }
+          #hydrogen {
+            position: absolute;
+            top: 64%;
+            left: 63%;
+            width: 15%;
+            height: 10%;
+          }
+          #chemical {
+            position: absolute;
+            top: 79%;
+            left: 51%;
+            width: 15%;
+            height: 10%;
+          }
+          #offshore {
+            position: absolute;
+            top: 79%;
+            left: 35%;
+            width: 15%;
+            height: 10%;
+          }
+    
     }
   }
   .section4_mid {
@@ -373,10 +377,11 @@ height: 10rem;
           width: 100%;
           height: 100%;
           display: flex;
-          justify-content: start;
+          justify-content: center;
+          margin-top: 10%;
           flex-direction: column;
           align-items: center;
-          margin-top: 23rem;
+         
           .img_wrapper {
 
             transition: transform 0.5s;
@@ -510,7 +515,7 @@ height: 10rem;
             position: absolute;
             position: absolute;
             top: 64%;
-            left: 28%;
+            left: 28.5%;
             height: 10%;
             height: 10%;
           }
@@ -530,7 +535,7 @@ height: 10rem;
           }
           #Cng {
             position: absolute;
-            top: 27%;
+            top: 26.5%;
             left: 63%;
             width: 15%;
             height: 10%;

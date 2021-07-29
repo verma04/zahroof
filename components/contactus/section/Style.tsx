@@ -49,7 +49,7 @@ export const Section = styled.section`
 
           .section-left-top {
             
-            width: 60%;
+            width: 65%;
             height: 55%;
             padding-top: 5%;
 

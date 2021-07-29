@@ -4,7 +4,7 @@ import { Section } from './Style'
 import Image from 'next/image'
 import Navbar from '../../layout/navbar/navbar'
 import { Parallax, Background } from "react-parallax";
-
+import { useRouter } from 'next/router'
 
 const image1 =
   "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624859749/cawdyff1kgtdbfyrmxcu.jpg";
@@ -24,6 +24,8 @@ interface Section {
 
 
 const HeroSection: React.FC<Section> = (data) => {
+  const router = useRouter()
+
   return (
 
     <Section>     
@@ -44,7 +46,7 @@ const HeroSection: React.FC<Section> = (data) => {
           </div>
               <div className="section_bottom_set" >
 
-                <div className="section_bottom_data" >
+                <div  onClick={()=>router.push('/enterpriseSolutions')} className="section_bottom_data" >
                   <li> <Image objectFit="contain" layout="fill" src={data.data.firstLeftIcon} alt="sd" /> </li>
                   <li><h3>{data.data.firstLeftTitle}</h3></li>
                   <li> <Image objectFit="contain" layout="fill" src='http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
@@ -62,7 +64,7 @@ const HeroSection: React.FC<Section> = (data) => {
           </div>
               <div className="section_bottom_set" >
 
-                <div className="section_bottom_data" >
+                <div                   onClick={()=>router.push('/engineeringSolutions')}  className="section_bottom_data" >
                   <li><Image objectFit="contain" layout="fill" src={data.data.firstRightIcon} alt="sd" /></li>
 
                   <li><h3>{data.data.firstRightTitle}</h3></li>
@@ -94,7 +96,7 @@ const HeroSection: React.FC<Section> = (data) => {
               <Parallax bgImage={data.data.firstLeftBgimage} strength={300}>
                 <div className="section_bottom_set" >
 
-                  <div className="section_bottom_data" >
+                  <div   onClick={()=>router.push('/enterpriseSolutions')} className="section_bottom_data" >
                     <li> <Image objectFit="contain" layout="fill" src={data.data.firstLeftIcon} alt="sd" /> </li>
 
                     <li><h3>{data.data.firstLeftTitle}</h3></li>
@@ -108,7 +110,7 @@ const HeroSection: React.FC<Section> = (data) => {
               <Parallax bgImage={data.data.firstRightBgimage} strength={300}>
                 <div className="section_bottom_set" >
 
-                  <div className="section_bottom_data" >
+                  <div onClick={()=>router.push('/engineeringSolutions')}  className="section_bottom_data" >
                     <li><Image objectFit="contain" layout="fill" src={data.data.firstRightIcon} alt="sd" /></li>
 
                     <li><h3>{data.data.firstRightTitle}</h3></li>

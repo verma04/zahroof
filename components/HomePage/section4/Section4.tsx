@@ -295,7 +295,7 @@ performance of all others in the industry.</p> */}
               <div className="btn">
                 <button
                   onClick={() =>
-                    router.push(`/${data.data.homeSixCaseStudyButtonUrl}`)
+                    router.push(`/contactus`)
                   }
                 >
                   See for YourSelf

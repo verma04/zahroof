@@ -60,7 +60,7 @@ export const Section = styled.section`
 
           font-size: 30px;
           line-height: 38px;
-          margin-left:20%;
+    
         }
       }
     }

@@ -23,7 +23,7 @@ export const Section = styled.section`
         flex-direction: column;
         width: 100%;
         background-color:  ${(props) => props.theme.colors.blue};
-        height: 375px;
+        height: 400px;
         #top {
           font-size: 51px;
           line-height: 60px;
@@ -35,9 +35,10 @@ export const Section = styled.section`
         #ab {
           position: absolute;
           font-size: 1.5rem;
-          bottom: 5%;
+          bottom: 3%;
           left: 60%;
           margin-top: 3rem;
+          z-index: 3;
           line-height: 2;
           color: #24334d;
           text-align: right;

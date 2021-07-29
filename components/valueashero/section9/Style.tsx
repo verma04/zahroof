@@ -25,7 +25,7 @@ export const Section = styled.section`
         align-items: center;
         width: 100%;
         background-color: #3b546a;
-        height: 200px;
+        height: 395px;
         p {
           width: 80%;
           text-align: center;
@@ -37,13 +37,13 @@ export const Section = styled.section`
         position: relative;
         .tringle {
           position: absolute;
-          left: 42%;
-    width: 0;
-    bottom: -31%;
+          left: 40%;
+          width: 0;
+          bottom: -18%;
           height: 0;
-          border-left: 5rem solid transparent;
-          border-right: 5rem solid transparent;
-          border-top: 4rem solid #3b546a;
+          border-left: 10rem solid transparent;
+          border-right: 10rem solid transparent;
+          border-top: 8rem solid #3b546a;
           z-index: 1;
         }
       }

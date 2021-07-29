@@ -2,7 +2,7 @@ import React from "react";
 import { Section } from "./Style";
 import Image from "next/image";
 import Navbar from "../../layout/navbar/navbar";
-
+import { useRouter } from 'next/router'
 interface Section {
   data: {
     esgbenifitsfirstRightOneContent: string;
@@ -15,6 +15,8 @@ interface Section {
   };
 }
 const HeroSection: React.FC<Section> = (data) => {
+
+  const router = useRouter()
   return (
     <Section>
       <div className="section">
@@ -51,7 +53,7 @@ through your system, there s far less to flare.
 </p> */}
               </div>
               <div className="right">
-                <div className="right_logo">
+                <div   className="right_logo">
                   <div className="logo-wrapper">
                     <Image
                       objectFit="contain"
@@ -62,7 +64,7 @@ through your system, there s far less to flare.
                   </div>
                   <p>{data.data.esgbenifitsfirstRightOneContent}</p>
                 </div>
-                <div className="right_logo">
+                <div  className="right_logo">
                   <div className="logo-wrapper">
                     <Image
                       objectFit="contain"
@@ -71,7 +73,9 @@ through your system, there s far less to flare.
                       alt="Picture of the author"
                     />
                   </div>
-                  <p
+                  <p 
+
+                  
                       dangerouslySetInnerHTML={{
                         __html: data.data.esgbenifitsfirstRightTwoContent,
                       }}

@@ -52,7 +52,7 @@ export const Section = styled.section`
             margin-left: 0.5rem;
             width: 100%;
             li {
-              width: 22%;
+              width: 23%;
               font-size: 57px;
               line-height: 0.9;
               font-family: Proxima-Bold;
@@ -78,7 +78,7 @@ export const Section = styled.section`
           }
 
           p {
-            width: 30%;
+            width: 38%;
             line-height: 30px;
             margin-left: 1rem;
             font-size: 19px;
