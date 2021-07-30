@@ -9,8 +9,8 @@ import Section6 from "./section6/Section6";
 import Section7 from "./section7/Section7";
 import Section8 from "./section8/Section8";
 import Section9 from "./section9/Section9";
-import Footer from "../../layout/footer/Footer";
-import Makecall from "../../HomePage/makecall/makecall";
+import Footer from "../layout/footer/Footer";
+import Makecall from "../HomePage/makecall/makecall";
 import Head from "next/head";
 interface Value {
   data: {

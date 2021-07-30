@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Section } from "./Style";
 import Image from "next/image";
-import Navbar from "../../../layout/navbar/navbar";
+import Navbar from "../../layout/navbar/navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 interface Valueashero {
