@@ -173,7 +173,7 @@ export const Section = styled.section`
   }
 
   
-  @media (min-width: 1025px) and (max-width: 1280px) {
+  @media (min-width: 1024px) and (max-width: 1280px) {
     width: 100%;
     height: 100vh;
     background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625570141/ffw1mujdef3mt4d6qaww.jpg"); /* The image used */
@@ -220,7 +220,7 @@ export const Section = styled.section`
               justify-content: center;
               flex-direction: column;
               align-items: center;
-              margin-bottom: 15px;
+            margin-top: 10rem;
 
               h2 {
                 text-transform: uppercase;
@@ -373,17 +373,17 @@ export const Section = styled.section`
             
            
             .top {
-              width: 100%;
+              width: 90%;
             
-              height: 100%;
+              height: 44%;
               
               display: flex;
               justify-content: center;
               display: flex;
               justify-content: center;
               flex-direction: column;
-              align-items: center;
-              margin-bottom: 15px;
+              align-items:flex-start;
+             
 
               h2 {
                 text-transform: uppercase;
@@ -421,7 +421,7 @@ export const Section = styled.section`
                 margin-top: 2rem;
                 color: white;
                 
-                width: 90%;
+                width: 70%;
                 text-align: left;
                 color: black;
                 font-size: 18px;
@@ -434,6 +434,7 @@ export const Section = styled.section`
               
               text-align: left;
               width: 70%;
+              height: 30%;
 
               button {
                 font-size: 1rem;

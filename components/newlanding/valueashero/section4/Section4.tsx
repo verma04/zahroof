@@ -1,7 +1,7 @@
 import React from "react";
 import { Section } from "./Style";
 import Image from "next/image";
-import Navbar from "../../layout/navbar/navbar";
+import Navbar from "../../../layout/navbar/navbar";
 
 interface SectionFour {
   data: {

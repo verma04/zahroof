@@ -173,7 +173,7 @@ export const Section = styled.section`
     }
   }
  
-  @media (min-width: 1025px) and (max-width: 1280px) {
+  @media (min-width: 1024px) and (max-width: 1280px) {
     width: 100%;
     height: 100vh;
     background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625569986/xs96s177mszgi8633qmj.jpg"); /* The image used */
@@ -211,7 +211,7 @@ export const Section = styled.section`
             
            
             .top {
-              width: 100%;
+              width:90%;
             
               height: 70%;
               
@@ -220,8 +220,9 @@ export const Section = styled.section`
               display: flex;
               justify-content: center;
               flex-direction: column;
-              align-items: center;
+              align-items: flex-start;
               margin-bottom: 15px;
+              margin-top: 5em;
 
               h2 {
                 text-transform: uppercase;
@@ -229,16 +230,20 @@ export const Section = styled.section`
                 width: 70%;
                 position: relative;
                 color: #3c3f72;
-                font-size: 3rem;
-                margin-top: 20vh;
+                font-size: 2rem;
+       
                 span {
                   color: #3c3f72;
-                  font-size: 2.5rem;
+                  font-size: 2rem;
                 }
                 .inner {
-                  margin-top: 2rem;
+                  margin-top: 1.5rem;
                   color: #3c3f72;
-                  font-size: 3rem;
+                  font-size: 2rem;
+                  line-height: 2rem;
+                  br {
+                    display: none;
+                  }
                 }
                 color: white;
               }
@@ -247,7 +252,7 @@ export const Section = styled.section`
                 width: 0.35rem;
                 display: block;
                 height: 100%;
-                left: -7%;
+                left: -4%;
                 top: 0%;
                 background: #dcb01a;
                 border-left: 1px white;
@@ -258,7 +263,7 @@ export const Section = styled.section`
                 margin-top: 2rem;
                 color: white;
                 
-                width: 70%;
+                width: 80%;
                 text-align: left;
                 color: black;
                 font-size: 18px;
@@ -266,7 +271,7 @@ export const Section = styled.section`
               }
             }
             .btn {
-              margin-top: 4rem;
+         
               color: white;
               
               text-align: left;
@@ -334,7 +339,7 @@ export const Section = styled.section`
       }
     }
   }
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     width: 100%;
     height:100vh;
     background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625569986/xs96s177mszgi8633qmj.jpg"); /* The image used */
@@ -372,16 +377,16 @@ export const Section = styled.section`
             
            
             .top {
-              width: 100%;
+              width: 90%;
             
-              height: 100%;
+              height: 44%;
               
               display: flex;
               justify-content: center;
               display: flex;
               justify-content: center;
               flex-direction: column;
-              align-items: center;
+              align-items:flex-start;
               margin-bottom: 15px;
 
               h2 {
@@ -392,7 +397,7 @@ export const Section = styled.section`
                 position: relative;
                 color: #3c3f72;
                 font-size: 2rem;
-              
+                
                 span {
                   color: #3c3f72;
                   font-size: 2rem;
@@ -409,7 +414,7 @@ export const Section = styled.section`
                 width: 0.35rem;
                 display: block;
                 height: 100%;
-                left: -7%;
+                left: -3%;
                 top: 0%;
                 background: #dcb01a;
                 border-left: 1px white;
@@ -420,7 +425,7 @@ export const Section = styled.section`
                 margin-top: 2rem;
                 color: white;
                 
-                width: 90%;
+                width: 60%;
                 text-align: left;
                 color: black;
                 font-size: 18px;
@@ -428,7 +433,7 @@ export const Section = styled.section`
               }
             }
             .btn {
-              margin-bottom: 4rem;
+              margin-top: 4rem;
               color: white;
               
               text-align: left;
