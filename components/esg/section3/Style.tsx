@@ -57,7 +57,7 @@ export const Section = styled.section`
           text-transform: uppercase;
           width: 80%;
           color: white;
-
+   text-align: right;
           font-size: 30px;
           line-height: 38px;
     
