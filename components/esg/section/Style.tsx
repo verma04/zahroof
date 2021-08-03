@@ -82,6 +82,7 @@ export const Section = styled.section`
                 color: white;
                 position: relative;
                 padding-left: 1rem;
+                
               }
               p:after {
                 content: "";
@@ -115,16 +116,29 @@ export const Section = styled.section`
                   width: 30%;
                   height: 60%;
                   position: relative;
+                  
                 }
-                p {
+                .side {
                   font-family: Proxima-Bold;
                   color: white;
                   width: 55%;
                   line-height: 30px;
                   font-size: 16px;
                   position: relative;
+                   h3 {
+                     width: 100%;
+                     color: white;
+                   }
+                  p {
+                    color: white;
+                    width: 100%;
+                    line-height: 30px;
+                  font-size: 16px;
+                  position: relative;
+                  font-family: Proxima-Bold;
+                  }
                 }
-                p::after {
+                .side::after {
                   content: "";
                   display: block;
                   height: 100%;
@@ -151,7 +165,7 @@ export const Section = styled.section`
 
       width: 100%;
       align-items: center;
-      height: 69rem;
+      height: 75rem;
 
       background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625648083/say2tbvtmz54opz2f2xh.png");
 
@@ -223,6 +237,14 @@ export const Section = styled.section`
                 position: relative;
                 padding-left: 1rem;
                 font-weight: 600;
+                
+                h3 {
+                     width: 100%;
+                     color: white;
+                   }
+                  p {
+                    width: 100%;
+                  }
               }
               p:after {
                 content: "";
@@ -237,7 +259,7 @@ export const Section = styled.section`
             }
             .right {
               width: 100%;
-              height: 50%;
+              height: 60%;
 
               align-items: center;
               display: flex;
@@ -257,16 +279,27 @@ export const Section = styled.section`
                   height: 60%;
                   position: relative;
                 }
-                p {
+                .side {
                   font-family: Proxima-Light;
                   color: white;
                   width: 70%;
                   line-height: 1.3;
                   font-size: 18px;
                   position: relative;
-                  font-weight: 600;
+                  font-weight: 600; 
+
+                  p{
+                    color: white;
+                    line-height: 1.3;
+                  font-size: 18px;
+                  position: relative;
+                  font-weight: 600; 
+                  }
+                  h3 {
+                    color:white;
+                  }
                 }
-                p::after {
+                .side::after {
                   content: "";
                   display: block;
                   height: 100%;
@@ -275,6 +308,7 @@ export const Section = styled.section`
                   background-color:  ${(props) => props.theme.colors.blue};
                   top: 0%;
                   left: -1rem;
+                  
                 }
               }
             }
@@ -358,6 +392,13 @@ export const Section = styled.section`
                 color: white;
                 position: relative;
                 padding-left: 1rem;
+                h3 {
+                     width: 100%;
+                     color: white;
+                   }
+                  p {
+                    width: 100%;
+                  }
               }
               p:after {
                 content: "";
@@ -392,15 +433,26 @@ export const Section = styled.section`
                   position: relative;
                   margin-right: 1rem;
                 }
-                p {
+                .side {
                   font-family: Proxima-Bold;
                   color: white;
-                  width: 60%;
+                  width: 65%;
                   line-height: 30px;
                   font-size: 16px;
                   position: relative;
+                  h3 {
+                    color:white
+                  }
+                   p {
+                    font-family: Proxima-Bold;
+                  color: white;
+                  
+                  line-height: 30px;
+                  font-size: 16px;
+                  position: relative;
+                   }
                 }
-                p::after {
+                .side::after {
                   content: "";
                   display: block;
                   height: 100%;
@@ -493,6 +545,13 @@ export const Section = styled.section`
                 color: white;
                 position: relative;
                 padding-left: 1rem;
+                h3 {
+                     width: 100%;
+                     color: white;
+                   }
+                  p {
+                    width: 100%;
+                  }
               }
               p:after {
                 content: "";
@@ -526,16 +585,28 @@ export const Section = styled.section`
                   height: 60%;
                   position: relative;
                   margin-right: 1rem;
+                
                 }
-                p {
+                .side {
                   font-family: Proxima-Bold;
                   color: white;
                   width: 60%;
                   line-height: 30px;
                   font-size: 16px;
                   position: relative;
+                  h3{
+                    color:white;
+                  }
+                   p {
+                    font-family: Proxima-Bold;
+                  color: white;
+               
+                  line-height: 30px;
+                  font-size: 16px;
+                  position: relative;
+                   }
                 }
-                p::after {
+                .side::after {
                   content: "";
                   display: block;
                   height: 100%;
@@ -578,7 +649,7 @@ export const Section = styled.section`
 
   @media (max-width: 414px) {
     .section{
-      height: 55rem;
+      height: 60rem;
       .section-1 {
         .wrapper {
           .section-data {

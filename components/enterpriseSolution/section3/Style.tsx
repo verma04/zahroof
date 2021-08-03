@@ -66,7 +66,7 @@ export const Section = styled.section`
               line-height: 16.87px;
               font-family: Proxima-Bold;
               text-transform: uppercase;
-              color: white;
+                  color: #24334d;;
               font-size: 14.05px;
             }
           }
@@ -147,7 +147,7 @@ export const Section = styled.section`
               line-height: 16.87px;
               font-family: Proxima-Bold;
               text-transform: uppercase;
-              color: white;
+                  color: #24334d;;
               font-size: 13px;
             }
           }
@@ -230,7 +230,7 @@ export const Section = styled.section`
               line-height: 16.87px;
               font-family: Proxima-Bold;
               text-transform: uppercase;
-              color: white;
+                  color: #24334d;;
               font-size: 14.05px;
             }
           }
@@ -313,7 +313,7 @@ export const Section = styled.section`
               line-height: 16.87px;
               font-family: Proxima-Bold;
               text-transform: uppercase;
-              color: white;
+                  color: #24334d;;
               font-size: 14.05px;
             }
           }

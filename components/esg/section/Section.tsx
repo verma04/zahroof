@@ -5,16 +5,17 @@ import Navbar from "../../layout/navbar/navbar";
 import { useRouter } from 'next/router'
 interface Section {
   data: {
-    esgbenifitsfirstRightOneContent: string;
-    esgbenifitsfirstRightThreeContent: string;
-    esgbenifitsfirstRightTwoContent: string;
-    esgbenifitsfirstleftcontent: string;
-    esgbenifitsfirstrightoneicon: string;
-    esgbenifitsfirstrightthreeicon: string;
-    esgbenifitsfirstrighttwoicon: string;
+    esgbenifitsfirstRightOneContent: any;
+    esgbenifitsfirstRightThreeContent: any;
+    esgbenifitsfirstRightTwoContent: any;
+    esgbenifitsfirstleftcontent: any;
+    esgbenifitsfirstrightoneicon: any;
+    esgbenifitsfirstrightthreeicon: any;
+    esgbenifitsfirstrighttwoicon: any;
   };
 }
 const HeroSection: React.FC<Section> = (data) => {
+  console.log(data)
 
   const router = useRouter()
   return (
@@ -55,6 +56,7 @@ through your system, there s far less to flare.
               <div className="right">
                 <div   className="right_logo">
                   <div className="logo-wrapper">
+                    
                     <Image
                       objectFit="contain"
                       layout="fill"
@@ -62,7 +64,9 @@ through your system, there s far less to flare.
                       alt="Picture of the author"
                     />
                   </div>
-                  <p>{data.data.esgbenifitsfirstRightOneContent}</p>
+                  <div  className="side"
+                                 dangerouslySetInnerHTML={{ __html: data.data.esgbenifitsfirstRightOneContent }}
+                  ></div>
                 </div>
                 <div  className="right_logo">
                   <div className="logo-wrapper">
@@ -73,13 +77,11 @@ through your system, there s far less to flare.
                       alt="Picture of the author"
                     />
                   </div>
-                  <p 
-
-                  
+                   <div  className="side"
                       dangerouslySetInnerHTML={{
                         __html: data.data.esgbenifitsfirstRightTwoContent,
                       }}
-                  ></p>
+                  ></div>
                 </div>
 
                 <div className="right_logo">
@@ -91,12 +93,12 @@ through your system, there s far less to flare.
                       alt="Picture of the author"
                     />
                   </div>
-                  <p
+                  <div  className="side"
                    dangerouslySetInnerHTML={{
                     __html: data.data.esgbenifitsfirstRightThreeContent
                   }}
                   
-                  ></p>
+                  ></div>
                 </div>
               </div>
             </div>

@@ -58,6 +58,9 @@ export const Nav = styled.nav`
           a:hover {
     color:  ${(props) => props.theme.colors.blue};
   }
+  #act:hover {
+    color: white;
+  }
           .active {
                color:  ${(props) => props.theme.colors.blue};
             }
@@ -95,7 +98,7 @@ li:nth-child(3):hover {
     .navbar1 {
       z-index: 1000;
       position: fixed;
-      background-color: #3c4e62;
+      background-color: rgb(0 ,144 ,205);
       top: 0%;
 
       width: 100%;
@@ -141,15 +144,30 @@ li:nth-child(3):hover {
           a:hover {
     color:  ${(props) => props.theme.colors.blue};
   }
-          .active {
+          .active:hover {
             color:  white;
+            
             }
+
+          .active:hover {
+            color:  white;
+            
+            }
+   
+   
          
         }
         li:nth-child(3):hover {
          background-color:  ${(props) => props.theme.colors.blue};;
+         
+         #active {
+          color:white;
+         }
          .valve {
            display: flex;
+           #act:hover {
+    color: white;
+  }
          }
          
           
@@ -243,7 +261,7 @@ background-color:  ${(props) => props.theme.colors.blue};;
     .navbar1 {
       z-index: 1000;
       position: fixed;
-      background-color: #3c4e62;
+      background-color: rgb(0 ,144 ,205);
       top: 0%;
 
       width: 100%;
@@ -379,7 +397,7 @@ li:nth-child(3):hover {
       z-index: 99999;
       height: 6rem;
       position: fixed;
-      background-color: #3c4e62;
+      background-color: rgb(0 ,144 ,205);
       top: 0%;
     }
     .sm {
@@ -539,7 +557,7 @@ li:nth-child(3):hover {
       z-index: 1000;
       
       position: fixed;
-      background-color: #3c4e62;
+      background-color: rgb(0 ,144 ,205);
       top: 0%;
     }
     .sm {

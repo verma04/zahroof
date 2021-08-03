@@ -55,16 +55,18 @@ export const Section = styled.section`
             flex-direction: column;
             .wrapper {
               width: 100%;
-              height: 40%;
+             
+    height: 72%;
+ 
               position: relative;
             }
             p {
-              margin-top: 35px;
+              margin-top: 20px;
               width: 90%;
               margin-left: 10%;
               height: 40%;
               text-transform: uppercase;
-              color: white;
+              color:#24334D;
               font-weight: 1000;
               font-size: 1rem;
             }
@@ -145,7 +147,7 @@ export const Section = styled.section`
               width: 100%;
               height: 40%;
               text-transform: uppercase;
-              color: white;
+              color:#24334D;
               font-weight: 1000;
               font-size: 1rem;
             }
@@ -240,7 +242,7 @@ export const Section = styled.section`
               width: 100%;
               height: 40%;
               text-transform: uppercase;
-              color: white;
+              color:#24334D;
               font-weight: 1000;
               font-size: 1rem;
             }
@@ -316,7 +318,7 @@ export const Section = styled.section`
               width: 100%;
               height: 40%;
               text-transform: uppercase;
-              color: white;
+              color:#24334D;
               font-weight: 1000;
                text-align: center;
               font-size: 1rem;
@@ -370,7 +372,7 @@ export const Section = styled.section`
               line-height: 16.87px;
               font-family: Proxima-Bold;
               text-transform: uppercase;
-              color: white;
+              color:#24334D;
               font-size: 13px;
               text-align: left;
             }

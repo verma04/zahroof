@@ -38,7 +38,7 @@ const Navbar: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png"
+                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1627986584/l96ywj8vem8bxv078wkm.png"
                 }
                 alt="Zaharoof Logo"
               />
@@ -63,7 +63,7 @@ const Navbar: React.FC<{}> = () => {
                 </Link>
                 <div className="valve" >
                 <Link href="/valveashero">
-                  <a>Valve as hero</a>
+                  <a id='act'  >Valve as hero</a>
                 </Link>
                 </div>
               </li>
@@ -220,7 +220,7 @@ const Navbar: React.FC<{}> = () => {
                 </Link>
                 <div className="valve" >
                 <Link href="/valveashero">
-                  <a>Valve as hero</a>
+                  <a  id='act'  >Valve as hero</a>
                 </Link>
                 </div>
               </li>
