@@ -91,7 +91,7 @@ export const Section = styled.section`
             flex-direction: column;
 
             li {
-               color: ${(props) => props.theme.colors.darkblue};
+               color: white;
               font-size: 22.3px;
               padding-left: 5%;
               font-weight: 600;
@@ -186,7 +186,7 @@ export const Section = styled.section`
             flex-direction: column;
 
             li {
-               color: ${(props) => props.theme.colors.darkblue};
+               color: white;
               font-size: 22.3px;
               padding-left: 5%;
             }
@@ -280,7 +280,7 @@ export const Section = styled.section`
             flex-direction: column;
 
             li {
-               color: ${(props) => props.theme.colors.darkblue};
+               color: white;
               font-size: 22.3px;
               padding-left: 5%;
               font-weight: 600;
@@ -374,7 +374,7 @@ export const Section = styled.section`
             flex-direction: column;
 
             li {
-               color: ${(props) => props.theme.colors.darkblue};
+               color: white;
               font-size: 22.3px;
               padding-left: 5%;
             }
