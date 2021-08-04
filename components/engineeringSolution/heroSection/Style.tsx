@@ -329,7 +329,7 @@ export const Section = styled.section`
     }
 
     .react-parallax-bgimage {
-      width: 100% !important;
+     
       height: 100% !important;
     }
     .homePage-hero {

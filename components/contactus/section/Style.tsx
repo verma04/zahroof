@@ -387,7 +387,7 @@ export const Section = styled.section`
           }
         }
         .section_right {
-          width: 95%;
+          width: 100%;
           height: 50%;
 
           display: flex;

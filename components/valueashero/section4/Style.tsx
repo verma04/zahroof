@@ -419,7 +419,7 @@ export const Section = styled.section`
           position: relative;
           .img_wrapper {
             position: relative;
-            height: 45%;
+            height: 30%;
             width: 100%;
             line-height: 1.1;
           }

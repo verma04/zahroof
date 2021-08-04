@@ -396,7 +396,7 @@ export const Section = styled.section`
         flex-direction: column;
         width: 100%;
         background-color:  ${(props) => props.theme.colors.blue};
-        height: 375px;
+        height: 423px;
         #top {
           font-size: 2rem;
 

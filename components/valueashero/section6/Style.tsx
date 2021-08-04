@@ -384,7 +384,7 @@ export const Section = styled.section`
       width: 100%;
       align-items: center;
       position: relative;
-      height: 60rem;
+      height: 70rem;
       background-color:  ${(props) => props.theme.colors.blue};
       /* .tringle {
         position: absolute;
@@ -415,7 +415,7 @@ export const Section = styled.section`
          
           display: flex;
           width: 90%;
-          height: 60%;
+          height: 65%;
           justify-content: space-evenly;
           align-items: left;
           flex-direction: column;

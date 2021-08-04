@@ -409,6 +409,7 @@ export const Section = styled.section`
               font-size: 18px;
               font-weight: 600;
               margin-top: 10px;
+              line-height: 26px;
             }
             h3 {
               line-height: 1.1;
