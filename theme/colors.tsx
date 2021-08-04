@@ -2,7 +2,7 @@ export default {
   colors: {
     dark1: "rgb(16, 18, 15)",
     dark2: "rgb(82, 76, 76)",
-    darkblue: "#053a73",
+    darkblue: "#24334D",
     yellow: "#dbb43f",
     background: "#efefef",
     mainBack: "rgb( 249, 248, 246)",

@@ -38,7 +38,7 @@ const Navbar: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1628053909/nwrysejonsgwv6hopfzo.png"
+                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1628059024/e97kcjeyp4r5dh1g4omc.png"
                 }
                 alt="Zaharoof Logo"
               />

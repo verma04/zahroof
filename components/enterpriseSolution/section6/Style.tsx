@@ -58,14 +58,14 @@ export const Section = styled.section`
             width: 80%;
             font-size: 45.98px;
             line-height: 50.29px;
-            color: white;
+            color: ${(props) => props.theme.colors.darkblue};
             text-transform: uppercase;
             margin-top: 2rem;
             font-style: italic;
           }
           h3 {
             width: 80%;
-            color: white;
+            color: ${(props) => props.theme.colors.darkblue};
             font-size: 31px;
             line-height: 30px;             
             line-height: 1;
@@ -208,7 +208,7 @@ export const Section = styled.section`
             width: 90%;
             font-size: 1.8rem;
             font-style: italic;
-            color: white;
+            color: ${(props) => props.theme.colors.darkblue};
             text-transform: uppercase;
             sup {
               font-size: 1rem;
@@ -217,7 +217,7 @@ export const Section = styled.section`
           h3 {
             width: 90%;
             font-size: 20px;
-            color: white;      
+            color: ${(props) => props.theme.colors.darkblue};
             line-height: 1.3;
             text-transform: uppercase;
           }
@@ -349,7 +349,7 @@ export const Section = styled.section`
             width: 84%;
             font-size: 31.98px;
             line-height: 50.29px;
-            color: white;
+            color: ${(props) => props.theme.colors.darkblue};
             text-transform: uppercase;
             margin-top: 2rem;
             font-style: italic;
@@ -359,7 +359,7 @@ export const Section = styled.section`
           }
           h3 {
             width: 84%;
-            color: white;
+            color: ${(props) => props.theme.colors.darkblue};
             font-size: 23px;
             line-height: 30px;
             line-height: 1;
@@ -497,14 +497,14 @@ export const Section = styled.section`
           h2 {
             width: 90%;
             font-size: 1.5rem;
-            color: white;
+            color: ${(props) => props.theme.colors.darkblue};
             text-transform: uppercase;
             font-style: italic;
           }
           h3 {
             width: 90%;
             font-size: 2rem;
-            color: white;
+            color: ${(props) => props.theme.colors.darkblue};
             font-size: 31px;
             line-height: 30px;
             line-height: 1;

@@ -24,7 +24,7 @@ export const Section = styled.section`
         span {
           font-family: Proxima-Light;
           font-size: 35px;
-          color: white;
+          color:  ${(props) => props.theme.colors.darkBlue};
           text-transform: uppercase;
           line-height: 35px;
         }
@@ -39,7 +39,7 @@ export const Section = styled.section`
           padding-right: 3rem;
           span {
             font-size: 35px;
-            color: white;
+            color:  ${(props) => props.theme.colors.darkBlue};
             text-align: right;
             line-height: 35px;
             text-transform: uppercase;
@@ -78,7 +78,7 @@ export const Section = styled.section`
           }
           h2 {
             width: 60%;
-            color: white;
+            color:  ${(props) => props.theme.colors.darkBlue};
             font-size: 1.5rem;
             text-align: right;
           }
@@ -117,7 +117,7 @@ export const Section = styled.section`
             flex-direction: column;
             h3 {
               font-size: 1.5rem;
-              color: white;
+              color:  white;
               text-transform: uppercase;
               text-shadow: 0 0 20px #000000;
             }
@@ -156,7 +156,7 @@ export const Section = styled.section`
             flex-direction: column;
             h3 {
               font-size: 1.5rem;
-              color: white;
+              color:  ${(props) => props.theme.colors.darkBlue};
               text-transform: uppercase;
             }
             li {
@@ -238,7 +238,7 @@ export const Section = styled.section`
         span {
           font-family: Proxima-Light;
           font-size: 35px;
-          color: white;
+          color:  ${(props) => props.theme.colors.darkBlue};
           text-transform: uppercase;
           line-height: 35px;
         }
@@ -254,7 +254,7 @@ export const Section = styled.section`
           span {
             font-size: 26px;
 
-            color: white;
+            color:  ${(props) => props.theme.colors.darkBlue};
             text-align: right;
             line-height: 35px;
             text-transform: uppercase;
@@ -294,7 +294,7 @@ export const Section = styled.section`
           }
           h2 {
             width: 60%;
-            color: white;
+            color:  ${(props) => props.theme.colors.darkBlue};
             font-size: 1.5rem;
             text-align: right;
           }
@@ -336,7 +336,7 @@ export const Section = styled.section`
             flex-direction: column;
             h3 {
               font-size: 1.5rem;
-              color: white;
+              color:  white;
               text-transform: uppercase;
               text-shadow: 0 0 20px #000000;
             }
@@ -375,7 +375,7 @@ export const Section = styled.section`
             flex-direction: column;
             h3 {
               font-size: 1.5rem;
-              color: white;
+              color:  ${(props) => props.theme.colors.darkBlue};
               text-transform: uppercase;
             }
             li {
@@ -473,7 +473,7 @@ export const Section = styled.section`
 
             font-size: 1.8rem;
 
-            color: white;
+            color:  ${(props) => props.theme.colors.darkBlue};
             text-align: right;
             line-height: 2rem;
             text-transform: uppercase;
@@ -525,7 +525,7 @@ export const Section = styled.section`
             flex-direction: column;
             h3 {
               font-size: 1.5rem;
-              color: white;
+              color:  white;
               text-transform: uppercase;
               text-shadow: 0 0 20px #000000;
             }
@@ -564,7 +564,7 @@ export const Section = styled.section`
             flex-direction: column;
             h3 {
               font-size: 1.5rem;
-              color: white;
+              color:  ${(props) => props.theme.colors.darkBlue};
               text-transform: uppercase;
             }
             li {
@@ -661,7 +661,7 @@ export const Section = styled.section`
               width: 100%;
               text-align: left;
               line-height: 1.3rem;
-              color: white;
+              color:  ${(props) => props.theme.colors.darkBlue};
               text-transform: uppercase;
               font-size: 20px;
             }
@@ -713,7 +713,7 @@ export const Section = styled.section`
             flex-direction: column;
             h3 {
               font-size: 1.5rem;
-              color: white;
+              color:  white;
               text-transform: uppercase;
               text-shadow: 0 0 20px #000000;
             }
@@ -752,7 +752,7 @@ export const Section = styled.section`
             flex-direction: column;
             h3 {
               font-size: 1.5rem;
-              color: white;
+              color:  ${(props) => props.theme.colors.darkBlue};
               text-transform: uppercase;
             }
             li {
@@ -884,5 +884,4 @@ export const Section = styled.section`
       }
     }
   }
-
 `;

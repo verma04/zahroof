@@ -45,10 +45,10 @@ export const Section = styled.section`
             position: relative;
 
             font-size: 55px;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             width: 70%;
             position: relative;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             text-transform: uppercase;
           }
 
@@ -57,7 +57,7 @@ export const Section = styled.section`
             line-height: 1.1;
           }
           p {
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             width: 90%;
             font-size: 20px;
             line-height: 30px;
@@ -91,7 +91,7 @@ export const Section = styled.section`
             flex-direction: column;
 
             li {
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
               font-size: 22.3px;
               padding-left: 5%;
               font-weight: 600;
@@ -140,10 +140,10 @@ export const Section = styled.section`
             position: relative;
 
             font-size: 2rem;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             width: 90%;
             position: relative;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             text-transform: uppercase;
           }
 
@@ -152,7 +152,7 @@ export const Section = styled.section`
             line-height: 1.1;
           }
           p {
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             width: 90%;
             font-size: 16px;
             line-height: 30px;
@@ -186,7 +186,7 @@ export const Section = styled.section`
             flex-direction: column;
 
             li {
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
               font-size: 22.3px;
               padding-left: 5%;
             }
@@ -234,10 +234,10 @@ export const Section = styled.section`
             position: relative;
 
             font-size: 55px;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             width: 70%;
             position: relative;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             text-transform: uppercase;
           }
 
@@ -246,7 +246,7 @@ export const Section = styled.section`
             line-height: 1.1;
           }
           p {
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             width: 90%;
             font-size: 20px;
             line-height: 30px;
@@ -280,7 +280,7 @@ export const Section = styled.section`
             flex-direction: column;
 
             li {
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
               font-size: 22.3px;
               padding-left: 5%;
               font-weight: 600;
@@ -328,10 +328,10 @@ export const Section = styled.section`
             position: relative;
 
             font-size: 2rem;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             width: 95%;
             position: relative;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             text-transform: uppercase;
           }
 
@@ -340,7 +340,7 @@ export const Section = styled.section`
             line-height: 1.1;
           }
           p {
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             width: 95%;
             font-size: 16px;
             line-height: 30px;
@@ -374,7 +374,7 @@ export const Section = styled.section`
             flex-direction: column;
 
             li {
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
               font-size: 22.3px;
               padding-left: 5%;
             }

@@ -85,7 +85,7 @@ export const Section = styled.section`
               flex-direction: column;
 
               h3 {
-                color: white;
+                   color: ${(props) => props.theme.colors.darkblue};
                 text-transform: uppercase;
               }
               li {
@@ -96,7 +96,8 @@ export const Section = styled.section`
                 width: 100%;
                 text-align: center;
 
-                color: white;
+              
+                color: ${(props) => props.theme.colors.darkblue};
                 font-family: Proxima-Bold;
               }
               li:nth-child(1) {
@@ -223,7 +224,7 @@ export const Section = styled.section`
               flex-direction: column;
 
               h3 {
-                color: white;
+                   color: ${(props) => props.theme.colors.darkblue};
                 text-transform: uppercase;
               }
               li {
@@ -234,7 +235,8 @@ export const Section = styled.section`
                 width: 70%;
                 text-align: center;
 
-                color: white;
+              
+                color: ${(props) => props.theme.colors.darkblue};
                 font-family: Proxima-Bold;
               }
               li:nth-child(1) {
@@ -356,7 +358,7 @@ export const Section = styled.section`
               flex-direction: column;
 
               h3 {
-                color: white;
+                   color: ${(props) => props.theme.colors.darkblue};
                 text-transform: uppercase;
               }
               li {
@@ -367,7 +369,8 @@ export const Section = styled.section`
                 width: 100%;
                 text-align: center;
 
-                color: white;
+              
+                color: ${(props) => props.theme.colors.darkblue};
                 font-family: Proxima-Bold;
               }
               li:nth-child(1) {
@@ -493,7 +496,7 @@ export const Section = styled.section`
               flex-direction: column;
 
               h3 {
-                color: white;
+                   color: ${(props) => props.theme.colors.darkblue};
                 text-transform: uppercase;
               }
               li {
@@ -502,7 +505,8 @@ export const Section = styled.section`
                 font-size: 1.2rem;
                 width: 100%;
                 text-align: center;
-                color: white;
+              
+                color: ${(props) => props.theme.colors.darkblue};
                 font-family: Proxima-Bold;
               }
               li:nth-child(1) {

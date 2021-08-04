@@ -105,7 +105,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/ffeauowt4nte4j8cjv6t.png"
+                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1628059214/zojkglvg09aa3yl1nbhi.png"
                   }
                   alt=""
                 />

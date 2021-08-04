@@ -70,14 +70,14 @@ export const Section = styled.section`
 
           p {
             width: 80%;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             font-size: 20px;
             line-height: 35px;
             color: #2e3031;
           }
           h3 {
             line-height: 1.1;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
           }
         }
 
@@ -99,7 +99,7 @@ export const Section = styled.section`
             h2 {
               width: 100%;
               text-align: center;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
 
               font-size: 150px;
 
@@ -109,7 +109,7 @@ export const Section = styled.section`
               margin-top: -38px;
               width: 100%;
               text-align: center;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
               font-size: 70.44px;
               text-transform: uppercase;
             }
@@ -122,7 +122,7 @@ export const Section = styled.section`
               text-align: left;
               font-size: 20px;
               text-transform: uppercase;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
             }
           }
         }
@@ -191,14 +191,14 @@ export const Section = styled.section`
 
           p {
             width: 80%;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             font-size: 20px;
             line-height: 35px;
             color: #2e3031;
           }
           h3 {
             line-height: 1.1;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
           }
         }
 
@@ -223,7 +223,7 @@ export const Section = styled.section`
             h2 {
               width: 100%;
               text-align: center;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
 
               font-size: 139px;
 
@@ -233,7 +233,7 @@ export const Section = styled.section`
               margin-top: -38px;
               width: 100%;
               text-align: center;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
               font-size: 70.44px;
               text-transform: uppercase;
             }
@@ -245,7 +245,7 @@ export const Section = styled.section`
               font-size: 16px;
 
               text-transform: uppercase;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
             }
           }
         }
@@ -315,14 +315,14 @@ export const Section = styled.section`
 
           p {
             width: 95%;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
             font-size: 20px;
             line-height: 35px;
             color: #2e3031;
           }
           h3 {
             line-height: 1.1;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
           }
         }
 
@@ -345,7 +345,7 @@ export const Section = styled.section`
             h2 {
               width: 100%;
               text-align: center;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
 
               font-size: 100px;
 
@@ -354,7 +354,7 @@ export const Section = styled.section`
             h3 {
               width: 100%;
               text-align: center;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
               font-size: 50.44px;
               text-transform: uppercase;
             }
@@ -364,7 +364,7 @@ export const Section = styled.section`
               text-align: center;
               font-size: 16px;
               text-transform: uppercase;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
             }
           }
         }
@@ -441,7 +441,7 @@ export const Section = styled.section`
           }
           h3 {
             line-height: 1.1;
-            color: white;
+             color: ${(props) => props.theme.colors.darkblue};
           }
         }
 
@@ -464,7 +464,7 @@ export const Section = styled.section`
             h2 {
               width: 100%;
               text-align: center;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
 
               font-size: 100px;
 
@@ -473,7 +473,7 @@ export const Section = styled.section`
             h3 {
               width: 100%;
               text-align: center;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
               font-size: 50.44px;
               text-transform: uppercase;
             }
@@ -482,7 +482,7 @@ export const Section = styled.section`
               text-align: center;
               font-size: 15px;
               text-transform: uppercase;
-              color: white;
+               color: ${(props) => props.theme.colors.darkblue};
               font-weight: 600;
             }
           }

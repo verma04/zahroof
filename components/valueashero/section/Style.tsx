@@ -31,7 +31,7 @@ export const Section = styled.section`
           font-size: 24px;
           font-family: Proxima-Light;
         font-weight: 800;
-          color: white;
+        color: ${(props) => props.theme.colors.darkblue};
         }
       }
 
@@ -124,7 +124,7 @@ export const Section = styled.section`
           width: 85%;
           line-height: 30px;
           font-size: 24px;
-          color: white;
+          color: ${(props) => props.theme.colors.darkblue};
         }
       }
 
@@ -228,7 +228,7 @@ export const Section = styled.section`
           width: 90%;
           line-height: 24px;
           font-size: 16px;
-          color: white;
+          color: ${(props) => props.theme.colors.darkblue};
         }
       }
 
@@ -325,7 +325,7 @@ export const Section = styled.section`
           width: 90%;
           line-height: 1.3;
           font-size: 18px;
-          color: white;
+          color: ${(props) => props.theme.colors.darkblue};
           font-weight: 600;
           font-family: 'Proxima-Light';
         }

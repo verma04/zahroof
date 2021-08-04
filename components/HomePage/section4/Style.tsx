@@ -349,6 +349,7 @@ height: 10rem;
           width: 50%;
 
           button {
+            color: ${(props) => props.theme.colors.darkblue};
             font-size: 1rem;
             padding: 1rem 2rem;
             height: 4rem;
@@ -754,6 +755,7 @@ min-width: 10% !important;
               width: 50%;
 
               button {
+                color: ${(props) => props.theme.colors.darkblue};
                 font-size: 1rem;
                 padding: 1rem 2rem;
                 height: 4rem;
@@ -1147,6 +1149,7 @@ min-width: 10% !important;
               width: 67%;
 
               button {
+                color: ${(props) => props.theme.colors.darkblue};
                 font-size: 1rem;
                 padding: 1rem;
                 height: 4.5rem;
@@ -1521,6 +1524,7 @@ min-width: 10% !important;
               text-align: left;
 
               button {
+                color: ${(props) => props.theme.colors.darkblue};
                 font-size: 1rem;
                 padding: 1rem;
                 margin-top: 2rem;
@@ -1897,6 +1901,8 @@ min-width: 10% !important;
               text-align: left;
 
               button {
+                color: ${(props) => props.theme.colors.darkblue};
+                
                 margin-bottom:20%;
                 font-size: 1rem;
                 padding: 1rem;
