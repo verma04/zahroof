@@ -29,7 +29,7 @@ const Footer: React.FC<{}> = () => {
         <div className="footer-top">
           <ul className="footer-left">
             <li>
-              <Link href="/">
+              <Link href="/privacypolicy">
                 <a>Privacy policy</a>
               </Link>
             </li>
@@ -41,7 +41,7 @@ const Footer: React.FC<{}> = () => {
           
          
             <li>
-              <Link href="/blog/hello-world">
+              <Link href="/blog">
                 <a>Blog</a>
               </Link>
             </li>
