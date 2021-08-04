@@ -20,7 +20,7 @@ const HeroSection: React.FC<SectionFourProps> = (data) => {
             <div className="section" >
                 <div className="section_top" >              
                     <span id="top">{testimonial}</span>
-                    <span id="ab" > - ZVI Customer </span>
+                    <span id="ab" > - ZVI Large Refinery Customer </span>
                     <div className="triangle-down"></div>                
                 </div>
 

@@ -89,6 +89,7 @@ li:nth-child(3):hover {
          .valve {
            display: flex;
          }
+
          
           
           }
@@ -159,8 +160,13 @@ li:nth-child(3):hover {
         }
         li:nth-child(3):hover {
          background-color:  ${(props) => props.theme.colors.blue};;
-         
-         #active {
+         a {
+           color:white;
+         }
+         a:hover {
+          color:white;
+         }
+         #active:hover {
           color:white;
          }
          .valve {

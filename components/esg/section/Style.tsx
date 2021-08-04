@@ -138,16 +138,7 @@ export const Section = styled.section`
                   font-family: Proxima-Bold;
                   }
                 }
-                .side::after {
-                  content: "";
-                  display: block;
-                  height: 100%;
-                  width: 0.3rem;
-                  position: absolute;
-                  background-color:  ${(props) => props.theme.colors.blue};
-                  top: 0%;
-                  left: -1rem;
-                }
+               
               }
             }
           }
@@ -299,17 +290,7 @@ export const Section = styled.section`
                     color:white;
                   }
                 }
-                .side::after {
-                  content: "";
-                  display: block;
-                  height: 100%;
-                  width: 0.3rem;
-                  position: absolute;
-                  background-color:  ${(props) => props.theme.colors.blue};
-                  top: 0%;
-                  left: -1rem;
-                  
-                }
+               
               }
             }
           }
@@ -452,16 +433,7 @@ export const Section = styled.section`
                   position: relative;
                    }
                 }
-                .side::after {
-                  content: "";
-                  display: block;
-                  height: 100%;
-                  width: 0.3rem;
-                  position: absolute;
-                  background-color:  ${(props) => props.theme.colors.blue};
-                  top: 0%;
-                  left: -1rem;
-                }
+                
               }
             }
           }
@@ -606,16 +578,7 @@ export const Section = styled.section`
                   position: relative;
                    }
                 }
-                .side::after {
-                  content: "";
-                  display: block;
-                  height: 100%;
-                  width: 0.3rem;
-                  position: absolute;
-                  background-color:  ${(props) => props.theme.colors.blue};
-                  top: 0%;
-                  left: -1rem;
-                }
+                
               }
             }
           }

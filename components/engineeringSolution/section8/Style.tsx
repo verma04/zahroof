@@ -6,7 +6,10 @@ export const Section = styled.section`
   flex-direction: column;
   width: 100%;
   align-items: center;
+#ab {
+  font-family: "Caveat";
 
+}
   @media (min-width: 1281px) {
     .section {
       display: flex;
