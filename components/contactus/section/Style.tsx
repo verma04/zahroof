@@ -9,7 +9,9 @@ export const Section = styled.section`
   option {
     text-transform: uppercase;
   }
-
+button {
+  color:  ${(props) => props.theme.colors.darkblue} !important;
+}
   @media (min-width: 1281px) {
     .section-1 {
       display: none;
@@ -168,10 +170,12 @@ export const Section = styled.section`
                 display: flex;
                 justify-content: space-between;
                 button {
+                  background-color:  ${(props) => props.theme.colors.blue} !important;
                   width: 25%;
                   font-size: 1.1rem;
                   font-weight: 1000;
-                  background: ${(props) => props.theme.colors.blue};
+             
+                  
                   
                 }
                 .field {
@@ -999,6 +1003,7 @@ export const Section = styled.section`
                   font-size: 1.1rem;
                   font-weight: 1000;
                   background: ${(props) => props.theme.colors.blue};
+                   color:  ${(props) => props.theme.colors.darkBlue};
   
                 }
                 .field {

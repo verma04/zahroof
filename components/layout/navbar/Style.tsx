@@ -13,7 +13,9 @@ export const Nav = styled.nav`
   #active  {
     color:  ${(props) => props.theme.colors.blue};
   }
- 
+  .active  {
+    color:  ${(props) => props.theme.colors.blue}  !important;
+  }
   .navbar1,
   #fixed-sm{
 
@@ -97,6 +99,9 @@ li:nth-child(3):hover {
     }
 
     .navbar1 {
+
+  
+ 
       z-index: 1000;
       position: fixed;
       background-color: rgb(0 ,144 ,205);

@@ -13,7 +13,7 @@ export const Section = styled.section`
 
   @media (min-width: 1281px) {
     width: 100%;
-    height: 100vh;
+    height: 60rem;
     background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625570141/ffw1mujdef3mt4d6qaww.jpg"); /* The image used */
 
     background-position: center; /* Center the image */
