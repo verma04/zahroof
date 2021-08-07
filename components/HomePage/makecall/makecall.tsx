@@ -45,7 +45,7 @@ import Image from 'next/image'
         <ul>
             <li>  <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624874075/nt4lgdaec6ngnwwo8bro.png' alt="sd" /></li>
             <li>Email</li>
-            <li>info@zahroofvalues.com</li>
+            <li>info@zahroofvalves.com</li>
         </ul>
       
             </div>

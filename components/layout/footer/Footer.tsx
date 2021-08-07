@@ -96,7 +96,7 @@ const Footer: React.FC<{}> = () => {
         </div>
 
         <span>
-          ©{new Date().getFullYear()} All Rights Reserved Zahroof Inc . EOE{" "}
+          ©{new Date().getFullYear()} All Rights Reserved Zahroof Valves Inc . EOE{" "}
         </span>
       </div>
     </Foot>
