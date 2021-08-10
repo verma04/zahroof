@@ -3,7 +3,7 @@ import HeroSection from "./heroSection/heroSection";
 import Section from "./section/Section";
 import Head from "next/head";
 import Footer from "../layout/footer/Footer";
-import { useGetContactPage } from "../../apollo/actions";
+
 interface Contact {
   data: {
     title:any
