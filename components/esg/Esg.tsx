@@ -5,7 +5,7 @@ import Head from "next/head";
 import Section2 from "./section2/Section2";
 import Section3 from "./section3/Section3";
 
-import { useGetEsg } from "../../apollo/actions";
+
 import Footer from "../layout/footer/Footer";
 import Map from "./map/map";
 interface esg {
