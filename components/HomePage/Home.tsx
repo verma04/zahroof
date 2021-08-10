@@ -10,7 +10,7 @@ import MakeCall from "./makecall/makecall";
 import Head from "next/head";
 
 // import withApollo from '@/hoc/withApollo'
-import { useGetHomePage } from "../../apollo/actions";
+
 interface Section {
   data: {
     esgbenifitsthreerightcontent: string
