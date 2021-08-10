@@ -47,8 +47,8 @@ const Landing: React.FC<{}> = () => {
                 </p>
               </div>
 
-              <div className="btn">
-                <button>I LIKE EASIER</button>
+              <div  onClick={()=> router.push('/engineeringSolutions')}  className="btn">
+                <button >I LIKE EASIER</button>
               </div>
             </div>
           </div>
