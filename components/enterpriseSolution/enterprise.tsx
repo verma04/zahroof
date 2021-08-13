@@ -8,6 +8,7 @@ import Section4 from "./section4/Section4";
 import Section5 from "./section5/Section5";
 import Section7 from "./section7/Section&";
 import Section6 from "./section6/Section6";
+import SectionBottom from "./sectionBottom/SectionBottom";
 import Head from "next/head";
 import Footer from "../layout/footer/Footer";
 import Makecall from "../HomePage/makecall/makecall";
@@ -145,6 +146,7 @@ const enterprise: React.FC<Enterprise> = ({data}) => {
       <Section5 data={data} />
       <Section6 data={data} />
       <Section7 data={data} />
+      <SectionBottom  />
       <Makecall />
       <Footer />
     </div>

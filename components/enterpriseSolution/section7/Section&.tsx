@@ -36,36 +36,18 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
               <div className="section_bottom_set">
                 <div className="section_bottom_data">
                   <li dangerouslySetInnerHTML={{ __html: data.data.enterprisefiveLeftTitle, }} />
-                  <li>
-                    <Image
-                    onClick={()=>router.push('/engineeringSolutions')}
-                      alt="Picture of the author"
-                    
-                      objectFit="contain"
-                      layout="fill"
-                      src={data.data.enterprisefiveLeftIcon}
-                    />
-                  </li>
+                
 
-                  <li   onClick={()=>router.push('/engineeringSolutions')} >
-                    <h3>{data.data.enterprisefiveLeftContent}</h3>
-                  </li>
-                  <li>
-                    <Image
-                      alt="Picture of the author"
-                      objectFit="contain"
-                      layout="fill"
-                      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1628065652/r7mef73ydybb2kqrytoy.png"
-                    />
-                  </li>
+                  
+                  
                 </div>
               </div>
             </div>
 
             <div className="section2_data">
-              <div className="section_bottom_set">
+  
                 <div className="section_bottom_data">
-                  <li dangerouslySetInnerHTML={{ __html: data.data.enterprisefiveRightTitle, }} />
+                 
                   <li>
                     <Image
                     onClick={()=>router.push('/contactus')}
@@ -76,27 +58,30 @@ const HeroSection: React.FC<HeroSectionProps> = (data) => {
                     />
                   </li>
 
-                  <li>
-                    <h3  onClick={()=>router.push('/contactus')} >{data.data.enterprisefiveRightContent}</h3>
-                  </li>
-                  <li>
-                    <Image
-                    
-                      alt="Picture of the author"
-                      objectFit="contain"
-                      layout="fill"
-                      src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1628065652/r7mef73ydybb2kqrytoy.png"
-                    />
-                  </li>
+                
+              
+                </div>
+              
+            </div>
+        
+            <div className="section2_data">
+              <div className="section_bottom_set">
+                <div className="section_bottom_data">
+                  <li dangerouslySetInnerHTML={{ __html: data.data.enterprisefiveRightTitle, }} />
+                
                 </div>
               </div>
             </div>
+        
+        
+        
+        
+        
+        
           </div>
         </div>
 
-        <div className="section_bottom-1">
-          <span>Redefining valve life in years instead of months.</span>
-        </div>
+        
       </div>
     </Section>
   );

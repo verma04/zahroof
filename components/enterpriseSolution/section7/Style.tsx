@@ -76,15 +76,16 @@ export const Section = styled.section`
 
             .section_bottom_data {
               width: 100%;
-              height: 100%;
+              height: 370px;
               display: flex;
-              justify-content: flex-start;
+              justify-content: center;
               align-items: center;
               flex-direction: column;
-
+                
               h3 {
                 color: ${(props) => props.theme.colors.darkblue};
                 text-transform: uppercase;
+
               }
               li {
                 position: relative;
@@ -93,39 +94,19 @@ export const Section = styled.section`
                 line-height: 33.32px;
                 width: 70%;
                 text-align: center;
+             
+    height: 50%;
 
+             
                 color: ${(props) => props.theme.colors.darkblue};
                 font-family: Proxima-Bold;
-              }
-              li:nth-child(1) {
-                margin-top: 43px;
-              }
-              li:nth-child(2) {
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 130px;
-                height: 132px;
-                transition: transform 0.5s;
-                :hover {
-              -ms-transform: scale(1.5); /* IE 9 */
-              -webkit-transform: scale(1.5); /* Safari 3-8 */
-              transform: scale(1.1);
-            }
-              }
-              
-              li:nth-child(3) {
-                width: 100%;
-                font-size: 23.51px;
-                line-height: 40.3px;
+                display: flex;
+                justify-content:center;
+                align-items: center
+                 
 
-                text-align: center;
               }
-
-              li:nth-child(4) {
-                width: 2.5rem;
-
-                height: 2.5rem;
-              }
+            
             }
           }
         }
@@ -204,7 +185,7 @@ export const Section = styled.section`
           .section2_data {
             display: flex;
             width: 50%;
-            height: 100%;
+            height: 33%;
 
             justify-content: flex-start;
             align-items: center;
@@ -212,11 +193,14 @@ export const Section = styled.section`
             flex-wrap: wrap;
             position: relative;
 
+            .section_bottom_set {
+              width: 100%;
+              height: 100%;
             .section_bottom_data {
               width: 100%;
               height: 100%;
               display: flex;
-              justify-content: flex-start;
+              justify-content: center;
               align-items: center;
               flex-direction: column;
 
@@ -228,35 +212,25 @@ export const Section = styled.section`
               li {
                 position: relative;
                 text-transform: uppercase;
-                font-size: 1rem;
-                width: 90%;
+                font-size: 29.99px;
+                line-height: 33.32px;
+                width: 70%;
                 text-align: center;
+             
+    height: 50%;
+
+             
                 color: ${(props) => props.theme.colors.darkblue};
                 font-family: Proxima-Bold;
-              }
-              li:nth-child(1) {
-                margin-top: 43px;
-              }
-              li:nth-child(2) {
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 130px;
-                height: 132px;
-              }
-              li:nth-child(3) {
-                width: 100%;
-                font-size: 23.51px;
-                line-height: 40.3px;
+                display: flex;
+                justify-content:center;
+                align-items: center
+                 
 
-                text-align: center;
-              }
-
-              li:nth-child(4) {
-                width: 2.5rem;
-
-                height: 2.5rem;
               }
             }
+
+          }
           }
         }
       }
@@ -324,7 +298,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 389px;
+        height: 400px;
         position: relative;
 
         background-color:  ${(props) => props.theme.colors.blue};
@@ -349,15 +323,16 @@ export const Section = styled.section`
 
             .section_bottom_data {
               width: 100%;
-              height: 100%;
+              height: 400px;
               display: flex;
-              justify-content: flex-start;
+              justify-content: center;
               align-items: center;
               flex-direction: column;
-
+                
               h3 {
                 color: ${(props) => props.theme.colors.darkblue};
                 text-transform: uppercase;
+
               }
               li {
                 position: relative;
@@ -366,32 +341,19 @@ export const Section = styled.section`
                 line-height: 33.32px;
                 width: 70%;
                 text-align: center;
+             
+    height: 50%;
 
+             
                 color: ${(props) => props.theme.colors.darkblue};
                 font-family: Proxima-Bold;
-              }
-              li:nth-child(1) {
-                margin-top: 43px;
-              }
-              li:nth-child(2) {
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 130px;
-                height: 132px;
-              }
-              li:nth-child(3) {
-                width: 100%;
-                font-size: 23.51px;
-                line-height: 40.3px;
+                display: flex;
+                justify-content:center;
+                align-items: center
+                 
 
-                text-align: center;
               }
-
-              li:nth-child(4) {
-                width: 2.5rem;
-
-                height: 2.5rem;
-              }
+            
             }
           }
         }
@@ -456,7 +418,7 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 342px;
+        height: 370px;
         position: relative;
 
         background-color:  ${(props) => props.theme.colors.blue};
@@ -481,49 +443,37 @@ export const Section = styled.section`
 
             .section_bottom_data {
               width: 100%;
-              height: 100%;
+              height: 370px;
               display: flex;
-              justify-content: flex-start;
+              justify-content: center;
               align-items: center;
               flex-direction: column;
-
+                
               h3 {
                 color: ${(props) => props.theme.colors.darkblue};
                 text-transform: uppercase;
+
               }
               li {
                 position: relative;
                 text-transform: uppercase;
-                font-size: 1.3rem;
-
-                width: 90%;
+                font-size: 29.99px;
+                line-height: 33.32px;
+                width: 70%;
                 text-align: center;
+             
+    height: 50%;
 
+             
                 color: ${(props) => props.theme.colors.darkblue};
                 font-family: Proxima-Bold;
-              }
-              li:nth-child(1) {
-                margin-top: 43px;
-              }
-              li:nth-child(2) {
-                margin-top: 10px;
-                margin-bottom: 10px;
-                width: 130px;
-                height: 132px;
-              }
-              li:nth-child(3) {
-                width: 100%;
-                font-size: 23.51px;
-                line-height: 40.3px;
+                display: flex;
+                justify-content:center;
+                align-items: center
+                 
 
-                text-align: center;
               }
-
-              li:nth-child(4) {
-                width: 2.5rem;
-
-                height: 2.5rem;
-              }
+            
             }
           }
         }
