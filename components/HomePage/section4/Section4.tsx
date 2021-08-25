@@ -171,7 +171,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://18.217.254.134/wp-content/uploads/2021/07/Chemical.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/07/Chemical.png"
                   }
                   alt=""
                 />

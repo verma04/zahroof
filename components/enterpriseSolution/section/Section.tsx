@@ -55,7 +55,7 @@ distributed. Our product greatly improves operational performance, boosts profit
                   alt="Picture of the author"
                   objectFit="none"
                   layout="fill"
-                  src="http://18.217.254.134/wp-content/uploads/2021/07/mxydeuw45cap9go1nesh-1.png"
+                  src="https://app.zahroofvalves.com//wp-content/uploads/2021/07/mxydeuw45cap9go1nesh-1.png"
                 />
             </div>
            
