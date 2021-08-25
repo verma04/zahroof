@@ -92,7 +92,7 @@ const ValueasHero: React.FC<Valueashero> = ({ data }) => {
 
 export async function getStaticProps() {
   const client = new ApolloClient({
-    uri: "http://18.217.254.134/graphql",
+    uri: "https://app.zahroofvalves.com/graphql",
     cache: new InMemoryCache(),
   });
 

@@ -72,7 +72,7 @@ const index: React.FC<Engineering> = ({data}) => {
 };
 export const getStaticProps: GetStaticProps = async (context) => {
   const client = new ApolloClient({
-    uri: "http://18.217.254.134/graphql",
+    uri: "https://app.zahroofvalves.com/graphql",
     cache: new InMemoryCache(),
   });
 
