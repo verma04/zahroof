@@ -3892,6 +3892,11 @@
   dependencies:
     "object-assign" "^4.1.1"
 
+"usescript-hook@^1.0.5":
+  "integrity" "sha512-eWawCf2k5XNDQKiT8LazjV0Z8QA8Me99rs04wfZRceIZg4k3s7x7/35gE+1rvaG3bXsSAeYx70CzYZsWZ/HCHQ=="
+  "resolved" "https://registry.npmjs.org/usescript-hook/-/usescript-hook-1.0.5.tgz"
+  "version" "1.0.5"
+
 "util-deprecate@^1.0.1", "util-deprecate@~1.0.1":
   "integrity" "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
   "resolved" "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
