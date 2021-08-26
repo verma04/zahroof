@@ -63,7 +63,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   const { data } = await client.query({
     query: gql`
-      query MyQuery {
+    query MyQuery {
         page(id: "cG9zdDo0OQ==") {
           id
           pageId
