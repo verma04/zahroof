@@ -78,7 +78,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/oqahwcfpdj4symxaaaki.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/08/oqahwcfpdj4symxaaaki.png"
                   }
                   alt=""
                 />
@@ -91,7 +91,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/istcdd90jzd7w26thtwl.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/08/istcdd90jzd7w26thtwl.png"
                   }
                   alt=""
                 />
@@ -105,7 +105,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/zojkglvg09aa3yl1nbhi.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/08/zojkglvg09aa3yl1nbhi.png"
                   }
                   alt=""
                 />
@@ -132,7 +132,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/ztqc0qrptre0bxp3vxfz.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/08/ztqc0qrptre0bxp3vxfz.png"
                   }
                   alt=""
                 />
@@ -145,7 +145,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/bzmo2rxdmbgeibrwzdq4.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/08/bzmo2rxdmbgeibrwzdq4.png"
                   }
                   alt=""
                 />
@@ -158,7 +158,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/z1pr48ideklcy30kcodh.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/08/z1pr48ideklcy30kcodh.png"
                   }
                   alt=""
                 />
@@ -184,7 +184,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/kzwiywblnokhn0vxvdmd.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/08/kzwiywblnokhn0vxvdmd.png"
                   }
                   alt=""
                 />
@@ -203,7 +203,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   data-aos="example-anim3" 
-                  src={"http://app.zahroofvalves.com/wp-content/uploads/2021/08/ztssxgdudjwgkieybi7f-1.png"}
+                  src={"https://app.zahroofvalves.com/wp-content/uploads/2021/08/ztssxgdudjwgkieybi7f-1.png"}
                   alt="Picture of the author"
                 />
 
@@ -216,7 +216,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   data-aos="zoom-in"
-                  src={"http://app.zahroofvalves.com/wp-content/uploads/2021/08/ezbr949axrtwmzseyrxr.png"}
+                  src={"https://app.zahroofvalves.com/wp-content/uploads/2021/08/ezbr949axrtwmzseyrxr.png"}
                   alt="Picture of the author"
                 />
              
@@ -226,7 +226,7 @@ const Section4: React.FC<Section4> = (data) => {
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={"http://app.zahroofvalves.com/wp-content/uploads/2021/08/smmukplhbhdcnwbu54ok.png"}
+                  src={"https://app.zahroofvalves.com/wp-content/uploads/2021/08/smmukplhbhdcnwbu54ok.png"}
                   data-aos="zoom-in"
                   alt="Picture of the author"
                 />
@@ -273,7 +273,7 @@ performance of all others in the industry.</p> */}
                   <Image
                     objectFit="contain"
                     layout="fill"
-                    src={'http://app.zahroofvalves.com/wp-content/uploads/2021/08/mz8scwuleyzs5tmkmobd.png'}
+                    src={'https://app.zahroofvalves.com/wp-content/uploads/2021/08/mz8scwuleyzs5tmkmobd.png'}
                     alt="Picture of the author"
                   />
                 </div>
