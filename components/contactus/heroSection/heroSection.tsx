@@ -5,8 +5,7 @@ import Navbar from "../../layout/navbar/navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Parallax, Background } from "react-parallax";
-const image =
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000543/nszogjpikgvufgyx7tar.png";
+
 interface HeroSectionProps {
   data: {
     featuredImage: {

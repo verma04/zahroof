@@ -22,7 +22,7 @@ const HeroSection: React.FC<Section> = (data) => {
           objectFit="cover"
           layout="fill"
           src={
-            "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624000545/rsukles8twyiyukry6ws.png"
+            "http://app.zahroofvalves.com/wp-content/uploads/2021/08/rsukles8twyiyukry6ws.png"
           }
           alt="Picture of the author"
         />

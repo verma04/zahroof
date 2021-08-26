@@ -6,8 +6,6 @@ import Navbar from '../../layout/navbar/navbar'
 import { Parallax, Background } from "react-parallax";
 import { useRouter } from 'next/router'
 
-const image1 =
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624859749/cawdyff1kgtdbfyrmxcu.jpg";
 
 interface Section {
   data: {
@@ -49,7 +47,7 @@ const HeroSection: React.FC<Section> = (data) => {
                 <div  onClick={()=>router.push('/enterpriseSolutions')} className="section_bottom_data" >
                   <li> <Image objectFit="contain" layout="fill" src={data.data.firstLeftIcon} alt="sd" /> </li>
                   <li><h3>{data.data.firstLeftTitle}</h3></li>
-                  <li> <Image objectFit="contain" layout="fill" src='http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
+                  <li> <Image objectFit="contain" layout="fill" src='https://app.zahroofvalves.com/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
                 </div>
               </div>
             </Parallax>
@@ -69,7 +67,7 @@ const HeroSection: React.FC<Section> = (data) => {
 
                   <li><h3>{data.data.firstRightTitle}</h3></li>
 
-                  <li> <Image objectFit="contain" layout="fill" src='http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
+                  <li> <Image objectFit="contain" layout="fill" src='https://app.zahroofvalves.com/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
 
                 </div>
               </div>
@@ -101,7 +99,7 @@ const HeroSection: React.FC<Section> = (data) => {
 
                     <li><h3>{data.data.firstLeftTitle}</h3></li>
 
-                    <li> <Image objectFit="contain" layout="fill" src='http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
+                    <li> <Image objectFit="contain" layout="fill" src='https://app.zahroofvalves.com/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
 
                   </div>
                 </div>
@@ -115,7 +113,7 @@ const HeroSection: React.FC<Section> = (data) => {
 
                     <li><h3>{data.data.firstRightTitle}</h3></li>
 
-                    <li><Image objectFit="contain" layout="fill" src='http://18.217.254.134/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
+                    <li><Image objectFit="contain" layout="fill" src='https://app.zahroofvalves.com/wp-content/uploads/2021/07/arrow-down.png' alt="" /></li>
 
                   </div>
                 </div>

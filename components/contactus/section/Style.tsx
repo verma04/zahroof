@@ -26,7 +26,7 @@ button {
       align-items: center;
 
       height: 773px;
-      background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625296161/rfrkr499ec2ow6izav59.jpg"); /* The image used */
+      background-image: url("http://app.zahroofvalves.com/wp-content/uploads/2021/08/rfrkr499ec2ow6izav59.jpg"); /* The image used */
 
       background-position: center; /* Center the image */
       background-repeat: no-repeat; /* Do not repeat the image */

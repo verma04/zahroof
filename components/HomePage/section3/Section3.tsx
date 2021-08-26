@@ -14,7 +14,7 @@ import {
 } from "react-scroll";
 import "aos/dist/aos.css";
 const image =
-  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457126/o7rt0bntgyc6nstows3k.jpg";
+  "http://app.zahroofvalves.com/wp-content/uploads/2021/08/o7rt0bntgyc6nstows3k.jpg";
 interface Section3 {
   data: {
     homeThreeLeftHeading: string;
@@ -95,7 +95,7 @@ const Section3: React.FC<Section3> = (data) => {
                     objectFit="contain"
                     layout="fill"
                     src={
-                      "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457130/oj0pfthu3lt2ergdljyf.png"
+                      "http://app.zahroofvalves.com/wp-content/uploads/2021/08/oj0pfthu3lt2ergdljyf.png"
                     }
                     alt=""
                   />
@@ -108,7 +108,7 @@ const Section3: React.FC<Section3> = (data) => {
                     objectFit="contain"
                     layout="fill"
                     src={
-                      "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457125/wx89iw4xzkq1tffegfgh.png"
+                      "http://app.zahroofvalves.com/wp-content/uploads/2021/08/wx89iw4xzkq1tffegfgh.png"
                     }
                     alt=""
                   />
@@ -121,7 +121,7 @@ const Section3: React.FC<Section3> = (data) => {
                     objectFit="contain"
                     layout="fill"
                     src={
-                      "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457125/c5qjzndd22pgdc0xpzvg.png"
+                      "http://app.zahroofvalves.com/wp-content/uploads/2021/08/c5qjzndd22pgdc0xpzvg.png"
                     }
                     alt=""
                   />
@@ -166,7 +166,7 @@ const Section3: React.FC<Section3> = (data) => {
                     objectFit="contain"
                     layout="fill"
                     src={
-                      "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457130/oj0pfthu3lt2ergdljyf.png"
+                      "http://app.zahroofvalves.com/wp-content/uploads/2021/08/oj0pfthu3lt2ergdljyf.png"
                     }
                     alt=""
                   />
@@ -179,7 +179,7 @@ const Section3: React.FC<Section3> = (data) => {
                     objectFit="contain"
                     layout="fill"
                     src={
-                      "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457125/wx89iw4xzkq1tffegfgh.png"
+                      "http://app.zahroofvalves.com/wp-content/uploads/2021/08/wx89iw4xzkq1tffegfgh.png"
                     }
                     alt=""
                   />
@@ -192,7 +192,7 @@ const Section3: React.FC<Section3> = (data) => {
                     objectFit="contain"
                     layout="fill"
                     src={
-                      "https://res.cloudinary.com/dzcmadjl1/image/upload/v1624457125/c5qjzndd22pgdc0xpzvg.png"
+                      "http://app.zahroofvalves.com/wp-content/uploads/2021/08/c5qjzndd22pgdc0xpzvg.png"
                     }
                     alt=""
                   />

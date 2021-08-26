@@ -78,7 +78,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623905280/oqahwcfpdj4symxaaaki.png"
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/oqahwcfpdj4symxaaaki.png"
                   }
                   alt=""
                 />
@@ -91,7 +91,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/istcdd90jzd7w26thtwl.png"
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/istcdd90jzd7w26thtwl.png"
                   }
                   alt=""
                 />
@@ -105,7 +105,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1628059214/zojkglvg09aa3yl1nbhi.png"
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/zojkglvg09aa3yl1nbhi.png"
                   }
                   alt=""
                 />
@@ -132,7 +132,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/ztqc0qrptre0bxp3vxfz.png"
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/ztqc0qrptre0bxp3vxfz.png"
                   }
                   alt=""
                 />
@@ -145,7 +145,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903830/bzmo2rxdmbgeibrwzdq4.png"
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/bzmo2rxdmbgeibrwzdq4.png"
                   }
                   alt=""
                 />
@@ -158,7 +158,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903829/z1pr48ideklcy30kcodh.png"
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/z1pr48ideklcy30kcodh.png"
                   }
                   alt=""
                 />
@@ -184,7 +184,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623903830/kzwiywblnokhn0vxvdmd.png"
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/kzwiywblnokhn0vxvdmd.png"
                   }
                   alt=""
                 />
@@ -203,7 +203,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   data-aos="example-anim3" 
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626413919/ztssxgdudjwgkieybi7f.png"}
+                  src={"http://app.zahroofvalves.com/wp-content/uploads/2021/08/ztssxgdudjwgkieybi7f-1.png"}
                   alt="Picture of the author"
                 />
 
@@ -216,7 +216,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   data-aos="zoom-in"
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626413918/ezbr949axrtwmzseyrxr.png"}
+                  src={"http://app.zahroofvalves.com/wp-content/uploads/2021/08/ezbr949axrtwmzseyrxr.png"}
                   alt="Picture of the author"
                 />
              
@@ -226,7 +226,7 @@ const Section4: React.FC<Section4> = (data) => {
                 <Image
                   objectFit="contain"
                   layout="fill"
-                  src={"https://res.cloudinary.com/dzcmadjl1/image/upload/v1626413919/smmukplhbhdcnwbu54ok.png"}
+                  src={"http://app.zahroofvalves.com/wp-content/uploads/2021/08/smmukplhbhdcnwbu54ok.png"}
                   data-aos="zoom-in"
                   alt="Picture of the author"
                 />
@@ -273,7 +273,7 @@ performance of all others in the industry.</p> */}
                   <Image
                     objectFit="contain"
                     layout="fill"
-                    src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1627380874/mz8scwuleyzs5tmkmobd.png'}
+                    src={'http://app.zahroofvalves.com/wp-content/uploads/2021/08/mz8scwuleyzs5tmkmobd.png'}
                     alt="Picture of the author"
                   />
                 </div>

@@ -17,7 +17,7 @@ const Footer: React.FC<{}> = () => {
               objectFit="contain"
               layout="fill"
               src={
-                "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623843328/kclegz6cvq3lqyqqzkvt.png"
+                "http://app.zahroofvalves.com/wp-content/uploads/2021/08/nt4lgdaec6ngnwwo8bro.png"
               }
               alt="Picture of the author"
             />
@@ -54,7 +54,7 @@ const Footer: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623841777/n6f7lujxbhvkz6za2frl.png"
+                  "http://app.zahroofvalves.com/wp-content/uploads/2021/08/n6f7lujxbhvkz6za2frl.png"
                 }
                 alt="Picture of the author"
               />
@@ -65,7 +65,7 @@ const Footer: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623841790/jw3muruu6zwsdmnv9xc3.png"
+                  "http://app.zahroofvalves.com/wp-content/uploads/2021/08/jw3muruu6zwsdmnv9xc3.png"
                 }
                 alt="Picture of the author"
               />
@@ -76,7 +76,7 @@ const Footer: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1627537207/pf9m8jb8z90g8qznl1bw.png"
+                  "http://app.zahroofvalves.com/wp-content/uploads/2021/08/pf9m8jb8z90g8qznl1bw.png"
                 }
                 alt="Picture of the author"
               />
@@ -87,7 +87,7 @@ const Footer: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623841790/z2atpdve4bhqjlnnmtbf.png"
+                  "http://app.zahroofvalves.com/wp-content/uploads/2021/08/z2atpdve4bhqjlnnmtbf.png"
                 }
                 alt="Picture of the author"
               />

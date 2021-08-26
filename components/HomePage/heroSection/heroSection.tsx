@@ -14,7 +14,7 @@ interface HeroSectionProps {
 }
 const HeroSection: React.FC<HeroSectionProps> = (data) => {
   const image =
-    "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623820567/fw1lusinju10tx2bapi6.png";
+    "http://app.zahroofvalves.com/wp-content/uploads/2021/08/fw1lusinju10tx2bapi6.png";
   useEffect(() => {
     AOS.init({
       duration: 5000,

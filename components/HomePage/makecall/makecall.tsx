@@ -36,14 +36,14 @@ import Image from 'next/image'
 
         <ul>
             <li>
-            <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624874075/pnqbtnq5yxgu1o7pyquc.png' alt="sd" />
+            <Image     objectFit="contain" layout="fill" src='http://app.zahroofvalves.com/wp-content/uploads/2021/08/pnqbtnq5yxgu1o7pyquc.png' alt="sd" />
             </li>
             <li>Tel</li>
             <li>(713) 554-2678</li>
         </ul>
 
         <ul>
-            <li>  <Image     objectFit="contain" layout="fill" src='https://res.cloudinary.com/dzcmadjl1/image/upload/v1624874075/nt4lgdaec6ngnwwo8bro.png' alt="sd" /></li>
+            <li>  <Image     objectFit="contain" layout="fill" src='http://app.zahroofvalves.com/wp-content/uploads/2021/08/nt4lgdaec6ngnwwo8bro.png' alt="sd" /></li>
             <li>Email</li>
             <li>info@zahroofvalves.com</li>
         </ul>
