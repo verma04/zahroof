@@ -287,7 +287,7 @@ button {
       align-items: center;
 
       height: 80rem;
-      background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625301760/e92mprbfemr6lekh6lyp.jpg"); /* The image used */
+      background-image: url("https://app.zahroofvalves.com/wp-content/uploads/2021/08/rfrkr499ec2ow6izav59.jpg"); /* The image used */
 
       /* Center the image */
       background-repeat: no-repeat; /* Do not repeat the image */
@@ -1108,7 +1108,7 @@ button {
     @media (max-width: 414px) {
       
       .section-1 {
-        background-image: url('http://18.217.254.134/wp-content/uploads/2021/07/e92mprbfemr6lekh6lyp.jpg');
+        background-image: url('https://app.zahroofvalves.com/wp-content/uploads/2021/07/e92mprbfemr6lekh6lyp.jpg');
         .section_data {
           .section_left {
 
