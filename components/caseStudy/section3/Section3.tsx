@@ -78,7 +78,7 @@ compressors.
                  src={'https://app.zahroofvalves.com/wp-content/uploads/2021/08/Vector-Smart-Object-1.png'}
                />
                </div>
-        <p>  The StraighFlo™ valves average 22HP per MMscfd versus the plate valves they were using average of 23.1. The lower specific power results in a 4.5 % 
+        <p>  The StraightFlo™ valves average 22HP per MMscfd versus the plate valves they were using average of 23.1. The lower specific power results in a 4.5 % 
 decrease in power consumption.    
 
 </p>

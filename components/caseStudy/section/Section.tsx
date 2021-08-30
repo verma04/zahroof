@@ -12,7 +12,7 @@ const SectionOne: React.FC = () => {
         <h2>
 
         At Zahroof, we manufacture reciprocating compressor valves, 
-but what we really do is <span> - create staggering long-term results. 
+but what we really do is <span> - create staggering long -Term results. 
        
        </span>
         </h2> 
