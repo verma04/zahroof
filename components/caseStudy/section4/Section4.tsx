@@ -148,7 +148,7 @@ problems.<br/>
                  alt="Picture of the author"
                  objectFit="contain"
                  layout="fill"
-                 src={'http://app.zahroofvalves.com/wp-content/uploads/2021/08/Layer-791.png'}
+                 src={'https://app.zahroofvalves.com/wp-content/uploads/2021/08/Layer-791.png'}
                />
 
 

@@ -95,7 +95,7 @@ previous plate valve’s average life of five months and continue to operate suc
                       alt="Picture of the author"
                       objectFit="cover"
                       layout="fill"
-                      src={'http://app.zahroofvalves.com/wp-content/uploads/2021/08/casestudy2.png'}
+                      src={'https://app.zahroofvalves.com/wp-content/uploads/2021/08/casestudy2.png'}
                     />
 
           </div>
