@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
 
           </div>
           <div className="text">
-           <h4>  case study </h4> 
+           <h4>  case study 4 </h4> 
             </div>
           </div>
 
@@ -127,7 +127,7 @@ const HeroSection: React.FC = () => {
                </div>
 <h2>
 
-since 2019 straightflotm <br/>
+since 2019 straightflo<sup>tm</sup><br/>
 valves have operated<br/>
 without a single safety<br/>
 or maintenance incident<br/>

@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
 
           </div>
           <div className="text">
-           <h4>  case study </h4> 
+           <h4>  case study 2 </h4> 
             </div>
           </div>
 
@@ -55,7 +55,7 @@ const HeroSection: React.FC = () => {
                  alt="Picture of the author"
                  objectFit="contain"
                  layout="fill"
-                 src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1628845929/de3kui9zib0sd4scl6fr.png'}
+                 src={'https://app.zahroofvalves.com/wp-content/uploads/2021/08/Vector-Smart-Object.png'}
                />
                </div>
                With multiple StraightFlo™ Valves already in <br/>
@@ -75,7 +75,7 @@ compressors.
                  alt="Picture of the author"
                  objectFit="contain"
                  layout="fill"
-                 src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1628845929/de3kui9zib0sd4scl6fr.png'}
+                 src={'https://app.zahroofvalves.com/wp-content/uploads/2021/08/Vector-Smart-Object-1.png'}
                />
                </div>
         <p>  The StraighFlo™ valves average 22HP per MMscfd versus the plate valves they were using average of 23.1. The lower specific power results in a 4.5 % 

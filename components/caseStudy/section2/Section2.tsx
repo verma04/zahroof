@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
 
           </div>
           <div className="text">
-           <h4>  case study </h4> 
+           <h4>  case study 1 </h4> 
             </div>
           </div>
 
@@ -55,7 +55,7 @@ FROM WEEKS <span> TO YEARS </span>
                  alt="Picture of the author"
                  objectFit="contain"
                  layout="fill"
-                 src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1628845929/de3kui9zib0sd4scl6fr.png'}
+                 src={'https://app.zahroofvalves.com/wp-content/uploads/2021/08/Vector-Smart-Object.png'}
                />
                </div>
           High liquid and particulate contaminants are fouling <br/>
@@ -74,7 +74,7 @@ production and increased maintenance costs.
                  alt="Picture of the author"
                  objectFit="contain"
                  layout="fill"
-                 src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1628845929/de3kui9zib0sd4scl6fr.png'}
+                 src={'https://app.zahroofvalves.com/wp-content/uploads/2021/08/Vector-Smart-Object-1.png'}
                />
                </div>
          Upon installation, StraightFlo™ first and second stage valves <br/>

@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
 
           </div>
           <div className="text">
-           <h4>  case study </h4> 
+           <h4>  case study 3 </h4> 
             </div>
           </div>
 

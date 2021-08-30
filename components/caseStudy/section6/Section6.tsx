@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
 
           </div>
           <div className="text">
-           <h4>  case study </h4> 
+           <h4>  case study 5 </h4> 
             </div>
           </div>
 
@@ -145,7 +145,7 @@ efficiency and reliability in dirty service. StraightFlo™ Valves were installe
                />
                </div>
 <h2>
-Straightflotm Valves <br/>
+Straightflo<sup>tm</sup> Valves <br/>
 last years, OEM plate<br/>
 valves only lasted months.<br/>
 
