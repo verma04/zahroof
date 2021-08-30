@@ -78,6 +78,12 @@ const Navbar: React.FC<{}> = () => {
                   <a className={router.pathname == "/aboutus" ? "active" : ""}>About Us</a>
                 </Link>
               </li>
+
+              <li>
+                <Link href="/aboutus">
+                  <a className={router.pathname == "/caseStudies" ? "active" : ""}>Case Studies </a>
+                </Link>
+              </li>
               <li>
                 <Link href="/contactus">
                   <a className={router.pathname == "/contactus" ? "active" : ""}>Contact</a>
