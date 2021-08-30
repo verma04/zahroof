@@ -105,7 +105,7 @@ efficiency and reliability in dirty service. StraightFlo™ Valves were installe
         <Image
                  
                       alt="Picture of the author"
-                      objectFit="cover"
+                      objectFit="contain"
                       layout="fill"
                       src={'https://app.zahroofvalves.com/wp-content/uploads/2021/08/casestudy5-1.png'}
                     />
