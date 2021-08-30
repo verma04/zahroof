@@ -899,7 +899,7 @@ background-color:  ${(props) => props.theme.colors.blue};
     @media (max-width: 767px) {
     .section {
       position: relative;
-
+      background-color:#9b9ea0;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -941,16 +941,7 @@ background-color:  ${(props) => props.theme.colors.blue};
        color:white;
        
      
-       :after {
-
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 0.5rem;
-        bottom: 30%;
-        left: 5%;
-        background-color:  ${(props) => props.theme.colors.blue};
-       }
+    
       }
           }
 
@@ -998,15 +989,21 @@ background-color:  ${(props) => props.theme.colors.blue};
       display: none;
     }
     span {
-   color:  ${(props) => props.theme.colors.blue};
+
    font-weight: bold;
     }
           }
           h3 {
-            color:   ${(props) => props.theme.colors.darkblue};;
+          
             font-size: 35px;
     line-height: 35px;
-     background-color:     ${(props) => props.theme.colors.blue};;
+  
+              color:white;
+              text-transform: uppercase;
+            padding: 0.5rem;
+            color:  white;
+              background-color:  #757a7d;
+
      padding: 0.5rem;
       align-items: center;
     text-transform: uppercase;
@@ -1019,6 +1016,7 @@ background-color:  ${(props) => props.theme.colors.blue};
             display: flex;
             justify-content: flex-start;
             font-size: 1.3rem;
+            flex-direction: column;
     line-height: 19px;
     line-height: 31px;
 br {
@@ -1096,6 +1094,10 @@ br {
           justify-content: space-evenly;
           align-items: center;
           flex-direction: column;
+           .img-wrapper {
+     display: none;
+
+   }
           h2 {
             color:white;
             font-size: 35px;
@@ -1106,16 +1108,9 @@ br {
    display: none;
  }
    position: relative;
-   :after {
 
-position: absolute;
-content: '';
-width: 0.5rem;
-height: 100%;
-  bottom: 3%;
-left: -5%;
-background-color:  ${(props) => props.theme.colors.blue};
-}
+  
+ 
           }
   
 
@@ -1142,7 +1137,7 @@ background-color:  ${(props) => props.theme.colors.blue};
               
              display: flex;
           justify-content: space-evenly;
-          background-color:  ${(props) => props.theme.colors.blue};
+         
             flex-direction: column;
             height: 46em;
              width: 100%;

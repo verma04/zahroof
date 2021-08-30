@@ -128,7 +128,7 @@ maximum refinery production
                </div>
 <h2>
 
-Straightflotm Valves <br/>
+Straightflo<sup>Tm</sup> Valves <br/>
 solve the reliability<br/>
 problems.<br/>
 
