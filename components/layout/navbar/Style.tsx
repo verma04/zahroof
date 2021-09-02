@@ -73,7 +73,7 @@ export const Nav = styled.nav`
 position: relative;
 .valve {
  position: absolute;
-width: 100%;
+ width: 130%;
 
 height: 100%;
 bottom: -30%;
