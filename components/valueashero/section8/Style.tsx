@@ -188,7 +188,7 @@ export const Section = styled.section`
       width: 100%;
       align-items: center;
       position: relative;
-      height: 30rem;
+      height: 35rem;
       .section2_data {
         width: 90%;
         height: 90%;

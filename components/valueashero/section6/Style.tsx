@@ -384,7 +384,7 @@ export const Section = styled.section`
       width: 100%;
       align-items: center;
       position: relative;
-      height: 70rem;
+      height: 56rem;
       background-color:  ${(props) => props.theme.colors.blue};
       /* .tringle {
         position: absolute;
@@ -515,21 +515,7 @@ export const Section = styled.section`
     } 
   }
 
-  @media (max-width: 414px) {
-    .section4 {
-      height: 50rem;
-      .section_data {
-        .section_data_left {
-          h2{
-            margin-left: 5px;
-          }
-        }
-        .section_data_right {
-          /* height: 30%; */
-        }
-      }
-    }
-  }
+
 
 
 `;

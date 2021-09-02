@@ -6,6 +6,8 @@ module.exports = {
     return config;
   },
 
+ 
+
   images: {
     domains: ["res.cloudinary.com"],
     loader: "imgix",

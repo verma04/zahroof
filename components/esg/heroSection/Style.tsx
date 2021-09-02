@@ -22,7 +22,7 @@ export const Section = styled.section`
       width: 100%;
 
       height: 100vh;
-
+      min-height: 45rem;
       position: relative;
       /* Set a specific height */
 

@@ -132,7 +132,7 @@ A QUOTE</h2>
 Zahroof StraightFloTM Valves.
 Please use the
 contact form to the bottom
-for an immediate quote
+for an immediate quote.
         </h3> 
        
             </div>

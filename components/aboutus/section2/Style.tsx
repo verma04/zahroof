@@ -130,9 +130,10 @@ export const Section = styled.section`
         align-items: center;
 
         .section_data_left {
+          margin-top: 2rem;
           display: flex;
           width: 100%;
-          height: 100%;
+          height: 90%;
           justify-content: space-evenly;
           align-items: center;
           flex-direction: column;
@@ -385,11 +386,6 @@ export const Section = styled.section`
   }
 
 
-   @media (max-width: 414px) {
-    .section4 {
-      height: 65rem;
-    }
-  }
-
+ 
 
 `;

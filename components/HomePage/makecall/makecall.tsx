@@ -2,8 +2,9 @@ import React from 'react'
 import { Section} from './Style'
 import Image from 'next/image'
 
-
+import { useRouter } from "next/router";
  const HeroSection: React.FC<{}> = () => {
+    const router = useRouter();
     return (
         <Section>
         
@@ -45,7 +46,11 @@ import Image from 'next/image'
         <ul>
             <li>  <Image     objectFit="contain" layout="fill" src='https://app.zahroofvalves.com/wp-content/uploads/2021/08/nt4lgdaec6ngnwwo8bro.png' alt="sd" /></li>
             <li>Email</li>
-            <li>info@zahroofvalves.com</li>
+            <li
+            
+            onClick={() => window.open('mailto:info@zahroofvalves.com') }
+      title="info@zahroofvalves.com"
+            >info@zahroofvalves.com</li>
         </ul>
       
             </div>

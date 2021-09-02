@@ -6,6 +6,9 @@ export const Section = styled.section`
   flex-direction: column;
   width: 100%;
   align-items: center;
+  h2 {
+    text-transform: uppercase;
+  }
 
   @media (min-width: 1281px) {
     .section4 {

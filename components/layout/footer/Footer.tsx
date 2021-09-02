@@ -2,7 +2,10 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { Foot } from "./Style";
+import { useRouter } from "next/router";
 const Footer: React.FC<{}> = () => {
+
+  const router = useRouter();
   return (
     <Foot>
       <div className="footer_newsLetter">
@@ -56,7 +59,8 @@ const Footer: React.FC<{}> = () => {
                 src={
                   "https://app.zahroofvalves.com/wp-content/uploads/2021/08/n6f7lujxbhvkz6za2frl.png"
                 }
-                alt="Picture of the author"
+                alt="facebook"
+                onClick={()=> router.push('https://www.facebook.com/ZahroofValvesInc')}
               />
             </li>
 
@@ -67,7 +71,9 @@ const Footer: React.FC<{}> = () => {
                 src={
                   "https://app.zahroofvalves.com/wp-content/uploads/2021/08/jw3muruu6zwsdmnv9xc3.png"
                 }
-                alt="Picture of the author"
+                alt="youtube"
+                onClick={()=> router.push('https://www.linkedin.com/company/zahroof-valves-inc-/')}
+
               />
             </li>
 
@@ -78,7 +84,8 @@ const Footer: React.FC<{}> = () => {
                 src={
                   "https://app.zahroofvalves.com/wp-content/uploads/2021/08/pf9m8jb8z90g8qznl1bw.png"
                 }
-                alt="Picture of the author"
+                alt="twitter"
+                onClick={()=> router.push('https://www.youtube.com/channel/UC69j1qqdRlxG5yoXoHXqVfA')}
               />
             </li>
 
@@ -90,6 +97,7 @@ const Footer: React.FC<{}> = () => {
                   "https://app.zahroofvalves.com/wp-content/uploads/2021/08/z2atpdve4bhqjlnnmtbf.png"
                 }
                 alt="Picture of the author"
+                onClick={()=> router.push('https://twitter.com/compressorvalve?lang=en')}
               />
             </li>
           </ul>

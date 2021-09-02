@@ -63,7 +63,7 @@ as close to net-zero as possible.
             </div>
           </div>
 
-          <div className="absol"></div>
+         
         </div>
       </Parallax>
     </Section>

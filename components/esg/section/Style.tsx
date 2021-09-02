@@ -17,7 +17,7 @@ export const Section = styled.section`
       width: 100%;
       align-items: center;
       height: 44.5rem;
-      background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625648083/say2tbvtmz54opz2f2xh.png");
+      background-image: url("https://app.zahroofvalves.com/wp-content/uploads/2021/09/zahroof-1.png");
 
       background-position: center;
       background-repeat: no-repeat;
@@ -37,17 +37,18 @@ export const Section = styled.section`
           justify-content: center;
           align-items: center;
           .section-data {
-            width: 100%;
+            width: 80%;
             
             height: 90%;
             position: absolute;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             z-index: 1;
             .left {
-              width: 50%;
-              height: 100%;
+              width: 100%;
+              height: 50%;
 
               align-items: center;
               display: flex;
@@ -55,7 +56,7 @@ export const Section = styled.section`
               flex-direction: column;
               ul {
                 margin-left: 0.5rem;
-                width: 70%;
+                width: 100%;
 
                 li {
                   width: 100%;
@@ -76,7 +77,7 @@ export const Section = styled.section`
               p {
                 font-family: Proxima-Bold;
                 margin-top: 3rem;
-                width: 70%;
+                width: 100%;
                 line-height: 30px;
                 font-size: 16px;
                 color: white;
@@ -96,40 +97,59 @@ export const Section = styled.section`
               }
             }
             .right {
-              width: 50%;
-              height: 70%;
+              width: 100%;
+              height: 90%;
    
               align-items: center;
               display: flex;
-              justify-content: center;
+              justify-content: space-between;
               align-items: center;
-              flex-direction: column;
+              
               .right_logo {
-                width: 100%;
-                
-                height: 33%;
+                width: 30%;
+                background-color: #4d9f21;
+                height: 70%;
                 display: flex;
-                justify-content: flex-start;
+                justify-content: space-evenly;
                 align-items: center;
+                flex-direction: column;
 
                 .logo-wrapper {
                   width: 30%;
-                  height: 60%;
+                  height: 30%;
                   position: relative;
                   
                 }
                 .side {
                   font-family: Proxima-Bold;
                   color: white;
-                  width: 55%;
+                  width: 90%;
                   line-height: 30px;
                   font-size: 16px;
                   position: relative;
-                   h3 {
+                  h3 {
                      width: 100%;
                      color: white;
+                
                    }
                   p {
+                     display: none;
+                  }
+                }
+               
+                .side1 {
+                  font-family: Proxima-Bold;
+                  color: white;
+                  width: 90%;
+                  line-height: 30px;
+                  font-size: 16px;
+                  position: relative;
+                 
+                  h3 {
+                    display: none;
+                  }
+
+                   p {
                     color: white;
                     width: 100%;
                     line-height: 30px;
@@ -137,12 +157,28 @@ export const Section = styled.section`
                   position: relative;
                   font-family: Proxima-Bold;
                   }
+                 
                 }
                
               }
             }
           }
         }
+      }
+
+
+      .absol {
+        position: absolute;
+        width: 100%;
+        height: 10rem;
+
+        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625647930/b77aizoerfwavnpd4lcz.png");
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+   
+        top: -20%;
       }
     }
   }
@@ -250,51 +286,88 @@ export const Section = styled.section`
             }
             .right {
               width: 100%;
-              height: 60%;
+              height: 70%;
 
               align-items: center;
               display: flex;
               justify-content: space-evenly;
               align-items: center;
               flex-direction: column;
+
+              
               .right_logo {
-                width: 100%;
-                height: 20%;
+                width: 80%;
+                background-color: #4d9f21;
+                height: 30%;
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-evenly;
                 align-items: center;
+                flex-direction: column;
 
                 .logo-wrapper {
-                  width: 20%;
-                  margin-left: 0.5rem;
-                  height: 60%;
+                  width: 30%;
+                  height:5rem;
                   position: relative;
+                  
                 }
                 .side {
-                  font-family: Proxima-Light;
+                  font-family: Proxima-Bold;
                   color: white;
-                  width: 70%;
-                  line-height: 1.3;
-                  font-size: 18px;
+                  width: 90%;
+                  line-height: 30px;
+                  font-size: 16px;
                   position: relative;
-                  font-weight: 600; 
-
-                  p{
-                    color: white;
-                    line-height: 1.3;
-                  font-size: 18px;
-                  position: relative;
-                  font-weight: 600; 
-                  }
                   h3 {
-                    color:white;
+                     width: 100%;
+                     color: white;
+                
+                   }
+                  p {
+                     display: none;
                   }
+                }
+               
+                .side1 {
+                  font-family: Proxima-Bold;
+                  color: white;
+                  width: 90%;
+                  line-height: 30px;
+                  font-size: 16px;
+                  position: relative;
+                 
+                  h3 {
+                    display: none;
+                  }
+
+                   p {
+                    color: white;
+                    width: 100%;
+                    line-height: 20px;
+                  font-size: 16px;
+                  position: relative;
+                  font-family: Proxima-Bold;
+                  }
+                 
                 }
                
               }
             }
           }
         }
+      }
+
+      .absol {
+        position: absolute;
+        width: 100%;
+        height: 10rem;
+
+        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625647930/b77aizoerfwavnpd4lcz.png");
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+   
+        top: -10%;
       }
     }
   }
@@ -329,16 +402,18 @@ export const Section = styled.section`
           justify-content: center;
           align-items: center;
           .section-data {
-            width: 100%;
-            height: 80%;
+            width: 80%;
+            
+            height: 90%;
             position: absolute;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             z-index: 1;
             .left {
-              width: 50%;
-              height: 100%;
+              width: 100%;
+              height: 50%;
 
               align-items: center;
               display: flex;
@@ -346,7 +421,7 @@ export const Section = styled.section`
               flex-direction: column;
               ul {
                 margin-left: 0.5rem;
-                width: 70%;
+                width: 100%;
 
                 li {
                   width: 100%;
@@ -367,19 +442,13 @@ export const Section = styled.section`
               p {
                 font-family: Proxima-Bold;
                 margin-top: 3rem;
-                width: 70%;
+                width: 100%;
                 line-height: 30px;
                 font-size: 16px;
                 color: white;
                 position: relative;
                 padding-left: 1rem;
-                h3 {
-                     width: 100%;
-                     color: white;
-                   }
-                  p {
-                    width: 100%;
-                  }
+                
               }
               p:after {
                 content: "";
@@ -393,51 +462,87 @@ export const Section = styled.section`
               }
             }
             .right {
-              width: 50%;
-              height: 70%;
-
+              width: 100%;
+              height: 90%;
+   
               align-items: center;
               display: flex;
               justify-content: space-between;
               align-items: center;
-              flex-direction: column;
+              
               .right_logo {
-                width: 100%;
-                height: 20%;
+                width: 30%;
+                background-color: #4d9f21;
+                height: 70%;
                 display: flex;
-                justify-content: flex-start;
+                justify-content: space-evenly;
                 align-items: center;
+                flex-direction: column;
 
                 .logo-wrapper {
-                  width: 20%;
-                  height: 60%;
+                  width: 30%;
+                  height: 30%;
                   position: relative;
-                  margin-right: 1rem;
+                  
                 }
                 .side {
                   font-family: Proxima-Bold;
                   color: white;
-                  width: 65%;
+                  width: 90%;
                   line-height: 30px;
                   font-size: 16px;
                   position: relative;
                   h3 {
-                    color:white
+                     width: 100%;
+                     color: white;
+                
+                   }
+                  p {
+                     display: none;
                   }
-                   p {
-                    font-family: Proxima-Bold;
+                }
+               
+                .side1 {
+                  font-family: Proxima-Bold;
                   color: white;
-                  
+                  width: 90%;
                   line-height: 30px;
                   font-size: 16px;
                   position: relative;
-                   }
+                 
+                  h3 {
+                    display: none;
+                  }
+
+                   p {
+                    color: white;
+                    width: 100%;
+                    line-height: 30px;
+                  font-size: 16px;
+                  position: relative;
+                  font-family: Proxima-Bold;
+                  }
+                 
                 }
-                
+               
               }
             }
           }
         }
+      }
+
+      .absol {
+        position: absolute;
+        width: 100%;
+        height: 10rem;
+
+        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625647930/b77aizoerfwavnpd4lcz.png");
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+   
+        top: -20%;
       }
     }
   }
@@ -472,14 +577,15 @@ export const Section = styled.section`
           justify-content: center;
           align-items: center;
           .section-data {
-            width: 100%;
-            height: 100%;
+            width: 80%;
+            
+            height: 90%;
             position: absolute;
             display: flex;
             justify-content: center;
             align-items: center;
-            z-index: 1;
             flex-direction: column;
+            z-index: 1;
             .left {
               width: 100%;
               height: 50%;
@@ -490,7 +596,7 @@ export const Section = styled.section`
               flex-direction: column;
               ul {
                 margin-left: 0.5rem;
-                width: 70%;
+                width: 100%;
 
                 li {
                   width: 100%;
@@ -511,19 +617,13 @@ export const Section = styled.section`
               p {
                 font-family: Proxima-Bold;
                 margin-top: 3rem;
-                width: 70%;
+                width: 100%;
                 line-height: 30px;
                 font-size: 16px;
                 color: white;
                 position: relative;
                 padding-left: 1rem;
-                h3 {
-                     width: 100%;
-                     color: white;
-                   }
-                  p {
-                    width: 100%;
-                  }
+                
               }
               p:after {
                 content: "";
@@ -538,51 +638,86 @@ export const Section = styled.section`
             }
             .right {
               width: 100%;
-              height: 50%;
-
+              height: 90%;
+   
               align-items: center;
               display: flex;
-              justify-content: space-evenly;
+              justify-content: space-between;
               align-items: center;
-              flex-direction: column;
+              
               .right_logo {
-                width: 100%;
-                height: 20%;
+                width: 30%;
+                background-color: #4d9f21;
+                height: 70%;
                 display: flex;
-                justify-content: flex-start;
+                justify-content: space-evenly;
                 align-items: center;
+                flex-direction: column;
 
                 .logo-wrapper {
-                  width: 20%;
-                  height: 60%;
+                  width: 30%;
+                  height: 30%;
                   position: relative;
-                  margin-right: 1rem;
-                
+                  
                 }
                 .side {
                   font-family: Proxima-Bold;
                   color: white;
-                  width: 60%;
+                  width: 90%;
                   line-height: 30px;
                   font-size: 16px;
                   position: relative;
-                  h3{
-                    color:white;
-                  }
-                   p {
-                    font-family: Proxima-Bold;
-                  color: white;
-               
-                  line-height: 30px;
-                  font-size: 16px;
-                  position: relative;
-                   }
-                }
+                  h3 {
+                     width: 100%;
+                     color: white;
                 
+                   }
+                  p {
+                     display: none;
+                  }
+                }
+               
+                .side1 {
+                  font-family: Proxima-Bold;
+                  color: white;
+                  width: 90%;
+                  line-height: 30px;
+                  font-size: 16px;
+                  position: relative;
+                 
+                  h3 {
+                    display: none;
+                  }
+
+                   p {
+                    color: white;
+                    width: 100%;
+                    line-height: 30px;
+                  font-size: 16px;
+                  position: relative;
+                  font-family: Proxima-Bold;
+                  }
+                 
+                }
+               
               }
             }
           }
         }
+      }
+
+      .absol {
+        position: absolute;
+        width: 100%;
+        height: 10rem;
+
+        background-image: url("https://res.cloudinary.com/dzcmadjl1/image/upload/v1625647930/b77aizoerfwavnpd4lcz.png");
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+   
+        top: -20%;
       }
     }
   }
@@ -610,31 +745,7 @@ export const Section = styled.section`
 
 
 
-  @media (max-width: 414px) {
-    .section{
-      height: 60rem;
-      .section-1 {
-        .wrapper {
-          .section-data {
-            .left{
-              p{
-                margin-top: 2rem;
-                margin-left: 2rem;
-                padding-right: 10px;
-              }
-            }
-            .right {
-              .right_logo {
-                p {
-                  padding-right: 10px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+
 
 
 

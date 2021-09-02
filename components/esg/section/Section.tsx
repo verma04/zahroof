@@ -55,8 +55,13 @@ through your system, there s far less to flare.
               </div>
               <div className="right">
                 <div   className="right_logo">
+                <div  className="side"
+
+style={{}}
+               dangerouslySetInnerHTML={{ __html: data.data.esgbenifitsfirstRightOneContent }}
+></div>
                   <div className="logo-wrapper">
-                    
+               
                     <Image
                       objectFit="contain"
                       layout="fill"
@@ -64,11 +69,16 @@ through your system, there s far less to flare.
                       alt="Picture of the author"
                     />
                   </div>
-                  <div  className="side"
+                  <div  className="side1"
                                  dangerouslySetInnerHTML={{ __html: data.data.esgbenifitsfirstRightOneContent }}
                   ></div>
                 </div>
                 <div  className="right_logo">
+                <div  className="side"
+                      dangerouslySetInnerHTML={{
+                        __html: data.data.esgbenifitsfirstRightTwoContent,
+                      }}
+                  ></div>
                   <div className="logo-wrapper">
                     <Image
                       objectFit="contain"
@@ -77,7 +87,7 @@ through your system, there s far less to flare.
                       alt="Picture of the author"
                     />
                   </div>
-                   <div  className="side"
+                   <div  className="side1"
                       dangerouslySetInnerHTML={{
                         __html: data.data.esgbenifitsfirstRightTwoContent,
                       }}
@@ -85,6 +95,12 @@ through your system, there s far less to flare.
                 </div>
 
                 <div className="right_logo">
+                <div  className="side"
+                   dangerouslySetInnerHTML={{
+                    __html: data.data.esgbenifitsfirstRightThreeContent
+                  }}
+                  
+                  ></div>
                   <div className="logo-wrapper">
                     <Image
                       objectFit="contain"
@@ -93,7 +109,7 @@ through your system, there s far less to flare.
                       alt="Picture of the author"
                     />
                   </div>
-                  <div  className="side"
+                  <div  className="side1"
                    dangerouslySetInnerHTML={{
                     __html: data.data.esgbenifitsfirstRightThreeContent
                   }}
@@ -104,7 +120,10 @@ through your system, there s far less to flare.
             </div>
           </div>
         </div>
+        <div className="absol"></div>
       </div>
+  
+     
     </Section>
   );
 };

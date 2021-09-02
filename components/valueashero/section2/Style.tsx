@@ -358,12 +358,11 @@ export const Section = styled.section`
             height: 100px;
             width: 100%;
             margin-top: 5px;
-            -webkit-flex-direction: row;
-            -ms-flex-direction: row;
+          
             flex-direction: row;
             .wrapper {
                 width: 35%;
-                height: 60%;
+                height: 100%;
             }
             p {
               margin-left: 0;

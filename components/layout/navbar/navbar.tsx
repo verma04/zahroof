@@ -15,7 +15,7 @@ const Navbar: React.FC<{}> = () => {
 
     // returned function will be called on component unmount
 
-    console.log(window.pageYOffset);
+
   }, []);
 
   const handleScroll = () => {
@@ -52,18 +52,18 @@ const Navbar: React.FC<{}> = () => {
               </li>
               <li>
                 <Link href="/enterpriseSolutions">
-                  <a   className={router.pathname == "/enterpriseSolutions" ? "active" : ""} >Enterprise Solutions</a>
+                  <a   className={router.pathname == "/enterpriseSolutions" ? "active" : ""} >C-Suite Benefits</a>
                 </Link>
 
                
               </li>
               <li>
                 <Link href="/engineeringSolutions">
-                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} id={router.pathname == "/valveashero" ? "active" : ""} >Engineering Solutions</a>
+                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} id={router.pathname == "/valveashero" ? "active" : ""} >Field Benefits</a>
                 </Link>
                 <div className="valve" >
                 <Link href="/valveashero">
-                  <a id='act'  >Valve as hero</a>
+                  <a id='act'  >How It Works</a>
                 </Link>
                 </div>
               </li>
@@ -101,7 +101,7 @@ const Navbar: React.FC<{}> = () => {
                   layout="fill"
                   objectFit="contain"
                   alt="Zahroof Logo"
-                  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png"
+                  src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/e97kcjeyp4r5dh1g4omc.png"
                 ></Image>
               </div>
               <div className="nav-right">
@@ -128,7 +128,7 @@ const Navbar: React.FC<{}> = () => {
                           objectFit="contain"
                           layout="fill"
                           src={
-                            "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png"
+                            "https://app.zahroofvalves.com/wp-content/uploads/2021/09/e97kcjeyp4r5dh1g4omc.png"
                           }
                           alt="Zaharoof Logo"
                         />
@@ -149,19 +149,19 @@ const Navbar: React.FC<{}> = () => {
                       
                           <Link href="/enterpriseSolutions">
                         
-                            Enterprise Solutions
+                            C-Suite Benefits
                           </Link>
                         </h3>
                         <h3 id={router.pathname == "/people" ? "active" : ""}>
                       
                           <Link href="/engineeringSolutions">
-                            Engineering Solutions
+                            Field Benefits
                           </Link>
                         </h3>
                         <h3 id={router.pathname == "/people" ? "active" : ""}>
                       
                       <Link href="/valveashero">
-                      Valve as hero
+                      How It Works
                       </Link>
                     </h3>
                         <h3 id={router.pathname == "/careers" ? "active" : ""}>
@@ -201,7 +201,7 @@ const Navbar: React.FC<{}> = () => {
                 objectFit="contain"
                 layout="fill"
                 src={
-                  "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png"
+                  "https://app.zahroofvalves.com/wp-content/uploads/2021/09/e97kcjeyp4r5dh1g4omc.png"
                 }
                 alt="Zaharoof Logo"
               />
@@ -215,18 +215,18 @@ const Navbar: React.FC<{}> = () => {
               </li>
               <li>
                 <Link href="/enterpriseSolutions">
-                  <a   className={router.pathname == "/enterpriseSolutions" ? "active" : ""} >Enterprise Solutions</a>
+                  <a   className={router.pathname == "/enterpriseSolutions" ? "active" : ""} >C-Suite Benefits</a>
                 </Link>
 
                
               </li>
               <li>
                 <Link href="/engineeringSolutions">
-                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} id={router.pathname == "/valveashero" ? "active" : ""} >Engineering Solutions</a>
+                  <a  className={router.pathname == "/engineeringSolutions" ? "active" : ""} id={router.pathname == "/valveashero" ? "active" : ""} >Field Benefits</a>
                 </Link>
                 <div className="valve" >
                 <Link href="/valveashero">
-                  <a  id='act'  >Valve as hero</a>
+                  <a  id='act'  >How It Works</a>
                 </Link>
                 </div>
               </li>
@@ -263,7 +263,7 @@ const Navbar: React.FC<{}> = () => {
                   layout="fill"
                   objectFit="contain"
                   alt="Zahroof Logo"
-                  src="https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png"
+                  src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/e97kcjeyp4r5dh1g4omc.png"
                 ></Image>
               </div>
               <div className="nav-right">
@@ -290,7 +290,7 @@ const Navbar: React.FC<{}> = () => {
                           objectFit="contain"
                           layout="fill"
                           src={
-                            "https://res.cloudinary.com/dzcmadjl1/image/upload/v1623821289/z5k5c8xjr9o0dunv7gce.png"
+                            "https://app.zahroofvalves.com/wp-content/uploads/2021/09/e97kcjeyp4r5dh1g4omc.png"
                           }
                           alt="Zaharoof Logo"
                         />
@@ -311,20 +311,20 @@ const Navbar: React.FC<{}> = () => {
                       
                           <Link href="/enterpriseSolutions">
                         
-                            Enterprise Solutions
+                            C-Suite Benefits
                           </Link>
                         </h3>
                         <h3 id={router.pathname == "/people" ? "active" : ""}>
                       
                           <Link href="/engineeringSolutions">
-                            Engineering Solutions
+                            Field Benefits
                           </Link>
                         </h3>
 
                         <h3 id={router.pathname == "/people" ? "active" : ""}>
                       
                       <Link href="/valveashero">
-                        Valve as hero
+                        How It Works
                       </Link>
                     </h3>
                         <h3 id={router.pathname == "/careers" ? "active" : ""}>

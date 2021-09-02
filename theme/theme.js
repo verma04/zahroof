@@ -291,5 +291,11 @@ li {
 img {
   cursor: pointer;
 }
+@media (min-width: 1281px) {
 
+  h2 {
+    line-height: 55.31px !important;
+  }
+
+}
  `;

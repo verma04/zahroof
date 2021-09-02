@@ -102,7 +102,7 @@ export const Section = styled.section`
                color: ${(props) => props.theme.colors.darkblue};
 
               font-size: 150px;
-
+              line-height: 185px !important;
               text-transform: uppercase;
             }
             h3 {
