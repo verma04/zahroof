@@ -26,7 +26,7 @@ export const Section = styled.section`
 ;
      
         height: 140px;
-        h2 {
+        h3 {
           width: 60%;
           line-height: 30px;
           font-size: 24px;
@@ -90,7 +90,7 @@ export const Section = styled.section`
             justify-content: flex-start;
             align-items: left;
             flex-direction: column;
-            h2 {
+            h3 {
               margin-top: 90px;
               position: relative;
               padding-left: 0.5rem;
@@ -165,7 +165,7 @@ export const Section = styled.section`
         background-color:  ${(props) => props.theme.colors.darkblue};
 ;
         height: 140px;
-        h2 {
+        h3 {
           width: 60%;
           line-height: 30px;
           font-size: 24px;
@@ -205,7 +205,7 @@ export const Section = styled.section`
 
         height: 200px;
 
-        h2 {
+        h3 {
           width: 90%;
          
           font-family: Proxima-Light;

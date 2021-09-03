@@ -164,15 +164,17 @@ const Navbar: React.FC<{}> = () => {
                       How It Works
                       </Link>
                     </h3>
-                        <h3 id={router.pathname == "/careers" ? "active" : ""}>
+                    <h3 id={router.pathname == "/people" ? "active" : ""}>
+                    <Link href="/caseStudies">
+                  <a className={router.pathname == "/caseStudies" ? "active" : ""}>Case Studies </a>
+                </Link>
+                </h3>
+                        <h3 id={router.pathname == "/esgbenefits" ? "active" : ""}>
                           {" "}
                           <Link href="/esgbenefits">Esg Benefits</Link>
                         </h3>
                        
-                        <h3 id={router.pathname == "/news" ? "active" : ""}>
-                          {" "}
-                          <Link href="/aboutus">About Us</Link>
-                        </h3>
+                     
                         <h3
                           id={
                             router.pathname == "/partnerships" ? "active" : ""
@@ -235,6 +237,8 @@ const Navbar: React.FC<{}> = () => {
                   <a  className={router.pathname == "/esgbenefits" ? "active" : ""}  >ESG BENeFITS</a>
                 </Link>
               </li>
+
+          
 
               <li>
                 <Link href="/aboutus">
@@ -331,7 +335,11 @@ const Navbar: React.FC<{}> = () => {
                           {" "}
                           <Link href="/esgbenefits">Esg Benefits</Link>
                         </h3>
-                       
+                        <h3>
+                <Link href="/caseStudies">
+                  <a className={router.pathname == "/caseStudies" ? "active" : ""}>Case Studies </a>
+                </Link>
+              </h3>
                         <h3 id={router.pathname == "/news" ? "active" : ""}>
                           {" "}
                           <Link href="/aboutus">About Us</Link>

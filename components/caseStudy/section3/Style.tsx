@@ -78,7 +78,7 @@ export const Section = styled.section`
               text-transform: uppercase;
             padding: 0.5rem;
             color:  white;
-              background-color:  #757a7d;
+              background-color:   #3c4e62;;
 ;
             }
           
@@ -115,7 +115,7 @@ export const Section = styled.section`
             color:   white;
             font-size: 40px;
     line-height: 40px;
-     background-color:    #757a7d;
+     background-color:     #3c4e62;;
      padding: 0.5rem;
      padding-left: 2em;
      padding-right: 2rem;
@@ -1002,7 +1002,7 @@ background-color:  ${(props) => props.theme.colors.blue};
               text-transform: uppercase;
             padding: 0.5rem;
             color:  white;
-              background-color:  #757a7d;
+              background-color:   #3c4e62;;
 
      padding: 0.5rem;
       align-items: center;

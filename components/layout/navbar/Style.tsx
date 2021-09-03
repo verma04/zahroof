@@ -104,7 +104,8 @@ li:nth-child(3):hover {
  
       z-index: 1000;
       position: fixed;
-      background-color: rgb(0 ,144 ,205);
+      background-color: #3c4e62a8;;
+
       top: 0%;
 
       width: 100%;
@@ -272,7 +273,7 @@ background-color:  ${(props) => props.theme.colors.blue};;
     .navbar1 {
       z-index: 1000;
       position: fixed;
-      background-color: rgb(0 ,144 ,205);
+      background-color: #3c4e62a8;;
       top: 0%;
 
       width: 100%;
@@ -408,7 +409,7 @@ li:nth-child(3):hover {
       z-index: 99999;
       height: 6rem;
       position: fixed;
-      background-color: rgb(0 ,144 ,205);
+      background-color: #3c4e62a8;;
       top: 0%;
     }
     .sm {
@@ -568,7 +569,7 @@ li:nth-child(3):hover {
       
       
       position: fixed;
-      background-color: rgb(0 ,144 ,205);
+      background-color: #3c4e62a8;;
       top: 0%;
     }
     .sm {
@@ -633,7 +634,7 @@ li:nth-child(3):hover {
         }
 
         .list {
-          height: 85%;
+          height: 100%;
           display: flex;
           justify-content: center;
           align-items: center;

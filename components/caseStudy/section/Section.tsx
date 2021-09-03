@@ -9,13 +9,13 @@ const SectionOne: React.FC = () => {
     <Section>
       <div className="section">
         <div className="section_top">
-        <h2>
+        <h3>
 
         At Zahroof, we manufacture reciprocating compressor valves, 
 but what we really do is <span> - create staggering long -Term results. 
        
        </span>
-        </h2> 
+        </h3> 
         </div>
 
       </div>

@@ -295,7 +295,7 @@ performance of all others in the industry.</p> */}
               <div className="btn">
                 <button
                   onClick={() =>
-                    router.push(`/contactus`)
+                    router.push(`/caseStudies`)
                   }
                 >
                   See for YourSelf

@@ -51,7 +51,7 @@ export const Section = styled.section`
             h2 {
               width: 100%;
               font-size: 46px;
-              line-height: 40px;
+              line-height: 40px !important;
               text-align: center;
               position: relative;
             }
