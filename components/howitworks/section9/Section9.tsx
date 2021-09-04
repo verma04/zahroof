@@ -43,7 +43,7 @@ const SectionNine: React.FC<SectionNine> = (data) => {
                   }} />
                   <li>
                     <Image
-                     onClick={()=>router.push('/enterpriseSolutions')}
+                     onClick={()=>router.push('/c-suitebenefits')}
                       alt="Picture of the author"
                       objectFit="contain"
                       layout="fill"
@@ -51,7 +51,7 @@ const SectionNine: React.FC<SectionNine> = (data) => {
                   />
                   </li>
 
-                  <li  onClick={()=>router.push('/enterpriseSolutions')}>
+                  <li  onClick={()=>router.push('/fieldbenefits')}>
                     <h3 dangerouslySetInnerHTML={{
                       __html: data.data.valveasherofiveLeftContent
                     }} />

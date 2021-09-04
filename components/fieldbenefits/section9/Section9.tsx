@@ -49,7 +49,7 @@ const HeroSection: React.FC<SectionFiveProps> = (data) => {
                     />
                   </li>
                   <li
-                  onClick={()=>router.push('/enterpriseSolutions')}
+                  onClick={()=>router.push('/c-suitebenefits')}
                     dangerouslySetInnerHTML={{
                       __html: data.data.engineeringfiveLeftContent,
                     }}

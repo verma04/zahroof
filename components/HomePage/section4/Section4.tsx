@@ -59,7 +59,144 @@ const Section4: React.FC<Section4> = (data) => {
   return (
     <Section>
       <div className="section4">
-        <div className="section4_top">
+
+         <div className="section4_top_new">
+
+<div  className="icon" >
+              <div className="img-wrapper">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src={
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/09/Gas.png"
+                  }
+                  alt=""
+                />
+              </div>
+              <span>Industrial gases</span>
+            </div>
+            <div  className="icon" id="ch">
+              <div className="img-wrapper">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src={
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/09/Natural-Gas-Industry.png"
+                  }
+                  alt=""
+                />
+              </div>
+              <span>Natural gas Industry</span>
+            </div>
+
+
+            <div  className="icon" id="center">
+            <div className="head" >
+
+<h2>performance 
+across
+industries</h2>
+</div>
+            </div>
+
+
+            <div  className="icon" id="ch">
+              <div className="img-wrapper">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src={
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/09/Vector-Smart-Object-2.png"
+                  }
+                  alt=""
+                />
+              </div>
+              <span>Refineries</span>
+            </div>
+
+            <div  className="icon" id="Cng">
+              <div className="img-wrapper">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src={
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/09/CNG.png"
+                  }
+                  alt=""
+                />
+              </div>
+              <span>Cng Industry</span>
+            </div>
+            <div  className="icon" id="ch">
+              <div className="img-wrapper">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src={
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/09/Oil-Gas.png"
+                  }
+                  alt=""
+                />
+              </div>
+              <span>Oil And Gas </span>
+            </div>
+            <div  className="icon" id="hydrogen">
+              <div className="img-wrapper">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src={
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/09/Hydrogen-Production.png"
+                  }
+                  alt=""
+                />
+              </div>
+              <span>Hydrogen production</span>
+            </div>
+            <div  className="icon" id="ch">
+              <div className="img-wrapper">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src={
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/09/LNG.png"
+                  }
+                  alt=""
+                />
+              </div>
+              <span>Lng</span>
+            </div>
+            <div  className="icon" id="chemical">
+              <div className="img-wrapper">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src={
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/09/Chemicals.png"
+                  }
+                  alt=""
+                />
+              </div>
+              <span>chemicals</span>
+            </div>
+            <div   className="icon" id="ch">
+              <div className="img-wrapper">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src={
+                    "http://app.zahroofvalves.com/wp-content/uploads/2021/09/Offshore-Applications.png"
+                  }
+                  alt=""
+                />
+              </div>
+              <span>Offshore Applications</span>
+            </div>
+
+
+
+</div>
+        {/* <div className="section4_top">
           <div className="tringle"></div>
 
           <div data-aos="zoom-in" className="section4_top_data">
@@ -194,7 +331,7 @@ const Section4: React.FC<Section4> = (data) => {
           </div>
         </div>
       
-   
+    */}
           <div className="section4_mid">
             <div className="section4_mid_left">
             <div  className="img_wrapper">

@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "../components/valueashero/Valve";
+import Home from "../components/howitworks/howitworks";
 
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 interface Valueashero {

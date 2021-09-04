@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "../components/enterpriseSolution/enterprise";
+import Home from "../components/c-suitebenefits/c-suitebenefits";
 
 
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";

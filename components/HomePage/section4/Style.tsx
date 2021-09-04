@@ -19,7 +19,60 @@ export const Section = styled.section`
   width: 100%;
   align-items: center;
   position: relative;
+  .section4_top_new {
+    position: relative;
+    height: 40rem;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    .icon {
+      width: 20%;
+      height: 50%;
+     
+      background-color: #22334c;
+      display: flex;
+      justify-content: flex-end;
+       align-items: center;
+      flex-direction: column;
+      .head {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          text-transform: uppercase;
+          width: 70%;
+          text-align: center;
+          font-size: 2rem;
+        }
+      }
+      .img-wrapper {
+        position: relative;
+        width: 40%;
+        height: 40%;
+      }
 
+      span {
+        margin-top: 0.5rem;
+     margin-bottom: 4rem;
+    margin-top:2rem;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+    #ch {
+      background-color: #213d63;
+
+
+    }
+#center {
+  background:     ${(props) => props.theme.colors.blue};
+}
+  }
   .section4_top {
     position: relative;
     height: 73rem;
@@ -428,7 +481,60 @@ height: 10rem;
       width: 100%;
       align-items: center;
       position: relative;
+      .section4_top_new {
+    position: relative;
+    height: 40rem;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    .icon {
+      width: 20%;
+      height: 50%;
+     
+      background-color: #22334c;
+      display: flex;
+      justify-content: flex-end;
+       align-items: center;
+      flex-direction: column;
+      .head {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          text-transform: uppercase;
+          width: 70%;
+          text-align: center;
+          font-size: 2rem;
+        }
+      }
+      .img-wrapper {
+        position: relative;
+        width: 40%;
+        height: 40%;
+      }
 
+      span {
+        margin-top: 0.5rem;
+     margin-bottom: 4rem;
+    margin-top:2rem;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+    #ch {
+      background-color: #213d63;
+
+
+    }
+#center {
+  background:     ${(props) => props.theme.colors.blue};
+}
+  }
       .section4_top {
         position: relative;
         height: 55rem;
@@ -832,6 +938,61 @@ min-width: 10% !important;
       align-items: center;
       position: relative;
 
+      .section4_top_new {
+    position: relative;
+    height: 25rem;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    .icon {
+      width: 20%;
+      height: 50%;
+     
+      background-color: #22334c;
+      display: flex;
+      justify-content: flex-end;
+       align-items: center;
+      flex-direction: column;
+      .head {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          text-transform: uppercase;
+          width: 90%;
+          text-align: center;
+          font-size: 1.5rem;
+        }
+      }
+      .img-wrapper {
+        position: relative;
+        width: 40%;
+        height: 40%;
+      }
+
+      span {
+        margin-top: 0.5rem;
+     margin-bottom: 4rem;
+    margin-top:2rem;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+    #ch {
+      background-color: #213d63;
+
+
+    }
+#center {
+  background:     ${(props) => props.theme.colors.blue};
+}
+  }
+
       .section4_top {
         position: relative;
         height: 47rem;
@@ -1223,6 +1384,63 @@ min-width: 10% !important;
       align-items: center;
       position: relative;
 
+      .section4_top_new {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    .icon {
+      width: 20%;
+      height: 50%;
+     
+      background-color: #22334c;
+      display: flex;
+      justify-content: flex-end;
+       align-items: center;
+      flex-direction: column;
+      .head {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          text-transform: uppercase;
+          width: 90%;
+          text-align: center;
+          font-size: 1.2rem;
+        }
+      }
+      .img-wrapper {
+        position: relative;
+        width: 40%;
+        height: 40%;
+      }
+
+      span {
+        margin-top: 0.5rem;
+     margin-bottom: 2rem;
+    margin-top:2rem;
+    font-size: 0.9rem;
+    align-items: center;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+    #ch {
+      background-color: #213d63;
+
+
+    }
+#center {
+  background:     ${(props) => props.theme.colors.blue};
+}
+  }
+
       .section4_top {
         position: relative;
         height: 39rem;
@@ -1594,6 +1812,63 @@ min-width: 10% !important;
       width: 100%;
       align-items: center;
       position: relative;
+
+      .section4_top_new {
+    position: relative;
+  
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    .icon {
+      width: 50%;
+      height: 10rem;
+     
+      background-color: #22334c;
+      display: flex;
+      justify-content: flex-end;
+       align-items: center;
+      flex-direction: column;
+      .head {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          text-transform: uppercase;
+          width: 90%;
+          text-align: center;
+          font-size: 1.2rem;
+        }
+      }
+      .img-wrapper {
+        position: relative;
+        width: 40%;
+        height: 40%;
+      }
+
+      span {
+        margin-top: 0.5rem;
+     margin-bottom: 2rem;
+    margin-top:2rem;
+    font-size: 0.9rem;
+    align-items: center;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+    #ch {
+      background-color: #213d63;
+
+
+    }
+#center {
+  background:     ${(props) => props.theme.colors.blue};
+}
+  }
 
       .section4_top {
         position: relative;

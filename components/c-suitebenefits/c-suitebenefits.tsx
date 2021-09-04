@@ -145,8 +145,8 @@ const enterprise: React.FC<Enterprise> = ({data}) => {
       <Section4 data={data} />
       <Section5 data={data} />
       <Section6 data={data} />
-      <Section7 data={data} />
-      <SectionBottom  />
+      
+      <SectionBottom  data={data} />
       <Makecall />
       <Footer />
     </div>

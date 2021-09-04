@@ -1,6 +1,6 @@
 import React from "react";
 import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
-import Home from "../components/engineeringSolution/engneering";
+import Home from "../components/fieldbenefits/fieldbenefits";
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
 interface Engineering {
   data: {
