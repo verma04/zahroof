@@ -68,7 +68,7 @@ const Section4: React.FC<Section4> = (data) => {
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/09/Gas.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/09/Gas.png"
                   }
                   alt=""
                 />
@@ -146,7 +146,7 @@ industries</h2>
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/09/Hydrogen-Production.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/09/Hydrogen-Production.png"
                   }
                   alt=""
                 />
@@ -172,7 +172,7 @@ industries</h2>
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/09/Chemicals.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/09/Chemicals.png"
                   }
                   alt=""
                 />
@@ -185,7 +185,7 @@ industries</h2>
                   objectFit="contain"
                   layout="fill"
                   src={
-                    "http://app.zahroofvalves.com/wp-content/uploads/2021/09/Offshore-Applications.png"
+                    "https://app.zahroofvalves.com/wp-content/uploads/2021/09/Offshore-Applications.png"
                   }
                   alt=""
                 />
