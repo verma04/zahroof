@@ -26,8 +26,10 @@ export const Nav = styled.nav`
 
   @media (min-width: 1281px) {
     width: 100%;
-    height: 10rem;
+    height: 6rem;
+    background-color: #3c4e62a8;;
     .navbar {
+   
       width: 95%;
       height: 100%;
 
@@ -38,7 +40,7 @@ export const Nav = styled.nav`
         position: relative;
         width: 24%;
 
-        height: 100%;
+        height: 50%;
       }
       .navbar_right {
         display: flex;
@@ -100,11 +102,11 @@ li:nth-child(3):hover {
 
     .navbar1 {
 
-  
+      background-color: #3c4e62;
  
       z-index: 1000;
       position: fixed;
-      background-color: #3c4e62a8;;
+
 
       top: 0%;
 
@@ -216,6 +218,7 @@ li:nth-child(3):hover {
   @media (min-width: 1024px) and (max-width: 1280px) {
     width: 100%;
     height: 6rem;
+    background-color: #3c4e62a8;;
     .navbar {
       width: 95%;
       height: 100%;
@@ -273,9 +276,10 @@ background-color:  ${(props) => props.theme.colors.blue};;
     .navbar1 {
       z-index: 1000;
       position: fixed;
-      background-color: #3c4e62a8;;
+     
       top: 0%;
 
+      background-color: #3c4e62;
       width: 100%;
       height: 4rem;
 
