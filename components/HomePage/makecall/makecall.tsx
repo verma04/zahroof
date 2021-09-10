@@ -1,15 +1,55 @@
 import React from 'react'
 import { Section} from './Style'
 import Image from 'next/image'
-
+import { ToastContainer, toast } from 'react-toastify';
 import { useRouter } from "next/router";
+import axios from 'axios'
+import { useForm, SubmitHandler  } from "react-hook-form";
  const HeroSection: React.FC<{}> = () => {
+
+    type Inputs = {
+        Name: string;
+      
+        Last: string;
+        Location: string;
+        Email: string;
+        Subject: string;
+       Message: string;
+       Department: string
+      };
+      
+      interface User {
+        id: number;
+        firstName: string;
+      }
     const router = useRouter();
+
+    const { register, handleSubmit, watch, formState: { errors } } = useForm<Inputs>();
+
+
+ 
+
+    const onSubmit: SubmitHandler<Inputs> = async  data =>   {
+  
+      
+      axios.post<User>('/api/makethecall', data)
+      .then((response) => {
+        
+        toast.success("Success")
+      
+      })
+      
+    
+  
+    }
     return (
+
+      
+      
         <Section>
         
            
-           <div className="section" >
+           <div className="section"  >
              
            
              
@@ -55,27 +95,27 @@ import { useRouter } from "next/router";
       
             </div>
     <div className="form">
-        <form>
+        <form onSubmit={handleSubmit(onSubmit)}>
             <div className="input-field" >
 
             <div className="field" >
                
-         <input placeholder="Your Name" ></input>
+         <input {...register("Name")} placeholder="Your Name" ></input>
                 </div>
                 <div className="field" >
                
-         <input  placeholder="Your Email" ></input>
+         <input {...register("Email")}  placeholder="Your Email" ></input>
                 </div>
 
             </div>
             <div className="input-field" >
             <div className="field" >
                 
-         <input  placeholder="Subject" ></input>
+         <input  {...register("Subject")}  placeholder="Subject" ></input>
                 </div>
                 <div className="field" >
                 
-                <select className="select">
+                <select {...register("Department")} className="select">
                     <option value="">Department</option>
                     <option value="Engineering">Engineering</option>
                     <option value="Enterprise">Enterprise</option>
@@ -91,7 +131,7 @@ import { useRouter } from "next/router";
 
                 <div className="field" >
                 
-         <textarea  placeholder="Message"></textarea>
+         <textarea {...register("Message")}  placeholder="Message"></textarea>
                 </div>
                 
                 </div>

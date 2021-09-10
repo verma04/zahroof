@@ -52,7 +52,7 @@ label {
 }
   body {
     color: #2f3435; 
-  font-family: Proxima;
+  font-family: Proxima-Light;
 
       overflow-x: hidden;
        

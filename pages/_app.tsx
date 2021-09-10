@@ -13,6 +13,8 @@ import "nprogress/nprogress.css";
 import dynamic from "next/dynamic";
 var perf =`<!DOCTYPE html><html lang="en"><head> <script>window.pipedriveLeadboosterConfig = {base: 'leadbooster-chat.pipedrive.com',companyId: 8000944,playbookUuid: 'de6e08a0-1384-45bb-89a2-ea045dc5df4a',version: 2};(function () {var w = window;if (w.LeadBooster) {console.warn('LeadBooster already exists');} else {w.LeadBooster = {q: [],on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},trigger: function (n) {this.q.push({ t: 't', n: n });},};}})();</script><script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async></script></head><body></body></html>`
 import Chat from '../components/Chat'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     AOS.init({
@@ -50,7 +52,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
 </style>
       </Head>
-
+<ToastContainer/>
       <ThemeProvider theme={theme}>
       <div dangerouslySetInnerHTML={ {__html: perf} } />  
         <GlobalFonts />

@@ -1,14 +1,56 @@
 import React from "react";
 import { Section } from "./Style";
 import Image from "next/image";
-
+import { useForm, SubmitHandler } from "react-hook-form";
+import sgMail from    "@sendgrid/mail";
+import axios from 'axios'
+import { ToastContainer, toast } from 'react-toastify';
 interface Section {
   data: {
     contactaddress: string;
     content: string;
   }; // Change the required prop to an optional prop.
 }
+
+
+
+type Inputs = {
+  Name: string;
+
+  Last: string;
+  Location: string;
+  Email: string;
+ Company: string;
+ Comment: string;
+ Phone: string
+};
+
+interface User {
+  id: number;
+  firstName: string;
+}
+
+
 const HeroSection: React.FC<Section> = (data) => {
+  const { register, handleSubmit, watch, formState: { errors } } = useForm<Inputs>();
+
+
+ 
+
+  const onSubmit: SubmitHandler<Inputs> = async  data =>   {
+
+    
+    axios.post<User>('/api/formEnquiry', data)
+    .then((response) => {
+      
+      toast.success("Success")
+    
+    })
+    
+  
+
+  }
+
   return (
     <Section>
       <div className="section">
@@ -53,34 +95,34 @@ quote, please use the contact form to the right
 
           <div className="section_right">
             <div className="form">
-              <form>
+              <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="input-field">
                   <div className="field">
                     <label>Name*</label>
-                    <input></input>
+                    <input {...register("Name")}></input>
                   </div>
                   <div className="field">
-                    <input></input>
+                    <input {...register("Last")}></input>
                   </div>
                 </div>
                 <div className="input-field">
                   <div className="field">
                     <label>Phone*</label>
-                    <input></input>
+                    <input {...register("Phone")}></input>
                   </div>
                   <div className="field">
                     <label>Company*</label>
-                    <input></input>
+                    <input {...register("Company")} ></input>
                   </div>
                 </div>
                 <div className="input-field">
                   <div className="field">
                     <label>Email*</label>
-                    <input></input>
+                    <input {...register("Email")}></input>
                   </div>
                   <div className="field">
                     <label>Location*</label>
-                    <input></input>
+                    <input {...register("Location")}></input>
                   </div>
                 </div>
                 <div className="input-field-2">
@@ -104,8 +146,8 @@ quote, please use the contact form to the right
                 </div>
                 <div className="input-field-1">
                   <div className="field">
-                    <label>Comment*</label>
-                    <textarea></textarea>
+                    <label >Comment*</label>
+                    <textarea {...register("Comment")}></textarea>
                   </div>
                 </div>
                 <div className="input-field">
