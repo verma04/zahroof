@@ -14,7 +14,7 @@ router.post("/formEnquiry", (req, res) => {
    
     
     const msg = {
-      to: 'pankaj.k@amakein.com',
+      to: 'sales@zahroofvalves.com',
       from: 'sales@zahroofvalves.com',
       subject: "Contactus form  Website ",
     
@@ -56,7 +56,7 @@ router.post("/makethecall", (req, res) => {
  
   
   const msg = {
-    to: 'pankaj.k@amakein.com',
+    to: 'sales@zahroofvalves.com',
     from: 'sales@zahroofvalves.com',
     subject: "Make the call",
   
