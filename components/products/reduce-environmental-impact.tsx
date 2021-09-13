@@ -1,27 +1,21 @@
 import React from 'react'
+import Navbar from '../layout/navbar/navbar'
+
 '../../main/'
- import { Section } from './Section'
+import { Section } from './Section'
 const data = `
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head><script src="/gdpr/gdprscript.js?buildTime=1626451745&hasRemindMe=true&stealth=false"></script>
-		<title>Energy Efficient Gas Compressor Valve</title><meta property="og:site_name" content="Reciprocating Compressor Valves | Gas Compressor Valves | Compressor Reed Valve" />
-<meta property="og:title" content="Energy Efficient Gas Compressor Valve" />
-<meta property="og:description" content="Gas flows straight through the Straightflo valve compared to a conventional valve decreasing gas losses." />
-<meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/9441575.jpg" />
-<meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/241502.jpg" />
-<meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/3728142.jpg" />
-<meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/4002879.jpg" />
-<meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/9653300.jpg?1370588351" />
-<meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/3212751.jpg?1370588501" />
-<meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/4383568.jpg?1370588607" />
-<meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/1420176.jpg?1370589492" />
+		<title>High Efficiency Reciprocating Compressor Valves</title><meta property="og:site_name" content="Reciprocating Compressor Valves | Gas Compressor Valves | Compressor Reed Valve" />
+<meta property="og:title" content="High Efficiency Reciprocating Compressor Valves" />
+<meta property="og:description" content="Higher efficiency valves reduce waste, emissions, noise and fuel consumption." />
 <meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/926668.png?286" />
 <meta property="og:image" content="http://zahroofvalves.com/uploads/3/5/0/8/35082493/6503094.jpg" />
-<meta property="og:url" content="http://zahroofvalves.com/reduce-energy-consumption.html" />
+<meta property="og:url" content="http://zahroofvalves.com/reduce-environmental-impact.html" />
 
-<meta name="description" content="Gas flows straight through the Straightflo valve compared to a conventional valve decreasing gas losses." />
-<meta name="keywords" content="reciprocating compressor valve, gas compressor valves" />
+<meta name="description" content="Higher efficiency valves reduce waste, emissions, noise and fuel consumption." />
+<meta name="keywords" content="reciprocating compressor valves" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 		<!-- Google Tag Manager -->
@@ -126,7 +120,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	function initFlyouts(){
 		initPublishedFlyoutMenus(
 			[{"id":"394811147781582724","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"918864067831982655","title":"OUR COMPANY","url":"our-company.html","target":"","nav_menu":false,"nonclickable":false},{"id":"964547821291943168","title":"Products","url":"products.html","target":"","nav_menu":false,"nonclickable":false},{"id":"452639891948759428","title":"MARKETS SERVED","url":"markets-served.html","target":"","nav_menu":false,"nonclickable":false},{"id":"666268144739025962","title":"CONTACT US","url":"contact-us.html","target":"","nav_menu":false,"nonclickable":false},{"id":"658306411992770923","title":"NEWS AND EVENTS","url":"news-and-events.html","target":"","nav_menu":false,"nonclickable":false},{"id":"765402590632135896","title":"FREQUENTLY ASKED QUESTIONS","url":"frequently-asked-questions.html","target":"","nav_menu":false,"nonclickable":false},{"id":"497958070543739520","title":"SUPPORT","url":"support1.html","target":"","nav_menu":false,"nonclickable":false}],
-			"276975568877595025",
+			"215827531794035248",
 			'',
 			'active',
 			false,
@@ -139,7 +133,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 		
 		
 	</head>
-	<body class=" text-header wsite-theme-light  wsite-page-reduce-energy-consumption"><div class="design">
+	<body class=" text-header wsite-theme-light  wsite-page-reduce-environmental-impact"><div class="design">
 	<a href="http://divtagtemplates.com/weebly-themes/pendulum/">Designer Weebly Themes</a><a href="http://www.websitebuilderexpert.com/weebly-review/">weebly review</a>
 	<a href="http://www.websitebuilderexpert.com/wix-review/">wix review</a><a href="http://www.websitebuilderexpert.com/squarespace-review/">squarespace review</a>
 	<a href="http://www.websitebuilderexpert.com/jimdo-review/">jimdo review</a></div>
@@ -240,7 +234,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	
 </li>
 <li id="wsite-nav-276975568877595025"
-	class="wsite-menu-subitem-wrap wsite-nav-current"
+	class="wsite-menu-subitem-wrap "
 	>
 	<a
 				href="/reduce-energy-consumption.html"
@@ -279,7 +273,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	
 </li>
 <li id="wsite-nav-215827531794035248"
-	class="wsite-menu-subitem-wrap "
+	class="wsite-menu-subitem-wrap wsite-nav-current"
 	>
 	<a
 				href="/reduce-environmental-impact.html"
@@ -419,56 +413,12 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 			<div class="clear"></div>
 			<div class="page-title">
 				 <h2><span class="wsite-text wsite-headline">
-	<font color="#008ccc">E</font><font color="#000000">nergy Efficient</font>
+	<font color="#000000">Reduce Environmental Impact</font>
 </span></h2>
 			</div>
 			<div role="main">
 				<div id="content"><div id="wsite-content" class="wsite-elements wsite-not-footer">
-	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
-					
-						
-
-<div><div style="text-align: center;"><a><img src="/uploads/3/5/0/8/35082493/9441575.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Flow thru poppet/plate/ring valve</div></div></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
-					
-						
-
-<div><div style="text-align: center;"><a><img src="/uploads/3/5/0/8/35082493/241502.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Flow thru ZPV valve</div></div></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:33.333333333333%; padding:0 15px;">
-					
-						
-
-<div><div style="text-align: center;"><a><img src="/uploads/3/5/0/8/35082493/3728142.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">PV Diagram with valve losses</div></div></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<h2><font size="6">Straight Thru-Flow, Highest Effective Area</font></h2>
-<span class='imgPusher' style='float:left;height:0px'></span><span style='position:relative;float:left;z-index:1;;clear:left;margin-top:0px;*margin-top:0px'><a><img class="wsite-image galleryImageBorder" src="/uploads/3/5/0/8/35082493/4002879.jpg" style="margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;">Flow through a quarter section of a module.</div></span>
-<div class="paragraph" style="text-align:left;display:block;"><font size="4"><font size="3">The flow through a StraightFlo valve has almost negligible deviation of the gas stream with very low resistance to flow and hence very low pressure drop. This is unlike a conventional valve where the flow makes at least two right angles while traversing the valve.</font><br /><br /><font size="3"><span>The flow through one module of a </span>StraightFlo valve is independent of the flow through its adjacent module. In conventional valves, such as poppet valves or ring valves, the flow past a poppet or ring interferes with the flow past the adjacent poppet or ring, causing large losses. In a ported plate valve, the flow through a port in the plate interferes with the flow through an adjacent port in the plate causing losses.<br /><br />There is no pre-load acting on the reeds of the modules of StraightFlo valves that have to be overcome for the gas to start flowing. This means that StraightFlo valves have almost zero cracking pressure unlike conventional valves where the sealing elements (poppet/plate/ring) are pre-loaded by one or multiple springs. This means even less resistance to flow.<br /><br />The above factors result in StraightFlo valves having the highest effective area among all compressor valves, typically 40 - 60% more for our standard valves. However, for our StraightFlo HEV (High Efficiency Valve), the effective area is increased over 100% compared to conventional valves on account of more modules being used within the same valve diameter.</font></font><br /></div>
-<hr style="clear:both;visibility:hidden;width:100%;"></hr>
-
-<div><div style="text-align: center;"><a href='/uploads/3/5/0/8/35082493/9653300_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'><img src="/uploads/3/5/0/8/35082493/9653300.jpg?1370588351" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 0; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
-
-<div><div style="text-align: center;"><a href='/uploads/3/5/0/8/35082493/3212751_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'><img src="/uploads/3/5/0/8/35082493/3212751.jpg?1370588501" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 0; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
-
-<div><div style="text-align: center;"><a href='/uploads/3/5/0/8/35082493/4383568_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'><img src="/uploads/3/5/0/8/35082493/4383568.jpg?1370588607" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 0; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
-
-<div><div style="text-align: center;"><a><img src="/uploads/3/5/0/8/35082493/1420176.jpg?1370589492" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 0; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Open loop flow test shows lower resistance to flow through ZPV</div></div></div>
+	<div class="paragraph"><ul><li><font size="4">Higher efficiency valves result in lower fuel consumption for the same work. 10% lower fuel consumption in a typical 1000 rpm high speed pipeline compression application with our standard StraightFlo valves. </font></li><li><font size="4">Reduce fuel consumption and hence emissions with a simple change of valves. Minimize your Carbon footprint.</font></li><li><font size="4">Increased compressor service intervals of 5X to more than 10X with StraightFlo valves mean reduced methane emissions due to blow-down of pipes, venting, purging and flaring.</font></li><li><font size="4">Reduce waste. Never machine or replace the valve seat or guard. Service interval doubled.</font></li><li><font size="4">Reduce vibration and noise. No impact of high mass elements on metal valve seats or guards. Noise levels drop by 7db or more. Vibration levels drop by a factor of 10.</font></li></ul></div>
 </div>
 </div>
 			</div>
@@ -567,6 +517,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 function products() {
     return (
       <Section>
+	
         <div
    
         dangerouslySetInnerHTML={{

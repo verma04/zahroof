@@ -1,6 +1,7 @@
 import React from 'react'
+
 '../../main/'
- import { Section } from './Section'
+import { Section } from './Section'
 const data = `
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -665,6 +666,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 function products() {
     return (
       <Section>
+		 
         <div
    
         dangerouslySetInnerHTML={{

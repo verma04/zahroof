@@ -1,6 +1,8 @@
 import React from 'react'
+import Navbar from '../layout/navbar/navbar'
+
 '../../main/'
- import { Section } from './Section'
+import { Section } from './Section'
 const data = `
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -144,7 +146,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 					<div id="logo"><span class="wsite-logo">
 
 	<a href="/">
-		<img src="/uploads/3/5/0/8/35082493/6503094.jpg" style="max-width:190px;" alt="Reciprocating Compressor Valves | Gas Compressor Valves | Compressor Reed Valve" />
+		<img src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/standardvalve_orig.jpg" style="max-width:190px;" alt="Reciprocating Compressor Valves | Gas Compressor Valves | Compressor Reed Valve" />
 	</a>
 
 </span></div>
@@ -419,7 +421,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 			<div role="main">
 				<div id="content"><div id="wsite-content" class="wsite-elements wsite-not-footer">
 	<h2 style="text-align:left;"><font color="#0085ca">Modular Design</font></h2>
-<span class='imgPusher' style='float:left;height:0px'></span><span style='position:relative;float:left;z-index:1;;clear:left;margin-top:0px;*margin-top:0px'><a href='/uploads/3/5/0/8/35082493/standardvalve_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'><img class="wsite-image galleryImageBorder" src="/uploads/3/5/0/8/35082493/standardvalve_orig.jpg" style="margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;"></div></span>
+
 <div class="paragraph" style="text-align:left;display:block;">The StraightFlo valve has a unique design where several standard and interchangeable modules are held stationary between the valve seat and carrier.<br /><br /><span style="color:rgb(98, 106, 113)">There are 12 standard modules in 3 materials, with the same external dimensions, that cover the entire speed range and operating conditions of existing industrial compressors. The 12 module variants differ in the reed lift and stiffness to allow the valve to be optimized for a given application. A module is selected for a valve based on the operating conditions of the cylinder in which it is installed.&nbsp;</span><br /><br />To optimize a valve for a specific application, the module variant with the optimum lift and stiffness is selected for a valve using Zahroof Valves Inc's proprietary Dynamic Valve Sizing Program. This program simulates the valves in the cylinder for the given application, using NIST real gas properties to calculate the reed displacement, velocity and forces as a function of crank angle to determine the various compressor parameters including flow and power.&nbsp;&nbsp;<span style="color:rgb(98, 106, 113)">It takes into consideration the cylinder and frame geometry, the gas composition, and the operating conditions to determine exactly when the reeds open, the flow of gas through the valves and the pressure drop across the valves as a result of this flow.</span><br /><br />Modules are interchangeable between valves, irrespective of the size of the valve, whether it be 1.5" in diameter or greater than 14" in diameter; whether it is a suction valve or a discharge valve; whether the valve goes into a cylinder made by manufacturer X or a cylinder made by manufacturer Y.<br /><br /><span style="color:rgb(98, 106, 113)">The wear in the valve is completely contained in the modules</span><span style="color:rgb(98, 106, 113)">. The modules are held stationary and there is no impact on the valve seat or carrier. Replacing the modules is all that needs to be done to turn around the valves, back to factory fresh condition. You never need to machine/replace the valve seat or carrier. The metal housings have a limited warranty of 10 years.</span><br /><br /><span>Modules are easily replaced. Remove the screws that hold the valve seat to the valve carrier. Slide out the old modules from the carrier using finger pressure. Slide in the</span> new modules. Reattach the valve seat to the valve carrier. The valve is now ready to be installed in the compressor cylinder. This process takes minutes per valve. <br /><br />he modular design of these valves result in the easiest valves to service, eliminating the need to ship the valves off site and to 3rd party service providers. It also negates the need to stock a full set of spares as these valves are so easy to repair on site. The StraightFlo valve design truly represents a new paradigm in valve service that is customer-centric.<br /><br /><span style="color:rgb(98, 106, 113)">With the StraightFlo valve, inventory can be minimized, by over 80% compared to operating with conventional valves. A company need only stock 6 - 8 different module part numbers for their entire fleet of compressors, irrespective of compressor brand, cylinder size, application and operating conditions. There is no need to stock fully assembled valves as the valves are easy to repair in house. Stock modules (8 different types in the worst case) instead of fully assembled valves. Customers are recommended to stock modules for their fleet based on their maintenance schedule. However, in the case of an emergency, ZVI can ship out replacement modules within 24 hours.&nbsp;</span><br /><br />Repairing compressors in the field is easy with the StraighFlo valve. With boxes of 8 module part numbers in your pick up truck and our installation/extraction tool to easily remove valves from a cylinder, it is possible to repair any compressor valve in the field, as you find a problem, without having to return to a warehouse to get the right valve or parts.<br /><br /><span>It is easy to re-rate a valve for a new application. Simply change out the modules that are present in the valve for modules rated for the new application. Provided the valve seat is pressure rated for the new application</span>, you now have a valve for a brand new application at very little cost. Benefits applications where operating conditions are changing (example: a depleting oil well) and contract compression companies that need to re-configure their compressors for new applications.</div>
 <hr style="clear:both;visibility:hidden;width:100%;"></hr>
 
@@ -443,7 +445,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <h2 class="wsite-content-title" style="text-align:left;"><font color="#ffffff" size="5">Our Location</font></h2>
 
-<div><div style="text-align: center;"><a href='/contact-us.html'><img src="/uploads/3/5/0/8/35082493/926668.png?286" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
+<div><div style="text-align: center;"><a href='/contact-us.html'><img src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/module-2dview.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
 
 
 					
@@ -524,12 +526,14 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 function products() {
     return (
       <Section>
+		
         <div
    
         dangerouslySetInnerHTML={{
           __html: data
         }}
       />
+	
           </Section>
    )
 }

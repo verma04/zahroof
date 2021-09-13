@@ -1,4 +1,6 @@
 import React from 'react'
+import Navbar from '../layout/navbar/navbar'
+
 '../../main/'
  import { Section } from './Section'
 const data = `
@@ -557,6 +559,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 function products() {
     return (
       <Section>
+		
         <div
    
         dangerouslySetInnerHTML={{

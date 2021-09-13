@@ -1,6 +1,7 @@
 import React from 'react'
+
 '../../main/'
- import { Section } from './Section'
+import { Section } from './Section'
 const data = `
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -143,7 +144,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 					<div id="logo"><span class="wsite-logo">
 
 	<a href="/">
-		<img src="/uploads/3/5/0/8/35082493/6503094.jpg" style="max-width:190px;" alt="Reciprocating Compressor Valves | Gas Compressor Valves | Compressor Reed Valve" />
+		<img src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/standardvalve_orig.jpg" style="max-width:190px;" alt="Reciprocating Compressor Valves | Gas Compressor Valves | Compressor Reed Valve" />
 	</a>
 
 </span></div>
@@ -420,80 +421,11 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	<h2 class="wsite-content-title" style="text-align:left;">Modular Reed Valve Technology</h2>
 <div class="paragraph" style="text-align:left;display:block;"><ul><li><font size="4">The modules are stationary with all wear and tear contained within the modules. No impact or wear on valve seat and carrier. Simply replace worn modules, by hand, to fully service a valve. Easiest valve to service, on-site, with no special tools. Eliminates machining of valve seat and carrier. </font><br /></li><li><font size="4">No impact on valve seat or carrier. No wear on seat or carrier. 10 year limited warranty on valve seat and carrier - never replace valve seat or carrier under normal conditions. </font><br /></li><li><font size="4">No impact on seat and carrier results in reduced&nbsp;fatigue loading on valve seat and minimizes valve noise and compressor vibrations. Low compressor vibrations means better reliability for all auxiliary&nbsp;systems including pumps, piping and tubing, etc.</font></li><li><font size="4">Eliminating machining of valve seat means that the valve seat pressure rating never drops below that of the new valve. It also means eliminating of any errors during machining resulting in tolerance stack up errors preventing the valves from being installed during service.</font><br /></li><li><font size="4">Plastic components do not move and are not subject to bending tensile stresses.</font></li><li><font size="4">Petal/reed modules. Eliminates helical coil springs, the number one cause of failure in valves. </font></li><li><font size="4">Lowest moving mass results in highest natural frequency, greater than 250 Hz. High separation from pulsation and vibration excitation forces practically eliminates failure due to resonances.</font></li><li><font size="4">Straight through flow path makes valve self cleaning. High tolerance to solids and liquids in gas path.</font></li><li><font size="4">All bolts are captured by valve chair/cage/retainer. API 618. Valve design requires no central bolt or nut that is subject to high fatigue loading and can cause a lot of damage if it breaks, typical of plate and ring valves.</font></li><li><font size="4">All StraightFlo valves have a secure guard (no hanging guard) eliminating the possibility of a failure where the guard can fall into the cylinder causing extensive damage.</font>&#8203;</li><li><font size="4">Multiple modules. In the event of failure, it is gradual and valves with several modules can continue to operate with failed some failed modules unlike a plate valve where failure requires an immediate change of valves.</font></li></ul></div>
 
-<div><div style="text-align: center;"><a><img src="/uploads/3/5/0/8/35082493/standardvalve.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
+<div><div style="text-align: center;"><a><img src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/standardvalve_orig.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
 </div>
 </div>
 			</div>
-				<footer>
-		<div id="footer">
-			<div class="footer-content"><div class='wsite-elements wsite-not-footer'>
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:37.16719914803%; padding:0 15px;">
-					
-						
-
-<h2 class="wsite-content-title" style="text-align:left;"><font color="#ffffff" size="5">Our Location</font></h2>
-
-<div><div style="text-align: center;"><a href='/contact-us.html'><img src="/uploads/3/5/0/8/35082493/926668.png?286" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:26.198083067093%; padding:0 15px;">
-					
-						
-
-<h2 class="wsite-content-title" style="text-align:left;"><font color="#ffffff" size="5">About Us</font></h2>
-
-<div class="paragraph"><font color="#ffffff">Established in 2010, Zahroof Valves Inc. develops, manufactures, and sells reciprocating compressor valves, unloaders and associated products into the global compressor valve market. ZVI is a Delaware Corporation with its HQ in Houston, TX.<br />The company has developed its disruptive and unique StraightFlo compressor valve using its patented Modular Reed Valve (MRV) technology.<br />The company's valve provides superior performance and reliability, significant cost savings, and lower emissions compared to conventional reciprocating gas compressor valves.<br />ZVI's products are applied in a number of applications including Oil &amp; Gas (Upstream, Midstream and Downstream), Chemical plants, Industrial&nbsp;gases, Air, Refrigeration,etc.</font><br /></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:36.634717784878%; padding:0 15px;">
-					
-						
-
-<h2 class="wsite-content-title" style="text-align:left;"><font color="#d5d5d5">News</font></h2>
-
-<div class="paragraph" style="text-align:left;"><strong><font color="#76cae9"><a href="https://www.prnewswire.com/news-releases/zahroof-valves-appoints-two-new-hires-to-power-downstream-efforts-and-business-development-in-latin-america-301041465.html" target="_blank">Zahroof Valves Appoints Two New Hires to Power Downstream Efforts and Business Development in Latin America<br /></a><a href="https://www.linkedin.com/pulse/zahroof-valves-inc-straightflo-gaining-acceptance-upstream-mohamed/?trackingId=UvgeHGKnT9Ws9%2BqkYGZFHA%3D%3D" target="_blank">Zahroof Valves Inc. - StraightFlo valves gaining acceptance in Upstream, Midstream and Downstream Oil &amp; Gas, Petrochemicals, Air and Refrigeration.</a></font></strong><br /><font color="#22b4eb"><strong><font><a href="https://www.prnewswire.com/news-releases/zahroof-valves-ranks-no-14-on-the-inaugural-2020-inc-5000-series-texas-with-two-year-revenue-growth-of-824-percent-301027668.html?tc=eml_cleartime" target="_blank">Zahroof Valves Ranks No. 14 on the Inaugural 2020 Inc. 5000 Series: Texas with Two-Year Revenue Growth of 824 Percent&nbsp;</a></font></strong><br /><a href="https://www.prnewswire.com/news-releases/zahroof-valves-selected-as-a-finalist-for-houston-business-journals-2019-fast-100-awards-300905129.html?tc=eml_cleartime" target="_blank"><strong>Zahroof Valves </strong><strong>Selected as a Finalist for Houston Business Journal's 2019 Fast 100 Awards</strong></a><br /><strong><a href="https://www.prnewswire.com/news-releases/zahroof-valves-wins-sustainability-product-of-the-year-for-2019-sustainability-awards-300896988.html?tc=eml_cleartime" target="_blank">Zahroof Valves Wins Sustainability Product of the Year for 2019 Sustainability Awards</a><br /><a href="https://finance.yahoo.com/news/zahroof-valves-inc-partners-burckhardt-150011001.html" target="_blank">Zahroof Valves Partners with Burckhardt Compression Services to Provide Award-Winning ZVI StraightFlo Valves to Gulf Countries</a><br /><a href="https://www.prweb.com/releases/zahroof_valves_named_finalist_in_the_technology_company_of_the_year_category_for_2018_petroleum_economist_awards/prweb15757638.htm" target="_blank">Zahroof Valves Named Finalist in the Technology Company of the Year Category for 2018 Petroleum Economist Awards</a><br /><a href="https://www.prnewswire.com/news-releases/zahroof-valves-inc-granted-patent-for-innovative-reed-valve-module-and-valve-assembly-300662633.html?tc=eml_cleartime" target="_blank">Zahroof Valves Inc. Granted Patent for Innovative Reed Valve Module and Valve Assembly</a><br /><a href="http://www.pumpsandsystems.com/zahroof-valves-inc-announces-executive-vice-president" target="_blank">Zahroof Valves Hires New Executive Vice President</a></strong></font><br /><br /></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div></div></div>
-				<div class="copyright">Design by <a href="http://divtagtemplates.com/weebly-themes/pendulum/" target="_blank">DivTag Weebly Themes</a></div>
-				<div class="weeblyfooter"><div class='wsite-elements wsite-footer'>
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<div class="wsite-spacer" style="height:50px;"></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<div class="wsite-spacer" style="height:50px;"></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div></div>
-</div>
-			</div>
-		</footer>
+	
 		</div><!-- end container -->
 	</div>
     <div id="customer-accounts-app"></div>
@@ -520,6 +452,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 function products() {
     return (
       <Section>
+		
         <div
    
         dangerouslySetInnerHTML={{

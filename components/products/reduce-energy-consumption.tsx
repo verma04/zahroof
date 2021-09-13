@@ -1,6 +1,8 @@
 import React from 'react'
+
 '../../main/'
- import { Section } from './Section'
+import { Section } from './Section'
+import Navbar from '../layout/navbar/navbar'
 const data = `
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -150,7 +152,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 					<div id="logo"><span class="wsite-logo">
 
 	<a href="/">
-		<img src="/uploads/3/5/0/8/35082493/6503094.jpg" style="max-width:190px;" alt="Reciprocating Compressor Valves | Gas Compressor Valves | Compressor Reed Valve" />
+		<img src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/9441575.jpg" style="max-width:190px;" alt="Reciprocating Compressor Valves | Gas Compressor Valves | Compressor Reed Valve" />
 	</a>
 
 </span></div>
@@ -432,7 +434,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 					
 						
 
-<div><div style="text-align: center;"><a><img src="/uploads/3/5/0/8/35082493/9441575.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Flow thru poppet/plate/ring valve</div></div></div>
+<div><div style="text-align: center;"><a><img src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/241502.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Flow thru poppet/plate/ring valve</div></div></div>
 
 
 					
@@ -440,7 +442,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 					
 						
 
-<div><div style="text-align: center;"><a><img src="/uploads/3/5/0/8/35082493/241502.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Flow thru ZPV valve</div></div></div>
+<div><div style="text-align: center;"><a><img src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/3728142.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Flow thru ZPV valve</div></div></div>
 
 
 					
@@ -448,7 +450,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 					
 						
 
-<div><div style="text-align: center;"><a><img src="/uploads/3/5/0/8/35082493/3728142.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">PV Diagram with valve losses</div></div></div>
+<div><div style="text-align: center;"><a><img src="https://app.zahroofvalves.com/wp-content/uploads/2021/09/4002879.jpg" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">PV Diagram with valve losses</div></div></div>
 
 
 					
@@ -458,90 +460,13 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 </div></div></div>
 
 <h2><font size="6">Straight Thru-Flow, Highest Effective Area</font></h2>
-<span class='imgPusher' style='float:left;height:0px'></span><span style='position:relative;float:left;z-index:1;;clear:left;margin-top:0px;*margin-top:0px'><a><img class="wsite-image galleryImageBorder" src="/uploads/3/5/0/8/35082493/4002879.jpg" style="margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;">Flow through a quarter section of a module.</div></span>
+<span class='imgPusher' style='float:left;height:0px'></span><span style='position:relative;float:left;z-index:1;;clear:left;margin-top:0px;*margin-top:0px'><a><img class="wsite-image galleryImageBorder" src="http://app.zahroofvalves.com/wp-content/uploads/2021/09/9653300.jpg" style="margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;">Flow through a quarter section of a module.</div></span>
 <div class="paragraph" style="text-align:left;display:block;"><font size="4"><font size="3">The flow through a StraightFlo valve has almost negligible deviation of the gas stream with very low resistance to flow and hence very low pressure drop. This is unlike a conventional valve where the flow makes at least two right angles while traversing the valve.</font><br /><br /><font size="3"><span>The flow through one module of a </span>StraightFlo valve is independent of the flow through its adjacent module. In conventional valves, such as poppet valves or ring valves, the flow past a poppet or ring interferes with the flow past the adjacent poppet or ring, causing large losses. In a ported plate valve, the flow through a port in the plate interferes with the flow through an adjacent port in the plate causing losses.<br /><br />There is no pre-load acting on the reeds of the modules of StraightFlo valves that have to be overcome for the gas to start flowing. This means that StraightFlo valves have almost zero cracking pressure unlike conventional valves where the sealing elements (poppet/plate/ring) are pre-loaded by one or multiple springs. This means even less resistance to flow.<br /><br />The above factors result in StraightFlo valves having the highest effective area among all compressor valves, typically 40 - 60% more for our standard valves. However, for our StraightFlo HEV (High Efficiency Valve), the effective area is increased over 100% compared to conventional valves on account of more modules being used within the same valve diameter.</font></font><br /></div>
 <hr style="clear:both;visibility:hidden;width:100%;"></hr>
 
-<div><div style="text-align: center;"><a href='/uploads/3/5/0/8/35082493/9653300_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'><img src="/uploads/3/5/0/8/35082493/9653300.jpg?1370588351" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 0; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
 
-<div><div style="text-align: center;"><a href='/uploads/3/5/0/8/35082493/3212751_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'><img src="/uploads/3/5/0/8/35082493/3212751.jpg?1370588501" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 0; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
-
-<div><div style="text-align: center;"><a href='/uploads/3/5/0/8/35082493/4383568_orig.jpg' rel='lightbox' onclick='if (!lightboxLoaded) return false'><img src="/uploads/3/5/0/8/35082493/4383568.jpg?1370588607" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 0; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
-
-<div><div style="text-align: center;"><a><img src="/uploads/3/5/0/8/35082493/1420176.jpg?1370589492" style="margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 0; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;">Open loop flow test shows lower resistance to flow through ZPV</div></div></div>
-</div>
-</div>
 			</div>
-				<footer>
-		<div id="footer">
-			<div class="footer-content"><div class='wsite-elements wsite-not-footer'>
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:37.16719914803%; padding:0 15px;">
-					
-						
-
-<h2 class="wsite-content-title" style="text-align:left;"><font color="#ffffff" size="5">Our Location</font></h2>
-
-<div><div style="text-align: center;"><a href='/contact-us.html'><img src="/uploads/3/5/0/8/35082493/926668.png?286" style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" class="galleryImageBorder" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px;"></div></div></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:26.198083067093%; padding:0 15px;">
-					
-						
-
-<h2 class="wsite-content-title" style="text-align:left;"><font color="#ffffff" size="5">About Us</font></h2>
-
-<div class="paragraph"><font color="#ffffff">Established in 2010, Zahroof Valves Inc. develops, manufactures, and sells reciprocating compressor valves, unloaders and associated products into the global compressor valve market. ZVI is a Delaware Corporation with its HQ in Houston, TX.<br />The company has developed its disruptive and unique StraightFlo compressor valve using its patented Modular Reed Valve (MRV) technology.<br />The company's valve provides superior performance and reliability, significant cost savings, and lower emissions compared to conventional reciprocating gas compressor valves.<br />ZVI's products are applied in a number of applications including Oil &amp; Gas (Upstream, Midstream and Downstream), Chemical plants, Industrial&nbsp;gases, Air, Refrigeration,etc.</font><br /></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:36.634717784878%; padding:0 15px;">
-					
-						
-
-<h2 class="wsite-content-title" style="text-align:left;"><font color="#d5d5d5">News</font></h2>
-
-<div class="paragraph" style="text-align:left;"><strong><font color="#76cae9"><a href="https://www.prnewswire.com/news-releases/zahroof-valves-appoints-two-new-hires-to-power-downstream-efforts-and-business-development-in-latin-america-301041465.html" target="_blank">Zahroof Valves Appoints Two New Hires to Power Downstream Efforts and Business Development in Latin America<br /></a><a href="https://www.linkedin.com/pulse/zahroof-valves-inc-straightflo-gaining-acceptance-upstream-mohamed/?trackingId=UvgeHGKnT9Ws9%2BqkYGZFHA%3D%3D" target="_blank">Zahroof Valves Inc. - StraightFlo valves gaining acceptance in Upstream, Midstream and Downstream Oil &amp; Gas, Petrochemicals, Air and Refrigeration.</a></font></strong><br /><font color="#22b4eb"><strong><font><a href="https://www.prnewswire.com/news-releases/zahroof-valves-ranks-no-14-on-the-inaugural-2020-inc-5000-series-texas-with-two-year-revenue-growth-of-824-percent-301027668.html?tc=eml_cleartime" target="_blank">Zahroof Valves Ranks No. 14 on the Inaugural 2020 Inc. 5000 Series: Texas with Two-Year Revenue Growth of 824 Percent&nbsp;</a></font></strong><br /><a href="https://www.prnewswire.com/news-releases/zahroof-valves-selected-as-a-finalist-for-houston-business-journals-2019-fast-100-awards-300905129.html?tc=eml_cleartime" target="_blank"><strong>Zahroof Valves </strong><strong>Selected as a Finalist for Houston Business Journal's 2019 Fast 100 Awards</strong></a><br /><strong><a href="https://www.prnewswire.com/news-releases/zahroof-valves-wins-sustainability-product-of-the-year-for-2019-sustainability-awards-300896988.html?tc=eml_cleartime" target="_blank">Zahroof Valves Wins Sustainability Product of the Year for 2019 Sustainability Awards</a><br /><a href="https://finance.yahoo.com/news/zahroof-valves-inc-partners-burckhardt-150011001.html" target="_blank">Zahroof Valves Partners with Burckhardt Compression Services to Provide Award-Winning ZVI StraightFlo Valves to Gulf Countries</a><br /><a href="https://www.prweb.com/releases/zahroof_valves_named_finalist_in_the_technology_company_of_the_year_category_for_2018_petroleum_economist_awards/prweb15757638.htm" target="_blank">Zahroof Valves Named Finalist in the Technology Company of the Year Category for 2018 Petroleum Economist Awards</a><br /><a href="https://www.prnewswire.com/news-releases/zahroof-valves-inc-granted-patent-for-innovative-reed-valve-module-and-valve-assembly-300662633.html?tc=eml_cleartime" target="_blank">Zahroof Valves Inc. Granted Patent for Innovative Reed Valve Module and Valve Assembly</a><br /><a href="http://www.pumpsandsystems.com/zahroof-valves-inc-announces-executive-vice-president" target="_blank">Zahroof Valves Hires New Executive Vice President</a></strong></font><br /><br /></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div></div></div>
-				<div class="copyright">Design by <a href="http://divtagtemplates.com/weebly-themes/pendulum/" target="_blank">DivTag Weebly Themes</a></div>
-				<div class="weeblyfooter"><div class='wsite-elements wsite-footer'>
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<div class="wsite-spacer" style="height:50px;"></div>
-
-
-					
-				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
-					
-						
-
-<div class="wsite-spacer" style="height:50px;"></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div></div>
-</div>
-			</div>
-		</footer>
+	
 		</div><!-- end container -->
 	</div>
     <div id="customer-accounts-app"></div>
@@ -567,6 +492,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 function products() {
     return (
       <Section>
+	
         <div
    
         dangerouslySetInnerHTML={{

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/layout/navbar/navbar'
 '../../main/'
- import { Section } from './products/Section'
+ import { Section } from '../components/products/Section'
 const data = `
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
