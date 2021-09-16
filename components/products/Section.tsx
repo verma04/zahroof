@@ -8,7 +8,7 @@ export const Section = styled.section`
   align-items: center;
   margin-top: 10rem;
 
-  @media (min-width: 1281px) {
+  @media (min-width: 768px) {
       .flex {
           margin-bottom: 10rem;
            display: flex;
@@ -36,31 +36,40 @@ export const Section = styled.section`
    
   }
 
-  @media (min-width: 1024px) and (max-width: 1280px) {
-   
-  }
-  @media (min-width: 768px) and (max-width: 1023px) {
-  
-  }
+ 
 
   @media (max-width: 767px) {
+    .flex {
+          margin-bottom: 10rem;
+           display: flex;
+           justify-content: center;
+           width: 90%;
+           flex-direction: column;
+           h1 {
+            color: rgb(0, 133, 202);
+            font-size:2rem;
+           }
+           h2 {
+            color: rgb(0, 133, 202);
+            font-size:1.5rem;
+           }
+   ul {
+           li {
+               list-style: circle;
+               margin-top: 1rem;
+           }
+        }
+  p {
+      margin-top: 1rem;
+  }
+      }
+   
+  }
+
+
+
   
-  }
 
-  @media (max-width: 991px) and (orientation : landscape) {
-    
-  }
-
-
-  
-
-  @media (max-width: 375px) {
- 
-  }
-
-  @media (max-width: 360px) {
- 
-  }
 
   
 
