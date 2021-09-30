@@ -179,8 +179,7 @@ export const Section = styled.section`
               border: none;
               color: #7c7c7c;
               opacity: 0.8;
-              background: url("https://zahroofvalves.wpcdn-b.com/wp-content/uploads/2021/07/arrowe-1.png")
-                no-repeat right #f8f8f8;
+             
               background-position-x: 97%;
               background-size: 10px;
               -webkit-appearance: none;
@@ -463,8 +462,7 @@ export const Section = styled.section`
               border: none;
               color: #7c7c7c;
               opacity: 0.8;
-              background: url("https://zahroofvalves.wpcdn-b.com/wp-content/uploads/2021/07/arrowe-1.png")
-                no-repeat right #f8f8f8;
+             
               background-position-x: 97%;
               background-size: 10px;
               -webkit-appearance: none;
@@ -748,8 +746,7 @@ export const Section = styled.section`
               border: none;
               color: #7c7c7c;
               opacity: 0.8;
-              background: url("https://zahroofvalves.wpcdn-b.com/wp-content/uploads/2021/07/arrowe-1.png")
-                no-repeat right #f8f8f8;
+             
               background-position-x: 97%;
               background-size: 10px;
               -webkit-appearance: none;
@@ -1031,8 +1028,7 @@ export const Section = styled.section`
               border: none;
               color: #7c7c7c;
               opacity: 0.8;
-              background: url("https://zahroofvalves.wpcdn-b.com/wp-content/uploads/2021/07/arrowe-1.png")
-                no-repeat right #f8f8f8;
+             
               background-position-x: 97%;
               background-size: 10px;
               -webkit-appearance: none;
